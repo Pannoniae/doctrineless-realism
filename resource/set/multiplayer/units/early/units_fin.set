@@ -243,9 +243,9 @@
 ;
 ;; // 15DP motorised jaegers
 ;{"doctrine_motorised_jaegers_early"
-;	("squad_vehicle7_doctrine" side(fin) period(early) vehicle(ford_3ton) crew1(jag_sl:1) crew2(jag_smg:1) crew3(jag_smg_stick:1) crew4(jag_sa:1) crew5(jag_rifle:3) ;crew6(jag_mg:1) crew7(jag_mg_asst:1)) ;
-;	("doctrine_t2" cool(180) d(early_fin_o;ffensive) cost(15));
-;};
+;	("squad_vehicle7_doctrine" side(fin) period(early) vehicle(ford_3ton) crew1(jag_sl:1) crew2(jag_smg:1) crew3(jag_smg_stick:1) crew4(jag_sa:1) crew5(jag_rifle:3) crew6(jag_mg:1) crew7(jag_mg_asst:1))
+;	("doctrine_t2" cool(180) d(early_fin_o;ffensive) cost(15))
+;}
 ;
 ;; // 25DP k18
 ;{"doctrine_84mm_k18_early"
@@ -288,20 +288,21 @@
 
 ("squad_with6types" side(fin) name(squad_assault)			period(early) cd(0) ci(0)  g(squad_2) c1(squadleader:1) c2(smg_m20:2) c3(rifleman:3) c4(rifleman_sa:2) c5(rifleman_avs:1) c6(chauchat:1) b(squad) t())
 
+("squad_with5types" side(fin) name(doctrine_squad_engineer_early) period(early) cd(120) ci(120) g(squad_5) c1(engineer_sl:1) c2(engineer_rifle:6) c3(engineer_builder:2) c4(engineer_mine_at:2) c5(engineer_mine_d:1) b(squad) t())
+
 ("squad_with4types" side(fin) name(squad_cav_early)			period(early) cd(0) ci(120)  g(squad_3) c1(cav_sl:1) c2(cav_rifle:6) c3(cav_mg:1) c4(cav_mg_asst:1) b(squad) t())
 
-("squad_with5types" side(fin) name(doctrine_squad_engineer_early) period(early) cd(120) ci(120) g(squad_5) c1(engineer_sl:1) c2(engineer_rifle:6) c3(engineer_builder:2) c4(engineer_mine_at:2) c5(engineer_mine_d:1) b(squad) t())
+("squad_with3types" side(fin) name(squad_border_guard_early) period(early) cd(120) ci(120) g(squad_4) c1(border_guard_sl:1) c2(border_guard_smg:1) c3(border_guard_rifle:8) b(squad) t())
 
 ("squad_with4types" side(fin) name(squad_jaeger_early) 		period(early) cd(120) ci(120) g(squad_4) c1(jag_sl:1) c2(jag_smg:1) c3(jag_sa:1) c4(jag_rifle:7) b(squad) t())
 ("squad_with5types" side(fin) name(squad_jaeger_lmg_early) 	period(early) cd(120) ci(120) g(squad_4) c1(jag_sl:1) c2(jag_sa:1) c3(jag_rifle:3) c4(jag_mg:1) c5(jag_mg_asst:1) b(squad) t())
 
-("squad_with3types" side(fin) name(squad_border_guard_early) period(early) cd(120) ci(120) g(squad_4) c1(border_guard_sl:1) c2(border_guard_smg:1) c3(border_guard_rifle:8) b(squad) t())
-
 
 ("squad_with6types" side(fin) name(doctrine_squad_sissi_early) period(early) cd(120) ci(120) g(squad_4) c1(sissi_sl:1) c2(sissi_smg_stick:1) c3(sissi_sa:2) c4(sissi_rifle:2) c5(sissi_mg:1) c6(sissi_mg_asst:1) b(squad) t())
 
-
-("squad_vehicle7" side(fin) name(doctrine_motorised_jaegers_early) period(early) cd(120) ci(120) g(squad_4) vehicle(ford_3ton) crew1(jag_sl:1) crew2(jag_smg:1) crew3(jag_smg_stick:1) crew4(jag_sa:1) crew5(jag_rifle:3) crew6(jag_mg:1) crew7(jag_mg_asst:1) b(squad) t())
+{"doctrine_motorised_jaegers_early"
+	("squad_vehicle7" side(fin) period(early) cd(120) ci(120) g(squad_4) vehicle(ford_3ton) crew1(jag_sl:1) crew2(jag_smg:1) crew3(jag_smg_stick:1) crew4(jag_sa:1) crew5(jag_rifle:3) crew6(jag_mg:1) crew7(jag_mg_asst:1) b(squad) t())
+}
 
 
 
@@ -316,14 +317,16 @@
 ("squad_with2types" side(fin) name(single_at)			period(early) cd(0)   ci(0)   g(single_at)		c1(antitank_rifle:2) c2(antitank_asst:2)	b(single) t())
 ("squad_with1types" side(fin) name(single_at_miner)		period(early) cd(0)   ci(20)  g(single_atmine)	c1(engineer_mine_at:3)				b(single) t(engineer))
 ("squad_with1types" side(fin) name(single_engineer)		period(early) cd(0)   ci(20)  g(single_eng)		c1(engineer_builder:2)				b(single) t(engineer))
-("squad_with1types" side(fin) name(doctrine_heavy_engineer_early) period(early) cd(0) ci(20)  g(single_eng) c1(engineer_heavy:2) b(single) t(engineer))
-("squad_with1types" side(fin) name(doctrine_squad_signaller_early) period(early) cd(0) ci(20) g(single_signaller) c1(signaller:1) b(single) t(signaller))
+("squad_with1types" side(fin) name(doctrine_heavy_engineer_early) period(early) cd(0) ci(20)  g(single_eng) c1(engineer_heavy:2)            b(single) t(engineer))
+("squad_with1types" side(fin) name(doctrine_squad_signaller_early) period(early) cd(0) ci(20) g(single_signaller) c1(signaller:1)           b(single) t(signaller))
 
 ("squad_with2types" side(fin) name(single_tankman)		period(early) cd(90)  ci(90)  g(single_crew)	c1(tank_commander:1) c2(tankman:4)	b(single) t())
 ("squad_with1types" side(fin) name(single_medic)		period(early) cd(0)   ci(0)   g(single_medic)	c1(medic:2)							b(single) t(medic))
 ("squad_with1types" side(fin) name(single_sniper)		period(early) cd(120) ci(180) g(single_sniper)	c1(sniper:1)						b(single) t(sniper))
 ("squad_with1types" side(fin) name(single_officer)		period(early) cd(120) ci(180) g(single_officer)	c1(officer:1)						b(single) t(officer))
-("squad_with1types" side(fin) name(doctrine_white_death) period(early) cd(120) ci(180) g(single_sniper) c1(white_death:1) b(single) t(sniper))
+{"doctrine_white_death"
+	("squad_with1types_custom" side(fin) period(early) cd(120) ci(180) g(single_sniper) c1(white_death:1) b(single) t(sniper))
+}
 
 
 

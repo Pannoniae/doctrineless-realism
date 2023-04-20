@@ -16,11 +16,11 @@
 		}
 		{buttons "squad single supply support art lt mt td"}
 	}
-	;{hero
-	;	{resource
-	;		{start %doctrine}
-	;	}
+	{hero
+		{resource
+			{start %doctrine}
+		}
 	;	{buttons "doctrine"}
 	;	{tag "special"}
-	;}
+	}
 }

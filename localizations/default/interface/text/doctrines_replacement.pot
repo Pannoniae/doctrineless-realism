@@ -12,6 +12,18 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 
+msgctxt "mp/scene/hint_cost2/special"
+msgid ""
+msgstr ""
+
+msgctxt "mp/statistics2/units/cost/special"
+msgid ""
+msgstr ""
+
+msgctxt "mp/scene/txt_sp"
+msgid "<f(roboto_mono)c(b7b7a4)><e(shadow)>doctrineless"
+msgstr ""
+
 msgctxt "mp/lobby/setup/player.doctrine"
 msgid "Doctrine"
 msgstr ""

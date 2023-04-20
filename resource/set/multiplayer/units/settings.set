@@ -511,6 +511,19 @@
 	}
 )
 
+(define "squad_with1types_custom"
+	{charge 
+		{delay %cd}
+		{interval %ci}
+	}
+	{content "mp/%side/%period/%c1"}
+	{tags "all infantry %side %t %period"}
+	{group "%g"}
+	{button "%b"}
+	{level 1}
+	{squad_cost_factor 1}
+)
+
 (define "squad_with2types"
 	{"%name(%side)"
 		{charge 
