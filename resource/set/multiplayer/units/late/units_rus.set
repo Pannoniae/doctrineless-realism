@@ -595,7 +595,7 @@
 }
 {"t70m"
 	("vehicle2" period(late) cd(0) ci(0) t(light) side(rus) crew1(tankman:1) crew2(tank_commander:1) g(light3) b(lt) cw(4) cp(13)
-	cost(320)) ;// +20 for crew
+	cost(340)) ;// +20 for crew
 }
 {"valentine7"
 	("vehicle2" period(late) cd(0) ci(0) t(light) side(rus) crew1(tankman:2) crew2(tank_commander:1) g(light4) b(lt) cw(4) cp(12)

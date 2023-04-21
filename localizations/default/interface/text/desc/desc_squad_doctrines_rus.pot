@@ -502,15 +502,15 @@ msgid "<c(B29557)>( I )</c> Political officer"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_rus_signaller_early(rus)"
-msgid "<c(B29557)>( II )</c> Artillery Signaller"
+msgid "Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_rus_signaller_late(rus)"
-msgid "<c(B29557)>( II )</c> Artillery Signaller"
+msgid "Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_rus_signaller_mid(rus)"
-msgid "<c(B29557)>( II )</c> Artillery Signaller"
+msgid "Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_sapperteam(rus)"

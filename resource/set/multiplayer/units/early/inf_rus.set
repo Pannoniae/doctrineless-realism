@@ -18,7 +18,7 @@
 	{score (* %cost 0.4)}
 	;{score_factor 0.2}
 )
-{"mp/rus/early/signaller"		("rus_signaller" side(rus) cost(200.0))}
+{"mp/rus/early/signaller"		("rus_signaller" side(rus) cost(600.0))}
 
 
 (define "rus_tankman"

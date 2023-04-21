@@ -597,12 +597,12 @@
 
 
 ;LIGHT
-{"panzer1b"
-	("vehicle2" period(mid) cd(0) ci(60) t(light) side(ger) crew1(tankman:1) crew2(tank_commander:1) g(light0) b(lt) cw(4) cp(6)
-	cost(120))
-}
 {"panzer731r"
 	("vehicle2" period(mid) cd(0) ci(0) t(light) side(ger) crew1(tankman:1) crew2(tank_commander:1) g(light0) b(lt) cw(4) cp(6)
+	cost(115))
+}
+{"panzer1b"
+	("vehicle2" period(mid) cd(0) ci(60) t(light) side(ger) crew1(tankman:1) crew2(tank_commander:1) g(light0) b(lt) cw(4) cp(6)
 	cost(120))
 }
 {"sdkfz221"

@@ -18,7 +18,7 @@
 	{score (* %cost 0.2)}
 	;{score_factor 0.2}
 )
-{"mp/ger/mid/signaller"		("ger_signaller" side(ger) cost(200.0))}
+{"mp/ger/mid/signaller"		("ger_signaller" side(ger) cost(600.0))}
 
 
 (define "ger_tankman"

@@ -18,7 +18,7 @@
 	{score (* %cost 0.2)}
 	;{score_factor 0.2}
 )
-{"mp/rus/late/signaller"		("rus_signaller" side(rus) cost(200.0))}
+{"mp/rus/late/signaller"		("rus_signaller" side(rus) cost(600.0))}
 
 
 (define "rus_tankman"
@@ -115,9 +115,9 @@
 
 {"mp/rus/late/senior_smg"		("rus_regular" side(rus) cost(10.0))} ; pps43
 
-{"mp/rus/late/sapper_builder"		("rus_regular" side(rus) cost(12.0))} ; mosin
-{"mp/rus/late/sapper_miner_ap"		("rus_regular" side(rus) cost(12.0))} ; mosin
-{"mp/rus/late/sapper_miner_at"		("rus_regular" side(rus) cost(12.0))} ; mosin
+{"mp/rus/late/sapper_builder"		("rus_regular" side(rus) cost(50.0))} ; mosin
+{"mp/rus/late/sapper_miner_ap"		("rus_regular" side(rus) cost(50.0))} ; mosin
+{"mp/rus/late/sapper_miner_at"		("rus_regular" side(rus) cost(50.0))} ; mosin
 
 
 (define "rus_regular_advanced"
@@ -186,7 +186,7 @@
 ;//{"mp/rus/late/assault-sap_2"		("rus_assault_sap" side(rus) cost(22.0))} ; pps43 + % pzfaust 60
 {"mp/rus/late/assault-sap_3"		("rus_assault_sap" side(rus) cost(25.0))} ; ppsh41
 {"mp/rus/late/assault-sap_4"		("rus_assault_sap" side(rus) cost(95.0))} ; flamer
-{"mp/rus/late/assault-sap_at"		("rus_assault_sap" side(rus) cost(35.0))} ; ppsh41drum + pzfaust 60 (2x)
+{"mp/rus/late/assault-sap_at"		("rus_assault_sap" side(rus) cost(55.0))} ; ppsh41drum + pzfaust 60 (2x)
 {"mp/rus/late/assault-sap_atr"		("rus_assault_sap" side(rus) cost(50.0))} ; PTRS
 {"mp/rus/late/assault-sap_sl"		("rus_assault_sap" side(rus) cost(20.0))} ; pps43
 ;//{"mp/rus/late/assault-sap_sl_asst"	("rus_assault_sap" side(rus) cost(22.0))} ; pps43 + % pzfaust 60

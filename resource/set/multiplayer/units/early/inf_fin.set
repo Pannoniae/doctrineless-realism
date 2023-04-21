@@ -18,7 +18,7 @@
 	{score (* %cost 0.2)}
 	;{score_factor 0.2}
 )
-{"mp/fin/early/signaller"		("fin_signaller" side(fin) cost(200.0))}
+{"mp/fin/early/signaller"		("fin_signaller" side(fin) cost(600.0))}
 
 
 (define "fin_tankman"
