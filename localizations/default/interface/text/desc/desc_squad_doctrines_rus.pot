@@ -434,7 +434,7 @@ msgid "<c(B29557)>( I )</c> Cossacks"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_faustniki(rus)"
-msgid "<c(B29557)>( I )</c> AT Assault engineer team"
+msgid "<c(A5A095)>(3)</c> AT Assault engineer team"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_flame(rus)"
@@ -446,43 +446,43 @@ msgid "<c(B29557)>( I )</c> Heavy Guards Infantry"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_guards_mid(rus)"
-msgid "<c(B29557)>( II )</c> Guards Rifle squad"
+msgid "<c(A5A095)>(3)</c> Guards Rifle squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_heavy(rus)"
-msgid "<c(B29557)>( I )</c> Heavy squad"
+msgid "<c(A5A095)>(2)</c> Heavy squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_heavymarines(rus)"
-msgid "<c(B29557)>( II )</c> Marine squad"
+msgid "<c(A5A095)>(3)</c> Marine squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_heavyrecon(rus)"
-msgid "<c(B29557)>( II )</c> Heavy Scout-Recon squad"
+msgid "<c(A5A095)>(4)</c> Heavy Scout-Recon squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_mountainrifles(rus)"
-msgid "<c(B29557)>( I )</c> Mountain Rifles"
+msgid "<c(A5A095)>(3)</c> Mountain Rifles"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_paratrooper(rus)"
-msgid "<c(B29557)>( I )</c> Paratroopers"
+msgid "<c(A5A095)>(3)</c> Paratroopers"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_paratrooper_mid(rus)"
-msgid "<c(B29557)>( II )</c> Paratroopers"
+msgid "<c(A5A095)>(3)</c> Paratroopers"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_paratroopers(rus)"
-msgid "<c(B29557)>( I )</c> Paratroopers"
+msgid "<c(A5A095)>(3)</c> Paratroopers"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_penal(rus)"
-msgid "<c(B29557)>( II )</c> Penal Battalion"
+msgid "<c(A5A095)>(1)</c> Penal Battalion"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_penal_late(rus)"
-msgid "<c(B29557)>( II )</c> Penal Battalion"
+msgid "<c(A5A095)>(1)</c> Penal Battalion"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_rifle_motorised"
@@ -514,27 +514,27 @@ msgid "<c(B29557)>( II )</c> Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_sapperteam(rus)"
-msgid "<c(B29557)>( I )</c> Sapper team"
+msgid "<c(A5A095)>(2)</c> Sapper team"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_scoutcar_marines"
-msgid "<c(B29557)>( II )</c> Marines' M3A1E1 Scout Car"
+msgid "<c(A5A095)>(4)</c> Marines' M3A1E1 Scout Car"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_smgunit(rus)"
-msgid "<c(B29557)>( I )</c> Recon squad (SMG)"
+msgid "<c(A5A095)>(2)</c> Recon squad (SMG)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_spetsnaz_early(rus)"
-msgid "<c(B29557)>( I )</c> Recon Ops"
+msgid "<c(A5A095)>(4)</c> Recon Ops"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_spetsnaz_late(rus)"
-msgid "<c(B29557)>( I )</c> Scout-Recon Detachment"
+msgid "<c(A5A095)>(4)</c> Scout-Recon Detachment"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_spetsnaz_mid(rus)"
-msgid "<c(B29557)>( I )</c> Recon Ops"
+msgid "<c(A5A095)>(4)</c> Recon Ops"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_suppression(rus)"

@@ -409,15 +409,6 @@
 	("vehicle" period(early) cd(0) ci(0) t(cannon) side(fin) crew(artilleryman:4) g(empl9) b(support) cw(1) cp(6)
 	cost(210))
 }
-
-{"75mm_itk37"
-	("vehicle" period(early) cd(0) ci(0) t(cannon mediumcan) side(fin) crew(artilleryman:5) g(empl5) b(support) cw(1) cp(20)
-	cost(620))
-}
-;{"75mm_itk37_stat"
-;	("vehicle" period(early) cd(0) ci(0) t(cannon mediumcan) side(fin) crew(artilleryman:5) g(empl5) b(support) cw(1) cp(20)
-;	cost(620))
-;}
 {"76mm_k02"
 	("vehicle" period(early) cd(240) ci(60) t(cannon mediumcan) side(fin) crew(artilleryman:4) g(empl10) b(support) cw(1) cp(11)
 	cost(310))
@@ -426,6 +417,15 @@
 	("vehicle" period(early) cd(0) ci(0) t(cannon mediumcan) side(fin) crew(artilleryman:4) g(empl11) b(support) cw(1) cp(11)
 	cost(320))
 }
+{"75mm_itk37"
+	("vehicle" period(early) cd(0) ci(0) t(cannon mediumcan) side(fin) crew(artilleryman:5) g(empl5) b(support) cw(1) cp(20)
+	cost(620))
+}
+;{"75mm_itk37_stat"
+;	("vehicle" period(early) cd(0) ci(0) t(cannon mediumcan) side(fin) crew(artilleryman:5) g(empl5) b(support) cw(1) cp(20)
+;	cost(620))
+;}
+
 
 ;HOWITZERS
 {"50mm_krh38"

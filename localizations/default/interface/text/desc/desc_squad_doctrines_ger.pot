@@ -286,7 +286,7 @@ msgid "<c(B29557)>( I )</c>  Sd.Kfz 2 (Engineer)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_kettenkrad_eng_early"
-msgid "<c(B29557)>( I )</c> Pionier team"
+msgid "<c(A5A095)>(2)</c> Pionier team"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_kfz14"
@@ -502,31 +502,31 @@ msgid "<c(B29557)>( III )</c> StuIG 33"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_blau(ger)"
-msgid "<c(B29557)>( II )</c> Blau Division"
+msgid "<c(A5A095)>(3)</c> Blau Division"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_brandenburger_early(ger)"
-msgid "<c(B29557)>( II )</c> Brandenburger Commandos"
+msgid "<c(A5A095)>(4)</c> Brandenburger Commandos"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_brandenburger_late(ger)"
-msgid "<c(B29557)>( II )</c> Brandenburger Commandos"
+msgid "<c(A5A095)>(4)</c> Brandenburger Commandos"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_brandenburger_mid(ger)"
-msgid "<c(B29557)>( II )</c> Brandenburger Commandos"
+msgid "<c(A5A095)>(4)</c> Brandenburger Commandos"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_fallsch_early(ger)"
-msgid "<c(B29557)>( II )</c> Fallschirmjäger"
+msgid "<c(A5A095)>(4)</c> Fallschirmjäger"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_fallsch_mid(ger)"
-msgid "<c(B29557)>( II )</c> Fallschirmjäger squad"
+msgid "<c(A5A095)>(4)</c> Fallschirmjäger squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_fallschirmjager_late(ger)"
-msgid "<c(B29557)>( II )</c> Fallschirmjäger squad"
+msgid "<c(A5A095)>(4)</c> Fallschirmjäger squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_fuesilliertrupp(ger)"
@@ -538,31 +538,31 @@ msgid "<c(B29557)>( I )</c> Defense Garrison"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_garrison(ger)"
-msgid "<c(B29557)>( I )</c> Kriegsmarine Garrison"
+msgid "<c(A5A095)>(2)</c> Kriegsmarine Garrison"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_gebirgsjaeger_early(ger)"
-msgid "<c(B29557)>( I )</c> Gebirgsjäger"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_gebirgsjaeger_mid(ger)"
-msgid "<c(B29557)>( II )</c> Gebirgsjäger"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_ger_signaller_early(ger)"
-msgid "<c(B29557)>( II )</c> Artillery Signaller"
+msgid "Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_ger_signaller_late(ger)"
-msgid "<c(B29557)>( II )</c> Artillery Signaller"
+msgid "Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_ger_signaller_mid(ger)"
-msgid "<c(B29557)>( II )</c> Artillery Signaller"
+msgid "Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_grenadier(ger)"
-msgid "<c(B29557)>( I )</c> Grenadiere"
+msgid "<c(A5A095)>(2)</c> Grenadiere"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_grossdeutschland(ger)"
@@ -574,19 +574,19 @@ msgid "<c(B29557)>( II )</c> Large Volkssturm AT unit"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_luftwaffe_early(ger)"
-msgid "<c(B29557)>( I )</c> Luftwaffe Field Unit"
+msgid "<c(A5A095)>(2)</c> Luftwaffe Field Unit"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_luftwaffe_mid(ger)"
-msgid "<c(B29557)>( II )</c> Luftwaffe field troops"
+msgid "<c(A5A095)>(2)</c> Luftwaffe field troops"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_lw(ger)"
-msgid "<c(B29557)>( I )</c> Luftwaffe field unit"
+msgid "<c(A5A095)>(2)</c> Luftwaffe field unit"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_osttruppen(ger)"
-msgid "<c(B29557)>( I )</c>  Osttruppen"
+msgid "<c(A5A095)>(1)</c> Osttruppen"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_panzergrenadiere"
@@ -598,7 +598,7 @@ msgid "<c(B29557)>( I )</c> Panzernahkampftrupp"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_panzerpioniere"
-msgid "<c(B29557)>( I )</c> Panzerpioniere"
+msgid "<c(A5A095)>(2)</c> Panzerpioniere"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_pioteam(ger)"
@@ -606,7 +606,7 @@ msgid "<c(B29557)>( I )</c> Pionier team"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_pz_recon"
-msgid "<c(B29557)>( I )</c> Panzeraufklärer squad (armored)"
+msgid "<c(A5A095)>(2)</c> Panzeraufklärer squad (armored)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_regular_motorised"
@@ -614,15 +614,15 @@ msgid "<c(B29557)>( I )</c> Sd.Kfz 251 + Inf."
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_sniper_late(ger)"
-msgid "<c(B29557)>( I )</c> Urban Snipers"
+msgid "Urban Snipers"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_stosstrupp"
-msgid "<c(B29557)>( II )</c> Panzerpionier squad (armored)"
+msgid "<c(A5A095)>(2)</c> Panzerpionier squad (armored)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_sturmgrenadiere"
-msgid "<c(B29557)>( II )</c> Sturmgrenadier squad (armored)"
+msgid "<c(A5A095)>(2)</c> Sturmgrenadier squad (armored)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_sturmpionier"
@@ -630,7 +630,7 @@ msgid "<c(B29557)>( I )</c> Sturmpioniere"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_vetsniper(ger)"
-msgid "<c(B29557)>( I )</c> Mountain Sniper"
+msgid "Mountain Sniper"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_volksgrenadier(ger)"
@@ -642,11 +642,11 @@ msgid "<c(B29557)>( II )</c> Volksgrenadiere"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_volksgrenadieredetach(ger)"
-msgid "<c(B29557)>( I )</c> Volksgrenadier support Detachment"
+msgid "<c(A5A095)>(2)</c> Volksgrenadier support Detachment"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_volksgrenadierheavy(ger)"
-msgid "<c(B29557)>( II )</c> Volksgrenadier heavy sturm squad"
+msgid "<c(A5A095)>(2)</c> Volksgrenadier heavy sturm squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_volksgrenadiersturm(ger)"
