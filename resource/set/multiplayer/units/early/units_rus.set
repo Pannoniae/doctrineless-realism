@@ -367,12 +367,10 @@
 ("squad_with7types" side(rus) name(doctrine_squad_heavy) period(early) cd(180) ci(180) g(squad_2) c1(nco_sa:1) c2(senior_sa:1) c3(antitank_3:2) c4(antitank_4:1) c5(antitank_5:1) c6(mgun_1:2) c7(mgun_2:2) b(squad) t())
 ("squad_with8types" side(rus) name(squad_rifle_heavy_early)	period(early) cd(120) ci(180)	g(squad_2) c1(nco_sa:1) c2(senior_sa:1) c3(rifleman_sniper:1) c4(antitank_4:1) c5(antitank_5:1) c6(rifleman_3:5) c7(mgun_1:1) c8(mgun_2:1) b(squad) t(sniper))
 
+("squad_with4types" side(rus) name(doctrine_squad_cossacks) period(early) cd(90) ci(60) g(squad_3) c1(cossack_nco:1) c2(cossack_1:3) c3(cossack_2:2) c4(cossack_3:2) b(squad) t())
 ("squad_with5types" side(rus) name(squad_mountain_rifle_early) period(early) cd(0) ci(60)	g(squad_3) c1(mountain_nco:1) c2(mountain_senior:1) c3(mountain_3:7) c4(mountain_mg:1) c5(mountain_mg_asst:1) b(squad) t())
-
-("squad_with4types_doctrine" side(rus) name(doctrine_squad_cossacks) period(early) cd(90) ci(60) g(squad_3) c1(cossack_nco:1) c2(cossack_1:3) c3(cossack_2:2) c4(cossack_3:2) b(squad) t())
-
+("squad_with6types" side(rus) name(doctrine_squad_paratroopers) period(early) cd(120) ci(180) g(squad_3) c1(para_nco:1) c2(para_1:3) c3(para_2:1) c4(para_4:1) c5(para_mg:2) c6(para_mg_asst:2) b(squad) t())
 ("squad_with3types" side(rus) name(doctrine_squad_spetsnaz_early) period(early) cd(180) ci(180) g(squad_4) c1(spetsnaz_1:2) c2(spetsnaz_2:2) c3(spetsnaz_3:2) b(squad) t())
-("squad_with6types" side(rus) name(doctrine_squad_paratroopers) period(early) cd(120) ci(180) g(squad_4) c1(para_nco:1) c2(para_1:3) c3(para_2:1) c4(para_4:1) c5(para_mg:2) c6(para_mg_asst:2) b(squad) t())
 
 ;_________________________________________________
 ;|             inf2                               |

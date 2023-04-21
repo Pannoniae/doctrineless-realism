@@ -72,9 +72,9 @@ Purchases["mid.fin"] = {
 				---[[
 				{priority = 1.0, type = {"Tank", "Light", "Class3",}, unit = "ft17_mg_fin"},
 				{priority = 1.0, type = {"Tank", "Light", "Class3",}, unit = "ft17_fin"},
-				{priority = 1.0, type = {"Tank", "Light", "Class3",}, unit = "fin_captured_v_t37a"},
-				{priority = 1.0, type = {"Tank", "Light", "Class3",}, unit = "fin_captured_v_t26"},
-				{priority = 1.0, type = {"Tank", "Light", "Class2",}, unit = "fin_captured_v_bt5"},
+				--{priority = 1.0, type = {"Tank", "Light", "Class3",}, unit = "fin_captured_v_t37a"},
+				--{priority = 1.0, type = {"Tank", "Light", "Class3",}, unit = "fin_captured_v_t26"},
+				--{priority = 1.0, type = {"Tank", "Light", "Class2",}, unit = "fin_captured_v_bt5"},
 				{priority = 1.0, type = {"Tank", "Light", "Class2",}, unit = "vickers_6t_altb"},
 				{priority = 1.0, type = {"Tank", "Light", "Class2",}, unit = "t26e"},
 
@@ -83,61 +83,61 @@ Purchases["mid.fin"] = {
 			
 			-- Doctrine All Around = "Wehrmacht Supplies"
 				---[[
-				{priority = 1.0, type = {"Doctine", "Cannon", "MG", "Tier1", "Class3",}, unit = "panzernest_krab"},
-				{priority = 1.0, type = {"Doctine", "Vehicle", "AA", "Tier1", "Class2",}, unit = "sdkfz10_4"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier1", "Class2",}, unit = "100mm_nbw35_fin"},
+				--{priority = 1.0, type = { "Cannon", "MG", "Class3",}, unit = "panzernest_krab"},
+				{priority = 1.0, type = { "Vehicle", "AA", "Class2",}, unit = "sdkfz10_4"},
+				{priority = 1.0, type = { "Cannon", "Artillery", "Class2",}, unit = "100mm_nbw35"},
 				
-				--{priority = 1.0, type = {"Doctine", "Cannon", "AT", "Tier2", "Class1",}, unit = "doctrine_75mm_pak40_fin"}, --towed
-				--{priority = 1.0, type = {"Doctine", "Tier2", "Class4",}, unit = "doctrine_squad_signaller_mid(fin)"},
-				--{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier2", "Class2",}, unit = "doctrine_105mm_h33_mid"}, --towed
+				--{priority = 1.0, type = { "Cannon", "AT", "Class2", "Class1",}, unit = "doctrine_75mm_pak40_fin"}, --towed
+				--{priority = 1.0, type = { "Class2", "Class4",}, unit = "doctrine_squad_signaller_mid(fin)"},
+				--{priority = 1.0, type = { "Cannon", "Artillery", "Class2", "Class2",}, unit = "doctrine_105mm_h33_mid"}, --towed
 				
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3", "Class3",}, unit = "150mm_sfh18_fin"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3", "Class2",}, unit = "210mm_nebelwerfer42_fin"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Artillery", "Tier3", "Class1",}, unit = "pz38h_w40"},
+				{priority = 1.0, type = { "Cannon", "Artillery", "Class3",}, unit = "150mm_h40"},
+				{priority = 1.0, type = { "Cannon", "Artillery", "Class2",}, unit = "210mm_nebelwerfer42"},
+				{priority = 1.0, type = { "Tank", "Light", "Artillery", "Class1",}, unit = "pz38h_w40"},
 				--]]
 
 			-- Doctrine Defensive = "Leningrad Siege"
 				---[[
-				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_engineer_mid(fin)"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "AA", "Tier1",}, unit = "20mm_itk40"},
-				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_heavy_engineer_mid(fin)"},
+				{priority = 1.0, type = { "Class1",}, unit = "doctrine_squad_engineer_mid(fin)"},
+				{priority = 1.0, type = { "Cannon", "AA", "Class1",}, unit = "20mm_itk40"},
+				{priority = 1.0, type = { "Class1",}, unit = "doctrine_heavy_engineer_mid(fin)"},
 
-				{priority = 1.0, type = {"Doctine", "Cannon", "AA", "Tier2",}, unit = "40mm_itk38b"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Mortar", "Tier2",}, unit = "120mm_krh40"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "AA", "AT", "Tier2",}, unit = "75mm_itk37"},
+				{priority = 1.0, type = { "Cannon", "AA", "Class2",}, unit = "40mm_itk38b"},
+				{priority = 1.0, type = { "Cannon", "Mortar", "Class2",}, unit = "120mm_krh40"},
+				{priority = 1.0, type = { "Cannon", "AA", "AT", "Class2",}, unit = "75mm_itk37"},
 
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "122mm_m1910_fin"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "203mm_h17"},
+				{priority = 1.0, type = { "Cannon", "Artillery", "Class3",}, unit = "122mm_m1910_fin"},
+				{priority = 1.0, type = { "Cannon", "Artillery", "Class3",}, unit = "203mm_h17"},
 				--]]
 	
 			-- Doctrine Irregular = "Seek and Destroy"
 				---[[
-				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_white_death_mid"},
-				--{priority = 1.0, type = {"Doctine", "Cannon", "Spotlight", "Tier1",}, unit = "doctrine_150mm_sw34_mid"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1",}, unit = "kht130_fin"},
+				{priority = 1.0, type = { "Class1",}, unit = "doctrine_white_death_mid"},
+				--{priority = 1.0, type = { "Cannon", "Spotlight", "Class1",}, unit = "doctrine_150mm_sw34_mid"},
+				{priority = 1.0, type = { "Tank", "Light", "Class1",}, unit = "kht130_fin"},
 
-				{priority = 1.0, type = {"Doctine", "Tier2",}, unit = "doctrine_squad_sissi_mid(fin)"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "AT", "Tier2",}, unit = "76mm_k02_30_40"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier2",}, unit = "107mm_k10"},
+				{priority = 1.0, type = { "Class2",}, unit = "doctrine_squad_sissi_mid(fin)"},
+				{priority = 1.0, type = { "Cannon", "AT", "Class2",}, unit = "76mm_k02_30_40"},
+				{priority = 1.0, type = { "Cannon", "Artillery", "Class2",}, unit = "107mm_k10"},
 
-				--{priority = 1.0, type = {"Doctine", "Plane", "Airstrike", "Tier3",}, unit = "doctrine_blenheim_mid"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "Tier3",}, unit = "kv1_42_fin"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "155mm_h17"},
+				--{priority = 1.0, type = { "Plane", "Airstrike", "Class3",}, unit = "doctrine_blenheim_mid"},
+				{priority = 1.0, type = { "Tank", "Heavy", "Class3",}, unit = "kv1_42_fin"},
+				{priority = 1.0, type = { "Cannon", "Artillery", "Class3",}, unit = "155mm_h17"},
 				--]]
 	
 			-- Doctrine Offensive = "Assault Force"
 				---[[
-				{priority = 1.0, type = {"Doctine", "Cannon", "Mortar", "Tier1",}, unit = "50mm_krh38"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "AT", "Tier1",}, unit = "47mm_pstk39"}, 
-				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1",}, unit = "t50_fin"},
+				{priority = 1.0, type = { "Cannon", "Mortar", "Class1",}, unit = "50mm_krh38"},
+				{priority = 1.0, type = { "Cannon", "AT", "Class1",}, unit = "47mm_pstk39"}, 
+				{priority = 1.0, type = { "Tank", "Light", "Class1",}, unit = "t50_fin"},
 
-				{priority = 1.0, type = {"Doctine", "Tank", "Light", "AA", "Tier2",}, unit = "l62"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Support", "Tier2",}, unit = "84mm_k18"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier2",}, unit = "bt42"},
+				{priority = 1.0, type = { "Tank", "Light", "AA", "Class2",}, unit = "l62"},
+				{priority = 1.0, type = { "Cannon", "Support", "Class2",}, unit = "84mm_k18_late"},
+				{priority = 1.0, type = { "Tank", "Light", "Class2",}, unit = "bt42"},
 
-				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "AT", "Tier3",}, unit = "stug3g_fin"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Mortar", "Tier3",}, unit = "170mm_minewerfer"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "120mm_k78_31"},
+				{priority = 1.0, type = { "Tank", "Medium", "AT", "Class3",}, unit = "stug3g_fin"},
+				{priority = 1.0, type = { "Cannon", "Mortar", "Class3",}, unit = "170mm_minewerfer"},
+				{priority = 1.0, type = { "Cannon", "Artillery", "Class3",}, unit = "120mm_k78_31"},
 				--]]
 			--]====]
 		}
