@@ -91,16 +91,16 @@ Purchases["late.rus"] = {
 
 			-- Doctrine All Around = "Lend-lease"
 				---[[
-				{priority = 1.0, type = {"Doctine", "Armored", "MG", "Tier1", "Class3",}, unit = "doctrine_mmg_carrier_bazooka_late"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1", "Class1",}, unit = "doctrine_m3stuart_late"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1", "Class1",}, unit = "doctrine_valentine7"},
+				{priority = 1.0, type = {"Doctine", "Armored", "MG", "Tier1", "Class3",}, unit = "mmg_carrier_rus"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1", "Class1",}, unit = "m3_stuart_late_rus"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1", "Class1",}, unit = "valentine7"},
 
 				{priority = 1.0, type = {"Doctine", "Tier2", "Class3",}, unit = "doctrine_squad_scoutcar_marines"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier2", "Class1",}, unit = "doctrine_m4a2_75_late_rus"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "Tier2", "Class1",}, unit = "doctrine_churchill3_valentine9"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier2", "Class1",}, unit = "m4a2_75_late_rus"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "Tier2", "Class1",}, unit = "churchill3"},
 
 				--{priority = 1.0, type = {"Doctine", "Cannon", "AT", "Tier3", "Class3",}, unit = "doctrine_100mm_bs3_scoutcar"}, --towed
-				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier3", "Class1",}, unit = "doctrine_2m4a2_76_rus"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier3", "Class1",}, unit = "m4a2_76w_early_rus"},
 				--{priority = 1.0, type = {"Vehicle", "Artillery", "Tier3", "Class4",}, unit = "doctrine_bm31"},
 				--]]
 
@@ -108,60 +108,60 @@ Purchases["late.rus"] = {
 				---[[
 				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_sapperteam(rus)"},
 				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_rifle_motorised"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Support", "Tier1",}, unit = "doctrine_76mm_m43"},
+				{priority = 1.0, type = {"Doctine", "Cannon", "Support", "Tier1",}, unit = "76mm_m43"},
 
 				{priority = 1.0, type = {"Doctine", "Tier2",}, unit = "doctrine_squad_heavymarines(rus)"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Mortar", "Tier2",}, unit = "doctrine_120mm_pm38_late"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "AA", "AT", "Tier2",}, unit = "doctrine_85mm_52k_late"},
+				{priority = 1.0, type = {"Doctine", "Cannon", "Mortar", "Tier2",}, unit = "120mm_pm38"},
+				{priority = 1.0, type = {"Doctine", "Cannon", "AA", "AT", "Tier2",}, unit = "85mm_52k"},
 
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "doctrine_152mm_ml20_late"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "AT", "Tier3",}, unit = "doctrine_su100"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "doctrine_203mm_b4_late"},
+				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "152mm_ml20"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "AT", "Tier3",}, unit = "su100"},
+				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "203mm_b4"},
 				--]]
 
 			-- Doctrine Irregular = "Demolition"
 				---[[
-				{priority = 1.0, type = {"Doctine", "Cannon", "MG", "Tier1",}, unit = "doctrine_dshk_late"},
+				{priority = 1.0, type = {"Doctine", "Cannon", "MG", "Tier1",}, unit = "dshk_aa"},
 				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_spetsnaz_late(rus)"}, --TODO: Causes Crash, unknown.
-				{priority = 1.0, type = {"Doctine", "Cannon", "AA", "Tier1",}, unit = "doctrine_37mm_61k_late"},
+				{priority = 1.0, type = {"Doctine", "Cannon", "AA", "Tier1",}, unit = "37mm_61k"},
 
 				{priority = 1.0, type = {"Doctine", "Tier2",}, unit = "doctrine_squad_heavyrecon(rus)"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier2",}, unit = "doctrine_ot34_late"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier2",}, unit = "doctrine_t3457_43"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier2",}, unit = "t3476_43_flame"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier2",}, unit = "t3457_43"},
 
 				--{priority = 1.0, type = {"Doctine", "Plane", "Airstrike", "Tier3",}, unit = "doctrine_il2_late"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "AT", "Tier3",}, unit = "doctrine_isu122s"},
-				{priority = 1.0, type = {"Doctine", "Vehicle", "Artillery", "Tier3",}, unit = "doctrine_katyusha_late"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "AT", "Tier3",}, unit = "isu122s"},
+				{priority = 1.0, type = {"Doctine", "Vehicle", "Artillery", "Tier3",}, unit = "bm13_studebaker"},
 				--]]
 
 			-- Doctrine Offensive = "Shock Army"
 				---[[
 				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_faustniki(rus)"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1",}, unit = "doctrine_t60_late"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1",}, unit = "doctrine_t70m"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1",}, unit = "t60"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1",}, unit = "t70m"},
 
 				{priority = 1.0, type = {"Doctine", "Tier2",}, unit = "doctrine_squad_flame(rus)"},
 				--{priority = 1.0, type = {"Doctine", "Tier2",}, unit = "doctrine_squad_rus_signaller_late(rus)"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "Tier2",}, unit = "doctrine_kv85"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "Tier2",}, unit = "kv85"},
 
-				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier3",}, unit = "doctrine_2t3485"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "AT", "Tier3",}, unit = "doctrine_isu152"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "Tier3",}, unit = "doctrine_is2"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier3",}, unit = "t3485_44"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "AT", "Tier3",}, unit = "isu152"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "Tier3",}, unit = "is2_44"},
 				--]]
 
 			-- Doctrine Support = "Iron Curtain"
 				---[[
 				{priority = 1.0, type = {"Doctine", "Infantry", "Team", "Tier1",}, unit = "doctrine_squad_rus_politicalofficer_late(rus)"},
-				{priority = 1.0, type = {"Doctine", "Vehicle", "MG", "Infantry", "Team", "Tier1",}, unit = "doctrine_m72_snipers_late"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1",}, unit = "doctrine_2t50_late"},
+				--{priority = 1.0, type = {"Doctine", "Vehicle", "MG", "Infantry", "Team", "Tier1",}, unit = "doctrine_m72_snipers_late"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1",}, unit = "t50"},
 
 				--{priority = 1.0, type = {"Doctine", "Plane", "Recon", "Tier2",}, unit = "doctrine_po2_late"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier2",}, unit = "doctrine_t3485_44b"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "AT", "Tier2",}, unit = "doctrine_su85m"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier2",}, unit = "t3485_44b"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "AT", "Tier2",}, unit = "su85m"},
 
-				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier3",}, unit = "doctrine_2t3485_flame"},
-				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "Tier3",}, unit = "doctrine_is2b"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "doctrine_280mm_br5_late"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Medium", "Tier3",}, unit = "t3485_44a_flame"},
+				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "Tier3",}, unit = "is2_45"},
+				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "280mm_br5"},
 				--]]
 			--]====]
 		}

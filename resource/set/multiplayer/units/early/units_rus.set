@@ -393,7 +393,9 @@
 ("squad_with1types" side(rus) name(single_medic)		period(early) cd(0)   ci(0)   g(single_medic)		c1(medic:2)							b(single) t(medic))
 ("squad_with1types" side(rus) name(single_sniper)		period(early) cd(120) ci(180) g(single_sniper)		c1(sniper:1)						b(single) t(sniper))
 ("squad_with1types" side(rus) name(single_officer)		period(early) cd(120) ci(180) g(single_officer)		c1(commisar:1)						b(single) t(officer))
-("squad_3_2vehicles" side(rus) name(doctrine_gunshields) period(early) cd(0)  ci(60)  g(shields) vehicle1(broneschitok_2) vehicle2(broneschitok_2_dp) crew1(rifleman_1:1) crew2(mg_crew:1) b(single) t())
+{"doctrine_gunshields"
+	("squad_3_2vehicles" side(rus) period(early) cd(0)  ci(60)  g(shields) vehicle1(broneschitok_2) vehicle2(broneschitok_2_dp) crew1(rifleman_1:1) crew2(mg_crew:1) b(single) t())
+}
 
 
 {"doctrine_inf_crate_rus_early"
