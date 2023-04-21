@@ -142,7 +142,7 @@ Purchases["early.rus"] = {
 			-- Doctrine Support = "Red Tide"
 				---[[
 				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_cossacks(rus)"},
-				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_rus_politicalofficer_early(rus)"},
+				--{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_rus_politicalofficer_early(rus)"},
 				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1",}, unit = "bt5"},
 
 				--{priority = 1.0, type = {"Doctine", "Plane", "Recon", "Tier2",}, unit = "doctrine_po2_early"},

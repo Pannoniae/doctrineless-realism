@@ -84,7 +84,7 @@ Purchases["mid.fin"] = {
 			-- Doctrine All Around = "Wehrmacht Supplies"
 				---[[
 				{priority = 1.0, type = {"Doctine", "Cannon", "MG", "Tier1", "Class3",}, unit = "panzernest_krab"},
-				{priority = 1.0, type = {"Doctine", "Vehicle", "AA", "Tier1", "Class2",}, unit = "sdkfz10_flak38_fin"},
+				{priority = 1.0, type = {"Doctine", "Vehicle", "AA", "Tier1", "Class2",}, unit = "sdkfz10_4"},
 				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier1", "Class2",}, unit = "100mm_nbw35_fin"},
 				
 				--{priority = 1.0, type = {"Doctine", "Cannon", "AT", "Tier2", "Class1",}, unit = "doctrine_75mm_pak40_fin"}, --towed

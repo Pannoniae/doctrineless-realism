@@ -148,7 +148,7 @@ Purchases["mid.rus"] = {
 
 			-- Doctrine Support = "Stalin Line"
 				---[[
-				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_rus_politicalofficer_mid(rus)"},
+				--{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_rus_politicalofficer_mid(rus)"},
 				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Support", "Tier1",}, unit = "su26"},
 				{priority = 1.0, type = {"Doctine", "Tank", "Heavy", "Tier1",}, unit = "t35"},
 

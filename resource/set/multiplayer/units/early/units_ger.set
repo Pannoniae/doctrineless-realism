@@ -384,7 +384,7 @@
 
 ("squad_with8types" side(ger) name(squad_pionier_early)		period(early) cd(0) ci(0)  g(squad_2) c1(pioneer_sl:1) c2(pioneer_sl_asst:1) c3(pioneer_rifle:2) c4(pioneer_rifle_gren:2) c5(pioneer_rifle_mine:2) c6(pioneer_flame:1) c7(pioneer_mgun:1) c8(pioneer_mgun_asst:2) b(squad) t())
 {"doctrine_squad_panzerpioniere"
-	("squad_vehicle9" side(ger) period(early) cd(240) ci(180) g(squad_2) vehicle(sdkfz251c) crew1(pz_pio_rifle:2) crew2(pz_pio_sl:1) crew3(pz_pio_rifle_mine:2) crew4(;pz_pio_rifle_gren:2) crew5(pz_pio_flame:1) crew6(pz_pio_sl_asst:1) crew7(pz_pio_mg:1) crew8(pz_pio_mg_asst:1) crew9(pz_pio_mg_ammo_carrier:1) b(squad) t())
+	("squad_vehicle9" side(ger) period(early) cd(240) ci(180) g(squad_2) vehicle(sdkfz251c) crew1(pz_pio_rifle:2) crew2(pz_pio_sl:1) crew3(pz_pio_rifle_mine:2) crew4(pz_pio_rifle_gren:2) crew5(pz_pio_flame:1) crew6(pz_pio_sl_asst:1) crew7(pz_pio_mg:1) crew8(pz_pio_mg_asst:1) crew9(pz_pio_mg_ammo_carrier:1) b(squad) t())
 }
 {"doctrine_at_cavalry"
 	("squad_2vehicle3" side(ger) period(early) cd(0) ci(30) g(squad_2) vehicle(bmw_r71) crew1(antitank_2:1) crew2(antitank_3:1) crew3(antitank_1:1) b(squad) t())

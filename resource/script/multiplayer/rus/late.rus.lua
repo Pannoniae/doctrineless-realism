@@ -107,7 +107,7 @@ Purchases["late.rus"] = {
 			-- Doctrine Defensive = "Breakthrough"
 				---[[
 				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_sapperteam(rus)"},
-				{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_rifle_motorised"},
+				--{priority = 1.0, type = {"Doctine", "Tier1",}, unit = "doctrine_squad_rifle_motorised"},
 				{priority = 1.0, type = {"Doctine", "Cannon", "Support", "Tier1",}, unit = "76mm_m43"},
 
 				{priority = 1.0, type = {"Doctine", "Tier2",}, unit = "doctrine_squad_heavymarines(rus)"},
@@ -151,7 +151,7 @@ Purchases["late.rus"] = {
 
 			-- Doctrine Support = "Iron Curtain"
 				---[[
-				{priority = 1.0, type = {"Doctine", "Infantry", "Team", "Tier1",}, unit = "doctrine_squad_rus_politicalofficer_late(rus)"},
+				--{priority = 1.0, type = {"Doctine", "Infantry", "Team", "Tier1",}, unit = "doctrine_squad_rus_politicalofficer_late(rus)"},
 				--{priority = 1.0, type = {"Doctine", "Vehicle", "MG", "Infantry", "Team", "Tier1",}, unit = "doctrine_m72_snipers_late"},
 				{priority = 1.0, type = {"Doctine", "Tank", "Light", "Tier1",}, unit = "t50"},
 

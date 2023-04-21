@@ -116,7 +116,7 @@ Purchases["mid.ger"] = {
 				{priority = 1.0, type = {"Doctine", "Tank", "Light", "AT", "Tier2",}, unit = "marder2"},
 
 				{priority = 1.0, type = {"Doctine", "Cannon", "AA", "AT", "Tier3",}, unit = "88mm_flak18"},
-				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "sfh18"},
+				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "150mm_sfh18"},
 				{priority = 1.0, type = {"Doctine", "Cannon", "Artillery", "Tier3",}, unit = "210mm_morser18"},
 				--]]
 
