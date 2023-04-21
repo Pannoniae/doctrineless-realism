@@ -321,35 +321,25 @@
 ("squad_with1types" side(fin) name(single_at_miner)		period(late) cd(0)   ci(20)  g(single_atmine)	c1(engineer_mine_at:3)				b(single) t(engineer))
 ("squad_with1types" side(fin) name(single_engineer)		period(late) cd(0)   ci(20)  g(single_eng)		c1(engineer_builder:2)				b(single) t(engineer))
 ("squad_with1types" side(fin) name(doctrine_heavy_engineer_late) cd(0)   ci(20)  g(single_eng) period(late) c1(engineer_heavy:2) b(single) t(engineer))
-("squad_with1types" side(fin) name(doctrine_squad_signaller_late) period(late) cd(0)   ci(20) g(single_signaller) c1(signaller:1) b(doctrine b(single) t(signaller)))
+("squad_with1types" side(fin) name(doctrine_squad_signaller_late) period(late) cd(0)   ci(20) g(single_signaller) c1(signaller:1) b(single) t(signaller))
 
 ("squad_with1types" side(fin) name(single_flamer)		period(late) cd(0)   ci(60)  g(single_flamer)	c1(engineer_flamer:1)				b(single) t(flamer))
 ("squad_with2types" side(fin) name(single_tankman)		period(late) cd(90)  ci(90)  g(single_crew)		c1(tank_commander:1) c2(tankman:4)	b(single) t())
 ("squad_with1types" side(fin) name(single_medic)		period(late) cd(0)   ci(0)   g(single_medic)	c1(medic:2)							b(single) t(medic))
 ("squad_with1types" side(fin) name(single_sniper)		period(late) cd(120) ci(180) g(single_sniper)	c1(sniper:1)						b(single) t(sniper))
 ("squad_with1types" side(fin) name(single_officer)		period(late) cd(120) ci(180) g(single_officer)	c1(officer:1)						b(single) t(officer))
-("squad_with1types" side(fin) name(doctrine_white_death_late) cd(120) ci(180) g(single_sniper) period(late) c1(white_death:1) b(doctrine) b(single) t(sniper))
-
-
-
-{"inf_crate_fin"
-	("vehicle" period(late) cd(0) ci(30) t(supply cannon) side(fin) crew(rifleman:2) g(supplybox) b(single) cw(1) cp(0)
-	cost(50))
-	{doctrine "late_fin_allround"}
+{"doctrine_white_death_late"
+	("squad_with1types_custom" side(fin) cd(120) ci(180) g(single_sniper) period(late) c1(white_death:1) b(single) t(sniper))
 }
 
-;// Doctrine Units
-{"150mm_sw34" ; // Searchlight
-	("vehicle" period(late) cd(0) ci(0) t(cannon) side(fin) crew(rifleman:2) g(seachlight) b(single) cw(1) cp(2)
-	cost(50))
+{"doctrine_inf_crate_fin_late"
+	("squad_vehicle" period(late) cd(0) ci(30) t(supply cannon) side(fin) vehicle(inf_crate_fin) crew(rifleman:2) g(supplybox) b(single) cw(1) cp(0) cost(50))
+	{doctrine late_fin_allround}
 }
-
 
 ;_________________________________________________
 ;|                  Emplacements                  |
 ;|________________________________________________|
-
-
 
 ;AUTOMATIC WEAPONRY
 {"maxim_m1910_30"
@@ -430,19 +420,19 @@
 
 ;HOWITZERS
 {"50mm_krh38"
-	("vehicle"  period(late) cd(0) ci(60) t(cannon) side(fin) crew(artilleryman:2) g(empl16) b(support) cw(1) cp(10)
+	("vehicle"  period(late) cd(0) ci(60) t(cannon) side(fin) crew(artilleryman:2) g(empl16) b(art) cw(1) cp(10)
 	cost(170))
 }
 {"81mm_krh36"
-	("vehicle"  period(late) cd(0) ci(60) t(cannon) side(fin) crew(artilleryman:2) g(empl17) b(support) cw(1) cp(13)
+	("vehicle"  period(late) cd(0) ci(60) t(cannon) side(fin) crew(artilleryman:2) g(empl17) b(art) cw(1) cp(13)
 	cost(225))
 }
 {"76mm_m1927_fin"
-	("vehicle"  period(late) cd(240) ci(60) t(cannon mediumcan) side(fin) crew(artilleryman:4) g(empl18) b(support) cw(1) cp(11)
+	("vehicle"  period(late) cd(240) ci(60) t(cannon mediumcan) side(fin) crew(artilleryman:4) g(empl18) b(art) cw(1) cp(11)
 	cost(340))
 }
 {"105mm_k13"
-	("vehicle"  period(late) cd(900) ci(180) t(artillery) side(fin) crew(artilleryman:4) g(empl22) b(support) cw(1) cp(31)
+	("vehicle"  period(late) cd(900) ci(180) t(artillery) side(fin) crew(artilleryman:4) g(empl22) b(art) cw(1) cp(31)
 	cost(730))
 }
 
@@ -544,6 +534,11 @@
 {"ford_v3000_eng"
 	("vehicle"  period(late) cd(0) ci(30) g(supply3) side(fin) t(vehicle supply) crew(engineer_builder:2) b(supply) cw(1) cp(5)
 	cost(80))
+}
+;// Doctrine Units
+{"150mm_sw34" ; // Searchlight
+	("vehicle" period(late) cd(0) ci(0) t(cannon) side(fin) crew(rifleman:2) g(seachlight) b(supply) cw(1) cp(2)
+	cost(50))
 }
 
 

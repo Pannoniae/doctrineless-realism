@@ -708,3 +708,19 @@ msgstr ""
 msgctxt "desc/squad/doctrine_wirbelwind"
 msgid "<c(B29557)>( I )</c> Wirbelwind"
 msgstr ""
+
+msgctxt "desc/squad/doctrine_inf_crate_ger"
+msgid "German Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_inf_crate_ger_early"
+msgid "German Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_inf_crate_ger_mid"
+msgid "German Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_inf_crate_ger_late"
+msgid "German Ammo Crate"
+msgstr ""

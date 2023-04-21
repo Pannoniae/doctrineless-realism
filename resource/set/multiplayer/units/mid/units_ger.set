@@ -415,9 +415,10 @@
 ;|________________________________________________|
 
 
-{"inf_crate_ger"
-	("vehicle"  period(mid) cd(0) ci(30) t(supply cannon) side(ger) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
+{"doctrine_inf_crate_ger_mid"
+	("squad_vehicle"  period(mid) cd(0) ci(30) t(supply cannon) side(ger) vehicle(inf_crate_ger) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
 	cost(50))
+	{doctrine mid_ger_allround}
 }
 
 ;AUTOMATIC WEAPONRY

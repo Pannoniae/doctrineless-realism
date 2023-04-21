@@ -12,14 +12,6 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 
-msgctxt "mp/scene/hint_cost2/special"
-msgid ""
-msgstr ""
-
-msgctxt "mp/statistics2/units/cost/special"
-msgid ""
-msgstr ""
-
 msgctxt "mp/scene/txt_sp"
 msgid "<f(roboto_mono)c(b7b7a4)><e(shadow)>doctrineless"
 msgstr ""
@@ -33,73 +25,73 @@ msgid "Specialise your army with a doctrine. Actually, it doesn't matter."
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_fin_allround"
-msgid "War"
+msgid "[Early] War"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_fin_allround#hint"
-msgid "War is hell."
+msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_ger_allround"
-msgid "War"
+msgid "[Early] War"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_ger_allround#hint"
-msgid "War is hell."
+msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_rus_allround"
-msgid "War"
+msgid "[Early] War"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_rus_allround#hint"
-msgid "War is hell."
+msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_fin_allround"
-msgid "War"
+msgid "[Mid] War"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_fin_allround#hint"
-msgid "War is hell."
+msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_ger_allround"
-msgid "War"
+msgid "[Mid] War"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_ger_allround#hint"
-msgid "War is hell."
+msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_rus_allround"
-msgid "War"
+msgid "[Mid] War"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_rus_allround#hint"
-msgid "War is hell."
+msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_fin_allround"
-msgid "War"
+msgid "[Late] War"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_fin_allround#hint"
-msgid "War is hell."
+msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_ger_allround"
-msgid "War"
+msgid "[Late] War"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_ger_allround#hint"
-msgid "War is hell."
+msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_rus_allround"
-msgid "War"
+msgid "[Late] War"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_rus_allround#hint"
-msgid "War is hell."
+msgid ""
 msgstr ""

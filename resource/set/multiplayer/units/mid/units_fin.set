@@ -335,25 +335,18 @@
 ("squad_with1types" side(fin) name(doctrine_heavy_engineer_mid) period(mid) cd(0) ci(20)  g(single_eng)  c1(engineer_heavy:2)               b(single) t(engineer))
 ("squad_with1types" side(fin) name(doctrine_squad_signaller_mid) period(mid) cd(0) ci(20) g(single_signaller) c1(signaller:1)               b(single) t(signaller))
 
-
 ("squad_with1types" side(fin) name(single_flamer)		period(mid) cd(0)   ci(60)  g(single_flamer)	c1(engineer_flamer:1)				b(single) t(flamer))
 ("squad_with2types" side(fin) name(single_tankman)		period(mid) cd(90)  ci(90)  g(single_crew)		c1(tank_commander:1) c2(tankman:4)	b(single) t())
 ("squad_with1types" side(fin) name(single_medic)		period(mid) cd(0)   ci(0)   g(single_medic)		c1(medic:2)							b(single) t(medic))
 ("squad_with1types" side(fin) name(single_sniper)		period(mid) cd(120) ci(180) g(single_sniper)	c1(sniper:1)						b(single) t(sniper))
 ("squad_with1types" side(fin) name(single_officer)		period(mid) cd(120) ci(180) g(single_officer)	c1(officer:1)						b(single) t(officer))
-("squad_with1types_doctrine" side(fin) name(doctrine_white_death_mid) cd(120) ci(180) g(single_sniper) period(mid) c1(white_death:1)        b(single) t(sniper))
-
-
-{"inf_crate_fin"
-	("vehicle"  period(mid) cd(0) ci(30) t(supply cannon) side(fin) crew(rifleman:2) g(supplybox) b(single) cw(1) cp(0)
-	cost(50))
-	{doctrine "mid_fin_allround"}
+{"doctrine_white_death_mid"
+	("squad_with1types_custom" side(fin) cd(120) ci(180) g(single_sniper) period(mid) c1(white_death:1)        b(single) t(sniper))
 }
 
-;// Doctrine Units
-{"150mm_sw34" ; // Searchlight
-	("vehicle"  period(mid) cd(0) ci(0) t(cannon) side(fin) crew(rifleman:2) g(seachlight) b(single) cw(1) cp(2)
-	cost(50))
+{"doctrine_inf_crate_fin_mid"
+	("squad_vehicle"  period(mid) cd(0) ci(30) t(supply cannon) side(fin) vehicle(inf_crate_fin) crew(rifleman:2) g(supplybox) b(single) cw(1) cp(0) cost(50))
+	{doctrine mid_fin_allround}
 }
 
 ;_________________________________________________
@@ -361,10 +354,9 @@
 ;|________________________________________________|
 
 
-
 ;AUTOMATIC WEAPONRY
 {"maxim_m1910_30"
-	("vehicle2" period(mid) cd(0) ci(30) t(cannon) side(fin) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(support) cw(2) cp(8)
+	("vehicle2" period(mid) cd(0) ci(30) t(cannon) side(fin) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(doctrine_t2) b(support) cw(2) cp(8)
 	cost(80))
 }
 {"ds39_stand_fin"
@@ -440,19 +432,19 @@
 
 ;HOWITZERS
 {"50mm_krh38"
-	("vehicle"  period(mid) cd(0) ci(60) t(cannon) side(fin) crew(artilleryman:2) g(empl15) b(support) cw(1) cp(10)
+	("vehicle"  period(mid) cd(0) ci(60) t(cannon) side(fin) crew(artilleryman:2) g(empl15) b(art) cw(1) cp(10)
 	cost(170))
 }
 {"81mm_krh36"
-	("vehicle"  period(mid) cd(0) ci(60) t(cannon) side(fin) crew(artilleryman:2) g(empl16) b(support) cw(1) cp(13)
+	("vehicle"  period(mid) cd(0) ci(60) t(cannon) side(fin) crew(artilleryman:2) g(empl16) b(art) cw(1) cp(13)
 	cost(225))
 }
 {"76mm_m1927_fin"
-	("vehicle"  period(mid) cd(240) ci(60) t(cannon mediumcan) side(fin) crew(artilleryman:4) g(empl14) b(support) cw(1) cp(11)
+	("vehicle"  period(mid) cd(240) ci(60) t(cannon mediumcan) side(fin) crew(artilleryman:4) g(empl14) b(art) cw(1) cp(11)
 	cost(340))
 }
 {"105mm_k13"
-	("vehicle"  period(mid) cd(900) ci(180) t(artillery) side(fin) crew(artilleryman:4) g(empl20) b(support) cw(1) cp(31)
+	("vehicle"  period(mid) cd(900) ci(180) t(artillery) side(fin) crew(artilleryman:4) g(empl20) b(art) cw(1) cp(31)
 	cost(730))
 }
 
@@ -558,6 +550,11 @@
 	cost(260))
 }
 
+{"150mm_sw34" ; // Searchlight
+	("vehicle"  period(mid) cd(0) ci(0) t(cannon) side(fin) crew(rifleman:2) g(seachlight) b(supply) cw(1) cp(2)
+	cost(50))
+}
+
 
 ;_________________________________________________
 ;|        Main Battle Tanks and SPGs              |
@@ -566,53 +563,53 @@
 
 ;LIGHT
 {"ft17_mg_fin"
-	("vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) crew1(tankman:1) crew2(tank_commander:1) g(light1) b(mt) cw(4) cp(8)
+	("vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) crew1(tankman:1) crew2(tank_commander:1) g(light1) b(lt) cw(4) cp(8)
 	cost(100))
 }
 {"ft17_fin"
-	("vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) crew1(tankman:1) crew2(tank_commander:1) g(light2) b(mt) cw(4) cp(12)
+	("vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) crew1(tankman:1) crew2(tank_commander:1) g(light2) b(lt) cw(4) cp(12)
 	cost(150))
 }
 {"fin_captured_v_t37a"
-	("squad_vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) vehicle(t37a_fin) crew1(tankman:1) crew2(tank_commander:1) g(lightc) i(1) b(mt))
+	("squad_vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) vehicle(t37a_fin) crew1(tankman:1) crew2(tank_commander:1) g(lightc) i(1) b(lt))
 	{icon 1}
 }
 {"fin_captured_v_t26"
-	("squad_vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) vehicle(t26_33_fin) crew1(tankman:2) crew2(tank_commander:1) g(lightc) b(mt))
+	("squad_vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) vehicle(t26_33_fin) crew1(tankman:2) crew2(tank_commander:1) g(lightc) b(lt))
 	{icon 1}
 }
 {"fin_captured_v_bt5"
-	("squad_vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) vehicle(bt5_fin) crew1(tankman:2) crew2(tank_commander:1) g(lightc) b(mt))
+	("squad_vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) vehicle(bt5_fin) crew1(tankman:2) crew2(tank_commander:1) g(lightc) b(lt))
 	{icon 1}
 }
 {"vickers_6t_altb"
-	("vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(mt) cw(4) cp(11)
+	("vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) crew1(tankman:3) crew2(tank_commander:1) g(light4) b(lt) cw(4) cp(11)
 	cost(230))
 }
 {"t26e"
-	("vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) crew1(tankman:3) crew2(tank_commander:1) g(light5) b(mt) cw(4) cp(11)
+	("vehicle2" period(mid) cd(0) ci(60) t(light) side(fin) crew1(tankman:3) crew2(tank_commander:1) g(light5) b(lt) cw(4) cp(11)
 	cost(270))
 }
 
 ;// Doctrine Units
 {"t37a_fin"
-	("vehicle2" period(mid) cd(0) ci(0) t(doctrineonly light) side(fin) crew1(tankman:1) crew2(tank_commander:1) g(lightx) b(mt) cw(4) cp(6)
+	("vehicle2" period(mid) cd(0) ci(0) t(doctrineonly light) side(fin) crew1(tankman:1) crew2(tank_commander:1) g(lightx) b(lt) cw(4) cp(6)
 	cost(170))
 }
 {"t26_33_fin"
-	("vehicle2" period(mid) cd(0) ci(0) t(doctrineonly light) side(fin) crew1(tankman:2) crew2(tank_commander:1) g(lightx) b(mt) cw(4) cp(11)
+	("vehicle2" period(mid) cd(0) ci(0) t(doctrineonly light) side(fin) crew1(tankman:2) crew2(tank_commander:1) g(lightx) b(lt) cw(4) cp(11)
 	cost(170))
 }
 {"bt5_fin"
-	("vehicle2" period(mid) cd(0) ci(0) t(doctrineonly light) side(fin) crew1(tankman:2) crew2(tank_commander:1) g(lightx) b(mt) cw(4) cp(11)
+	("vehicle2" period(mid) cd(0) ci(0) t(doctrineonly light) side(fin) crew1(tankman:2) crew2(tank_commander:1) g(lightx) b(lt) cw(4) cp(11)
 	cost(170))
 }
 {"kht130_fin"
-	("vehicle2" period(mid) cd(0) ci(0) t(light) side(fin) crew1(tankman:2) crew2(tank_commander:1) g(light3) b(mt) cw(4) cp(12)
+	("vehicle2" period(mid) cd(0) ci(0) t(light) side(fin) crew1(tankman:2) crew2(tank_commander:1) g(light3) b(lt) cw(4) cp(12)
 	cost(300))
 }
 {"t50_fin"
-	("vehicle2" period(mid) cd(0) ci(0) t(light) side(fin) crew1(tankman:3) crew2(tank_commander:1) g(light6) b(mt) cw(4) cp(11)
+	("vehicle2" period(mid) cd(0) ci(0) t(light) side(fin) crew1(tankman:3) crew2(tank_commander:1) g(light6) b(lt) cw(4) cp(11)
 	cost(350))
 }
 {"l62"
@@ -620,11 +617,11 @@
 	cost(400))
 }
 {"bt42"
-	("vehicle2" period(mid) cd(0) ci(0) t(light) side(fin) crew1(tankman:2) crew2(tank_commander:1) g(light8) b(mt) cw(4) cp(21)
+	("vehicle2" period(mid) cd(0) ci(0) t(light) side(fin) crew1(tankman:2) crew2(tank_commander:1) g(light8) b(lt) cw(4) cp(21)
 	cost(600))
 }
 {"pz38h_w40"
-	("vehicle2" period(mid) cd(0) ci(0) t(light) side(fin) crew1(tankman:1) crew2(tank_commander:1) g(light9) b(mt) cw(4) cp(25)
+	("vehicle2" period(mid) cd(0) ci(0) t(light) side(fin) crew1(tankman:1) crew2(tank_commander:1) g(light9) b(lt) cw(4) cp(25)
 	cost(800))
 }
 
@@ -643,7 +640,7 @@
 
 ;SPG
 {"stug3g_fin"
-	("vehicle2" period(mid) cd(0) ci(0) t(medium) side(fin) crew1(tankman:3) crew2(tank_commander:1) g(spg1) b(mt) cw(6) cp(25)
+	("vehicle2" period(mid) cd(0) ci(0) t(medium) side(fin) crew1(tankman:3) crew2(tank_commander:1) g(spg1) b(td) cw(6) cp(25)
 	cost(630))
 }
 

@@ -274,15 +274,15 @@ msgid "<c(B29557)>( I )</c> FT-17 Females"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_heavy_engineer_early(fin)"
-msgid "<c(B29557)>( I )</c> Heavy Engineer"
+msgid "Heavy Engineer"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_heavy_engineer_late(fin)"
-msgid "<c(B29557)>( I )</c> Heavy Engineer"
+msgid "Heavy Engineer"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_heavy_engineer_mid(fin)"
-msgid "<c(B29557)>( I )</c> Heavy Engineer"
+msgid "Heavy Engineer"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_isu152_fin"
@@ -429,18 +429,22 @@ msgctxt "desc/squad/doctrine_white_death_mid"
 msgid "Tarkka-Ampuja"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_white_death(fin)"
-msgid "Tarkka-Ampuja"
-msgstr ""
-
-msgctxt "desc/squad/doctrine_white_death_late(fin)"
-msgid "Tarkka-Ampuja"
-msgstr ""
-
-msgctxt "desc/squad/doctrine_white_death_mid(fin)"
-msgid "Tarkka-Ampuja"
-msgstr ""
-
 msgctxt "desc/squad/squad_border_guard_early(fin)"
 msgid "<c(A5A095)>(3)</c> Elite Border Guards"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_inf_crate_fin"
+msgid "Finnish Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_inf_crate_fin_early"
+msgid "Finnish Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_inf_crate_fin_mid"
+msgid "Finnish Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_inf_crate_fin_late"
+msgid "Finnish Ammo Crate"
 msgstr ""

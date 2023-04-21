@@ -398,10 +398,10 @@
 ("squad_3_2vehicles" side(rus) name(doctrine_gunshields) period(early) cd(0)  ci(60)  g(shields) vehicle1(broneschitok_2) vehicle2(broneschitok_2_dp) crew1(rifleman_1:1) crew2(mg_crew:1) b(single) t())
 
 
-{"inf_crate_rus"
-	("vehicle"  period(early) cd(0) ci(30) t(supply cannon) side(rus) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
+{"doctrine_inf_crate_rus_early"
+	("squad_vehicle"  period(early) cd(0) ci(30) t(supply cannon) side(rus) vehicle(inf_crate_rus) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
 	cost(50))
-	{doctrine "early_rus_allround"}
+	{doctrine early_rus_allround}
 }
 
 ;_________________________________________________
