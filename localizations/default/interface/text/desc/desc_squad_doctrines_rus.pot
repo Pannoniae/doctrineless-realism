@@ -438,7 +438,7 @@ msgid "<c(A5A095)>(3)</c> AT Assault engineer team"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_flame(rus)"
-msgid "<c(B29557)>( II )</c> Flamer Assault engineer squad"
+msgid "<c(A5A095)>(3)</c> Flamer Assault engineer squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_guards_heavy(rus)"
