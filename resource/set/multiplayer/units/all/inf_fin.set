@@ -1,0 +1,277 @@
+;SDL
+;// CP + Scores + CW
+
+;////////////////// INSTRUCTIONS //////////////////
+; In this file one configures the humans which are spawned in vehicles or squads
+; The humans have a CP and cost associated with them which collectively add up for the final squad value
+; Check ../settings.set for syntax instructions!!
+;//////////////////////////////////////////////////
+
+
+(define "fin_signaller"
+	{tags "late %side infantry man signaller"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1}
+	{cost %cost}
+	{score (* %cost 0.2)}
+	;{score_factor 0.2}
+)
+{"mp/fin/late/signaller"		("fin_signaller" side(fin) cost(600.0))}
+
+
+(define "fin_tankman"
+	{tags "late %side infantry man"}
+	{cp 2}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+{"mp/fin/late/artilleryman"		("fin_tankman" side(fin) cost(5.0))}
+{"mp/fin/late/tankman"			("fin_tankman" side(fin) cost(4.0))}
+{"mp/fin/late/tank_commander"	("fin_tankman" side(fin) cost(10.0))}
+
+(define "fin_reserve"
+	{tags "late %side infantry man"}
+	{cp 2}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+{"mp/fin/late/reservist_mg"			("fin_reserve" side(fin) cost(25.0))} ; m26
+{"mp/fin/late/reservist_mg_asst"	("fin_reserve" side(fin) cost(7.0))} ; mosin
+{"mp/fin/late/reservist_rifle"		("fin_reserve" side(fin) cost(7.0))} ; mosin
+{"mp/fin/late/reservist_rifle_helm"	("fin_reserve" side(fin) cost(8.0))} ; m27
+{"mp/fin/late/reservist_sl"			("fin_reserve" side(fin) cost(8.0))} ; m39
+{"mp/fin/late/reservist_smg_helm"	("fin_reserve" side(fin) cost(13.0))} ; m31 drum
+
+
+(define "fin_regular_lite"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.5}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+{"mp/fin/late/mg_crew"		("fin_regular_lite" side(fin) cost(7.0))} ; lahti pistol
+{"mp/fin/late/mg_crew_asst"	("fin_regular_lite" side(fin) cost(9.0))} ; m39
+
+{"mp/fin/late/rifleman_cap"	("fin_regular_lite" side(fin) cost(9.0))} ; m39
+{"mp/fin/late/rifleman"		("fin_regular_lite" side(fin) cost(9.0))} ; m39
+
+{"mp/fin/late/scout"		("fin_regular_lite" side(fin) cost(9.0))} ; m39
+
+
+(define "fin_regular"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.5}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+
+{"mp/fin/late/mg"				("fin_regular" side(fin) cost(35.0))} ; m26
+{"mp/fin/late/mg_asst"			("fin_regular" side(fin) cost(9.0))} ; m39
+{"mp/fin/late/mg_dp"			("fin_regular" side(fin) cost(40.0))} ; dp27
+{"mp/fin/late/mg_dp_asst"		("fin_regular" side(fin) cost(9.0))} ; m39
+
+{"mp/fin/late/squadleader"		("fin_regular" side(fin) cost(9.0))} ; m39
+
+{"mp/fin/late/rifleman_sa"		("fin_regular" side(fin) cost(13.0))} ; svt38
+
+{"mp/fin/late/scout_sl"			("fin_regular" side(fin) cost(15.0))} ; m31 drum
+
+{"mp/fin/late/smg_drum"			("fin_regular" side(fin) cost(15.0))} ; m31 drum
+{"mp/fin/late/smg_stick"		("fin_regular" side(fin) cost(13.0))} ; m31 stick
+{"mp/fin/late/smg_pps"			("fin_regular" side(fin) cost(10.0))} ; pps43
+{"mp/fin/late/smg_ppsh"			("fin_regular" side(fin) cost(15.0))} ; ppsh41
+
+
+(define "fin_regular_advanced"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.5}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+{"mp/fin/late/antitank_rifle"	("fin_regular_advanced" side(fin) cost(20.0))} ; Boys AT Rifle
+{"mp/fin/late/antitank_ptrd"	("fin_regular_advanced" side(fin) cost(40.0))} ; PTRD AT Rifle
+{"mp/fin/late/antitank_asst"	("fin_regular_advanced" side(fin) cost(9.0))} ; m39 + at rifle ammo
+{"mp/fin/late/antitank_ptrd_asst"	("fin_regular_advanced" side(fin) cost(9.0))} ; m39 + at rifle ammo
+{"mp/fin/late/antitank_faust"	("fin_regular_advanced" side(fin) cost(14.0))} ; m39 + pzf30
+{"mp/fin/late/antitank_pzs"		("fin_regular_advanced" side(fin) cost(80.0))} ; Pzschreck
+{"mp/fin/late/antitank_pzs_ammo"("fin_regular_advanced" side(fin) cost(9.0))}	; m39 + Pzschreck ammo
+
+{"mp/fin/late/marksman"			("fin_regular_advanced" side(fin) cost(12.0))} ; m39
+{"mp/fin/late/marksman_sa"		("fin_regular_advanced" side(fin) cost(16.0))} ; svt40
+
+;//{"mp/fin/late/engineer_1"	("fin_regular_advanced" side(fin) cost(50.0))}
+;//{"mp/fin/late/engineer_2"	("fin_regular_advanced" side(fin) cost(50.0))}
+
+{"mp/fin/late/engineer_builder"	("fin_regular_advanced" side(fin) cost(25.0))}
+{"mp/fin/late/engineer_heavy"	("fin_regular_advanced" side(fin) cost(50.0))}
+{"mp/fin/late/engineer_mine_ap"	("fin_regular_advanced" side(fin) cost(25.0))}
+{"mp/fin/late/engineer_mine_at"	("fin_regular_advanced" side(fin) cost(25.0))}
+{"mp/fin/late/engineer_mine_d"	("fin_regular_advanced" side(fin) cost(10.0))}
+
+;//{"mp/fin/late/miner-ap"	("fin_regular_advanced" side(fin) cost(40.0))}
+;//{"mp/fin/late/miner-at"	("fin_regular_advanced" side(fin) cost(40.0))}
+
+
+(define "fin_cav" ;tier3
+	{tags "late %side infantry man"}
+	{cp 4}
+	{basic}
+	{breed}
+	{cw 2.5}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+{"mp/fin/late/cav_mg"			("fin_cav" side(fin) cost(45.0))} ; dp27
+{"mp/fin/late/cav_mg_asst"		("fin_cav" side(fin) cost(14.0))} ; m39
+{"mp/fin/late/cav_rifle"		("fin_cav" side(fin) cost(14.0))} ; m39
+{"mp/fin/late/cav_sa"			("fin_cav" side(fin) cost(18.0))} ; svt40
+{"mp/fin/late/cav_sl"			("fin_cav" side(fin) cost(18.0))} ; m31 stick
+{"mp/fin/late/cav_smg"			("fin_cav" side(fin) cost(20.0))} ; m31 drum
+{"mp/fin/late/cav_smg_stick"	("fin_cav" side(fin) cost(18.0))} ; m31 stick
+
+
+(define "fin_engineer" ;tier2
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2.0}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+{"mp/fin/late/engineer_flamer"		("fin_engineer" side(fin) cost(60.0))} ; flamethrower
+{"mp/fin/late/engineer_rifle"		("fin_engineer" side(fin) cost(9.0))} ; m39
+{"mp/fin/late/engineer_sl"			("fin_engineer" side(fin) cost(9.0))} ; m39
+
+
+(define "fin_jaeger" ;tier4
+	{tags "late %side infantry man"}
+	{cp 4}
+	{basic}
+	{breed}
+	{cw 2.5}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+{"mp/fin/late/jag_crew"				("fin_jaeger" side(fin) cost(10.0))} ; lahti pistol
+{"mp/fin/late/jag_crew_asst"		("fin_jaeger" side(fin) cost(19.0))} ; m39, less grenades
+
+{"mp/fin/late/jag_engineer_flamer"	("fin_jaeger" side(fin) cost(70.0))} ; roks-2 flamethrower
+{"mp/fin/late/jag_engineer_sl"		("fin_jaeger" side(fin) cost(23.0))} ; m31 stick
+{"mp/fin/late/jag_mg"				("fin_jaeger" side(fin) cost(60.0))} ; dp27
+{"mp/fin/late/jag_mg_asst"			("fin_jaeger" side(fin) cost(19.0))} ; m39
+{"mp/fin/late/jag_pzfaust"			("fin_jaeger" side(fin) cost(23.0))} ; m39 + pzf30
+{"mp/fin/late/jag_pzs"				("fin_jaeger" side(fin) cost(90.0))} ; pzschreck
+{"mp/fin/late/jag_pzs_asst"			("fin_jaeger" side(fin) cost(19.0))} ; m39 + AT ammo
+{"mp/fin/late/jag_rifle"			("fin_jaeger" side(fin) cost(19.0))} ; m39
+{"mp/fin/late/jag_sa"				("fin_jaeger" side(fin) cost(23.0))} ; svt40
+{"mp/fin/late/jag_sl"				("fin_jaeger" side(fin) cost(19.0))} ; m39
+{"mp/fin/late/jag_sl_smg"			("fin_jaeger" side(fin) cost(25.0))} ; m31 drum
+{"mp/fin/late/jag_smg"				("fin_jaeger" side(fin) cost(27.0))} ; m31 drum + % faustpatrone
+{"mp/fin/late/jag_smg_pzfaust"		("fin_jaeger" side(fin) cost(30.0))} ; m31 + pzfaust 30
+{"mp/fin/late/jag_smg_stick"		("fin_jaeger" side(fin) cost(25.0))} ; m31 stick + % faustpatrone
+
+
+{"mp/fin/late/border_jag_mg"			("fin_jaeger" side(fin) cost(60.0))} ; dp27
+{"mp/fin/late/border_jag_mg_asst"		("fin_jaeger" side(fin) cost(19.0))} ; m39
+{"mp/fin/late/border_jag_rifle"			("fin_jaeger" side(fin) cost(19.0))} ; m39
+{"mp/fin/late/border_jag_rifle_pzfaust"	("fin_jaeger" side(fin) cost(24.0))} ; m39 + pzfaust 30
+{"mp/fin/late/border_jag_sa"			("fin_jaeger" side(fin) cost(23.0))} ; svt40
+{"mp/fin/late/border_jag_sl"			("fin_jaeger" side(fin) cost(19.0))} ; m39
+{"mp/fin/late/border_jag_smg"			("fin_jaeger" side(fin) cost(25.0))} ; m31 drum
+{"mp/fin/late/border_jag_smg_stick"		("fin_jaeger" side(fin) cost(23.0))} ; m31 stick
+
+(define "fin_sissi"
+	{tags "late %side infantry man"}
+	{cp 4}
+	{basic}
+	{breed}
+	{cw 2.5}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+{"mp/fin/late/sissi_mg"			("fin_sissi" side(fin) cost(60.0))} ; dp27
+{"mp/fin/late/sissi_mg_asst"	("fin_sissi" side(fin) cost(19.0))} ; m39
+{"mp/fin/late/sissi_rifle"		("fin_sissi" side(fin) cost(19.0))} ; m39
+{"mp/fin/late/sissi_sa"			("fin_sissi" side(fin) cost(23.0))} ; svt40
+{"mp/fin/late/sissi_sl"			("fin_sissi" side(fin) cost(19.0))} ; m39
+{"mp/fin/late/sissi_smg_stick"	("fin_sissi" side(fin) cost(25.0))} ; m31 stick + % faustpatrone
+
+(define "fin_medic"
+	{tags "late %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{cost %cost}
+	{score (* %cost -0.2)}
+	;{score_factor -0.2}
+)
+{"mp/fin/late/medic"			("fin_medic" side(fin) cost(40.0))}
+
+
+(define "fin_officer"
+	{tags "late %side infantry man officer"}
+	{cp -25}
+	{basic}
+	{breed}
+	{cw 20}
+	{cost %cost}
+	{score (* %cost 0.4)}
+	;{score_factor 0.4}
+)
+{"mp/fin/late/officer"			("fin_officer" side(fin) cost(125.0))}
+
+
+(define "fin_sniper"
+	{tags "late %side infantry man sniper"}
+	{cp 8}
+	{basic}
+	{breed}
+	{cw 1}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+{"mp/fin/late/sniper"			("fin_sniper" side(fin) cost(150.0))}
+{"mp/fin/late/white_death"		("fin_sniper" side(fin) cost(250.0))}
+
+;mosin = 8
+;m27 = 9
+;m39 = 9
+;svt38/40 = 13
+;m20 = 13
+;m31 stick = 13
+;m31 drum = 20
+;m26 = 35
+;any % pzfaust = +2
+;any pzfaust = +5
+;tier 1 = -1, MG -10
+;tier 3 = +5, MG +10
+;tier 4 = +10, MG +20

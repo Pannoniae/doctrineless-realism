@@ -12,6 +12,22 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 
+#msgctxt "mp/presets/unit/early"
+#msgid "Early (1939-41)"
+#msgstr ""
+#
+#msgctxt "mp/presets/unit/mid"
+#msgid "Mid (1941-43)"
+#msgstr ""
+#
+#msgctxt "mp/presets/unit/late"
+#msgid "Late (1943-45)"
+#msgstr ""
+
+#msgctxt "mp/presets/unit/all"
+#msgid "All units (not recommended)"
+#msgstr ""
+
 msgctxt "mp/scene/txt_sp"
 msgid "<f(roboto_mono)c(b7b7a4)><e(shadow)>doctrineless"
 msgstr ""
