@@ -345,7 +345,7 @@
 }
 
 {"doctrine_inf_crate_fin_mid"
-	("squad_vehicle"  period(mid) cd(0) ci(0) t(supply cannon) side(fin) vehicle(inf_crate_fin) crew(rifleman:2) g(supplybox) b(single) cw(1) cp(0) cost(50))
+	("squad_vehicle_noall"  period(mid) cd(0) ci(0) t(supply cannon doctrineonly) side(fin) vehicle(inf_crate_fin) crew(rifleman:2) g(supplybox) b(single) cw(1) cp(0) cost(50))
 	{doctrine mid_fin_allround}
 }
 

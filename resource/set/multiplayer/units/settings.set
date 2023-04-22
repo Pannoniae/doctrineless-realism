@@ -87,9 +87,26 @@
 	; squad define must not include cp, cw or score - this is made up of the components who make up the doctrine units.
 )
 
+(define "generic_v_noall"
+	{charge
+		{delay %cd}
+		{interval %ci}
+	}
+	{squad_cost_factor 1}
+	{tags "%t"}
+	{group "%g"}
+	{button "%b"}
+	; squad define must not include cp, cw or score - this is made up of the components who make up the doctrine units.
+)
+
 ; squad setup for vehicle, 1 crew
 (define "squad_vehicle"
 	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	{content "%vehicle ( mp/%side/%period/%crew )"}
+)
+
+(define "squad_vehicle_noall"
+	("generic_v_noall" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew )"}
 )
 

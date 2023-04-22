@@ -331,7 +331,7 @@
 }
 
 {"doctrine_inf_crate_fin_late"
-	("squad_vehicle" period(late) cd(0) ci(0) t(supply cannon) side(fin) vehicle(inf_crate_fin) crew(rifleman:2) g(supplybox) b(single) cw(1) cp(0) cost(50))
+	("squad_vehicle_noall" period(late) cd(0) ci(0) t(supply cannon doctrineonly) side(fin) vehicle(inf_crate_fin) crew(rifleman:2) g(supplybox) b(single) cw(1) cp(0) cost(50))
 	{doctrine late_fin_allround}
 }
 

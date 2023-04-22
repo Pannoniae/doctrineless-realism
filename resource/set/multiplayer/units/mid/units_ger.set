@@ -414,7 +414,7 @@
 ("squad_with1types" side(ger) name(doctrine_squad_vetsniper) period(mid) cd(120) ci(0) g(single_sniper) c1(sniper_elite:1)				b(single) t(sniper))
 
 {"doctrine_inf_crate_ger_mid"
-	("squad_vehicle"  period(mid) cd(0) ci(0) t(supply cannon) side(ger) vehicle(inf_crate_ger) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
+	("squad_vehicle_noall"  period(mid) cd(0) ci(0) t(supply cannon doctrineonly) side(ger) vehicle(inf_crate_ger) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
 	cost(50))
 	{doctrine mid_ger_allround}
 }

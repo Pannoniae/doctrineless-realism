@@ -1,5 +1,5 @@
 ; == TEST MODE ==
-(define "test_late"
+(define "test_all"
 	{common
 		{unitset
 			{value "all^conquestonly|doctrineonly"}
@@ -19,12 +19,12 @@
 
 ;------------------------------------------------------------------------------------------------------------
 {presets
-	{"s:test_late"
+	{"s:test_all"
 		{gameMode "test"}
 		{unitMode "all"}
 		{specMode "all_normal"}
-		{apply "roster_all"}
-		("test_late"			start(50000) finish(50000) doctrine(1) cp(1000))
+		{apply "only_roster_all"}
+		("test_all"			start(50000) finish(50000) doctrine(1) cp(1000))
 	}
 ;------------------------------------------------------------------------------------------------------------
 }

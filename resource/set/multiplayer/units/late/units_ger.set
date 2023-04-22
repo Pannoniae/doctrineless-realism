@@ -414,7 +414,7 @@
 
 
 {"doctrine_inf_crate_ger_late"
-	("squad_vehicle"  period(late) cd(0) ci(0) t(supply cannon) side(ger) vehicle(inf_crate_ger) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
+	("squad_vehicle_noall"  period(late) cd(0) ci(0) t(supply cannon doctrineonly) side(ger) vehicle(inf_crate_ger) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
 	cost(50))
 	{doctrine late_ger_allround}
 }

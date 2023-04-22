@@ -397,7 +397,7 @@
 
 
 {"doctrine_inf_crate_rus_early"
-	("squad_vehicle"  period(early) cd(0) ci(0) t(supply cannon) side(rus) vehicle(inf_crate_rus) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
+	("squad_vehicle_noall"  period(early) cd(0) ci(0) t(supply cannon doctrineonly) side(rus) vehicle(inf_crate_rus) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
 	cost(50))
 	{doctrine early_rus_allround}
 }

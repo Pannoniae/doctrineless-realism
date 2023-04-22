@@ -700,3 +700,7 @@ msgstr ""
 msgctxt "desc/squad/doctrine_inf_crate_rus_late"
 msgid "Russian Ammo Crate"
 msgstr ""
+
+msgctxt "desc/squad/doctrine_inf_crate_rus_all"
+msgid "Russian Ammo Crate"
+msgstr ""
