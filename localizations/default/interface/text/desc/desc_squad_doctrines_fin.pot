@@ -449,6 +449,6 @@ msgctxt "desc/squad/doctrine_inf_crate_fin_late"
 msgid "Finnish Ammo Crate"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_inf_crate_fin_all"
+msgctxt "desc/squad/doctrine_inf_crate_fin_full"
 msgid "Finnish Ammo Crate"
 msgstr ""

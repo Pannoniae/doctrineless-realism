@@ -33,7 +33,7 @@
 		{delay %cd}
 		{interval %ci}
 	}
-	{tags "all %t"}
+	{tags "all full %t"}
 	{group "%g"}
 	{button "%b"}
 	{cost %cost}
@@ -81,7 +81,7 @@
 		{interval %ci}
 	}
 	{squad_cost_factor 1}
-	{tags "all %t"}
+	{tags "all full %t"}
 	{group "%g"}
 	{button "%b"}
 	; squad define must not include cp, cw or score - this is made up of the components who make up the doctrine units.
@@ -93,7 +93,7 @@
 		{interval %ci}
 	}
 	{squad_cost_factor 1}
-	{tags "%t"}
+	{tags "all %t"}
 	{group "%g"}
 	{button "%b"}
 	; squad define must not include cp, cw or score - this is made up of the components who make up the doctrine units.
@@ -176,7 +176,7 @@
 	{level 1}
 	{research_stage 1}
 	{squad_cost_factor 0} ; Cost is NOT the addition of the elements making up the unit, because it is overriden by the doctrine cost.
-	{tags "all doctrine %t"}
+	{tags "all full doctrine %t"}
 	{button "doctrine"}
 	; squad define must not include cp, cw or score - this is made up of the components who make up the doctrine units.
 )
@@ -520,7 +520,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -534,7 +534,7 @@
 		{interval %ci}
 	}
 	{content "mp/%side/%period/%c1"}
-	{tags "all infantry %side %t %period"}
+	{tags "all full infantry %side %t %period"}
 	{group "%g"}
 	{button "%b"}
 	{level 1}
@@ -548,7 +548,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -563,7 +563,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -578,7 +578,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -594,7 +594,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -609,7 +609,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -624,7 +624,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -639,7 +639,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7 mp/%side/%period/%c8"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -654,7 +654,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7 mp/%side/%period/%c8 mp/%side/%period/%c9"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -669,7 +669,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7 mp/%side/%period/%c8 mp/%side/%period/%c9 mp/%side/%period/%c10"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -684,7 +684,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5"}
-		{tags "all infantry %side %t %period"}
+		{tags "all full infantry %side %t %period"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -699,7 +699,7 @@
 	{level 1}
 	{research_stage 1}
 	{squad_cost_factor 0}
-	{tags "all doctrine %t"}
+	{tags "all full doctrine %t"}
 	{button "doctrine"}
 )
 

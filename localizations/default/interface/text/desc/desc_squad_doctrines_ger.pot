@@ -725,6 +725,6 @@ msgctxt "desc/squad/doctrine_inf_crate_ger_late"
 msgid "German Ammo Crate"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_inf_crate_ger_all"
+msgctxt "desc/squad/doctrine_inf_crate_ger_full"
 msgid "German Ammo Crate"
 msgstr ""

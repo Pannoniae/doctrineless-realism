@@ -2,7 +2,7 @@
 (define "test_all"
 	{common
 		{unitset
-			{value "all^conquestonly|doctrineonly"}
+			{value "full^conquestonly|doctrineonly"}
 		}
 		{commandPoints "*=%cp"}
 		{unitLimits ""}
@@ -13,17 +13,17 @@
 		(include "global_parameters/budget.inc" s(%start) f(%finish) d(%doctrine))
 	}
 	{bots
-		(include "global_parameters/bots_generic.inc" period("all"))
+		(include "global_parameters/bots_generic.inc" period("full"))
 	}
 )
 
 ;------------------------------------------------------------------------------------------------------------
 {presets
-	{"s:test_all"
+	{"s:test_full"
 		{gameMode "test"}
-		{unitMode "all"}
+		{unitMode "full"}
 		{specMode "all_normal"}
-		{apply "only_roster_all"}
+		{apply "only_roster_full"}
 		("test_all"			start(50000) finish(50000) doctrine(1) cp(1000))
 	}
 ;------------------------------------------------------------------------------------------------------------

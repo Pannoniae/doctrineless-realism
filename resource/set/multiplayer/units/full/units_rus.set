@@ -409,10 +409,10 @@
 ("squad_with1types" side(rus) name(single_officer)		period(late) cd(120) ci(0) g(single_officer)	c1(commisar:1)							b(single) t(officer)))
 
 
-{"doctrine_inf_crate_rus_all"
-	("squad_vehicle" period(late) cd(0) ci(0) t(supply cannon doctrineonly) side(rus) vehicle(inf_crate_rus) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
+{"doctrine_inf_crate_rus_full"
+	("squad_vehicle" period(late) cd(0) ci(0) t(supply cannon doctrine doctrineonly) side(rus) vehicle(inf_crate_rus) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
 	cost(50))
-	{doctrine all_rus_allround}
+	{doctrine full_rus_allround}
 }
 
 ;_________________________________________________

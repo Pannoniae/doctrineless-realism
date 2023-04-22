@@ -330,9 +330,9 @@
 	("squad_with1types_custom" side(fin) cd(120) ci(0) g(single_sniper) period(late) c1(white_death:1) b(single) t(sniper))
 }
 
-{"doctrine_inf_crate_fin_all"
-	("squad_vehicle" period(late) cd(0) ci(0) t(supply cannon doctrineonly) side(fin) vehicle(inf_crate_fin) crew(rifleman:2) g(supplybox) b(single) cw(1) cp(0) cost(50))
-	{doctrine all_fin_allround}
+{"doctrine_inf_crate_fin_full"
+	("squad_vehicle" period(late) cd(0) ci(0) t(supply cannon doctrine doctrineonly) side(fin) vehicle(inf_crate_fin) crew(rifleman:2) g(supplybox) b(single) cw(1) cp(0) cost(50))
+	{doctrine full_fin_allround}
 }
 
 ;_________________________________________________

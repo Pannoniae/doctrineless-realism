@@ -24,7 +24,7 @@ msgstr ""
 #msgid "Late (1943-45)"
 #msgstr ""
 
-msgctxt "mp/presets/unit/all"
+msgctxt "mp/presets/unit/full"
 msgid "Full War (1939-45)"
 msgstr ""
 
@@ -108,30 +108,30 @@ msgctxt "mp/lobby/doctrine/late_rus_allround"
 msgid "[Late] War"
 msgstr ""
 
-msgctxt "mp/lobby/doctrine/all_rus_allround#hint"
+msgctxt "mp/lobby/doctrine/late_rus_allround#hint"
 msgid ""
 msgstr ""
 
-msgctxt "mp/lobby/doctrine/all_fin_allround"
+msgctxt "mp/lobby/doctrine/full_fin_allround"
 msgid "Total War!"
 msgstr ""
 
-msgctxt "mp/lobby/doctrine/all_fin_allround#hint"
+msgctxt "mp/lobby/doctrine/full_fin_allround#hint"
 msgid ""
 msgstr ""
 
-msgctxt "mp/lobby/doctrine/all_ger_allround"
+msgctxt "mp/lobby/doctrine/full_ger_allround"
 msgid "Total War!"
 msgstr ""
 
-msgctxt "mp/lobby/doctrine/all_ger_allround#hint"
+msgctxt "mp/lobby/doctrine/full_ger_allround#hint"
 msgid ""
 msgstr ""
 
-msgctxt "mp/lobby/doctrine/all_rus_allround"
+msgctxt "mp/lobby/doctrine/full_rus_allround"
 msgid "Total War!"
 msgstr ""
 
-msgctxt "mp/lobby/doctrine/all_rus_allround#hint"
+msgctxt "mp/lobby/doctrine/full_rus_allround#hint"
 msgid ""
 msgstr ""

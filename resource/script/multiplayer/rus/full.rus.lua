@@ -1,4 +1,4 @@
-Purchases["late.rus"] = {
+Purchases["full.rus"] = {
 	{Repeat = 0,  --infinite
 		Units = {
 			---[====[

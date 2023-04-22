@@ -3,5 +3,5 @@
 	(include "roster_early.set")
 	(include "roster_mid.set")
 	(include "roster_late.set")
-	(include "roster_all.set")
+	;(include "roster_full.set")
 }
