@@ -11,7 +11,7 @@
 				{restore	"1.00	0.8		0.6		0.4		0.25	0.10"}
 			}
 		}
-		{buttons "squad single supply support art lt mt td"}
+		{buttons "squad single supply support art lt mt ht td"}
 	}
 	{hero
 		{resource

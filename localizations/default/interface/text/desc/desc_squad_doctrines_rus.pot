@@ -262,7 +262,7 @@ msgid "<c(B29557)>( I )</c> 12.7mm DsHK"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_gunshields"
-msgid "<c(B29557)>( I )</c> 6x Gun shields"
+msgid "6x Gun shields"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_il2_early"

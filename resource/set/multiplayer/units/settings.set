@@ -43,7 +43,7 @@
 )
 
 (define "emplacement"
-	("single_unit" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	("single_unit" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
 	{content "* ( mp/%side/%period/%crew )"}
 	{conditions "%condition"}
 	{action "%action"}
@@ -51,7 +51,7 @@
 
 ; vehicle with one type of crew, crew adds to MP
 (define "vehicle"
-	("single_unit" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	("single_unit" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
 	{content "* ( mp/%side/%period/%crew )"}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
@@ -59,7 +59,7 @@
 
 ; vehicle with 2 types of crew, crew adds to MP
 (define "vehicle2"
-	("single_unit" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	("single_unit" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
 	{content "* ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
@@ -67,7 +67,7 @@
 
 ; vehicle with 3 types of crew, crew adds to MP
 (define "vehicle3"
-	("single_unit" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	("single_unit" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
 	{content "* ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 )"}
 	{squad_cost_factor 1}
 	{round_multiple 5.0}
@@ -101,72 +101,72 @@
 
 ; squad setup for vehicle, 1 crew
 (define "squad_vehicle"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew )"}
 )
 
 (define "squad_vehicle_noall"
-	("generic_v_noall" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v_noall" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew )"}
 )
 
 ; squad setup for vehicle, 2 crew
 (define "squad_vehicle2"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 )
 
 ; 2 identical vehicles with 1 types of crew
 (define "squad_2vehicle"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp))
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp))
 	{content "%vehicle ( mp/%side/%period/%crew ) %vehicle ( mp/%side/%period/%crew )"}
 )
 
 ; 2 identical vehicles with 2 types of crew
 (define "squad_2vehicle2"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp))
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp))
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 )
 
 ; squad setup for vehicle, 3 crew
 (define "squad_vehicle3"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 )"}
 )
 
 ; 2 identical vehicles with 3 types of crew
 (define "squad_2vehicle3"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3)"}
 )
 
 ; 2 different vehicles with 2 types of crew for the first one and one type of crew for the other one
 (define "squad_2vehicles4"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3) %vehicle2 ( mp/%side/%period/%crew4)"}
 )
 
 ; squad setup for vehicle, 4 crew
 (define "squad_vehicle4"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 )"}
 )
 
 ; squad setup for vehicle, 5 crew
 (define "squad_vehicle5"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 )"}
 )
 
 ; squad setup for vehicle, 6 crew
 (define "squad_vehicle6"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6)"}
 )
 
 ; towed gun
 (define "towed_gun"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew_v ) %cannon ( mp/%side/%period/%crew_c )"}
 )
 
@@ -183,328 +183,328 @@
 
 ; squad setup for vehicle, 1 crew
 (define "squad_vehicle_doctrine"
-	("generic_d" t(%side %period))
+	("generic_d" t(%side %year))
 	{content "%vehicle ( mp/%side/%period/%crew )"}
 )
 
 ; squad setup for vehicle, 2 crew
 (define "squad_vehicle2_doctrine"
-	("generic_d" t(%side %period))
+	("generic_d" t(%side %year))
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 )
 
 ; 2 identical vehicles with 1 types of crew
 (define "squad_2vehicle_doctrine"
-	("generic_d" t(%side %period))
+	("generic_d" t(%side %year))
 	{content "%vehicle ( mp/%side/%period/%crew ) %vehicle ( mp/%side/%period/%crew )"}
 )
 
 ; 2 identical vehicles with 2 types of crew
 (define "squad_2vehicle2_doctrine"
-	("generic_d" t(%side %period))
+	("generic_d" t(%side %year))
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 )
 
 ; 3 identical vehicles with 1 types of crew ;// used for early war ger recon doctrine
 (define "squad_3vehicle4_doctrine"
-	("generic_d" t(%side %period))
+	("generic_d" t(%side %year))
 	{content "%vehicle ( mp/%side/%period/%c1 mp/%side/%period/%c2 ) %vehicle ( mp/%side/%period/%c1 mp/%side/%period/%c3 mp/%side/%period/%c4 ) %vehicle ( mp/%side/%period/%c1 mp/%side/%period/%c3 mp/%side/%period/%c4 )"}
 )
 
 ; 3 identical vehicles with 2 types of crew
 (define "squad_3vehicle2_doctrine"
-	("generic_d" t(%side %period))
+	("generic_d" t(%side %year))
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 )
 
 ; squad setup for vehicle, 3 crew
 (define "squad_vehicle3_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 )"}
 )
 
 ; 2 identical vehicles with 3 types of crew
 (define "squad_2vehicle3_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 )"}
 )
 
 ; 2 identical vehicles with 4 types of crew
 (define "squad_2vehicle4_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 )"}
 )
 
 ; 2 different vehicles with 3 types of crew for the first one and one type of crew for the other one
 (define "squad_2vehicles4_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3) %vehicle2 ( mp/%side/%period/%crew4 )"}
 )
 
 ; 2 different vehicles with 2 types of crew for the first one and 2 types of crew for the other one
 (define "squad_2vehicles2_4_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2) %vehicle2 ( mp/%side/%period/%crew3 mp/%side/%period/%crew4)"}
 )
 
 ; 2 different vehicles with 2 types of crew for the first one and 7 type of crew for the other one
 (define "squad_2vehicles2_8_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle2 ( mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 mp/%side/%period/%crew8 mp/%side/%period/%crew9 mp/%side/%period/%crew10 )"}
 )
 
 ; 2 different vehicles with 1 type of crew on both
 (define "squad_2_vehicle_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle1 ( mp/%side/%period/%crew ) %vehicle2 ( mp/%side/%period/%crew )"}
 )
 
 ; 2 different vehicles with 2 type of crew on both
 (define "squad_2_vehicle2_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle2 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 )
 
 ; 3 different *pairs* of vehicles with 1 type of crew for the first pair and one type of crew for the second pair
 (define "squad_3_2vehicles_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle1 ( mp/%side/%period/%crew1 ) %vehicle1 ( mp/%side/%period/%crew1 ) %vehicle1 ( mp/%side/%period/%crew1 ) %vehicle2 ( mp/%side/%period/%crew2) %vehicle2 ( mp/%side/%period/%crew2) %vehicle2 ( mp/%side/%period/%crew2 )"}
 )
 
 ; squad setup for vehicle, 4 crew
 (define "squad_vehicle4_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 )"}
 )
 
 ; squad setup for vehicle, 5 crew
 (define "squad_vehicle5_doctrine"
-	("generic_d" t(%side %period))
+	("generic_d" t(%side %year))
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 )"}
 )
 
 ; squad setup for vehicle, 6 crew
 (define "squad_vehicle6_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 )"}
 )
 
 ; squad setup for vehicle, 7 crew
 (define "squad_vehicle7_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 )"}
 )
 
 ; squad setup for 2 identical vehicles, 7 crew
 (define "squad_2vehicle7_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 )"}
 )
 
 
 ; squad setup for vehicle, 8 crew;
 (define "squad_vehicle8_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 mp/%side/%period/%crew8 )"}
 )
 
 ; squad setup for vehicle, 9 crew;
 (define "squad_vehicle9_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 mp/%side/%period/%crew8 mp/%side/%period/%crew9 )"}
 )
 
 ; squad setup for vehicle, 10 crew;
 (define "squad_vehicle10_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 mp/%side/%period/%crew8 mp/%side/%period/%crew9 mp/%side/%period/%crew10 )"}
 )
 
 ; squad setup for 2 vehicle, 10 crew; 5 each
 (define "squad_2vehicle10_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5) %vehicle ( mp/%side/%period/%crew6 mp/%side/%period/%crew7 mp/%side/%period/%crew8 mp/%side/%period/%crew9 mp/%side/%period/%crew10 )"}
 )
 
 ; towed gun
 (define "towed_gun_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew_v ) %cannon ( mp/%side/%period/%crew_c )"}
 )
 
 ; towed gun x2
 (define "towed_2gun_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew_v ) %cannon ( mp/%side/%period/%crew_c ) %vehicle ( mp/%side/%period/%crew_v ) %cannon ( mp/%side/%period/%crew_c )"}
 )
 
 ; towed truck with 4 infantry types plus towed cannon
 (define "towed4_gun_doctrine"
-	("generic_d" t(%side %period)) 
+	("generic_d" t(%side %year)) 
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 ) %cannon ( mp/%side/%period/%crew_c )"}
 )
 
 
 ; squad setup for vehicle, 1 crew
 (define "squad_vehicle"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew )"}
 )
 
 ; squad setup for vehicle, 2 crew
 (define "squad_vehicle2"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 )
 
 ; 2 identical vehicles with 1 types of crew
 (define "squad_2vehicle"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew ) %vehicle ( mp/%side/%period/%crew )"}
 )
 
 ; 2 identical vehicles with 2 types of crew
 (define "squad_2vehicle2"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 )
 
 ; 3 identical vehicles with 1 types of crew ;// used for early war ger recon doctrine
 (define "squad_3vehicle4"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%c1 mp/%side/%period/%c2 ) %vehicle ( mp/%side/%period/%c1 mp/%side/%period/%c3 mp/%side/%period/%c4 ) %vehicle ( mp/%side/%period/%c1 mp/%side/%period/%c3 mp/%side/%period/%c4 )"}
 )
 
 ; 3 identical vehicles with 2 types of crew
 (define "squad_3vehicle2"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 )
 
 ; squad setup for vehicle, 3 crew
 (define "squad_vehicle3"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 )"}
 )
 
 ; 2 identical vehicles with 3 types of crew
 (define "squad_2vehicle3"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 )"}
 )
 
 ; 2 identical vehicles with 4 types of crew
 (define "squad_2vehicle4"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 )"}
 )
 
 ; 2 different vehicles with 3 types of crew for the first one and one type of crew for the other one
 (define "squad_2vehicles4"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3) %vehicle2 ( mp/%side/%period/%crew4 )"}
 )
 
 ; 2 different vehicles with 2 types of crew for the first one and 2 types of crew for the other one
 (define "squad_2vehicles2_4"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2) %vehicle2 ( mp/%side/%period/%crew3 mp/%side/%period/%crew4)"}
 )
 
 ; 2 different vehicles with 2 types of crew for the first one and 7 type of crew for the other one
 (define "squad_2vehicles2_8"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle2 ( mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 mp/%side/%period/%crew8 mp/%side/%period/%crew9 mp/%side/%period/%crew10 )"}
 )
 
 ; 2 different vehicles with 1 type of crew on both
 (define "squad_2_vehicle"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle1 ( mp/%side/%period/%crew ) %vehicle2 ( mp/%side/%period/%crew )"}
 )
 
 ; 2 different vehicles with 2 type of crew on both
 (define "squad_2_vehicle2"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle2 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
 )
 
 ; 3 different *pairs* of vehicles with 1 type of crew for the first pair and one type of crew for the second pair
 (define "squad_3_2vehicles"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle1 ( mp/%side/%period/%crew1 ) %vehicle1 ( mp/%side/%period/%crew1 ) %vehicle1 ( mp/%side/%period/%crew1 ) %vehicle2 ( mp/%side/%period/%crew2) %vehicle2 ( mp/%side/%period/%crew2) %vehicle2 ( mp/%side/%period/%crew2 )"}
 )
 
 ; squad setup for vehicle, 4 crew
 (define "squad_vehicle4"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 )"}
 )
 
 ; squad setup for vehicle, 5 crew
 (define "squad_vehicle5"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 )"}
 )
 
 ; squad setup for vehicle, 6 crew
 (define "squad_vehicle6"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 )"}
 )
 
 ; squad setup for vehicle, 7 crew
 (define "squad_vehicle7"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 )"}
 )
 
 ; squad setup for 2 identical vehicles, 7 crew
 (define "squad_2vehicle7"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 )"}
 )
 
 
 ; squad setup for vehicle, 8 crew;
 (define "squad_vehicle8"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 mp/%side/%period/%crew8 )"}
 )
 
 ; squad setup for vehicle, 9 crew;
 (define "squad_vehicle9"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 mp/%side/%period/%crew8 mp/%side/%period/%crew9 )"}
 )
 
 ; squad setup for vehicle, 10 crew;
 (define "squad_vehicle10"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 mp/%side/%period/%crew7 mp/%side/%period/%crew8 mp/%side/%period/%crew9 mp/%side/%period/%crew10 )"}
 )
 
 ; squad setup for 2 vehicle, 10 crew; 5 each
 (define "squad_2vehicle10"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5) %vehicle ( mp/%side/%period/%crew6 mp/%side/%period/%crew7 mp/%side/%period/%crew8 mp/%side/%period/%crew9 mp/%side/%period/%crew10 )"}
 )
 
 ; towed gun
 (define "towed_gun"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew_v ) %cannon ( mp/%side/%period/%crew_c )"}
 )
 
 ; towed gun x2
 (define "towed_2gun"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew_v ) %cannon ( mp/%side/%period/%crew_c ) %vehicle ( mp/%side/%period/%crew_v ) %cannon ( mp/%side/%period/%crew_c )"}
 )
 
 ; towed truck with 4 infantry types plus towed cannon
 (define "towed4_gun"
-	("generic_v" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 mp/%side/%period/%crew6 ) %cannon ( mp/%side/%period/%crew_c )"}
 )
 
@@ -520,7 +520,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -534,7 +534,7 @@
 		{interval %ci}
 	}
 	{content "mp/%side/%period/%c1"}
-	{tags "all full infantry %side %t %period"}
+	{tags "all full infantry %side %t %year"}
 	{group "%g"}
 	{button "%b"}
 	{level 1}
@@ -548,7 +548,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -563,7 +563,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -578,7 +578,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -594,7 +594,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -609,7 +609,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -624,7 +624,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -639,7 +639,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7 mp/%side/%period/%c8"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -654,7 +654,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7 mp/%side/%period/%c8 mp/%side/%period/%c9"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -669,7 +669,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7 mp/%side/%period/%c8 mp/%side/%period/%c9 mp/%side/%period/%c10"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -684,7 +684,7 @@
 			{interval %ci}
 		}
 		{content "mp/%side/%period/%c1 %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 ) mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5"}
-		{tags "all full infantry %side %t %period"}
+		{tags "all full infantry %side %t %year"}
 		{group "%g"}
 		{button "%b"}
 		{level 1}
@@ -705,60 +705,60 @@
 
 ; squad setup for 1 type
 (define "squad_with1types_doctrine"
-	("generic_d_inf" t(%side %period))
+	("generic_d_inf" t(%side %year))
 	{content "mp/%side/%period/%c1"}
 )
 
 ; squad setup for 2 types
 (define "squad_with2types_doctrine"
-	("generic_d_inf" t(%side %period))
+	("generic_d_inf" t(%side %year))
 	{content "mp/%side/%period/%c1 mp/%side/%period/%c2"}
 )
 
 ; squad setup for 3 types
 (define "squad_with3types_doctrine"
-	("generic_d_inf" t(%side %period))
+	("generic_d_inf" t(%side %year))
 	{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3"}
 )
 
 ; squad setup for 4 types
 (define "squad_with4types_doctrine"
-	("generic_d_inf" t(%side %period))
+	("generic_d_inf" t(%side %year))
 	{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4"}
 )
 
 (define "squad_with4types_vehicle_doctrine"
-	("generic_d_inf" t(%side %period))
+	("generic_d_inf" t(%side %year))
 	{content "mp/%side/%period/%c1 %vehicle ( mp/%side/%period/%crew) mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4"}
 )
 
 ; squad setup for 5 types
 (define "squad_with5types_doctrine"
-	("generic_d_inf" t(%side %period))
+	("generic_d_inf" t(%side %year))
 	{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5"}
 )
 
 ; squad setup for 6 types
 (define "squad_with6types_doctrine"
-	("generic_d_inf" t(%side %period))
+	("generic_d_inf" t(%side %year))
 	{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6"}
 )
 
 ; squad setup for 7 types
 (define "squad_with7types_doctrine"
-	("generic_d_inf" t(%side %period))
+	("generic_d_inf" t(%side %year))
 	{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7"}
 )
 
 ; squad setup for 8 types
 (define "squad_with8types_doctrine"
-	("generic_d_inf" t(%side %period))
+	("generic_d_inf" t(%side %year))
 	{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7 mp/%side/%period/%c8"}
 )
 
 ; squad setup for 9 types
 (define "squad_with9types_doctrine"
-	("generic_d_inf" t(%side %period))
+	("generic_d_inf" t(%side %year))
 	{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7 mp/%side/%period/%c8 mp/%side/%period/%c9"}
 )
 

@@ -14,7 +14,7 @@
 			{limitmax	500000}
 			{speedset	"2000 2500 3000 3500 4000 4500 5000 6000 10000"}
 		}
-		{buttons "squad single supply support art lt mt td"}
+		{buttons "squad single supply support art lt mt ht td"}
 	}
 	{hero
 		{resource

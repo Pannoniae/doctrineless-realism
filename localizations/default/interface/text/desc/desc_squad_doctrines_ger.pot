@@ -190,7 +190,7 @@ msgid "<c(B29557)>( III )</c> 60cm Karl Gerät"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_at_cavalry"
-msgid "<c(B29557)>( I )</c> 2x AT cavalry"
+msgid "<c(A5A095)>(2)</c> 2x AT cavalry"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_auflarungspanzer38t"
@@ -602,7 +602,7 @@ msgid "<c(A5A095)>(2)</c> Panzerpioniere"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_pioteam(ger)"
-msgid "<c(B29557)>( I )</c> Pionier team"
+msgid "<c(A5A095)>(2)</c> Pionier team"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_pz_recon"

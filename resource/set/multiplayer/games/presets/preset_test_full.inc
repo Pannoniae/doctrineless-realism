@@ -1,5 +1,5 @@
 ; == TEST MODE ==
-(define "test_all"
+(define "test_full"
 	{common
 		{unitset
 			{value "full^conquestonly|doctrineonly"}
@@ -24,7 +24,7 @@
 		{unitMode "full"}
 		{specMode "all_normal"}
 		{apply "only_roster_full"}
-		("test_all"			start(50000) finish(50000) doctrine(1) cp(1000))
+		("test_full"			start(50000) finish(50000) doctrine(1) cp(1000))
 	}
 ;------------------------------------------------------------------------------------------------------------
 }
