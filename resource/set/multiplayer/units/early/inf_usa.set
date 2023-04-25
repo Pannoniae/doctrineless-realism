@@ -1,0 +1,151 @@
+;// CP + Scores + CW
+
+;////////////////// INSTRUCTIONS //////////////////
+; In this file onee configures the humans which are spawned in vehicles or squads
+; The humans have a CP and cost associated with them which collectively add up for the final squad value
+; Check ../settings.set for syntax instructions!!
+;//////////////////////////////////////////////////
+
+;SDL
+(define "usa_tankman"
+	{tags "early %side infantry man"}
+	{cp 1}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.02}
+)
+;{"mp/usa/early/home_guard"			("usa_tankman" side(usa)) {cost 5.0}}
+{"mp/usa/early/vehicle_supporter"	("usa_tankman" side(usa)) {cost 5.0}}
+{"mp/usa/early/tankman"			("usa_tankman" side(usa)) {cost 4.0}}
+{"mp/usa/early/tankman2"		("usa_tankman" side(usa)) {cost 12.0}}
+{"mp/usa/early/pilot"			("usa_tankman" side(usa)) {cost 0.0}}
+
+
+(define "usa_basic"
+	{tags "early %side infantry man"}
+	{cp 1.5}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor 0.05}
+)
+{"mp/usa/early/rifle"			("usa_basic" side(usa)) {cost 13.0}} ; semi-auto rifle 
+{"mp/usa/early/rifle4"			("usa_basic" side(usa)) {cost 7.0}} ; rifle
+{"mp/usa/early/smg"		    	("usa_basic" side(usa)) {cost 10.0}} ; smg
+
+(define "usa_regular"
+	{tags "early %side infantry man lvl1"}
+	{cp 2}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.04}
+)
+{"mp/usa/early/mgun"			("usa_regular" side(usa)) {cost 45.0}} ; has mg
+{"mp/usa/early/rifle2"			("usa_regular" side(usa)) {cost 18.0}}
+{"mp/usa/early/smg2"		    ("usa_regular" side(usa)) {cost 15.0}}
+{"mp/usa/early/flamer2"			("usa_regular" side(usa)) {cost 15.0}}
+{"mp/usa/early/mgun_assist"		("usa_regular" side(usa)) {cost 18.0}}
+
+(define "usa_regular_advanced"
+	{tags "early %side infantry man lvl2 lvl3 lvl4"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.06}
+)
+{"mp/usa/early/rifle_grenade"	("usa_regular_advanced" side(usa)) {cost 30.0}} ; rifle grenade
+{"mp/usa/early/saper"			("usa_regular_advanced" side(usa)) {cost 60.0}}
+{"mp/usa/early/flamer"			("usa_regular_advanced" side(usa)) {cost 70.0}}
+{"mp/usa/early/ap_miner"		("usa_regular_advanced" side(usa)) {cost 60.0}}
+{"mp/usa/early/at_miner"		("usa_regular_advanced" side(usa)) {cost 60.0}}
+{"mp/usa/early/gr_launcher"		("usa_regular_advanced" side(usa)) {cost 75.0}}
+{"mp/usa/early/squadleader"		("usa_regular_advanced" side(usa)) {cost 18.0}}
+{"mp/usa/early/squadleader2"	("usa_regular_advanced" side(usa)) {cost 18.0}}
+
+(define "usa_pioniere"
+	{tags "early %side infantry man lvl2"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 2.0}
+	{score_factor 0.05}
+)
+{"mp/usa/early/elite"			("usa_pioniere" side(usa)) {cost 25.0}}  ; semi-auto rifle 
+{"mp/usa/early/elite2"			("usa_pioniere" side(usa)) {cost 20.0}}	 ; smg
+{"mp/usa/early/elite3"			("usa_pioniere" side(usa)) {cost 45.0}}	 ; mg
+{"mp/usa/early/elite4"			("usa_pioniere" side(usa)) {cost 20.0}}	 ; smg
+{"mp/usa/early/elite5"			("usa_pioniere" side(usa)) {cost 25.0}}	 ; semi-auto rifle 
+{"mp/usa/early/elite6"			("usa_pioniere" side(usa)) {cost 45.0}}	 ; mg
+{"mp/usa/early/elite7"			("usa_pioniere" side(usa)) {cost 25.0}}  ; semi-auto rifle
+{"mp/usa/early/elite8"			("usa_pioniere" side(usa)) {cost 25.0}}  ; semi-auto rifle
+{"mp/usa/early/elite3_assist"	("usa_pioniere" side(usa)) {cost 25.0}}
+{"mp/usa/early/elite6_assist"	("usa_pioniere" side(usa)) {cost 25.0}}
+{"mp/usa/early/elite_sl"		("usa_pioniere" side(usa)) {cost 25.0}}
+{"mp/usa/early/elite4_sl"		("usa_pioniere" side(usa)) {cost 25.0}}															 
+{"mp/usa/early/scout"			("usa_pioniere" side(usa)) {cost 20.0}}  ; smg
+{"mp/usa/early/scout2"			("usa_pioniere" side(usa)) {cost 20.0}}	 ; smg
+
+
+(define "usa_radioman"
+	{tags "early %side infantry man lvl4"}
+	{cp 4}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.05}
+)
+{"mp/usa/early/radioman"		("usa_radioman" side(usa)) {cost 200.0}}
+
+
+(define "usa_sturmovik"
+	{tags "early %side infantry man lvl3"}
+	{cp 4}
+	{basic}
+	{breed}
+	{cw 2.0}
+	{score_factor 0.05}
+)
+{"mp/usa/early/sturmovik"		("usa_sturmovik" side(usa)) {cost 30.0}}
+{"mp/usa/early/sturmovik2"		("usa_sturmovik" side(usa)) {cost 55.0}}
+{"mp/usa/early/sturmovik3"		("usa_sturmovik" side(usa)) {cost 35.0}} 
+{"mp/usa/early/sturmovik4"		("usa_sturmovik" side(usa)) {cost 35.0}}
+{"mp/usa/early/sturmovik4b"		("usa_sturmovik" side(usa)) {cost 35.0}}
+{"mp/usa/early/sturmovik5"		("usa_sturmovik" side(usa)) {cost 50.0}}
+{"mp/usa/early/sturmovik5b"		("usa_sturmovik" side(usa)) {cost 30.0}}
+{"mp/usa/early/sturmovik6"		("usa_sturmovik" side(usa)) {cost 55.0}}
+{"mp/usa/early/sturmovik6b"		("usa_sturmovik" side(usa)) {cost 35.0}}
+{"mp/usa/early/sturmovik2_assist"	("usa_sturmovik" side(usa)) {cost 35.0}}
+{"mp/usa/early/sturmovik_sl"	("usa_sturmovik" side(usa)) {cost 35.0}}				
+
+(define "usa_medic"
+	{tags "early %side infantry man"}
+	{cp 3}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{score_factor -0.5}
+)
+{"mp/usa/early/medic"		("usa_medic" side(usa)) {cost 40.0}}
+
+(define "usa_officer"
+	{tags "early %side infantry man officer"}
+	{cp -25}
+	{basic}
+	{breed}
+	{cw 20}
+	{score_factor 0.1}
+)
+{"mp/usa/early/officer"		("usa_officer" side(usa)) {cost 125.0}}
+
+(define "usa_sniper"
+	{tags "early %side infantry man sniper lvl3 lvl4"}
+	{cp 8}
+	{basic}
+	{breed}
+	{cw 1.0}
+	{score_factor 0.05}
+)
+{"mp/usa/early/sniper"		("usa_sniper" side(usa)) {cost 150.0}}

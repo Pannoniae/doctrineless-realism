@@ -18,12 +18,15 @@
 	(include "early/inf_ger.set") 
 	(include "early/inf_fin.set") 
 	(include "early/inf_rus.set")
+	(include "early/inf_usa.set")
 	(include "mid/inf_ger.set") 
 	(include "mid/inf_fin.set") 
 	(include "mid/inf_rus.set")
+	(include "mid/inf_usa.set")
 	(include "late/inf_ger.set") 
 	(include "late/inf_fin.set") 
 	(include "late/inf_rus.set")
+	(include "late/inf_usa.set")
 
 ;_________________________________________________________
 ;|            UNIT ROSTERS                               |
@@ -33,4 +36,5 @@
 	(include "full/units_rus.set")
 	(include "full/units_ger.set")
 	(include "full/units_fin.set")
+	(include "full/units_usa.set")
 ;}

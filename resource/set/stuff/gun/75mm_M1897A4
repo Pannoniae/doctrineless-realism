@@ -1,0 +1,22 @@
+{from "pattern gun"      ; 75mm M1897A4 field Gun
+	{filling "bulletusa_75"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_200")
+	{calibre 75}
+
+	("reload time" seconds(6))
+	("velocity m/s" ap(609) apcr(1) he(594) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbc) damage(200) filler(65))
+	("75_slope_multipliers")
+
+	; M72 Shot
+	("penetration_medium" shell(ap) range(200) a(86) b(76) c(65) d(56) e(48))
+
+	; M61 Shot
+	("penetration_medium" shell(apcbc) range(200) a(99) b(88) c(77) d(67) e(58))
+
+	("accuracy_direct" r1(0.81) range_ap(200) range_he(180) range_heat(180))
+}

@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-late-smg"}
+	{portrait "usa_soldier2"}
+	{nationality usa}
+	{icon "ap_miner"}
+	{icon_priority 3}
+	{armors
+		{head helmet_usa_clean}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m3a" filled}
+		{item  "ammo 11x23" 270}
+		{item "mine antipersonnel" 15}
+		{item "barbwire_kit" 1}
+		{item "small_inf_shovel"}
+		{item "bandage_usa" 1}
+		{in_hands 0}
+	}
+}

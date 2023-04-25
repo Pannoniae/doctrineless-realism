@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-inf-rfl"}
+	{portrait "usa_soldier1"}
+	{nationality usa}
+	{icon "home_guard"}
+	{icon_priority 0}
+	{armors
+		{head "cap_usa_jeepcap"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_1")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m1903" filled}
+		{item  "ammo 7x63" 80}
+		{item "bandage_usa" 3}
+		{item "grenade mk2" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m24_chassis_xx"}
+	{blend none}
+}

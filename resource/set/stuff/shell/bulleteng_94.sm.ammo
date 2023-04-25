@@ -1,0 +1,11 @@
+{from "pattern sm"
+	{tag "88to105 wp_size2"}
+	{entity "94mm_eng_sm"}
+	{inventory {size 3 1}}
+	{mass 9.61}
+
+	{view "howitzer_shell_88-100"
+		{tail "shell_tracer_75-88_he" "tail"}
+	}
+	("wp" cal(94))
+}

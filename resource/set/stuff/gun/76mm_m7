@@ -1,0 +1,3 @@
+{from "76mm_m1a1"			; "m10_wolverine"
+	("reload time" seconds(7))
+}

@@ -1,0 +1,17 @@
+{from "pattern wp"
+	{tag "150to152 wp_size4"}
+	{entity "155mm_howitzer_usa_wp"}
+	{inventory {size 5 1}}
+	{mass 43.0}
+
+	{view "howitzer_shell_105-150"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+
+	{damage fire
+		{radius 12}
+		{heating 20}
+		{time 35}
+		;{ground_interaction_radius 0.3} ;// crashes game if used with fire damage
+	}
+}

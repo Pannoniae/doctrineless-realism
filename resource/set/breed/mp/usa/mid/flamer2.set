@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-inf-smg"}
+	{portrait "usa_soldier2"}
+	{nationality usa}
+	{icon "smg"}
+	{icon_priority 1}
+	{armors
+		{head helmet_usa_nco}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "thompson" filled}
+		{item  "ammo 11x23" 180}
+		{item "bandage_usa" 3}
+		{item "grenade mk2" 3}
+		{item "smoke grenade" 1}
+		{in_hands 0}
+	}
+}

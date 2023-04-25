@@ -1,0 +1,342 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Soviet Gear\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/stuff/allied_satchel_charge"
+msgid "M37 Demolition Kit"
+msgstr ""
+
+msgctxt "desc/stuff/bandage_american"
+msgid "Allied Bandages"
+msgstr ""
+
+msgctxt "desc/stuff/m8_smoke"
+msgid "AN-M8 White Smoke"
+msgstr ""
+
+msgctxt "desc/stuff/m18_smoke"
+msgid "M18 Smoke Flare"
+msgstr ""
+
+msgctxt "desc/stuff/grenade_mk1"
+msgid "Mk I Grenade"
+msgstr ""
+
+msgctxt "desc/stuff/grenade_mk2"
+msgid "Mk II Grenade"
+msgstr ""
+
+msgctxt "desc/stuff/mkiiia2_offensive"
+msgid "Mk IIIA2 Grenade"
+msgstr ""
+
+msgctxt "desc/stuff/us_incendiary"
+msgid "AN-M14 Incendiary Grenade"
+msgstr ""
+
+msgctxt "desc/stuff/airborne_equipment"
+msgid "T-5 Airborne Parachute Kit"
+msgstr ""
+msgctxt "desc/stuff/airborne_equipment_001"
+msgid "Magzine Pouches"
+msgstr ""
+
+msgctxt "desc/stuff/ammo_us"
+msgid "Magazine Vest & Bag"
+msgstr ""
+msgctxt "desc/stuff/ammo_us2"
+msgid "Magazine Pouches & Bag"
+msgstr ""
+
+msgctxt "desc/stuff/flamer_tank"
+msgid "Flamethrower Fuel Tank"
+msgstr ""
+
+msgctxt "desc/stuff/franz-ammo1"
+msgid "Ammunition Sling"
+msgstr ""
+
+msgctxt "desc/stuff/mgun_ammo"
+msgid "Ammo Belt"
+msgstr ""
+
+msgctxt "desc/stuff/radio_usa"
+msgid "SCR-300 Portable Radio"
+msgstr ""
+
+msgctxt "desc/stuff/radio_usa_short"
+msgid "SCR-300 Portable Radio"
+msgstr ""
+
+msgctxt "desc/stuff/us_equipmento"
+msgid "Officer Equipment"
+msgstr ""
+
+msgctxt "desc/stuff/us_haversack"
+msgid "US Haversac"
+msgstr ""
+
+msgctxt "desc/stuff/us_haversack_shovel"
+msgid "US Haversac + Shovel"
+msgstr ""
+
+msgctxt "desc/stuff/us_marine_haversack"
+msgid "USMC Haversac + Shovel"
+msgstr ""
+
+msgctxt "desc/stuff/us_musette"
+msgid "US Musette"
+msgstr ""
+
+msgctxt "desc/stuff/us_rocketbag"
+msgid "Bazooka Rocketbag"
+msgstr ""
+
+msgctxt "desc/stuff/usa_tankcrew_leader"
+msgid "Tank Commander Equipment"
+msgstr ""
+
+msgctxt "desc/stuff/usmc_equipment2"
+msgid "USMC Equipment"
+msgstr ""
+
+msgctxt "desc/stuff/usmc_equipment3"
+msgid "USMC Equipment"
+msgstr ""
+
+msgctxt "desc/stuff/usmc_equipment4"
+msgid "USMC Equipment"
+msgstr ""
+
+msgctxt "desc/stuff/usmc_equipment5"
+msgid "USMC Equipment"
+msgstr ""
+
+msgctxt "desc/stuff/usmc_equipmentm"
+msgid "Medical Bags"
+msgstr ""
+
+msgctxt "desc/stuff/cigarette"
+msgid "Cigarette"
+msgstr ""
+
+msgctxt "desc/stuff/glasses"
+msgid "Round Glasses"
+msgstr ""
+
+msgctxt "desc/stuff/sunglasses"
+msgid "Aviators"
+msgstr ""
+
+msgctxt "desc/stuff/cap_usa_general"
+msgid "General Peaked Cap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_usa_jeepcap"
+msgid "Jeep cap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_usa_pilot"
+msgid "Pilot Cap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_usa_radiohead"
+msgid "Jeep cap + Headset"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap1_usmc"
+msgid "USMC Utility Cap"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap2_1_usmc"
+msgid "USMC Utility Cap"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap2_2_usmc_radio"
+msgid "USMC Utility Cap + Headset"
+msgstr ""
+
+msgctxt "desc/stuff/helmet1_usmc"
+msgid "M1 Helmet Covered (USMC Frogskin)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet8_usmc_commando"
+msgid "M1 Helmet Covered (USMC Frogskin)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_29th"
+msgid "M1 Helmet (29th ID)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_29th_nco"
+msgid "NCO's M1 Helmet (29th ID)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_29th_net"
+msgid "M1 Helmet Netted (29th ID)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_29th_officer"
+msgid "Officers' M1 Helmet (29th ID)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_clean"
+msgid "M1 Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_cover"
+msgid "M1 Helmet Covered (Winter)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_marine_1"
+msgid "M1 Helmet Covered (USMC Frogskin)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_marine_2"
+msgid "M1 Helmet Covered (USMC Frogskin)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_cover"
+msgid "M1 Helmet (Medic)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_mjr"
+msgid "Maj.' M1 Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_mp"
+msgid "M1 Helmet (Military Police)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_mp2"
+msgid "M1 Helmet (Military Police)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_navy"
+msgid "M1 Helmet (USN)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_nco"
+msgid "NCO's M1 Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_net"
+msgid "M1 Helmet Netted"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_officer"
+msgid "Officers' M1 Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_pathfinder"
+msgid "M1 Helmet Netted + Foliage"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_pilot"
+msgid "A11 Flight Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger5th"
+msgid "M1 Helmet (5th Rangers)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger5th_cpt"
+msgid "Capt.' M1 Helmet (5th Rangers)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger5th_lt"
+msgid "Lt.' M1 Helmet (5th Rangers)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger5th_lt"
+msgid "M1 Helmet (5th Rangers) (Medic)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger5th_mjr"
+msgid "Maj.' M1 Helmet (5th Rangers)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger5th_net"
+msgid "M1 Helmet Netted (5th Rangers)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger5th_net_cpt"
+msgid "Capt.' M1 Helmet Netted (5th Rangers)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger5th_net_cpt"
+msgid "NCO's M1 Helmet Netted (5th Rangers)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger_net_cpt"
+msgid "NCO's M1 Helmet Netted (2nd Rangers)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_tank"
+msgid "M1938 Tank Helmet"
+msgstr ""
+msgctxt "desc/stuff/helmet_usa_tank2"
+msgid "M1938 Tank Helmet (M1 Helmet)"
+msgstr ""
+
+msgctxt "desc/stuff/usa_m38_helmet_1"
+msgid "M1938 Tank Helmet (Goggles)"
+msgstr ""
+
+msgctxt "desc/stuff/usa_m38_helmet_2"
+msgid "M1938 Tank Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/usa_m38_helmet_3"
+msgid "M1938 Tank Helmet (Goggles)"
+msgstr ""
+
+msgctxt "desc/stuff/usa_m38_helmet_4"
+msgid "M1938 Tank Helmet (M1 Helmet)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_enginer"
+msgid "M1 Helmet (Engineer)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_camo"
+msgid "M1 Helmet Netted + Foliage (506th PIR)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_camo_green"
+msgid "M1 Helmet Netted + Foliage (506th PIR)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_camo_medic"
+msgid "M1 Helmet Netted + Foliage (506th PIR) (Medic)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_clean_new"
+msgid "M1 Helmet (506th PIR)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_lt"
+msgid "Lt.' M1 Helmet (506th PIR)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_medic"
+msgid "M1 Helmet (506th PIR) (Medic)"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_net_nco"
+msgid "NCO's M1 Helmet Netted (506th PIR)"
+msgstr ""
+
+msgctxt "desc/stuff/pickaxe_little_david"
+msgid "Heavy Engineering Pickaxe"
+msgstr ""

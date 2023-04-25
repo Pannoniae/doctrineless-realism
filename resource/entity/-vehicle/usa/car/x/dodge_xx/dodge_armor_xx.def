@@ -1,0 +1,37 @@
+{game_entity
+	{Extension "dodge_armor_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "bodyback"
+	}
+	{Volume "engine"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "part6"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldl2"
+	}
+	{Volume "shieldl3"
+	}
+	{Volume "shieldl4"
+	}
+	{Volume "shield5"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "shieldr2"
+	}
+	{Volume "shieldr3"
+	}
+	{Volume "shieldr4"
+	}
+}

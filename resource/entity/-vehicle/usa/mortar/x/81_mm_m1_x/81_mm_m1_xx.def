@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{Extension "81mm_brandt_x.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun"
+	}
+	{Volume "noga_l"
+	}
+	{Volume "noga_r"
+	}
+	{Volume "povorot"
+	}
+}

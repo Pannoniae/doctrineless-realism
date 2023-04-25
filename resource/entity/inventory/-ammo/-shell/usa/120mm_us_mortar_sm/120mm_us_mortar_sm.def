@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	(include "/properties/shadow/round.inc")
+	{extender "stuff"
+		{item "ammo mortarus_82 sm"}
+	}
+	{props "steel" "explosive_stuff"}
+	{extension "120mm_mortar_us_sm.mdl"}
+}
+

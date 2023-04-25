@@ -35,8 +35,8 @@ if os.path.exists("./sound"):
 if os.path.exists("./texture"):
     subprocess.call(shlex.split(f"D:/path/7z/7z.exe a texture.pak ./texture -mx=7 -mmt=16 -sdel -tzip"))
 #lets just assume this exists
-#subprocess.call(shlex.split(f"D:/path/7z/7z.exe a game.pak ./interface -i!./properties -i!./script -i!./set -mx=7 -mmt=16 -sdel -tzip"))
-subprocess.call(shlex.split(f"D:/path/7z/7z.exe a game.pak ./interface -i!./script -i!./set -mx=7 -mmt=16 -sdel -tzip"))
+subprocess.call(shlex.split(f"D:/path/7z/7z.exe a game.pak ./interface -i!./properties -i!./script -i!./set -mx=7 -mmt=16 -sdel -tzip"))
+#subprocess.call(shlex.split(f"D:/path/7z/7z.exe a game.pak ./interface -i!./script -i!./set -mx=7 -mmt=16 -sdel -tzip"))
 
 #pak localisation
 os.chdir("../localizations")

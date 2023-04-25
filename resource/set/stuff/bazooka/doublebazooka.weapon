@@ -1,0 +1,5 @@
+{from "weapon bazooka_m1a1"
+	{filling "ammo bazooka" 2}
+	{inventory {noView}}
+	("reload time" seconds(17))
+}

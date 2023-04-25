@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "csomagok"}
+	{bump "$/model/csomagok_bp"}
+	{specular "$/model/csomagok_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

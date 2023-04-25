@@ -1,0 +1,6 @@
+{bitmap
+    {frame "harley_00.tga"}
+    {frame "harley_01.tga"}
+    {frame "harley_02.tga"}
+    {frame "harley_03.tga"}
+}

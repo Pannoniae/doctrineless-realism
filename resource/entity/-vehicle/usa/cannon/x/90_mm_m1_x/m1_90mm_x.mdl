@@ -1,0 +1,146 @@
+;Exported by: dpostnikov
+;Date:        Thu Apr 22 10:32:36 2021
+;File:        C:\Users\dpostnikov\Documents\3dsmax\scenes\m1_90mm_x.max
+{Skeleton
+	{bone "basis"
+		{parameters "WheelRadius=0.5;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.3}}
+			}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				9.7411	-0.904297	-1.64063
+			}
+			{VolumeView "body.ply"}
+			{bone "cover2"
+				{parameters "ID=body;"}
+				{Position 34.4906	2.00002	7.08759}
+				{VolumeView "cover2.ply"}
+				{bone "cover4"
+					{parameters "ID=body;"}
+					{Position -37.8346	-2.00002	0.079752}
+					{VolumeView "cover4.ply"}
+				}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "break" {file "turret_b.anm"} {speed 0.3}}
+				}
+				{Position 4.40727	0	5.81742}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -15 55}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-9.12384	0.0148302	25.7751
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"} {speed 0.3}}
+						}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							16.2019	1.83104	0.0549049
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+				{bone "seat"
+					{parameters "ID=turret;"}
+					{Position 0	8.38769	14.114}
+					{VolumeView "seat.ply"}
+				}
+			}
+			{bone "cover1"
+				{parameters "ID=body;"}
+				{Position 34.2756	-1.90708	7.08759}
+				{VolumeView "cover1.ply"}
+				{bone "cover3"
+					{parameters "ID=body;"}		
+					{Position -37.6196	1.90708	0.079752}
+					{VolumeView "cover3.ply"}
+				}
+			}
+			{bone "standr"
+				{parameters "ID=body;"}
+				{Position 0	13.3113	6.0722}
+				{VolumeView "stand2.ply"}
+				{bone "stand2_1"
+					{parameters "ID=body;"}
+					{Position 0	32.7647	-4.93443}
+					{VolumeView "stand2_1.ply"}
+				}
+			}
+			{bone "standl"
+				{parameters "ID=body;"}
+				{Position 0	-13.3151	6.07352}
+				{VolumeView "stand1.ply"}
+				{bone "stand1_1"
+					{parameters "ID=body;"}
+					{Position 0	-32.763	-4.93264}
+					{VolumeView "stand1_1.ply"}
+				}
+			}
+			{bone "stand3"
+				{parameters "ID=body;"}
+				{Position -5.58173	0	6.07134}
+				{VolumeView "stand3.ply"}
+				{bone "stand3_1"
+					{parameters "ID=body;"}
+					{Position -32.7602	0	-4.92975}
+					{VolumeView "stand3_1.ply"}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position -27.5676	-0.862561	9.91837}
+			{bone "suspension"
+				{parameters "CommonMesh;ID=body;"}
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					0.00162506	-0.00330776	-0.00865269
+				}
+				{VolumeView "suspension.ply"}
+				{bone revolute "wheelr"
+					{parameters "CommonMesh;ID=wheelright;"}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	1	0
+						0.000305176	-0.225701	-8.86917e-005
+					}
+					{VolumeView "wheelr.ply"}
+				}
+				{bone revolute "wheell"
+					{parameters "CommonMesh;ID=wheelleft;"}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	1	0
+						0.000305176	0.222554	-8.86917e-005
+					}
+					{VolumeView "wheell.ply"}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,93 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CtA - Gates of Hell (doctrines usa)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+msgctxt "mp/lobby/doctrine/late_ger_1mace"
+msgid "[MACE-1] Ersatztruppen"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_1mace#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_2mace"
+msgid "[MACE-2] Wunderwaffe"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_2mace#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_3mace"
+msgid "[MACE-3] Panzerartillerie"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_3mace#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_allround"
+msgid "[All-Round] Pacific Assualt"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_irregular"
+msgid "[Irregular] Veterans"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_irregular#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_offensive"
+msgid "[Offensive] Breaking the Siegfried"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_offensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_defensive"
+msgid "[Defensive] Field Artillery Battalion"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_defensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_support"
+msgid "[Support] Aerial Superiority"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_support#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_usa_defensive"
+msgid "[Defensive] Auxiliary Defense"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_usa_defensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_usa_offensive"
+msgid "[Offensive] Auxiliary Offense"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_usa_offensive#hint"
+msgid ""
+msgstr ""

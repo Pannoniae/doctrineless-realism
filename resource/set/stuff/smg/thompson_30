@@ -1,0 +1,3 @@
+{from "thompson"
+	{filling "ammo thompson_mag" 30}
+}

@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-101st-carbine"}
+	{portrait "usa_elite1"}
+	{nationality usa}
+	{icon "elite"}
+	{icon_priority 3}
+	{armors
+		{head helmet_usa_506th_camo}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m1_carbine" filled}
+		{item  "ammo 7x33" 150}
+		{item "bandage_usa" 5}
+		{item "grenade mk2" 5}
+		{item "smoke grenade" 2}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}

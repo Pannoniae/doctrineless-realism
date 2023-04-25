@@ -1,0 +1,12 @@
+{from "pattern apcbche" ;M61 Shot
+	{tag "size2 75to76"}
+	{inventory {size 5 1}}
+	{entity "75mm_usa_l55_apcbc"}
+	{mass 9.03}
+
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_usa_75_ap" "tail"}
+	}
+
+	("ap_blast" args 0.78)
+}

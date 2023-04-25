@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-marine2-rfl"}
+	{portrait "usa_elite2"}
+	{nationality usa}
+	{icon "elite7"}
+	{icon_priority 3}
+	{armors
+		{body us_marine_haversack}
+		{head helmet_usa_marine}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m2_carbine" filled}
+		{item  "ammo 7x33" 300}
+		{item "bandage_usa" 5}
+		{item "grenade mk2" 2}
+		{item "smoke grenade" 2}
+		{item "dynamite"}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}

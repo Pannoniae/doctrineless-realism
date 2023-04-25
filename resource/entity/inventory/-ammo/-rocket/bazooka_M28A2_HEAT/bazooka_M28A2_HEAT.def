@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ammo bazooka_M28A2_HEAT"}
+	}
+	{extension "bazooka_M28A2_HEAT.mdl"}
+
+	(include "/properties/shadow/round.inc")
+}

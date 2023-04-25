@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-ranger-smg"}
+	{portrait "usa_soldier5"}
+	{nationality usa}
+	{icon "stormtrooper"}
+	{icon_priority 4}
+	{armors
+		{head "helmet_usa_ranger"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "thompson_30" filled}
+		{item  "ammo 11x23" 300}
+		{item "bandage_usa" 5}
+		{item "grenade mk2" 5}
+		{item "smoke grenade" 2}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}

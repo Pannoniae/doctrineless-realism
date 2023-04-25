@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-late-rfl"}
+	{portrait "usa_elite4"}
+	{nationality usa}
+	{icon "scout"}
+	{icon_priority 5}
+	{armors
+		{head helmet_usa_506th_camo_nco}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("at_rank_3")
+	}
+	{inventory
+		{item "hdm" filled}
+		{item  "ammo 5x15" 150}
+		{item "weapon bazooka_m1a1" filled}
+		{item "ammo bazooka" 5}
+		{item "bandage_usa" 5}
+		{item "grenade mk2" 4}
+		{item "smoke grenade" 3}
+		{item "grenade molotov_cocktail" 2}
+		{item "knife_union" 1}
+		{item "matchbox" 1}
+		{item "wirecutters"}
+		{in_hands 0}
+	}
+}

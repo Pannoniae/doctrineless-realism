@@ -1,0 +1,4 @@
+{from "thompson"
+	{filling "ammo thompson_mag" 30}
+	{entity "thompson_m1_30"}
+}

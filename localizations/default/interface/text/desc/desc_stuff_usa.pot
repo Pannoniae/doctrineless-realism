@@ -1,0 +1,693 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_stuff)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/stuff/mk2"
+msgid "AP grenade Mk.2"
+msgstr ""
+
+msgctxt "desc/stuff/satchel"
+msgid "Satchel"
+msgstr ""
+
+msgctxt "desc/stuff/ammo_box_art_usa"
+msgid "Artillery ammos [USA]"
+msgstr ""
+
+msgctxt "desc/stuff/ammo_box_inf_usa"
+msgid "Infantry ammos [USA]"
+msgstr ""
+
+msgctxt "desc/stuff/bandage_usa"
+msgid "Bandage [USA]"
+msgstr ""
+
+msgctxt "desc/stuff/beret_eng_tank"
+msgid "Beret British Tank"
+msgstr ""
+
+msgctxt "desc/stuff/cap1_jap"
+msgid "Cap Japanese"
+msgstr ""
+
+msgctxt "desc/stuff/cap1_usa"
+msgid "Cap US"
+msgstr ""
+
+msgctxt "desc/stuff/cap_eng_beret_commando"
+msgid "Cap British Beret Commando"
+msgstr ""
+
+msgctxt "desc/stuff/cap_eng_fs"
+msgid "Cap British Fs"
+msgstr ""
+
+msgctxt "desc/stuff/cap_eng_off"
+msgid "Cap British Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_eng_radiohead"
+msgid "Cap British Radiohead"
+msgstr ""
+
+msgctxt "desc/stuff/cap_eng_tamoshanter"
+msgid "Cap British Tamoshanter"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra2"
+msgid "Cap French"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_beret_commando"
+msgid "Cap French Beret Commando"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_beret_tank"
+msgid "Cap French Beret Tank"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_beret_tank_officer"
+msgid "Cap French Beret Tank Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_chechia"
+msgid "Cap French Chechia"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_chechia_cover"
+msgid "Cap French Chechia Cover"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_kepi_legion"
+msgid "Cap French Kepi Legion"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_kepi_officer_colonial"
+msgid "Cap French Kepi Officer Colonial"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_kepi_officer_hussars"
+msgid "Cap French Kepi Officer Hussars"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_kepi_officer_legion"
+msgid "Cap French Kepi Officer Legion"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_kepi_officer_moroccan"
+msgid "Cap French Kepi Officer Moroccan"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_marine"
+msgid "Cap French Marine"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_marine_officer"
+msgid "Cap French Marine Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_pilot"
+msgid "Cap French Pilot"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_radiohead"
+msgid "Cap French Radiohead"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_sidecap"
+msgid "Cap French Sidecap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_sidecap_chasseur"
+msgid "Cap French Sidecap Chasseur"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_sidecap_chasseur_officer"
+msgid "Cap French Sidecap Chasseur Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_sidecap_colonial"
+msgid "Cap French Sidecap Colonial"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_sidecap_officer"
+msgid "Cap French Sidecap Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_fra_sidecap_spahi"
+msgid "Cap French Sidecap Spahi"
+msgstr ""
+
+msgctxt "desc/stuff/cap_ita_alpini"
+msgid "Cap Italian Alpini"
+msgstr ""
+
+msgctxt "desc/stuff/cap_ita_bustina"
+msgid "Cap Italian Bustina"
+msgstr ""
+
+msgctxt "desc/stuff/cap_ita_bustina_officer"
+msgid "Cap Italian Bustina Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_ita_navy"
+msgid "Cap Italian Navy"
+msgstr ""
+
+msgctxt "desc/stuff/cap_ita_radiohead"
+msgid "Cap Italian Radiohead"
+msgstr ""
+
+msgctxt "desc/stuff/cap_jap_off"
+msgid "Cap Japanese Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_jap_snlf"
+msgid "Cap Japanese Snlf"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_2div"
+msgid "Cap Polish 2div"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_2div_officer"
+msgid "Cap Polish 2div Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_beret"
+msgid "Cap Polish Beret"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_beret_commando"
+msgid "Cap Polish Beret Commando"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_beret_eng_tank"
+msgid "Cap Polish Beret British Tank"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_beret_eng_tank_officer"
+msgid "Cap Polish Beret British Tank Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_beret_skorpion"
+msgid "Cap Polish Beret Skorpion"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_eng_sidecap"
+msgid "Cap Polish British Sidecap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_eng_sidecap_officer"
+msgid "Cap Polish British Sidecap Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_eng_sidecap_radiohead"
+msgid "Cap Polish British Sidecap Radiohead"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_fieldcap"
+msgid "Cap Polish Fieldcap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_kop"
+msgid "Cap Polish Kop"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_officer"
+msgid "Cap Polish Officer"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_radiohead"
+msgid "Cap Polish Radiohead"
+msgstr ""
+
+msgctxt "desc/stuff/cap_pol_sidecap"
+msgid "Cap Polish Sidecap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_usa_general"
+msgid "Cap US General"
+msgstr ""
+
+msgctxt "desc/stuff/cap_usa_jeepcap"
+msgid "Cap US Jeepcap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_usa_navy"
+msgid "Cap US Navy"
+msgstr ""
+
+msgctxt "desc/stuff/cap_usa_pilot"
+msgid "Cap US Pilot"
+msgstr ""
+
+msgctxt "desc/stuff/cap_usa_radiohead"
+msgid "Cap US Radiohead"
+msgstr ""
+
+msgctxt "desc/stuff/cap_usa_usmc_radiohead"
+msgid "Cap USMC Radiohead"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap1_hun"
+msgid "Fieldcap Hungarian"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap1_ija1_camo"
+msgid "Fieldcap IJA Camo"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap1_jap"
+msgid "Fieldcap Japanese"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap1_jap_navy"
+msgid "Fieldcap Japanese Navy"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap1_jap_radio"
+msgid "Fieldcap Japanese Radio"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap2_hun"
+msgid "Fieldcap Hungarian"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap2_ija1"
+msgid "Fieldcap IJA"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap3_hun"
+msgid "Fieldcap Hungarian"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap_hun"
+msgid "Fieldcap Hungarian"
+msgstr ""
+
+msgctxt "desc/stuff/fieldcap_jap"
+msgid "Fieldcap Japanese"
+msgstr ""
+
+msgctxt "desc/stuff/hat_no4"
+msgid "Hat No4"
+msgstr ""
+
+msgctxt "desc/stuff/helmet1_fra_medic"
+msgid "Helmet French Medic"
+msgstr ""
+
+msgctxt "desc/stuff/helmet1_hun"
+msgid "Helmet Hungarian"
+msgstr ""
+
+msgctxt "desc/stuff/helmet1_jap"
+msgid "Helmet Japanese"
+msgstr ""
+
+msgctxt "desc/stuff/helmet1_snlf"
+msgid "Helmet Snlf"
+msgstr ""
+
+msgctxt "desc/stuff/helmet2_hun"
+msgid "Helmet Hungarian"
+msgstr ""
+
+msgctxt "desc/stuff/helmet2_jap"
+msgid "Helmet Japanese"
+msgstr ""
+
+msgctxt "desc/stuff/helmet3_hun"
+msgid "Helmet Hungarian"
+msgstr ""
+
+msgctxt "desc/stuff/helmet3_jap"
+msgid "Helmet Japanese"
+msgstr ""
+
+msgctxt "desc/stuff/helmet4_jap_para"
+msgid "Helmet Japanese Para"
+msgstr ""
+
+msgctxt "desc/stuff/helmet5_jap"
+msgid "Helmet Japanese"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_airborne_usa2"
+msgid "Helmet Airborne US"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_eng_mkii"
+msgid "Helmet British Mkii"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_eng_mkii_camo"
+msgid "Helmet British Mkii Camo"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_eng_mkii_net"
+msgid "Helmet British Mkii Net"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_eng_para"
+msgid "Helmet British Para"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_eng_para_camo"
+msgid "Helmet British Para Camo"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_eng_para_net"
+msgid "Helmet British Para Net"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_eng_pilot"
+msgid "Helmet British Pilot"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra"
+msgid "Helmet French "
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra1"
+msgid "Helmet French "
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra2"
+msgid "Helmet French "
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_cover"
+msgid "Helmet French Cover"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_goumier"
+msgid "Helmet French Goumier"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_m1"
+msgid "Helmet French M1"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_m1_2"
+msgid "Helmet French M1 2"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_m1_colonial"
+msgid "Helmet French M1 Colonial"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_m26"
+msgid "Helmet French M26"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_m26_chasseur"
+msgid "Helmet French M26 Chasseur"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_m26_colonial"
+msgid "Helmet French M26 Colonial"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_m26_ffl"
+msgid "Helmet French M26 Ffl"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_m26_moroccan"
+msgid "Helmet French M26 Moroccan"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_m35_inf"
+msgid "Helmet French M35 Inf"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_m35_tank"
+msgid "Helmet French M35 Tank"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_mkii"
+msgid "Helmet French Mkii"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_pith"
+msgid "Helmet French Pith"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_fra_pith2"
+msgid "Helmet French Pith"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_hun_pilot"
+msgid "Helmet Hungarian Pilot"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_m33"
+msgid "Helmet Italian M33"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_m33_alpini"
+msgid "Helmet Italian M33 Alpini"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_m33_bersaglieri"
+msgid "Helmet Italian M33 Bersaglieri"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_m33_clean"
+msgid "Helmet Italian M33 Clean"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_m33_medic"
+msgid "Helmet Italian M33 Medic"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_m33_mvsn"
+msgid "Helmet Italian M33 Mvsn"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_m33_rsi"
+msgid "Helmet Italian M33 Rsi"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_para"
+msgid "Helmet Italian Para"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_para_cover"
+msgid "Helmet Italian Para Cover"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_tank"
+msgid "Helmet Italian Tank"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_mkii"
+msgid "Helmet Polish Mkii"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_mkii_camo"
+msgid "Helmet Polish Mkii Camo"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_mkii_desert"
+msgid "Helmet Polish Mkii Desert"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_mkii_net"
+msgid "Helmet Polish Mkii Net"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_para"
+msgid "Helmet Polish Para"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_para_camo"
+msgid "Helmet Polish Para Camo"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_para_net"
+msgid "Helmet Polish Para Net"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_pilot"
+msgid "Helmet Polish Pilot"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_tank"
+msgid "Helmet Polish Tank"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_wz15"
+msgid "Helmet Polish Wz15"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_wz16"
+msgid "Helmet Polish Wz16"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_pol_wz31"
+msgid "Helmet Polish Wz31"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th"
+msgid "Helmet US 506th"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_camo"
+msgid "Helmet US 506th Camo"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_camo_nco"
+msgid "Helmet US 506th Camo Nco"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_camo_officer"
+msgid "Helmet US 506th Camo Officer"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_nco"
+msgid "Helmet US 506th Nco"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_506th_officer"
+msgid "Helmet US 506th Officer"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_clean"
+msgid "Helmet US Clean"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_marine"
+msgid "Helmet US Marine"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_medic"
+msgid "Helmet US Medic"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_nco"
+msgid "Helmet US Nco"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_net"
+msgid "Helmet US Net"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_officer"
+msgid "Helmet US Officer"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_pilot"
+msgid "Helmet US Pilot"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger"
+msgid "Helmet US Ranger"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger_nco"
+msgid "Helmet US Ranger Nco"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_usa_ranger_officer"
+msgid "Helmet US Ranger Officer"
+msgstr ""
+
+msgctxt "desc/stuff/jappilot_cap"
+msgid "Jappilot Cap"
+msgstr ""
+
+msgctxt "desc/stuff/jap_radiohat"
+msgid "Japanese Radiohat"
+msgstr ""
+
+msgctxt "desc/stuff/radiocap_hun"
+msgid "Radiocap Hungarian"
+msgstr ""
+
+msgctxt "desc/stuff/snlf_helmet"
+msgid "Snlf Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/snlf_tropical"
+msgid "Snlf Tropical"
+msgstr ""
+
+msgctxt "desc/stuff/tankhelmet2_hun"
+msgid "Tankhelmet Hungarian"
+msgstr ""
+
+msgctxt "desc/stuff/tankhelmet_jap"
+msgid "Tankhelmet Japanese"
+msgstr ""
+
+msgctxt "desc/stuff/tankhelmet_usa"
+msgid "Tankhelmet US"
+msgstr ""
+
+msgctxt "desc/stuff/en_backpack"
+msgid "British backpack"
+msgstr ""
+
+msgctxt "desc/stuff/en_backpack2"
+msgid "British backpack"
+msgstr ""
+
+msgctxt "desc/stuff/en_commando_backpack"
+msgid "British commando backpack"
+msgstr ""
+
+msgctxt "desc/stuff/en_gasmask_bag"
+msgid "British gasmask bag"
+msgstr ""
+
+msgctxt "desc/stuff/fr_backpack"
+msgid "French backpack"
+msgstr ""
+
+msgctxt "desc/stuff/it_backpack"
+msgid "Italian backpack"
+msgstr ""
+
+msgctxt "desc/stuff/it_backpack_alpini"
+msgid "Italian backpack Alpini"
+msgstr ""
+
+msgctxt "desc/stuff/kamikaze_bomb"
+msgid "Kamikaze bomb"
+msgstr ""
+
+msgctxt "desc/stuff/pol_knapsack"
+msgid "Polish knapsack"
+msgstr ""
+
+msgctxt "desc/stuff/us_gasmask_bag"
+msgid "US gasmask bag"
+msgstr ""
+
+msgctxt "desc/stuff/us_haversack"
+msgid "US haversack"
+msgstr ""
+
+msgctxt "desc/stuff/us_haversack_shovel"
+msgid "US haversack shovel"
+msgstr ""
+
+msgctxt "desc/stuff/us_marine_haversack"
+msgid "US marine haversack"
+msgstr ""
+
+msgctxt "desc/stuff/us_musette"
+msgid "US musette"
+msgstr ""

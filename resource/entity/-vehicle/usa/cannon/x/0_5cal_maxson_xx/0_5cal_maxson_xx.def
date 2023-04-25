@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "maxson2_xx.mdl"}
+	{Volume "part3"
+	}
+	{Volume "part2"
+	}
+	{Volume "part1"
+	}
+}

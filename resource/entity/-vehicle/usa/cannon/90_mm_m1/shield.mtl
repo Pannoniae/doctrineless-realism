@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m1 90mm_shield"}
+	{specular "$/model/m1 90mm_shield_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

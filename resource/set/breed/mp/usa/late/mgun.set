@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-late-bar"}
+	{portrait "usa_soldier2"}
+	{nationality usa}
+	{icon "mg"}
+	{icon_priority 2}
+	{armors
+		{head helmet_usa_clean}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_2")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "bar" filled}
+		{item "colt" filled}
+		{item  "ammo 7x63" 115}
+		{item  "ammo 11x23" 105}
+		{item "bandage_usa" 3}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}

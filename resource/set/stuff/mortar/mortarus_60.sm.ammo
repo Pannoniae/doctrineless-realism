@@ -1,0 +1,12 @@
+{from "pattern mortar_ammo"
+	{tag "shell smoke wp_size2"}
+	{inventory
+		{size 2 1}
+	}
+	{entity "82mm_us_mortar_sm"}
+	{mass 1.38}
+
+	("minimum_range_medium")
+
+	("wp" cal(60))
+}

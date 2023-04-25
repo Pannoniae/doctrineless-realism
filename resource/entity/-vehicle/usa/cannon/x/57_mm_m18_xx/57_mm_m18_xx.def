@@ -1,0 +1,11 @@
+{game_entity
+	{Extension "57mm_m18_xx.mdl"}
+	{Volume "body_01"
+	}
+	{Volume "body_02"
+	}
+	{Volume "body"
+	}
+	{Volume "gun_root"
+	}
+}

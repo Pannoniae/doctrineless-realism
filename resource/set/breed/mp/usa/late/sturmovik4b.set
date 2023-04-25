@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-ranger-carbine"}
+	{portrait "usa_soldier5"}
+	{nationality usa}
+	{icon "stormtrooper4b"}
+	{icon_priority 4}
+	{armors
+		{head "helmet_usa_ranger"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m1_carbine" filled}
+		{item  "ammo 7x33" 150}
+		{item "bandage_usa" 5}
+		{item "grenade mk2" 5}
+		{item "dynamite" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}

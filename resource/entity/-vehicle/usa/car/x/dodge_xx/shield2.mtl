@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "shield2_xx"}
+	{blend none}
+}

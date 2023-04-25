@@ -1,0 +1,21 @@
+{from "pattern mortar_ammo"
+	{tag "shell smoke wp_size2"}
+	{inventory
+		{size 3 1}
+	}
+	{entity "120mm_us_mortar_wp"}
+	{view "120mm_us_mortar_wp"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 4.8}
+
+	("wp" cal(81))
+
+	{damage fire
+		{radius 5}
+		{heating 10}
+		{time 30}
+		;{ground_interaction_radius 0.3} ;// crashes game if used with fire damage
+	}
+}
+

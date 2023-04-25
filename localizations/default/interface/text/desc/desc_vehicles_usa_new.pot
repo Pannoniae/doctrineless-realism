@@ -1,0 +1,833 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_vehicles_usa)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/entity/us_m22"
+msgid "M22"
+msgstr ""
+
+msgctxt "desc/entity/little_david"
+msgid "914 mm Little David"
+msgstr ""
+
+msgctxt "info/special/little_david"
+msgid "<c(c3baae)>Siege Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/c-47_skytrain_dakota"
+msgid "C-47"
+msgstr ""
+
+msgctxt "info/special/c-47_skytrain_dakota"
+msgid "<c(c3baae)>Transport Plane</c>"
+msgstr ""
+
+msgctxt "desc/entity/conquest_a26b"
+msgid "A-26 Airstrike"
+msgstr ""
+
+msgctxt "desc/entity/inf_crate_usa"
+msgid "US Ammo Crate"
+msgstr ""
+
+msgctxt "info/special/inf_crate_usa"
+msgid "<c(c3baae)>Supply</c>"
+msgstr ""
+
+msgctxt "info/special/churchill_crocodile"
+msgid "<c(c3baae)>Heavy Flame Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/churchill_crocodile"
+msgid "Churchill Crocodile"
+msgstr ""
+
+msgctxt "info/special/churchill_crocodile_trailer"
+msgid "<c(c3baae)>Trailer</c>"
+msgstr ""
+
+msgctxt "desc/entity/churchill_crocodile_trailer"
+msgid "Fuel Trailer"
+msgstr ""
+
+msgctxt "info/special/a-26b-50"
+msgid "<c(c3baae)>Strike Aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/a-26b-50"
+msgid "A-26B-50"
+msgstr ""
+
+msgctxt "info/special/p-47n-15"
+msgid "<c(c3baae)>Strike Aircraft</c>"
+msgstr ""
+
+msgctxt "desc/entity/p-47n-15"
+msgid "P-47N-15"
+msgstr ""
+
+msgctxt "info/special/40mm_m1_bofors"
+msgid "<c(c3baae)>Medium AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/40mm_m1_bofors"
+msgid "40 mm Bofors M1"
+msgstr ""
+
+msgctxt "info/special/60mm_m2_mortar"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/60mm_m2_mortar"
+msgid "60 mm Mortar M2"
+msgstr ""
+
+msgctxt "info/special/81mm_m1"
+msgid "<c(c3baae)>Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/81mm_m1"
+msgid "81 mm Mortar M1"
+msgstr ""
+
+msgctxt "info/special/browning_m1917a1_mg"
+msgid "<c(c3baae)>Machine Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/browning_m1917a1_mg"
+msgid "M1917A1 Stand"
+msgstr ""
+
+msgctxt "info/special/browning_m1919a4_f"
+msgid "<c(c3baae)>Machine Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/browning_m1919a4_f"
+msgid "M1919A4 Stand"
+msgstr ""
+
+msgctxt "info/special/browning_m2_mg"
+msgid "<c(c3baae)>Machine Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/browning_m2_mg"
+msgid "M2HB Stand"
+msgstr ""
+
+msgctxt "info/special/ab_m1_how_75mm"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/ab_m1_how_75mm"
+msgid "75 mm Howitzer M1"
+msgstr ""
+
+msgctxt "info/special/m1a1_155mm_long_tom"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1a1_155mm_long_tom"
+msgid "155 mm Howitzer M1A1"
+msgstr ""
+
+msgctxt "info/special/m2a1_how_105mm"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/m2a1_how_105mm"
+msgid "105 mm Howitzer M2A1"
+msgstr ""
+
+msgctxt "info/special/us_m115"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m115"
+msgid "203 mm Howitzer M1"
+msgstr ""
+
+msgctxt "info/special/m3_how_105mm"
+msgid "<c(c3baae)>Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/m3_how_105mm"
+msgid "105 mm Howitzer M3"
+msgstr ""
+
+msgctxt "info/special/m18_recoiless_rifle_f"
+msgid "<c(c3baae)>Recoiless Rifle</c>"
+msgstr ""
+
+msgctxt "desc/entity/m18_recoiless_rifle_f"
+msgid "57 mm recoiless rifle M18"
+msgstr ""
+
+msgctxt "info/special/m1_gun_57mm"
+msgid "<c(c3baae)>Medium AT gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/m1_gun_57mm"
+msgid "57 mm gun M1"
+msgstr ""
+
+msgctxt "info/special/m5_gun_76mm"
+msgid "<c(c3baae)>Medium AT gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/m5_gun_76mm"
+msgid "76 mm gun M5"
+msgstr ""
+
+msgctxt "info/special/us_m3_gun_37mm"
+msgid "<c(c3baae)>Light AT gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m3_gun_37mm"
+msgid "37 mm gun M3"
+msgstr ""
+
+msgctxt "info/special/tiz_am600"
+msgid "<c(c3baae)>Motorcycle</c>"
+msgstr ""
+
+msgctxt "desc/entity/tiz_am600"
+msgid "Harely-Davidson WLA"
+msgstr ""
+
+msgctxt "info/special/np_willys_com"
+msgid "<c(c3baae)>Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/np_willys_com"
+msgid "Ford GPW (Command)"
+msgstr ""
+
+msgctxt "info/special/willys_jeep_medical"
+msgid "<c(c3baae)>Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/willys_jeep_medical"
+msgid "Willys MB (Medic)"
+msgstr ""
+
+msgctxt "info/special/willys_jeep_com"
+msgid "<c(c3baae)>Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/willys_jeep_com"
+msgid "Willys MB (Command)"
+msgstr ""
+
+msgctxt "info/special/willys_jeep"
+msgid "<c(c3baae)>Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/willys_jeep"
+msgid "Willys MB (M1919)"
+msgstr ""
+
+msgctxt "info/special/willys_jeep2"
+msgid "<c(c3baae)>Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/willys_jeep2"
+msgid "Willys MB (M2HB)"
+msgstr ""
+
+msgctxt "info/special/us_xylophone"
+msgid "<c(c3baae)>Rocket artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_xylophone"
+msgid "GMC (114mm M8)"
+msgstr ""
+
+msgctxt "info/special/us_m3_stuart"
+msgid "<c(c3baae)>Light tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m3_stuart"
+msgid "M3 Stuart"
+msgstr ""
+
+msgctxt "info/special/us_m2a2"
+msgid "<c(c3baae)>Light tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m2a2"
+msgid "M2A2"
+msgstr ""
+
+msgctxt "info/special/us_m6a2e1"
+msgid "<c(c3baae)>Heavy tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m6a2e1"
+msgid "M6A2E1"
+msgstr ""
+
+msgctxt "info/special/us_t30"
+msgid "<c(c3baae)>Heavy tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_t30"
+msgid "T30"
+msgstr ""
+
+msgctxt "info/special/us_t34"
+msgid "<c(c3baae)>Heavy tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_t34"
+msgid "T34"
+msgstr ""
+
+msgctxt "info/special/us_t32e1"
+msgid "<c(c3baae)>Heavy tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_t32e1"
+msgid "T32E1"
+msgstr ""
+
+msgctxt "info/special/us_t18e2"
+msgid "<c(c3baae)>Armoured car</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_t18e2"
+msgid "T18E2"
+msgstr ""
+
+msgctxt "info/special/us_m3a1e1_scout"
+msgid "<c(c3baae)>Half-Track</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m3a1e1_scout"
+msgid "M3A1E1 Scout car"
+msgstr ""
+
+msgctxt "info/special/us_m3a1e1_scout_mgun"
+msgid "<c(c3baae)>Half-Track</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m3a1e1_scout_mgun"
+msgid "M3A1E1 (MG) Scout car"
+msgstr ""
+
+msgctxt "info/special/us_t95"
+msgid "<c(c3baae)>Super heavy tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_t95"
+msgid "T95 GMC"
+msgstr ""
+
+msgctxt "info/special/us_m2_med"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m2_med"
+msgid "M2A1"
+msgstr ""
+
+msgctxt "info/special/us_m3"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m3"
+msgid "M3 Lee"
+msgstr ""
+
+msgctxt "info/special/us_m3_recovery"
+msgid "<c(c3baae)>Armored recovery vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m3_recovery"
+msgid "M31 ARV"
+msgstr ""
+
+msgctxt "info/special/us_m4"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4"
+msgid "M4"
+msgstr ""
+
+msgctxt "info/special/us_m4_improved"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4_improved"
+msgid "M4 Improved"
+msgstr ""
+
+msgctxt "info/special/us_m4_t34"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4_t34"
+msgid "M4 (T34)"
+msgstr ""
+
+msgctxt "info/special/us_m4a1(76)w"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a1(76)w"
+msgid "M4A1 (76) W"
+msgstr ""
+
+msgctxt "info/special/us_m4a1"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a1"
+msgid "M4A1"
+msgstr ""
+
+msgctxt "info/special/us_m4a3"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3"
+msgid "M4A3"
+msgstr ""
+
+msgctxt "info/special/us_m4a3_105"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3_105"
+msgid "M4A3 (105)"
+msgstr ""
+
+msgctxt "info/special/us_m4a3e2(76)w"
+msgid "<c(c3baae)>Heavy tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3e2(76)w"
+msgid "M4A3E2 (76) W"
+msgstr ""
+
+msgctxt "info/special/us_m4a3e2"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3e2"
+msgid "M4A3E2"
+msgstr ""
+
+msgctxt "info/special/us_m4a3e2_cobraking"
+msgid "<c(c3baae)>Heavy tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3e2_cobraking"
+msgid "M4A3E2 'Cobra King'"
+msgstr ""
+
+msgctxt "info/special/us_m4a3e8"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3e8"
+msgid "M4A3E8"
+msgstr ""
+
+msgctxt "info/special/us_m4a3e8_fury"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3e8_fury"
+msgid "M4A3E8 'Fury'"
+msgstr ""
+
+msgctxt "info/special/us_m4a3e8_thundervii"
+msgid "<c(c3baae)>Medium tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3e8_thundervii"
+msgid "M4A3E8 'Thunderbolt VII'"
+msgstr ""
+
+msgctxt "info/special/us_m4a3r3_zippo"
+msgid "<c(c3baae)>Flame tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3r3_zippo"
+msgid "M4A3R3 'Zippo'"
+msgstr ""
+
+msgctxt "info/special/us_halftrack_t48"
+msgid "<c(c3baae)>Gun Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_halftrack_t48"
+msgid "M3 GMC"
+msgstr ""
+
+msgctxt "info/special/us_m8"
+msgid "<c(c3baae)>Howitzer Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m8"
+msgid "M8 HMC"
+msgstr ""
+
+msgctxt "info/special/us_m8a1"
+msgid "<c(c3baae)>Gun Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m8a1"
+msgid "M8A1 GMC"
+msgstr ""
+
+msgctxt "info/special/us_m10"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m10"
+msgid "M10 GMC"
+msgstr ""
+
+msgctxt "info/special/us_m10a1"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m10a1"
+msgid "M10A1 GMC"
+msgstr ""
+
+msgctxt "info/special/us_m18"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m18"
+msgid "M18 GMC"
+msgstr ""
+
+msgctxt "info/special/us_m18_90"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m18_90"
+msgid "M18 GMC (90mm)"
+msgstr ""
+
+
+msgctxt "info/special/us_m18_blackcat"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m18_blackcat"
+msgid "M18 GMC 'Black Cat'"
+msgstr ""
+
+msgctxt "info/special/us_m36"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m36"
+msgid "M36 GMC"
+msgstr ""
+
+msgctxt "info/special/us_m36b1"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m36b1"
+msgid "M36B1 GMC"
+msgstr ""
+
+msgctxt "info/special/us_m36b2"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m36b2"
+msgid "M36B2 GMC"
+msgstr ""
+
+msgctxt "info/special/us_t95_gen2"
+msgid "<c(c3baae)>Gun Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_t95_gen2"
+msgid "T28 GMC"
+msgstr ""
+
+msgctxt "info/special/us_t26e1_1"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_t26e1_1"
+msgid "T26E1-1"
+msgstr ""
+
+
+msgctxt "info/special/us_m26"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m26"
+msgid "M26"
+msgstr ""
+
+msgctxt "info/special/us_m26e1"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m26e1"
+msgid "M26e1"
+msgstr ""
+
+msgctxt "info/special/us_lvtm24"
+msgid "<c(c3baae)>Amphibious Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_lvtm24"
+msgid "LVT-M24"
+msgstr ""
+
+msgctxt "info/special/us_lvta4"
+msgid "<c(c3baae)>Amphibious Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_lvta4"
+msgid "LVT(A)-4"
+msgstr ""
+
+msgctxt "info/special/us_lvta1"
+msgid "<c(c3baae)>Amphibious Vehicle</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_lvta1"
+msgid "LVT(A)-1"
+msgstr ""
+
+msgctxt "info/special/us_m5a1"
+msgid "<c(c3baae)>Light Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/US_M5A1"
+msgid "M5A1"
+msgstr ""
+
+msgctxt "info/special/us_m24"
+msgid "<c(c3baae)>Light Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m24"
+msgid "M24"
+msgstr ""
+
+msgctxt "info/special/us_halftrack_m21"
+msgid "<c(c3baae)>Mortar Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_halftrack_m21"
+msgid "M21 MMC"
+msgstr ""
+
+msgctxt "info/special/us_halftrack_m3"
+msgid "<c(c3baae)>Half-Track</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_halftrack_m3"
+msgid "M3 Half-Track"
+msgstr ""
+
+msgctxt "info/special/us_halftrack_m3_gen2"
+msgid "<c(c3baae)>Half-Track</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_halftrack_m3_gen2"
+msgid "M3A1 Half-Track"
+msgstr ""
+
+msgctxt "info/special/us_m8_greyhound_gen2"
+msgid "<c(c3baae)>Light Armored Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m8_greyhound_gen2"
+msgid "M8 LAC"
+msgstr ""
+
+msgctxt "info/special/us_m8_greyhound"
+msgid "<c(c3baae)>Light Armored Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m8_greyhound"
+msgid "M8 LAC"
+msgstr ""
+
+msgctxt "info/special/us_m20"
+msgid "<c(c3baae)>Armored Utility Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m20"
+msgid "M20 AUC"
+msgstr ""
+
+msgctxt "info/special/us_halftrack_m15a1"
+msgid "<c(c3baae)>Combination Gun Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_halftrack_m15a1"
+msgid "M15A1 CGMC"
+msgstr ""
+
+
+msgctxt "info/special/us_halftrack_m16"
+msgid "<c(c3baae)>Multiple Gun Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_halftrack_m16"
+msgid "M16 MGMC"
+msgstr ""
+
+
+msgctxt "info/special/us_m19"
+msgid "<c(c3baae)>Multiple Gun Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m19"
+msgid "M19A1 MGMC"
+msgstr ""
+
+msgctxt "info/special/us_t69"
+msgid "<c(c3baae)>Multiple Gun Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_t69"
+msgid "T69 MGMC"
+msgstr ""
+
+msgctxt "info/special/us_m7"
+msgid "<c(c3baae)>Howitzer Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m7"
+msgid "M7 HMC"
+msgstr ""
+
+msgctxt "info/special/us_m12"
+msgid "<c(c3baae)>Gun Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m12"
+msgid "M12 GMC"
+msgstr ""
+
+msgctxt "info/special/us_m4a3e2_jumbo"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3e2_jumbo"
+msgid "M4A3E2"
+msgstr ""
+
+msgctxt "info/special/us_m4a3e2_jumbo_76"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a3e2_jumbo_76"
+msgid "M4A3E2 (76) W"
+msgstr ""
+
+msgctxt "info/special/us_m4a4_firefly"
+msgid "<c(c3baae)>Medium Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m4a4_firefly"
+msgid "Sherman Vc 'Firefly'"
+msgstr ""
+
+msgctxt "desc/entity/tri-polsten_20mm"
+msgid "Polsten Triple Gun"
+msgstr ""
+
+msgctxt "info/special/tri-polsten_20mm"
+msgid "<c(c3baae)>Medium AA Gun</c>"
+msgstr ""
+
+msgctxt "info/special/us_m6a1"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/us_m6a1"
+msgid "M6A1"
+msgstr ""
+
+msgctxt "desc/entity/gmc_ammo"
+msgid "GMC CCKW (Supply)"
+msgstr ""
+
+msgctxt "info/special/gmc_ammo"
+msgid "<c(c3baae)>Supply Truck</c>"
+msgstr ""
+
+msgctxt "desc/entity/gmc_fuel"
+msgid "GMC CCKW (Fuel)"
+msgstr ""
+
+msgctxt "info/special/gmc_fuel"
+msgid "<c(c3baae)>Fuel Truck</c>"
+msgstr ""
+
+msgctxt "desc/entity/gmc_transport"
+msgid "GMC CCKW (Transport)"
+msgstr ""
+
+msgctxt "info/special/gmc_transport"
+msgid "<c(c3baae)>Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/gmc_engineer"
+msgid "GMC CCKW (Engineer)"
+msgstr ""
+
+msgctxt "info/special/gmc_engineer"
+msgid "<c(c3baae)>Engineering Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/stud_ammo"
+msgid "Studebaker US6 (Supply)"
+msgstr ""
+
+msgctxt "info/special/stud_ammo"
+msgid "<c(c3baae)>Supply Truck</c>"
+msgstr ""
+
+msgctxt "desc/entity/stud_fuel"
+msgid "Studebaker US6 (Fuel)"
+msgstr ""
+
+msgctxt "info/special/stud_fuel"
+msgid "<c(c3baae)>Fuel Truck</c>"
+msgstr ""
+
+msgctxt "desc/entity/stud_transport"
+msgid "Studebaker US6 (Transport)"
+msgstr ""
+
+msgctxt "info/special/stud_transport"
+msgid "<c(c3baae)>Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/stud_engineer"
+msgid "Studebaker US6 (Engineer)"
+msgstr ""
+
+msgctxt "info/special/stud_engineer"
+msgid "<c(c3baae)>Engineering Transport</c>"
+msgstr ""

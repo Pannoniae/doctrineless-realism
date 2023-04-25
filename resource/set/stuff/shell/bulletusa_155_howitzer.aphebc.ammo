@@ -1,0 +1,12 @@
+{from "pattern aphebc"
+	{tag "size4 150to152"}
+	{inventory {size 5 1}}
+	{entity "155mm_howitzer_usa_aphebc"}
+	{mass 45.36}
+
+	{view "howitzer_shell_105-150"
+		{tail "shell_tracer_rus_152_ap" "tail"}
+	}
+
+	("ap_blast" args 1.53)
+}

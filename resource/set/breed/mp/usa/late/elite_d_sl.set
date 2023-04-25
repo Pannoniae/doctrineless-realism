@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-devil-smg"}
+	{portrait "usa_elite4"}
+	{nationality usa}
+	{icon "elite2_d"}
+	{icon_priority 3}
+	{armors
+		{head helmet_usa_net}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "thompson_m1_30" filled}
+		{item "ammo 11x23" 210}
+		{item "bandage_usa" 5}
+		{item "grenade mk2" 3}
+		{item "smoke grenade" 2}
+		{item "grenade satchel" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,1166 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_breeds_usa)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/human/mp/usa/mid/usmc_para_lmg"
+msgid "Paramarine MG Operator [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_para_nco"
+msgid "Paramarine Leader [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_para_nco_asst"
+msgid "Paramarine Assistant [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_para_grenadier_1"
+msgid "Paramarine Grenadier [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_para_grenadier_2"
+msgid "Paramarine Grenadier Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_para_rifleman_1"
+msgid "Paramarine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_para_smg_1"
+msgid "Paramarine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_para_medic"
+msgid "Paramarine Corspman [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_raider_nco"
+msgid "Marine Raider Leader [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_raider_nco_asst"
+msgid "Marine Raider Assistant [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_raider_rifle_1"
+msgid "Marine Raider [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_raider_smg_1"
+msgid "Marine Raider [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_raider_flamer"
+msgid "Marine Raider Flametrooper [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_raider_flamer_asst"
+msgid "Marine Raider Flametrooper Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_raider_bar"
+msgid "Marine Raider BAR Operator [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_raider_bar_asst"
+msgid "Marine Raider BAR Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_at_grenadier_1"
+msgid "Rifle AT Grenadier [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_at_grenadier_2"
+msgid "Rifle AT Grenadier Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_at_rifle_1"
+msgid "AT Rifle [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_at_rifle_2"
+msgid "AT Rifle Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_grenadier_1"
+msgid "Grenadier [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_grenadier_2"
+msgid "Grenadier Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_medic"
+msgid "Corpsman [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_lmg"
+msgid "LMG Operator [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_bar"
+msgid "BAR Operator [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_bar_asst"
+msgid "BAR Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_nco"
+msgid "Sergeant [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_nco_asst"
+msgid "Corporal [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_rifleman_1"
+msgid "Marine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_rifleman_2"
+msgid "Marine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_shotgun_1"
+msgid "Marine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/usmc_marines_smg_1"
+msgid "Marine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_lmg"
+msgid "LMG Operator [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_medic"
+msgid "Medic [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_mgun_1"
+msgid "MG Operator [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_mgun_2"
+msgid "MG Asst. [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_nco"
+msgid "Staff Sergeant [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_nco_asst"
+msgid "Sergeant [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_rifleman_1"
+msgid "Rifleman [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_rifleman_2"
+msgid "Rifleman [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_bar"
+msgid "BAR Operator [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_bar_asst"
+msgid "BAR Asst. [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/at_1"
+msgid "Bazooka Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/at_2"
+msgid "Bazooka Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/antitank_1"
+msgid "AT-Rifle Inf. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/antitank_2"
+msgid "AT-Rifle Support [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/antitank_3"
+msgid "AT Rifle Grenadier [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/antitank_4"
+msgid "AT Rifle Grenadier Support [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/artilleryman"
+msgid "Artilleryman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/miner-ap"
+msgid "AP-mine Engineer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/miner-at"
+msgid "AT-mine Engineer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/bar"
+msgid "BAR Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/bar_asst"
+msgid "BAR Operator Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/engineer_1"
+msgid "Field Engineer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/engineer_2"
+msgid "Field Engineer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/flamer"
+msgid "Flamethrower [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/flamer_asst"
+msgid "Flamethrower Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/grenadier_1"
+msgid "Rifle Grenadier [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/grenadier_2"
+msgid "Rifle Grenadier Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/major"
+msgid "Major [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/officer"
+msgid "Captain [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/medic"
+msgid "Medic [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mgun_1"
+msgid "MG Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mgun_2"
+msgid "MG Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mgun_3"
+msgid "MG Ammo Bearer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mg_crew"
+msgid "MG Crew [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mg_crew_asst"
+msgid "MG Crew Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_smg_1"
+msgid "National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_rifleman_1"
+msgid "National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_rifleman_2"
+msgid "National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_nco"
+msgid "National Guard Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_nco_asst"
+msgid "National Guard Squad Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_bar"
+msgid "National Guard BAR Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_bar_asst"
+msgid "National Guard BAR Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_smg_1_vet"
+msgid "Vet. National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_rifleman_1_vet"
+msgid "Vet. National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_rifleman_2_vet"
+msgid "Vet. National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_nco_vet"
+msgid "Vet. National Guard Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_nco_asst_vet"
+msgid "Vet. National Guard Squad Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_bar_vet"
+msgid "Vet. National Guard BAR Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/guard_nat_bar_asst_vet"
+msgid "Vet. National Guard BAR Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/nco"
+msgid "Staff Sergeant [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/nco_asst"
+msgid "Sergeant [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/pathfinders_sl"
+msgid "Pathfinder Captain [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/pathfinders_sl_asst"
+msgid "Pathfinder Squad Asst. [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/pathfinders_rifleman_1"
+msgid "Pathfinder [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/pathfinders_radio"
+msgid "Pathfinder Radio Operator [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/pilot1"
+msgid "Pilot [USAAF]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/pilot2"
+msgid "Pilot [USAAF]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rangers_at_1"
+msgid "AT Ranger [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rangers_at_2"
+msgid "AT Ranger Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rangers_mg"
+msgid "MG Ranger [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rangers_mg_asst"
+msgid "MG Ranger Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rangers_nco"
+msgid "Ranger Squad Leader [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rangers_nco_asst"
+msgid "Ranger Squad Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rangers_rifle"
+msgid "Ranger [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rangers_shotgun"
+msgid "Ranger [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rangers_medic"
+msgid "Medic Ranger [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/ranger_major"
+msgid "Ranger Major [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rifleman_1"
+msgid "Rifleman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rifleman_2"
+msgid "Rifleman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rifleman_3"
+msgid "Rifleman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/scout_1"
+msgid "Recon Sniper [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/scout_2"
+msgid "Recon Leader [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/recon_marksman"
+msgid "Scouts Marksman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/recon_sl"
+msgid "Scouts Leader [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/recon_sl_asst"
+msgid "Scouts Leader Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/recon_rifle"
+msgid "Scout [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/recon_mg"
+msgid "Scout MG Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/recon_mg_asst"
+msgid "Scout MG Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/signaller"
+msgid "Radio Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/smg_1"
+msgid "SMG Inf. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/smg_2"
+msgid "SMG Inf. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/smg_3"
+msgid "SMG Inf. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/sniper"
+msgid "Sniper [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/sniper_elite"
+msgid "Elite Sniper [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/tankman_usmc"
+msgid "Tank Crew [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/tank_commander_usmc"
+msgid "Tank Commander [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/tankman_ace"
+msgid "Ace Tank Crew [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/tank_commander_ace"
+msgid "Ace Tank Commander [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/early/tankman"
+msgid "Tank Crew [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/early/tank_commander"
+msgid "Tank Commander [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/tankman"
+msgid "Tank Crew [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/tank_commander"
+msgid "Tank Commander [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/tank_commander_td"
+msgid "Tank Destroyer Commander [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/tankman_td"
+msgid "Tank Destroyer Crew [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mpolice_pistol"
+msgid "MP Head Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mpolice_rifleman"
+msgid "MP Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mpolice_smg"
+msgid "MP Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mpolice_white_carbine"
+msgid "MP Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mpolice_white_shotgun"
+msgid "MP Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/rifle_vet"
+msgid "Vet. Rifleman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/nco_vet"
+msgid "Vet. NCO [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/nco_asst_vet"
+msgid "Vet. NCO Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mg_vet"
+msgid "Vet. MG Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/mg_asst_vet"
+msgid "Vet. MG Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_para_lmg"
+msgid "Paramarine MG Operator [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_para_nco"
+msgid "Paramarine Leader [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_para_nco_asst"
+msgid "Paramarine Assistant [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_para_grenadier_1"
+msgid "Paramarine Grenadier [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_para_grenadier_2"
+msgid "Paramarine Grenadier Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_para_rifleman_1"
+msgid "Paramarine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_para_smg_1"
+msgid "Paramarine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_para_medic"
+msgid "Paramarine Corspman [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_raider_nco"
+msgid "Marine Raider Leader [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_raider_nco_asst"
+msgid "Marine Raider Assistant [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_raider_rifle_1"
+msgid "Marine Raider [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_raider_smg_1"
+msgid "Marine Raider [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_raider_flamer"
+msgid "Marine Raider Flametrooper [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_raider_flamer_asst"
+msgid "Marine Raider Flametrooper Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_raider_bar"
+msgid "Marine Raider BAR Operator [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_raider_bar_asst"
+msgid "Marine Raider BAR Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_at_grenadier_1"
+msgid "Rifle AT Grenadier [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_at_grenadier_2"
+msgid "Rifle AT Grenadier Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_at_1"
+msgid "Bazooka Operator [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_at_2"
+msgid "Bazooka Operator Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_grenadier_1"
+msgid "Grenadier [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_grenadier_2"
+msgid "Grenadier Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_medic"
+msgid "Corpsman [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_lmg"
+msgid "LMG Operator [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_bar"
+msgid "BAR Operator [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_bar_asst"
+msgid "BAR Asst. [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_nco"
+msgid "Sergeant [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_nco_asst"
+msgid "Corporal [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_rifleman_1"
+msgid "Marine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_rifleman_2"
+msgid "Marine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_shotgun_1"
+msgid "Marine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/usmc_marines_smg_1"
+msgid "Marine [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_at1"
+msgid "AT Operator [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_at2"
+msgid "AT Asst. [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_lmg"
+msgid "LMG Operator [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_medic"
+msgid "Medic [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_mgun_1"
+msgid "MG Operator [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_mgun_2"
+msgid "MG Asst. [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/mid/101st_shotgun"
+msgid "Shotgunner [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_nco"
+msgid "Staff Sergeant [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_nco_asst"
+msgid "Sergeant [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_rifleman_1"
+msgid "Rifleman [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_rifleman_2"
+msgid "Rifleman [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_bar"
+msgid "BAR Operator [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/101st_bar_asst"
+msgid "BAR Asst. [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/at_1"
+msgid "AT Inf. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/at_2"
+msgid "AT Support [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/antitank_1"
+msgid "Bazooka Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/antitank_2"
+msgid "Bazooka Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/antitank_3"
+msgid "AT Rifle Grenadier [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/antitank_4"
+msgid "AT Rifle Grenadier Support [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/antitank_5"
+msgid "Bazooka Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/antitank_6"
+msgid "Bazooka Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/antitank_7"
+msgid "Super Bazooka Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/antitank_8"
+msgid "Super Bazooka Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/artilleryman"
+msgid "Artilleryman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/miner-ap"
+msgid "AP-mine Engineer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/miner-at"
+msgid "AT-mine Engineer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/bar"
+msgid "BAR Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/bar_asst"
+msgid "BAR Operator Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/engineer_1"
+msgid "Field Engineer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/engineer_2"
+msgid "Field Engineer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/engineer_heavy"
+msgid "Heavy Engineer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/flamer"
+msgid "Flamethrower [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/flamer_asst"
+msgid "Flamethrower Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/grenadier_1"
+msgid "Rifle Grenadier [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/grenadier_2"
+msgid "Rifle Grenadier Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/major"
+msgid "Major [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/officer"
+msgid "Captain [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/medic"
+msgid "Medic [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mgun_1"
+msgid "MG Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mgun_2"
+msgid "MG Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mgun_3"
+msgid "MG Ammo Bearer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mg_crew"
+msgid "MG Crew [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mg_crew_asst"
+msgid "MG Crew Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_smg_1"
+msgid "National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_rifleman_1"
+msgid "National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_rifleman_2"
+msgid "National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_nco"
+msgid "National Guard Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_nco_asst"
+msgid "National Guard Squad Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_bar"
+msgid "National Guard BAR Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_bar_asst"
+msgid "National Guard BAR Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_smg_1_vet"
+msgid "Vet. National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_rifleman_1_vet"
+msgid "Vet. National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_rifleman_2_vet"
+msgid "Vet. National Guard [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_nco_vet"
+msgid "Vet. National Guard Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_nco_asst_vet"
+msgid "Vet. National Guard Squad Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_bar_vet"
+msgid "Vet. National Guard BAR Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/guard_nat_bar_asst_vet"
+msgid "Vet. National Guard BAR Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/nco"
+msgid "Staff Sergeant [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/nco_asst"
+msgid "Sergeant [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/pathfinders_sl"
+msgid "Pathfinder Captain [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/pathfinders_sl_asst"
+msgid "Pathfinder Squad Asst. [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/pathfinders_rifleman_1"
+msgid "Pathfinder [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/pathfinders_radio"
+msgid "Pathfinder Radio Operator [Airborne]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/pilot1"
+msgid "Pilot [USAAF]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/pilot2"
+msgid "Pilot [USAAF]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rangers_at_1"
+msgid "AT Ranger [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rangers_at_2"
+msgid "AT Ranger Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rangers_mg"
+msgid "MG Ranger [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rangers_mg_asst"
+msgid "MG Ranger Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rangers_nco"
+msgid "Ranger Squad Leader [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rangers_nco_asst"
+msgid "Ranger Squad Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rangers_rifle"
+msgid "Ranger [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rangers_shotgun"
+msgid "Ranger [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rangers_medic"
+msgid "Medic Ranger [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/ranger_major"
+msgid "Ranger Major [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rifleman_1"
+msgid "Rifleman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rifleman_2"
+msgid "Rifleman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rifleman_3"
+msgid "Rifleman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/scout_1"
+msgid "Recon Sniper [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/scout_2"
+msgid "Recon Leader [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/recon_marksman"
+msgid "Scouts Marksman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/recon_sl"
+msgid "Scouts Leader [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/recon_sl_asst"
+msgid "Scouts Leader Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/recon_rifle"
+msgid "Scout [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/recon_mg"
+msgid "Scout MG Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/recon_mg_asst"
+msgid "Scout MG Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/signaller"
+msgid "Radio Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/smg_1"
+msgid "SMG Inf. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/smg_2"
+msgid "SMG Inf. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/smg_3"
+msgid "SMG Inf. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/sniper"
+msgid "Sniper [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/sniper_elite"
+msgid "Elite Sniper [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/tankman_usmc"
+msgid "Tank Crew [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/tank_commander_usmc"
+msgid "Tank Commander [USMC]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/tankman_ace"
+msgid "Ace Tank Crew [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/tank_commander_ace"
+msgid "Ace Tank Commander [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/tankman"
+msgid "Tank Crew [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/tank_commander"
+msgid "Tank Commander [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/tank_commander_td"
+msgid "Tank Destroyer Commander [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/tankman_td"
+msgid "Tank Destroyer Crew [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mpolice_pistol"
+msgid "MP Head Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mpolice_rifleman"
+msgid "MP Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mpolice_smg"
+msgid "MP Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mpolice_white_carbine"
+msgid "MP Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mpolice_white_shotgun"
+msgid "MP Officer [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/rifle_vet"
+msgid "Vet. Rifleman [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/nco_vet"
+msgid "Vet. NCO [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/nco_asst_vet"
+msgid "Vet. NCO Asst. [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mg_vet"
+msgid "Vet. MG Operator [Army]"
+msgstr ""
+
+msgctxt "desc/human/mp/usa/late/mg_asst_vet"
+msgid "Vet. MG Asst. [Army]"
+msgstr ""
+
+
+msgctxt "desc/human/mp/ger/late/ersatz_at_1"
+msgid "Stielau AT Inf [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_at_2"
+msgid "Stielau AT Asst. [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_bar"
+msgid "Stielau BAR Operator [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_mg"
+msgid "Stielau MG Operator [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_mg_asst"
+msgid "Stielau MG Asst. [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_rifle_a"
+msgid "Stielau Commando [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_rifle_g"
+msgid "Stielau Commando [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_sl"
+msgid "Stielau NCO [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_sl_asst"
+msgid "Stielau NCO Asst [Heer]"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/ersatz_stg"
+msgid "Stielau Commando [Heer]"
+msgstr ""

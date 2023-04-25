@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-inf-rfl"}
+	{portrait "usa_soldier2"}
+	{nationality usa}
+	{icon "rifleman"}
+	{icon_priority 1}
+	{armors
+		{head helmet_usa_clean}
+		{body us_haversack}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "johnson" filled}
+		{item  "ammo 7x63" 160}
+		{item "bandage_usa" 3}
+		{item "grenade mk2" 1}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}

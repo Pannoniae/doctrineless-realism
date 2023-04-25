@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-inf-bar"}
+	{portrait "usa_soldier2"}
+	{nationality usa}
+	{icon "gr_launcher"}
+	{icon_priority 2}
+	{armors
+		{head helmet_usa_clean}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mortar_mkvii" filled}
+		{item "ammo mortar50_eng" 16}
+		{item "bandage_usa" 3}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}

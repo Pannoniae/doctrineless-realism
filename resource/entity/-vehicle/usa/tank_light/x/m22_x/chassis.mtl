@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m22_wheels"}
+	{blend test}
+}

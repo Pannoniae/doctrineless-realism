@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m24_chaffee"}
+	{specular "$/model/m24_chaffee_sp"}
+	{color "255 255 255 25"}
+	{blend test}
+}

@@ -1,0 +1,5 @@
+{from "pattern mortar"
+	{filling "mortarus_82"}
+	{calibre 82}
+	("medium_mortar_range")
+}

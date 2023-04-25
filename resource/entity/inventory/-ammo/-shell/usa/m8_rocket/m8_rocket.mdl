@@ -1,0 +1,87 @@
+;Exported by: Administrator
+;Date:        Sun May 31 22:48:44 2020
+;File:        D:\3DMAX??\????\??\??\???\114MM M8\114MM M8.max
+{Skeleton
+	{bone "m8_rocket"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m8_rocket.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-10.1117	0	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 1.15011 17.03}
+	{Bone "m8_rocket"}
+	{Matrix34
+		0	-1	0.000696049
+		-0.000770016	0.000695968	0.999999
+		-1	0	-0.000770016
+		0.372041	-0.00962228	0.00285964
+	}
+}
+{Volume "select"
+	{Cylinder 2.72573 21.643}
+	{Bone "m8_rocket"}
+	{Matrix34
+		0	-1	0.000696049
+		-0.000770016	0.000695968	0.999999
+		-1	0	-0.000770016
+		0.0315189	-0.0102104	0.00171371
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 3.53181	45.3867	52.0604}
+			{lookat 0.430058	-0.225329	-0.19664}
+			{fov 15.1893}
+			{horizon 3.00009}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.497695	0.0315304	-0.0361246}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0419263	-0.459162	-0.193422}
+			}
+			{"2"
+				{type directional}
+				{direction -0.268367	0.257637	-0.334068}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin 3.65932	47.2615	54.2083}
+			{lookat 0.430058	-0.225329	-0.19664}
+			{fov 15.1893}
+			{horizon 3.00003}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.497695	0.0315304	-0.0361246}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0419263	-0.459162	-0.193422}
+			}
+			{"2"
+				{type directional}
+				{direction -0.268367	0.257637	-0.334068}
+			}
+		}
+	}
+}

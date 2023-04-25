@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-ranger-bar"}
+	{portrait "usa_soldier5"}
+	{nationality usa}
+	{icon "stormtrooper6"}
+	{icon_priority 4}
+	{armors
+		{head "helmet_usa_ranger"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "bar" filled}
+		{item  "ammo 7x63" 280}
+		{item "bandage_usa" 5}
+		{item "grenade mk2" 2}
+		{item "smoke grenade" 2}
+		{item "dynamite" 1}
+		{item "sandbag_kit" 1}
+		{item "ammo_box_inf_usa"}
+		{in_hands 0}
+	}
+}

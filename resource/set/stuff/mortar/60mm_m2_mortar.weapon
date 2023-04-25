@@ -1,0 +1,5 @@
+{from "pattern mortar"
+	{filling "mortarus_60"}
+	{calibre 60}
+	("light_mortar_range")
+}

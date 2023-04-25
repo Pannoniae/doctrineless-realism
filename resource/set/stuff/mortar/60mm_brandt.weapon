@@ -1,0 +1,6 @@
+{from "pattern mortar"
+	{filling "ammo mortarus_60" 1}
+	{calibre 60}
+	("light_mortar_range")
+	("reload time" seconds(2.6))
+}

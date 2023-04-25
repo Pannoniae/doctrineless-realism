@@ -1,0 +1,25 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-tank-ssgt"}
+	{portrait "usa_pilot"}
+	{nationality usa}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head "helmet_usa_pilot"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("skilled_repair")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "colt" filled}
+		{item  "ammo 11x23" 105}
+		{item "bandage_usa" 1}
+	}
+}

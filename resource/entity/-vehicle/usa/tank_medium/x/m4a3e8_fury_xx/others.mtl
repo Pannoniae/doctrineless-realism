@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "furydet"}
+	{bump "$/model/furydet_bp"}
+	{specular "$/model/furydet_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

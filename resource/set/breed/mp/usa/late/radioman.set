@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-late-smg"}
+	{portrait "usa_soldier3"}
+	{nationality usa}
+	{icon "radioman"}
+	{icon_priority 5}
+	{armors
+		{head "cap_usa_radiohead"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("skilled_repair")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "thompson" filled}
+		{item  "ammo 11x23" 180}
+		{item "flaergun" filled}
+		{item "ammo flare" 20}
+		{item "bandage_usa" 3}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,14 @@
+{from "pattern rifle"
+	{filling "ammo rifle_johnson clip" 10}
+	{entity "johnsonrifle"}
+	{fireSound "rifle/johnson_shot/"}
+	{fireSoundclose "rifle/johnson_shot/3p/"}
+	{reloadSound "garand"}
+	{calibre 7.62}
+	{mass 3.9}
+	("velocity" mps(855))
+	("semi_rifle")
+	{parameters "clip"
+		("reload time" seconds(7))
+	}
+}

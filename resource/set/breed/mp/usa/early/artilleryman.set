@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-inf-smg"}
+	{portrait "usa_soldier2"}
+	{nationality usa}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head helmet_usa_clean}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("skilled_repair")
+		("expert_gun")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "garand" filled}
+		{item  "ammo 7x63" 128}
+		{item "bandage_usa" 3}
+		{item "grenade mk2" 1}
+		{in_hands 0}
+	}
+}

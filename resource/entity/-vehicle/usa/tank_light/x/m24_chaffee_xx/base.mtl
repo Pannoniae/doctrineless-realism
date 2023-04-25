@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m24_chaffee_xx"}
+	{blend test}
+}

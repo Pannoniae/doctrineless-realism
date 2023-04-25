@@ -1,0 +1,21 @@
+{bullet
+    {tag "bullet small stackable pierce"}
+    {tag "bullet_fx size1"}
+    {inventory
+        {weight 5.50}
+        {block 15}
+        {size 1 3}
+        {fsm "belt"}
+    }
+    {entity "johnson_lmg_mag"}
+    {mass 0.015}
+
+    {trace
+        {view "/texture/fx/tracers/trace_empty"
+            {ScaleY 0.1}
+            {ScaleX 1.5}
+            {Light 1}
+        }
+        {length 2.1}
+    }
+}

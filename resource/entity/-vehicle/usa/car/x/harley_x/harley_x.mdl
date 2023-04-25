@@ -1,0 +1,74 @@
+;Exported by: Thomas
+;Date:        Tue Jun 21 13:37:44 2016
+;File:        C:\Users\Thomas\Downloads\MOW\AMERICAN\AMERICAN\veh_usa_motocycle_herley\harley.max
+{Skeleton
+	{bone "basis"
+		{parameters "Wheelradius=0.35;SteerMax=24;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -8.45538	-0.566418	9.7163}
+			{VolumeView "body.ply"}
+		}
+		{bone "pivot_back"
+			{parameters "ID=body;"}
+			{Position -20.1613	0	0}
+			{bone revolute "spring_r2"
+				{parameters "ID=body;"}
+				{Position 3.3949	-16.1711	6.02254}
+				{bone revolute "wheel3"
+					{parameters "ID=trackright;"}
+					{Matrix34
+						0	0	1
+						1	0	0
+						0	1	0
+						-0.349684	-0.314644	0.648311
+					}
+					{VolumeView "wheel3.ply"}
+				}
+			}
+			{bone revolute "spring_l2"
+				{parameters "ID=body;"}
+				{Position 3.3949	7.47274	6.02254}
+				{bone revolute "wheel2"
+					{parameters "ID=trackleft;"}
+					{Matrix34
+						0	0	1
+						1	0	0
+						0	1	0
+						-0.529457	-0.198813	0.764013
+					}
+					{VolumeView "wheel2.ply"}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{parameters "ID=body;"}
+			{Position 12.5889	7.43722	0}
+			{bone revolute "steer"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.939693	0	0.34202
+					0	-1	0
+					0.34202	0	-0.939693
+					-5.11208	1.3696	17.3142
+				}
+				{VolumeView "steer.ply"}
+				{bone revolute "wheel1"
+					{parameters "ID=trackleft;"}
+					{Matrix34
+						0.342019	0	-0.939693
+						0.939693	0	0.342019
+						0	-1	0
+						2.08998	1.32392	12.0508
+					}
+					{VolumeView "wheel1.ply"}
+				}
+			}
+		}
+	}
+}
