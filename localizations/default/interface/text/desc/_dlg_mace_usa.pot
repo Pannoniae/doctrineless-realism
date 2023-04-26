@@ -13,30 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "X-Generator: Poedit 2.4.2\n"
 
-msgctxt "actionbar/littledavid"
-msgid "Place 36-inch Little David"
-msgstr ""
-
 msgctxt "actionbar/undeploy_weapon"
 msgid "Undeploy HMG/Mortar"
 msgstr ""
 
 msgctxt "actionbar/deploy_weapon"
 msgid "Deploy HMG/Mortar"
-msgstr ""
-
-msgctxt "mp/army/usa"
-msgid "USA"
-msgstr ""
-
-msgctxt "mp/army/+usa"
-msgid "[MACE] USA"
-msgstr ""
-
-msgctxt "mp/army/+germany"
-msgid "[MACE] Germany"
-msgstr ""
-
-msgctxt "mp/army/mace_test"
-msgid "[MACE] Testing"
 msgstr ""

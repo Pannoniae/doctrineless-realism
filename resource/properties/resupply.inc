@@ -475,7 +475,7 @@
 	{item "geballteladung_3kg"					1 {value 15}}
 	{item "satchel_charge_rus"					1 {value 15}}
 ;/*=================== Items Defines MACE ===================*/
-	{item "allied_satchel_charge"					1 {value 15}}
+	;{item "allied_satchel_charge"					1 {value 15}}
 ;/*=================== Items Defines MACE ===================*/
 
 ;// mines
@@ -581,6 +581,8 @@
 	{item "bulletusa_105_howitzer"	"heat"		"ammo" 1 {value 20}}
 	{item "bulletusa_105_howitzer"	"sm"		"ammo" 1 {value 25}}
 
+	{item "mortar50_eng"		"ammo" 1 {value 20}}
+
 	{item "mortarus_82"	"he"		"ammo" 1 {value 20}}
 	{item "mortarus_82"	"sm"		"ammo" 1 {value 25}}
 	{item "mortarus_82"	"wp"		"ammo" 1 {value 30}}
@@ -657,8 +659,8 @@
 	{item "bazooka_M6A3_HEAT"			"ammo" 1  {value 10}}
 	{item "bazooka_M28A2_HEAT"			"ammo" 1  {value 10}}
 	{item "piat_mki_HEAT"			"ammo" 1  {value 10}}
-	{item "atrifle_eng_modded"	"ap"		"ammo" 5  {value 5}}
-	{item "atrifle_eng_modded"	"ap2"		"ammo" 5  {value 5}}
+	;{item "atrifle_eng_modded"	"ap"		"ammo" 5  {value 5}}
+	;{item "atrifle_eng_modded"	"ap2"		"ammo" 5  {value 5}}
 	{item "shotgun"					"ammo" 10 {value 2}}
 
 	{item "flame_thrower"			"ammo" 50 {value 10}}

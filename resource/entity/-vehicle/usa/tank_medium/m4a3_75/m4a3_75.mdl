@@ -16,7 +16,7 @@
 			0	-1	0
 			0	0	1
 		}
-		{Extension "/properties/damage_components.ext"}
+		
 		{bone "emit5"
 			{Matrix34
 				0	-1	0
@@ -706,7 +706,7 @@
 		}
 	}
 }
-{Extension "/properties/damage_components_vol.ext"}
+
 {Volume "ammo1"
 	{Box 20 8.5 11.5}
 	{Bone "body"}

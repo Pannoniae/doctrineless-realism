@@ -13,19 +13,19 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 msgctxt "desc/squad/squad_light(usa)"
-msgid "Light infantry"
+msgid "<c(A5A095)>(1)</c> Light infantry"
 msgstr ""
 
 msgctxt "desc/squad/squad_regular(usa)"
-msgid "Regular Squad"
+msgid "<c(A5A095)>(2)</c> Regular Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pionier(usa)"
-msgid "Airborne"
+msgid "<c(A5A095)>(3)</c> Airborne"
 msgstr ""
 
 msgctxt "desc/squad/squad_marine(usa)"
-msgid "U.S. Marines"
+msgid "<c(A5A095)>(4)</c> U.S. Marines"
 msgstr ""
 
 msgctxt "desc/squad/squad_stormtrooper(usa)"

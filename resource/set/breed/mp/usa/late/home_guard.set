@@ -17,8 +17,9 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
+		{item "thompson" filled}
 		{item "m1903" filled}
-		{item  "ammo 7x63" 80}
+		{item  "ammo rifle_springfield clip" 80}
 		{item "bandage_usa" 3}
 		{item "grenade mk2" 1}
 		{item "small_inf_shovel"}

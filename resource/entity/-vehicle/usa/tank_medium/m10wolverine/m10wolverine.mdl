@@ -17,7 +17,7 @@
 			0	-1	0
 			0	0	1
 		}
-		{Extension "/properties/damage_components.ext"}
+		
 		{bone "wheelsr"
 			{parameters "wheelsR;"}
 			{Position -1.491949	-20.5895	7.87997}
@@ -742,7 +742,7 @@
 		}
 	}
 }
-{Extension "/properties/damage_components_vol.ext"}
+
 {Volume "ammo1"
 	{Box 36 8 8}
 	{Bone "body"}

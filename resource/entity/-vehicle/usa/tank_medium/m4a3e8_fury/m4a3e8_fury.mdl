@@ -17,7 +17,7 @@
 			0	-1	0
 			0	0	1
 		}
-		{Extension "/properties/damage_components.ext"}
+		
 		{bone "emit2"
 			{parameters "Group=crew;"}
 			{Matrix34
@@ -830,7 +830,7 @@
 		}
 	}
 }
-{Extension "/properties/damage_components_vol.ext"}
+
 {Volume "ammo1"
 	{Box 20 8.5 11.5}
 	{Bone "internals"}

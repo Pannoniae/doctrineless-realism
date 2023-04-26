@@ -19,7 +19,7 @@
 	}
 	{inventory
 		{item "johnson" filled}
-		{item  "ammo 7x63" 160}
+		{item  "ammo johnson_lmg_mag" 160}
 		{item "bandage_usa" 5}
 		{item "grenade mk2" 3}
 		{item "smoke grenade" 2}

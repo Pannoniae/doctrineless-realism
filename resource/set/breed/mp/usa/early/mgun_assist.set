@@ -19,12 +19,12 @@
 	}
 	{inventory
 		{item "garand" filled}
-		{item  "ammo 7x63" 128}
+		{item  "ammo rifle_garand clip" 128}
 		{item "bandage_usa" 3}
 		{item "grenade mk2" 1}
 		{item "sandbag_kit" 1}
 		{item "small_inf_shovel"}
-		{item "ammo_box_inf_usa"}
+		
 		{in_hands 0}
 	}
 }

@@ -18,7 +18,7 @@
 	}
 	{inventory
 		{item "browning_m19a6_belt" filled}
-		{item  "ammo 7x63" 250}
+		{item  "ammo mgun_usa belt" 250}
 		{item "bandage_usa" 5}
 		{item "grenade mk2" 3}
 		{item "dynamite" 1}

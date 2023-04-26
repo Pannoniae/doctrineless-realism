@@ -19,8 +19,8 @@
 	{inventory
 		{item "browning_m19a6_belt" filled}
 		{item "colt" filled}
-		{item  "ammo 7x63" 285}
-		{item  "ammo 11x23" 105}
+		{item  "ammo browing_bar_mag" 285}
+		{item  "ammo colt_m1911a1_mag" 105}
 		{item "bandage_usa" 3}
 		{item "sandbag_kit" 1}
 		{in_hands 0}

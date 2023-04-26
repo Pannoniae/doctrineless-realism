@@ -18,7 +18,7 @@
 	}
 	{inventory
 		{item "m3a" filled}
-		{item  "ammo 11x23" 270}
+		{item  "ammo m3_grease_mag" 270}
 		{item "bandage_usa" 3}
 		{item "grenade mk2" 2}
 		{item "small_inf_shovel"}

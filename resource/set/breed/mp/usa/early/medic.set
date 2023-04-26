@@ -19,7 +19,7 @@
 	}
 	{inventory
 		{item "m1903" filled}
-		{item  "ammo 7x63" 80}
+		{item  "ammo rifle_springfield clip" 80}
 		{item "smoke grenade" 2}
 		{item "bandage_usa" 25}
 		{item "tent_kit" 2}

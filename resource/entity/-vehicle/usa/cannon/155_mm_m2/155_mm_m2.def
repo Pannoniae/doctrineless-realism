@@ -99,14 +99,14 @@
 
 	{extender "inventory"
 		{box
-			{item "bullet155_usa he" 30}
-			{item "bullet155_usa sm" 12}	
+			{item "bulletusa_155_howitzer he" 30}
+			{item "bulletusa_155_howitzer sm" 12}	
 		}
 	}
 
 	{Weaponry
 		{place "gun"
-			{weapon "155mm_lt" filling "bullet155_usa he" 1}
+			{weapon "155mm_lt" filling "bulletusa_155_howitzer he" 1}
 			("abm_dymamic_gun"
 				zeroing(6.0)
 				dispersion(0.25)

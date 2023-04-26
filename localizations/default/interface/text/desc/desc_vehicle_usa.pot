@@ -89,31 +89,31 @@ msgid "B-25 Mitchell"
 msgstr ""
 
 msgctxt "desc/entity/cckw352"
-msgid "GMC CCKW352"
+msgid "GMC CCKW-352"
 msgstr ""
 
 msgctxt "desc/entity/cckw352_art"
-msgid "GMC CCKW352 [Art]"
+msgid "GMC CCKW-352 [Supply]"
 msgstr ""
 
 msgctxt "desc/entity/cckw353"
-msgid "GMC CCKW353"
+msgid "GMC CCKW-353"
 msgstr ""
 
 msgctxt "desc/entity/cckw353_2xt27"
-msgid "2 x T27"
+msgid "GMC CCMW-353 with T27 Rocket Launcher 'Xylophone'"
 msgstr ""
 
 msgctxt "desc/entity/cckw353_eng"
-msgid "GMC CCKW353 [Eng]"
+msgid "GMC CCKW-353 [Engineering]"
 msgstr ""
 
 msgctxt "desc/entity/cckw353_fuel"
-msgid "GMC refuel truck"
+msgid "GMC CCKW-353 [Fuel]"
 msgstr ""
 
 msgctxt "desc/entity/cckw353_inf"
-msgid "GMC CCKW353 [Inf]"
+msgid "GMC CCKW-353 [Light supply]"
 msgstr ""
 
 msgctxt "desc/entity/dodge"
@@ -121,11 +121,11 @@ msgid "Dodge WC-56"
 msgstr ""
 
 msgctxt "desc/entity/dodge_armor"
-msgid "Dodge armored"
+msgid "Dodge [Armored]"
 msgstr ""
 
 msgctxt "desc/entity/dodgewc55"
-msgid "Dodge / 37mm M6"
+msgid "Dodge 37mm M6"
 msgstr ""
 
 msgctxt "desc/entity/m10wolverine"
@@ -133,15 +133,15 @@ msgid "M10 Wolverine"
 msgstr ""
 
 msgctxt "desc/entity/m12gmc"
-msgid "M12 gun motor carriage"
+msgid "M12 GMC"
 msgstr ""
 
 msgctxt "desc/entity/m15a1"
-msgid "M15A1 AA GMC"
+msgid "M15A1 MGMC"
 msgstr ""
 
 msgctxt "desc/entity/m16"
-msgid "M16 AA GMC"
+msgid "M16 MGMC"
 msgstr ""
 
 msgctxt "desc/entity/m18"
@@ -177,7 +177,7 @@ msgid "M36B Slugger"
 msgstr ""
 
 msgctxt "desc/entity/m3_usa"
-msgid "M3A1 Halftrack"
+msgid "M3A1 half-track"
 msgstr ""
 
 msgctxt "desc/entity/m3a1_scout"
@@ -273,7 +273,7 @@ msgid "M8 Greyhound"
 msgstr ""
 
 msgctxt "desc/entity/m8_grayhound_com"
-msgid "M8 Greyhound Command"
+msgid "M8 Greyhound [Commander]"
 msgstr ""
 
 msgctxt "desc/entity/p-39"
@@ -333,7 +333,7 @@ msgid "LVT-4"
 msgstr ""
 
 msgctxt "desc/entity/lvt4_wb2"
-msgid "LVT Water Buffalo"
+msgid "LVT-2 Water Buffalo"
 msgstr ""
 
 msgctxt "desc/entity/harley"
@@ -365,11 +365,11 @@ msgid "M4A1(76)W"
 msgstr ""
 
 msgctxt "desc/entity/m4a3e8_fury"
-msgid "M4A3E8"
+msgid "M4A3E8 'Fury'"
 msgstr ""
 
 msgctxt "desc/entity/m18_90"
-msgid "M18 90mm"
+msgid "90mm GMC M18"
 msgstr ""
 
 msgctxt "desc/entity/t29"

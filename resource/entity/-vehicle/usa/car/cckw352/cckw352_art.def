@@ -2,6 +2,7 @@
 	(include "/properties/car.ext")
 	(include "/properties/shadow/tank.inc" scale(1.0))
 	(include "/properties/selection/vehicle.inc" scale(1.1))
+	(include "/properties/resupply.inc")
 	{props "truck" "vision_lev02" "tractor" "tractor_heavy" "cckw"}
 	{able "emit_on_attack"}
 	{Extension "cckw352_art.mdl"}
@@ -69,8 +70,8 @@
 			{item "barrel" 2 filling "fuel" 500}
 		}
 	}
-	(include "/properties/ammo_usa.inc")
-	("usa_truck_ammo_art")
+	;(include "/properties/ammo_usa.inc")
+	("truck_ammo_heavy")
 
 	{mass 7000}
 	{Chassis

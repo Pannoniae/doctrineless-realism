@@ -143,15 +143,15 @@
 	{extender "inventory"
 		{box
 			{item "dynamite"}
-			{item "ammo bullet155_usa he" 30}
-			{item "ammo bullet155_usa sm" 12}
+			{item "ammo bulletusa_155_howitzer he" 30}
+			{item "ammo bulletusa_155_howitzer sm" 12}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "155mm_m12" filling "bullet155_usa he" 1}
+			{weapon "155mm_m12" filling "bulletusa_155_howitzer he" 1}
 			("abm_dymamic"
 				zeroing(4.5)
 				dispersion(0.25)

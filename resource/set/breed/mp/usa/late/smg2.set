@@ -18,7 +18,7 @@
 	}
 	{inventory
 		{item "thompson_30" filled}
-		{item  "ammo 11x23" 300}
+		{item  "ammo thompson_mag" 300}
 		{item "bandage_usa" 3}
 		{item "grenade mk2" 3}
 		{item "smoke grenade" 1}

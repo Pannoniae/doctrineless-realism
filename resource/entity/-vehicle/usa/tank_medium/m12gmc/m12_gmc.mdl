@@ -19,7 +19,7 @@
 			0	-1	0
 			0	0	1
 		}
-		{Extension "/properties/damage_components.ext"}
+		
 		{bone "body"
 			{parameters "ID=body;"}
 			{animation
@@ -624,7 +624,7 @@
 		}
 	}
 }
-{Extension "/properties/damage_components_vol.ext"}
+
 {Volume "ammo1"
 	{Box 16.9782 6.56372 8.58224}
 	{Bone "body"}

@@ -19,7 +19,7 @@
 	}
 	{inventory
 		{item "m1_carbine" filled}
-		{item  "ammo 7x33" 150}
+		{item  "ammo m1a1_carabine_mag" 150}
 		{item "smoke grenade" 2}
 		{item "bandage_usa" 25}
 		{item "tent_kit" 2}

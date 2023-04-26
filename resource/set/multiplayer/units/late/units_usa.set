@@ -223,11 +223,11 @@
 ; ======Tier3======
 
 ;// 15DP Airstrike
-{"doctrine_b25_late"
-	("squad_vehicle_doctrine" side(usa) t( heavyart artillery ) period(late) year(late) vehicle(b25) crew(pilot:4) cw(0) cp(25))
-	("doctrine_t3" cool(360) d(late_usa_irregular) cost(15))
-	{action "airstrike:sc_250_mp"} 
-}
+;{"doctrine_b25_late"
+;	("squad_vehicle_doctrine" side(usa) t( heavyart artillery ) period(late) year(late) vehicle(b25) crew(pilot:4) cw(0) cp(25))
+;	("doctrine_t3" cool(360) d(late_usa_irregular) cost(15))
+;	{action "airstrike:sc_250_mp"} 
+;}
 
 ; // 45DP m36b1
 {"doctrine_m36b1"
@@ -275,11 +275,11 @@
 ; ======Tier2======
 
 ;// 5DP Recon 
-{"doctrine_p-39"
-	("squad_vehicle_doctrine" side(usa) t(vehicle) period(late) year(late) vehicle(p-39) crew(pilot:1))
-	("doctrine_t2" cool(360) d(late_usa_support) cost(5))
-	{action "airstrike:reconnaissance_50"} 
-}
+;{"doctrine_p-39"
+;	("squad_vehicle_doctrine" side(usa) t(vehicle) period(late) year(late) vehicle(p-39) crew(pilot:1))
+;	("doctrine_t2" cool(360) d(late_usa_support) cost(5))
+;	{action "airstrike:reconnaissance_50"} 
+;}
 
 ; // 35DP m4a1_76_w
 {"doctrine_m4a1_76_w"
@@ -348,6 +348,7 @@
 {"doctrine_inf_crate_usa_late"
 	("squad_vehicle_noall" period(late) year(late) cd(0) ci(30)   t( supply) side(usa) crew(rifle:2) vehicle(inf_crate_usa) g(supplybox) b(inf2)  cw(0)  cp(0) 
 	cost(85))
+	{doctrine late_usa_allround}
 }  
 ;_________________________________________________
 ;|                  Emplacements                  |
@@ -636,11 +637,3 @@
 
 
 ;Plane
-{"b25"
-	("vehicle"  period(late) year(late) cd(240) ci(180) t(doctrineonly) side(usa) crew(pilot:4) g(spg7) b(vehicles) cw(0) cp(25)
-	cost(2000))
-}
-{"p-39"
-	("vehicle"  period(late) year(late) cd(240) ci(180) t(doctrineonly) side(usa) crew(pilot:1) g(spg8) b(vehicles) cw(0) cp(11)
-	cost(100))
-}

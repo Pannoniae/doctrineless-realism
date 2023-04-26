@@ -18,7 +18,7 @@
 	}
 	{inventory
 		{item "johnson_m1941" filled}
-		{item  "ammo 7x63" 280}
+		{item  "ammo rifle_johnson clip" 280}
 		{item "bandage_usa" 5}
 		{item "grenade mk2" 3}
 		{item "sandbag_kit" 1}

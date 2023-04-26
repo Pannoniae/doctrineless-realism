@@ -19,7 +19,7 @@
 	}
 	{inventory
 		{item "garand" filled}
-		{item  "ammo 7x63" 128}
+		{item  "ammo rifle_garand clip" 128}
 		{item "mine antitank" 4}
 		{item "hedgehog_kit" 1}
 		{item "small_inf_shovel"}

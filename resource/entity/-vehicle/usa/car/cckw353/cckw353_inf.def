@@ -2,6 +2,7 @@
 	(include "/properties/car.ext")
 	(include "/properties/shadow/tank.inc" scale(1.0))
 	(include "/properties/selection/vehicle.inc" scale(1.1))
+    (include "/properties/resupply.inc")
 	{props "multi_board" "truck" "vision_lev02" "tractor" "tractor_heavy"}
 	{able "emit_on_attack"}
 	{Extension "cckw353.mdl"}
@@ -77,8 +78,8 @@
 			{item "smoke" "grenade" 10}
 		}
 	}
-	(include "/properties/ammo_usa.inc")
-	("usa_truck_ammo")
+	;(include "/properties/ammo_usa.inc")
+	("truck_ammo")
 
 	{mass 7000}
 	{Chassis

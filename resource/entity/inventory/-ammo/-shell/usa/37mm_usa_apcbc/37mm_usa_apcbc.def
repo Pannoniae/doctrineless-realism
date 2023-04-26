@@ -6,7 +6,7 @@
 		{able {touch} {bullet} {blast}}
 	}
 	{extender "stuff"
-		{item "bulletusa_37 aphebc"}
+		{item "bulletusa_37 apcbc"}
 	}
 	{props "steel" "explosive_stuff"}
 	{Extension "37mm_usa_apcbc.mdl"}

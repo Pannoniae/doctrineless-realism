@@ -8,7 +8,7 @@
 			0	-1	0
 			0	0	1
 		}
-		{Extension "/properties/damage_components.ext"}
+		
 		{bone "pivot_front"
 			{Position 43.785	-0.00537851	6.09287}
 			{bone revolute "steer_l1"

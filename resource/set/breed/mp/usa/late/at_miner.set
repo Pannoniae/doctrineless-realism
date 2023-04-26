@@ -19,7 +19,7 @@
 	}
 	{inventory
 		{item "m3a" filled}
-		{item  "ammo 11x23" 270}
+		{item  "ammo m3_grease_mag" 270}
 		{item "mine antitank" 4}
 		{item "hedgehog_kit" 1}
 		{item "small_inf_shovel"}

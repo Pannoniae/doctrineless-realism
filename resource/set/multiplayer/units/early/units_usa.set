@@ -136,6 +136,7 @@
 {"doctrine_inf_crate_usa_early"
 	("squad_vehicle_noall" period(early) year(early) cd(0) ci(30)   t(supply) side(usa) crew(rifle:2)  vehicle(inf_crate_usa) g(supplybox) b(inf2)  cw(0)  cp(0) 
 	cost(85))
+	{doctrine early_usa_allround}
 }  
 ;_________________________________________________
 ;|                  Emplacements                  |

@@ -18,7 +18,7 @@
 	}
 	{inventory
 		{item "m3a" filled}
-		{item  "ammo 11x23" 270}
+		{item  "ammo m3_grease_mag" 270}
 		{item "mine antipersonnel" 15}
 		{item "barbwire_kit" 1}
 		{item "small_inf_shovel"}

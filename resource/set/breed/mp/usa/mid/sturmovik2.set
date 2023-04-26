@@ -18,7 +18,7 @@
 	}
 	{inventory
 		{item "bar" filled}
-		{item  "ammo 7x63" 280}
+		{item  "ammo browing_bar_mag" 280}
 		{item "bandage_usa" 5}
 		{item "grenade mk2" 3}
 		{item "dynamite" 1}
