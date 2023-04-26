@@ -4,9 +4,9 @@
 	{portrait "usa_national_guard"}
 	{icon "smg"}
 	{icon_priority 0}
-	{nationality usa_nco}
+	{nationality usa}
 	{armors
-		{head helmet_usa_29th_officer}
+		{head helmet_usa_clean}
 	}
 	{perks
 		(include "ability.inc")

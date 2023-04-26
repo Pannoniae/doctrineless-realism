@@ -6,11 +6,11 @@
 	{icon_priority 0}
 	{nationality usa}
 	{armors
-		{head helmet_usa_29th}
+		{head helmet_usa_clean}
 	}
 	{perks
 		(include "ability.inc")
-		("smg_skill_rank_1")
+		("rifle_skill_rank_1")
 	}
 	{veterancy
 		(include "ability.inc")

@@ -6,7 +6,7 @@
 	{icon_priority 0}
 	{nationality usa}
 	{armors
-		{head helmet_usa_29th_nco}
+		{head helmet_usa_clean}
 	}
 	{perks
 		(include "ability.inc")
@@ -17,7 +17,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "springfield_m1903a1" filled}
+		{item "m1903" filled}
 		{item "rifle_springfield clip ammo" 60 5}
 
 		{item "smoke grenade" 1.25 0.5}

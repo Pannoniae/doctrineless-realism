@@ -317,6 +317,8 @@
 ;|             inf1                               |
 ;|________________________________________________|
 
+("squad_with7types" side(usa) name(squad_national_guard_late)	period(late) year(late) cd(0) ci(30) g(squad_1) c1(guard_nat_nco:1) c2(guard_nat_nco_asst:1) c3(guard_nat_rifleman_1:4) c4(guard_nat_rifleman_2:1) c5(guard_nat_smg_1:1) c6(guard_nat_bar:1) c7(guard_nat_bar_asst:1)  b(squad) t())
+
 ("squad_with2types" side(usa) name(doctrine_squad_scout) period(late) year(late) cd(0) ci(0) g(squad_1) c1(scout2:1) c2(scout:3) b(squad) t())
 ("squad_with4types" side(usa) name(squad_light)				period(late) year(late) cd(0) ci(0)  g(squad_1) c1(rifle4:5) c2(rifle:3) c3(smg:1) c4(squadleader:1) b(squad) t() level(1))
 ("squad_with5types" side(usa) name(squad_regular)			period(late) year(late) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(mgun:1) c3(mgun_assist:1) c4(smg2:1) c5(squadleader:1)       b(squad) t() level(1))

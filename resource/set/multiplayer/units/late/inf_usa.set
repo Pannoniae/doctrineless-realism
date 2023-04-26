@@ -21,6 +21,23 @@
 {"mp/usa/late/tankman2"			("usa_tankman" side(usa)) {cost 12.0}}
 {"mp/usa/late/pilot"			("usa_tankman" side(usa)) {cost 0.0}}
 
+(define "usa_reserve"
+	{tags "late %side infantry man"}
+	{cp 1}
+	{basic}
+	{breed}
+	{cw 0.5}
+	{cost %cost}
+	{score (* %cost 0.05)}
+	;{score_factor 0.05}
+)
+{"mp/usa/late/guard_nat_nco"		("usa_reserve" side(usa) cost(20.0))}
+{"mp/usa/late/guard_nat_nco_asst"	("usa_reserve" side(usa) cost(15.0))}
+{"mp/usa/late/guard_nat_rifleman_1"	("usa_reserve" side(usa) cost(5.0))}
+{"mp/usa/late/guard_nat_rifleman_2"	("usa_reserve" side(usa) cost(12.0))}
+{"mp/usa/late/guard_nat_smg_1"		("usa_reserve" side(usa) cost(15.0))}
+{"mp/usa/late/guard_nat_bar"		("usa_reserve" side(usa) cost(30.0}}
+{"mp/usa/late/guard_nat_bar_asst"	("usa_reserve" side(usa) cost(12.0))}
 
 (define "usa_basic"
 	{tags "late %side infantry man"}

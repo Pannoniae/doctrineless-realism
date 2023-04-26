@@ -6,7 +6,7 @@
 	{icon_priority 0}
 	{nationality usa}
 	{armors
-		{head helmet_usa_29th}
+		{head helmet_usa_clean}
 	}
 	{perks
 		(include "ability.inc")
@@ -17,7 +17,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "m1_garand" filled}
+		{item "garand" filled}
 		{item "rifle_garand clip ammo" 75 5}
 
 		{item "mk2 grenade" 1.25 0.5}
