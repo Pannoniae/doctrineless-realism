@@ -1,5 +1,5 @@
 {from "pattern mgun"
-	{filling "ammo 7x63" 20}
+	{filling "ammo johnson_lmg_mag" 20}
 	{entity "m1941lmg"}
 	{fireSound "mgun/johnson_m1941_burst/"}
 	{fireSoundclose "mgun/johnson_m1941_burst/3p/"}

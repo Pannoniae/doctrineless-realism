@@ -319,11 +319,11 @@
 
 ("squad_with7types" side(usa) name(squad_national_guard_late)	period(late) year(late) cd(0) ci(30) g(squad_1) c1(guard_nat_nco:1) c2(guard_nat_nco_asst:1) c3(guard_nat_rifleman_1:4) c4(guard_nat_rifleman_2:1) c5(guard_nat_smg_1:1) c6(guard_nat_bar:1) c7(guard_nat_bar_asst:1)  b(squad) t())
 
-("squad_with2types" side(usa) name(doctrine_squad_scout) period(late) year(late) cd(0) ci(0) g(squad_1) c1(scout2:1) c2(scout:3) b(squad) t())
 ("squad_with4types" side(usa) name(squad_light)				period(late) year(late) cd(0) ci(0)  g(squad_1) c1(rifle4:5) c2(rifle:3) c3(smg:1) c4(squadleader:1) b(squad) t() level(1))
 ("squad_with5types" side(usa) name(squad_regular)			period(late) year(late) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(mgun:1) c3(mgun_assist:1) c4(smg2:1) c5(squadleader:1)       b(squad) t() level(1))
 ("squad_with6types" side(usa) name(squad_marine)			period(late) year(late) cd(0) ci(0) g(squad_3) c1(elite4:5) c2(elite7:1) c3(elite5:1) c4(elite6:1) c5(elite6_assist:1) c6(elite4_sl:1)  b(squad) t() level(1))
 ("squad_with7types" side(usa) name(squad_pionier)			period(late) year(late) cd(0) ci(0) g(squad_3) c1(elite:4) c2(elite8:1) c3(elite2:1) c4(elite3:1) c5(elite3_assist:1) c6(elite_at:1) c7(elite_sl:1)  b(squad) t() level(1))
+("squad_with2types" side(usa) name(doctrine_squad_scout) period(late) year(late) cd(0) ci(0) g(squad_1) c1(scout2:1) c2(scout:3) b(squad) t())
 ("squad_with5types" side(usa) name(squad_stormtrooper) period(late) year(late) cd(0) ci(0) g(squad_4) c1(sturmovik:4) c2(sturmovik3:3) c3(sturmovik2:1) c4(sturmovik2_assist:1) c5(sturmovik_sl:1) b(squad) t() level(1))
 ("squad_with5types" side(usa) name(doctrine_squad_commandos_late) period(late) year(late) cd(0) ci(0) g(squad_4) c1(elite_d:4) c2(elite2_d:3) c3(elite3_d:1) c4(elite3_d_assist:1) c5(elite_d_sl:1) b(squad) t())
 ("squad_with5types" side(usa) name(doctrine_squad_ranger) period(late) year(late) cd(0) ci(0) g(squad_4) c1(sturmovik5:2) c2(sturmovik5b:3) c3(sturmovik6:2) c4(sturmovik6b:2) c5(sturmovik_sl:1) b(squad) t())
@@ -344,7 +344,7 @@
 ("squad_with2types" side(usa) name(single_riflegrenade) period(late) year(late) cd(0)   ci(0)  g(single_at)   c1(rifle_grenade:1) c2(smg2:1)  b(single) t())
 ("squad_with2types" side(usa) name(single_mg)           period(late) year(late) cd(0)   ci(0)  g(single_mg)  c1(mgun2:1) c2(mgun_assist:1)           b(single) t())
 ("squad_with2types" side(usa) name(single_at)           period(late) year(late) cd(0)   ci(0)  g(single_at)   c1(bazooker:1) c2(bazooker2:1)  b(single) t(at_squad))
-("squad_with2types" side(usa) name(single_mortar)	period(late) year(late) cd(0)   ci(0)  g(single_mortar)   c1(gr_launcher:1) c2(smg2:1)  b(single) t())
+;("squad_with2types" side(usa) name(single_mortar)	period(late) year(late) cd(0)   ci(0)  g(single_mortar)   c1(gr_launcher:1) c2(smg2:1)  b(single) t())
 ("squad_with2types" side(usa) name(single_tankman)      period(late) year(late) cd(0)   ci(0)  g(single_crew) c1(tankman2:1) c2(tankman:3) b(single) t(tankcrew))
 ("squad_with1types" side(usa) name(single_ap_miner)     period(late) year(late) cd(0)  ci(0)  g(single_apmine)   c1(ap_miner:3)                 b(single) t(engineer))
 ("squad_with1types" side(usa) name(single_at_miner)     period(late) year(late) cd(0)  ci(0)  g(single_atmine)   c1(at_miner:3)                 b(single) t(engineer))
@@ -413,10 +413,6 @@
 	("vehicle"  period(late) year(late) cd(0)  ci(0) t(mortar) side(usa) crew(vehicle_supporter:2)     g(empl6) b(art)  cw(1) cp(10) 
 	cost(250))
 }
-{"75_mm_m1"
-	("vehicle" period(late) year(late) cd(0) ci(0)  t( cannon mediumcan) side(usa) crew(vehicle_supporter:4)   g(empl5) b(art)  cw(1) cp(15)
-	cost(340))
-}
 {"81_mm_m1"
 	("vehicle"  period(late) year(late) cd(0)  ci(0) t(mortar) side(usa) crew(vehicle_supporter:2)             g(empl6) b(art)  cw(1) cp(12) 
 	cost(300))
@@ -424,6 +420,10 @@
 {"107_mm_m2"
 	("vehicle"  period(late) year(late) cd(0)  ci(0) t(artillery) side(usa) crew(vehicle_supporter:2)             g(empl7) b(art)  cw(1) cp(20) 
 	cost(450))
+}
+{"75_mm_m1"
+	("vehicle" period(late) year(late) cd(0) ci(0)  t( cannon mediumcan) side(usa) crew(vehicle_supporter:4)   g(empl5) b(art)  cw(1) cp(15)
+	cost(340))
 }
 {"105_mm_m3"
 	("vehicle"  period(late) year(late) cd(0) ci(0) t(heavyart artillery) side(usa) crew(vehicle_supporter:4) g(empl8) b(art)  cw(1) cp(25) 

@@ -30,11 +30,11 @@ msgid "<c(A5A095)>(3)</c> Airborne"
 msgstr ""
 
 msgctxt "desc/squad/squad_marine(usa)"
-msgid "<c(A5A095)>(4)</c> U.S. Marines"
+msgid "<c(A5A095)>(3)</c> U.S. Marines"
 msgstr ""
 
 msgctxt "desc/squad/squad_stormtrooper(usa)"
-msgid "Rangers"
+msgid "<c(A5A095)>(4)</c>Rangers"
 msgstr ""
 
 msgctxt "desc/squad/single_auxiliary(usa)"

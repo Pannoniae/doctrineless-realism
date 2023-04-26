@@ -16,7 +16,7 @@
 	}
 	{inventory
 		{item "hdm" filled}
-		{item  "ammo 5x15" 150}
+		{item  "ammo pistol" 150}
 		{item "weapon bazooka_m1a1" filled}
 		{item "ammo bazooka" 5}
 		{item "bandage_usa" 5}

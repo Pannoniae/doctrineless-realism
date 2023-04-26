@@ -19,7 +19,7 @@
 	}
 	{inventory
 		{item "johnson" filled}
-		{item  "ammo johnson_lmg_mag" 160}
+		{item  "ammo rifle_johnson clip" 160}
 		{item "bandage_usa" 3}
 		{item "grenade mk2" 1}
 		{item "sandbag_kit" 1}

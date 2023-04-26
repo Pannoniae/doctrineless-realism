@@ -75,7 +75,7 @@
 	{Weaponry
 		{place "gun"
 			{Barrels 1}
-			{weapon "weapon 60mm_brandt" filling "ammo mortar60 he" 1}
+			{weapon "weapon 60mm_brandt" filling "ammo mortarus_60 he" 1}
 			{Rotate}
 		}
 	}

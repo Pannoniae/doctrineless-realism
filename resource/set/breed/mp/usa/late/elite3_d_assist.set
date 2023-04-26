@@ -18,7 +18,8 @@
 	}
 	{inventory
 		{item "johnson" filled}
-		{item  "ammo johnson_lmg_mag" 160}
+		{item  "ammo rifle_johnson clip" 160}
+		{item  "ammo johnson_lmg_mag" 60}
 		{item "bandage_usa" 5}
 		{item "grenade mk2" 4}
 		{item "smoke grenade" 2}

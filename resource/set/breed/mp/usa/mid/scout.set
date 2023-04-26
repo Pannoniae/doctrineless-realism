@@ -19,7 +19,7 @@
 	}
 	{inventory
 		{item "hdm" filled}
-		{item  "ammo 5x15" 150}
+		{item  "ammo pistol" 150}
 		{item "bandage_usa" 5}
 		{item "grenade mk2" 6}
 		{item "smoke grenade" 2}
