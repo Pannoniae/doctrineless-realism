@@ -1168,7 +1168,7 @@
 		{vehicle_view "universal_soviet"}
 	}
     
-    ;USA
+    ;USA valour
     {"b25"
 		{vehicle_view "airborne"}
 	}
@@ -1177,6 +1177,15 @@
 	}
 	{"m3a1_scout"
 		{vehicle_view "m3a1scout"}
+	}
+    {"m2halftrack"
+		{vehicle_view "m3halftrack"}
+	}
+	{"m2a1_lt"
+		{vehicle_view "m5a1"}
+	}
+	{"m2a4"
+		{vehicle_view "m5a1"}
 	}
 	{"m8_grayhound"
 		{vehicle_view "m8grayhound"}
@@ -1358,6 +1367,30 @@
 	{"m26e4_pershing"
 		{vehicle_view "m26_pershing"}
 	}
+    {"t26e4"
+		{vehicle_view "m26_pershing"}
+	}
+    {"t26e2"
+		{vehicle_view "m26_pershing"}
+	}
+    {"75_mm_m1a1"
+		{vehicle_view "cannon_sig33"}
+	}
+	{"105_mm_m3"
+		{vehicle_view "cannon"}
+	}
+	{"skytrain"
+		{vehicle_view "airborne"}
+	}
+    {"m18_90"
+		{vehicle_view "m18"}
+	}
+	{"t29"
+		{vehicle_view "m26_pershing"}
+	}
+    {"m4a4_tulip"
+		{vehicle_view "m4"}
+	}
 	{"m18"
 		{vehicle_view "m18"}
 	}
@@ -1375,5 +1408,629 @@
 	}
 	{"m4a3e8"
 		{vehicle_view "m4"}
+	}
+    {"lvt4"
+		{vehicle_view "valentine2"}
+	}
+    {"m3grant"
+		{vehicle_view "m3lee"}
+	}
+	{"lvt4_wb2"
+		{vehicle_view "t20"}
+	}
+	{"155mm_gpf"
+		{vehicle_view "cannon"}
+	}
+    {"m4a2"
+		{vehicle_view "m4"}
+	}
+	{"57_mm_m1"
+		{vehicle_view "cannon"}
+	}
+    
+    ;USA mace
+    {"us_halftrack_m21"
+		{vehicle_view "armored_car_m3a1e1"}
+	}
+
+	{"us_halftrack_m3"
+		{vehicle_view "armored_car_m3a1e1"}
+	}
+
+	{"us_halftrack_m3_gen2"
+		{vehicle_view "armored_car_m3a1e1"}
+	}
+
+	{"us_halftrack_t48"
+		{vehicle_view "armored_car_m3a1e1"}
+	}
+
+	{"us_m3a1e1_scout"
+		{vehicle_view "armored_car_m3a1e1"}
+	}
+
+	{"us_m3a1e1_scout_mgun"
+		{vehicle_view "armored_car_m3a1e1"}
+	}
+
+	{"us_m8_greyhound"
+		{vehicle_view "m8grayhound"}
+	}
+
+	{"us_m8_greyhound_gen2"
+		{vehicle_view "m8grayhound"}
+	}
+
+	{"us_t18e2"
+		{vehicle_view "m8grayhound"}
+	}
+
+	{"us_m20"
+		{vehicle_view "m8grayhound"}
+	}
+
+	{"ab_m1_how_75mm"
+		{vehicle_view "cannon"}
+	}
+
+	{"m1_gun_57mm"
+		{vehicle_view "cannon"}
+	}
+
+	{"m2a1_how_105mm"
+		{vehicle_view "cannon"}
+	}
+
+	{"m3_how_105mm"
+		{vehicle_view "cannon"}
+	}
+
+	{"m5_gun_76mm"
+		{vehicle_view "cannon"}
+	}
+	
+	{"40mm_m1_bofors"
+		{vehicle_view "52k"}
+	}
+
+	{"us_m3_gun_37mm"
+		{vehicle_view "cannon"}
+	}
+
+	{"us_m115"
+		{vehicle_view "b4"}
+	}
+
+	{"m1a1_155mm_long_tom"
+		{vehicle_view "b4"}
+	}
+
+	{"little_david"
+		{vehicle_view "b4"}
+	}
+
+	{"m18_recoiless_rifle_f"
+		{vehicle_view "mg_stand"}
+	}
+
+	{"browning_m2_mg"
+		{vehicle_view "mg_stand"}
+	}
+
+	{"browning_m1919a4_f"
+		{vehicle_view "mg_stand"}
+	}
+
+	{"browning_m2_mg_ai"
+		{vehicle_view "mg_stand"}
+	}
+
+	{"browning_m1919a4_f_ai"
+		{vehicle_view "mg_stand"}
+	}
+
+	{"browning_m1917a1_mg"
+		{vehicle_view "mg_stand"}
+	}
+
+	{"81mm_m1"
+		{vehicle_view "mortar_rus"}
+	}
+
+	{"60mm_m2_mortar"
+		{vehicle_view "mortar_rus"}
+	}
+
+	{"60mm_m2_mortar_ai"
+		{vehicle_view "mortar_rus"}
+	}
+
+	{"willys_jeep_com"
+		{vehicle_view "gaz67"}
+	}
+
+	{"willys_jeep_medical"
+		{vehicle_view "gaz67"}
+	}
+
+	{"willys_jeep2"
+		{vehicle_view "gaz67b"}
+	}
+
+	{"willys_jeep"
+		{vehicle_view "gaz67b"}
+	}
+
+	{"tiz_am600"
+		{vehicle_view "m72"}
+	}
+
+	{"us_xylophone"
+		{vehicle_view "bm13_studebaker"}
+	}
+
+	{"us_halftrack_m15a1"
+		{vehicle_view "gaz_aa"}
+	}
+
+	{"us_halftrack_m16"
+		{vehicle_view "gaz_aa_maxim"}
+	}
+
+	{"us_t69"
+		{vehicle_view "gaz_aa_maxim"}
+	}
+
+	{"us_m19"
+		{vehicle_view "t70"}
+	}
+
+	{"us_m26"
+		{vehicle_view "m26_pershing"}
+	}
+
+	{"us_m26e1"
+		{vehicle_view "m26_pershing"}
+	}
+
+	{"us_t26e1_1"
+		{vehicle_view "m26_pershing"}
+	}
+
+	{"us_t30"
+		{vehicle_view "m26_pershing"}
+	}
+
+	{"us_t32e1"
+		{vehicle_view "m26_pershing"}
+	}
+
+	{"us_t34"
+		{vehicle_view "m26_pershing"}
+	}
+
+	{"us_m6a2e1"
+		{vehicle_view "kv2"}
+	}
+
+	{"us_t95_gen2"
+		{vehicle_view "isu152"}
+	}
+
+	{"us_t95"
+		{vehicle_view "isu152"}
+	}
+
+	{"us_lvta1"
+		{vehicle_view "t28"}
+	}
+
+	{"us_lvta4"
+		{vehicle_view "t28"}
+	}
+
+	{"us_m2a2"
+		{vehicle_view "m3_stuart_late_rus"}
+	}
+
+	{"us_m3_stuart"
+		{vehicle_view "m3_stuart_late_rus"}
+	}
+
+	{"us_m5a1"
+		{vehicle_view "t50"}
+	}
+	
+	{"us_m24"
+		{vehicle_view "t50"}
+	}
+
+	{"t26_31"
+		{vehicle_view "t50"}
+	}
+
+	{"us_m18"
+		{vehicle_view "t34_85"}
+	}
+
+	{"us_m18_90"
+		{vehicle_view "t34_85"}
+	}
+
+	{"us_m18_blackcat"
+		{vehicle_view "t34_85"}
+	}
+
+	{"us_m8"
+		{vehicle_view "bt7a"}
+	}
+
+	{"us_m8a1"
+		{vehicle_view "t26"}
+	}
+
+	{"us_m10a1"
+		{vehicle_view "t34_85"}
+	}
+
+	{"us_m10"
+		{vehicle_view "t34_85"}
+	}
+
+	{"us_m36"
+		{vehicle_view "t34_85"}
+	}
+
+	{"us_m36b1"
+		{vehicle_view "t34_85"}
+	}
+
+	{"us_m36b2"
+		{vehicle_view "t34_85"}
+	}
+
+	{"us_m12"
+		{vehicle_view "isu152"}
+	}
+
+	{"us_m7"
+		{vehicle_view "isu152"}
+	}
+
+	{"us_m2_med"
+		{vehicle_view "t34_40"}
+	}
+
+	{"us_m3_recovery"
+		{vehicle_view "t26"}
+	}
+
+	{"us_m3"
+		{vehicle_view "smk"}
+	}
+
+;---------all m4
+
+	{"us_m4a3e2_jumbo_76"
+		{vehicle_view "m4a2_76w_early_rus"}
+	}
+	{"us_m4a3e2_jumbo"
+		{vehicle_view "m4a2_75_late_rus"}	
+	}
+	{"US_m4a4_firefly"
+		{vehicle_view "m4a2_76w_early_rus"}	
+	}
+
+	{"us_m4"
+		{vehicle_view "m4a2_75_late_rus"}
+	}
+	
+	{"us_m4_improved"
+		{vehicle_view "m4a2_75_late_rus"}
+	}
+
+	{"us_m4_t34"
+		{vehicle_view "m4a2_75_late_rus"}
+	}
+	{"US_M4A1(76)W"
+		{vehicle_view "m4a2_76w_early_rus"}	
+	}
+	{"us_m4a1"
+		{vehicle_view "m4a2_75_late_rus"}	
+	}
+	{"us_m4a3"
+		{vehicle_view "m4a2_75_late_rus"}	
+	}
+	{"US_M4A3_105"
+		{vehicle_view "m4a2_75_late_rus"}	
+	}
+	{"US_M4A3E2(76)W"
+		{vehicle_view "m4a2_76w_early_rus"}	
+	}
+	{"US_M4A3E2"
+		{vehicle_view "m4a2_76w_early_rus"}	
+	}
+	{"US_M4A3E2_CobraKing"
+		{vehicle_view "m4a2_76w_early_rus"}	
+	}
+	{"US_m4a3e8"
+		{vehicle_view "m4a2_76w_early_rus"}	
+	}
+	{"us_m4a3e8_thundervii"
+		{vehicle_view "m4a2_76w_early_rus"}	
+	}
+	{"us_m4a3e8_FURY"
+		{vehicle_view "m4a2_76w_early_rus"}
+	}
+	{"us_m4a3r3_zippo"
+		{vehicle_view "m4a2_75_late_rus"}	
+	}
+	{"churchill_crocodile"
+		{vehicle_view "churchill3"}
+	}
+	{"churchill_crocodile_trailer"
+		{vehicle_view "universal"}
+	}
+	{"tri-polsten_20mm"
+		{vehicle_view "52k"}
+	}
+	{"inf_crate_usa"
+		{vehicle_view "box"}
+	}
+	{"us_m6a1"
+		{vehicle_view "smk"}
+	}
+	{"us_m22"
+		{vehicle_view "t26"}
+	}
+	{"us_lvtm24"
+		{vehicle_view "t34"}
+	}
+	{"gmc_fuel"
+		{vehicle_view "car"}
+	}
+	{"gmc_ammo"
+		{vehicle_view "car"}
+	}
+	{"gmc_engineer"
+		{vehicle_view "car"}
+	}
+	{"gmc_transport"
+		{vehicle_view "car"}
+	}
+	{"stud_fuel"
+		{vehicle_view "car"}
+	}
+	{"stud_ammo"
+		{vehicle_view "car"}
+	}
+	{"stud_engineer"
+		{vehicle_view "car"}
+	}
+	{"stud_transport"
+		{vehicle_view "car"}
+	}
+    
+    ; misc MACE
+    {"sdkfz251c_stuka"
+		{vehicle_view "sdkfz251c_2"}
+	}
+
+	{"sdkfz251_20"
+		{vehicle_view "sdkfz251c"}
+	}
+	
+	{"sdkfz4_panzerwerfer"
+		{vehicle_view "sdkfz251c_2"}
+	}
+
+	{"88mm-raketenwerfer43"
+		{vehicle_view "cannon"}
+	}
+
+	{"high_mg_mg42"
+		{vehicle_view "mg_stand"}
+	}
+
+	{"high_mg_mg34"
+		{vehicle_view "mg_stand"}
+	}
+
+	{"blitz3_6_art_ammo_beutpanzer"
+		{vehicle_view "car"}
+	}
+
+	{"sdkfz7_2_modded"
+		{vehicle_view "sdkfz7_2"}
+	}
+	
+	{"sdkfz_234_4_modded"
+		{vehicle_view "puma"}
+	}
+	
+;-----------------
+;-----------------
+	{"panzerjager_jagdtiger_modded"
+		{vehicle_view "jagdtiger"}
+	}
+	{"kv2_754r"
+		{vehicle_view "kv2"}
+	}
+	{"sturer_emil"
+		{vehicle_view "tank_destroyer"}
+	}
+;-----------------
+	{"bison2"
+		{vehicle_view "marder2"}
+	}
+	{"flakpanzer1a"
+		{vehicle_view "pz2f"}
+	}
+	{"grille"
+		{vehicle_view "marder2"}
+	}
+	{"sdkfz301wanze"
+		{vehicle_view "marder2"}
+	}
+	{"wespe"
+		{vehicle_view "marder2"}
+	}
+;-----------------
+	{"dicker_max"
+		{vehicle_view "tank_destroyer"}
+	}
+	{"geschuetzwagen_ivb"
+		{vehicle_view "panzer4d"}
+	}
+	{"hummel"
+		{vehicle_view "marder2"}
+	}
+	{"marder_1fcm_36"
+		{vehicle_view "marder2"}
+	}
+	{"nashorn"
+		{vehicle_view "marder2"}
+	}
+	{"ostwind_modded"
+		{vehicle_view "panzer4j"}
+	}
+	{"welberwind_modded"
+		{vehicle_view "panzer4j"}
+	}
+	{"pz6p_Panzerbefehiswagen"
+		{vehicle_view "tiger_1h"}
+	}
+	{"pz6p_Panzerbefehiswagen_commander"
+		{vehicle_view "tiger_1h"}
+	}
+;-----------------
+	{"PzKw747_57_41"
+		{vehicle_view "t34_76"}
+	}
+	{"PzKw747_57_43"
+		{vehicle_view "t34_76"}
+	}
+	{"PzKw747_76_40"
+		{vehicle_view "t34_40"}
+	}
+	{"PzKw747_76_41"
+		{vehicle_view "t34_40"}
+	}
+	{"PzKw747_76_43"
+		{vehicle_view "t34_40"}
+	}
+	{"PzKw747_85"
+		{vehicle_view "t34"}
+	}
+;-----------------	
+	{"PzKw753_40"
+		{vehicle_view "kv1_41"}
+	}
+	{"PzKw753_41"
+		{vehicle_view "kv1_41"}
+	}
+;-----------------
+	{"PzKw754"
+		{vehicle_view "kv2"}
+	}
+;-----------------	
+	{"PzKw755_85"
+		{vehicle_view "kv1s"}
+	}
+	{"PzKw755_S"
+		{vehicle_view "kv1s"}
+	}
+;-----------------
+		{"t60r"
+		{vehicle_view "t70"}
+	}
+;-----------------
+
+	{"nbfz"
+		{vehicle_view "panzer4d"}
+	}
+
+	{"pzkpfw_6_ausf_b_tiger_sla16"
+		{vehicle_view "ferdinand"}
+	}
+	
+	{"elefant"
+		{vehicle_view "ferdinand"}
+	}
+	
+	{"sdkfz221_spzb41"
+		{vehicle_view "sdkfz221"}
+	}
+	
+	{"pz6bh_105mm"
+		{vehicle_view "tiger2h"}
+	}
+	
+	{"pzkpfw_6_ausf_b_tiger(h)_sla16"
+		{vehicle_view "tiger2h"}
+	}
+	
+	{"pzkpfw_8_maus"
+		{vehicle_view "tiger2h"}
+	}
+	
+	{"sturmpanzer_6_ausf_e_sturmtiger_modded"
+		{vehicle_view "sturmtiger"}
+	}
+	
+	{"pzkpfw_2hvk903"
+		{vehicle_view "panzer3e"}
+	}
+	
+	{"beutepanzer_m4a2"
+		{vehicle_view "m4a2_75_late_rus"}
+	}
+	
+	{"jagdpziv_70"
+		{vehicle_view "stug3f"}
+	}
+	
+	{"jagdpanzer_iv_a"
+		{vehicle_view "stug3f"}
+	}
+	
+	{"jagdpanzer_iv_a_armor"
+		{vehicle_view "stug3f"}
+	}
+	
+	{"panther_ii-hd"
+		{vehicle_view "panzer5"}
+	}
+	
+	{"e_100a"
+		{vehicle_view "tiger2h"}
+	}
+	
+	{"e_100b"
+		{vehicle_view "tiger2h"}
+	}
+	
+	{"e_100c"
+		{vehicle_view "tiger2h"}
+	}
+	
+	{"bergepanther"
+		{vehicle_view "panzer5"}
+	}
+	
+	{"coelian_i"
+		{vehicle_view "panzer5"}
+	}
+	
+	{"type_5"
+		{vehicle_view "tiger2h"}
+	}
+	
+	{"schwimmwagen"
+		{vehicle_view "kubelwagen"}
+	}
+	
+	{"ezart"
+		{vehicle_view "panzer5"}
 	}
 }

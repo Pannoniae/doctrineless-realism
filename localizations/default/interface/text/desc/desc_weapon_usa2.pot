@@ -45,7 +45,7 @@ msgid "107mm M2"
 msgstr ""
 
 msgctxt "desc/weapon/114mm_t27"
-msgid "114mm Launcher"
+msgid "114mm T27 Launcher"
 msgstr ""
 
 msgctxt "desc/weapon/155mm_gpf"

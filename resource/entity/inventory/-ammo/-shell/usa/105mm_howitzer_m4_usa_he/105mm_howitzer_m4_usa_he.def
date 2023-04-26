@@ -6,7 +6,7 @@
 		{able {touch} {bullet} {blast}}
 	}
 	{extender "stuff"
-		{item "bulletusa_m4_howitzer_105 he"}
+		{item "bulletusa_105_howitzer he"}
 	}
 	{props "steel" "explosive_stuff"}
 	{Extension "105mm_howitzer_m4_usa_he.mdl"}

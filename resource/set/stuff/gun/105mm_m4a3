@@ -1,5 +1,5 @@
 {from "pattern gun"			; M4A3 105
-	{filling "bulletusa_m4_howitzer_105"}
+	{filling "bulletusa_105_howitzer"}
 	{fireSound "gun/gun_75_105"}
 	{fireSoundclose "gun/gun_interior/size3"}
 	{reloadSound "interior/large/big_reload_interior"}

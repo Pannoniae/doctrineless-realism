@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "usa-late-rfl"}
+	{portrait "usa_national_guard"}
+	{icon "smg"}
+	{icon_priority 0}
+	{nationality usa_nco}
+	{armors
+		{head helmet_usa_29th_officer}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_2")
+	}
+	{inventory
+		{item "thompson_m1a1" filled}
+		{item "thompson_mag ammo" 192}
+
+		{item "mk2 grenade" 2.25 0.5}
+		{item "smoke grenade" 1.25 0.5}
+
+		{item "bandage_usa" 3.5 0.5}
+
+		{in_hands 0}
+	}
+}

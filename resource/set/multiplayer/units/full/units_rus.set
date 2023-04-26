@@ -420,6 +420,8 @@
 ("squad_with1types" side(rus) name(single_medic)		period(late) year(full) cd(0)   ci(0)   g(single_medic)	c1(medic:2) 							b(single) t(medic))
 ("squad_with1types" side(rus) name(single_sniper)		period(late) year(full) cd(0) ci(0) g(single_sniper)	c1(sniper:1) 							b(single) t(sniper))
 ("squad_with1types" side(rus) name(single_officer)		period(late) year(full) cd(0) ci(0) g(single_officer)	c1(commisar:1)							b(single) t(officer)))
+("squad_with1types" side(rus) name(doctrine_squad_rus_politicalofficer_late) period(late) year(full) cd(0) ci(0) c1(commisar2:1) b(single) t(officer))
+
 {"doctrine_gunshields"
 	("squad_3_2vehicles" side(rus) period(early) year(full) cd(0)  ci(0)  g(shields) vehicle1(broneschitok_2) vehicle2(broneschitok_2_dp) crew1(rifleman_1:1) crew2(mg_crew:1) b(single) t())
 }

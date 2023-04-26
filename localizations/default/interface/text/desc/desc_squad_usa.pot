@@ -12,6 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+
+msgctxt "desc/squad/squad_national_guard_late(usa)"
+msgid "<c(A5A095)>(1)</c> National Guards"
+msgstr ""
+
 msgctxt "desc/squad/squad_light(usa)"
 msgid "<c(A5A095)>(1)</c> Light infantry"
 msgstr ""

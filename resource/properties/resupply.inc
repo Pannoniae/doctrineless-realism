@@ -573,13 +573,13 @@
 	{item "bulletusa_90"	"sm"		"ammo" 1 {value 10}}
 	{item "bulletusa_90"	"he"		"ammo" 1 {value 5}}
 
-	{item "bulletusa_m4_howitzer_105"	"he"		"ammo" 1 {value 15}}
-	{item "bulletusa_m4_howitzer_105"	"heat"		"ammo" 1 {value 20}}
-	{item "bulletusa_m4_howitzer_105"	"sm"		"ammo" 1 {value 25}}
-
 	{item "bulletusa_105_howitzer"	"he"		"ammo" 1 {value 15}}
 	{item "bulletusa_105_howitzer"	"heat"		"ammo" 1 {value 20}}
 	{item "bulletusa_105_howitzer"	"sm"		"ammo" 1 {value 25}}
+
+	;{item "bulletusa_105_howitzer"	"he"		"ammo" 1 {value 15}}
+	;{item "bulletusa_105_howitzer"	"heat"		"ammo" 1 {value 20}}
+	;{item "bulletusa_105_howitzer"	"sm"		"ammo" 1 {value 25}}
 
 	{item "mortar50_eng"		"ammo" 1 {value 20}}
 

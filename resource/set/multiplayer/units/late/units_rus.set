@@ -393,20 +393,21 @@
 ;|________________________________________________|
 
 
-("squad_with2types" side(rus) name(single_auxiliary)	period(late) year(late) cd(0)   ci(0)   g(single_rifle)	c1(rifleman_1:1) c2(smg_1:1)			b(single) t())
-("squad_with2types" side(rus) name(single_mg)			period(late) year(late) cd(0)   ci(0)  g(single_mg)		c1(mgun_1:1) c2(mgun_2:1)				b(single) t())
+("squad_with2types" side(rus) name(single_auxiliary)	period(late) year(late) cd(0)   ci(0)   g(single_rifle)	c1(rifleman_1:1) c2(smg_1:1) b(single) t())
+("squad_with2types" side(rus) name(single_mg)			period(late) year(late) cd(0)   ci(0)  g(single_mg)		c1(mgun_1:1) c2(mgun_2:1) b(single) t())
 ("squad_with2types" side(rus) name(single_at)			period(late) year(late) cd(0)   ci(0)   g(single_at)		c1(antitank_ptrs:1) c2(antitank_asst:1)	b(single) t())
-("squad_with2types" side(rus) name(single_bazooker)		period(late) year(late) cd(0)   ci(0)   g(single_grenade)	c1(antitank_5:1) c2(antitank_3:1)		b(single) t())
-("squad_with1types" side(rus) name(single_ap_miner)		period(late) year(late) cd(0)   ci(0)  g(single_apmine)	c1(miner-ap:2)							b(single) t(engineer))
-("squad_with1types" side(rus) name(single_at_miner)		period(late) year(late) cd(0)   ci(0)  g(single_atmine)	c1(miner-at:2)							b(single) t(engineer))
-("squad_with2types" side(rus) name(single_engineer)		period(late) year(late) cd(0)   ci(0)  g(single_eng)		c1(engineer_1:1) c2(engineer_2:1)		b(single) t(engineer))
+("squad_with2types" side(rus) name(single_bazooker)		period(late) year(late) cd(0)   ci(0)   g(single_grenade)	c1(antitank_5:1) c2(antitank_3:1) b(single) t())
+("squad_with1types" side(rus) name(single_ap_miner)		period(late) year(late) cd(0)   ci(0)  g(single_apmine)	c1(miner-ap:2) b(single) t(engineer))
+("squad_with1types" side(rus) name(single_at_miner)		period(late) year(late) cd(0)   ci(0)  g(single_atmine)	c1(miner-at:2) b(single) t(engineer))
+("squad_with2types" side(rus) name(single_engineer)		period(late) year(late) cd(0)   ci(0)  g(single_eng)		c1(engineer_1:1) c2(engineer_2:1) b(single) t(engineer))
 ("squad_with1types" side(rus) name(doctrine_squad_rus_signaller_late) period(late) year(late) cd(0)   ci(0)  g(single_signaller) c1(signaller:1) b(single) t(signaller))
 
-("squad_with1types" side(rus) name(single_flamer)		period(late) year(late) cd(0)   ci(0)  g(single_flamer)	c1(flamer:1)							b(single) t(flamer))
-("squad_with2types" side(rus) name(single_tankman)		period(late) year(late) cd(0)  ci(0)  g(single_crew)		c1(tank_commander:1) c2(tankman:3)		b(single) t())
-("squad_with1types" side(rus) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic)	c1(medic:2) 							b(single) t(medic))
-("squad_with1types" side(rus) name(single_sniper)		period(late) year(late) cd(0) ci(0) g(single_sniper)	c1(sniper:1) 							b(single) t(sniper))
-("squad_with1types" side(rus) name(single_officer)		period(late) year(late) cd(0) ci(0) g(single_officer)	c1(commisar:1)							b(single) t(officer)))
+("squad_with1types" side(rus) name(single_flamer)		period(late) year(late) cd(0)   ci(0)  g(single_flamer)	c1(flamer:1) b(single) t(flamer))
+("squad_with2types" side(rus) name(single_tankman)		period(late) year(late) cd(0)  ci(0)  g(single_crew)		c1(tank_commander:1) c2(tankman:3) b(single) t())
+("squad_with1types" side(rus) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic)	c1(medic:2) b(single) t(medic))
+("squad_with1types" side(rus) name(single_sniper)		period(late) year(late) cd(0) ci(0) g(single_sniper)	c1(sniper:1) b(single) t(sniper))
+("squad_with1types" side(rus) name(single_officer)		period(late) year(late) cd(0) ci(0) g(single_officer)	c1(commisar:1) b(single) t(officer)))
+("squad_with1types" side(rus) name(doctrine_squad_rus_politicalofficer_late) period(late) year(late) cd(0) ci(0) c1(commisar2:1) b(single) t(officer))
 
 
 {"doctrine_inf_crate_rus_late"
