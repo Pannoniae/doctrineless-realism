@@ -97,17 +97,17 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}
 		{box
-			{item "ammo us mortar81 fg" 80}
-			{item "ammo us mortar81 he" 10}
-			{item "ammo us mortar81 sm" 6}
+			{item "mortarus_82 fg" 80}
+			{item "mortarus_82 he" 10}
+			{item "mortarus_82 sm" 6}
 			{item "browning_m19" filled {user "mgun"}}
-			{item "ammo 7x63" 600}
+			{item "ammo" "mgun_usa belt" 600}
 		}
 	}
 	{Weaponry
 		{place "gun"
 			{Barrels 1}
-			{weapon "weapon 81mm_brandt" filling "ammo us mortar81 he" 1}
+			{weapon "weapon 81mm_brandt" filling "mortarus_82 he" 1}
 			{foresight "foresight1"}
 		}
 		{place "mgun"

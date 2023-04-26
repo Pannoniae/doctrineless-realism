@@ -136,17 +136,17 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 			{item "dynamite"}
-			{item "ammo bullet75_usa he" 40}
-			{item "ammo bullet75_usa heat" 5}
+			{item "ammo bulletusa_75 he" 40}
+			{item "ammo bulletusa_75 heat" 5}
 			{item "browning" filled {user "mgun"}}
-			{item "ammo 12x99" 500}
+			{item "ammo hmgun_usa" 500}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "75mm_m2" filling "ammo bullet75_usa he" 1}
+			{weapon "75mm_m2" filling "ammo bulletusa_75 he" 1}
 			("abm_dymamic"
 				zeroing(2.0)
 				dispersion(0.15)

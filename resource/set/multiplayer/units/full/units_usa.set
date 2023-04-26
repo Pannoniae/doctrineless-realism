@@ -343,8 +343,10 @@
 ("squad_with1types" side(usa) name(single_flamer)       period(late) year(full) cd(60) ci(120) g(single_flamer)  c1(flamer:1)                    b(inf2) t(  flamer )    level(1) research_stage(3))
 ("squad_with1types" side(usa) name(single_sniper)       period(late) year(full) cd(120) ci(180) g(single_sniper) c1(sniper:1)                     b(inf2) t(  sniper )    level(1) research_stage(3))
 ("squad_with1types" side(usa) name(single_officer)      period(late) year(full) cd(120) ci(180) g(single_officer)  c1(officer:1)                  b(inf2) t(  officer )   level(1) research_stage(2))
-{"inf_crate_usa"
-	("vehicle" period(late) year(full) cd(0) ci(30)   t( supply) side(usa) crew(rifle:2)             g(supplybox) b(inf2)  cw(0)  cp(0) 
+
+
+{"doctrine_inf_crate_usa_full"
+	("squad_vehicle_noall" period(late) year(full) cd(0) ci(30)   t( supply) side(usa) crew(rifle:2)  vehicle(inf_crate_usa) g(supplybox) b(inf2)  cw(0)  cp(0) 
 	cost(85))
 }  
 ;_________________________________________________

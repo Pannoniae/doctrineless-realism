@@ -68,7 +68,7 @@
 	}
 	{extender "inventory"
 		{box
-			{item "ammo us mortar60 he" 60}
+			{item "ammo mortarus_60 he" 60}
 			{item "sandbag_vehicle" 5}
 		}
 	}

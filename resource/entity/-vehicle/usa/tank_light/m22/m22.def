@@ -102,17 +102,17 @@
 	{extender "inventory"
 		{box
 			{item "dynamite"}
-			{item "bullet37_usa ap" 25}
-			{item "bullet37_usa he" 20}
-			{item "bullet37_usa apcbc" 5}
-			{item "ammo 7x63" 2500}
+			{item "bulletusa_37 ap" 25}
+			{item "bulletusa_37 he" 20}
+			{item "bulletusa_37 apcbc" 5}
+			{item "ammo mgun_usa belt" 2500}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "37mm_m6" filling "bullet37_usa ap" 1}
+			{weapon "37mm_m6" filling "bulletusa_37 ap" 1}
 			("abm_dymamic"
 				zeroing(2.0)
 				dispersion(0.15)

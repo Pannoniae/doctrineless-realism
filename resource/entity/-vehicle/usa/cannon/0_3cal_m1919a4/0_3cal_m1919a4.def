@@ -35,7 +35,7 @@
 		{box
 			{size 8 12} 
 			{weight 100}
-			{item "ammo 7x63" 500}
+			{item "ammo mgun_usa belt" 500}
 			{item "browning_m1919a4" filled {user "mgun"}}
 		}
 	}

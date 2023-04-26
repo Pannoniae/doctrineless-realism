@@ -51,11 +51,8 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}
 		{box
-			{item "ammo 12x99" 2200}
+			{item "ammo hmgun_usa" 2200}
 			{item "browning" filled {user "mgun"}}
-			(mod "mp"
-				{item "tow_rope" 1}
-			)
 		}
 	}
 	{Weaponry

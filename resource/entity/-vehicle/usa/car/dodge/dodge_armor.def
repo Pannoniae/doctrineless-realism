@@ -57,7 +57,7 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 			{size 8 8}
-			{item "ammo 12x99" 1000}
+			{item "ammo hmgun_usa" 1000}
 			{item  "bazooka ammo" 30}
 			{item "browning_m2hb" filled {user "mgun"}}
 		}

@@ -64,6 +64,14 @@ msgctxt "mp/lobby/doctrine/early_rus_allround#hint"
 msgid ""
 msgstr ""
 
+msgctxt "mp/lobby/doctrine/early_usa_allround"
+msgid "[Early] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_usa_allround#hint"
+msgid ""
+msgstr ""
+
 msgctxt "mp/lobby/doctrine/mid_fin_allround"
 msgid "[Mid] War"
 msgstr ""
@@ -85,6 +93,14 @@ msgid "[Mid] War"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/mid_rus_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_usa_allround"
+msgid "[Mid] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_usa_allround#hint"
 msgid ""
 msgstr ""
 
@@ -112,6 +128,14 @@ msgctxt "mp/lobby/doctrine/late_rus_allround#hint"
 msgid ""
 msgstr ""
 
+msgctxt "mp/lobby/doctrine/late_usa_allround"
+msgid "[Late] War"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_usa_allround#hint"
+msgid ""
+msgstr ""
+
 msgctxt "mp/lobby/doctrine/full_fin_allround"
 msgid "Total War!"
 msgstr ""
@@ -133,5 +157,13 @@ msgid "Total War!"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/full_rus_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/full_usa_allround"
+msgid "Total War!"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/full_usa_allround#hint"
 msgid ""
 msgstr ""

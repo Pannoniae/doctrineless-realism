@@ -78,7 +78,7 @@
 	{extender "inventory"
 		{box
 			{item "dynamite"}
-			{item "ammo 7x63" 5000}
+			{item "ammo mgun_usa belt" 5000}
 			{item "ammo flame_thrower" 200}
 		}
 	}

@@ -28,6 +28,7 @@ msgctxt "desc/weapon/type/right"
 msgid "Right Rear MG"
 msgstr ""
 
+
 msgctxt "desc/ammo/little_david he"
 msgid "914mm Shell [<c(ff1200)>HE</c>]"
 msgstr ""

@@ -96,8 +96,8 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet90_usa ap" 50}
-			{item "ammo bullet90_usa he" 27}
+			{item "ammo bulletusa_90 apcbc" 50}
+			{item "ammo bulletusa_90 he" 27}
 			{item "sandbag_vehicle" 1}
 		}
 	}
@@ -106,7 +106,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "90mm_m1" filling "ammo bullet90_usa ap" 1}
+			{weapon "90mm_m1" filling "ammo bulletusa_90 apcbc" 1}
 			("abm_dymamic_gun"
 				zeroing(2.5)
 				dispersion(0.50)

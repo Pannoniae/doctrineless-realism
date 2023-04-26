@@ -155,19 +155,19 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 			{item "dynamite"}
-			{item "ammo bullet76_usa apcbc" 40}
-			{item "ammo bullet76_usa he" 25}
-			{item "ammo bullet76_usa apcr" 5}
+			{item "ammo bulletusa_76 apcbc" 40}
+			{item "ammo bulletusa_76 he" 25}
+			{item "ammo bulletusa_76 apcr" 5}
 			{item "browning" filled {user "mgun"}}
-			{item "ammo 12x99" 600}
-			{item "ammo 7x63" 3125}
+			{item "ammo hmgun_usa" 600}
+			{item "ammo mgun_usa belt" 3125}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "76mm_m1a2" filling "ammo bullet76_usa apcbc" 1}	
+			{weapon "76mm_m1a2" filling "ammo bulletusa_76 apcbc" 1}	
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_stabilised"

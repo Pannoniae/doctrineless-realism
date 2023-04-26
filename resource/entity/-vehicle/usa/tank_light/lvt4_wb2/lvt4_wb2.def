@@ -67,8 +67,8 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo 7x63" 6000}
-			{item "ammo 12x99" 6000}
+			{item "ammo mgun_usa belt" 6000}
+			{item "ammo hmgun_usa" 6000}
 		}
 	}
 	{Weaponry

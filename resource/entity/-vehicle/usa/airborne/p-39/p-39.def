@@ -117,8 +117,8 @@
         {extender "inventory"
 		{box
 			{item "ammo bazooka" 6}
-			{item "ammo 12x99" 2000}
-			{item "bullet37_usa_zenite" 30}
+			{item "ammo hmgun_usa" 2000}
+			{item "bulletusa_auto_37 apc" 30}
 		}
 	}	
        	{Weaponry

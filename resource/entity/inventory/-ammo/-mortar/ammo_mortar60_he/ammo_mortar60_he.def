@@ -2,6 +2,6 @@
 	(include "/properties/stuff.ext")
 	{extension "ammo_mortar60_he.mdl"}
 	{extender "stuff"
-		{item "ammo us mortar60 he"}
+		{item "ammo mortarus_60 he"}
 	}
 }

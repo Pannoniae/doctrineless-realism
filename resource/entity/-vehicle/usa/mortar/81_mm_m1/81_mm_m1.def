@@ -2,15 +2,15 @@
 	(include "81mm_mortar.inc")
 	{extender "inventory"
 		{box
-			{item "ammo us mortar81 he" 60}
-			{item "ammo us mortar81 sm" 10}
+			{item "mortarus_82 he" 60}
+			{item "mortarus_82 sm" 10}
 			{item "sandbag_vehicle" 5}
 		}
 	}
 	{Weaponry
 		{place "gun"
 			{Barrels 1}
-			{weapon "weapon 81mm_brandt" filling "ammo us mortar81 he" 1}
+			{weapon "weapon 81mm_brandt" filling "mortarus_82 he" 1}
 			{Rotate}
 		}
 	}

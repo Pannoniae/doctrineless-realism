@@ -158,18 +158,18 @@
 	{extender "inventory"
 		{box
 			{item "dynamite"}
-			{item "ammo bullet75_usa ap" 20}
-			{item "ammo bullet75_usa apcbc" 5} 
-			{item "ammo bullet75_usa he" 24}
-			{item "bullet37_usa ap" 178}
-			{item "ammo 7x63" 2400}
+			{item "ammo bulletusa_75 ap" 20}
+			{item "ammo bulletusa_75 apcbc" 5} 
+			{item "ammo bulletusa_75 he" 24}
+			{item "bulletusa_37 ap" 178}
+			{item "ammo mgun_usa belt" 2400}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "75mm_m2at" filling "ammo bullet75_usa ap" 1}
+			{weapon "75mm_m2at" filling "ammo bulletusa_75 ap" 1}
 			{foresight "foresight1"}
 			{rotate}
 			("abm_dymamic"
@@ -180,7 +180,7 @@
 		}
 		{place "gun2"
 			{RestoreIKAfterAim}
-			{weapon "37mm_m5" filling "bullet37_usa ap" 1}
+			{weapon "37mm_m5" filling "bulletusa_37 ap" 1}
 			{foresight "foresight2"}
 			{gunner "commander"}
 			{charger "commander"}

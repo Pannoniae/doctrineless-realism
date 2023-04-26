@@ -106,11 +106,11 @@
 			{item "smoke" "grenade" 10}
 			{item "bandage_usa" 10}
 			{item "dynamite"}
-			{item "browning" filling "ammo 12x99" 100 {user "mgun"}}
-			{item "browning_m19" filling "ammo 7x63" 250 {user "mgun1"}}
-			{item "browning_m19" filling "ammo 7x63" 249 {user "mgun2"}}
-			{item "7x63" "ammo" 4500}		
-			{item "ammo 12x99" 1000}
+			{item "browning" filling "ammo hmgun_usa" 100 {user "mgun"}}
+			{item "browning_m19" filling "ammo mgun_usa belt" 250 {user "mgun1"}}
+			{item "browning_m19" filling "ammo mgun_usa belt" 249 {user "mgun2"}}
+			{item "mgun_usa belt" "ammo" 4500}		
+			{item "ammo hmgun_usa" 1000}
 		}
 	}
 	

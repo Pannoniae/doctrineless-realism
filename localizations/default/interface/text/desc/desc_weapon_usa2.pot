@@ -12,6 +12,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+msgctxt "desc/weapon/155mm_c17s"
+msgid "155mm Schneider mle.1917"
+msgstr ""
+
+msgctxt "desc/weapon/155mm_m1918"
+msgid "155mm Schneider mle.1917"
+msgstr ""
+
+msgctxt "desc/weapon/155mm_gpf"
+msgid "155mm GPF mle.191
+
 msgctxt "desc/weapon/type/mgun_left"
 msgid "Left MG"
 msgstr ""

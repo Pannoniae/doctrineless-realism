@@ -71,9 +71,9 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet105_usa he" 60}
-			{item "ammo bullet105_usa heat" 5}
-			{item "ammo bullet105_usa wp" 5}
+			{item "ammo bulletusa_105_howitzer he" 60}
+			{item "ammo bulletusa_105_howitzer heat" 5}
+			{item "ammo bulletusa_105_howitzer wp" 5}
 			{item "sandbag_vehicle" 1}
 		}
 	}
@@ -81,7 +81,7 @@
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
-			{weapon "105mm_m3" filling "ammo bullet105_usa he" 1}
+			{weapon "105mm_m3" filling "ammo bulletusa_105_howitzer he" 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic_gun"
 				zeroing(4.5)

@@ -175,17 +175,17 @@
 	{extender "inventory"
 		{box
 			{item "dynamite"}
-			{item "ammo bullet75_usa apcbc" 35}
-			{item "ammo bullet75_usa he" 27}
+			{item "ammo bulletusa_75 apcbc" 35}
+			{item "ammo bulletusa_75 he" 27}
 			{item "ammo calliope" 60}	
-			{item "ammo 7x63" 2350}
+			{item "ammo mgun_usa belt" 2350}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "75mm_m3" filling "ammo bullet75_usa apcbc" 1}		
+			{weapon "75mm_m3" filling "ammo bulletusa_75 apcbc" 1}		
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_stabilised"

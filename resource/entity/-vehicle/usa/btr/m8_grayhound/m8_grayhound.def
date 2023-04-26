@@ -39,12 +39,12 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}
 		{box
-			{item "ammo bullet37_usa ap" 40}
-			{item "ammo bullet37_usa he" 40}
-			{item "ammo bullet37_usa apcbc" 5}
+			{item "ammo bulletusa_37 ap" 40}
+			{item "ammo bulletusa_37 he" 40}
+			{item "ammo bulletusa_37 apcbc" 5}
 			{item "browning" filled {user "mgun"}}
-			{item "ammo 12x99" 400}
-			{item "ammo 7x63" 1500}
+			{item "ammo hmgun_usa" 400}
+			{item "ammo mgun_usa" 1500}
 		}
 	}
 	{Weaponry

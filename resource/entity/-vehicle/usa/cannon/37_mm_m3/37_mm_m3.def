@@ -57,9 +57,9 @@
 		
 	{extender "inventory"
 		{box
-			{item "bullet37_usa ap" 50}
-			{item "bullet37_usa he" 5}
-			{item "bullet37_usa apcbc" 5}
+			{item "bulletusa_37 ap" 50}
+			{item "bulletusa_37 he" 5}
+			{item "bulletusa_37 apcbc" 5}
 			{item "sandbag_vehicle" 1}
 		}
 	}
@@ -67,7 +67,7 @@
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
-			{weapon "37mm_m3" filling "bullet37_usa ap" 1}
+			{weapon "37mm_m3" filling "bulletusa_37 ap" 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic_gun"
 				zeroing(2.7)

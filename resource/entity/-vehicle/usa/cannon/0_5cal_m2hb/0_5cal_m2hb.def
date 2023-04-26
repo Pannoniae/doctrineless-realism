@@ -63,7 +63,7 @@
 		{box
 			{size 8 12} 
 			{weight 100}
-			{item "ammo 12x99" 300}
+			{item "ammo hmgun_usa" 300}
 		}
 	}
 	{Weaponry

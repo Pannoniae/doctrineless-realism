@@ -96,14 +96,14 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet75_usa he" 48}
-			{item "ammo bullet75_usa heat" 10}
+			{item "ammo bulletusa_75 he" 48}
+			{item "ammo bulletusa_75 heat" 10}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
-			{weapon "75mm_m2a" filling "bullet75_usa he" 1}
+			{weapon "75mm_m2a" filling "bulletusa_75 he" 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic"
 				zeroing(2.5)

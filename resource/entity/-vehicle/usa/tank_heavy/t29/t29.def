@@ -74,8 +74,8 @@
 		{weapon "mgun" {mask "mountable"}}
 		
 		{box
-			{item "ammo 7x63" 2220}
-			{item "ammo 12x99" 2200}
+			{item "ammo mgun_usa belt" 2220}
+			{item "ammo hmgun_usa" 2200}
 			{item "ammo bullet105_t15_usa apcbc" 32}
 			{item "ammo bullet105_t15_usa apcr" 5}
 			{item "ammo bullet105_t15_usa he" 25}

@@ -600,6 +600,8 @@
 	{item "bulletusa_155_l40"	"apcbche"		"ammo" 1 {value 20}}
 	{item "bulletusa_155_l40"	"he"		"ammo" 1 {value 25}}
 
+	{item "bullet155_fra" "he"				"ammo" 1 {value 25}}
+
 	{item "bulletusa_203"	"he"		"ammo" 1 {value 40}}
 
 	{item "m8_rocket"			"ammo" 1 {value 15}}

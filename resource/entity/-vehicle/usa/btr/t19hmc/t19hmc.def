@@ -99,17 +99,17 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 			{item "dynamite"}
-            		{item "ammo bullet105_usa he" 18}
-			{item "ammo bullet105_usa heat" 8}
+            		{item "ammo bulletusa_105_howitzer he" 18}
+			{item "ammo bulletusa_105_howitzer heat" 8}
 			{item "browning" filled {user "mgun"}}
-			{item "ammo 12x99" 1000}
+			{item "ammo hmgun_usa" 1000}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "105mm_m2a1" filling "ammo bullet105_usa he" 1}
+			{weapon "105mm_m2a1" filling "ammo bulletusa_105_howitzer he" 1}
 			{charger "gunner"}
 			{StationaryFiring}
 			("abm_dymamic"

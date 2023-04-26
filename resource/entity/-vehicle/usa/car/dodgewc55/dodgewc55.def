@@ -74,15 +74,15 @@
 	}
 	{extender "inventory"
 		{box
-			{item "bullet37_usa ap" 25}
-			{item "bullet37_usa he" 60}
-			{item "bullet37_usa apcbc" 5}
+			{item "bulletusa_37 ap" 25}
+			{item "bulletusa_37 he" 60}
+			{item "bulletusa_37 apcbc" 5}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
-			{weapon "37mm_m6" filling "ammo bullet37_usa ap" 1}
+			{weapon "37mm_m6" filling "ammo bulletusa_37 ap" 1}
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_td"

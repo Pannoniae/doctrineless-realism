@@ -30,7 +30,7 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 			{item "browning" filled {user "mgun"}}
-			{item "ammo 12x99" 1500}
+			{item "ammo hmgun_usa" 1500}
 			{item "weapon bazooka_m1a1" 1}			
 			{item "ammo bazooka" 8}
 		}

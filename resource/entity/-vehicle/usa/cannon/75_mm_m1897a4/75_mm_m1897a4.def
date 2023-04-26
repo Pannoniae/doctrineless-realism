@@ -82,17 +82,17 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet75_usa ap" 40}
-			{item "ammo bullet75_usa apcbc" 10}
-			{item "ammo bullet75_usa he" 5}
-			{item "ammo bullet75_usa wp" 5}
+			{item "ammo bulletusa_75 ap" 40}
+			{item "ammo bulletusa_75 apcbc" 10}
+			{item "ammo bulletusa_75 he" 5}
+			{item "ammo bulletusa_75 wp" 5}
 			{item "sandbag_vehicle" 2}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
-			{weapon "75mm_m1897a4" filling "ammo bullet75_usa ap" 1}
+			{weapon "75mm_m1897a4" filling "ammo bulletusa_75 ap" 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic_gun"
 				zeroing(5)

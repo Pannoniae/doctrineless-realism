@@ -156,18 +156,18 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 			{item "dynamite"}
-			{item "ammo bullet105_usa he" 52}
-			{item "ammo bullet105_usa heat" 8}
+			{item "ammo bulletusa_m4_howitzer_105 he" 52}
+			{item "ammo bulletusa_m4_howitzer_105 heat" 8}
 			{item "browning" filled {user "mgun"}}
-			{item "ammo 12x99" 500}
-			{item "ammo 7x63" 2350}
+			{item "ammo hmgun_usa" 500}
+			{item "ammo mgun_usa belt" 2350}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "105mm_m4a3" filling "ammo bullet105_usa he" 1}
+			{weapon "105mm_m4a3" filling "ammo bulletusa_m4_howitzer_105 he" 1}
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_stabilised"

@@ -172,7 +172,7 @@
 	{extender "inventory"
 		{Box
 			{item "ammo air_bomb 1000lb" 3}
-			{item  "ammo 12x99" 2000}
+			{item  "ammo hmgun_usa" 2000}
 		}
 	}
 	{Weaponry

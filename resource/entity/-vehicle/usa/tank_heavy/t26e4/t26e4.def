@@ -74,19 +74,19 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 			{item "dynamite"}
-			{item "ammo bullet90_t15_usa ap" 45}
-			{item "ammo bullet90_t15_usa he" 25}
-			{item "ammo bullet90_t15_usa apcr" 5}
+			{item "ammo t15e1_bulletusa_90 apcbc" 45}
+			{item "ammo t15e1_bulletusa_90 he" 25}
+			{item "ammo t15e1_bulletusa_90 apcr" 5}
 			{item "browning" filled {user "mgun"}}
-			{item "ammo 12x99" 300}
-			{item "ammo 7x63" 2500}
+			{item "ammo hmgun_usa" 300}
+			{item "ammo mgun_usa belt" 2500}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "90mm_m15" filling "ammo bullet90_t15_usa ap" 1}
+			{weapon "90mm_m15" filling "ammo t15e1_bulletusa_90 apcbc" 1}
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_td"

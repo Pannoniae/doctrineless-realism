@@ -30,15 +30,15 @@
 	}
 	{extender "inventory"
 		{box
-			{item "ammo us mortar107 he" 15}
-			{item "ammo us mortar107 sm" 10}
+			{item "ammo mortarus_107 he" 15}
+			{item "ammo mortarus_107 sm" 10}
 			{item "sandbag_vehicle" 5}
 		}
 	}
 	{Weaponry
 		{place "gun"
 			{Barrels 1}
-			{weapon "weapon 107mm_m2" filling "ammo us mortar107 he" 1}
+			{weapon "weapon 107mm_m2" filling "ammo mortarus_107 he" 1}
 			{Rotate}
 		}
 	}

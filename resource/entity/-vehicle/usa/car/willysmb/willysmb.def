@@ -61,7 +61,7 @@
 		{weapon "mgun" {mask "mountable"}}
 		{Box
 			{size 8 8}
-			{item  "ammo 7x63" 1200}
+			{item  "ammo mgun_usa belt" 1200}
 			{item "browning_m19" filled {user "mgun"}}
 		}
 	}

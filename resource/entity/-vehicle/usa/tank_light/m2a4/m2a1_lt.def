@@ -77,8 +77,8 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 			{item "dynamite"}
-			{item "ammo 7x63" 3000}
-			{item "ammo 12x99" 1000}
+			{item "ammo mgun_usa belt" 3000}
+			{item "ammo hmgun_usa" 1000}
 		}
 	}
 	{Weaponry
