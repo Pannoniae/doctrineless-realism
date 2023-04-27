@@ -367,11 +367,11 @@
 ("squad_with2types" side(rus) name(squad_conscripts_late)	period(late) year(late) cd(0) ci(0) g(squad_1) c1(conscript_nco:1) c2(conscript_rifle:8) b(squad) t())
 ("squad_with7types" side(rus) name(squad_partisan)			period(late) year(late) cd(0) ci(0) g(squad_2) c1(nco:1) c2(partisan_1:3) c3(partisan_2:1) c4(partisan_3:1) c5(partisan_4:2) c6(partisan_5:1) c7(partisan_6:1) b(squad) t())
 
-("squad_with3types" side(rus) name(doctrine_squad_sapperteam) period(late) year(late) cd(0) ci(0) g(squad_3) c1(sapper_builder:2) c2(sapper_miner_ap:1) c3(sapper_miner_at:1) b(squad) t())
 ("squad_with4types" side(rus) name(squad_recon_late)		period(late) year(late) cd(0) ci(0) g(squad_3) c1(recon_nco:1) c2(recon_smg:2) c3(recon_smg2:2) c4(recon_rifle:1) b(squad) t())
 ("squad_with7types" side(rus) name(squad_rifleunit)			period(late) year(late) cd(0) ci(0)  g(squad_3) c1(nco:1) c2(senior_smg:1) c3(smg_3:1) c4(rifleman_3:1) c5(rifleman_2:3) c6(mgun_1:1) c7(mgun_2:1)	b(squad) t())
 ("squad_with6types" side(rus) name(squad_smg)				period(late) year(late) cd(0) ci(0)  g(squad_3) c1(nco:1) c2(senior_smg:1) c3(smg_2:2) c4(smg_3:4) c5(mgun_1:1) c6(mgun_3:1) b(squad) t())
 ("squad_with4types" side(rus) name(squad_at_rifle)			period(late) year(late) cd(0) ci(0)  g(squad_4) c1(nco:1) c2(antitank_ptrs:1) c3(antitank_2:2) c4(antitank_asst:3)	b(squad) t())
+("squad_with3types" side(rus) name(doctrine_squad_sapperteam) period(late) year(late) cd(0) ci(0) g(squad_3) c1(sapper_builder:2) c2(sapper_miner_ap:1) c3(sapper_miner_at:1) b(squad) t())
 ("squad_with3types" side(rus) name(doctrine_squad_faustniki) period(late) year(late) cd(0) ci(0) g(squad_4) c1(assault-sap_atr:1) c2(assault-sap_1:1) c3(assault-sap_at:2) b(squad) t())
 
 ("squad_with7types" side(rus) name(doctrine_squad_heavymarines) period(late) year(late) cd(0) ci(0) g(squad_6) c1(marine_nco:1) c2(marine_senior:1) c3(marine_2:1) c4(marine_4:3) c5(marine_5:1) c6(marine_3:1) c7(marine_mg_asst:1) b(squad) t())

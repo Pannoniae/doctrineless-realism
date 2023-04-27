@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/t18e2/t18e2_body_x"}
+	{bump "$/model/t18e2/t18e2_body_nm"}
+	{blend test}
+}

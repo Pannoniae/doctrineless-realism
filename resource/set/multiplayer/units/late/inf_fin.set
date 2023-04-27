@@ -124,11 +124,11 @@
 ;//{"mp/fin/late/engineer_1"	("fin_regular_advanced" side(fin) cost(50.0))}
 ;//{"mp/fin/late/engineer_2"	("fin_regular_advanced" side(fin) cost(50.0))}
 
-{"mp/fin/late/engineer_builder"	("fin_regular_advanced" side(fin) cost(25.0))}
+{"mp/fin/late/engineer_builder"	("fin_regular_advanced" side(fin) cost(30.0))}
 {"mp/fin/late/engineer_heavy"	("fin_regular_advanced" side(fin) cost(50.0))}
-{"mp/fin/late/engineer_mine_ap"	("fin_regular_advanced" side(fin) cost(25.0))}
-{"mp/fin/late/engineer_mine_at"	("fin_regular_advanced" side(fin) cost(25.0))}
-{"mp/fin/late/engineer_mine_d"	("fin_regular_advanced" side(fin) cost(10.0))}
+{"mp/fin/late/engineer_mine_ap"	("fin_regular_advanced" side(fin) cost(30.0))}
+{"mp/fin/late/engineer_mine_at"	("fin_regular_advanced" side(fin) cost(30.0))}
+{"mp/fin/late/engineer_mine_d"	("fin_regular_advanced" side(fin) cost(30.0))}
 
 ;//{"mp/fin/late/miner-ap"	("fin_regular_advanced" side(fin) cost(40.0))}
 ;//{"mp/fin/late/miner-at"	("fin_regular_advanced" side(fin) cost(40.0))}

@@ -101,7 +101,7 @@
 			{item "mortarus_82 he" 10}
 			{item "mortarus_82 sm" 6}
 			{item "browning_m19" filled {user "mgun"}}
-			{item "ammo" "mgun_usa belt" 600}
+			{item "mgun_usa belt" "ammo" 600}
 		}
 	}
 	{Weaponry

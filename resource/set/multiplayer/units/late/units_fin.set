@@ -514,13 +514,17 @@
 	("vehicle"  period(late) year(late) cd(0) ci(0) t(heavyart artillery) side(fin) crew(artilleryman:4) g(empl27) b(art) cw(1) cp(21)
 	cost(800))
 }
-{"pz38h_w40"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(light) side(fin) crew1(tankman:1) crew2(tank_commander:1) g(light9) b(art) cw(4) cp(25)
-	cost(1100))
-}
+;{"pz38h_w40"
+;	("vehicle2" period(late) year(late) cd(0) ci(0) t(light) side(fin) crew1(tankman:1) crew2(tank_commander:1) g(light9) b(art) cw(4) cp(25)
+;	cost(1100))
+;}
 {"210mm_nebelwerfer42"
 	("vehicle"  period(late) year(late) cd(0) ci(0) t(heavyart artillery) side(fin) crew(artilleryman:4) g(empl32) b(art) cw(1) cp(21)
 	cost(900))
+}
+{"300mm_nebelwerfer42"
+	("vehicle"  period(late) year(late) cd(0) ci(0) t(heavyart artillery) side(ger) crew(artilleryman:4) g(empl9) b(art) cw(1) cp(36)
+	cost(1100))
 }
 
 

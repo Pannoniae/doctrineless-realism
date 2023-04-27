@@ -127,10 +127,10 @@
 	{item "shotgun" "ammo" 6  {value 5}}
 	{item "bazooka" "ammo" 1  {value 10}}
 	{item "m18rr" "ammo" 1  {value 10}}
-	{item "us" "mortar60" "he" "ammo" 5  {value 5}}
-	{item "us" "mortar81" "fg" "ammo" 5  {value 5}}
-	{item "us" "mortar81" "he" "ammo" 5  {value 5}}
-	{item "us" "mortar107" "he" "ammo" 5  {value 5}}
+	{item "mortarus_60" "he" "ammo" 5  {value 5}}
+	{item "mortarus_82" "fg" "ammo" 5  {value 5}}
+	{item "mortarus_82" "he" "ammo" 5  {value 5}}
+	{item "mortarus_107" "he" "ammo" 5  {value 5}}
 	{item "mortar50_eng" "ammo" 4  {value 5}}
 
 )
@@ -266,13 +266,14 @@
 
 	{item "bulletger_88_l71"	"apcbche"	"ammo" 1 {value 5}}
 	{item "bulletger_88_l71"	"he"		"ammo" 1 {value 5}}
+	{item "bulletger_88_l71"	"apcr"		"ammo" 1 {value 10}}
 
 	{item "bulletger_105"		"aphe"		"ammo" 1 {value 5}}
 	{item "bulletger_105"		"he"		"ammo" 1 {value 15}}
 	{item "bulletger_105"		"he2"		"ammo" 1 {value 5}}
 	{item "bulletger_105"		"heat"		"ammo" 1 {value 10}}
 
-	{item "bulletger_128"		"apche"	"ammo" 1 {value 5}}
+	{item "bulletger_128"		"apcbche"	"ammo" 1 {value 5}}
 	{item "bulletger_128"		"he"		"ammo" 1 {value 5}}
 
 	{item "bulletger_150_l11"	"heat"		"ammo" 1 {value 50}}
@@ -561,7 +562,7 @@
 	{item "bulletusa_76"	"apcbc"		"ammo" 1 {value 5}}
 	{item "bulletusa_76"	"apcr"		"ammo" 1 {value 10}}
 	{item "bulletusa_76"	"sm"		"ammo" 1 {value 10}}
-	{item "bulletusa_76"	"wp"		"ammo" 1 {value 15}}
+	;{item "bulletusa_76"	"wp"		"ammo" 1 {value 15}}
 	{item "bulletusa_76"	"he"		"ammo" 1 {value 5}}
 	
 	{item "mortarus_60"	"he"		"ammo" 1 {value 15}}
@@ -606,7 +607,7 @@
 
 	{item "bulletusa_203"	"he"		"ammo" 1 {value 40}}
 
-	{item "m8_rocket"			"ammo" 1 {value 15}}
+	;{item "m8_rocket"			"ammo" 1 {value 15}}
 
 	{item "t15e1_bulletusa_90"	"apcbc"		"ammo" 1 {value 5}}
 	{item "t15e1_bulletusa_90"	"apcr"		"ammo" 1 {value 10}}
@@ -657,7 +658,7 @@
 
 	{item "57mm_us_m18_rifle_heat"			"ammo" 1  {value 10}}
 	{item "bazooka_M6A3_HEAT"			"ammo" 1  {value 10}}
-	{item "bazooka_M28A2_HEAT"			"ammo" 1  {value 10}}
+	;{item "bazooka_M28A2_HEAT"			"ammo" 1  {value 10}}
 	{item "piat_mki_HEAT"			"ammo" 1  {value 10}}
 	;{item "atrifle_eng_modded"	"ap"		"ammo" 5  {value 5}}
 	;{item "atrifle_eng_modded"	"ap2"		"ammo" 5  {value 5}}
@@ -666,8 +667,8 @@
 	{item "flame_thrower"			"ammo" 50 {value 10}}
 
 	{item "grenade" "us_incendiary"					1  {value 5}}
-	{item "grenade" "MkIIIA2_Offensive"					1  {value 5}}
-	{item "grenade" "m18_smoke"				1  {value 5}}
+	;{item "grenade" "MkIIIA2_Offensive"					1  {value 5}}
+	{item "grenade" "smoke"				1  {value 5}}
 	{item "grenade" "f1" 					1  {value 5}}
 	{item "bazooka"					"ammo" 1  {value 10}}
 )

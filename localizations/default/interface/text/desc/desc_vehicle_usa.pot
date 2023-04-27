@@ -345,7 +345,7 @@ msgid "57mm M1"
 msgstr ""
 
 msgctxt "desc/entity/m4a2"
-msgid "M4A2 75mm"
+msgid "M4A2 Sherman"
 msgstr ""
 
 msgctxt "desc/entity/t26e4"

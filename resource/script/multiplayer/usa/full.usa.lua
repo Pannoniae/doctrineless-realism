@@ -50,13 +50,13 @@ Purchases["full.usa"] = {
 				{priority = 1.0, type = {"Tank", "Medium", "AT", "Class2",}, unit = "m10wolverine"},
 			-- Doctrine All Around
 				{priority = 1.0, type = { "Class3",}, unit = "doctrine_squad_scout(usa)"},
-				{priority = 1.0, type = { "Vehicle", "AT",}, unit = "doctrine_dodge_armor"},
-				{priority = 1.0, type = { "Cannon", "Mortar",}, unit = "doctrine_107_mm_m2"},
+				{priority = 1.0, type = { "Vehicle", "AT",}, unit = "dodge_armor"},
+				{priority = 1.0, type = { "Cannon", "Mortar",}, unit = "107_mm_m2"},
 				{priority = 1.0, type = { "Class2",}, unit = "doctrine_squad_ranger(usa)"},
-				{priority = 1.0, type = { "Tank", "Medium", "AT", "Class2",}, unit = "doctrine_m36"},
-				{priority = 1.0, type = { "Tank", "Medium", "Class2",}, unit = "doctrine_m4a3c"},
-				{priority = 1.0, type = { "Tank", "Medium", "Artillery", "Class2",}, unit = "doctrine_m12gmc"},
-				{priority = 1.0, type = { "Tank", "Heavy", "Class1",}, unit = "doctrine_m26_pershing"},
+				{priority = 1.0, type = { "Tank", "Medium", "AT", "Class2",}, unit = "m36"},
+				{priority = 1.0, type = { "Tank", "Medium", "Class2",}, unit = "m4a3c"},
+				{priority = 1.0, type = { "Tank", "Medium", "Artillery", "Class2",}, unit = "m12gmc"},
+				{priority = 1.0, type = { "Tank", "Heavy", "Class1",}, unit = "m26_pershing"},
 		}
 	}
 }

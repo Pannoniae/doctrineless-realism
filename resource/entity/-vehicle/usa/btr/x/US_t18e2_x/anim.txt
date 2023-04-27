@@ -1,0 +1,132 @@
+-= Animation: break, Node Body =-
+	Frame 300 {
+		Visibility 1
+		Position	-19.4604	-0.278939	16.7269
+		Orientation	0 0 0 1
+	}
+	Frame 350 {
+		Visibility 1
+		Position	-19.4604	-0.278939	16.7269
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node engine =-
+	Frame 300 {
+		Visibility 1
+		Position	-9.97968	0.376598	20.6993
+		Orientation	0 0 0 1
+	}
+	Frame 350 {
+		Visibility 1
+		Position	-9.97968	0.376598	20.6993
+		Orientation	0 0 0 1
+	}
+-= Animation: repair, Node turret =-
+	Frame 300 {
+		Visibility 1
+		Position	16.6722	0.24417	20.0028
+		Orientation	0 0 0 1
+	}
+	Frame 350 {
+		Visibility 1
+		Position	16.6722	0.24417	20.0028
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node Gun_rot =-
+	Frame 300 {
+		Visibility 1
+		Position	13.9404	0.0124864	6.08777
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 350 {
+		Visibility 1
+		Position	13.9404	0.0124864	6.08777
+		Orientation	0.707107 0 0 0.707107
+	}
+-= Animation: break, Node wheelr1 =-
+	Frame 300 {
+		Visibility 1
+		Position	-0.0793228	-0.477682	0.0427322
+		Orientation	0 0.707108 0.707106 0
+	}
+	Frame 350 {
+		Visibility 1
+		Position	-0.0793228	-0.477682	0.0427322
+		Orientation	0 0.707108 0.707106 0
+	}
+-= Animation: break, Node wheell1 =-
+	Frame 300 {
+		Visibility 1
+		Position	-0.0791321	0.255157	0.0421019
+		Orientation	0 0.707108 0.707105 0
+	}
+	Frame 350 {
+		Visibility 1
+		Position	-0.0791321	0.255157	0.0421019
+		Orientation	0 0.707108 0.707105 0
+	}
+-= Animation: break, Node wheell1 =-
+	Frame 300 {
+		Visibility 1
+		Position	-0.0791321	0.255157	0.0421019
+		Orientation	0 0.707108 0.707105 0
+	}
+	Frame 350 {
+		Visibility 1
+		Position	-0.0791321	0.255157	0.0421019
+		Orientation	0 0.707108 0.707105 0
+	}
+-= Animation: break, Node wheelr2 =-
+	Frame 300 {
+		Visibility 1
+		Position	0.20932	-0.477682	0.0427322
+		Orientation	0 0.707108 0.707106 0
+	}
+	Frame 350 {
+		Visibility 1
+		Position	0.20932	-0.477682	0.0427322
+		Orientation	0 0.707108 0.707106 0
+	}
+-= Animation: break, Node wheell2 =-
+	Frame 300 {
+		Visibility 1
+		Position	0.193838	0.255161	0.0421
+		Orientation	0 0.707108 0.707105 0
+	}
+	Frame 350 {
+		Visibility 1
+		Position	0.193838	0.255161	0.0421
+		Orientation	0 0.707108 0.707105 0
+	}
+-= Animation: break, Node wheell4 =-
+	Frame 300 {
+		Visibility 1
+		Position	-0.0983162	-0.0218639	0.0524025
+		Orientation	0 0.707108 0.707105 0
+	}
+	Frame 350 {
+		Visibility 1
+		Position	-0.0983162	-0.0218639	0.0524025
+		Orientation	0 0.707108 0.707105 0
+	}
+-= Animation: break, Node wheelr4 =-
+	Frame 300 {
+		Visibility 1
+		Position	0.177967	-0.200348	0.0527058
+		Orientation	0 0.707107 0.707106 0
+	}
+	Frame 350 {
+		Visibility 1
+		Position	0.177967	-0.200348	0.0527058
+		Orientation	0 0.707107 0.707106 0
+	}
+-= Animation: break, Node wheelr3 =-
+	Frame 300 {
+		Visibility 1
+		Position	-0.00187492	-0.200344	0.0527077
+		Orientation	0 0.707108 0.707106 0
+	}
+	Frame 350 {
+		Visibility 1
+		Position	-0.00187492	-0.200344	0.0527077
+		Orientation	0 0.707108 0.707106 0
+	}

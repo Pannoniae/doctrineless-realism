@@ -396,6 +396,10 @@
 	("vehicle" period(late) year(full) cd(0) ci(0)  t( cannon) side(usa) crew(vehicle_supporter:2)   g(empl2) b(support)  cw(1) cp(10) 
 	cost(200))
 }
+{"57_mm_m1"
+	("vehicle" period(mid) year(full) cd(0) ci(60)  t(cannon) side(usa) crew(vehicle_supporter:4)   g(empl2) b(support)  cw(1) cp(15) 
+	cost(350))
+}
 {"75_mm_m1897a4"
 	("vehicle" period(late) year(full) cd(0) ci(0) t( cannon mediumcan) side(usa) crew(vehicle_supporter:4)   g(empl3) b(support)  cw(1) cp(15) 
 	cost(300))
@@ -422,6 +426,10 @@
 	("vehicle"  period(late) year(full) cd(0)  ci(0) t(artillery) side(usa) crew(vehicle_supporter:2)             g(empl7) b(art)  cw(1) cp(20) 
 	cost(450))
 }
+{"m4halftrack"
+	("vehicle"  period(late) year(full) cd(0)   ci(0)  g(wheel3) side(usa) t(vehicle mortar)   crew(vehicle_supporter:4)       b(art) cw(2) cp(15) 
+	cost(360))
+}
 {"75_mm_m1"
 	("vehicle" period(late) year(full) cd(0) ci(0)  t( cannon mediumcan) side(usa) crew(vehicle_supporter:4)   g(empl5) b(art)  cw(1) cp(15)
 	cost(340))
@@ -433,6 +441,10 @@
 {"105_mm_m2a1l"
 	("vehicle"  period(late) year(full) cd(0) ci(0) t(heavyart artillery) side(usa) crew(vehicle_supporter:4) g(empl8) b(art)  cw(1) cp(25) 
 	cost(800))
+}
+{"155_mm_m1917a4"
+	("vehicle"  period(mid) year(full) cd(900) ci(180) t(heavyart artillery) side(usa) crew(vehicle_supporter:4) g(empl9) b(art)  cw(1) cp(28) 
+	cost(950))
 }
 {"155_mm_m2"
 	("vehicle"  period(late) year(full) cd(0) ci(0) t( heavyart artillery) side(usa) crew(vehicle_supporter:6) g(empl9) b(art)  cw(1) cp(30) 
@@ -510,6 +522,7 @@
 	("vehicle2"  period(late) year(full) cd(0)   ci(0)  g(wheel2) side(usa) t(vehicle)   crew1(tankman:2) crew2(tankman2:1)  b(lt) cw(2) cp(10) 
 	cost(220))
 }
+
 {"m8_grayhound"
 	("vehicle"  period(late) year(full) cd(0)   ci(0)  g(wheel3) side(usa) t(vehicle)   crew(tankman:3)       b(lt) cw(2) cp(10) 
 	cost(270))
@@ -518,19 +531,36 @@
 	("vehicle"  period(late) year(full) cd(0)   ci(0)  g(wheel3) side(usa) t(vehicle)   crew(vehicle_supporter:4)       b(lt) cw(2) cp(10) 
 	cost(280))
 }
-{"m4halftrack"
-	("vehicle"  period(late) year(full) cd(0)   ci(0)  g(wheel3) side(usa) t(vehicle mortar)   crew(vehicle_supporter:4)       b(lt) cw(2) cp(15) 
-	cost(360))
+{"t12gmc"
+	("vehicle"  period(late) year(full) cd(0)   ci(0)  g(wheel3) side(usa) t( vehicle)   crew(vehicle_supporter:4)       b(lt) cw(2) cp(10) 
+	cost(350))
 }
 {"t30hmc"
 	("vehicle2" period(late) year(full) cd(0) ci(0) t(vehicle) side(usa) crew1(tankman:1) crew2(vehicle_supporter:3) g(wheel1) b(lt) cw(2) cp(15)
 	cost(350))
 }
+{"us_t18e2"
+	("vehicle2"  period(late) year(full) cd(0) ci(0) g(wheel10) side(usa) t(vehicle) crew1(tankman:3) crew2(tank_commander:1) b(lt) cw(2) cp(10)
+	cost(400))
+}
+
+{"us_t69"
+	("vehicle2" period(late) year(full) cd(0) ci(0) side(usa) t(vehicle) crew1(tankman:2) crew2(tank_commander:1) b(lt) cw(2) cp(8)
+    cost(400))
+}
 
 ;LIGHT
+{"m2a4"
+	("vehicle2" period(mid) year(full) cd(0) ci(0) t(light) side(usa) crew1(tankman:3) crew2(tankman2:1) g(light1) b(lt) cw(4) cp(15)
+	cost(280))
+}
+{"m22"
+	("vehicle2" period(mid) year(full) cd(0)  ci(0) t(light)  side(usa) crew1(tankman:2) crew2(tankman2:1) g(light2) b(lt)  cw(4) cp(15) 
+	cost(300))
+}
 {"m3_satan"
 	("vehicle2" period(late) year(full) cd(0) ci(0) t(light) side(usa) crew1(tankman:3) crew2(tankman2:1) g(light1) b(lt) cw(4) cp(15)
-	cost(300 ))
+	cost(300))
 }
 {"m5a1"
 	("vehicle2" period(late) year(full) cd(0)  ci(0) t(light)  side(usa) crew1(tankman:3) crew2(tankman2:1) g(light2) b(lt)  cw(4) cp(15) 
@@ -550,7 +580,22 @@
 }
 
 ;MEDIUM
-
+{"m3lee"
+	("vehicle2" period(mid) year(full) cd(0)  ci(0) t(medium) side(usa) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cw(6) cp(20) 
+	cost(440))
+}
+{"m4a1"
+	("vehicle2" period(mid) year(full) cd(0)  ci(0) t(medium) side(usa) crew1(tankman:3) crew2(tankman2:1) g(medium2) b(mt) cw(6) cp(20) 
+	cost(470))
+}
+{"m4a2"
+	("vehicle2" period(mid) year(full) cd(0)  ci(0) t(medium) side(usa) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(20) 
+	cost(530))
+}
+{"m4"
+	("vehicle2" period(mid) year(full) cd(0)  ci(0) t(medium) side(usa) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(20) 
+	cost(540))
+}
 {"m4a3_75"
 	("vehicle2" period(late) year(full) cd(0)  ci(0) t(medium) side(usa) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(20) 
 	cost(560))
@@ -610,6 +655,14 @@
 	("vehicle2" period(late) year(full) cd(0) ci(0) t(heavy) side(usa) crew1(tankman:5) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(40)
 	cost(2000))
 }
+{"us_t30"
+	("vehicle2" period(late) year(full) cd(0) ci(0) t(heavy) side(usa) crew1(tankman:4) crew2(tank_commander:1) g(heavy4) b(ht) cw(8) cp(40)
+	cost(1700)) ;// +30 for crew
+}
+{"us_t34"
+	("vehicle2" period(late) year(full) cd(0) ci(0) t(heavy) side(usa) crew1(tankman:4) crew2(tank_commander:1) g(heavy4) b(ht) cw(8) cp(40)
+	cost(1750)) ;// +30 for crew
+}
 
 ;SPG
 {"m18"
@@ -627,6 +680,10 @@
 {"m18_90"
 	("vehicle2" period(late) year(full) cd(0) ci(0) t(medium) side(usa) crew1(tankman:3) crew2(tankman2:1) g(spg1)     b(td) cw(6)  cp(15) 
 	cost(800))
+}
+{"t19hmc"
+	("vehicle"  period(late) year(full) cd(0)   ci(0)  g(wheel3) side(usa) t( vehicle)   crew(vehicle_supporter:4)       b(td) cw(2) cp(25) 
+	cost(820))
 }
 {"m36b1"
 	("vehicle2" period(late) year(full) cd(0) ci(0) t(medium) side(usa) crew1(tankman:4) crew2(tankman2:1) g(spg4) b(td) cw(6) cp(20)

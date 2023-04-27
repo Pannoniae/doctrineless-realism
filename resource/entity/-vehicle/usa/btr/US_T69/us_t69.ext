@@ -1,0 +1,113 @@
+;SDL
+
+	; armor notes
+
+	("armoredcar_tier1")
+
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}  
+	{volume "body1"
+		{tags "body"}
+		{component "body"}	
+	{thickness 10
+			{front 16}
+			{top 6}
+			{bottom 6}
+		}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}	
+	{thickness 10
+			{front 10}
+			{top 7}
+			{bottom 7}
+		}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}	
+	{thickness 10
+			{front 10}
+			{top 7}
+			{bottom 7}
+		}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}	
+	{thickness 10
+			{front 10}
+			{top 7}
+			{bottom 7}
+		}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}	
+	{thickness 10
+			{front 20}
+			{top 10}
+			{bottom 7}
+		}
+	}
+	{volume "body6"
+		{tags "body"}
+		{component "body"}	
+	{thickness 10
+			{front 10}
+			{top 10}
+			{bottom 7}
+		}
+	}	
+	{volume "body7"
+		{tags "body"}
+		{component "body"}	
+	{thickness 10
+			{front 10}
+			{top 10}
+			{bottom 7}
+		}
+	}		
+	{volume "turret1"
+		{tags "turret"}
+		{component "turret"}	
+		{thickness 20}
+	}				
+	{Volume "engine"
+		{tags "engine"}
+		{component "engine"}
+	{thickness 10
+			{rear	15}
+		}
+	}		
+
+	
+
+	("shield" args "armorl1" 16)
+	("shield" args "armorl02" 4)
+	("shield" args "armorl03" 4)
+	("shield" args "armorl04" 4)
+	("shield" args "armorl05" 4)
+	("shield" args "armorl06" 4)
+	("shield" args "armorr1" 16)
+	("shield" args "armorr02" 4)
+	("shield" args "armorr03" 4)
+	("shield" args "armorr04" 4)
+	("shield" args "armorr05" 4)
+	("shield" args "armorr06" 4)		
+
+	;("armor_m8_greyhound" turret1(20 20 20 20) body1(16 10 7 13) body2(10 10 7 7) body3(10 10 7 7) body4(10 10 7 7) body5(20 10 10 7) body6(10 10 10 7) body7(10 10 10 7))
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelright2")
+	("wheel" args "wheelright3")		
+	("wheel" args "wheelleft1")
+	("wheel" args "wheelleft2")
+	("wheel" args "wheelleft3")		
+	("fuel" args "fuel")
+	("transmission" args "transmission")

@@ -1,0 +1,4 @@
+{material envmap
+	{diffuse "$/model/General/cocpit_small"}
+	{blend blend}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/Barrel/rifled_barrel_b_d"}
+	{bump "$/model/Barrel/rifled_barrel_b_n"}
+	{specular "$/model/Barrel/rifled_barrel_b_s"}
+	{color "230 230 230 125"}
+	{blend none}
+}

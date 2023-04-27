@@ -1,0 +1,26 @@
+;_________________________________________
+; USA "m19" GUN
+;=========================================
+
+
+{from "pattern gun" ; 
+	{filling "bulletusa_auto_40" 14}
+	{fireSound "gun/gun_auto_tank"}
+	{fireSoundclose "gun/gun_interior/size1"}
+	{reloadSound "interior/large/small_reload_interior"}
+	("range_autocannon_37-40")
+	{cursor "ironsights/aa"}
+	{calibre 40}
+
+	("fire rate" rpm(165))
+	("reload time" seconds(2))
+
+	("velocity m/s" ap(760) apcr(1) he(900) heat(1))
+
+	("armor health" damage(45))
+
+	("penetration_medium" shell(ap) range(170) a(60) b(51) c(45) d(38) e(32))
+
+	("accuracy_direct" r1(0.58) range_ap(170) range_he(170) range_heat(170))
+
+}

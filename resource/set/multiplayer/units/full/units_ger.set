@@ -376,21 +376,21 @@
 ("squad_with6types" side(ger) name(squad_landwehr_early)	period(early) year(full) cd(0) ci(0) g(squad_1) c1(landwehr_sl:1) c2(landwehr_sl_asst:1) c3(landwehr_rifle:4) c4(landwehr_mg:1) c5(landwehr_mg_asst:2) c6(landwehr_mg_ammo:1)	b(squad) t())
 ("squad_with6types" side(ger) name(squad_lw_fusilier_late)		period(late) year(full) cd(0) ci(0) g(squad_1) c1(lw_fus_sl:1) c2(lw_fus_sl_asst:1) c3(lw_fus_smg:1) c4(lw_fus_rifle:4) c5(lw_fus_mg:1) c6(lw_fus_mg_asst:1) b(squad) t())
 
-("squad_with4types" side(ger) name(doctrine_squad_pioteam) period(late) year(full) cd(0) ci(0) g(squad_2) c1(pio_demo:1) c2(pio_builder:2) c3(pio_miner_ap:1) c4(pio_miner_at:1) b(squad) t())
 ("squad_with3types" side(ger) name(squad_feldgendarmerie)	period(early) year(full) cd(0) ci(0) g(squad_2) c1(feldg_nco:1) c2(feldg_rifle:3) c3(feldg_smg:3) b(squad) t())
 ("squad_with5types" side(ger) name(squad_recon_late)			period(late) year(full) cd(0) ci(0) g(squad_2) c1(recon_sl_rifle:1) c2(recon_sl_asst_rifle:1) c3(recon_rifle:2) c4(recon_mg:1) c5(recon_mg_asst:1)							b(squad) t())
 ("squad_with6types" side(ger) name(doctrine_squad_lw) period(early) year(full) cd(0) ci(0) g(squad_1) c1(luft_sl:1) c2(luft_sl_asst:1) c3(luft_rifle:5) c4(luft_mg:1) c5(luft_mg_asst:1) c6(luft_mg_ammo:1) b(squad) t())
 ("squad_with6types" side(ger) name(doctrine_squad_garrison) period(early) year(full) cd(0) ci(0) g(squad_2) c1(marine_sl:1) c2(marine_sl_asst:1) c3(marine_rifle:5) c4(marine_mg:1) c5(marine_mg_asst:1) c6(marine_mg_ammo:1) b(squad) t())
 ("squad_with3types" side(ger) name(squad_at_rifles_early)	period(early) year(full) cd(0) ci(0)  g(squad_2) c1(nco:1) c2(antitank_1:3) c3(antitank_2:3) b(squad) t())
 ("squad_with7types" side(ger) name(squad_grenadiere_late)		period(late) year(full) cd(0) ci(0)  g(squad_2) c1(gren_sl:1) c2(gren_sl_asst:1) c3(gren_rifle_grenadier:1) c4(gren_sa:1) c5(gren_rifle:3) c6(gren_mg:1) c7(gren_mg_asst:1)	b(squad) t())
+("squad_with7types" side(ger) name(squad_pzgrenadiere_late)		period(late) year(full) cd(0) ci(0)  g(squad_2) c1(pzgren_sl:1) c2(pzgren_sl_asst:1) c3(pzgren_rifle:1) c4(pzgren_rifle_pzf:1) c5(pzgren_rifle_pzf2:1) c6(pzgren_mg:2) c7(pzgren_mg_asst:2)			b(squad) t())
+("squad_with10types" side(ger) name(squad_pionier_late)			period(late) year(full) cd(0) ci(0)  g(squad_2) c1(pioneer_sl:1) c2(pioneer_sl_asst:1) c3(pioneer_sa:1) c4(pioneer_4:1) c5(pioneer_pzf:1) c6(pioneer_1:1) c7(pioneer_2:1) c8(pioneer_3:1) c9(pioneer_mgun:1) c10(pioneer_mgun_asst:1) b(squad) t())
+("squad_with4types" side(ger) name(doctrine_squad_pioteam) period(late) year(full) cd(0) ci(0) g(squad_2) c1(pio_demo:1) c2(pio_builder:2) c3(pio_miner_ap:1) c4(pio_miner_at:1) b(squad) t())
 {"doctrine_squad_pz_recon"
 	("squad_vehicle5" side(ger)  cd(0) ci(0) period(mid) year(full) vehicle(sdkfz251c) crew1(pz_recon_rifle:5) crew2(pz_recon_sl:1) crew3(pz_recon_sl_asst:1) crew4(pz_recon_mg:2) crew5(pz_recon_mg_asst:2) cw(2) cp(4) b(squad) t())
 }
 {"doctrine_at_cavalry"
 	("squad_2vehicle3" side(ger) period(early) year(full) cd(0) ci(0) g(squad_2) vehicle(bmw_r71) crew1(antitank_2:1) crew2(antitank_3:1) crew3(antitank_1:1) b(squad) t())
 }
-("squad_with7types" side(ger) name(squad_pzgrenadiere_late)		period(late) year(full) cd(0) ci(0)  g(squad_2) c1(pzgren_sl:1) c2(pzgren_sl_asst:1) c3(pzgren_rifle:1) c4(pzgren_rifle_pzf:1) c5(pzgren_rifle_pzf2:1) c6(pzgren_mg:2) c7(pzgren_mg_asst:2)			b(squad) t())
-("squad_with10types" side(ger) name(squad_pionier_late)			period(late) year(full) cd(0) ci(0)  g(squad_2) c1(pioneer_sl:1) c2(pioneer_sl_asst:1) c3(pioneer_sa:1) c4(pioneer_4:1) c5(pioneer_pzf:1) c6(pioneer_1:1) c7(pioneer_2:1) c8(pioneer_3:1) c9(pioneer_mgun:1) c10(pioneer_mgun_asst:1) b(squad) t())
 ("squad_with6types" side(ger) name(doctrine_squad_volksgrenadierheavy) period(late) year(full) cd(0) ci(0) g(squad_2) c1(volksg_sl:1) c2(volksg_sl_asst:1) c3(volksg_sa_pzf:2) c4(volksg_sa_scope:1) c5(volksg_mg:2) c6(volksg_mg_asst_sa:2) b(squad) t())
 {"doctrine_squad_sturmgrenadiere"
 	("squad_vehicle6" side(ger) period(late) year(full) cd(0) ci(0) g(squad_2) vehicle(sdkfz251c) crew1(pzgren_rifle:2) crew2(pzgren_sturm_sl:1) crew3(pzgren_sturm_sl_asst:1) crew4(pzgren_sturm_stg:4) crew5(pzgren_sturm_pzf:2) crew6(pzgren_sturm_sa_scope:1) cw(2) cp(8) b(squad) t())

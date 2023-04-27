@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/General/us_net_tile_d"}
+	{bump "$/model/General/us_net_tile_n"}
+	{specular "$/model/General/us_net_tile_s"}
+	{color "230 230 230 125"}
+	{blend blend}
+}

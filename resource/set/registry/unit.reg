@@ -1361,6 +1361,9 @@
 	{"m4a3_75"
 		{vehicle_view "m4"}
 	}
+    {"m4a3e8_fury"
+		{vehicle_view "m4"}
+	}
 	{"m26_pershing"
 		{vehicle_view "m26_pershing"}
 	}
@@ -1753,13 +1756,13 @@
 	{"US_M4A3E2_CobraKing"
 		{vehicle_view "m4a2_76w_early_rus"}	
 	}
-	{"US_m4a3e8"
+	{"us_m4a3e8"
 		{vehicle_view "m4a2_76w_early_rus"}	
 	}
 	{"us_m4a3e8_thundervii"
 		{vehicle_view "m4a2_76w_early_rus"}	
 	}
-	{"us_m4a3e8_FURY"
+	{"us_m4a3e8_fury"
 		{vehicle_view "m4a2_76w_early_rus"}
 	}
 	{"us_m4a3r3_zippo"

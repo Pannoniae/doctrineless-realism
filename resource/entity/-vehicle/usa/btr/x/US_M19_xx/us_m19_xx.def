@@ -1,0 +1,4 @@
+{game_entity
+	{Extension "us_m19_xx.mdl"}
+	(include "/properties/vehicle_xx.ext")
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/us_m8_greyhound/xx/xxm8_greyhound_body_d"}
+	{bump "$/model/us_m8_greyhound/m8_greyhound_body_n"}
+	{specular "$/model/us_m8_greyhound/m8_greyhound_body_s"}
+	{color "230 230 230 125"}
+	{blend none}
+}

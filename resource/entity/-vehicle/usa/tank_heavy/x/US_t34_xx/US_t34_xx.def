@@ -1,0 +1,22 @@
+{game_Entity
+	{Extension "US_t34_xx.mdl"}
+	(include "/properties/vehicle_xx.ext")
+	{Volume "body"
+	}
+	{Volume "crew"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+	}
+}

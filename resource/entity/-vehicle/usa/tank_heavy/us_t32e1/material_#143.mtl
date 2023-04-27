@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/t32e1/t32e1_tex11_0"}
+	{blend none}
+}

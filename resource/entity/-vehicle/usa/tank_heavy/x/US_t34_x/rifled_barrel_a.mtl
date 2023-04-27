@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/t34/t34_rifled_barrel_a_am"}
+	{bump "$/model/t34/t34_rifled_barrel_a_nm"}
+	{specular "$/model/t34/t34_rifled_barrel_a_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

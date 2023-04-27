@@ -20,8 +20,8 @@
 	{inventory
 		{item "thompson" filled}
 		{item  "ammo thompson_mag" 180}
-		{item "flaergun" filled}
-		{item "ammo flare" 20}
+		;{item "flaergun" filled}
+		;{item "ammo flare" 20}
 		{item "bandage_usa" 3}
 		{in_hands 0}
 	}

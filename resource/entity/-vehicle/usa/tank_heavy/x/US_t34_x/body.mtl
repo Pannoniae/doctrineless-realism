@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/t34/t34_body_am"}
+	{bump "$/model/t34/t34_body_nm"}
+	{specular "$/model/t34/t34_body_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

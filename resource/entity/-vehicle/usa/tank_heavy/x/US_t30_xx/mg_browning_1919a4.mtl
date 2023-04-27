@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/t_30/t_30_mg_browning_1919a4_am"}
+	{bump "$/model/t_30/t_30_mg_browning_1919a4_nm"}
+	{specular "$/model/t_30/t_30_mg_browning_1919a4_gmm"}
+	{color "229 229 229 25"}
+	{blend test}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/General/camonet_d"}
+	{bump "$/model/General/camonet_n"}
+	{specular "$/model/General/camonet_s"}
+	{color "230 230 230 125"}
+	{blend blend}
+}

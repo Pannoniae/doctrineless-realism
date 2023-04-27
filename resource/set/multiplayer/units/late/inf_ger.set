@@ -204,8 +204,8 @@
 {"mp/ger/late/antitank_4"			("ger_regular_advanced" side(ger) cost(28.0))} ; rifle grenade inf
 {"mp/ger/late/antitank_5"			("ger_regular_advanced" side(ger) cost(8.0))} ; k98
 
-{"mp/ger/late/engineer_1"			("ger_regular_advanced" side(ger) cost(50.0))}
-{"mp/ger/late/engineer_2"			("ger_regular_advanced" side(ger) cost(50.0))}
+{"mp/ger/late/engineer_1"			("ger_regular_advanced" side(ger) cost(40.0))}
+{"mp/ger/late/engineer_2"			("ger_regular_advanced" side(ger) cost(40.0))}
 {"mp/ger/late/flamer"				("ger_regular_advanced" side(ger) cost(60.0))}
 
 {"mp/ger/late/miner-ap"				("ger_regular_advanced" side(ger) cost(40.0))}
@@ -324,10 +324,10 @@
 	{score (* %cost 0.05)}
 	;{score_factor 0.05}
 )
-{"mp/ger/late/pio_builder"		("ger_pioniere" side(ger) cost(8.0))} ; k98
-{"mp/ger/late/pio_demo"			("ger_pioniere" side(ger) cost(8.0))} ; k98
-{"mp/ger/late/pio_miner_ap"		("ger_pioniere" side(ger) cost(8.0))} ; k98
-{"mp/ger/late/pio_miner_at"		("ger_pioniere" side(ger) cost(8.0))} ; k98
+{"mp/ger/late/pio_builder"		("ger_pioniere" side(ger) cost(40.0))} ; k98
+{"mp/ger/late/pio_demo"			("ger_pioniere" side(ger) cost(40.0))} ; k98
+{"mp/ger/late/pio_miner_ap"		("ger_pioniere" side(ger) cost(40.0))} ; k98
+{"mp/ger/late/pio_miner_at"		("ger_pioniere" side(ger) cost(40.0))} ; k98
 
 {"mp/ger/late/pioneer_1"		("ger_pioniere" side(ger) cost(8.0))} ; k98
 {"mp/ger/late/pioneer_2"		("ger_pioniere" side(ger) cost(8.0))} ; k98

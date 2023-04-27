@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/t34/t34_body_x"}
+	{bump "$/model/t34/t34_body_nm"}
+	{blend none}
+}

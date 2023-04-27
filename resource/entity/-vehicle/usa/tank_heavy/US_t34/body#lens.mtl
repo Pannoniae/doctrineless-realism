@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/t34/t34_body_am"}
+	{mask "$/model/t34/t34_body_gmm"}
+	{envmap "$/environment/envmap_gold01"}
+	{blend none}
+}

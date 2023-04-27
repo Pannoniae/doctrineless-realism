@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/t32e1/t32e1_gun_x"}
+	{bump "$/model/t32e1/t32e1_gun_nm"}
+	{blend none}
+}

@@ -1,0 +1,29 @@
+{from "pattern gun"		; "T95"
+	{filling "t15e1_bulletusa_105"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	{range 230 230}   
+	{calibre 105}
+	
+
+	("reload time" seconds(20))
+
+	("velocity m/s" ap(845) apcr(900) he(750) heat(1))
+	("armor health" damage(253))
+	("armor health custom" shell(ap) damage(280) filler(567))
+
+	("penetration_long" shell(apcbc) range(230) a(253) b(250) c(236) d(219) e(204))
+
+	("penetration_long" shell(apcr) range(230) a(292) b(287) c(266) d(242) e(220))
+
+	{parameters "apcr"
+		("large_apcr_slope_multiplier")
+	}
+
+	{parameters "he"
+		{range 200 200}
+	}
+
+	("accuracy_direct" r1(0.55) range_ap(230) range_he(200) range_heat(230))
+}

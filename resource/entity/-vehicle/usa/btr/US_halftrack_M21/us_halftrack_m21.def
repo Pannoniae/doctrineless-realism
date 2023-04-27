@@ -1,0 +1,113 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tractor" "tractor_heavy" "with_gun" "detect_tank_mg" "open_death_fx_low" "multi_board" "mortar" "vehicle" "armored_car" "tank" "wheeled" "truck_mortar" "vision_vehicle_medium" "explosion_throw_crew" "tank_canon_fire_50_57" "vision_lev02"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_light"}
+	{patherId "sdkfz251"}
+	{Extension "us_halftrack_M21.mdl"}
+	(include "us_halftrack_M21.ext")
+	
+;==============================================
+(define "crew_human_visible"
+	{placer	{place "%place" {group "crew"} {linkbone "%place"} {visor "%visor"} {turnoff {sensor} {shadow} {targetable}}}  	}
+	{boarder {door "%door"}	{link "%door" "%place" {anm "%place"} {forward putoff} {reverse puton}}}
+)
+	
+{boarder
+	{anm "driver"
+		{forward	{begin	"board_big-midcar_driver"} {end "pose_M3halftrack_driver"} {base "open_driver"}}
+		{reverse 	{end	"board_big-midcar_driver" -1} {base "open_driver" -1}}
+	}
+	{anm "commander"
+		{forward	{begin	"board_big-midcar"} {end "pose_M3halftrack_commander"} {base "open_commander"}}
+		{reverse 	{end	"board_big-midcar" -1} {base "open_commander" -1}}
+	}	
+	{anm "gunner"
+		{forward	{begin	"board_body"} {end "pose_pak40_gunlayer"} {base "open_gunner"}}
+		{reverse 	{end	"board_body" -1} {base "open_gunner" -1}}
+    }
+ 	{anm "charger"
+		{forward	{begin	"board_body"} {end "pose_M21halftrack_M2HB"} {base "open_gunner"}}
+		{reverse 	{end	"board_body" -1} {base "open_gunner" -1}}
+    }   
+}
+
+    ("crew_human" place(driver)    door(emit0) bone(driver)    animation(driver) 	 group(crew))
+    ("crew_human" place(commander) door(emit1) bone(commander) animation(commander)  group(crew))
+	("crew_human" place(gunner)    door(emit2) bone(gunner)    animation(gunner)     group(crew))
+	("crew_human" place(charger)   door(emit2) bone(charger)   animation(charger)    group(crew))
+
+	{placer
+		{place "driver"		{group "gunner"} {visor "driver"}}
+		{place "commander"	{group "gunner"} {visor "driver"}}
+		{place "gunner"		{group "gunner"} {visor "main"}}
+		{place "charger"	{group "gunner"} {visor "main"}}
+	}		
+;==============================================
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "mortarus_107 he" 20}
+			{item "mortarus_107 sm" 10}
+			{item "ammo mgun_usa belt" 5000}		; 20 boxes
+			{item "ammo hmgun_usa" 1000}			; 10 boxes
+			
+		}
+	}
+	{Weaponry
+        {place "gun"
+		    {Barrels 1}
+		    {weapon "107_m2" filling "mortarus_107 he" 1}
+		    {charger "gunner"}
+		    {gunner "gunner"}
+		    {basic}
+		}
+		{place "mgun1"
+		    {type "rear"}
+	    	{weapon "browning_m2" filled}
+		    {foresight "foresight4"}
+		    {gunner "charger"}
+		    {charger "charger"}
+			{ai_in_manual}
+		    ("abm_mgun")
+		    {basic}
+		}    
+	} 	
+
+	{sensor
+		{Visor "driver"
+			{vision "tank_driver"}
+			{bone "visor2"}
+		}
+		{visor "gunner"
+		    {vision "tank_main-l"}
+			{bone "visor1"}
+		}	
+		{visor "charger"
+		    {vision "tank_main-l"}
+			{bone "visor3"}
+		}			
+	}
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks" repair(30) thickness(15))
+
+	{mass 9000}
+	{Chassis "wheel"
+		("tank_trace" fx("tracks_sm") step(0.3) len(-0.49) boneleft("FXtraceR3") boneright("FXtracerR3"))
+		("car_trace" fx("tracewheel01") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_btr"
+			speed(72) ;----------------------------------Max speed.
+			speedatmaxturn(25) ;-------------------------Max speed at max turn.
+			reverse(18) ;--------------------------------Max speed in Reverse.
+			weight(9.0) ;-------------------------------Weight in Tonnes.
+			power(128) ;----------------------------------Horse Power.
+			fuel(230) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;-------------------------------Fuel type.
+			range(240) ;---------------------------------Range in Kilometers.
+		)
+	}
+}

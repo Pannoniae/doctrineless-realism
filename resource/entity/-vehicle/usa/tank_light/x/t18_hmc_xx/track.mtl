@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/t18_hmc/t18_hmc_track_am"}
+	{bump "$/model/t18_hmc/t18_hmc_track_nm"}
+	{blend test}
+}

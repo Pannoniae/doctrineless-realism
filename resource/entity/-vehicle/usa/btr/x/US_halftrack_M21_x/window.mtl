@@ -1,0 +1,4 @@
+{material envmap
+	{diffuse "$/model/US_halftrack_M21/window"}
+	{blend blend}
+}

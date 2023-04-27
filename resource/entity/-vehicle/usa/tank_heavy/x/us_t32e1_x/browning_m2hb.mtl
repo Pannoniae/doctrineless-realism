@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/t32e1/t32e1_browning_m2hb_am"}
+	{bump "$/model/t32e1/t32e1_browning_m2hb_nm"}
+	{blend test}
+}

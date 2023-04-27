@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/t18_hmc/t18_hmc_chassis_x"}
+	{bump "$/model/t18_hmc/t18_hmc_chassis_nm"}
+	{blend none}
+}

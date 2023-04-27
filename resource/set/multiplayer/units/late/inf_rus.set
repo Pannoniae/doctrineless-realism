@@ -115,9 +115,9 @@
 
 {"mp/rus/late/senior_smg"		("rus_regular" side(rus) cost(10.0))} ; pps43
 
-{"mp/rus/late/sapper_builder"		("rus_regular" side(rus) cost(50.0))} ; mosin
-{"mp/rus/late/sapper_miner_ap"		("rus_regular" side(rus) cost(50.0))} ; mosin
-{"mp/rus/late/sapper_miner_at"		("rus_regular" side(rus) cost(50.0))} ; mosin
+{"mp/rus/late/sapper_builder"		("rus_regular" side(rus) cost(40.0))} ; mosin
+{"mp/rus/late/sapper_miner_ap"		("rus_regular" side(rus) cost(40.0))} ; mosin
+{"mp/rus/late/sapper_miner_at"		("rus_regular" side(rus) cost(40.0))} ; mosin
 
 
 (define "rus_regular_advanced"
@@ -138,8 +138,8 @@
 {"mp/rus/late/antitank_ptrs"	("rus_regular_advanced" side(rus) cost(45.0))} ; ptrs semi
 {"mp/rus/late/antitank_asst"	("rus_regular_advanced" side(rus) cost(10.0))} ; pps43 + AT rifle ammo
 {"mp/rus/late/antitank_asst2"	("rus_regular_advanced" side(rus) cost(10.0))} ; pps43 + Pzschreck ammo
-{"mp/rus/late/engineer_1"		("rus_regular_advanced" side(rus) cost(50.0))}
-{"mp/rus/late/engineer_2"		("rus_regular_advanced" side(rus) cost(50.0))}
+{"mp/rus/late/engineer_1"		("rus_regular_advanced" side(rus) cost(40.0))}
+{"mp/rus/late/engineer_2"		("rus_regular_advanced" side(rus) cost(40.0))}
 {"mp/rus/late/flamer"			("rus_regular_advanced" side(rus) cost(60.0))}
 {"mp/rus/late/miner-ap"			("rus_regular_advanced" side(rus) cost(40.0))}
 {"mp/rus/late/miner-at"			("rus_regular_advanced" side(rus) cost(40.0))}

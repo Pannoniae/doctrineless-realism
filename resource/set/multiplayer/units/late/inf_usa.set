@@ -76,10 +76,10 @@
 	{score_factor 0.06}
 )
 {"mp/usa/late/rifle_grenade"	("usa_regular_advanced" side(usa)) {cost 35.0}} ; rifle grenade
-{"mp/usa/late/saper"			("usa_regular_advanced" side(usa)) {cost 60.0}} 
+{"mp/usa/late/saper"			("usa_regular_advanced" side(usa)) {cost 40.0}} 
 {"mp/usa/late/flamer"			("usa_regular_advanced" side(usa)) {cost 70.0}}
-{"mp/usa/late/ap_miner"			("usa_regular_advanced" side(usa)) {cost 60.0}}
-{"mp/usa/late/at_miner"			("usa_regular_advanced" side(usa)) {cost 60.0}}
+{"mp/usa/late/ap_miner"			("usa_regular_advanced" side(usa)) {cost 40.0}}
+{"mp/usa/late/at_miner"			("usa_regular_advanced" side(usa)) {cost 40.0}}
 {"mp/usa/late/gr_launcher"		("usa_regular_advanced" side(usa)) {cost 75.0}}
 {"mp/usa/late/squadleader"		("usa_regular_advanced" side(usa)) {cost 18.0}} ; smg
 {"mp/usa/late/squadleader2"		("usa_regular_advanced" side(usa)) {cost 18.0}} ; smg
