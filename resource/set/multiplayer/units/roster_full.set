@@ -36,5 +36,5 @@
 	(include "full/units_rus.set")
 	(include "full/units_ger.set")
 	(include "full/units_fin.set")
-	;(include "full/units_usa.set")
+	(include "full/units_usa.set")
 ;}
