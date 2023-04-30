@@ -10,7 +10,7 @@ Purchases["full.usa"] = {
 				{priority = 1.0, type = {"Infantry", "Team", "Aux", "Class3",}, unit = "single_auxiliary(usa)"},
 				{priority = 1.0, type = {"Infantry", "Team", "AT", "Class1",}, unit = "single_at(usa)"},
 				{priority = 1.0, type = {"Infantry", "Team", "MG", "Class1",}, unit = "single_mg(usa)"},
-				{priority = 1.0, type = {"Infantry", "Team", "AT", "Class3",}, unit = "single_mortar(usa)"},
+				;{priority = 1.0, type = {"Infantry", "Team", "AT", "Class3",}, unit = "single_mortar(usa)"},
 				{priority = 1.0, type = {"Infantry", "Team", "AT", "Class2",}, unit = "single_riflegrenade(usa)"},
 				{priority = 1.0, type = {"Infantry", "Team", "Class3",}, unit = "single_flamer(usa)"},
 				{priority = 1.0, type = {"Infantry", "Team", "Class2",}, unit = "single_sniper(usa)"},

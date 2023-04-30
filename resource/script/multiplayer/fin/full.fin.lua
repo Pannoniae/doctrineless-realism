@@ -104,7 +104,7 @@ Purchases["full.fin"] = {
 				
 				{priority = 1.0, type = { "Cannon", "Artillery", "Class3",}, unit = "150mm_h40"},
 				{priority = 1.0, type = { "Cannon", "Artillery", "Class3",}, unit = "210mm_nebelwerfer42"},
-				{priority = 1.0, type = { "Tank", "Light", "Artillery", "Class3",}, unit = "pz38h_w40"},
+				;{priority = 1.0, type = { "Tank", "Light", "Artillery", "Class3",}, unit = "pz38h_w40"},
 				{priority = 1.0, type = { "Cannon", "Artillery", "Class3",}, unit = "150mm_rkh41"},
 				--]]
 
