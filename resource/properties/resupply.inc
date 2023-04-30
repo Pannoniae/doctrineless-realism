@@ -110,8 +110,8 @@
 	{item "atrifle_eng"	"ap2"		"ammo" 5  {value 5}}
 
 ;// Light weaponry
-	{item "mortareng_50" "sm"		"ammo" 1  {value 5}}
-	{item "mortareng_50" "wp"		"ammo" 1  {value 5}}
+	;{item "mortareng_50" "sm"		"ammo" 1  {value 5}}
+	;{item "mortareng_50" "wp"		"ammo" 1  {value 5}}
 
 ;// Grenade
 	{item "grenade" "no8_smoke" 			1  {value 5}}
@@ -128,10 +128,9 @@
 	{item "bazooka" "ammo" 1  {value 10}}
 	{item "m18rr" "ammo" 1  {value 10}}
 	{item "mortarus_60" "he" "ammo" 5  {value 5}}
-	{item "mortarus_82" "fg" "ammo" 5  {value 5}}
 	{item "mortarus_82" "he" "ammo" 5  {value 5}}
 	{item "mortarus_107" "he" "ammo" 5  {value 5}}
-	{item "mortar50_eng" "ammo" 4  {value 5}}
+	;{item "mortar50_eng" "ammo" 4  {value 5}}
 
 )
 
@@ -582,7 +581,7 @@
 	;{item "bulletusa_105_howitzer"	"heat"		"ammo" 1 {value 20}}
 	;{item "bulletusa_105_howitzer"	"sm"		"ammo" 1 {value 25}}
 
-	{item "mortar50_eng"		"ammo" 1 {value 20}}
+	;{item "mortar50_eng"		"ammo" 1 {value 20}}
 
 	{item "mortarus_82"	"he"		"ammo" 1 {value 20}}
 	{item "mortarus_82"	"sm"		"ammo" 1 {value 25}}
