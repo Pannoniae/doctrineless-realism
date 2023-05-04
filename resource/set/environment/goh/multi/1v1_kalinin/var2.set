@@ -14,7 +14,8 @@
 			{tone_strength 0.3}
 			{color_shading
 				{enable}
-				{shade_tone 0xff6d82fd}
+				{shade_tone 0xffffffff}
+				;{shade_tone 0xff6d82fd}
 				{intensity 0.05}
 			}
 		}
