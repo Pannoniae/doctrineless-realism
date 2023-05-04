@@ -97,11 +97,10 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}
 		{box
-			{item "mortarus_82 fg" 80}
-			{item "mortarus_82 he" 10}
+			{item "mortarus_82 he" 90}
 			{item "mortarus_82 sm" 6}
 			{item "browning_m19" filled {user "mgun"}}
-			{item "mgun_usa belt" "ammo" 600}
+			{item "ammo mgun_usa belt" 600}
 		}
 	}
 	{Weaponry

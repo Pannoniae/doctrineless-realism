@@ -53,7 +53,7 @@ Purchases["full.usa"] = {
 				{priority = 1.0, type = { "Vehicle", "AT",}, unit = "dodge_armor"},
 				{priority = 1.0, type = { "Cannon", "Mortar",}, unit = "107_mm_m2"},
 				{priority = 1.0, type = { "Class2",}, unit = "doctrine_squad_ranger(usa)"},
-				{priority = 1.0, type = { "Tank", "Medium", "AT", "Class2",}, unit = "m36"},
+				{priority = 1.0, type = { "Tank", "Medium", "AT", "Class2",}, unit = "m36gmc"},
 				{priority = 1.0, type = { "Tank", "Medium", "Class2",}, unit = "m4a3c"},
 				{priority = 1.0, type = { "Tank", "Medium", "Artillery", "Class2",}, unit = "m12gmc"},
 				{priority = 1.0, type = { "Tank", "Heavy", "Class1",}, unit = "m26_pershing"},

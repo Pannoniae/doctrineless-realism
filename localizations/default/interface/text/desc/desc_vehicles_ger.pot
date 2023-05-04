@@ -1061,7 +1061,7 @@ msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz234_1"
-msgid "Sd.Kfz 234/1 (2cm)"
+msgid "Sd.Kfz 234/1"
 msgstr ""
 
 msgctxt "info/special/sdkfz234_1"
@@ -1069,7 +1069,7 @@ msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz234_2"
-msgid "Sd.Kfz 234/2 (5cm)"
+msgid "Sd.Kfz 234/2"
 msgstr ""
 
 msgctxt "info/special/sdkfz234_2"
@@ -1077,7 +1077,7 @@ msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz234_3"
-msgid "Sd.Kfz 234/3 (7.5cm)"
+msgid "Sd.Kfz 234/3"
 msgstr ""
 
 msgctxt "info/special/sdkfz234_3"
@@ -1085,7 +1085,7 @@ msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz234_4"
-msgid "Sd.Kfz 234/4 (7.5cm Pak 40)"
+msgid "Sd.Kfz 234/4"
 msgstr ""
 
 msgctxt "info/special/sdkfz234_4"
@@ -1141,7 +1141,7 @@ msgid "<c(c3baae)>Light Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251b"
-msgid "Sd.Kfz 251/1 (MG34)"
+msgid "Sd.Kfz 251/1 Ausf. B (MG34)"
 msgstr ""
 
 msgctxt "info/special/sdkfz251b"
