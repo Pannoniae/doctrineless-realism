@@ -14,7 +14,7 @@
 			{brightness 0.8}
 			
 			{tone 0xff004a59}
-			{tone_strength 0.1}
+			{tone_strength 0}
 			{color_shading
 				{shade_tone 0xffddf3fe}
 				{intensity 0.05}

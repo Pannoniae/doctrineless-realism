@@ -15,7 +15,7 @@
 			{gamma 0.8}
 			{brightness 0.8}
 			{tone 0xff003046}
-			{tone_strength 0.2}
+			{tone_strength 0}
 			{color_shading
 				{shade_tone 0xfffe8d22}
 				{intensity 0.2}

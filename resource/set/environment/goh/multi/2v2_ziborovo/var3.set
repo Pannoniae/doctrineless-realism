@@ -12,7 +12,7 @@
 			{saturation 1.5}
 			
 			{tone 0xff00194b}
-			{tone_strength 0.2}
+			{tone_strength 0}
 			{color_shading
 				{shade_tone 0xff52f2ff}
 				{intensity 0}

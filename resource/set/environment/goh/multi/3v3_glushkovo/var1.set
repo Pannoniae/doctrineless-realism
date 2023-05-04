@@ -11,7 +11,7 @@
 			{saturation 1.5}
 			
 			{tone 0xff00013e}
-			{tone_strength 0.3}
+			{tone_strength 0}
 			{color_shading
 				{shade_tone 0xff6d82fd}
 				{intensity 0.05}

@@ -14,7 +14,7 @@
 			{gamma 1.25}
 			{contrast 1.2}
 			{tone 0xff23241f}
-			{tone_strength 0.2}
+			{tone_strength 0}
 			{color_shading
 				{shade_tone 0xffbde5e0}
 				{intensity 0.25}

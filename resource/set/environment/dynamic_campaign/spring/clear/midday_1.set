@@ -10,7 +10,7 @@
 		{color_correction
 			{saturation 1.5}
 			{tone 0xff002147}
-			{tone_strength 0.05}
+			{tone_strength 0}
 			{color_shading
 				{shade_tone 0xffc7d8fe}
 				{intensity 0.15}

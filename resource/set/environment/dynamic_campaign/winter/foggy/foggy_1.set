@@ -12,7 +12,7 @@
 			{brightness 0.95}
 			
 			{tone 0xff96b4ab}
-			{tone_strength 0.1}
+			{tone_strength 0}
 			{color_shading
 				{shade_tone 0xff90c6ff}
 				{intensity 0.1}

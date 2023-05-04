@@ -13,7 +13,7 @@
 			{brightness 1.1}
 			{contrast 1.05}
 			{tone 0xff31a5fe}
-			{tone_strength 0.05}
+			{tone_strength 0}
 			{color_shading
 				{shade_tone 0xff000afe}
 				{intensity 0.09}

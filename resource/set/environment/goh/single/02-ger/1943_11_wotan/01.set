@@ -12,7 +12,7 @@
 			{gamma 0.8}
 			
 			{tone 0xff404653}
-			{tone_strength 0.5}
+			{tone_strength 0}
 			{color_shading
 				{shade_tone 0xff1e395c}
 				{intensity 0.2}

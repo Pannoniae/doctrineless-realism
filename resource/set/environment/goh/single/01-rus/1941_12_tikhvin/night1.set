@@ -16,7 +16,7 @@
 			{contrast 1.08}
 			
 			{tone 0xff1f4a51}
-			{tone_strength 0.1}
+			{tone_strength 0}
 			{color_shading
 				{shade_tone 0xff000000}
 				{intensity 0.2}
