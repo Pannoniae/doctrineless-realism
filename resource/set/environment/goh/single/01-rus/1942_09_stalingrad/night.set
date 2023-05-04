@@ -11,6 +11,7 @@
 		{sun_moon_radius 1}
 		{night_vision 0.6}
 		{color_correction
+			{saturation 1.5}
 			{gamma 0.8}
 			{brightness 0.8}
 			{tone 0xff003046}

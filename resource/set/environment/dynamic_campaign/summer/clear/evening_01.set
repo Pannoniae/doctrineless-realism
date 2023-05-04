@@ -8,11 +8,11 @@
 		{sun_moon_radius 1}
 		{night_vision 1}
 		{color_correction
-			{saturation 0.9}
+			{saturation 1.5}
+			
 			{tone 0xff1e0700}
 			{tone_strength 0.2}
 			{color_shading
-				{enable}
 				{shade_tone 0xff4b4b4b}
 				{intensity 0}
 			}

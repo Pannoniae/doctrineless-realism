@@ -10,12 +10,12 @@
 		{sun_moon_radius 1}
 		{night_vision 1}
 		{color_correction
+			{saturation 1.5}
 			{brightness 1.25}
 			{contrast 1.05}
 			{tone 0xff0f192f}
 			{tone_strength 0.2}
 			{color_shading
-				{enable}
 				{shade_tone 0xff245455}
 				{intensity 0.2}
 			}

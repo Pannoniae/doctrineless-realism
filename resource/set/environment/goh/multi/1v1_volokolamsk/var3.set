@@ -7,8 +7,9 @@
 		{draw_sun_moon}
 		{sun_moon_radius 1}
 		{color_correction
+			{saturation 1.5}
 			{contrast 0.9}
-			{saturation 0.8}
+			
 			{tone 0xff5e6876}
 			{tone_strength 0.05}
 			{color_shading

@@ -8,6 +8,7 @@
 		{lightsIntensity 0}
 		{sun_moon_radius 1}
 		{color_correction
+			{saturation 1.5}
 			{gamma 0}
 			{brightness 0}
 			{contrast 0}

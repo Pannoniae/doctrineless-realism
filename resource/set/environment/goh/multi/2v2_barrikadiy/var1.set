@@ -10,8 +10,9 @@
 		{sun_moon_radius 1}
 		{night_vision 0.75}
 		{color_correction
+			{saturation 1.5}
 			{contrast 0.9}
-			{saturation 0.9}
+			
 			{tone 0xff002133}
 			{tone_strength 0.4}
 			{color_shading
