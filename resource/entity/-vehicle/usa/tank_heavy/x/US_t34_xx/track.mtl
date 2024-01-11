@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/model/t34/t34_track_am"}
-	{bump "$/model/t34/t34_track_nm"}
-	{blend none}
-}

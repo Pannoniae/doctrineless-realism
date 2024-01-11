@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/humanskin/usa/tanker jacket/tank jacket_tdb"}
-	{bump "$/humanskin/usa/tanker jacket/jacket bp"}
-	{blend none}
-}

@@ -172,6 +172,14 @@ msgctxt "info/special/81mm_krh36"
 msgid "<c(c3baae)>Medium Mortar</c>"
 msgstr ""
 
+msgctxt "desc/entity/81mm_krh36_mortar_barrage"
+msgid "Medium Mortar Barrage"
+msgstr ""
+
+msgctxt "desc/squad/81mm_krh36_mortar_barrage"
+msgid "81 Krh/36"
+msgstr ""
+
 msgctxt "desc/entity/84mm_k18"
 msgid "84 K/18"
 msgstr ""
@@ -236,12 +244,36 @@ msgctxt "info/special/120mm_krh40"
 msgid "<c(c3baae)>Heavy Mortar</c>"
 msgstr ""
 
+msgctxt "desc/entity/120mm_krh40_mortar_barrage"
+msgid "Heavy Mortar Barrage"
+msgstr ""
+
+msgctxt "desc/squad/120mm_krh40_mortar_barrage"
+msgid "120 Krh/40"
+msgstr ""
+
 msgctxt "desc/entity/122mm_m1910_fin"
 msgid "122 H/10-30"
 msgstr ""
 
 msgctxt "info/special/122mm_m1910_fin"
 msgid "<c(c3baae)>Medium Field Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/122mm_m1910_fin_smoke_barrage"
+msgid "Medium Smoke Barrage"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910_fin_smoke_barrage"
+msgid "122 H/10-30"
+msgstr ""
+
+msgctxt "desc/entity/122mm_m1910_fin_artillery_barrage"
+msgid "Medium Artillery Barrage"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910_fin_artillery_barrage"
+msgid "122 H/10-30"
 msgstr ""
 
 msgctxt "desc/entity/150mm_h40"
@@ -268,8 +300,16 @@ msgctxt "info/special/155mm_h17"
 msgid "<c(c3baae)>Heavy Field Howitzer</c>"
 msgstr ""
 
+msgctxt "desc/entity/155mm_h17_artillery_barrage"
+msgid "Heavy Artillery Barrage"
+msgstr ""
+
+msgctxt "desc/squad/155mm_h17_artillery_barrage"
+msgid "155 H/17"
+msgstr ""
+
 msgctxt "desc/entity/170mm_minewerfer"
-msgid "17cm MinenWerfer"
+msgid "17cm Minenwerfer"
 msgstr ""
 
 msgctxt "info/special/170mm_minewerfer"
@@ -282,6 +322,14 @@ msgstr ""
 
 msgctxt "info/special/203mm_h17"
 msgid "<c(c3baae)>Heavy Field Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/ba6_fin"
+msgid "BA-6"
+msgstr ""
+
+msgctxt "info/special/ba6_fin"
+msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/ba10_fin"
@@ -298,6 +346,14 @@ msgstr ""
 
 msgctxt "info/special/blenheim_mk1"
 msgid "<c(c3baae)>Bomber</c>"
+msgstr ""
+
+msgctxt "desc/entity/blenheim_mk1_recon"
+msgid "Blenheim Mk.1"
+msgstr ""
+
+msgctxt "info/special/blenheim_mk1_recon"
+msgid "<c(c3baae)>Recon</c>"
 msgstr ""
 
 msgctxt "desc/entity/bt5_fin"
@@ -545,7 +601,7 @@ msgid "T-37A"
 msgstr ""
 
 msgctxt "info/special/t37a_fin"
-msgid "<c(c3baae)>Light Tank</c>"
+msgid "<c(c3baae)>Amphibious Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/t50_fin"

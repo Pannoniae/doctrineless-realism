@@ -1,7 +1,0 @@
-{from "pattern rpg_ammo"
-	{entity "bazooka_M6A3_HEAT"}
-	{view "bazooka_M6A3_HEAT"
-		{tail "bazooka_tail" "tail"}
-	}
-	{mass 1.59}
-}

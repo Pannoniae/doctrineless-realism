@@ -1,7 +1,0 @@
-{from "pattern rpg_ammo"
-	{entity "57mm_us_m18_rifle_heat"}
-	{view "57mm_us_m18_rifle_heat"
-		{tail "bazooka_tail" "tail"}
-	}
-	{mass 1.59}
-}

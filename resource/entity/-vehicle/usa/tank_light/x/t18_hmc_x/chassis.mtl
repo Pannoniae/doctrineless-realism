@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/t18_hmc/t18_hmc_chassis_am"}
-	{bump "$/model/t18_hmc/t18_hmc_chassis_nm"}
-	{specular "$/model/t18_hmc/t18_hmc_chassis_gmm"}
-	{color "229 229 229 25"}
-	{blend none}
-}

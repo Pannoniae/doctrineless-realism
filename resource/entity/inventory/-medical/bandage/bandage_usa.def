@@ -1,9 +1,0 @@
-{entity
-	(include "/properties/stuff_small.ext")
-	{extender "stuff"
-		{item "bandage_usa"}
-	}
-	{Volume "body"
-	}
-	{Extension "bandage.mdl"}
-}

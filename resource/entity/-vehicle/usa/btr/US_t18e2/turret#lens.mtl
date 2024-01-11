@@ -1,6 +1,0 @@
-{material envmap
-	{diffuse "$/model/t18e2/t18e2_turret_am"}
-	{mask "$/model/t18e2/t18e2_turret_gmm"}
-	{envmap "$/environment/envmap_gold01"}
-	{blend none}
-}

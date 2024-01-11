@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/t18e2/t18e2_rifled_barrel_b_am"}
-	{bump "$/model/t18e2/t18e2_rifled_barrel_b_nm"}
-	{specular "$/model/t18e2/t18e2_rifled_barrel_b_gmm"}
-	{color "229 229 229 25"}
-	{blend none}
-}

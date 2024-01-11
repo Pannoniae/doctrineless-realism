@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/t18e2/t18e2_body_am"}
-	{bump "$/model/t18e2/t18e2_body_nm"}
-	{specular "$/model/t18e2/t18e2_body_gmm"}
-	{color "229 229 229 25"}
-	{blend test}
-}

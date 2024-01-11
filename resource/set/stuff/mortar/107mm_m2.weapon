@@ -1,5 +1,0 @@
-{from "pattern mortar"
-	{filling "ammo mortarus_107" 1}
-	{calibre 107}
-	("heavy_mortar_range")
-}

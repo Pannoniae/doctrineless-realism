@@ -29,7 +29,7 @@ msgid "30cm Wurfkörper 42 Spreng [<c(ff1200)>HE</c>]"
 msgstr ""
 
 msgctxt "desc/ammo/380mm_rw61"
-msgid "380mm Raketen Sprenggranate 4581 [<c(ff1200)>HE</c>]"
+msgid "38cm Raketen-Sprenggranate 4581 [<c(ff1200)>HE</c>]"
 msgstr ""
 
 msgctxt "desc/ammo/air_bomb big"
@@ -121,7 +121,7 @@ msgid "2.5cm PzGr.122 (f) [<c(ff6a00)>AP</c>] <c(65696d)>L/72</c>"
 msgstr ""
 
 msgctxt "desc/ammo/bulletger_28 apcr"
-msgid "2.8cm PzGr.41 [<c(48c445)>APCR</c>]"
+msgid "2.8cm PzGr.41 [<c(48c445)>APCNR</c>]"
 msgstr ""
 
 msgctxt "desc/ammo/bulletger_28 he"
@@ -284,8 +284,8 @@ msgctxt "desc/ammo/bulletger_88_l56 aa"
 msgid "8.8cm Fused [AA] <c(65696d)>L/56</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletger_88_l56 ap"
-msgid "8.8cm PzGr. [<c(ff6a00)>AP</c>] <c(65696d)>L/56</c>"
+msgctxt "desc/ammo/bulletger_88_l56 apcbche2"
+msgid "8.8cm PzGr. [<c(ff6a00)>APCBC-HE</c>] <c(65696d)>L/56</c>"
 msgstr ""
 
 msgctxt "desc/ammo/bulletger_88_l56 apcbche"
@@ -352,8 +352,8 @@ msgctxt "desc/ammo/bulletger_150_l11 sm"
 msgid "15cm IGr.38 Nb [SMOKE] <c(65696d)>L/11</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletger_150_l11 steil"
-msgid "15cm Steilgranate.42 [<c(ff1200)>HEAT/c>] <c(65696d)>L/11</c>"
+msgctxt "desc/ammo/bulletger_150_l11 he2"
+msgid "15cm Stielgranate.42 [<c(ff1200)>HE</c>] <c(65696d)>L/11</c>"
 msgstr ""
 
 msgctxt "desc/ammo/bulletger_150_l30 he"
@@ -366,6 +366,10 @@ msgstr ""
 
 msgctxt "desc/ammo/bulletger_150_l30 sm"
 msgid "15cm Gr.19 Nb [SMOKE]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet_155 ger he"
+msgid "15.5cm Gr.422 (f) [<c(ff1200)>HE</c>]"
 msgstr ""
 
 msgctxt "desc/ammo/bulletger_170 he"
@@ -441,15 +445,15 @@ msgid "GG/P40 Anti-Tank Rifle Grenade"
 msgstr ""
 
 msgctxt "desc/ammo/k98_grenade he"
-msgid "[<c(ff1200)>HE</c>]Gew.SprGr."
+msgid "[<c(ff1200)>HE</c>] Gew.SprGr."
 msgstr ""
 
 msgctxt "desc/ammo/k98_grenade heat"
-msgid "[<c(c9a6ff)>HEAT</c>]Gew.PzGr.30"
+msgid "[<c(c9a6ff)>HEAT</c>] Gew.PzGr.30"
 msgstr ""
 
 msgctxt "desc/ammo/k98_grenade heata"
-msgid "[<c(c9a6ff)>HEAT</c>]Gross.Gew.PzGr."
+msgid "[<c(c9a6ff)>HEAT</c>] Gross.Gew.PzGr."
 msgstr ""
 
 msgctxt "desc/ammo/k98_grenade"
@@ -492,7 +496,7 @@ msgctxt "desc/ammo/mgun_ger mg13"
 msgid "7.92mm MG-13 Rounds"
 msgstr ""
 
-msgctxt "desc/ammo/mgun_ger zb26"
+msgctxt "desc/ammo/zb26_mag"
 msgid "7.92mm ZB-26 Rounds"
 msgstr ""
 
@@ -610,4 +614,16 @@ msgstr ""
 
 msgctxt "desc/stuff/mgun_ger mg13"
 msgid "7.92mm MG-13 Magazine"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_15_auto ap"
+msgid "15mm PzGr. [<c(ff6a00)>AP</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_15_auto he"
+msgid "15mm SprGr. [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/280mm_nebelwerfer"
+msgid "28cm Wurfkörper Spreng [<c(ff1200)>HE</c>]"
 msgstr ""

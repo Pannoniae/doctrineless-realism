@@ -1,3 +1,0 @@
-{from "75mm_m2"			; "m8_howitzer"
-	("reload time" seconds(6))
-}

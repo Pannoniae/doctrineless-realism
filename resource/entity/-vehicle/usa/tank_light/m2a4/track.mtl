@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/animation/m2_track"}
-	{blend test}
-}

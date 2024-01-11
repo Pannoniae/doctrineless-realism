@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/t32e1/t32e1_track_am"}
-	{bump "$/model/t32e1/t32e1_track_nm"}
-	{specular "$/model/t32e1/t32e1_track_gmm"}
-	{color "229 229 229 25"}
-	{blend test}
-}

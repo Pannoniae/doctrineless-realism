@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/t34/t34_gun_am"}
-	{specular "$/model/t34/t34_gun_gmm"}
-	{color "229 229 229 25"}
-	{blend none}
-}

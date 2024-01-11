@@ -13,6 +13,35 @@ msgstr ""
 "Language-Team: \n"
 "X-Generator: Poedit 2.4.2\n"
 
+
+msgctxt "actionbar/speed"
+msgid "Switch movement speed"
+msgstr ""
+
+msgctxt "actionbar/ammo/lock_ammo"
+msgid "Ammo Switching Unlocked"
+msgstr ""
+
+msgctxt "actionbar/ammo/lock_ammo/action"
+msgid "Cannon Shell Type Unlocked"
+msgstr ""
+
+msgctxt "actionbar/ammo/lock_ammo/usage"
+msgid "Unit will automatically switch cannon shell type depending on its target"
+msgstr ""
+
+msgctxt "actionbar/ammo/unlock_ammo"
+msgid "Ammo Switching Locked"
+msgstr ""
+
+msgctxt "actionbar/ammo/unlock_ammo/action"
+msgid "Cannon Shell Type Locked"
+msgstr ""
+
+msgctxt "actionbar/ammo/unlock_ammo/usage"
+msgid "Unit is locked to current cannon shell type until unlocked or out of current type of ammo"
+msgstr ""
+
 msgctxt "actionbar/engine_toggle"
 msgid "Toggle Engine on/off"
 msgstr ""
@@ -1326,7 +1355,7 @@ msgid "Veterancy %1%"
 msgstr ""
 
 msgctxt "actionbar/count_fx"
-msgid "<f(arial_hq)s(9)x-y-c(EAEADE)p(0)x.e(shadow)>%1%"
+msgid "<f(arial_hq)s(8)x-y-c(EAEADE)p(0)x.e(shadow)>%1%"
 msgstr ""
 
 msgctxt "map/title"
@@ -1334,11 +1363,11 @@ msgid "Map"
 msgstr ""
 
 msgctxt "actionbar/count_fx_red"
-msgid "<f(arial_hq)s(9)c(B42424)p(0)x.e(shadow)>%1%"
+msgid "<f(arial_hq)s(8)c(B42424)p(0)x.e(shadow)>%1%"
 msgstr ""
 
 msgctxt "actionbar/count_black"
-msgid "<f(arial_hq)s(9)c(0 0 0)p(0)x.>%1%"
+msgid "<f(arial_hq)s(8)c(0 0 0)p(0)x.>%1%"
 msgstr ""
 
 msgctxt "actionbar/hatch_state/open"
@@ -1346,7 +1375,7 @@ msgid "Open Hatch"
 msgstr ""
 
 msgctxt "actionbar/count_white"
-msgid "<f(anka)s(14)c(220 220 220)p(0)x(3)y(3)e(shadow)>%1%"
+msgid "<f(arial_hq)s(8)c(220 220 220)p(0)x(3)y(3)e(shadow)>%1%"
 msgstr ""
 
 msgctxt "perk/level/lvl2"
@@ -2439,3 +2468,39 @@ msgctxt "entity_info/desc/self_propelled"
 msgid "<c(c3baae)>self-propelled gun</c>"
 msgstr ""
 
+msgctxt "entity_info/armor_hull"
+msgid "Hull Armor"
+msgstr ""
+
+msgctxt "entity_info/armor_turret"
+msgid "Turret Armor"
+msgstr ""
+
+msgctxt "entity_info/armor_shield"
+msgid "Extra Armor"
+msgstr ""
+
+
+msgctxt "actionbar/injection"
+msgid "Morphine shot"
+msgstr ""
+
+msgctxt "actionbar/injection/usage"
+msgid "Instantly revive a fallen soldier with a consumable morphine shot"
+msgstr ""
+
+msgctxt "actionbar/call_ally"
+msgid "Recruit Soldiers"
+msgstr ""
+
+msgctxt "actionbar/call_ally/usage"
+msgid "Recruit nearby AI soldiers into your command"
+msgstr ""
+
+msgctxt "actionbar/suppression_fire"
+msgid "Suppression Fire"
+msgstr ""
+
+msgctxt "actionbar/suppression_fire/usage"
+msgid "Unleash intense firepower at the overall vicinity of a designated target or location for 60 seconds."
+msgstr ""

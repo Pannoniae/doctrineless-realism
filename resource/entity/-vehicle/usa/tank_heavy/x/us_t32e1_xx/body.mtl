@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/model/t32e1/t32e1_body_x"}
-	{bump "$/model/t32e1/t32e1_body_nm"}
-	{blend none}
-}

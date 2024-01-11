@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "entity/-vehicle/usa/tank_light/m8/m8_scott"}
-	{blend none}
-}

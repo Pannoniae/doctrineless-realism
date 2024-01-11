@@ -17,8 +17,8 @@ msgctxt "desc/squad/doctrine_2m4a2_76_rus"
 msgid "<c(B29557)>( III )</c> 2x M4A2(76)W"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_2t50_late"
-msgid "<c(B29557)>( I )</c> 2x T-50"
+msgctxt "desc/squad/doctrine_t50_late"
+msgid "<c(B29557)>( I )</c> T-50"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_2t3476_40"
@@ -42,7 +42,7 @@ msgid "<c(B29557)>( I )</c> 2x BT-5"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_2zis2"
-msgid "<c(B29557)>( III )</c> 2x 57mm Zis-2 Towed"
+msgid "<c(B29557)>( III )</c> 2x 57mm Zis-2"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_3xkv1"
@@ -62,7 +62,7 @@ msgid "<c(B29557)>( I )</c> 37mm 61-K M1939"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_37mm_61k_mid"
-msgid "<c(B29557)>( II )</c> 37mm 61-K M1939"
+msgid "<c(B29557)>( I )</c> 37mm 61-K M1939"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_57mm_zis2"
@@ -74,7 +74,7 @@ msgid "<c(B29557)>( II )</c> 57mm ZIS-2"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_76mm_f22_early"
-msgid "<c(B29557)>( II )</c> 76mm F-22 (Towed)"
+msgid "<c(B29557)>( II )</c> 76mm F-22"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_76mm_f22_mid"
@@ -122,7 +122,7 @@ msgid "<c(B29557)>( III )</c> 100mm BS-3, M3A1E1 Scout car"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_107mm_m1910_30"
-msgid "<c(B29557)>( III )</c> 107mm M1910/30 (Towed)"
+msgid "<c(B29557)>( III )</c> 107mm M1910/30"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_120mm_pm38"
@@ -230,7 +230,7 @@ msgid "<c(B29557)>( I )</c> BT-5"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_bt7a_early"
-msgid "<c(B29557)>( II )</c> BT7-A"
+msgid "<c(B29557)>( I )</c> BT7-A"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_bt7a_mid"
@@ -262,7 +262,7 @@ msgid "<c(B29557)>( I )</c> 12.7mm DsHK"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_gunshields"
-msgid "6x Gun shields"
+msgid "<c(B29557)>( I )</c> 6x Gun shields"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_il2_early"
@@ -310,7 +310,7 @@ msgid "<c(B29557)>( II )</c> KHT-26 flamethrower"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_kht130_mid"
-msgid "<c(B29557)>( II )</c> 2x KhT-130"
+msgid "<c(B29557)>( I )</c> KhT-130"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_kv1_39"
@@ -346,10 +346,10 @@ msgid "<c(B29557)>( II )</c> KV-8"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_kv85"
-msgid "<c(B29557)>( III )</c> KV-85"
+msgid "<c(B29557)>( II )</c> KV-85"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_m3stuart_late"
+msgctxt "desc/squad/doctrine_m3_stuart_late_rus"
 msgid "<c(B29557)>( I )</c> M3 Stuart"
 msgstr ""
 
@@ -430,15 +430,15 @@ msgid "<c(B29557)>( I )</c> Border Patrol"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_cossacks(rus)"
-msgid "<c(A5A095)>(3)</c> Cossacks"
+msgid "<c(B29557)>( I )</c> Cossacks"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_faustniki(rus)"
-msgid "<c(A5A095)>(3)</c> AT Assault engineer team"
+msgid "<c(B29557)>( I )</c> AT Assault engineer team"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_flame(rus)"
-msgid "<c(A5A095)>(3)</c> Flamer Assault engineer squad"
+msgid "<c(B29557)>( II )</c> Flamer Assault engineer squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_guards_heavy(rus)"
@@ -446,43 +446,43 @@ msgid "<c(B29557)>( I )</c> Heavy Guards Infantry"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_guards_mid(rus)"
-msgid "<c(A5A095)>(3)</c> Guards Rifle squad"
+msgid "<c(B29557)>( II )</c> Guards Rifle squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_heavy(rus)"
-msgid "<c(A5A095)>(2)</c> Heavy squad"
+msgid "<c(B29557)>( I )</c> Heavy squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_heavymarines(rus)"
-msgid "<c(A5A095)>(3)</c> Marine squad"
+msgid "<c(B29557)>( II )</c> Marine squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_heavyrecon(rus)"
-msgid "<c(A5A095)>(4)</c> Heavy Scout-Recon squad"
+msgid "<c(B29557)>( I )</c> Heavy Scout-Recon squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_mountainrifles(rus)"
-msgid "<c(A5A095)>(3)</c> Mountain Rifles"
+msgid "<c(B29557)>( I )</c> Mountain Rifles"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_paratrooper(rus)"
-msgid "<c(A5A095)>(3)</c> Paratroopers"
+msgid "<c(B29557)>( I )</c> Paratroopers"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_paratrooper_mid(rus)"
-msgid "<c(A5A095)>(3)</c> Paratroopers"
+msgid "<c(B29557)>( II )</c> Paratroopers"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_paratroopers(rus)"
-msgid "<c(A5A095)>(3)</c> Paratroopers"
+msgid "<c(B29557)>( I )</c> Paratroopers"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_penal(rus)"
-msgid "<c(A5A095)>(1)</c> Penal Battalion"
+msgid "<c(B29557)>( II )</c> Penal Battalion"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_penal_late(rus)"
-msgid "<c(A5A095)>(1)</c> Penal Battalion"
+msgid "<c(B29557)>( II )</c> Penal Battalion"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_rifle_motorised"
@@ -502,39 +502,39 @@ msgid "<c(B29557)>( I )</c> Political officer"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_rus_signaller_early(rus)"
-msgid "Artillery Signaller"
+msgid "<c(B29557)>( II )</c> Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_rus_signaller_late(rus)"
-msgid "Artillery Signaller"
+msgid "<c(B29557)>( II )</c> Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_rus_signaller_mid(rus)"
-msgid "Artillery Signaller"
+msgid "<c(B29557)>( II )</c> Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_sapperteam(rus)"
-msgid "<c(A5A095)>(2)</c> Sapper team"
+msgid "<c(B29557)>( I )</c> Sapper team"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_scoutcar_marines"
-msgid "<c(A5A095)>(4)</c> Marines' M3A1E1 Scout Car"
+msgid "<c(B29557)>( I )</c> Marines' M3A1E1 Scout Car"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_smgunit(rus)"
-msgid "<c(A5A095)>(2)</c> Recon squad (SMG)"
+msgid "<c(B29557)>( I )</c> Recon squad (SMG)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_spetsnaz_early(rus)"
-msgid "<c(A5A095)>(4)</c> Recon Ops"
+msgid "<c(B29557)>( I )</c> Recon Ops"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_spetsnaz_late(rus)"
-msgid "<c(A5A095)>(4)</c> Scout-Recon Detachment"
+msgid "<c(B29557)>( I )</c> Scout-Recon Detachment"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_spetsnaz_mid(rus)"
-msgid "<c(A5A095)>(4)</c> Recon Ops"
+msgid "<c(B29557)>( I )</c> Recon Ops"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_suppression(rus)"
@@ -554,7 +554,7 @@ msgid "<c(B29557)>( II )</c> Su-4"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_su26_early"
-msgid "<c(B29557)>( II )</c> Su-26"
+msgid "<c(B29557)>( I )</c> Su-26"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_su26_mid"
@@ -574,7 +574,7 @@ msgid "<c(B29557)>( III )</c> SU-100Y"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_su122"
-msgid "<c(B29557)>( II )</c> SU-122"
+msgid "<c(B29557)>( III )</c> SU-122"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_su152"
@@ -633,6 +633,10 @@ msgctxt "desc/squad/doctrine_t60_late"
 msgid "<c(B29557)>( I )</c> T-60"
 msgstr ""
 
+msgctxt "desc/squad/doctrine_t70_mid"
+msgid "<c(B29557)>( I )</c> T-70"
+msgstr "<c(B29557)>( I )</c> T-70"
+
 msgctxt "desc/squad/doctrine_t70m"
 msgid "<c(B29557)>( I )</c> T-70M + Inf."
 msgstr ""
@@ -662,7 +666,7 @@ msgid "<c(B29557)>( II )</c> T-34/85 Grilled"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_t347640"
-msgid "<c(B29557)>( II )</c> T-34 M1940"
+msgid "<c(B29557)>( III )</c> T-34 M1940"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_tankodesantniki"
@@ -670,7 +674,7 @@ msgid "<c(B29557)>( III )</c> 2x T-34 + Inf."
 msgstr ""
 
 msgctxt "desc/squad/doctrine_towed_m42"
-msgid "<c(B29557)>( I )</c> 45mm M1942 Towed"
+msgid "<c(B29557)>( I )</c> 45mm M1942"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_valentine7"
@@ -678,29 +682,178 @@ msgid "<c(B29557)>( I )</c> Mk III Valentine VII"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_yak1_early"
-msgid "<c(B29557)>( I )</c> Yak-1 50kg Bomb"
+msgid "<c(B29557)>( II )</c> Yak-1 50kg Bomb"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_zis30"
 msgid "<c(B29557)>( II )</c> ZIS-30"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_inf_crate_rus"
+msgctxt "desc/squad/doctrine_ba10"
+msgid "<c(B29557)>( I )</c> BA-10"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_45mm_m37"
+msgid "<c(B29557)>( I )</c> 45mm M-37 M1937"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m41_ampulomet_early"
+msgid "<c(B29557)>( I )</c> Ampulomet M1941"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_rus_logistics_early"
+msgid "<c(B29557)>( II )</c> Key Logistics"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_76mm_m1938_early"
+msgid "<c(B29557)>( II )</c> 76mm M1938"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_76mm_m1938_mid"
+msgid "<c(B29557)>( II )</c> 76mm M1938"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_bt5_mid"
+msgid "<c(B29557)>( I )</c> BT-5"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_122mm_m1910_mid"
+msgid "<c(B29557)>( II )</c> 122mm M1910"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_yak1_mid"
+msgid "<c(B29557)>( II )</c> Yak-1 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_yak1_late"
+msgid "<c(B29557)>( II )</c> Yak-1 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_ba20_mid"
+msgid "<c(B29557)>( I )</c> Ba-20 Command Vehicle"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_ba20_late"
+msgid "<c(B29557)>( I )</c> Ba-20 Command Vehicle"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_t70_mid"
+msgid "<c(B29557)>( I )</c> T-70"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_valentine2_mid"
+msgid "<c(B29557)>( I )</c> Valentine Mk.II"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_mmg_carrier_mid"
+msgid "<c(B29557)>( I )</c> Carrier Medium MG"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_107mm_m1910_30_mid"
+msgid "<c(B29557)>( III )</c> 107mm M1910/30"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_107mm_m1910_30_late"
+msgid "<c(B29557)>( II )</c> 107mm M1910/30"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_t50_mid"
+msgid "<c(B29557)>( I )</c> T-50"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_280mm_br5_mid"
+msgid "<c(B29557)>( III )</c> 280mm Br-5"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_122mm_a19_late"
+msgid "<c(B29557)>( III )</c> 122mm A-19"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_bt7a_late"
+msgid "<c(B29557)>( I )</c> BT7-A"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_300mm_bm30"
+msgid "<c(B29557)>( III )</c> 300mm BM-30"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_300mm_bm31"
+msgid "<c(B29557)>( III )</c> 300mm BM-31"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_sapper_motorised_early"
+msgid "<c(B29557)>( I )</c> Motorised Sappers"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_sapper_motorised_mid"
+msgid "<c(B29557)>( I )</c> Motorised Sappers"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_squad_sapper_motorised_late"
+msgid "<c(B29557)>( I )</c> Motorised Sappers"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_zis2_scoutcar_mg_mid"
+msgid "<c(B29557)>( II )</c> Scout Car + ZIS-2"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_2x_m4a2_75_early_rus_mid"
+msgid "<c(B29557)>( III )</c> 2x M4A2"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m3_lee_rus_mid"
+msgid "<c(B29557)>( II )</c> M3 Lee"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_m3a1_stuart_rus"
+msgid "<c(B29557)>( I )</c> M3A1 Stuart"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_zis6_bm13_16_mid"
+msgid "<c(B29557)>( III )</c> BM-13-16 (ZiS-6)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_zis6_bm13_16_late"
+msgid "<c(B29557)>( III )</c> BM-13-16 (ZiS-6)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_zis6_bm8_48_mid"
+msgid "<c(B29557)>( III )</c> BM-8-48 (ZiS-6)"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_zis6_bm8_48_late"
+msgid "<c(B29557)>( III )</c> BM-8-48 (ZiS-6)"
+msgstr ""
+
+msgctxt "desc/entity/doctrine_yag10_29k_early"
+msgid "<c(B29557)>( III )</c> YaG-10 29-K"
+msgstr ""
+
+msgctxt "desc/entity/doctrine_yag10_29k_mid"
+msgid "<c(B29557)>( II )</c> YaG-10 29-K"
+msgstr ""
+
+msgctxt "desc/entity/doctrine_t60_bm8_24_mid"
+msgid "<c(B29557)>( II )</c> BM-8-24 (T-60)"
+msgstr ""
+
+msgctxt "desc/entity/doctrine_t60_bm8_24_late"
+msgid "<c(B29557)>( II )</c> BM-8-24 (T-60)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_rus"
 msgid "Russian Ammo Crate"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_inf_crate_rus_early"
+msgctxt "desc/squad/inf_crate_rus_early"
 msgid "Russian Ammo Crate"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_inf_crate_rus_mid"
+msgctxt "desc/squad/inf_crate_rus_mid"
 msgid "Russian Ammo Crate"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_inf_crate_rus_late"
+msgctxt "desc/squad/inf_crate_rus_late"
 msgid "Russian Ammo Crate"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_inf_crate_rus_full"
-msgid "Russian Ammo Crate"
-msgstr ""

@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/t_30/t_30_tx_am"}
-	{blend blend}
-}

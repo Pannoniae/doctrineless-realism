@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/US_halftrack_M21/xx/xxhalftrack_m3_body2_d"}
-	{bump "$/model/US_halftrack_M21/halftrack_m3_body2_n"}
-	{specular "$/model/US_halftrack_M21/halftrack_m3_body2_s"}
-	{color "230 230 230 125"}
-	{blend none}
-}

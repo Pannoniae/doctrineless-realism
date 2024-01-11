@@ -12,7 +12,7 @@
 			{gamma 0}
 			{brightness 0}
 			{contrast 0}
-			{saturation 0}
+			{saturation 1.5}
 			{tone 0xff000000}
 			{tone_strength 0}
 			{color_shading

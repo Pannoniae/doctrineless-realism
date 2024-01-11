@@ -2,25 +2,37 @@
 	(define "damage_process_pierce" 					;// {on pierce} shell penetrates specific volume
 		{if stuff "%staff"
             (include "penetration-display.inc")		;// inserts code from other file for pierce, blast and other damage events
-			{vehicle_health_damage_pierce}
-			{if not component "shield"				;// prevents the pen FX from spawning when hitting shield components
-				{if not material "wood"
-					{if not volume "armor"
-						{if not tagged "pen_fx"						;// checks to ensure fx is not played more than once from the same shell / penetration
-							{tags add "pen_fx"}
-							{delay 0.05
-								{tags remove "pen_fx"}
-							}
-							{burn fx "metal_hit_penetration_%pen_fx" time 1 fake}
-							{if not stuff "auto"
+			{if not "pierced_processed"					;// check that process has not already run for the same event (prevents double damage for same projectile)
+				{set "pierced_processed" 1}
+				{if rand %tag_test {tags add "tag_test"}}   ;// Used for testing damage_process_pierce.
+				{vehicle_health_damage_pierce}
+				{if not component "shield"				;// prevents the pen FX from spawning when hitting shield components
+					{if not material "wood"
+						{if not volume "armor"
+							{if not tagged "pen_fx"						;// checks to ensure fx is not played more than once from the same shell / penetration
+								{tags add "pen_fx"}
+								{delay 0.05
+									{tags remove "pen_fx"}
+								}
+								{burn fx "metal_hit_penetration_%pen_fx" time 1 fake}
 								{if stuff "shell"
 									{burn fx "smoke_after_pen" time 5 fake}
 								else stuff "rocketlauncher"
 									{burn fx "smoke_after_pen" time 5 fake}
 								}
-							}
-							{if component "body"
-								{if not stuff "auto"
+								{if component "body"
+									{if stuff "shell"
+										{view start "smoke_after_pen_hatch"}
+										{delay 7 2
+											{view pause "smoke_after_pen_hatch"}
+										}
+									else stuff "rocketlauncher"
+										{view start "smoke_after_pen_hatch"}
+										{delay 7 2
+											{view pause "smoke_after_pen_hatch"}
+										}
+									}
+								else component "turret"
 									{if stuff "shell"
 										{view start "smoke_after_pen_hatch"}
 										{delay 7 2
@@ -33,145 +45,135 @@
 										}
 									}
 								}
-							else component "turret"
-								{if not stuff "auto"
-									{if stuff "shell"
-										{view start "smoke_after_pen_hatch"}
-										{delay 7 2
-											{view pause "smoke_after_pen_hatch"}
-										}
-									else stuff "rocketlauncher"
-										{view start "smoke_after_pen_hatch"}
-										{delay 7 2
-											{view pause "smoke_after_pen_hatch"}
-										}
-									}
-								}
+								{start_sound "hit/steel/penetrate/%pen_sound"}
+								{start_sound "hit/steel/penetrate/bkg/%pen_sound"}
 							}
-							{start_sound "hit/steel/penetrate/%pen_sound"}
-							{start_sound "hit/steel/penetrate/bkg/%pen_sound"}
 						}
 					}
 				}
-			}
-			{if component "body"
-				{if tagged "death_counter_start"
-					{call "death_counter"}
-				}
-				{call "death_counter_check"}
-				{if tagged "internal_fire"
-					{burn fx "smoke_dead_tank1"}
-				}
-				{if material "wood"
-					;// do nothing
-				}
-
-				{if operatable
-					{if rand (* %kill_crew 0.8)		{call_synced "kill_driver"}}
-					{if rand (* %kill_crew 0.4)		{call_synced "kill_gunner"}}
-					{if rand (* %kill_crew 0.4)		{call_synced "kill_gunner2"}}
-					{if rand (* %kill_crew 0.8)		{call_synced "kill_gunner3"}}
-					{if rand (* %kill_crew 0.4)		{call_synced "kill_gunner4"}}
-					{if rand (* %kill_crew 0.4)		{call_synced "kill_gunner5"}}
-					{if rand (* %kill_crew 0.4)		{call_synced "kill_charger"}}
-					{if rand (* %kill_crew 0.8)		{call_synced "kill_charger2"}}
-					{if rand (* %kill_crew 0.8)		{call_synced "kill_charger3"}}
-					{if rand (* %kill_crew 0.4)		{call_synced "kill_charger4"}}
-					{if rand (* %kill_crew 0.4)		{call_synced "kill_commander"}}
-
-					{kill_delay "crew_shock_time"}		;// resets shock time
-					{call "crew_stunned"}
-					{delay %crew_shock_time 1 "crew_shock_time"
-						{call "crew_revive"}
+				{if component "body"
+					{if tagged "death_counter_start"
+						{call "death_counter"}
 					}
-					{delay (* %crew_shock_time 0.5) 0.5 "crew_shock_time"
-						{call "driver_revive"}
+					{call "death_counter_check"}
+					{if tagged "internal_fire"
+						{burn fx "smoke_dead_tank1"}
 					}
-				}
-			}
-
-			{if component "turret"
-				{if tagged "death_counter_start"
-					{call "death_counter"}
-				}
-				{call "death_counter_check"}
-				{if operatable
-					{if rand (* %kill_crew 0.2)		{call_synced "kill_driver"}}
-					{if rand (* %kill_crew 0.8)		{call_synced "kill_gunner"}}
-					{if rand (* %kill_crew 0.8)		{call_synced "kill_gunner2"}}
-					{if rand (* %kill_crew 0.2)		{call_synced "kill_gunner3"}}
-					{if rand (* %kill_crew 0.0)		{call_synced "kill_gunner4"}}
-					{if rand (* %kill_crew 0.0)		{call_synced "kill_gunner5"}}
-					{if rand (* %kill_crew 0.8)		{call_synced "kill_charger"}}
-					{if rand (* %kill_crew 0.4)		{call_synced "kill_charger2"}}
-					{if rand (* %kill_crew 0.4)		{call_synced "kill_charger3"}}
-					{if rand (* %kill_crew 0.0)		{call_synced "kill_charger4"}}
-					{if rand (* %kill_crew 0.8)		{call_synced "kill_commander"}}
-
-					{kill_delay "crew_shock_time"}		;// resets shock time
-					{call "crew_stunned"}
-					{delay %crew_shock_time 1 "crew_shock_time"
-						{call "crew_revive"}
+					{if material "wood"
+						;// do nothing
 					}
-					{delay (* %crew_shock_time 0.5) 0.5 "crew_shock_time"
-						{call "driver_revive"}
+
+					{if operatable
+						{if rand (* %kill_crew 0.8)		{call_synced "kill_driver"}}
+						{if rand (* %kill_crew 0.4)		{call_synced "kill_gunner"}}
+						{if rand (* %kill_crew 0.4)		{call_synced "kill_gunner2"}}
+						{if rand (* %kill_crew 0.8)		{call_synced "kill_gunner3"}}
+						{if rand (* %kill_crew 0.4)		{call_synced "kill_gunner4"}}
+						{if rand (* %kill_crew 0.4)		{call_synced "kill_gunner5"}}
+						{if rand (* %kill_crew 0.4)		{call_synced "kill_charger"}}
+						{if rand (* %kill_crew 0.8)		{call_synced "kill_charger2"}}
+						{if rand (* %kill_crew 0.8)		{call_synced "kill_charger3"}}
+						{if rand (* %kill_crew 0.4)		{call_synced "kill_charger4"}}
+						{if rand (* %kill_crew 0.4)		{call_synced "kill_commander"}}
+
+						{if rand %crew_shock_chance
+							{call_synced "crew_shot_chance"}
+							{delay %crew_shock_time (* %crew_shock_time 0.15) "crew_shock_time"
+								{call_synced "crew_revive"}
+							}
+							{delay (* %crew_shock_time 0.5) (* %crew_shock_time 0.07) "crew_shock_time"
+								{call_synced "driver_revive"}
+							}
+						}
 					}
 				}
-			}
 
-			{if component "mantlet"
-				{##if rand %pierce_mantlet__mantlet_jam
-					{call_synced "mantlet_jam"}				;// temporarily disables gun elevation (up/down movement)
+				{if component "turret"
+					{if tagged "death_counter_start"
+						{call "death_counter"}
+					}
+					{call "death_counter_check"}
+					{if operatable
+						{if rand (* %kill_crew 0.2)		{call_synced "kill_driver"}}
+						{if rand (* %kill_crew 0.8)		{call_synced "kill_gunner"}}
+						{if rand (* %kill_crew 0.8)		{call_synced "kill_gunner2"}}
+						{if rand (* %kill_crew 0.2)		{call_synced "kill_gunner3"}}
+						{if rand (* %kill_crew 0.0)		{call_synced "kill_gunner4"}}
+						{if rand (* %kill_crew 0.0)		{call_synced "kill_gunner5"}}
+						{if rand (* %kill_crew 0.8)		{call_synced "kill_charger"}}
+						{if rand (* %kill_crew 0.4)		{call_synced "kill_charger2"}}
+						{if rand (* %kill_crew 0.4)		{call_synced "kill_charger3"}}
+						{if rand (* %kill_crew 0.0)		{call_synced "kill_charger4"}}
+						{if rand (* %kill_crew 0.8)		{call_synced "kill_commander"}}
+
+						{if rand %crew_shock_chance
+							{call_synced "crew_shot_chance"}
+							{delay %crew_shock_time 1 "crew_shock_time"
+								{call_synced "crew_revive"}
+							}
+							{delay (* %crew_shock_time 0.5) 0.5 "crew_shock_time"
+								{call_synced "driver_revive"}
+							}
+						}
+					}
 				}
-				{if not "turret"						;// tank has no turret. For tank destroyers. {props "-turret"}
-					{if rand (* %kill_crew 0.25)	{call_synced "kill_driver"}}
-					{if rand (* %kill_crew 0.5)		{call_synced "kill_gunner"}}
-					{if rand (* %kill_crew 0.25)	{call_synced "kill_gunner2"}}
-					{if rand (* %kill_crew 0.25)	{call_synced "kill_gunner3"}}
-					{if rand (* %kill_crew 0.25)	{call_synced "kill_gunner4"}}
-					{if rand (* %kill_crew 0.25)	{call_synced "kill_gunner5"}}
-					{if rand (* %kill_crew 0.5)		{call_synced "kill_charger"}}
-					{if rand (* %kill_crew 0.5)		{call_synced "kill_charger2"}}
-					{if rand (* %kill_crew 0.25)	{call_synced "kill_charger3"}}
-					{if rand (* %kill_crew 0.25)	{call_synced "kill_charger4"}}
-					{if rand (* %kill_crew 0.25)	{call_synced "kill_commander"}}
 
-					{kill_delay "crew_shock_time"}
-					{call "crew_stunned"}
-					{delay %crew_shock_time 1 "crew_shock_time"
-						{call "crew_revive"}
+				{if component "mantlet"
+					{##if rand %pierce_mantlet__mantlet_jam
+						{call_synced "mantlet_jam"}				;// temporarily disables gun elevation (up/down movement)
 					}
-					{delay (* %crew_shock_time 0.5) 0.5 "crew_shock_time"
-						{call "driver_revive"}
+					{if not "turret"						;// tank has no turret. For tank destroyers. {props "-turret"}
+						{if rand (* %kill_crew 0.25)	{call_synced "kill_driver"}}
+						{if rand (* %kill_crew 0.5)		{call_synced "kill_gunner"}}
+						{if rand (* %kill_crew 0.25)	{call_synced "kill_gunner2"}}
+						{if rand (* %kill_crew 0.25)	{call_synced "kill_gunner3"}}
+						{if rand (* %kill_crew 0.25)	{call_synced "kill_gunner4"}}
+						{if rand (* %kill_crew 0.25)	{call_synced "kill_gunner5"}}
+						{if rand (* %kill_crew 0.5)		{call_synced "kill_charger"}}
+						{if rand (* %kill_crew 0.5)		{call_synced "kill_charger2"}}
+						{if rand (* %kill_crew 0.25)	{call_synced "kill_charger3"}}
+						{if rand (* %kill_crew 0.25)	{call_synced "kill_charger4"}}
+						{if rand (* %kill_crew 0.25)	{call_synced "kill_commander"}}
+
+						{if rand %crew_shock_chance
+							{call_synced "crew_shot_chance"}
+							{delay %crew_shock_time 1 "crew_shock_time"
+								{call_synced "crew_revive"}
+							}
+							{delay (* %crew_shock_time 0.5) 0.5 "crew_shock_time"
+								{call_synced "driver_revive"}
+							}
+						}
 					}
 				}
-			}
 
-			{if volume "gun_shield"					;// for open top tank destroyers when gun shield is penetrated. (technically not the turret)
-				{if not "shield_pen"
-					{set "shield_pen" 1}
-					{if rand (* %kill_crew 0.1)		{call_synced "kill_driver"}}
-					{if rand (* %kill_crew 0.5)		{call_synced "kill_gunner"}}
-					{if rand (* %kill_crew 0.5)		{call_synced "kill_gunner2"}}
-					{if rand (* %kill_crew 0.1)		{call_synced "kill_gunner3"}}
-					{if rand (* %kill_crew 0.0)		{call_synced "kill_gunner4"}}
-					{if rand (* %kill_crew 0.0)		{call_synced "kill_gunner5"}}
-					{if rand (* %kill_crew 0.5)		{call_synced "kill_charger"}}
-					{if rand (* %kill_crew 0.5)		{call_synced "kill_charger2"}}
-					{if rand (* %kill_crew 0.5)		{call_synced "kill_charger3"}}
-					{if rand (* %kill_crew 0.0)		{call_synced "kill_charger4"}}
-					{if rand (* %kill_crew 0.5)		{call_synced "kill_commander"}}
+				{if volume "gun_shield"					;// for open top tank destroyers when gun shield is penetrated. (technically not the turret)
+					{if not "shield_pen"
+						{set "shield_pen" 1}
+						{if rand (* %kill_crew 0.1)		{call_synced "kill_driver"}}
+						{if rand (* %kill_crew 0.5)		{call_synced "kill_gunner"}}
+						{if rand (* %kill_crew 0.5)		{call_synced "kill_gunner2"}}
+						{if rand (* %kill_crew 0.1)		{call_synced "kill_gunner3"}}
+						{if rand (* %kill_crew 0.0)		{call_synced "kill_gunner4"}}
+						{if rand (* %kill_crew 0.0)		{call_synced "kill_gunner5"}}
+						{if rand (* %kill_crew 0.5)		{call_synced "kill_charger"}}
+						{if rand (* %kill_crew 0.5)		{call_synced "kill_charger2"}}
+						{if rand (* %kill_crew 0.5)		{call_synced "kill_charger3"}}
+						{if rand (* %kill_crew 0.0)		{call_synced "kill_charger4"}}
+						{if rand (* %kill_crew 0.5)		{call_synced "kill_commander"}}
 
-					{kill_delay "crew_shock_time"}
-					{call "crew_stunned"}
-					{delay %crew_shock_time 1 "crew_shock_time"
-						{call "crew_revive"}
-					}
-					{delay (* %crew_shock_time 0.5) 0.5 "crew_shock_time"
-						{call "driver_revive"}
-					}
-					{delay 0.5
-						{set "shield_pen" 0}
+						{if rand %crew_shock_chance
+							{call_synced "crew_shot_chance"}
+							{delay %crew_shock_time "crew_shock_time"
+								{call_synced "crew_revive"}
+							}
+							{delay (* %crew_shock_time 0.5) 0.5 "crew_shock_time"
+								{call_synced "driver_revive"}
+							}
+						}
+						{delay 0.5
+							{set "shield_pen" 0}
+						}
 					}
 				}
 			}
@@ -381,7 +383,12 @@
 	}
 
 	{on contact												;// Adds special tag to vehicle for check on "at_grenade_blast"
-		{if effector "grenade"
+		{if effector "mine grenade"
+			{tags add "grenade"}
+			{delay 0.25
+				{tags remove "grenade"}
+			}
+		else effector "grenade"
 			{tags add "grenade"}
 			{delay 0.05
 				{tags remove "grenade"}

@@ -1,8 +1,0 @@
-{actor
-	(include "/properties/stuff_grenade.ext")
-	{Extension "satchel_charge.mdl"}
-	{extender "stuff"
-		{item "grenade satchel"}
-	}
-	{props "grenade" "explosive_stuff"}
-}

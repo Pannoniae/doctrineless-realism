@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/us_t69/xx/xxt69_turret_d"}
-	{bump "$/model/us_t69/t69_turret_n"}
-	{specular "$/model/us_t69/t69_turret_s"}
-	{color "230 230 230 125"}
-	{blend none}
-}

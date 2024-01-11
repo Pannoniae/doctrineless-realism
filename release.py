@@ -27,17 +27,17 @@ os.chdir(f"../{new_directory}")
 os.chdir("resource")
 # paks
 if os.path.exists("./entity"):
-    subprocess.call(shlex.split(f"D:/path/7z/7z.exe a entity.pak ./entity -mx=7 -mmt=16 -sdel -tzip"))
+    subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a entity.pak ./entity -mx=7 -mmt=16 -sdel -tzip"))
 if os.path.exists("./map"):
-    subprocess.call(shlex.split(f"D:/path/7z/7z.exe a map.pak ./map -mx=7 -mmt=16 -sdel -tzip"))
+    subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a map.pak ./map -mx=7 -mmt=16 -sdel -tzip"))
 if os.path.exists("./sound"):
-    subprocess.call(shlex.split(f"D:/path/7z/7z.exe a sound.pak ./sound -mx=7 -mmt=16 -sdel -tzip"))
+    subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a sound.pak ./sound -mx=7 -mmt=16 -sdel -tzip"))
 if os.path.exists("./texture"):
-    subprocess.call(shlex.split(f"D:/path/7z/7z.exe a texture.pak ./texture -mx=7 -mmt=16 -sdel -tzip"))
+    subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a texture.pak ./texture -mx=7 -mmt=16 -sdel -tzip"))
 #lets just assume this exists
-subprocess.call(shlex.split(f"D:/path/7z/7z.exe a game.pak ./interface -i!./properties -i!./script -i!./set -mx=7 -mmt=16 -sdel -tzip"))
-#subprocess.call(shlex.split(f"D:/path/7z/7z.exe a game.pak ./interface -i!./script -i!./set -mx=7 -mmt=16 -sdel -tzip"))
+subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a game.pak ./interface -i!./properties -i!./script -i!./set -mx=7 -mmt=16 -sdel -tzip"))
+#subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a game.pak ./interface -i!./script -i!./set -mx=7 -mmt=16 -sdel -tzip"))
 
 #pak localisation
 os.chdir("../localizations")
-subprocess.call(shlex.split(f"D:/path/7z/7z.exe a loc.pak ./default -mx=7 -mmt=16 -sdel -tzip"))
+subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a loc.pak ./default -mx=7 -mmt=16 -sdel -tzip"))

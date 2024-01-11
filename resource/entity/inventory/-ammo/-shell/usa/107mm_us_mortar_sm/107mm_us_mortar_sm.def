@@ -1,8 +1,0 @@
-{game_entity
-	(include "/properties/stuff.ext")
-	{extension "107mm_us_mortar_sm.mdl"}
-	(include "/properties/shadow/round.inc")
-	{extender "stuff"
-		{item "ammo mortarus_107 sm"}
-	}
-}

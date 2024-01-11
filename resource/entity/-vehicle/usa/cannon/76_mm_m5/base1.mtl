@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/76_mm_m5/gun_m5"}
-	{specular "$/model/76_mm_m5/gun_m5_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

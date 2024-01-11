@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/US_halftrack_T48/halftrack_m3_t48_75gmc_turret_d"}
-	{bump "$/model/US_halftrack_T48/halftrack_m3_t48_75gmc_turret_n"}
-	{specular "$/model/US_halftrack_T48/halftrack_m3_t48_75gmc_turret_s"}
-	{color "230 230 230 125"}
-	{blend none}
-}

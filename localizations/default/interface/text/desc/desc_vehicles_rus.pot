@@ -117,6 +117,14 @@ msgctxt "info/special/76mm_m1927"
 msgid "<c(c3baae)>Light Infantry Gun</c>"
 msgstr ""
 
+msgctxt "desc/entity/76mm_m1927_late"
+msgid "76mm M1927"
+msgstr ""
+
+msgctxt "info/special/76mm_m1927_late"
+msgid "<c(c3baae)>Light Infantry Gun</c>"
+msgstr ""
+
 msgctxt "desc/entity/76mm_m1933"
 msgid "76mm M1933"
 msgstr ""
@@ -139,6 +147,14 @@ msgstr ""
 
 msgctxt "info/special/82mm_bm37"
 msgid "<c(c3baae)>Medium Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/82mm_bm37_mortar_barrage"
+msgid "Medium Mortar Barrage"
+msgstr ""
+
+msgctxt "desc/squad/82mm_bm37_mortar_barrage"
+msgid "82mm BM-37 M1937"
 msgstr ""
 
 msgctxt "desc/entity/85mm_52k"
@@ -173,6 +189,14 @@ msgctxt "info/special/120mm_pm38"
 msgid "<c(c3baae)>Heavy Mortar</c>"
 msgstr ""
 
+msgctxt "desc/entity/120mm_pm38_mortar_barrage"
+msgid "Heavy Mortar Barrage"
+msgstr ""
+
+msgctxt "desc/squad/120mm_pm38_mortar_barrage"
+msgid "120mm PM-38 M1938"
+msgstr ""
+
 msgctxt "desc/entity/122mm_a19"
 msgid "122mm A-19 M1931/37"
 msgstr ""
@@ -197,6 +221,22 @@ msgctxt "info/special/122mm_m1910"
 msgid "<c(c3baae)>Medium Field Howitzer</c>"
 msgstr ""
 
+msgctxt "desc/entity/122mm_m1910_artillery_barrage"
+msgid "Medium Artillery Barrage"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910_artillery_barrage"
+msgid "122mm M1910/30"
+msgstr ""
+
+msgctxt "desc/entity/122mm_m1910_smoke_barrage"
+msgid "Medium Smoke Barrage"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910_smoke_barrage"
+msgid "122mm M1910/30"
+msgstr ""
+
 msgctxt "desc/entity/152mm_br2"
 msgid "152mm Br-2 M1935"
 msgstr ""
@@ -219,6 +259,14 @@ msgstr ""
 
 msgctxt "info/special/152mm_ml20"
 msgid "<c(c3baae)>Heavy Artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/152mm_ml20_artillery_barrage"
+msgid "Heavy Artillery Barrage"
+msgstr ""
+
+msgctxt "desc/squad/152mm_ml20_artillery_barrage"
+msgid "152mm ML-20 M1937"
 msgstr ""
 
 msgctxt "desc/entity/180mm_tm1"
@@ -447,6 +495,10 @@ msgstr ""
 
 msgctxt "desc/entity/gaz_aaa"
 msgid "GAZ-AAA (Transport)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_rus"
+msgid "GAZ-AAA"
 msgstr ""
 
 msgctxt "info/special/gaz_aaa"
@@ -678,7 +730,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/m3_stuart_late_rus"
-msgid "M3 (Late)"
+msgid "M3 Stuart (Late)"
 msgstr ""
 
 msgctxt "info/special/m3_stuart_late_rus"
@@ -1195,4 +1247,84 @@ msgstr ""
 
 msgctxt "info/special/zis_30"
 msgid "<c(c3baae)>Light Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/300mm_m30"
+msgid "300mm M-30"
+msgstr ""
+
+msgctxt "info/special/300mm_m30"
+msgid "<c(c3baae)>Rocket Artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/300mm_m31"
+msgid "300mm M-31"
+msgstr ""
+
+msgctxt "info/special/300mm_m31"
+msgid "<c(c3baae)>Rocket Artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/76mm_m1938"
+msgid "76mm M1938"
+msgstr ""
+
+msgctxt "info/special/76mm_m1938"
+msgid "<c(c3baae)>Heavy AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/yag10_29k"
+msgid "YaG-10 29-K"
+msgstr ""
+
+msgctxt "info/special/yag10_29k"
+msgid "<c(c3baae)>Heavy AA Truck</c>"
+msgstr ""
+
+msgctxt "desc/entity/zis6_bm8_48"
+msgid "BM-8-48 (ZiS-6)"
+msgstr ""
+
+msgctxt "info/special/zis6_bm8_48"
+msgid "<c(c3baae)>Rocket Artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/zis6_bm13_16"
+msgid "BM-13-16 (ZiS-6)"
+msgstr ""
+
+msgctxt "info/special/zis6_bm13_16"
+msgid "<c(c3baae)>Rocket Artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/t60_bm8_24"
+msgid "BM-8-24 (T-60)"
+msgstr ""
+
+msgctxt "info/special/t60_bm8_24"
+msgid "<c(c3baae)>Rocket Artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/m3a1_stuart_rus"
+msgid "M3A1 Stuart"
+msgstr ""
+
+msgctxt "info/special/m3a1_stuart_rus"
+msgid "<c(c3baae)>Light Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/m3_lee_rus"
+msgid "M3 Lee"
+msgstr ""
+
+msgctxt "info/special/m3_lee_rus"
+msgid "<c(c3baae)>Medium Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/m4a2_75_early_rus"
+msgid "M4A2 (Early)"
+msgstr ""
+
+msgctxt "info/special/m4a2_75_early_rus"
+msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""

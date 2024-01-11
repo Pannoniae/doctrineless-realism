@@ -12,6 +12,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+msgctxt "desc/entity/50mm_kwk39_platform"
+msgid "5cm KwK 39 L/60"
+msgstr ""
+
+msgctxt "info/special/50mm_kwk39_platform"
+msgid "<c(c3baae)>Medium AT Gun</c>"
+msgstr ""
+
 msgctxt "desc/entity/20mm_flak30"
 msgid "2cm FlaK 30"
 msgstr ""
@@ -164,6 +172,14 @@ msgctxt "info/special/80mm_sgrw34"
 msgid "<c(c3baae)>Medium Mortar</c>"
 msgstr ""
 
+msgctxt "desc/entity/80mm_sgrw34_mortar_barrage"
+msgid "Medium Mortar Barrage"
+msgstr ""
+
+msgctxt "desc/squad/80mm_sgrw34_mortar_barrage"
+msgid "8cm sGrW 34"
+msgstr ""
+
 msgctxt "desc/entity/80mm_sgrw34_rapid"
 msgid "8cm sGrW 34"
 msgstr ""
@@ -220,6 +236,22 @@ msgctxt "info/special/105mm_lefh18"
 msgid "<c(c3baae)>Light Field Howitzer</c>"
 msgstr ""
 
+msgctxt "desc/entity/105mm_lefh18_smoke_barrage"
+msgid "Medium Smoke Barrage"
+msgstr ""
+
+msgctxt "desc/squad/105mm_lefh18_smoke_barrage"
+msgid "10.5cm LeFH 18"
+msgstr ""
+
+msgctxt "desc/entity/105mm_lefh18_artillery_barrage"
+msgid "Medium Artillery Barrage"
+msgstr ""
+
+msgctxt "desc/squad/105mm_lefh18_artillery_barrage"
+msgid "10.5cm LeFH 18"
+msgstr ""
+
 msgctxt "desc/entity/105mm_lefh18m"
 msgid "10.5cm LeFH 18/M"
 msgstr ""
@@ -244,6 +276,14 @@ msgctxt "info/special/120mm_sgrw42"
 msgid "<c(c3baae)>Heavy Mortar</c>"
 msgstr ""
 
+msgctxt "desc/entity/120mm_sgrw42_mortar_barrage"
+msgid "Heavy Mortar Barrage"
+msgstr ""
+
+msgctxt "desc/squad/120mm_sgrw42_mortar_barrage"
+msgid "12cm sGrW 42"
+msgstr ""
+
 msgctxt "desc/entity/150mm_nebelwerfer41"
 msgid "15cm Nebelwerfer 41"
 msgstr ""
@@ -260,11 +300,27 @@ msgctxt "info/special/150mm_sfh18"
 msgid "<c(c3baae)>Heavy Field Howitzer</c>"
 msgstr ""
 
+msgctxt "desc/entity/150mm_sfh18_artillery_barrage"
+msgid "Heavy Artillery Barrage"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sfh18_artillery_barrage"
+msgid "15cm sFH 18"
+msgstr ""
+
 msgctxt "desc/entity/150mm_sig33"
 msgid "15cm sIG 33"
 msgstr ""
 
 msgctxt "info/special/150mm_sig33"
+msgid "<c(c3baae)>Heavy Infantry Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/150mm_sig33_late"
+msgid "15cm sIG 33"
+msgstr ""
+
+msgctxt "info/special/150mm_sig33_late"
 msgid "<c(c3baae)>Heavy Infantry Gun</c>"
 msgstr ""
 
@@ -557,7 +613,7 @@ msgid "<c(c3baae)>Transport</c>"
 msgstr ""
 
 msgctxt "desc/entity/kubelwagen_dak"
-msgid "VW82 Kübelwagen"
+msgid "VW82 Kübelwagen (MG34)"
 msgstr ""
 
 msgctxt "info/special/kubelwagen_dak"
@@ -565,7 +621,7 @@ msgid "<c(c3baae)>Armed Transport</c>"
 msgstr ""
 
 msgctxt "desc/entity/kubelwagen_mg"
-msgid "VW82 Kübelwagen"
+msgid "VW82 Kübelwagen (MG34)"
 msgstr ""
 
 msgctxt "info/special/kubelwagen_mg"
@@ -812,6 +868,14 @@ msgctxt "info/special/panzer5a"
 msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
+msgctxt "desc/entity/panzer5a_armor"
+msgid "Panther Ausf. A"
+msgstr ""
+
+msgctxt "info/special/panzer5a_armor"
+msgid "<c(c3baae)>Medium Tank</c>"
+msgstr ""
+
 msgctxt "desc/entity/panzer5d"
 msgid "Panther Ausf. D"
 msgstr ""
@@ -989,7 +1053,7 @@ msgid "<c(c3baae)>AA Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz8_flak18"
-msgid "8.8 cm Flak 18 (Sfl.) auf SdKfz 8"
+msgid "8.8 cm FlaK 18 (Sfl.) auf SdKfz 8"
 msgstr ""
 
 msgctxt "info/special/sdkfz8_flak18"
@@ -1172,11 +1236,11 @@ msgctxt "info/special/sdkfz251c_tarp"
 msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
-msgctxt "desc/entity/sdkfz251d"
+msgctxt "desc/entity/sdkfz251d_1"
 msgid "Sd.Kfz 251/1 Ausf. D"
 msgstr ""
 
-msgctxt "info/special/sdkfz251d"
+msgctxt "info/special/sdkfz251d_1"
 msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
@@ -1261,7 +1325,7 @@ msgid "<c(c3baae)>Self-Propelled Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/tiger1e"
-msgid "Tiger Ausf. E"
+msgid "Pz. VI Tiger Ausf. E"
 msgstr ""
 
 msgctxt "info/special/tiger1e"
@@ -1269,7 +1333,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/tiger1h"
-msgid "Tiger Ausf. H1"
+msgid "Pz. VI Tiger Ausf. H1"
 msgstr ""
 
 msgctxt "info/special/tiger1h"
@@ -1277,7 +1341,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/tiger1hunt"
-msgid "Tiger Ausf.E 'Ace'"
+msgid "Pz. VI Tiger Ausf.E 'Ace'"
 msgstr ""
 
 msgctxt "info/special/tiger1hunt"
@@ -1306,4 +1370,164 @@ msgstr ""
 
 msgctxt "info/special/wirbelwind"
 msgid "<c(c3baae)>Medium AA</c>"
+msgstr ""
+
+msgctxt "desc/entity/155mm_gpf_ger"
+msgid "15.5cm GPF K 418(f)"
+msgstr ""
+
+msgctxt "info/special/155mm_gpf_ger"
+msgid "<c(c3baae)>Heavy Field Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/155mm_gpf_platform"
+msgid "15.5cm GPF K 418(f)"
+msgstr ""
+
+msgctxt "info/special/155mm_gpf_platform"
+msgid "<c(c3baae)>Heavy Field Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/h39_turret"
+msgid "H39 Turret"
+msgstr ""
+
+msgctxt "info/special/h39_turret"
+msgid "<c(c3baae)>Turret Emplacement</c>"
+msgstr ""
+
+msgctxt "desc/entity/mgun_ring"
+msgid "MG42 Mount"
+msgstr ""
+
+msgctxt "info/special/mgun_ring"
+msgid "<c(c3baae)>Ringstadt</c>"
+msgstr ""
+
+msgctxt "desc/entity/schwimmwagen"
+msgid "VW166 Schwimmwagen"
+msgstr ""
+
+msgctxt "info/special/schwimmwagen"
+msgid "<c(c3baae)>Amphibious Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/hummel"
+msgid "Hummel"
+msgstr ""
+
+msgctxt "info/special/hummel"
+msgid "<c(c3baae)>Self-Propelled Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/jagdpanzer4_l48"
+msgid "Jagdpanzer IV"
+msgstr ""
+
+msgctxt "info/special/jagdpanzer4_l48"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/jagdpanzer4_l48_early"
+msgid "Jagdpanzer IV (Early)"
+msgstr ""
+
+msgctxt "info/special/jagdpanzer4_l48_early"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/panzer4_70_v"
+msgid "Panzer IV/70 (V)"
+msgstr ""
+
+msgctxt "info/special/panzer4_70_v"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/nashorn"
+msgid "Nashorn"
+msgstr ""
+
+msgctxt "info/special/nashorn"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/infantry_cart_if8"
+msgid "Infantry Cart If.8 (Supply)"
+msgstr ""
+
+msgctxt "info/special/infantry_cart_if8"
+msgid "<c(c3baae)>Ammo Trailer</c>"
+msgstr ""
+
+msgctxt "desc/entity/wespe"
+msgid "Wespe"
+msgstr ""
+
+msgctxt "info/special/wespe"
+msgid "<c(c3baae)>Self-Propelled Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/panzerwerfer42"
+msgid "Panzerwerfer 42"
+msgstr ""
+
+msgctxt "info/special/panzerwerfer42"
+msgid "<c(c3baae)>Rocket Artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251d_1"
+msgid "Sd.Kfz 251/1 Ausf. D"
+msgstr ""
+
+msgctxt "info/special/sdkfz251d_1"
+msgid "<c(c3baae)>Medium Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251d_1_stuka"
+msgid "Sd.Kfz 251/1 Ausf. D (Wurfrahmen 40)"
+msgstr ""
+
+msgctxt "info/special/sdkfz251d_1_stuka"
+msgid "<c(c3baae)>Rocket Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251d_16"
+msgid "Sd.Kfz 251/16 Ausf. D (14mm Flamm)"
+msgstr ""
+
+msgctxt "info/special/sdkfz251d_16"
+msgid "<c(c3baae)>Flame Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251d_17"
+msgid "Sd.Kfz 251/17 Ausf. D (2cm)"
+msgstr ""
+
+msgctxt "info/special/sdkfz251d_17"
+msgid "<c(c3baae)>Medium Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251d_21"
+msgid "Sd.Kfz 251/21 Ausf. D (15mm Drilling)"
+msgstr ""
+
+msgctxt "info/special/sdkfz251d_21"
+msgid "<c(c3baae)>Medium Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251d_22"
+msgid "Sd.Kfz 251/22 Ausf. D (7.5cm Pak 40)"
+msgstr ""
+
+msgctxt "info/special/sdkfz251d_22"
+msgid "<c(c3baae)>Medium Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz6_ammo"
+msgid "Sd.Kfz 6 (Supply)"
+msgstr ""
+
+msgctxt "info/special/sdkfz6_ammo"
+msgid "<c(c3baae)>Ammo Halftrack</c>"
 msgstr ""

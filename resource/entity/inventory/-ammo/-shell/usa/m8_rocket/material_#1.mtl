@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "m8_rocket_d"}
-	{bump "m8_rocket_n"}
-	{specular "m8_rocket_s"}
-	{color "230 230 230 125"}
-	{blend none}
-}

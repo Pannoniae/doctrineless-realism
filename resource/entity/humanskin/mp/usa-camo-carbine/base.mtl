@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/humanskin/usa/camo/camo"}
-	{bump "$/humanskin/usa/camo/camo bp"}
-	{blend none}
-}

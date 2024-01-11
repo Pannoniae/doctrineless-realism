@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "../../../tank_medium/x/m4a3_105_xx/sherman m4a3 105_xx"}
-	{bump "$/model/sherman m4a3 105_bp"}
-	{specular "$/model/sherman m4a3 105_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

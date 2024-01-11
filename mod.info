@@ -1,7 +1,7 @@
 {mod
-	{name "Doctrineless Realism 0.1.13 dev"}
+	{name "Doctrineless Realism 0.1.17 dev"}
 	{tags "realism, mod, doctrines, gameplay"}
 	{desc "A realism mod to remove doctrines from the game."}
-	{minGameVersion "1.028"}
-	{maxGameVersion "1.029"}
+	{minGameVersion "1.035"}
+	{maxGameVersion "1.037"}
 }

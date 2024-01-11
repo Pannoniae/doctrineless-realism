@@ -1,6 +1,0 @@
-{from "browning"
-	{filling "hmgun_usa" 400}
-	{rechargeTime 20}	
-	{burst {min 4}}
-	("fire rate" rpm(1375))
-}
