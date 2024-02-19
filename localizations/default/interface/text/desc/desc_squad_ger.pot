@@ -193,7 +193,7 @@ msgid "Jäger squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_landwehr_early(ger)"
-msgid "Landesschützen rifle squad"
+msgid "Landesschützen"
 msgstr ""
 
 msgctxt "desc/squad/squad_light(ger)"
@@ -1048,7 +1048,7 @@ msgid "Fallschirmjäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_landes_late_sup(ger)"
-msgid "Landesschütze Rifle Squad"
+msgid "Landesschützen"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon_late_sup(ger)"

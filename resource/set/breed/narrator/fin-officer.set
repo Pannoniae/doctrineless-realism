@@ -1,9 +1,0 @@
-{breed
-	{behaviour soldier}
-	{hero}
-	{skin "ger_wh_hauptman"}
-	{portrait "narrator_fin_officer"}
-	{icon "officer"}
-	{icon_priority 4}
-	{nationality fin}
-}

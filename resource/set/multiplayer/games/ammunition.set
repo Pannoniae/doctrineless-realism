@@ -1,6 +1,6 @@
 {game
 	{order 10}
-	{parameters	"flag_count=10:1:1,15:1:5,20:1:7;base_capture_time=180;base_release_time=10;base_capture_factor=1.0;flag_capture_time=150;flag_release_time=10;flag_capture_factor=1.0;maximum_ammo_payback=150;enable_time=300;flag_team_table=1/0.05"}
+	{parameters	"flag_count=10:1:1,20:1:5,20:1:7;base_capture_time=180;base_release_time=10;base_capture_factor=1.0;flag_capture_time=150;flag_release_time=10;flag_capture_factor=1.0;maximum_ammo_payback=150;enable_time=300;flag_team_table=1/0.075"}
 	; flag_count=5:0:2 means 5 total secondary objective points, 0 points to start off with, for games with up to 2 players
 	; base_capture_time=180 means it takes 180 seconds to capture a base from being neutral
 	; base_release_time=10 means it takes 10 seconds to neutralize a base
@@ -19,7 +19,7 @@
 		{fogOfWar			fog_realistic}
 		{difficulty			multiplayer}
 		{scoreMin			1}
-		{scoreMax			50000}
+		{scoreMax			10000}
 		{scoreFinal			300}
 		{preparationTimeMin	0}
 		{preparationTimeMax	60}

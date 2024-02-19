@@ -316,6 +316,10 @@ msgctxt "desc/ammo/bulletger_88_l71 apcr"
 msgid "8.8cm PzGr.40/43 [<c(48c445)>APCR</c>] <c(65696d)>L/71</c>"
 msgstr ""
 
+msgctxt "desc/ammo/bulletger_88_l71 heat"
+msgid "8.8cm Gr.39/3 HL [<c(c9a6ff)>HEAT</c>] <c(65696d)>L/56</c>"
+msgstr ""
+
 msgctxt "desc/ammo/bulletger_105 aphe"
 msgid "10.5cm PzGr. rot [<c(ff6a00)>APHE</c>] <c(65696d)>L/28</c>"
 msgstr ""

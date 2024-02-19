@@ -1003,7 +1003,7 @@ msgid "<c(cc1900)>Engine on fire"
 msgstr ""
 
 msgctxt "component/track_broken"
-msgid "<c(ff8c00)>Track troken"
+msgid "<c(ff8c00)>Track broken"
 msgstr ""
 
 msgctxt "component/ammo_fire"

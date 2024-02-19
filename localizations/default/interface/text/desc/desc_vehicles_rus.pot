@@ -497,10 +497,6 @@ msgctxt "desc/entity/gaz_aaa"
 msgid "GAZ-AAA (Transport)"
 msgstr ""
 
-msgctxt "desc/squad/gaz_aaa_rus"
-msgid "GAZ-AAA"
-msgstr ""
-
 msgctxt "info/special/gaz_aaa"
 msgid "<c(c3baae)>Transport</c>"
 msgstr ""

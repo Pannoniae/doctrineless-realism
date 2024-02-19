@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Poedit 2.4.2\n"
 
 msgctxt "desc/squad/doctrine_2panzer3j"
-msgid "<c(B29557)>( I )</c> 2x Panzer III Ausf. J"
+msgid "<c(B29557)>( I )</c> 2x Panzer III Ausf.J"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_20mm_flak38_early"
@@ -258,7 +258,7 @@ msgid "<c(B29557)>( II )</c> Key Logistics"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_grille"
-msgid "<c(B29557)>( II )</c> Grille Ausf. K"
+msgid "<c(B29557)>( II )</c> Grille Ausf.K"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_grillemk103"
@@ -318,7 +318,7 @@ msgid "<c(B29557)>( I )</c> Pz.SpW. P204(f)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer1f"
-msgid "<c(B29557)>( I )</c> Panzer I Ausf. F"
+msgid "<c(B29557)>( I )</c> Panzer I Ausf.F"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer2f"
@@ -326,7 +326,7 @@ msgid "<c(B29557)>( I )</c> Panzer II Ausf.F"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer2l"
-msgid "<c(B29557)>( I )</c> Panzer II Ausf. L"
+msgid "<c(B29557)>( I )</c> Panzer II Ausf.L"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer3flamm"
@@ -338,23 +338,23 @@ msgid "<c(B29557)>( I )</c> Panzer III Flamm."
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer3h"
-msgid "<c(B29557)>( II )</c> Panzer III Ausf. H"
+msgid "<c(B29557)>( II )</c> Panzer III Ausf.H"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer3l"
-msgid "<c(B29557)>( II )</c> Panzer III Ausf. L"
+msgid "<c(B29557)>( II )</c> Panzer III Ausf.L"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer4f1_early"
-msgid "<c(B29557)>( III )</c> Panzer IV Ausf. F1"
+msgid "<c(B29557)>( III )</c> Panzer IV Ausf.F1"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer4g"
-msgid "<c(B29557)>( III )</c> Panzer IV Ausf. G"
+msgid "<c(B29557)>( III )</c> Panzer IV Ausf.G"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer4j"
-msgid "<c(B29557)>( II )</c> Panzer IV Ausf. J"
+msgid "<c(B29557)>( II )</c> Panzer IV Ausf.J"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer5g"
@@ -386,11 +386,11 @@ msgid "<c(B29557)>( I )</c> Panzer 735(f)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_pz38t_f"
-msgid "<c(B29557)>( I )</c> Panzer 38(t) Ausf. F"
+msgid "<c(B29557)>( I )</c> Panzer 38(t) Ausf.F"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_pz38t_g"
-msgid "<c(B29557)>( I )</c> Panzer 38(t) Ausf. G"
+msgid "<c(B29557)>( I )</c> Panzer 38(t) Ausf.G"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_pz756r"
@@ -658,11 +658,11 @@ msgid "<c(B29557)>( I )</c> Volksgrenadier sturm squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_stug3b"
-msgid "<c(B29557)>( II )</c> StuG III Ausf. B"
+msgid "<c(B29557)>( II )</c> StuG III Ausf.B"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_stug3f"
-msgid "<c(B29557)>( II )</c> StuG III Ausf. F"
+msgid "<c(B29557)>( II )</c> StuG III Ausf.F"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_stug3g_late"
@@ -686,7 +686,7 @@ msgid "<c(B29557)>( III )</c> Sturmmörser"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_tiger1h"
-msgid "<c(B29557)>( III )</c> Tiger Ausf. H"
+msgid "<c(B29557)>( III )</c> Tiger Ausf.H"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_tiger1hunt"
@@ -762,19 +762,19 @@ msgid "<c(B29557)>( II )</c> 15cm sIG 33"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_sdkfz251d_16"
-msgid "<c(B29557)>( I )</c> Sd.Kfz 251/16 Ausf. D (14mm Flamm)"
+msgid "<c(B29557)>( I )</c> Sd.Kfz 251/16 Ausf.D (14mm Flamm)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_sdkfz251d_17"
-msgid "<c(B29557)>( I )</c> Sd.Kfz 251/17 Ausf. D (2cm)"
+msgid "<c(B29557)>( I )</c> Sd.Kfz 251/17 Ausf.D (2cm)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_sdkfz251d_21"
-msgid "<c(B29557)>( I )</c> Sd.Kfz 251/21 Ausf. D (15mm Drilling)"
+msgid "<c(B29557)>( I )</c> Sd.Kfz 251/21 Ausf.D (15mm Drilling)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_sdkfz251d_22"
-msgid "<c(B29557)>( II )</c> Sd.Kfz 251/22 Ausf. D (7.5cm Pak 40)"
+msgid "<c(B29557)>( II )</c> Sd.Kfz 251/22 Ausf.D (7.5cm Pak 40)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_wespe_late"

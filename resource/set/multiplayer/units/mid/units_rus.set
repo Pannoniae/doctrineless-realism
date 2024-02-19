@@ -682,7 +682,7 @@
 
 
 {"inf_crate_rus_mid"
-	("vehicle"  period(mid) year(mid) cd(0) ci(30) t(supply cannon) side(rus) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
+	("squad_vehicle"  period(mid) year(mid) cd(0) ci(30) t(supply cannon) side(rus) vehicle(inf_crate_rus) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
 	cost(50))
 	{doctrine "mid_rus_allround"}
 }

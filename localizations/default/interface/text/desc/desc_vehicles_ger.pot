@@ -341,7 +341,7 @@ msgid "<c(c3baae)>Search Light</c>"
 msgstr ""
 
 msgctxt "desc/entity/170mm_k18"
-msgid "17cm K18 Mörserlafette"
+msgid "17cm Kanone 18 in Mörserlafette"
 msgstr ""
 
 msgctxt "info/special/170mm_k18"
@@ -453,7 +453,7 @@ msgid "<c(c3baae)>Engineering Truck</c>"
 msgstr ""
 
 msgctxt "desc/entity/blitz3_6_flak30"
-msgid "Opel Blitz (2cm)"
+msgid "Opel Blitz mit FlaK 38"
 msgstr ""
 
 msgctxt "info/special/blitz3_6_flak30"
@@ -509,7 +509,7 @@ msgid "<c(c3baae)>Self-Propelled Infantry Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/grille_m"
-msgid "3 cm MK 103 auf (Sf) Geschützwagen 38(t) Ausf. M"
+msgid "3 cm MK 103 auf (Sf) Geschützwagen 38(t) Ausf.M"
 msgstr ""
 
 msgctxt "info/special/grille_m"
@@ -565,7 +565,7 @@ msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/kettenkrad"
-msgid "Sd.Kfz 2"
+msgid "Sd.Kfz 2 'Kettenkrad'"
 msgstr ""
 
 msgctxt "info/special/kettenkrad"
@@ -709,7 +709,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer1f"
-msgid "Pz. I Ausf. F"
+msgid "Pz.I Ausf.F"
 msgstr ""
 
 msgctxt "info/special/panzer1f"
@@ -717,7 +717,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer2c"
-msgid "Pz. II Ausf. C"
+msgid "Pz.II Ausf.C"
 msgstr ""
 
 msgctxt "info/special/panzer2c"
@@ -725,7 +725,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer2f"
-msgid "Pz. II Ausf. F"
+msgid "Pz.II Ausf.F"
 msgstr ""
 
 msgctxt "info/special/panzer2f"
@@ -733,7 +733,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer2l"
-msgid "Pz. II Ausf. L"
+msgid "Pz.II Ausf.L"
 msgstr ""
 
 msgctxt "info/special/panzer2l"
@@ -741,7 +741,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer3_flamm"
-msgid "Pz. III Flamm"
+msgid "Pz.III Flamm"
 msgstr ""
 
 msgctxt "info/special/panzer3_flamm"
@@ -749,7 +749,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer3e"
-msgid "Pz. III Ausf. E"
+msgid "Pz.III Ausf.E"
 msgstr ""
 
 msgctxt "info/special/panzer3e"
@@ -757,7 +757,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer3f"
-msgid "Pz. III Ausf. F"
+msgid "Pz.III Ausf.F"
 msgstr ""
 
 msgctxt "info/special/panzer3f"
@@ -765,7 +765,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer3h"
-msgid "Pz. III Ausf. H"
+msgid "Pz.III Ausf.H"
 msgstr ""
 
 msgctxt "info/special/panzer3h"
@@ -773,7 +773,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer3j1"
-msgid "Pz. III Ausf. J (L/60)"
+msgid "Pz.III Ausf.J (L/60)"
 msgstr ""
 
 msgctxt "info/special/panzer3j1"
@@ -781,7 +781,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer3j"
-msgid "Pz.Kpfw III Ausf. J"
+msgid "Pz.Kpfw III Ausf.J"
 msgstr ""
 
 msgctxt "info/special/panzer3j"
@@ -789,7 +789,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer3l"
-msgid "Pz. III Ausf. L"
+msgid "Pz.III Ausf.L"
 msgstr ""
 
 msgctxt "info/special/panzer3l"
@@ -797,7 +797,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer3m"
-msgid "Pz. III Ausf. M"
+msgid "Pz.III Ausf.M"
 msgstr ""
 
 msgctxt "info/special/panzer3m"
@@ -805,7 +805,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer3n"
-msgid "Pz. III Ausf. N"
+msgid "Pz.III Ausf.N"
 msgstr ""
 
 msgctxt "info/special/panzer3n"
@@ -813,7 +813,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer4d"
-msgid "Pz. IV Ausf. D"
+msgid "Pz.IV Ausf.D"
 msgstr ""
 
 msgctxt "info/special/panzer4d"
@@ -821,7 +821,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer4f1"
-msgid "Pz. IV Ausf. F1"
+msgid "Pz.IV Ausf.F1"
 msgstr ""
 
 msgctxt "info/special/panzer4f1"
@@ -829,7 +829,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer4f2"
-msgid "Pz. IV Ausf. F2"
+msgid "Pz.IV Ausf.F2"
 msgstr ""
 
 msgctxt "info/special/panzer4f2"
@@ -837,7 +837,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer4g"
-msgid "Pz. IV Ausf. G"
+msgid "Pz.IV Ausf.G"
 msgstr ""
 
 msgctxt "info/special/panzer4g"
@@ -845,7 +845,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer4h"
-msgid "Pz. IV Ausf. H"
+msgid "Pz.IV Ausf.H"
 msgstr ""
 
 msgctxt "info/special/panzer4h"
@@ -853,7 +853,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer4j"
-msgid "Pz. IV Ausf. J"
+msgid "Pz.IV Ausf.J"
 msgstr ""
 
 msgctxt "info/special/panzer4j"
@@ -861,7 +861,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer5a"
-msgid "Panther Ausf. A"
+msgid "Panther Ausf.A"
 msgstr ""
 
 msgctxt "info/special/panzer5a"
@@ -869,7 +869,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer5a_armor"
-msgid "Panther Ausf. A"
+msgid "Panther Ausf.A"
 msgstr ""
 
 msgctxt "info/special/panzer5a_armor"
@@ -877,7 +877,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer5d"
-msgid "Panther Ausf. D"
+msgid "Panther Ausf.D"
 msgstr ""
 
 msgctxt "info/special/panzer5d"
@@ -885,7 +885,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer5g"
-msgid "Panther Ausf. G"
+msgid "Panther Ausf.G"
 msgstr ""
 
 msgctxt "info/special/panzer5g"
@@ -893,7 +893,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer35s"
-msgid "Pz. 35S 739(f)"
+msgid "Pz.35S 739(f)"
 msgstr ""
 
 msgctxt "info/special/panzer35s"
@@ -901,7 +901,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer731r"
-msgid "Pz. 731(r) 'T-37'"
+msgid "Pz.731(r) 'T-37'"
 msgstr ""
 
 msgctxt "info/special/panzer731r"
@@ -909,7 +909,7 @@ msgid "<c(c3baae)>Beutepanzer</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer742r"
-msgid "Pz. 742(r) 'BT'"
+msgid "Pz.742(r) 'BT'"
 msgstr ""
 
 msgctxt "info/special/panzer742r"
@@ -917,7 +917,7 @@ msgid "<c(c3baae)>Beutepanzer</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzerb2"
-msgid "Pz. B2 740(f)"
+msgid "Pz.B2 740(f)"
 msgstr ""
 
 msgctxt "info/special/panzerb2"
@@ -949,7 +949,7 @@ msgid "MG34 Bunker"
 msgstr ""
 
 msgctxt "desc/entity/pz35t"
-msgid "Pz. 35(t)"
+msgid "Pz.35(t)"
 msgstr ""
 
 msgctxt "info/special/pz35t"
@@ -957,7 +957,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/pz38h_735"
-msgid "Pz. 38H 735(f)"
+msgid "Pz.38H 735(f)"
 msgstr ""
 
 msgctxt "info/special/pz38h_735"
@@ -965,7 +965,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/pz38h_w40"
-msgid "Pz. 38H 735(f) (Wurfrahmen 40)"
+msgid "Pz.38H 735(f) (Wurfrahmen 40)"
 msgstr ""
 
 msgctxt "info/special/pz38h_w40"
@@ -973,7 +973,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/pz38t_a"
-msgid "Pz. 38(t) Ausf. A"
+msgid "Pz.38(t) Ausf.A"
 msgstr ""
 
 msgctxt "info/special/pz38t_a"
@@ -981,7 +981,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/pz38t_f"
-msgid "Pz. 38(t) Ausf. F"
+msgid "Pz.38(t) Ausf.F"
 msgstr ""
 
 msgctxt "info/special/pz38t_f"
@@ -989,7 +989,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/pz38t_g"
-msgid "Pz. 38(t) Ausf. G"
+msgid "Pz.38(t) Ausf.G"
 msgstr ""
 
 msgctxt "info/special/pz38t_g"
@@ -997,7 +997,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/pz756r"
-msgid "Pz. 756(r) mit KwK 40 L/43"
+msgid "Pz.756(r) mit KwK 40 L/43"
 msgstr ""
 
 msgctxt "info/special/pz756r"
@@ -1093,7 +1093,7 @@ msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz222a"
-msgid "Sd.Kfz 222 Ausf. A"
+msgid "Sd.Kfz 222 Ausf.A"
 msgstr ""
 
 msgctxt "info/special/sdkfz222a"
@@ -1205,7 +1205,7 @@ msgid "<c(c3baae)>Light Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251b"
-msgid "Sd.Kfz 251/1 Ausf. B (MG34)"
+msgid "Sd.Kfz 251/1 Ausf.B (MG34)"
 msgstr ""
 
 msgctxt "info/special/sdkfz251b"
@@ -1213,7 +1213,7 @@ msgid "<c(c3baae)>Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251c"
-msgid "Sd.Kfz 251/1 Ausf. C"
+msgid "Sd.Kfz 251/1 Ausf.C"
 msgstr ""
 
 msgctxt "info/special/sdkfz251c"
@@ -1229,7 +1229,7 @@ msgid "<c(c3baae)>Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251c_tarp"
-msgid "Sd.Kfz 251/1 Ausf. C"
+msgid "Sd.Kfz 251/1 Ausf.C"
 msgstr ""
 
 msgctxt "info/special/sdkfz251c_tarp"
@@ -1237,7 +1237,7 @@ msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_1"
-msgid "Sd.Kfz 251/1 Ausf. D"
+msgid "Sd.Kfz 251/1 Ausf.D"
 msgstr ""
 
 msgctxt "info/special/sdkfz251d_1"
@@ -1269,7 +1269,7 @@ msgid "<c(c3baae)>Heavy Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/stug3b"
-msgid "StuG III Ausf. B"
+msgid "StuG III Ausf.B"
 msgstr ""
 
 msgctxt "info/special/stug3b"
@@ -1277,7 +1277,7 @@ msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/stug3f"
-msgid "StuG III Ausf. F"
+msgid "StuG III Ausf.F"
 msgstr ""
 
 msgctxt "info/special/stug3f"
@@ -1285,7 +1285,7 @@ msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/stug3g"
-msgid "StuG III Ausf. G (Early)"
+msgid "StuG III Ausf.G (Early)"
 msgstr ""
 
 msgctxt "info/special/stug3g"
@@ -1293,7 +1293,7 @@ msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/stug3g_late"
-msgid "StuG III Ausf. G (Late)"
+msgid "StuG III Ausf.G (Late)"
 msgstr ""
 
 msgctxt "info/special/stug3g_late"
@@ -1301,7 +1301,7 @@ msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/stuh42"
-msgid "StuH 42 Ausf. G"
+msgid "StuH 42 Ausf.G"
 msgstr ""
 
 msgctxt "info/special/stuh42"
@@ -1325,7 +1325,7 @@ msgid "<c(c3baae)>Self-Propelled Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/tiger1e"
-msgid "Pz. VI Tiger Ausf. E"
+msgid "Pz.VI Tiger Ausf.E"
 msgstr ""
 
 msgctxt "info/special/tiger1e"
@@ -1333,7 +1333,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/tiger1h"
-msgid "Pz. VI Tiger Ausf. H1"
+msgid "Pz.VI Tiger Ausf.H1"
 msgstr ""
 
 msgctxt "info/special/tiger1h"
@@ -1341,7 +1341,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/tiger1hunt"
-msgid "Pz. VI Tiger Ausf.E 'Ace'"
+msgid "Pz.VI Tiger Ausf.E 'Ace'"
 msgstr ""
 
 msgctxt "info/special/tiger1hunt"
@@ -1349,7 +1349,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/tiger2h"
-msgid "Pz. VI Ausf.B Tiger II 'Henschel turret'"
+msgid "Pz.VI Ausf.B Tiger II 'Henschel turret'"
 msgstr ""
 
 msgctxt "info/special/tiger2h"
@@ -1357,7 +1357,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/tiger2p"
-msgid "Pz. VI Ausf.B Tiger II Ausf.B 'Porsche turret'"
+msgid "Pz.VI Ausf.B Tiger II 'Porsche turret'"
 msgstr ""
 
 msgctxt "info/special/tiger2p"
@@ -1365,7 +1365,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/wirbelwind"
-msgid "FlakPz. IV 'Wirbelwind'"
+msgid "FlakPz.IV 'Wirbelwind'"
 msgstr ""
 
 msgctxt "info/special/wirbelwind"
@@ -1421,7 +1421,7 @@ msgid "<c(c3baae)>Self-Propelled Howitzer</c>"
 msgstr ""
 
 msgctxt "desc/entity/jagdpanzer4_l48"
-msgid "Jagdpanzer IV"
+msgid "Jagdpanzer IV L/48"
 msgstr ""
 
 msgctxt "info/special/jagdpanzer4_l48"
@@ -1429,7 +1429,7 @@ msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/jagdpanzer4_l48_early"
-msgid "Jagdpanzer IV (Early)"
+msgid "Jagdpanzer IV L/48"
 msgstr ""
 
 msgctxt "info/special/jagdpanzer4_l48_early"
@@ -1477,7 +1477,7 @@ msgid "<c(c3baae)>Rocket Artillery</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_1"
-msgid "Sd.Kfz 251/1 Ausf. D"
+msgid "Sd.Kfz 251/1 Ausf.D"
 msgstr ""
 
 msgctxt "info/special/sdkfz251d_1"
@@ -1485,7 +1485,7 @@ msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_1_stuka"
-msgid "Sd.Kfz 251/1 Ausf. D (Wurfrahmen 40)"
+msgid "Sd.Kfz 251/1 Ausf.D (Wurfrahmen 40)"
 msgstr ""
 
 msgctxt "info/special/sdkfz251d_1_stuka"
@@ -1493,7 +1493,7 @@ msgid "<c(c3baae)>Rocket Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_16"
-msgid "Sd.Kfz 251/16 Ausf. D (14mm Flamm)"
+msgid "Sd.Kfz 251/16"
 msgstr ""
 
 msgctxt "info/special/sdkfz251d_16"
@@ -1501,7 +1501,7 @@ msgid "<c(c3baae)>Flame Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_17"
-msgid "Sd.Kfz 251/17 Ausf. D (2cm)"
+msgid "Sd.Kfz 251/17"
 msgstr ""
 
 msgctxt "info/special/sdkfz251d_17"
@@ -1509,7 +1509,7 @@ msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_21"
-msgid "Sd.Kfz 251/21 Ausf. D (15mm Drilling)"
+msgid "Sd.Kfz 251/21"
 msgstr ""
 
 msgctxt "info/special/sdkfz251d_21"
@@ -1517,7 +1517,7 @@ msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_22"
-msgid "Sd.Kfz 251/22 Ausf. D (7.5cm Pak 40)"
+msgid "Sd.Kfz 251/22"
 msgstr ""
 
 msgctxt "info/special/sdkfz251d_22"
