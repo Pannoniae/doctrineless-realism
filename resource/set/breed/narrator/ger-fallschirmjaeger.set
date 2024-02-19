@@ -1,0 +1,9 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "ger_fj_nco"}
+	{portrait "narrator_ger_fallschirmjaeger"}
+	{icon "officer"}
+	{icon_priority 4}
+	{nationality ger}
+}
