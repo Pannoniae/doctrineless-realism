@@ -731,6 +731,34 @@
 		}
 	)
 	("magazine" cut(0) show(1.8) override() impulse({impulse up -0.01 com}))
+	{on fire "gun"
+		{if not tagged "full_auto_mode"
+			{call "burst_stop"}
+		}
+	}
+	
+	{on "burst_mode"
+		{if tagged "full_auto_mode"
+			{tags remove "full_auto_mode"}
+			{damage_report "mgun" "Unit changed to burst mode"}
+		else
+			{tags add "full_auto_mode"}
+			{damage_report "mgun" "Unit changed to full auto mode"}
+		}
+	}
+	
+	{on "burst_stop"
+		{if not tagged "burst_stop"
+			{tags add "burst_stop"}
+			{delay 0.5 0.2
+				{weapon_work "gun" 0}
+				{delay 0.7 0.1
+					{weapon_work "gun" 1}
+					{tags remove "burst_stop"}
+				}
+			}
+		}
+	}
 }
 
 {"cannon magazine"
@@ -756,6 +784,34 @@
 		}
 	)
 	("magazine" cut(0) show(1.8) override() impulse({impulse up -0.01 com}))
+	{on fire "gun"
+		{if not tagged "full_auto_mode"
+			{call "burst_stop"}
+		}
+	}
+	
+	{on "burst_mode"
+		{if tagged "full_auto_mode"
+			{tags remove "full_auto_mode"}
+			{damage_report "mgun" "Unit changed to burst mode"}
+		else
+			{tags add "full_auto_mode"}
+			{damage_report "mgun" "Unit changed to full auto mode"}
+		}
+	}
+	
+	{on "burst_stop"
+		{if not tagged "burst_stop"
+			{tags add "burst_stop"}
+			{delay 0.5 0.2
+				{weapon_work "gun" 0}
+				{delay 0.7 0.1
+					{weapon_work "gun" 1}
+					{tags remove "burst_stop"}
+				}
+			}
+		}
+	}
 }
 
 {"cannon_small"					;// allows cannon to be crushed by armored cars, when normally they cannot.
@@ -815,10 +871,16 @@
 	{on fire "mgun"
 		;{view start "flashbarrel"}
 		{ani_play "recoil"}
+		{if not tagged "full_auto_mode"
+			{call "burst_stop"}
+		}
 	}
 	{on fire "mgun1"
 		;{view start "flashbarrel"}
 		{ani_play "recoil"}
+		{if not tagged "full_auto_mode"
+			{call "burst_stop"}
+		}
 	}
 	{on "explosion_blastwave" overload}
 
@@ -851,6 +913,19 @@
 		else
 			{tags add "full_auto_mode"}
 			{damage_report "mgun" "Unit changed to full auto mode"}
+		}
+	}
+	
+	{on "burst_stop"
+		{if not tagged "burst_stop"
+			{tags add "burst_stop"}
+			{delay 0.5 0.2
+				{weapon_work "gun" 0}
+				{delay 0.7 0.1
+					{weapon_work "gun" 1}
+					{tags remove "burst_stop"}
+				}
+			}
 		}
 	}
 }
@@ -967,6 +1042,40 @@
 		{view start "shell"}
 		{delay 0.12 "shell_off"
 			{view pause "shell"}
+		}
+		{if not tagged "full_auto_mode"
+			{call "burst_stop"}
+		}
+	}
+	
+	{on "burst_mode"
+		{if tagged "full_auto_mode"
+			{tags remove "full_auto_mode"}
+			{damage_report "mgun" "Unit changed to burst mode"}
+		else
+			{tags add "full_auto_mode"}
+			{damage_report "mgun" "Unit changed to full auto mode"}
+		}
+	}
+	
+	{on "burst_stop"
+		{if not tagged "burst_stop"
+			{tags add "burst_stop"}
+			{delay 0.5 0.2
+				{weapon_work "gun" 0}
+				{delay 0.7 0.1
+					{weapon_work "gun" 1}
+					{tags remove "burst_stop"}
+				}
+			}
+		}
+	}
+}
+
+{"burst"
+	{on fire "gun"
+		{if not tagged "full_auto_mode"
+			{call "burst_stop"}
 		}
 	}
 	
