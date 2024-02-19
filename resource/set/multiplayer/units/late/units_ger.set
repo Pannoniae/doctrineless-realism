@@ -1029,12 +1029,20 @@
 
 
 ;MEDIUM
+{"wirbelwind_ss"
+	("vehicle2_ss" period(late) year(late) cd(180) ci(60) t(medium) side(ger) vehicle(wirbelwind) crew1(tankman:4) crew2(tank_commander:1) g(medium0) b(mt) cw(6) cp(16)
+	cost(390)) ;// +35 for crew
+}
+{"ostwind_ss"
+	("vehicle2" period(late) year(late) cd(180) ci(60) t(medium) side(ger) vehicle(ostwind) crew1(tankman:4) crew2(tank_commander:1) g(medium0) b(mt) cw(6) cp(20)
+	cost(420)) ;// +35 for crew
+}
 {"wirbelwind"
-	("vehicle2" period(late) year(late) cd(180) ci(60) t(medium) side(ger) crew1(tankman:4) crew2(tank_commander:1) g(medium0) b(mt) cw(6) cp(16)
+	("vehicle2" period(late) year(late) cd(180) ci(60) t(medium doctrineonly) side(ger) crew1(tankman:4) crew2(tank_commander:1) g(medium0) b(mt) cw(6) cp(16)
 	cost(390)) ;// +35 for crew
 }
 {"ostwind"
-	("vehicle2" period(late) year(late) cd(180) ci(60) t(medium) side(ger) crew1(tankman:4) crew2(tank_commander:1) g(medium0) b(mt) cw(6) cp(20)
+	("vehicle2" period(late) year(late) cd(180) ci(60) t(medium doctrineonly) side(ger) crew1(tankman:4) crew2(tank_commander:1) g(medium0) b(mt) cw(6) cp(20)
 	cost(420)) ;// +35 for crew
 }
 {"panzer3m"

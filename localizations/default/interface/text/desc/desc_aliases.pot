@@ -64,6 +64,14 @@ msgctxt "desc/squad/schwimmwagen_ss"
 msgid "Schwimmwagen"
 msgstr ""
 
+msgctxt "desc/squad/ostwind_ss"
+msgid "Ostwind"
+msgstr ""
+
+msgctxt "desc/squad/wirbelwind_ss"
+msgid "Wirbelwind"
+msgstr ""
+
 msgctxt "desc/squad/p47_250_late"
 msgid "P47 250lb Bomb"
 msgstr ""
