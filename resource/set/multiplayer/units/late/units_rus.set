@@ -896,6 +896,10 @@
 	("vehicle2" period(late) year(late) cd(360) ci(60) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy2) b(ht) cw(8) cp(26)
 	cost(605)) ;// +35 for crew
 }
+{"kv2_40"
+	("vehicle2" period(late) year(late) cd(0) ci(0) t(heavy) side(rus) crew1(tankman:5) crew2(tank_commander:1) g(heavy2) b(ht) cw(8) cp(30)
+	cost(950))
+}
 {"kv85"
 	("vehicle2" period(late) year(late) cd(720) ci(60) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy2) b(ht) cw(8) cp(26)
 	cost(840)) ;// +30 for crew

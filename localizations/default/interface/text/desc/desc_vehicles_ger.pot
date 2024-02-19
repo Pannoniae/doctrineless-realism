@@ -525,7 +525,7 @@ msgid "<c(c3baae)>Heavy MG</c>"
 msgstr ""
 
 msgctxt "desc/entity/hetzer"
-msgid "Jagdpanzer 38"
+msgid "Jagdpanzer 38(t)"
 msgstr ""
 
 msgctxt "info/special/hetzer"
@@ -1285,7 +1285,7 @@ msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/stug3g"
-msgid "StuG III Ausf.G (Early)"
+msgid "StuG III Ausf.G1"
 msgstr ""
 
 msgctxt "info/special/stug3g"
@@ -1293,7 +1293,7 @@ msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/stug3g_late"
-msgid "StuG III Ausf.G (Late)"
+msgid "StuG III Ausf.G2"
 msgstr ""
 
 msgctxt "info/special/stug3g_late"

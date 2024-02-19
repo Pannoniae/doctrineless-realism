@@ -72,6 +72,10 @@ msgctxt "desc/squad/wirbelwind_ss"
 msgid "Wirbelwind"
 msgstr ""
 
+msgctxt "desc/squad/sdkfz251d_1_stuka_ss"
+msgid "Stuka Zu Fuss"
+msgstr ""
+
 msgctxt "desc/squad/p47_250_late"
 msgid "P47 250lb Bomb"
 msgstr ""

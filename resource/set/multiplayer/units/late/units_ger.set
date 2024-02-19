@@ -759,7 +759,7 @@
 	cost(20))
 }
 {"sdkfz251d_1"
-	("vehicle"  period(late) year(late) cd(90) ci(30) g(wheel3) side(ger) t(vehicle) crew(rifleman_1:2) b(lt) cw(2) cp(4)
+	("vehicle"  period(late) year(late) cd(90) ci(30) g(wheel3) side(ger) t(vehicle) crew(rifleman_1:2) b(supply) cw(2) cp(4)
 	cost(90))
 }
 {"blitz3_6_art_ammo"
@@ -949,8 +949,12 @@
 	("vehicle2" period(late) year(late) cd(1500) ci(180) g(wheel11) side(ger) t(vehicle) crew1(tankman_stug:3) crew2(tank_commander_stug:1) b(art) cw(2) cp(42)
 	cost(1250))
 }
+{"sdkfz251d_1_stuka_ss"
+	("vehicle2_ss" period(late) year(late) cd(1500) ci(180) g(wheel11) side(ger) vehicle(sdkfz251d_1_stuka) t(vehicle) crew1(tankman:2) crew2(tank_commander:1) b(art) cw(2) cp(54)
+	cost(1500))
+}
 {"sdkfz251d_1_stuka"
-	("vehicle2" period(late) year(late) cd(1500) ci(180) g(wheel11) side(ger) t(vehicle) crew1(tankman:2) crew2(tank_commander:1) b(art) cw(2) cp(54)
+	("vehicle2" period(late) year(late) cd(1500) ci(180) g(wheel11) side(ger) t(vehicle doctrineonly) crew1(tankman:2) crew2(tank_commander:1) b(art) cw(2) cp(54)
 	cost(1500))
 }
 
