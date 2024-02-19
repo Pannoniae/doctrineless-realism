@@ -19,15 +19,15 @@
 	("45_rus_slope_multipliers")
 
 	;BR-240
-	("penetration_medium" shell(aphebc) range(170) a(71) b(54) c(40) d(32) e(28))  ;RHA
-	 ;//("penetration_medium" shell(aphebc) range(170) a(61) b(51) c(42) d(32) e(28))  ;FHA
+	("penetration_medium" shell(aphebc) range(180) a(71) b(54) c(40) d(32) e(28))  ;RHA
+	 ;//("penetration_medium" shell(aphebc) range(180) a(61) b(51) c(42) d(32) e(28))  ;FHA
 
 	;BR-240P	; was available starting April 1942
-	("penetration_medium" shell(apcr) range(170) a(108) b(74) c(46) d(29) e(18))
+	("penetration_medium" shell(apcr) range(180) a(108) b(74) c(46) d(29) e(18))
 
 	{parameters "he"
 		{range 160 160}
 	}
 
-	("accuracy_direct_arrowhead" r1(0.91) range_ap(170) range_he(160) range_heat(160))
+	("accuracy_direct_arrowhead" r1(0.91) range_ap(180) range_he(170) range_heat(160))
 }

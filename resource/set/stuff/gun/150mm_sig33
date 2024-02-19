@@ -23,7 +23,7 @@
 	("accuracy_spg" r1(1.25) range_ap(170) range_he(170) range_heat(170))
 
 	(mod not "mp"
-		("accuracy_spg" r1(1.25) range_ap(170) range_he(210) range_heat(170))
+		("accuracy_spg" r1(1.25) range_ap(170) range_he(190) range_heat(170))
 		{range 210 210}
 	)
 	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
