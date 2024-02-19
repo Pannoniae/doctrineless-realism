@@ -571,7 +571,7 @@
 ("squad_with7types" side(rus) name(squad_guardsrifle)		period(late) year(late) cd(60) ci(180) g(squad_3) c1(guards_nco:1) c2(guards_senior_smg:1) c3(guards_smg_3:1) c4(guards_rifleman_3:1) c5(guards_rifleman_2:4) c6(guards_mgun_1:1) c7(guards_mgun_2:1)	b(squad) t())
 
 ("squad_with3types" side(rus) name(squad_Assaut_Shock_Squad)	period(late) year(late) cd(60) ci(180) g(squad_3) c1(assault-sap_sl:1) c2(assault-sap_1:7) c3(assault-sap_4:1)								b(squad) t())
-("squad_with5types" side(rus) name(squad_Assaut_Shock_Rifle_Squad)	period(late) year(late) cd(60) ci(180) g(squad_3) c1(assault-sap_sl:1) c2(assault-sap_sl_asst_1:2) c3(assault-sap_2:4)	c4(assault-sap_sl_asst_mg:1) c5(assault-sap_3:1)							b(squad) t())
+("squad_with5types" side(rus) name(squad_Assaut_Shock_Rifle_Squad)	period(late) year(late) cd(60) ci(180) g(squad_3) c1(assault-sap_sl:1) c2(assault-sap_sl_asst:2) c3(assault-sap_sl_asst_mg:1) c4(assault-sap_3:1) c5(assault-sap_2:4)							b(squad) t())
 
 ("squad_with3types" side(rus) name(squad_Spetznas)	period(late) year(late) cd(60) ci(180) g(squad_3) c1(spetsnaz_1:1) c2(spetsnaz_2:6) c3(spetsnaz_3:2)								b(squad) t())
 
