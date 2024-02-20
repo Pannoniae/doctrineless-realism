@@ -301,7 +301,7 @@ msgctxt "desc/squad/squad_rifleunit_early(rus)"
 msgid "Rifle squad"
 msgstr ""
 
-msgctxt "desc/squad/squad_rifleunit_heavy(rus)"
+msgctxt "desc/squad/squad_heavy_rifleunit(rus)"
 msgid "Rifle squad"
 msgstr ""
 
@@ -311,6 +311,14 @@ msgstr ""
 
 msgctxt "desc/squad/squad_shock(rus)"
 msgid "Shock Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_shock_squad(rus)"
+msgid "Assault Shock Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_shock_rifle_squad(rus)"
+msgid "Assault Shock Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_smg(rus)"
