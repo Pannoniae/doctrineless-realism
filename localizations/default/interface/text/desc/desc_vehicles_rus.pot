@@ -638,7 +638,7 @@ msgid "<c(c3baae)>Heavy Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/kht26"
-msgid "KhT-26 (Flame)"
+msgid "KhT-26"
 msgstr ""
 
 msgctxt "info/special/kht26"
@@ -646,7 +646,7 @@ msgid "<c(c3baae)>Light Flamethrower Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/kht130"
-msgid "KhT-130 (Flame)"
+msgid "KhT-130"
 msgstr ""
 
 msgctxt "info/special/kht130"
@@ -710,7 +710,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/kv8"
-msgid "KV-8 (Flame)"
+msgid "KV-8"
 msgstr ""
 
 msgctxt "info/special/kv8"
@@ -1070,7 +1070,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/t3457_41"
-msgid "T-34 M1941 (57mm)"
+msgid "T-34/57 M1941"
 msgstr ""
 
 msgctxt "info/special/t3457_41"
@@ -1078,7 +1078,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/t3457_43"
-msgid "T-34 M1942 (57mm)"
+msgid "T-34/57 M1942"
 msgstr ""
 
 msgctxt "info/special/t3457_43"
@@ -1126,7 +1126,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/t3476_43_flame"
-msgid "OT-34 M1943 (Flame)"
+msgid "OT-34 M1943"
 msgstr ""
 
 msgctxt "info/special/t3476_43_flame"
@@ -1142,7 +1142,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/t3485_44_flame"
-msgid "OT-34-85 (Flame)"
+msgid "OT-34-85"
 msgstr ""
 
 msgctxt "info/special/t3485_44_flame"
@@ -1158,7 +1158,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/t3485_44a_flame"
-msgid "OT-34-85 (Flame)"
+msgid "OT-34-85"
 msgstr ""
 
 msgctxt "info/special/t3485_44a_flame"
