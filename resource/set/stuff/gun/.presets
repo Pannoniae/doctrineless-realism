@@ -5,7 +5,7 @@
 
 
 (define "global velocity"
-	{speed (* 0.75 %gv)}			;// Global muzzle velocity scale for all weapons in "gun" folder.
+	{speed (* 1 %gv)}			;// Global muzzle velocity scale for all weapons in "gun" folder.
 )
 
 (define "velocity"					;// used in gun file when muzzle velocity is same across all ammo types.

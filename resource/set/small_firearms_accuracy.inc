@@ -3,7 +3,7 @@
 ;/*----------------------*/
 
 	(define "velocity"				;// muzzle velocity in meters per second
-		{speed (* 0.70 %mps)}
+		{speed (* 1 %mps)}
 	)
 	(define "fire rate"				;// rate of fire in rounds per minute 
 		{recoveryTime (/ 60 (* %rpm 1.07))}
