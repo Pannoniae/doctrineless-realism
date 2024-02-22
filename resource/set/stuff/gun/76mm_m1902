@@ -28,7 +28,7 @@
 	("penetration_medium" shell(apcr) range(180) a(111) b(77) c(48) d(30) e(19))
 
 	; BP-350A
-	("penetration_medium" shell(heat) range(170) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+	("penetration_medium" shell(heat) range(180) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
 
-	("accuracy_direct_arrowhead" r1(1.01) range_ap(180) range_he(180) range_heat(170))
+	("accuracy_direct_arrowhead" r1(1.01) range_ap(180) range_he(180) range_heat(180))
 }

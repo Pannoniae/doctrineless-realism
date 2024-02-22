@@ -8,7 +8,7 @@
 	{fireSound "gun/gun_75_105"}
 	{fireSoundclose "gun/gun_75_105"}
 	{reloadSound "tank/reload_medium"}
-	("range_230")
+	("range_220")
 	{calibre 75}
 
 	("reload time" seconds(4))
@@ -18,7 +18,7 @@
 	("76_slope_multipliers")	;// due to high velocity
 
 	; 75 psa Sk Vj4, APBC-T
-	("penetration_medium" shell(apbc) range(230) a(147) b(136) c(124) d(112) e(102))
+	("penetration_medium" shell(apbc) range(220) a(147) b(136) c(124) d(112) e(102))
 
 	{parameters "apbc"
 		("ap_slope_multiplier")
@@ -26,8 +26,9 @@
 
 	{parameters "he"
 		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{range 210 210}
 	}
 
 
-	("accuracy_direct" r1(0.65) range_ap(230) range_he(220) range_heat(220))
+	("accuracy_direct" r1(0.65) range_ap(220) range_he(210) range_heat(210))
 }

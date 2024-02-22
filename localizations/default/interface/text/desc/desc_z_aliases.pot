@@ -103,3 +103,27 @@ msgstr ""
 msgctxt "desc/squad/m4a3_calliope_ss"
 msgid "T34 'Calliope'"
 msgstr ""
+
+msgctxt "desc/squad/po2_recon_late"
+msgid "PO2 Recon Plane"
+msgstr ""
+
+msgctxt "desc/squad/yak1_250_late"
+msgid "Yak-1 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/il2_500_late"
+msgid "IL-2 250kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/fi156_recon_late"
+msgid "Fi-156 Recon Plane"
+msgstr ""
+
+msgctxt "desc/squad/bf109_250_late"
+msgid "Bf-109 F-4 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/bf110_500_late"
+msgid "Bf-110 E-2 250kg Bomb"
+msgstr ""

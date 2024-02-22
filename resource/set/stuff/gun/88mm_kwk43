@@ -28,11 +28,11 @@
 	}
 
 	; Gr.39 Hl
-	("penetration_long" shell(heat) range(210) a(110) b(110) c(110) d(110) e(110))
+	("penetration_long" shell(heat) range(230) a(110) b(110) c(110) d(110) e(110))
 
 	{parameters "he"
-		{range 230 230}
+		{range 240 240}
 	}
 
-	("accuracy_direct" r1(0.50) range_ap(250) range_he(230) range_heat(230))
+	("accuracy_direct" r1(0.50) range_ap(250) range_he(240) range_heat(230))
 }

@@ -21,11 +21,11 @@
 	("37_slope_multipliers")
 
 	; M59A1   
-	("penetration_medium" shell(apc) range(180) a(33) b(28) c(23) d(18) e(15))
+	("penetration_medium" shell(apc) range(170) a(33) b(28) c(23) d(18) e(15))
 
 	{parameters "he"										; M54
 		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
 	}
 
-	("accuracy_direct" r1(0.55) range_ap(180) range_he(170) range_heat(160))
+	("accuracy_direct" r1(0.55) range_ap(170) range_he(170) range_heat(170))
 }

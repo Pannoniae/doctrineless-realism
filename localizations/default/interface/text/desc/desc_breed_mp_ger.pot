@@ -93,6 +93,18 @@ msgctxt "desc/human/mp/ger/early/fallsch_mg"
 msgid "Fallschirmjäger MG Operator"
 msgstr ""
 
+msgctxt "desc/human/mp/ger/early/fallsch_vet_mg"
+msgid "Elite Fallschirmjäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_vet_mg_ammo"
+msgid "Elite Fallschirmjäger MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/early/fallsch_vet_mg_asst"
+msgid "Elite Fallschirmjäger MG Asst."
+msgstr ""
+
 msgctxt "desc/human/mp/ger/early/fallsch_mg_ammo"
 msgid "Fallschirmjäger MG Ammo Bearer"
 msgstr ""

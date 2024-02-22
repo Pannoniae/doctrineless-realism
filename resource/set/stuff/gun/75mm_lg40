@@ -18,7 +18,7 @@
 	("75_ger_slope_multipliers")
 
 	; PzGr.rot
-	("penetration_medium" shell(apcbche) range(160) a(39) b(37) c(34) d(31) e(29))
+	("penetration_medium" shell(apcbche) range(180) a(39) b(37) c(34) d(31) e(29))
 
 	; Gr.38 Hl
 	("penetration_medium" shell(heat) range(180) a(52) b(52) c(52) d(52) e(52))
