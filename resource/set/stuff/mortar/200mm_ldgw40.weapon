@@ -12,7 +12,7 @@
 	("reload time" seconds(12))
 
 	{spreading
-		{radiusTable {0 5} {120 15} {259.99 30} {260 100}}
+		{radiusTable {0 5} {120 15} {159.99 30} {160 100}}
 	}
 	
 	{parameters "he"

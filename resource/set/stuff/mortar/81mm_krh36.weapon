@@ -1,0 +1,10 @@
+;_________________________________________
+; Finnish(German) Medium Mortar - 8cm 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarfin_81"}
+	{calibre 81}
+	("medium_mortar_range")
+}

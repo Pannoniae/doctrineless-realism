@@ -10,9 +10,7 @@
 
 	{curve "gun_std"}
 	{aimtype curved}
-	{spreading 1
-		{SpreadXYRatio 1}
-	}
+	{spreading 0.9}
 
 	{unlimitedRangeTPC 0}
 	{preloaded}
