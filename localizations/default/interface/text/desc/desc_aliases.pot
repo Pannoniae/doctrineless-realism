@@ -76,10 +76,30 @@ msgctxt "desc/squad/sdkfz251d_1_stuka_ss"
 msgid "Stuka Zu Fuß"
 msgstr ""
 
+msgctxt "desc/squad/p47_recon_late"
+msgid "P47 Recon Plane"
+msgstr ""
+
 msgctxt "desc/squad/p47_250_late"
 msgid "P47 250lb Bomb"
 msgstr ""
 
 msgctxt "desc/squad/p47_500_late"
 msgid "P47 500lb Bomb"
+msgstr ""
+
+msgctxt "desc/squad/m2_50cal_tripod_ss"
+msgid ".30cal M1919A4"
+msgstr ""
+
+msgctxt "desc/squad/m2_50cal_tripod_ss"
+msgid ".50cal M2HB"
+msgstr ""
+
+msgctxt "desc/squad/75mm_m1a1_ss"
+msgid "75mm M1A1/M8"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_calliope_ss"
+msgid "T34 'Calliope'"
 msgstr ""
