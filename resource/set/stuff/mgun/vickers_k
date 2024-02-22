@@ -7,7 +7,7 @@
 	{calibre 7.62}
 	{mass 13.4}
 
-	("fire rate" rpm(950))
+	("fire rate" rpm(1500))
 	("velocity" mps(745))
 
 	("reload time" seconds(10))
