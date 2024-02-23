@@ -794,7 +794,7 @@
 }
 
 {"fi156_recon_late"
-	("vehicle_ss" side(usa) period(late) year(late) cd(450) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(150))
+	("vehicle_ss" side(ger) period(late) year(late) cd(450) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(150))
 	{action "airstrike:reconnaissance_50"} 
 	{tags "limit3"}
 }
@@ -868,6 +868,10 @@
 {"88mm_pak4341"
 	("vehicle"  period(late) year(late) cd(1200) ci(10) t(cannon heavycan) side(ger) crew(artilleryman:4) g(empl5) b(support) cw(1) cp(22)
 	cost(850))
+}
+{"128mm_pak44"
+	("vehicle"  period(late) year(late) cd(1320) ci(10) t(cannon heavycan) side(ger) crew(artilleryman:4) g(empl5) b(support) cw(1) cp(22)
+	cost(1000))
 }
 
 
@@ -1000,7 +1004,10 @@
 
 ;LIGHT
 
-
+{"sdkfz251c_10"
+	("vehicle"  period(late) year(late) cd(240) ci(10) g(wheel10) side(ger) t(vehicle) crew(artilleryman:4) b(lt) cw(2) cp(8)
+	cost(200))
+}
 {"sdkfz221"
 	("vehicle2" period(late) year(late) cd(320) ci(10) g(wheel4) side(ger) t(vehicle) crew1(tankman_scout:1) crew2(tank_commander_scout:1) b(lt) cw(2) cp(4)
 	cost(180))
@@ -1026,7 +1033,7 @@
 	cost(300)) ;// +30 for crew
 }
 {"sdkfz251d_16"
-	("vehicle"  period(late) year(late) cd(540) ci(10) g(wheel10) side(ger) t(vehicle) crew(rifleman_1:4) b(lt) cw(2) cp(8)
+	("vehicle"  period(late) year(late) cd(540) ci(10) g(wheel10) side(ger) t(vehicle) crew(artilleryman:4) b(lt) cw(2) cp(8)
 	cost(250))
 }
 {"sdkfz251d_17"

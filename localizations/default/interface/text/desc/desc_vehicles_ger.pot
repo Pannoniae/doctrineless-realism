@@ -220,6 +220,14 @@ msgctxt "info/special/88mm_pak4341"
 msgid "<c(c3baae)>Heavy AT Gun</c>"
 msgstr ""
 
+msgctxt "desc/entity/128mm_pak44"
+msgid "12.8cm PaK 44/3"
+msgstr ""
+
+msgctxt "info/special/128mm_pak44"
+msgid "<c(c3baae)>Super-Heavy AT Gun</c>"
+msgstr ""
+
 msgctxt "desc/entity/100mm_nbw35"
 msgid "10cm NbW 35"
 msgstr ""
@@ -1242,6 +1250,14 @@ msgstr ""
 
 msgctxt "info/special/sdkfz251d_1"
 msgid "<c(c3baae)>Medium Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251c_10"
+msgid "Sd.Kfz 251/10"
+msgstr ""
+
+msgctxt "info/special/sdkfz251c_10"
+msgid "<c(c3baae)>AT Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz302"

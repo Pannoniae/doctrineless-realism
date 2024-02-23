@@ -256,6 +256,10 @@ msgctxt "desc/weapon/128mm_pak44"
 msgid "12.8cm PaK 44 L/55"
 msgstr ""
 
+msgctxt "desc/weapon/128mm_pak44_3"
+msgid "12.8cm PaK 44/3 L/55"
+msgstr ""
+
 msgctxt "desc/weapon/128mm_pak80"
 msgid "12.8cm PaK 80 L/55"
 msgstr ""

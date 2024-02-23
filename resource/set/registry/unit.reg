@@ -1724,4 +1724,10 @@
 	{"sdkfz251d_23"
 		{vehicle_view "sdkfz250a_9"}
 	}
+	{"128mm_pak44"
+		{vehicle_view "cannon_88mm_pak4341"}
+	}
+	{"sdkfz251c_10"
+		{vehicle_view "sdkfz251c"}
+	}
 }
