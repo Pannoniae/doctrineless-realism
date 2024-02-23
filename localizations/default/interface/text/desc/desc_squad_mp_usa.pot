@@ -571,7 +571,7 @@ msgid "M9A1 Bazooka AT Team"
 msgstr ""
 
 msgctxt "desc/squad/single_riflegrenade(usa)"
-msgid "M1 Garand AT Rifle Grenadiers"
+msgid "AT Rifle Grenadiers"
 msgstr ""
 
 msgctxt "desc/squad/single_riflegrenade_con(usa)"

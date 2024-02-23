@@ -30,14 +30,6 @@
 	{parameters "aphebc" ; BR–412B
 		("global velocity" gv(915))
 	}
-	
-	{parameters "he"
-		{range 240 240}
-	}
-	
-	{parameters "heat"
-		{range 240 240}
-	}
 
-	("accuracy_direct" r1(0.55) range_ap(250) range_he(240) range_heat(240))
+	("accuracy_direct" r1(0.55) range_ap(250) range_he(230) range_heat(230))
 }

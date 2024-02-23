@@ -21,8 +21,8 @@
 	("penetration_medium" shell(apcbc) range(180) a(78) b(69) c(59) d(51) e(43))	; APC M51
 
 	{parameters "he"
-		{range 170 170}
+		{range 160 160}
 	}
 
-	("accuracy_direct" r1(0.8) range_ap(180) range_he(170) range_heat(170))
+	("accuracy_direct" r1(0.8) range_ap(180) range_he(160) range_heat(160))
 }

@@ -25,7 +25,7 @@
 	("penetration_medium" shell(apche) range(190) a(74) b(59) c(45) d(34) e(26))
 
 	; Pzgr.40
-	("penetration_medium" shell(apcr) range(180) a(130) b(94) c(63) d(42) e(28))
+	("penetration_medium" shell(apcr) range(190) a(130) b(94) c(63) d(42) e(28))
 
 	; Steil.Gr.42 	;tank guns cannot use the Steilgranate HEAT rounds
 	("penetration_medium" shell(heat) range(0) a(0) b(0) c(0) d(0) e(0))

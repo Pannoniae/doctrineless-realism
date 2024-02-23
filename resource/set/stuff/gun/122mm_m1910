@@ -21,7 +21,7 @@
 		r2(9) 					; // Accuracy radius for indirect fire
 		rmax(21) 				; // Accuracy radius for indirect fire at maximum range
 		range_ap(200) 			; // Range after which accuracy drops to prevent farshooting.
-		range_heat(200) 		; // Range after which accuracy drops to prevent farshooting.
+		range_heat(190) 		; // Range after which accuracy drops to prevent farshooting.
 		range_he(330)			; // Range after which accuracy drops to prevent farshooting.
 	)
 }

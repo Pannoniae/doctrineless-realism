@@ -65,19 +65,11 @@ msgid "Medic"
 msgstr ""
 
 msgctxt "desc/squad/single_mg(ger)"
-msgid "MG42 Team"
-msgstr ""
-
-msgctxt "desc/squad/single_mg_elite(ger)"
-msgid "Panzergrenadier MG42 Team"
-msgstr ""
-
-msgctxt "desc/squad/single_mg_elite2(ger)"
-msgid "Elite Fallschirmjäger MG42 Team"
+msgid "MG Detachment"
 msgstr ""
 
 msgctxt "desc/squad/single_riflegrenade(ger)"
-msgid "K98 Schiessbecher Grenadiers"
+msgid "Gren. Riflemen"
 msgstr ""
 
 msgctxt "desc/squad/single_scout(ger)"
@@ -449,15 +441,15 @@ msgid "Fallschirmjäger 44 squad"
 msgstr ""
 
 msgctxt "desc/squad/single_rifle(ger)"
-msgid "K98 Rifleman"
+msgid "Rifleman"
 msgstr ""
 
 msgctxt "desc/squad/single_smg(ger)"
-msgid "MP40 SMG"
+msgid "SMG Soldier"
 msgstr ""
 
 msgctxt "desc/squad/single_sa(ger)"
-msgid "G43 Rifleman"
+msgid "Semi-Auto Rifleman"
 msgstr ""
 
 msgctxt "desc/squad/squad_ersatz_rifle_early_all(ger)"

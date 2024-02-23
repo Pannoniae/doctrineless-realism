@@ -23,10 +23,10 @@
 	 ;//("penetration_medium" shell(aphebc) range(180) a(61) b(51) c(42) d(32) e(28))  ;FHA
 
 	;BR-240P	; was available starting April 1942
-	("penetration_medium" shell(apcr) range(170) a(108) b(74) c(46) d(29) e(18))
+	("penetration_medium" shell(apcr) range(180) a(108) b(74) c(46) d(29) e(18))
 
 	{parameters "he"
-		{range 170 170}
+		{range 160 160}
 	}
 
 	("accuracy_direct_arrowhead" r1(0.91) range_ap(180) range_he(170) range_heat(160))

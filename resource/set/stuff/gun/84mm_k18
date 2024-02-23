@@ -8,7 +8,7 @@
 	{fireSound "gun/gun_75_105"}
 	{fireSoundclose "gun/gun_75_105"}
 	{reloadSound "tank/reload_big"}
-	("range_210_howitzer")
+	("range_200_howitzer")
 	{calibre 84}
 
 	("reload time" seconds(5.5))
@@ -19,5 +19,5 @@
 	
 	("penetration_medium" shell(ap) range(210) a(103) b(85) c(67) d(52) e(41)) ;// 1942
 
-	("accuracy_spg" r1(3.00) range_ap(210) range_he(210) range_heat(200))
+	("accuracy_spg" r1(3.00) range_ap(200) range_he(200) range_heat(200))
 }

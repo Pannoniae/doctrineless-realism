@@ -19,6 +19,6 @@
 	; HEAT M66 shell
 	("penetration_medium" shell(heat) range(180) a(91) b(91) c(91) d(91) e(91))
 
-	("accuracy_spg" r1(2.25) range_ap(180) range_he(180) range_heat(180))
+	("accuracy_spg" r1(2.25) range_ap(180) range_he(180) range_heat(160))
     {unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
 }

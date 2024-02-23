@@ -38,11 +38,7 @@ msgid "AT Detachment (PTRS)"
 msgstr ""
 
 msgctxt "desc/squad/single_at(rus)"
-msgid "PTRD-41 AT-Rifle"
-msgstr ""
-
-msgctxt "desc/squad/single_at_rifle(rus)"
-msgid "PTRS-41 AT-Rifle Team"
+msgid "AT Detachment"
 msgstr ""
 
 msgctxt "desc/squad/single_atgrenade(rus)"
@@ -86,11 +82,7 @@ msgid "Medic"
 msgstr ""
 
 msgctxt "desc/squad/single_mg(rus)"
-msgid "DP-27 MG Team"
-msgstr ""
-
-msgctxt "desc/squad/single_mg_elite(rus)"
-msgid "Guards DP-27 MG Team"
+msgid "MG Detachment"
 msgstr ""
 
 msgctxt "desc/squad/single_riflegrenade(rus)"
@@ -310,11 +302,7 @@ msgid "Rifle squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_heavy_rifleunit(rus)"
-msgid "Rifle squad w/2 DPs"
-msgstr ""
-
-msgctxt "desc/squad/squad_assault_rifle(rus)"
-msgid "Assault Rifle squad"
+msgid "Rifle squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_sappers(rus)"
@@ -326,23 +314,15 @@ msgid "Shock Inf."
 msgstr ""
 
 msgctxt "desc/squad/squad_assault_shock_squad(rus)"
-msgid "Shock Assault Squad"
+msgid "Assault Shock Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_assault_shock_rifle_squad(rus)"
-msgid "Shock Assault Rifle Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_elite_guards(rus)"
-msgid "Elite Guards Rifle Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_elite_guards_shock(rus)"
-msgid "Elite Guards Shock SMG Squad"
+msgid "Assault Shock Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_smg(rus)"
-msgid "Shock SMG squad"
+msgid "SMG squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_smg_con(rus)"
@@ -374,15 +354,15 @@ msgid "Suppression Inf."
 msgstr ""
 
 msgctxt "desc/squad/single_rifle(rus)"
-msgid "Mosin Rifleman"
+msgid "Rifleman"
 msgstr ""
 
 msgctxt "desc/squad/single_smg(rus)"
-msgid "PPSh-41 SMG"
+msgid "SMG Soldier"
 msgstr ""
 
 msgctxt "desc/squad/single_sa(rus)"
-msgid "SVT-40 Rifleman"
+msgid "Semi-Auto Rifleman"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon_early_all(rus)"

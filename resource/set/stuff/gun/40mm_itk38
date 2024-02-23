@@ -27,7 +27,7 @@
 		("ap_slope_multiplier")
 	}
 
-	("accuracy_direct_auto" r1(0.58) range_ap(170) range_he(170) range_heat(170))
+	("accuracy_direct_auto" r1(0.58) range_ap(170) range_he(160) range_heat(170))
 
 	{parameters "he"										; SPgGr.
 		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft

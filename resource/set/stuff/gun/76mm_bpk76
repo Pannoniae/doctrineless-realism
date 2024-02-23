@@ -8,7 +8,7 @@
 	{fireSound "gun/gun_75_105_short"}
 	{fireSoundclose "gun/gun_75_105_short"}
 	{reloadSound "tank/reload_small"}
-	("range_180")
+	("range_170")
 	{calibre 76.2}
 
 	("reload time" seconds(10))
@@ -19,7 +19,7 @@
 	("76_rus_slope_multipliers")
 
 	; BR-350A
-	("penetration_medium" shell(aphebc) range(180) a(51) b(46) c(42) d(36) e(32))
+	("penetration_medium" shell(aphebc) range(170) a(51) b(46) c(42) d(36) e(32))
 
-	("accuracy_direct" r1(1.50) range_ap(170) range_he(180) range_heat(180))
+	("accuracy_direct" r1(1.50) range_ap(170) range_he(170) range_heat(170))
 }

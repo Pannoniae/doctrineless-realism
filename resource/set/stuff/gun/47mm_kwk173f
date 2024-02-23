@@ -18,11 +18,11 @@
 	("57_slope_multipliers")
 
 	; Pzgr.35(f)
-	("penetration_medium" shell(apc) range(170) a(53) b(40) c(28) d(21) e(17))
+	("penetration_medium" shell(apc) range(180) a(53) b(40) c(28) d(21) e(17))
 
 	{parameters "he"
-		{range 160 160}
+		{range 170 170}
 	}
 
-	("accuracy_direct" r1(0.62) range_ap(170) range_he(160) range_heat(160))
+	("accuracy_direct" r1(0.62) range_ap(180) range_he(160) range_heat(160))
 }

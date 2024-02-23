@@ -21,9 +21,7 @@
 	("penetration_medium" shell(apc) range(180) a(45) b(26) c(15) d(12) e(11))
 
 	; Sprgr 145(f)
-	{parameters "he"
-		{range 170 170}
-	}
+	{parameters "he"}
 
 	("accuracy_direct" r1(0.62) range_ap(180) range_he(170) range_heat(170))
 }
