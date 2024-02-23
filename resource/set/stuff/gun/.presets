@@ -126,8 +126,8 @@
 		range_he(%range_he)
 		range_heat(%range_heat)
 		falloff(0.05)
-		r0(1.2)					;// global accuracy indirect
-		r01(0.3)					;// global accuracy direct
+		r0(1.450)					;// global accuracy indirect
+		r01(0.5)					;// global accuracy direct
 		  ap50(1.50)   ap100(2.75)   ap140(3.75)   ap200(6.50)
 		heat50(1.50) heat100(3.00) heat140(4.25) heat200(8.00)
 		 he125(0.4)
@@ -221,27 +221,27 @@
 	}
 	{parameters "he"
 		{spreading
-			{radiusTable {0 0} {125 (* %he125 (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {(- %range_he 0.1) (* 3.0 (* %r2 %r0))} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
+			{radiusTable {0 0} {125 (* %he125 (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {(- %range_he 0.1) (* %rmax %r0)} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
 		}
 	}
 	{parameters "he2"
 		{spreading
-			{radiusTable {0 0} {125 (* %he125 (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {(- %range_he 0.1) (* 3.0 (* %r2 %r0))} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
+			{radiusTable {0 0} {125 (* %he125 (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {(- %range_he 0.1) (* %rmax %r0)} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
 		}
 	}
 	{parameters "sm"
 		{spreading
-			{radiusTable {0 0} {125 (* %he125  (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {%range_he (* 3.0 (* %r2 %r0))} {(* %range_he 10) 60}}
+			{radiusTable {0 0} {125 (* %he125  (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {%range_he (* %rmax %r0)} {(* %range_he 10) 60}}
 		}
 	}
 	{parameters "wp"
 		{spreading
-			{radiusTable {0 0} {125 (* %he125  (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {%range_he (* 3.0 (* %r2 %r0))} {(* %range_he 10) 60}}
+			{radiusTable {0 0} {125 (* %he125  (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {%range_he (* %rmax %r0)} {(* %range_he 10) 60}}
 		}
 	}
 	{parameters "ic"
 		{spreading
-			{radiusTable {0 0} {125 (* %he125  (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {(- %range_he 0.1) (* 3.0 (* %r2 %r0))} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
+			{radiusTable {0 0} {125 (* %he125  (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {(- %range_he 0.1) (* %rmax %r0)} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
 		}
 	}
 	{parameters "heat"
@@ -286,15 +286,15 @@
 		range_he(%range_he)
 		range_heat(%range_heat)
 		falloff(0.15)
-		r0(0.30) 								; // global accuracy
-		apbc50(1.50) apbc100(2.50) apbc140(3.50) apbc200(6.00)
-		 apc50(1.50)  apc100(2.75)  apc140(3.75)  apc200(6.75)
-		  ap50(1.50)   ap100(2.75)   ap140(3.75)   ap200(6.50)
-		  he50(1.50)   he100(2.75)   he140(6.00)   he200(12.00)
-		heat50(1.50) heat100(3.00) heat140(4.25) heat200(8.00)
-		apcr50(1.50) apcr100(2.25) apcr140(3.25) apcr200(5.50)
-		hvap50(1.50) hvap100(2.00) hvap140(3.00) hvap200(5.00)
-		apds50(2.00) apds100(3.50) apds140(6.00) apds200(10.00)
+		r0(0.50) 								; // global accuracy
+		apbc50(4.50) apbc100(5.50) apbc140(6.50) apbc200(7.00)
+		 apc50(4.50)  apc100(5.75)  apc140(6.75)  apc200(7.75)
+		  ap50(4.50)   ap100(5.75)   ap140(6.75)   ap200(7.50)
+		  he50(4.50)   he100(5.75)   he140(6.00)   he200(7.00)
+		heat50(4.50) heat100(5.00) heat140(6.25) heat200(7.00)
+		apcr50(4.50) apcr100(5.25) apcr140(6.25) apcr200(7.50)
+		hvap50(4.50) hvap100(5.00) hvap140(6.00) hvap200(7.00)
+		apds50(4.00) apds100(5.50) apds140(6.00) apds200(7.00)
 	)
 )
 (define "accuracy_direct_arrowhead" ;// Accuracy for direct-fire weaponry, using arrowhead APCR design (early german APCR, all soviet APCR)
@@ -304,15 +304,15 @@
 		range_he(%range_he)
 		range_heat(%range_heat)
 		falloff(0.15)
-		r0(0.30) 								; // global accuracy
-		apbc50(1.50) apbc100(2.50) apbc140(3.50) apbc200(6.00)
-		 apc50(1.50)  apc100(2.75)  apc140(3.75)  apc200(6.75)
-		  ap50(1.50)   ap100(2.75)   ap140(3.75)   ap200(6.50)
-		  he50(1.50)   he100(2.75)   he140(6.00)   he200(12.00)
-		heat50(1.50) heat100(3.00) heat140(4.25) heat200(8.00)
-		apcr50(1.50) apcr100(2.50) apcr140(3.75) apcr200(6.75)
-		hvap50(1.50) hvap100(2.00) hvap140(3.00) hvap200(5.00)
-		apds50(2.00) apds100(3.50) apds140(6.00) apds200(10.00)
+		r0(0.50) 								; // global accuracy
+		apbc50(4.50) apbc100(4.50) apbc140(5.50) apbc200(7.00)
+		 apc50(4.50)  apc100(4.75)  apc140(5.75)  apc200(7.75)
+		  ap50(4.50)   ap100(4.75)   ap140(5.75)   ap200(7.50)
+		  he50(4.50)   he100(4.75)   he140(5.00)   he200(7.00)
+		heat50(4.50) heat100(4.00) heat140(5.25) heat200(7.00)
+		apcr50(4.50) apcr100(4.50) apcr140(5.75) apcr200(7.75)
+		hvap50(4.50) hvap100(4.00) hvap140(5.00) hvap200(7.00)
+		apds50(4.00) apds100(4.50) apds140(5.00) apds200(7.00)
 	)
 )
 (define "accuracy_direct_auto" ;// Accuracy for direct-fire weaponry, autocannons
@@ -322,15 +322,15 @@
 		range_he(%range_he)
 		range_heat(%range_heat)
 		falloff(0.15)
-		r0(0.30) 								; // global accuracy
-		apbc50(1.50) apbc100(2.50) apbc140(3.50) apbc200(6.00)
-		 apc50(1.50)  apc100(2.75)  apc140(3.75)  apc200(6.75)
-		  ap50(1.50)   ap100(2.75)   ap140(3.75)   ap200(6.50)
-		  he50(1.50)   he100(2.75)   he140(3.75)   he200(6.50)
-		heat50(1.50) heat100(3.00) heat140(4.25) heat200(8.00)
-		apcr50(1.50) apcr100(2.50) apcr140(3.75) apcr200(6.75)
-		hvap50(1.50) hvap100(2.00) hvap140(3.00) hvap200(5.00)
-		apds50(2.00) apds100(3.50) apds140(6.00) apds200(10.00)
+		r0(0.60) 								; // global accuracy
+		apbc50(4.00) apbc100(5.00) apbc140(6.00) apbc200(10.00)
+		 apc50(4.00)  apc100(5.00)  apc140(6.00)  apc200(10.00)
+		  ap50(4.00)   ap100(5.00)   ap140(6.00)   ap200(10.00)
+		  he50(5.00)   he100(5.00)   he140(6.00)   he200(10.00)
+		heat50(4.00) heat100(5.00) heat140(6.00) heat200(10.00)
+		apcr50(4.00) apcr100(5.00) apcr140(6.00) apcr200(10.00)
+		hvap50(4.00) hvap100(5.00) hvap140(6.00) hvap200(10.00)
+		apds50(4.00) apds100(5.00) apds140(6.00) apds200(10.00)
 	)
 )
 (define "accuracy_spg" ;// Accuracy for SPG direct-fire weaponry
@@ -340,12 +340,12 @@
 		range_he(%range_he)
 		range_heat(%range_heat)
 		falloff(0.15)
-		r0(0.30) 								; // global accuracy
-		apbc50(1.50) apbc100(2.50) apbc140(3.50) apbc200(6.00)
-		 apc50(1.50)  apc100(2.75)  apc140(3.75)  apc200(6.75)
-		  ap50(1.50)   ap100(2.75)   ap140(3.75)   ap200(6.50)
-		  he50(1.50)   he100(2.75)   he140(4.00)   he200(7.50)
-		heat50(1.50) heat100(3.00) heat140(4.25) heat200(8.00)
+		r0(0.50) 								; // global accuracy
+		apbc50(4.50) apbc100(5.50) apbc140(6.50) apbc200(10.00)
+		 apc50(4.50)  apc100(5.75)  apc140(6.75)  apc200(10.75)
+		  ap50(4.00)   ap100(5.00)   ap140(6.00)   ap200(9.50)
+		  he50(4.00)   he100(5.00)   he140(6.00)   he200(9.50)
+		heat50(4.00) heat100(5.00) heat140(6.00) heat200(9.50)
 		apcr50(1.50) apcr100(2.25) apcr140(3.25) apcr200(5.50)
 		hvap50(1.50) hvap100(2.00) hvap140(3.00) hvap200(5.00)
 		apds50(2.00) apds100(3.50) apds140(6.00) apds200(10.00)
@@ -521,12 +521,12 @@
 	{SpreadTolerance 0.60}		;// Zeroing up to 60% needed before fire
 	{ZeroingAccuracy 0.8 0.65 0.55 0.5 0.45}
 	{spreading {SpreadXYRatio 0.4}}
-	{parameters "he" {spreading {SpreadXYRatio 1}}}
+	{parameters "he" {spreading {SpreadXYRatio 1.5}}}
 )
 (define "indirect_settings"
 	{SpreadTolerance 0.75}		;// Zeroing up to 75% needed before fire
 	{ZeroingAccuracy 0.8 0.65 0.55 0.5 0.45}
-	{spreading {SpreadXYRatio 0.75}}
+	{spreading {SpreadXYRatio 3}}
 )
 
 ;/*============================== RANGES AND SPECIFICS ==============================*/
@@ -571,8 +571,8 @@
 	{aimingTolerance 3}
 	{SpreadTolerance 0}			;// Zeroing up to 0% needed before fire
 	{spreading
-		{BurstRecoveryTime 0.5}
-		{BurstAccuracy 100 98 95 90 85 80 75 70 65 60 55 50 45 40 35}
+		{BurstRecoveryTime 0.75}
+		{BurstAccuracy 100 75 60 20 10}
 		{SpreadXYRatio	0.5}
 	}
 	{burst
@@ -600,8 +600,8 @@
 	{aimingTolerance 3}
 	{SpreadTolerance 0}			;// Zeroing up to 0% needed before fire
 	{spreading
-		{BurstRecoveryTime 0.5}
-		{BurstAccuracy 100 95 88 82 75 68 55 32}
+		{BurstRecoveryTime 0.75}
+		{BurstAccuracy 100 95 75 30 10}
 		{SpreadXYRatio	0.5}
 	}
 	{burst
@@ -728,10 +728,10 @@
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 0.5}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 0.75}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
-	{ZeroingAccuracy 0.90 0.80 0.70 0.65 0.60}
+	{ZeroingAccuracy 0.80 0.65 0.55 0.45 0.40}
 	("artillery_firing_arc")
 	{SpreadTolerance 0.85}		;// Zeroing up to 85% needed before fire
 	{DisableRicochet}
@@ -744,10 +744,10 @@
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 0.5}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 0.75}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
-	{ZeroingAccuracy 0.90 0.80 0.70 0.65 0.60}
+	{ZeroingAccuracy 0.9 0.8 0.7 0.6 0.5 0.4}
 	("artillery_firing_arc")
 	{SpreadTolerance 0.85}		;// Zeroing up to 85% needed before fire
 	{DisableRicochet}
@@ -760,10 +760,10 @@
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 0.5}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 0.75}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
-	{ZeroingAccuracy 0.90 0.80 0.70 0.65 0.60}
+	{ZeroingAccuracy 0.9 0.8 0.7 0.6 0.5}
 	("artillery_firing_arc")
 	{SpreadTolerance 0.85}		;// Zeroing up to 85% needed before fire
 	{DisableRicochet}

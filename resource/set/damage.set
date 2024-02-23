@@ -20,7 +20,7 @@
 	}
 	{energy_per_projective 2.0}			;// 
 	{energy_per_blastwave 10.0}			;// Converts blastwave energy into damage to {armor} blast durability. 1 blast energy = -5 volume durability.
-	{energy_per_health 0.03}			;// 
+	{energy_per_health 0.05}			;// 
 	{brinell_hardness_multiplier	; High Hardness Multiplier = 9.7707 * D^0.06111 * (T/D)^0.2821 * BHN^-0.4363
 		{40		450}
 		{41		360}

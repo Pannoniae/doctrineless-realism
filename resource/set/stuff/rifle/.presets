@@ -37,7 +37,7 @@
 	{tag "autorifle_sup auto_eject rifle_shell"}
 	{range 130 130}
 	{spreading
-		{BurstAccuracy 100 90 70 50 30}
+		{BurstAccuracy 100 90 70 50 10}
 	}
 	{burst
 		{short 1 0.5}		; burst shots on long distance, rand (+-)shots
@@ -61,7 +61,7 @@
 	{tag "autorifle_sup auto_eject rifle_shell"}
 	{range 130 130}
 	{spreading
-		{BurstAccuracy 100 90 60 40 30}
+		{BurstAccuracy 100 90 60 40 20}
 	}
 	{burst
 		{short 1.5 0.5}		; burst shots on long distance, rand (+-)shots
@@ -85,7 +85,7 @@
 	{tag "autorifle_sup auto_eject"}
 	{range 130 130}
 	{spreading
-		{BurstAccuracy 100 95 90 60 40}
+		{BurstAccuracy 100 95 90 60 40 20 10}
 	}
 
 	{Automatic}

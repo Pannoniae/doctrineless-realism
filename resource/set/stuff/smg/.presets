@@ -28,7 +28,7 @@
 )
 (define "spreading_medium"
 	{spreading 
-		{BurstAccuracy 100 93 86 79 72 66 60 55 50 46 43 40}
+		{BurstAccuracy 100 93 86 79 72 66 60 55 40 30 20 10}
 	}
 )
 (define "spreading_high"
