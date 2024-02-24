@@ -109,7 +109,7 @@ msgid "<c(c3baae)>Light Field Howitzer</c>"
 msgstr ""
 
 msgctxt "desc/entity/75mm_legebig18"
-msgid "7.5cm leGebIG 18"
+msgid "7.5cm leGeIG 18"
 msgstr ""
 
 msgctxt "info/special/75mm_legebig18"
@@ -117,7 +117,7 @@ msgid "<c(c3baae)>Light Infantry Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/75mm_legebig18_snow"
-msgid "7.5cm leGebIG 18"
+msgid "7.5cm leGeIG 18"
 msgstr ""
 
 msgctxt "info/special/75mm_legebig18_snow"
@@ -461,7 +461,7 @@ msgid "<c(c3baae)>Engineering Truck</c>"
 msgstr ""
 
 msgctxt "desc/entity/blitz3_6_flak30"
-msgid "Opel Blitz mit FlaK 38"
+msgid "FlaK 30 (Sf.) auf Opel Blitz"
 msgstr ""
 
 msgctxt "info/special/blitz3_6_flak30"
