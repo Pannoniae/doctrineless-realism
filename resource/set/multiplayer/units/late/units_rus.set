@@ -984,6 +984,10 @@
 	("vehicle2" period(late) year(late) cd(450) ci(10) t(light) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg1) b(td) cw(4) cp(16)
 	cost(280)) ;// +30 for crew
 }
+{"zis30"
+	("vehicle2" period(late) year(late) cd(0) ci(0) t(light) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg2) b(tanks) cw(4) cp(16)
+	cost(350))
+}
 {"su85"
 	("vehicle2" period(late) year(late) cd(780) ci(10) t(medium) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg2) b(td) cw(6) cp(24)
 	cost(500)) ;// +30 for crew
