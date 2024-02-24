@@ -7,7 +7,7 @@
 	{filling "bulletger_20_auto" 80}
 
 	{spreading
-		{BurstAccuracy 100 98 95 90 85 80 75 70 65}
+		{BurstAccuracy 100 98 95 90 85 80 50 30}
 	}
 	("fire rate" rpm(1200))
 	("reload time" seconds(9))

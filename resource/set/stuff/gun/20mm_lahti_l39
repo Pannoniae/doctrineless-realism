@@ -25,5 +25,5 @@
 	{range 150 150};//	0m	100m	300m	500m
 	{projectileDamageTable {0 35} {40 31} {110 25} {140 20} {150 18} {160 0}}
 
-	("accuracy_direct" r1(0.80) range_ap(150) range_he(150) range_heat(150))
+	("accuracy_direct" r1(0.80) range_ap(160) range_he(160) range_heat(150))
 }
