@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "Textue_processor_Base_color"}
-	{bump "Textue_processor_normal_bump"}
-	{specular "Textue_processor_specular"}
-	{color "230 230 230 25"}
-	{blend test}
-}

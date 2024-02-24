@@ -127,3 +127,15 @@ msgstr ""
 msgctxt "desc/squad/bf110_500_late"
 msgid "Bf-110 E-2 250kg Bomb"
 msgstr ""
+
+msgctxt "desc/squad/blenheim_recon_late"
+msgid "Blenheim Mk.1 Recon Plane"
+msgstr ""
+
+msgctxt "desc/squad/blenheim_small_late"
+msgid "Blenheim Mk.1 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/blenheim_late"
+msgid "Blenheim Mk.1 250kg Bomb"
+msgstr ""

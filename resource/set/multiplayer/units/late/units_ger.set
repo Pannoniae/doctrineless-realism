@@ -834,27 +834,27 @@
 }
 ; AT WEAPONRY
 {"28mm_pzb41"
-	("vehicle"  period(late) year(late) cd(0) ci(10) t(cannon) side(ger) crew(artilleryman:3) g(empl2) b(support) cw(1) cp(6)
+	("vehicle"  period(late) year(late) cd(60) ci(10) t(cannon) side(ger) crew(artilleryman:3) g(empl2) b(support) cw(1) cp(6)
 	cost(160))
 }
 {"20mm_flak30"
-	("vehicle"  period(late) year(late) cd(0) ci(140) t(cannon) side(ger) crew(artilleryman:2) g(empl2) b(support) cw(1) cp(8)
+	("vehicle"  period(late) year(late) cd(180) ci(140) t(cannon) side(ger) crew(artilleryman:2) g(empl2) b(support) cw(1) cp(8)
 	cost(180))
 }
 {"20mm_flak38"
-	("vehicle"  period(late) year(late) cd(0) ci(150) t(cannon) side(ger) crew(artilleryman:2) g(empl20) b(support) cw(1) cp(8)
+	("vehicle"  period(late) year(late) cd(180) ci(150) t(cannon) side(ger) crew(artilleryman:2) g(empl20) b(support) cw(1) cp(8)
 	cost(200))
 }
 {"37mm_pak36_late"
-	("vehicle"  period(late) year(late) cd(0) ci(150) t(cannon) side(ger) crew(artilleryman:4) g(empl3) b(support) cw(1) cp(6)
+	("vehicle"  period(late) year(late) cd(30) ci(150) t(cannon) side(ger) crew(artilleryman:4) g(empl3) b(support) cw(1) cp(6)
 	cost(180))
 }
 {"37mm_flak37"
-	("vehicle"  period(late) year(late) cd(0) ci(180) t(cannon) side(ger) crew(artilleryman:3) g(empl37) b(support) cw(1) cp(10)
+	("vehicle"  period(late) year(late) cd(240) ci(180) t(cannon) side(ger) crew(artilleryman:3) g(empl37) b(support) cw(1) cp(10)
 	cost(250))
 }
 {"50mm_pak38_late"
-	("vehicle"  period(late) year(late) cd(0) ci(150) t(cannon mediumcan) side(ger) crew(artilleryman:4) g(empl4) b(support) cw(1) cp(12)
+	("vehicle"  period(late) year(late) cd(60) ci(150) t(cannon mediumcan) side(ger) crew(artilleryman:4) g(empl4) b(support) cw(1) cp(12)
 	cost(200))
 }
 {"75mm_pak40"
@@ -1156,11 +1156,11 @@
 }
 {"tiger2p"
 	("vehicle2" period(late) year(late) cd(1700) ci(10) t(heavy doctrineonly) side(ger) crew1(tankman:4) crew2(tank_commander:1) g(heavy3) b(ht) cw(8) cp(40)
-	cost(1700)) ;// +35 for crew
+	cost(2200)) ;// +35 for crew
 }
 {"tiger2h"
 	("vehicle2" period(late) year(late) cd(1800) ci(10) t(heavy doctrineonly) side(ger) crew1(tankman:4) crew2(tank_commander:1) g(heavy3) b(ht) cw(8) cp(40)
-	cost(2100)) ;// +35 for crew
+	cost(2700)) ;// +35 for crew
 }
 
 

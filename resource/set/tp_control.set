@@ -728,6 +728,7 @@
 		{"hummel_early" inherit "vehicle spa.common"}
 		{"elefant" inherit "vehicle td.ferdinand"}
 		{"sdkfz251d_23" inherit "vehicle vehicle.222"}
+		{"128mm_pak44" inherit "vehicle atgun.pak44"}
 
 
 
