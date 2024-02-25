@@ -17,7 +17,7 @@
 	("armor health" damage(100))
 	("37_slope_multipliers_800ms")
 	
-	("accuracy_direct" r1(0.83) range_ap(180) range_he(160) range_heat(110))
+	("accuracy_direct" r1(0.83) range_ap(180) range_he(180) range_heat(110))
 
 	; 37 psav-Vj4 K/36 pr
 	("penetration_medium" shell(ap) range(180) a(60) b(47) c(34) d(24) e(17))

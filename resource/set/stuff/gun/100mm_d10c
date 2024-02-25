@@ -31,5 +31,5 @@
 		("global velocity" gv(915))
 	}
 
-	("accuracy_direct" r1(0.55) range_ap(250) range_he(230) range_heat(230))
+	("accuracy_direct" r1(0.55) range_ap(250) range_he(250) range_heat(250))
 }

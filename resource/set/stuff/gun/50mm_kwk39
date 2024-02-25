@@ -31,5 +31,5 @@
 		{range 180 180}
 	}
 
-	("accuracy_direct_arrowhead" r1(0.80) range_ap(190) range_he(180) range_heat(130))
+	("accuracy_direct_arrowhead" r1(0.80) range_ap(190) range_he(190) range_heat(130))
 }

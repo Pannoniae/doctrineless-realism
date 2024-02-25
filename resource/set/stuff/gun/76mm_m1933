@@ -17,5 +17,5 @@
 	("penetration_medium" shell(apcr) range(190) a(143) b(104) c(69) d(46) e(31))	; issued in Oct. '43. 8 rounds per vehicle where the Germans were expected to attack. Spring '44 all vehicles had at least 4 rounds.
 
 
-	("accuracy_direct_arrowhead" r1(1.25) range_ap(190) range_he(190) range_heat(170))
+	("accuracy_direct_arrowhead" r1(1.25) range_ap(190) range_he(190) range_heat(190))
 }

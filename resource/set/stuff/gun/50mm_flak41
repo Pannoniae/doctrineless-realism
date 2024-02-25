@@ -24,7 +24,7 @@
 	; Pzgr.42
 	("penetration_medium" shell(apcbche) range(180) a(97) b(87) c(76) d(66) e(58))
 
-	("accuracy_direct" r1(0.8) range_ap(180) range_he(160) range_heat(1))
+	("accuracy_direct" r1(0.8) range_ap(180) range_he(180) range_heat(1))
 
 	{parameters "he"										; SPgGr.
 		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft

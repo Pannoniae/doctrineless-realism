@@ -27,7 +27,7 @@
 	{range 150 150}
 
 	{spreading 
-		{BurstAccuracy 100 90 80 70 60}
+		{BurstAccuracy 100 90 80}
 	}
 
 	{ZeroingAccuracy 0.9 0.8 0.75}

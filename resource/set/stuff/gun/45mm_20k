@@ -25,5 +25,5 @@
 	;BR-240P	; was available starting April 1942
 	("penetration_medium" shell(apcr) range(180) a(94) b(64) c(40) d(25) e(16))
 
-	("accuracy_direct_arrowhead" r1(1.10) range_ap(180) range_he(170) range_heat(160))
+	("accuracy_direct_arrowhead" r1(1.10) range_ap(180) range_he(180) range_heat(160))
 }

@@ -34,5 +34,5 @@
 		{range 180 180}
 	}
 
-	("accuracy_direct_arrowhead" r1(0.85) range_ap(190) range_he(180) range_heat(160)) ;// doesn't set range so HEAT doesnt matter
+	("accuracy_direct_arrowhead" r1(0.85) range_ap(190) range_he(190) range_heat(160)) ;// doesn't set range so HEAT doesnt matter
 }

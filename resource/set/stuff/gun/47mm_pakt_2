@@ -4,5 +4,5 @@
 
 
 {from "47mm_pakt"			; L/43 "panzerjager1"
-	("accuracy_direct_arrowhead" r1(1.02) range_ap(170) range_he(160) range_heat(160))
+	("accuracy_direct_arrowhead" r1(1.02) range_ap(180) range_he(180) range_heat(160))
 }

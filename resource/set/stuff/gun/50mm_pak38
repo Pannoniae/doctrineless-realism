@@ -10,7 +10,7 @@
 	("velocity m/s" ap(835) apcr(1150) he(550) heat(110))
 	("reload time" seconds(3.75))
 
-	("accuracy_direct_arrowhead" r1(0.80) range_ap(190) range_he(180) range_heat(120))
+	("accuracy_direct_arrowhead" r1(0.80) range_ap(190) range_he(190) range_heat(120))
 
 	; Steil.Gr.42
 	("penetration_short" shell(heat) range(120) a(180) b(180) c(180) d(180) e(180))

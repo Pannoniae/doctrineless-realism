@@ -31,5 +31,5 @@
 	("penetration_long" shell(hvap) range(230) a(373) b(335) c(296) d(261) e(231))
 
 
-	("accuracy_direct" r1(0.52) range_ap(230) range_he(220) range_heat(220))
+	("accuracy_direct" r1(0.52) range_ap(230) range_he(230) range_heat(220))
 }

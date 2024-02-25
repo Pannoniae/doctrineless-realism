@@ -25,8 +25,8 @@
 	("penetration_long" shell(apcr) range(230) a(265) b(234) c(199) d(170) e(145))
 
 	{parameters "he"
-		{range 220 220}
+		{range 230 230}
 	}
 
-	("accuracy_direct" r1(0.59) range_ap(230) range_he(220) range_heat(220))
+	("accuracy_direct" r1(0.59) range_ap(230) range_he(230) range_heat(230))
 }

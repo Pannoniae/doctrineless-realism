@@ -23,5 +23,5 @@
 	; Sprgr 145(f)
 	{parameters "he"}
 
-	("accuracy_direct" r1(0.62) range_ap(180) range_he(170) range_heat(170))
+	("accuracy_direct" r1(0.62) range_ap(180) range_he(180) range_heat(170))
 }

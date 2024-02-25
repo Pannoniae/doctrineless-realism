@@ -18,7 +18,7 @@
 	("armor health custom" shell(aphe) damage(100) filler(22))
 	("37_slope_multipliers")
 
-	("accuracy_direct_arrowhead" r1(0.93) range_ap(160) range_he(160) range_heat(110))
+	("accuracy_direct_arrowhead" r1(0.93) range_ap(180) range_he(180) range_heat(110))
 
 	; Pzgr.39
 	("penetration_medium" shell(aphe) range(180) a(49) b(40) c(30) d(23) e(18))
