@@ -194,7 +194,7 @@ msgid "<c(c3baae)>Light Mortar</c>"
 msgstr ""
 
 msgctxt "desc/entity/60mm_m2_late"
-msgid "60mm Mortar M2 (Late)"
+msgid "60mm Mortar M2"
 msgstr ""
 
 msgctxt "info/special/60mm_m2_late"
@@ -714,7 +714,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/m4_75_late"
-msgid "M4 (Late)"
+msgid "M4"
 msgstr ""
 
 msgctxt "info/special/m4_75_late"
@@ -1018,7 +1018,7 @@ msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/m10_gmc_late"
-msgid "3-inch GMC M10 (Late)"
+msgid "3-inch GMC M10"
 msgstr ""
 
 msgctxt "info/special/m10_gmc_late"
@@ -1074,7 +1074,7 @@ msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/m18_hellcat_late"
-msgid "76mm GMC M18 'Hellcat' (Late)"
+msgid "76mm GMC M18 'Hellcat'"
 msgstr ""
 
 msgctxt "info/special/m18_hellcat_late"

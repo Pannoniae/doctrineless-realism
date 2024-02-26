@@ -1730,4 +1730,7 @@
 	{"sdkfz251c_10"
 		{vehicle_view "sdkfz251c"}
 	}
+	{"sdkfz251_9"
+		{vehicle_view "sdkfz251c"}
+	}
 }

@@ -88,7 +88,7 @@ msgctxt "desc/squad/p47_500_late"
 msgid "P47 500lb Bomb"
 msgstr ""
 
-msgctxt "desc/squad/m2_50cal_tripod_ss"
+msgctxt "desc/squad/m2_30cal_tripod_ss"
 msgid ".30cal M1919A4"
 msgstr ""
 
@@ -138,4 +138,13 @@ msgstr ""
 
 msgctxt "desc/squad/blenheim_late"
 msgid "Blenheim Mk.1 250kg Bomb"
+msgstr ""
+
+
+msgctxt "desc/squad/willys_mb_30cal_ss"
+msgid "Willys MB (.30 cal)"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_50cal_ss"
+msgid "Willys MB (.50 cal)"
 msgstr ""

@@ -1547,3 +1547,11 @@ msgstr ""
 msgctxt "info/special/sdkfz6_ammo"
 msgid "<c(c3baae)>Ammo Halftrack</c>"
 msgstr ""
+
+msgctxt "desc/entity/sdkfz251_9"
+msgid "Sd.Kfz 251/9"
+msgstr ""
+
+msgctxt "info/special/sdkfz251_9"
+msgid "<c(c3baae)>Medium Halftrack</c>"
+msgstr ""
