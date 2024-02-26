@@ -620,7 +620,7 @@
 ("squad_with2types" side(rus) name(single_tankman)		period(late) year(late) cd(150) ci(0) g(single_crew)		c1(tank_commander:1) c2(tankman:3)		b(single) t())
 ("squad_with1types" side(rus) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic)	c1(medic:2) 								b(single) t(medic))
 ("squad_with1types" side(rus) name(single_sniper)		period(late) year(late) cd(120) ci(30) g(single_sniper)	c1(sniper:1) 							b(single) t(sniper))
-("squad_with1types" side(rus) name(single_officer)		period(late) year(late) cd(120) ci(0) g(single_officer)	c1(commisar:1)							b(single) t(officer))
+("squad_with1types" side(rus) name(single_officer)		period(late) year(late) cd(150) ci(150) g(single_officer)	c1(commisar:1)							b(single) t(officer))
 
 ;_________________________________________________
 ;|               Wheeled vehicles                 |

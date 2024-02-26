@@ -718,7 +718,7 @@
 ("squad_with2types" side(ger) name(single_tankman)		period(late) year(late) cd(150) ci(0) g(single_crew) c1(tank_commander:1) c2(tankman:4)	b(single) t())
 ("squad_with1types" side(ger) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic) c1(medic:2)						b(single) t(medic))
 ("squad_with1types" side(ger) name(single_sniper)		period(late) year(late) cd(120) ci(30) g(single_sniper) c1(sniper:1) 						b(single) t(sniper))
-("squad_with1types" side(ger) name(single_officer)		period(late) year(late) cd(120) ci(0) g(single_officer) c1(officer:1)					b(single) t(officer))
+("squad_with1types" side(ger) name(single_officer)		period(late) year(late) cd(150) ci(150) g(single_officer) c1(officer:1)					b(single) t(officer))
 
 ;_________________________________________________
 ;|               Wheeled vehicles                 |
@@ -789,7 +789,7 @@
 	cost(300))
 }
 {"sdkfz303b"
-	("vehicle"  period(late) year(late) cd(240) ci(10) t(light limit3) side(ger) crew(tankman:0) g(light1) b(supply) cw(0) cp(0)
+	("vehicle"  period(late) year(late) cd(240) ci(10) t(light limit3b) side(ger) crew(tankman:0) g(light1) b(supply) cw(0) cp(0)
 	cost(100))
 }
 

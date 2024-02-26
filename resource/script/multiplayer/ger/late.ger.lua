@@ -79,7 +79,7 @@ Purchases["late.ger"] = {
 				{priority = 1.0, type = {"Class2", "Tank", "Medium",}, unit = "panzer4h"},
 				{priority = 1.0, type = {"Class3", "Tank", "Medium",}, unit = "panzer5a"},
 
-				{priority = 1.0, type = {"Class2", "Tank", "Heavy",}, unit = "tiger1e"},
+				--{priority = 1.0, type = {"Class2", "Tank", "Heavy",}, unit = "tiger1e_ss"},
 				--]]
 
 			-- Self-Propelled Guns
@@ -97,93 +97,93 @@ Purchases["late.ger"] = {
 				--  All-round Doctrine
 					---[[
 					--{priority = 1.0, type = {"Class3", "Tier1", "Infantry",}, unit = "doctrine_squad_volksgrenadieredetach(ger)"},
-					{priority = 1.0, type = {"Class2", "Tier1", "Armored", "AA",}, unit = "sdkfz234_1"},
-					{priority = 1.0, type = {"Class1", "Tier1", "Armored", "AA",}, unit = "sdkfz234"},
+					{priority = 1.0, type = {"Class2", "Armored", "AA",}, unit = "sdkfz234_1"},
+					{priority = 1.0, type = {"Class1", "Armored", "AA",}, unit = "sdkfz234_2"},
 
 					--{priority = 1.0, type = {"Class", "Doctrine", "Tier2", "Infantry",}, unit = "doctrine_squad_ger_signaller_late(ger)"},
-					{priority = 1.0, type = {"Class2", "Tier2", "Cannon", "Mortar",}, unit = "200mm_ldgw40"},
-					{priority = 1.0, type = {"Class1", "Tier2", "Tank", "Medium", "AT",}, unit = "jagdpanzer4_l48"},
+					{priority = 1.0, type = {"Class2", "Cannon", "Mortar",}, unit = "200mm_ldgw40"},
+					{priority = 1.0, type = {"Class1", "Tank", "Medium", "AT",}, unit = "jagdpanzer4_l48"},
 
-					{priority = 1.0, type = {"Class3", "Tier3", "Cannon", "Artillery",}, unit = "105mm_sk18"},
-					{priority = 1.0, type = {"Class2", "Tier3", "Armored", "Artillery",}, unit = "sdkfz251d_1_stuka"},
-					{priority = 1.0, type = {"Class1", "Tier3", "Tank", "Medium", "AT",}, unit = "jagdpanther"},
+					{priority = 1.0, type = {"Class3", "Cannon", "Artillery",}, unit = "105mm_sk18"},
+					{priority = 1.0, type = {"Class2", "Armored", "Artillery",}, unit = "sdkfz251d_1_stuka"},
+					{priority = 1.0, type = {"Class1", "Tank", "Medium", "AT",}, unit = "jagdpanther"},
 					--]]
 
 				--  Defensive Doctrine
 					---[[
 					--{priority = 1.0, type = {"Class", "Doctrine", "Tier1", "Vehicle", "Unarmed", "Support", "Engineer",}, unit = "doctrine_kettenkrad_goliath_late"},
-					{priority = 1.0, type = {"Class2", "Tier1", "Cannon", "AA",}, unit = "37mm_flak37"},
-					{priority = 1.0, type = {"Class1", "Tier1", "Cannon", "Support",}, unit = "75mm_legebig18"},
+					{priority = 1.0, type = {"Class2", "Cannon", "AA",}, unit = "37mm_flak37"},
+					--{priority = 1.0, type = {"Class1", "Cannon", "Support",}, unit = "75mm_legebig18"},
 
-					{priority = 1.0, type = {"Class2", "Tier2", "Cannon", "Mortar",}, unit = "120mm_sgrw42"},
-					{priority = 1.0, type = {"Class1", "Tier2", "Cannon", "AA", "AT",}, unit = "88mm_flak36"},
-					{priority = 1.0, type = {"Class2", "Tier2", "Tank", "Medium", "AT",}, unit = "jagdpanzer4_l48_early"},
+					{priority = 1.0, type = {"Class2", "Cannon", "Mortar",}, unit = "120mm_sgrw42"},
+					{priority = 1.0, type = {"Class1", "Cannon", "AA", "AT",}, unit = "88mm_flak36"},
+					{priority = 1.0, type = {"Class2", "Tank", "Medium", "AT",}, unit = "jagdpanzer4_l48_early"},
 
-					{priority = 1.0, type = {"Class2", "Tier3", "Cannon", "Artillery",}, unit = "150mm_sfh18"},
-					{priority = 1.0, type = {"Class2", "Tier3", "Cannon", "Artillery",}, unit = "150mm_nebelwerfer41"},
-					{priority = 1.0, type = {"Class1", "Tier3", "Tank", "Heavy", "AT",}, unit = "ferdinand"},
+					{priority = 1.0, type = {"Class2", "Cannon", "Artillery",}, unit = "150mm_sfh18"},
+					{priority = 1.0, type = {"Class2", "Cannon", "Artillery",}, unit = "150mm_nebelwerfer41"},
+					--{priority = 1.0, type = {"Class1", "Tier3", "Tank", "Heavy", "AT",}, unit = "ferdinand_ss"},
 					--]]
 
 				--  Irregular Doctrine
-					---[[
+					--[[
 					--{priority = 1.0, type = {"Class3", "Tier1", "Infantry",}, unit = "doctrine_squad_brandenburger_late(ger)"},
-					{priority = 1.0, type = {"Class2", "Tier1", "Tank", "Light",}, unit = "panzer1f"},
-					{priority = 1.0, type = {"Class1", "Tier1", "Tank", "Medium",}, unit = "panzer3_flamm"},
+					{priority = 1.0, type = {"Class2", "Tank", "Light",}, unit = "panzer1f"},
+					{priority = 1.0, type = {"Class1", "Tank", "Medium",}, unit = "panzer3_flamm"},
 
 					--{priority = 1.0, type = {"Class", "Doctrine", "Tier2", "Plane", "Airstrike",}, unit = "doctrine_bf109_late"},
-					{priority = 1.0, type = {"Class1", "Tier2", "Cannon", "Support",}, unit = "150mm_sig33_late"},
-					{priority = 1.0, type = {"Class2", "Tier2", "Tank", "Medium",}, unit = "panzer4j"},
+					{priority = 1.0, type = {"Class1", "Cannon", "Support",}, unit = "150mm_sig33_late"},
+					{priority = 1.0, type = {"Class2", "Tank", "Medium",}, unit = "panzer4j"},
 
 					--{priority = 1.0, type = {"Class", "Doctrine", "Tier3", "Plane", "Airstrike",}, unit = "doctrine_bf110_late"},
-					{priority = 1.0, type = {"Class2", "Tier3", "Cannon", "Artillery",}, unit = "300mm_nebelwerfer42"},
-					{priority = 1.0, type = {"Class1", "Tier3", "Tank", "Heavy",}, unit = "tiger1hunt"},
+					{priority = 1.0, type = {"Class2", "Cannon", "Artillery",}, unit = "300mm_nebelwerfer42"},
+					{priority = 1.0, type = {"Class1", "Tank", "Heavy",}, unit = "tiger1hunt_ss"},
 					--]]
 
 				--  Offensive Doctrine
-					---[[
-					{priority = 1.0, type = {"Class3", "Tier1", "Armored", "MG",}, unit = "sdkfz250a_3"},
-					{priority = 1.0, type = {"Class2", "Tier1", "Tank", "Light",}, unit = "panzer2l"},
-					{priority = 1.0, type = {"Class2", "Tier1", "Tank", "Light", "AA",}, unit = "grille_m"},
+					--[[
+					{priority = 1.0, type = {"Class3", "Armored", "MG",}, unit = "sdkfz250a_3"},
+					{priority = 1.0, type = {"Class2", "Tank", "Light",}, unit = "panzer2l"},
+					{priority = 1.0, type = {"Class2", "Tank", "Light", "AA",}, unit = "grille_m_ss"},
 
 					--{priority = 1.0, type = {"Class3", "Tier2", "Infantry", "Tank", "Medium", "AT",}, unit = "doctrine_sturmartillerie_unit"},
-					{priority = 1.0, type = {"Class2", "Tier2", "Tank", "Medium",}, unit = "sturmpanzer4"},
-					{priority = 1.0, type = {"Class2", "Tier2", "Tank", "Light", "Artillery",}, unit = "wespe"},
+					{priority = 1.0, type = {"Class2", "Tank", "Medium",}, unit = "sturmpanzer4"},
+					{priority = 1.0, type = {"Class2", "Tank", "Light", "Artillery",}, unit = "wespe"},
 
-					{priority = 1.0, type = {"Class2", "Tier3", "Tank", "Medium",}, unit = "panzer5g"},
-					{priority = 1.0, type = {"Class3", "Tier3", "Tank", "Heavy",}, unit = "sturmtiger"},
-					{priority = 1.0, type = {"Class1", "Tier3", "Tank", "Heavy",}, unit = "tiger2h"},
+					{priority = 1.0, type = {"Class2", "Tank", "Medium",}, unit = "panzer5g"},
+					{priority = 1.0, type = {"Class3", "Tank", "Heavy",}, unit = "sturmtiger_ss"},
+					{priority = 1.0, type = {"Class1", "Tank", "Heavy",}, unit = "tiger2h_ss"},
 					--]]
 
 				--  Support Doctrine
-					---[[
+					--[[
 					--{priority = 1.0, type = {"Class", "Doctrine", "Tier1", "Infantry", "Team",}, unit = "doctrine_squad_ger_officer_lw_late(ger)"},
-					{priority = 1.0, type = {"Class2", "Tier1", "Tank", "Medium", "AA",}, unit = "wirbelwind"},
-					{priority = 1.0, type = {"Class3", "Tier1", "Tank", "Medium", "AA",}, unit = "ostwind"},
-					{priority = 1.0, type = {"Class2", "Tier1", "Armored", "AT",}, unit = "sdkfz234_3"},
+					{priority = 1.0, type = {"Class2", "Tank", "Medium", "AA",}, unit = "wirbelwind"},
+					{priority = 1.0, type = {"Class3", "Tank", "Medium", "AA",}, unit = "ostwind"},
+					{priority = 1.0, type = {"Class2", "Armored", "AT",}, unit = "sdkfz234_3"},
 
 					--{priority = 1.0, type = {"Class", "Doctrine", "Tier2", "Plane", "Recon",}, unit = "doctrine_fi156_late"},
-					{priority = 1.0, type = {"Class3", "Tier1", "Armored", "AT",}, unit = "sdkfz234_4"},
-					{priority = 1.0, type = {"Class2", "Tier2", "Tank", "Light", "Artillery",}, unit = "grille_k"},
+					{priority = 1.0, type = {"Class3", "Armored", "AT",}, unit = "sdkfz234_4"},
+					{priority = 1.0, type = {"Class2", "Tank", "Light", "Artillery",}, unit = "grille_k"},
 
-					{priority = 1.0, type = {"Class2", "Doctrine2", "Tier3", "Cannon", "AT",}, unit = "88mm_pak4341"},
-					{priority = 1.0, type = {"Class3", "Doctrine3", "Tier3", "Cannon", "Artillery",}, unit = 170mm_k18"},
-					{priority = 1.0, type = {"Class1", "Doctrine2", "Tier3", "Cannon", "Artillery",}, unit = "600mm_thor"},
-					{priority = 1.0, type = {"Class1", "Doctrine1", "Tier3", "Tank", "Heavy", "AT",}, unit = "jagdtiger"},
+					{priority = 1.0, type = {"Class2", "Cannon", "AT",}, unit = "88mm_pak4341"},
+					{priority = 1.0, type = {"Class3", "Cannon", "Artillery",}, unit = "170mm_k18_ss"},
+					{priority = 1.0, type = {"Class1", "Cannon", "Artillery",}, unit = "600mm_thor"},
+					{priority = 1.0, type = {"Class1", "Tank", "Heavy", "AT",}, unit = "jagdtiger_ss"},
 					--]]
 
 				--  All-Round 2 (WEST) Doctrine
-					---[[
-					{priority = 1.0, type = {"Class2", "Tier1", "Armored", "AA",}, unit = "sdkfz251d_17"},
-					{priority = 1.0, type = {"Class2", "Tier1", "Armored", "AA",}, unit = "sdkfz251d_21"},
-					{priority = 1.0, type = {"Class3", "Tier1", "Armored", "MG",}, unit = "sdkfz251d_16"},
+					--[[
+					{priority = 1.0, type = {"Class2", "Armored", "AA",}, unit = "sdkfz251d_17"},
+					{priority = 1.0, type = {"Class2", "Armored", "AA",}, unit = "sdkfz251d_21"},
+					{priority = 1.0, type = {"Class3", "Armored", "MG",}, unit = "sdkfz251d_16"},
 					
-					{priority = 1.0, type = {"Class2", "Tier2", "Armored", "AT",}, unit = "sdkfz251d_22"},
+					{priority = 1.0, type = {"Class2", "Armored", "AT",}, unit = "sdkfz251d_22"},
 					--{priority = 1.0, type = {"Class", "Doctrine", "Tier2", "Infantry",}, unit = "doctrine_squad_ger_signaller_2_late(ger)"},
 
-					{priority = 1.0, type = {"Class2", "Tier3", "Tank", "Medium", "AT",}, unit = "nashorn"},
-					{priority = 1.0, type = {"Class1", "Tier3", "Tank", "Medium", "Artillery",}, unit = "hummel"},
-					{priority = 1.0, type = {"Class2", "Tier3", "Armored", "Artillery",}, unit = "panzerwerfer42"},
-					{priority = 1.0, type = {"Class1", "Tier3", "Tank", "Heavy",}, unit = "tiger2p"},
+					{priority = 1.0, type = {"Class2", "Tank", "Medium", "AT",}, unit = "nashorn"},
+					{priority = 1.0, type = {"Class1", "Tank", "Medium", "Artillery",}, unit = "hummel"},
+					{priority = 1.0, type = {"Class2", "Armored", "Artillery",}, unit = "panzerwerfer42"},
+					--{priority = 1.0, type = {"Class1", "Tank", "Heavy",}, unit = "tiger2p_ss"},
 					--]]
 		
 		}

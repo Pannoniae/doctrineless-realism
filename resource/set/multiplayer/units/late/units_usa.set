@@ -477,7 +477,7 @@
 ("squad_with2types" side(usa) name(single_tankman)		period(late) year(late) cd(150) ci(0) g(single_crew) c1(tank_commander:1) c2(tankman:4)		b(single) t())
 ("squad_with1types" side(usa) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic) c1(medic:2)							b(single) t(medic))
 ("squad_with1types" side(usa) name(single_sniper)		period(late) year(late) cd(120) ci(30) g(single_sniper) c1(rifle_sniper:1) 					b(single) t(sniper))
-("squad_with1types" side(usa) name(single_officer)		period(late) year(late) cd(120) ci(0) g(single_officer) c1(officer_cpt:1)					b(single) t(officer))
+("squad_with1types" side(usa) name(single_officer)		period(late) year(late) cd(150) ci(150) g(single_officer) c1(officer_cpt:1)					b(single) t(officer))
 ("squad_with1types_man" side(usa) name(radioman_mortar) period(late) year(late) cd(300) ci(180) 	g(radioman) c1(101st_company_radio:1) cost(200) b(single) t(signaller))
 ("squad_with1types_man" side(usa) name(radioman_105) period(late) year(late) cd(420) ci(180) 	g(radioman) c1(late_fo_radio_105:1) cost(450)		b(single) t(signaller))
 ("squad_with1types_man" side(usa) name(radioman_155) period(late) year(late) cd(750) ci(180) 	g(radioman) c1(late_fo_radio_155:1) cost(500)		b(single) t(signaller))
