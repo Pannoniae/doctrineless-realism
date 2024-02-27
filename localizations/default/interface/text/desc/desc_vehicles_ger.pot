@@ -53,7 +53,7 @@ msgid "<c(c3baae)>Medium AA Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/37mm_pak36"
-msgid "3.7cm PaK 36"
+msgid "3.7cm Pak 36"
 msgstr ""
 
 msgctxt "info/special/37mm_pak36"
@@ -61,7 +61,7 @@ msgid "<c(c3baae)>Light AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/37mm_pak36_late"
-msgid "3.7cm PaK 36"
+msgid "3.7cm Pak 36"
 msgstr ""
 
 msgctxt "info/special/37mm_pak36_late"
@@ -69,7 +69,7 @@ msgid "<c(c3baae)>Light AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/47mm_pakt"
-msgid "4.7cm PaK 38(t)"
+msgid "4.7cm Pak 38(t)"
 msgstr ""
 
 msgctxt "info/special/47mm_pakt"
@@ -77,7 +77,7 @@ msgid "<c(c3baae)>Light AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/50mm_flak41"
-msgid "5cm FlaK 41"
+msgid "5cm Flak 41"
 msgstr ""
 
 msgctxt "info/special/50mm_flak41"
@@ -85,7 +85,7 @@ msgid "<c(c3baae)>Medium AA Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/50mm_pak38"
-msgid "5cm PaK 38"
+msgid "5cm Pak 38"
 msgstr ""
 
 msgctxt "info/special/50mm_pak38"
@@ -93,7 +93,7 @@ msgid "<c(c3baae)>Medium AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/50mm_pak38_late"
-msgid "5cm PaK 38"
+msgid "5cm Pak 38"
 msgstr ""
 
 msgctxt "info/special/50mm_pak38_late"
@@ -141,7 +141,7 @@ msgid "<c(c3baae)>Light Infantry Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/75mm_pak40"
-msgid "7.5cm PaK 40"
+msgid "7.5cm Pak 40"
 msgstr ""
 
 msgctxt "info/special/75mm_pak40"
@@ -149,7 +149,7 @@ msgid "<c(c3baae)>Medium AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/75mm_pak9738"
-msgid "7.5cm PaK 97/38"
+msgid "7.5cm Pak 97/38"
 msgstr ""
 
 msgctxt "info/special/75mm_pak9738"
@@ -157,7 +157,7 @@ msgid "<c(c3baae)>Medium AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/75mm_pak9738_late"
-msgid "7.5cm PaK 97/38"
+msgid "7.5cm Pak 97/38"
 msgstr ""
 
 msgctxt "info/special/75mm_pak9738_late"
@@ -189,7 +189,7 @@ msgid "<c(c3baae)>Medium Mortar</c>"
 msgstr ""
 
 msgctxt "desc/entity/88mm_flak18"
-msgid "8.8cm FlaK 18"
+msgid "8.8cm Flak 18"
 msgstr ""
 
 msgctxt "info/special/88mm_flak18"
@@ -197,7 +197,7 @@ msgid "<c(c3baae)>Heavy AA Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/88mm_flak36"
-msgid "8.8cm FlaK 36"
+msgid "8.8cm Flak 36"
 msgstr ""
 
 msgctxt "info/special/88mm_flak36"
@@ -205,7 +205,7 @@ msgid "<c(c3baae)>Heavy AA Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/88mm_pak43"
-msgid "8.8cm PaK 43"
+msgid "8.8cm Pak 43"
 msgstr ""
 
 msgctxt "info/special/88mm_pak43"
@@ -213,7 +213,7 @@ msgid "<c(c3baae)>Heavy AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/88mm_pak4341"
-msgid "8.8cm PaK 43/41"
+msgid "8.8cm Pak 43/41"
 msgstr ""
 
 msgctxt "info/special/88mm_pak4341"
@@ -221,7 +221,7 @@ msgid "<c(c3baae)>Heavy AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/128mm_pak44"
-msgid "12.8cm PaK 44/3"
+msgid "12.8cm Pak 44/3"
 msgstr ""
 
 msgctxt "info/special/128mm_pak44"
@@ -685,11 +685,19 @@ msgid "<c(c3baae)>Ammo Truck</c>"
 msgstr ""
 
 msgctxt "desc/entity/ostwind"
-msgid "FlakPz.IV 'Ostwind'"
+msgid "Flakpanzer IV 'Ostwind'"
 msgstr ""
 
 msgctxt "info/special/ostwind"
 msgid "<c(c3baae)>Medium AA</c>"
+msgstr ""
+
+msgctxt "desc/entity/kugelblitz"
+msgid "Flakpanzer IV 'Kugelblitz'"
+msgstr ""
+
+msgctxt "info/special/kugelblitz"
+msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/p204_f"
@@ -1085,7 +1093,7 @@ msgid "<c(c3baae)>AA Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz10_pak38"
-msgid "Sd.Kfz 10 mit 5cm PaK"
+msgid "Sd.Kfz 10 mit 5cm Pak"
 msgstr ""
 
 msgctxt "info/special/sdkfz10_pak38"
@@ -1381,7 +1389,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/wirbelwind"
-msgid "FlakPz.IV 'Wirbelwind'"
+msgid "Flakpanzer IV 'Wirbelwind'"
 msgstr ""
 
 msgctxt "info/special/wirbelwind"

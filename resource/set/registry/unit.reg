@@ -1733,4 +1733,7 @@
 	{"sdkfz251_9"
 		{vehicle_view "sdkfz251c"}
 	}
+	{"kugelblitz"
+		{vehicle_view "wirbelwind"}
+	}
 }

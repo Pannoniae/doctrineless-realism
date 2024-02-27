@@ -1,15 +1,4 @@
 {"tank"
-
-	{on "burst_mode"
-		{if tagged "full_auto_mode"
-			{tags remove "full_auto_mode"}
-			{damage_report "mgun" "Unit changed to burst mode"}
-		else
-			{tags add "full_auto_mode"}
-			{damage_report "mgun" "Unit changed to full auto mode"}
-		}
-	}
-	
 	{on spawn
 		{set "smoke1" 0}				;// used in burn_emit call
 		{set "smoke2" 0}				;// used in burn_emit call

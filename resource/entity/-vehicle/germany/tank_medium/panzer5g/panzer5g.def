@@ -85,6 +85,7 @@
 			{charger "charger"}
 			("abm_mgun")
 			{basic}
+			{ai_in_manual}
 		}
 		{place "mgun1"
 			{type "hull"}

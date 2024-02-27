@@ -173,6 +173,26 @@
 		{ani_play "open" -1.0 resume}
 	}
 }
+{"sdkfz250c_10 tank"
+	("hanomag_sound")
+
+	{on "event_no_crew" overload}
+	{on "event_with_crew" overload}
+
+	{on "gunner4_hatch_open" overload
+		{ani_play "mgun_aa_2" +1.0 resume}
+	}
+	{on "gunner4_hatch_close" overload
+		{ani_play "mgun_aa_2" -1.0 resume}
+	}
+
+	{on "spawn_shell_delay" overload
+		("shell_eject_delay" args 0.15 0.1)
+	}
+	{on "reload_delay" overload
+		("reload_time" args 2.0)
+	}
+}
 {"sdkfz250a_11 tank"
 	("hanomag_sound")
 
@@ -236,6 +256,28 @@
 	}
 	{on "gunner4_hatch_close" overload
 		{ani_play "mgun_aa_2" -1.0 resume}
+	}
+}
+{"sdkfz251_9 tank"
+	("hanomag_sound")
+	{on "add_weapon_sound" overload
+		("MG42")
+	}
+	
+	{on "event_no_crew" overload}
+	{on "event_with_crew" overload}
+	
+	{on "gunner2_hatch_open" overload
+		{ani_play "mgun_aa" +1.0 resume}
+	}
+	{on "gunner2_hatch_close" overload
+		{ani_play "mgun_aa" -1.0 resume}
+	}
+	{on "spawn_shell_delay" overload
+		("shell_eject_delay" args 1.0 0.3)
+	}
+	{on "reload_delay" overload
+		("reload_time" args 6)		;// weapon reload time
 	}
 }
 {"sdkfz251d_1_stuka tank"
@@ -1029,6 +1071,16 @@
 }
 {"ostwind tank"
 	("pz4_sound")
+	{on "add_weapon_sound" overload
+		("MG34")
+	}
+	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
+}
+{"kugelblitz tank"
+	("pz4_sound")
+	{on "init_gun"
+		{link_sound "bkg_auto" "weapon/shot/bkg/auto/"}
+	}
 	{on "add_weapon_sound" overload
 		("MG34")
 	}

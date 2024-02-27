@@ -1,0 +1,14 @@
+;_________________________________________
+; US Medium Mortar - 81mm
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarusa_81"}
+	{calibre 81}
+	("medium_mortar_range")
+	{parameters "he2 heavy"
+		{aimRange 210}
+		{maxRange 210}
+	}
+}

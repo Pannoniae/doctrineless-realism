@@ -25,11 +25,11 @@ msgid "2cm Flak 30 L/65"
 msgstr ""
 
 msgctxt "desc/weapon/20mm_flak38"
-msgid "2cm FlaK 38 L/112.5"
+msgid "2cm Flak 38 L/112.5"
 msgstr ""
 
 msgctxt "desc/weapon/20mm_flak38_x4"
-msgid "2cm FlaKvierling 38 L/112.5"
+msgid "2cm Flakvierling 38 L/112.5"
 msgstr ""
 
 msgctxt "desc/weapon/20mm_kwk30"
@@ -60,12 +60,16 @@ msgctxt "desc/weapon/30mm_mk103"
 msgid "3cm MK 103"
 msgstr ""
 
+msgctxt "desc/weapon/30mm_mk103_2"
+msgid "3cm Flakzwilling 103/38"
+msgstr ""
+
 msgctxt "desc/weapon/37mm_flak37"
-msgid "3.7cm FlaK 37 L/87"
+msgid "3.7cm Flak 37 L/87"
 msgstr ""
 
 msgctxt "desc/weapon/37mm_flak43"
-msgid "3.7cm FlaK 43 L/57"
+msgid "3.7cm Flak 43 L/57"
 msgstr ""
 
 msgctxt "desc/weapon/37mm_kwk34t"
@@ -85,7 +89,7 @@ msgid "3.7cm KwK 146(f) L/33"
 msgstr ""
 
 msgctxt "desc/weapon/37mm_pak35"
-msgid "3.7cm PaK L/46.5"
+msgid "3.7cm Pak L/46.5"
 msgstr ""
 
 msgctxt "desc/weapon/47mm_kwk173f"
@@ -117,11 +121,11 @@ msgid "5cm Le GrW 36"
 msgstr ""
 
 msgctxt "desc/weapon/50mm_pak38"
-msgid "5cm PaK 38 L/60"
+msgid "5cm Pak 38 L/60"
 msgstr ""
 
 msgctxt "desc/weapon/50mm_pak38_2"
-msgid "5cm PaK 38 L/60"
+msgid "5cm Pak 38 L/60"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_fk18"
@@ -161,19 +165,19 @@ msgid "7.5cm LG 40 L/15.5"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_pak39"
-msgid "7.5cm PaK 39 L/48"
+msgid "7.5cm Pak 39 L/48"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_pak40"
-msgid "7.5cm PaK 40 L/46"
+msgid "7.5cm Pak 40 L/46"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_pak40_2"
-msgid "7.5cm PaK 40 L/46"
+msgid "7.5cm Pak 40 L/46"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_pak9738"
-msgid "7.5cm PaK 97/38 L/34.5"
+msgid "7.5cm Pak 97/38 L/34.5"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_stuk37"
@@ -201,15 +205,15 @@ msgid "8cm GrW 34"
 msgstr ""
 
 msgctxt "desc/weapon/88mm_flak18"
-msgid "8.8cm FlaK 18 L/56"
+msgid "8.8cm Flak 18 L/56"
 msgstr ""
 
 msgctxt "desc/weapon/88mm_flak18_2"
-msgid "8.8cm FlaK 18 L/56"
+msgid "8.8cm Flak 18 L/56"
 msgstr ""
 
 msgctxt "desc/weapon/88mm_flak36"
-msgid "8.8cm FlaK 36 L/56"
+msgid "8.8cm Flak 36 L/56"
 msgstr ""
 
 msgctxt "desc/weapon/88mm_kwk36"
@@ -221,7 +225,7 @@ msgid "8.8cm KwK 43 L/71"
 msgstr ""
 
 msgctxt "desc/weapon/88mm_pak43"
-msgid "8.8cm PaK 43/1 L/71"
+msgid "8.8cm Pak 43/1 L/71"
 msgstr ""
 
 msgctxt "desc/weapon/100mm_nbw35"
@@ -253,15 +257,15 @@ msgid "12cm GrW 42"
 msgstr ""
 
 msgctxt "desc/weapon/128mm_pak44"
-msgid "12.8cm PaK 44 L/55"
+msgid "12.8cm Pak 44 L/55"
 msgstr ""
 
 msgctxt "desc/weapon/128mm_pak44_3"
-msgid "12.8cm PaK 44/3 L/55"
+msgid "12.8cm Pak 44/3 L/55"
 msgstr ""
 
 msgctxt "desc/weapon/128mm_pak80"
-msgid "12.8cm PaK 80 L/55"
+msgid "12.8cm Pak 80 L/55"
 msgstr ""
 
 msgctxt "desc/weapon/150mm_l11"
@@ -601,7 +605,7 @@ msgid "MG 151/15 (15mm)"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_pak42"
-msgid "7.5cm PaK 42 L/70"
+msgid "7.5cm Pak 42 L/70"
 msgstr ""
 
 msgctxt "desc/weapon/155mm_gpf_bunker"
