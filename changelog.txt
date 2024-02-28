@@ -1,0 +1,6 @@
+Into the Fire 0.1.0:
+ - Changed small arms ranges and increased their accuracy.
+ - Fixed a wrong price for the Jagdpanzer IV L/48.
+ - Reduced overly high SMG and MG damage.
+ - Corrections in localisation, notably in the capitalisation of unit names.
+ - Fixed German airstrikes dropping from American planes.

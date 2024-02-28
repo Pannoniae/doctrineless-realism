@@ -794,20 +794,20 @@
 }
 
 {"fi156_recon_late"
-	("vehicle_ss" side(ger) period(late) year(late) cd(450) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(150))
+	("vehicle_ss" side(ger) period(late) year(late) cd(450) ci(10) vehicle(fi156) crew(pilot:1) g(airstrike) b(supply) cost(150))
 	{action "airstrike:reconnaissance_50"} 
 	{tags "limit3"}
 }
 
 
 {"bf109_250_late"
-	("vehicle_ss" side(ger) period(late) year(late) cd(600) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(300))
+	("vehicle_ss" side(ger) period(late) year(late) cd(600) ci(10) vehicle(bf109_f4) crew(pilot:1) g(airstrike) b(supply) cost(300))
 	{action "airstrike:sc_50"}
 	{tags "limit3"}
 }
 
 {"bf110_500_late"
-	("vehicle_ss" side(ger) period(late) year(late) cd(900) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(650))
+	("vehicle_ss" side(ger) period(late) year(late) cd(900) ci(10) vehicle(bf110_e2) crew(pilot:1) g(airstrike) b(supply) cost(650))
 	{action "airstrike:sc_250_mp"}
 	{tags "limit3"}
 }
@@ -1160,19 +1160,19 @@
 }
 {"tiger2p_ss"
 	("vehicle2_ss" period(late) year(late) cd(1700) ci(10) t(heavy) side(ger) vehicle(tiger2p) crew1(tankman:4) crew2(tank_commander:1) g(heavy3) b(ht) cw(8) cp(40)
-	cost(2200)) ;// +35 for crew
+	cost(2000)) ;// +35 for crew
 }
 {"tiger2h_ss"
 	("vehicle2_ss" period(late) year(late) cd(1800) ci(10) t(heavy) side(ger) vehicle(tiger2h) crew1(tankman:4) crew2(tank_commander:1) g(heavy3) b(ht) cw(8) cp(40)
-	cost(2700)) ;// +35 for crew
+	cost(2400)) ;// +35 for crew
 }
 {"tiger2p"
 	("vehicle2" period(late) year(late) cd(1700) ci(10) t(heavy doctrineonly) side(ger) crew1(tankman:4) crew2(tank_commander:1) g(heavy3) b(ht) cw(8) cp(40)
-	cost(2200)) ;// +35 for crew
+	cost(2000)) ;// +35 for crew
 }
 {"tiger2h"
 	("vehicle2" period(late) year(late) cd(1800) ci(10) t(heavy doctrineonly) side(ger) crew1(tankman:4) crew2(tank_commander:1) g(heavy3) b(ht) cw(8) cp(40)
-	cost(2700)) ;// +35 for crew
+	cost(2400)) ;// +35 for crew
 }
 
 

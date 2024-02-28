@@ -1,5 +1,5 @@
 {mod
-	{name "Into The Fire Realism Mod 0.0.15 dev"}
+	{name "Into The Fire Realism Mod 0.1.1 dev"}
 	{tags "realism, mod, doctrines, gameplay"}
 	{desc "A realism mod to remove doctrines from the game."}
 	{minGameVersion "1.035"}

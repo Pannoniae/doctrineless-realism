@@ -21,7 +21,7 @@ msgid "<c(c3baae)>Medium AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/20mm_flak30"
-msgid "2cm FlaK 30"
+msgid "2cm Flak 30"
 msgstr ""
 
 msgctxt "info/special/20mm_flak30"
@@ -29,7 +29,7 @@ msgid "<c(c3baae)>Light AA Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/20mm_flak38"
-msgid "2cm FlaK 38"
+msgid "2cm Flak 38"
 msgstr ""
 
 msgctxt "info/special/20mm_flak38"
@@ -45,7 +45,7 @@ msgid "<c(c3baae)>Light AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/37mm_flak37"
-msgid "3.7cm FlaK 37"
+msgid "3.7cm Flak 37"
 msgstr ""
 
 msgctxt "info/special/37mm_flak37"
@@ -461,7 +461,7 @@ msgid "<c(c3baae)>Engineering Truck</c>"
 msgstr ""
 
 msgctxt "desc/entity/blitz3_6_flak30"
-msgid "FlaK 30 (Sf.) auf Opel Blitz"
+msgid "Flak 30 (Sf.) auf Opel Blitz"
 msgstr ""
 
 msgctxt "info/special/blitz3_6_flak30"
@@ -1069,7 +1069,7 @@ msgid "<c(c3baae)>AA Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz8_flak18"
-msgid "8.8 cm FlaK 18 (Sfl.) auf SdKfz 8"
+msgid "8.8 cm Flak 18 (Sfl.) auf SdKfz 8"
 msgstr ""
 
 msgctxt "info/special/sdkfz8_flak18"

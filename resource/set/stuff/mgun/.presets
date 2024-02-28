@@ -126,7 +126,7 @@
 )
 
 (define "airborne_mg"
-	{range 140 140}
+	{range 130 130}
 	(mod not "mp"
 		{range 300 500}
 	)

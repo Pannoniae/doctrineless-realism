@@ -22,12 +22,12 @@
 	("reload time" seconds(4.5))
 
 	{spreading
-		{BurstAccuracy 100 95 90 85 80 75 70 40 30}
+		{BurstAccuracy 100 95 90 85 80 75 70 65 60}
 		{SpreadXYRatio	1.5}
 	}
 	{FiringTimeout 1.25 0.25}
 
-	("human health" damage(80))
+	("human health" damage(55))
 	("penetration" args 4)
 	("armor health" damage(2))
 

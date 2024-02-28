@@ -14,7 +14,7 @@
 	{cursor "ironsights/mg"}
 	{cursorReloading "carbine_reload"}
 
-	{range 150 150}
+	{range 130 130}
 
 	{curve "bullet_mg"}
 
@@ -29,7 +29,7 @@
 
 	;//{aimingTolerance 2}
 
-	("human health" damage(140))
+	("human health" damage(100))
 
 	("accuracy_mg")
 
