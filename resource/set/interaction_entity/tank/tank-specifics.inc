@@ -280,6 +280,26 @@
 		("reload_time" args 6)		;// weapon reload time
 	}
 }
+{"sdkfz251c_10 tank"
+	("hanomag_sound")
+
+	{on "event_no_crew" overload}
+	{on "event_with_crew" overload}
+
+	{on "gunner4_hatch_open" overload
+		{ani_play "mgun_aa_2" +1.0 resume}
+	}
+	{on "gunner4_hatch_close" overload
+		{ani_play "mgun_aa_2" -1.0 resume}
+	}
+
+	{on "spawn_shell_delay" overload
+		("shell_eject_delay" args 1.5 0.25)
+	}
+	{on "reload_delay" overload
+		("reload_time" args 2.0)
+	}
+}
 {"sdkfz251d_1_stuka tank"
 	("hanomag_sound")
 

@@ -88,7 +88,7 @@
 			{charger "gunner4"}
 			{LinkBone "mgun2"}
 			{LinkAnimation "off"}
-			("abm_mgun")
+			("abm_mgun_noik")
 			{ai_in_manual}
 			{basic}
 		}

@@ -148,3 +148,7 @@ msgstr ""
 msgctxt "desc/squad/willys_mb_50cal_ss"
 msgid "Willys MB (.50 cal)"
 msgstr ""
+
+msgctxt "desc/squad/single_engineer_heavy(fin)"
+msgid "Heavy Field Engineers"
+msgstr ""

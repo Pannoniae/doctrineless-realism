@@ -421,6 +421,7 @@
 ("squad_with1types" side(fin) name(single_ap_miner)		period(late) year(late) cd(0)   ci(0)  g(single_apmine)	c1(engineer_mine_ap:3)				b(single) t(engineer))
 ("squad_with1types" side(fin) name(single_at_miner)		period(late) year(late) cd(0)   ci(0)  g(single_atmine)	c1(engineer_mine_at:3)				b(single) t(engineer))
 ("squad_with1types" side(fin) name(single_engineer)		period(late) year(late) cd(0)   ci(0)  g(single_eng)		c1(engineer_builder:2)				b(single) t(engineer))
+("squad_with1types" side(fin) name(single_engineer_heavy) period(late) year(late) cd(0)   ci(0)  g(single_eng)		c1(engineer_heavy:2)				b(single) t(engineer))
 ("squad_with1types" side(fin) name(single_flamer)		period(late) year(late) cd(0)   ci(60)  g(single_flamer)	c1(engineer_flamer:1)				b(single) t(flamer))
 ("squad_with2types" side(fin) name(single_tankman)		period(late) year(late) cd(150) ci(0) g(single_crew)		c1(tank_commander:1) c2(tankman:4)	b(single) t())
 ("squad_with1types" side(fin) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic)	c1(medic:2)							b(single) t(medic))

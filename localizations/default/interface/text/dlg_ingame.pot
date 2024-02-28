@@ -1736,7 +1736,7 @@ msgid "Show/hide event history."
 msgstr ""
 
 msgctxt "weapon_view/ammo_type"
-msgid "<f(anka)s(12)x.><c(%1%)>%2%"
+msgid "<f(arial_hq)s(8)x.><c(%1%)>%2%"
 msgstr ""
 
 msgctxt "actionbar/transfer"
