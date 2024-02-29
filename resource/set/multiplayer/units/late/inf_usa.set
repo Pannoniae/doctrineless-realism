@@ -82,7 +82,7 @@
 
 {"mp/usa/late/pilot"				("inf_tankman" side(usa) cost(0.0))}
 
-{"mp/usa/late/medic"				("inf_medic" side(usa) cost(40.0))}
+{"mp/usa/late/medic"				("inf_medic" side(usa) cost(25.0))}
 
 {"mp/usa/late/officer_cpt"			("inf_officer" side(usa) cost(125.0))}
 

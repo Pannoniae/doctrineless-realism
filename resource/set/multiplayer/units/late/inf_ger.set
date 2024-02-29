@@ -65,7 +65,7 @@
 {"mp/ger/late/tank_commander_ace"			("inf_tankman" side(ger) period(late) cost(15.0))}
 {"mp/ger/late/pilot"						("inf_tankman" side(ger) period(late) cost(0.0))}
 
-{"mp/ger/late/medic"						("inf_medic" side(ger) period(late) cost(40.0))}
+{"mp/ger/late/medic"						("inf_medic" side(ger) period(late) cost(25.0))}
 
 {"mp/ger/late/officer"						("inf_officer" side(ger) period(late) cost(125.0))}
 {"mp/ger/late/officer_lw"					("inf_officer" side(ger) period(late) cost(150.0))}

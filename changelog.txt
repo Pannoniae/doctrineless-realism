@@ -1,2 +1,5 @@
-Into the Fire 0.1.2:
- - Fixed Heavy Engineers not showing up.
+Into the Fire 0.1.3:
+ - Fixed the range of the Super Pershing.
+ - Adjusted Osnaz squad to be more useful.
+ - Increased the score in Battle Zones to be 2500. Point has has been scaled up accordingly.
+ - A few minor fixes.

@@ -11,7 +11,7 @@
 	}
 	{perks
 		(include "ability.inc")
-		("smg_skill_rank_4")("tier4_standard")
+		("rifle_skill_rank_4")("tier4_standard")
 		("stealth")
 	}
 	{veterancy
@@ -19,8 +19,9 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "pps43" filled}
-		{item "pps_stick ammo" 210}
+		{item "svt40" filling "rifle_rus svt ammo" 10}
+		{item "rifle_rus svt ammo" 20}
+		{item "rifle_rus clip ammo" 60 10}
 
 		{item "nagant_silencer" filled}
 		{item "revolver_clip ammo" 14 7}

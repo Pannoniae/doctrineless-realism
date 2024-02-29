@@ -22,14 +22,14 @@
 	("90_slope_multipliers")
 
 	; AP T43, T33 APBC shot		;// extreme lack of penetration due to shattering, great performance at angles
-	("penetration_long" shell(apbc) range(230) a(177) b(172) c(167) d(161) e(156))
+	("penetration_long" shell(apbc) range(250) a(177) b(172) c(167) d(161) e(156))
 
 	; APC T41
-	("penetration_long" shell(apcbche) range(230) a(215) b(205) c(193) d(182) e(171))
+	("penetration_long" shell(apcbche) range(250) a(215) b(205) c(193) d(182) e(171))
 
 	; HVAP T44
-	("penetration_long" shell(hvap) range(230) a(373) b(335) c(296) d(261) e(231))
+	("penetration_long" shell(hvap) range(250) a(373) b(335) c(296) d(261) e(231))
 
 
-	("accuracy_direct" r1(0.52) range_ap(230) range_he(220) range_heat(220))
+	("accuracy_direct" r1(0.52) range_ap(250) range_he(240) range_heat(240))
 }

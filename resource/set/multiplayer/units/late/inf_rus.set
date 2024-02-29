@@ -61,7 +61,7 @@
 {"mp/rus/late/tankman_ace"					("inf_tankman" side(ger) cost(8.0))}
 {"mp/rus/late/tank_commander_ace"			("inf_tankman" side(ger) cost(15.0))}
 
-{"mp/rus/late/medic"						("inf_medic" side(rus) period(late) cost(40.0))}
+{"mp/rus/late/medic"						("inf_medic" side(rus) period(late) cost(25.0))}
 
 {"mp/rus/late/commisar"						("inf_officer" side(rus) period(late) cost(125.0))}
 {"mp/rus/late/commisar2"					("inf_officer" side(rus) period(late) cost(150.0))}
