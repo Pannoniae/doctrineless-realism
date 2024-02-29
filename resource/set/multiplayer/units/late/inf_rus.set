@@ -294,3 +294,5 @@
 {"mp/rus/late/spetsnaz_3"					("inf_tier4" side(rus) period(late) cost(30.0))} ; pps43
 {"mp/rus/late/spetsnaz_4"					("inf_tier4" side(rus) period(late) cost(60.0))} ; dp27
 {"mp/rus/late/spetsnaz_5"					("inf_tier4" side(rus) period(late) cost(80.0))} ; bazooka + pps43
+{"mp/rus/late/spetsnaz_sniper"				("inf_tier4" side(rus) period(late) cost(180.0))}
+

@@ -745,6 +745,10 @@ msgctxt "desc/human/mp/rus/late/spetsnaz_5"
 msgid "Recon AT Special Ops"
 msgstr ""
 
+msgctxt "desc/human/mp/rus/late/spetsnaz_sniper"
+msgid "Recon Sniper Special Ops"
+msgstr ""
+
 msgctxt "desc/human/mp/rus/late/tank_commander"
 msgid "Tank commander"
 msgstr ""
