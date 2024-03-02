@@ -1,2 +1,4 @@
-Into the Fire 0.1.5:
- - Increased total points in Battle Zones to 10000. Point gain is scaled accordingly so the length of the match stays the same.
+Into the Fire 0.1.6:
+ - Fixed some timers.
+ - Fixed the default points in Battle Zones.
+ - Fixed German AI.

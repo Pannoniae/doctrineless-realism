@@ -1073,7 +1073,7 @@
 	cost(350))
 }
 {"sdkfz7_2"
-	("vehicle2" period(late) year(late) cd(0) ci(0) g(wheel6) side(ger) t(vehicle) crew1(tankman:3) crew2(tank_commander:1) b(lt) cw(2) cp(12)
+	("vehicle2" period(late) year(late) cd(480) ci(10) g(wheel6) side(ger) t(vehicle) crew1(tankman:3) crew2(tank_commander:1) b(lt) cw(2) cp(12)
 	cost(350))
 }
 ; timers are gimped on this one so german players actually buy tanks and not just fag halftracks

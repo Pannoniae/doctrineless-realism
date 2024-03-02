@@ -51,7 +51,7 @@ Purchases["late.ger"] = {
 				---[[
 				{priority = 1.0, type = {"Class3", "Vehicle", "MG",}, unit = "bmw_r71"},
 				{priority = 1.0, type = {"Class3", "Vehicle", "MG",}, unit = "kubelwagen_mg"},
-				{priority = 1.0, type = {"Class1", "Vehicle", "AA",}, unit = "blitz3_6_flak30"},
+				--{priority = 1.0, type = {"Class1", "Vehicle", "AA",}, unit = "blitz3_6_flak30"},
 
 				{priority = 1.0, type = {"Class2", "Armored", "MG",}, unit = "sdkfz221"},
 				{priority = 1.0, type = {"Class3", "Armored", "AA",}, unit = "sdkfz222a"},
@@ -117,7 +117,7 @@ Purchases["late.ger"] = {
 
 					{priority = 1.0, type = {"Class2", "Cannon", "Mortar",}, unit = "120mm_sgrw42"},
 					{priority = 1.0, type = {"Class1", "Cannon", "AA", "AT",}, unit = "88mm_flak36"},
-					{priority = 1.0, type = {"Class2", "Tank", "Medium", "AT",}, unit = "jagdpanzer4_l48_early"},
+					--{priority = 1.0, type = {"Class2", "Tank", "Medium", "AT",}, unit = "jagdpanzer4_l48_early"},
 
 					{priority = 1.0, type = {"Class2", "Cannon", "Artillery",}, unit = "150mm_sfh18"},
 					{priority = 1.0, type = {"Class2", "Cannon", "Artillery",}, unit = "150mm_nebelwerfer41"},
