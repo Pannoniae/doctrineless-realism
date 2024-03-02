@@ -1,11 +1,2 @@
-Into the Fire 0.1.4:
- - Fixed Conquest mode crashing on the research screen.
- - Added new units to Conquest.
- - Restored vanilla HP values for elite units which died too quickly.
- - Fixed artillery ridiculously over/undershooting.
- - Changed artillery accuracies to be more consistent and useful.
- - Added Sturmpanzer II to Germany.
- - Added StuIG33 to Germany.
- - Added M6 Fargo to USA.
- - Slightly nerfed mortar accuracy.
- - Massively reduced the 170mm Minenwerfer's range and massively decreased its accuracy.
+Into the Fire 0.1.5:
+ - Increased total points in Battle Zones to 10000. Point gain is scaled accordingly so the length of the match stays the same.
