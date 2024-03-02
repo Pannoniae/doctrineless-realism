@@ -1,4 +1,2 @@
-Into the Fire 0.1.6:
- - Fixed some timers.
- - Fixed the default points in Battle Zones.
- - Fixed German AI.
+Into the Fire 0.1.7:
+ - Fixed some units.
