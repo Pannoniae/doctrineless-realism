@@ -32,7 +32,7 @@
 
 (define "medium_mortar_range"
 	{spreading
-		{radiusTable {0 5} {180 10} {259.99 20} {260 100}}
+		{radiusTable {0 5} {180 12.5} {259.99 25} {260 100}}
 	}
 
 	{aimRange 260}
@@ -86,12 +86,12 @@
 
 (define "super_heavy_mortar_range"
 	{spreading 
-		{radiusTable {0 5} {249.99 25} {250 100}}
+		{radiusTable {0 5} {179.99 45} {180 100}}
 	}
 
-	{aimRange 250}
+	{aimRange 180} ; the 170mm minenwerfer was a ww1 weapon with like 400m range. come on it won't fire too far
 	{minRange 25}
-	{maxRange 250}
+	{maxRange 180}
 	("reload time" seconds(10))
 
 	{parameters "he"

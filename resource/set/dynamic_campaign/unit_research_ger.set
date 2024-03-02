@@ -104,6 +104,7 @@
 	{"75mm_pak9738"	requires	"50mm_pak38"		costs 2  position 5 31}
 	{"75mm_pak40"	requires	"75mm_pak9738"		costs 3  position 6 31}
 	{"88mm_pak4341"	requires	"75mm_pak40"		costs 6  position 8 31} ;//SE, LIB
+	{"128mm_pak44"		requires	"88mm_pak4341"		costs 9  position 10 31}
 
 ;//---Infantry Guns---
 	{"75mm_lg40"		requires 	"squad_fallschirmjaeger_con(ger)"	costs 2  position 7 16}
@@ -191,10 +192,10 @@
 	{"pz38t_f"				requires	"pz38t_a"		costs 1  position 1 50}
 	{"pz38t_g"				requires	"pz38t_f"		costs 1  position 2 50}
 	{"marder3m"				requires	"pz38t_g"		costs 2  position 3 50}
-	{"grille_m"				requires	"grille_k"		costs 0  position 5 49}
-	{"grille_k"				requires	"marder3m"		costs 2  position 4 49}
-	{"hetzer"				requires	"marder3m stug3g" 	costs 2  position 4 50}
-	{"wespe"				requires	"105mm_lefh18m"		costs 2  position 2 35}
+	{"grille_m"				requires	"marder3m"		costs 2  position 3 49}
+	{"grille_k"				requires	"marder3m"		costs 2  position 4 49} ;//SE
+	{"hetzer"				requires	"marder3m stug3g" costs 2  position 4 50}
+	{"wespe"				requires	"105mm_lefh18m"	costs 2  position 2 34}
 ;TOTAL:
 
 
@@ -218,6 +219,7 @@
 	{"stug3g_late"			requires	"stug3g"		costs 4  position 5 53}
 	{"stuh42"				requires	"stug3g"		costs 4  position 5 52}
 
+	{"hummel"				requires	"150mm_sfh18"	costs 3  position 6 34} ;//LIB
 	{"nashorn"				requires	"88mm_pak4341"	costs 4  position 8 30} ;//LIB
 
 	{"panzer4d"				requires	"panzer3f"		costs 3  position 1 57}
@@ -246,22 +248,18 @@
 
 	{"tiger1h"				requires	"panzer4h"		costs 8  position 5 62}
 	{"ferdinand"			requires	"tiger1h"		costs 10 position 5 64}
-	{"tiger1e"				requires	"tiger1mid"		costs 3  position 7 62}
-	{"tiger1hunt"			requires	"tiger1e"		costs 5  position 8 63}
-	{"sturmtiger"			requires	"tiger1e"		costs 10 position 7 65}
-	{"tiger2p"				requires	"tiger1e"		costs 10 position 9 62}
-	{"tiger2h"				requires	"tiger2p"		costs 6  position 9 63}
-	{"jagdtiger"			requires	"tiger2h"		costs 6  position 9 65} ;//SE, LIB
+	{"tiger1e"				requires	"tiger1h"		costs 9  position 6 62}
+	{"tiger1hunt"			requires	"tiger1e"		costs 5  position 7 63}
+	{"sturmtiger"			requires	"tiger1e"		costs 10 position 6 65}
+	{"tiger2p"				requires	"tiger1e"		costs 10 position 8 62}
+	{"tiger2h"				requires	"tiger2p"		costs 6  position 8 63}
+	{"jagdtiger"			requires	"tiger2h"		costs 6  position 8 64} ;//SE, LIB
 ;TOTAL:
 
 ;//---BK---
-	{"tiger1mid"				requires	"tiger1h"		costs 7  position 6 62}
-	{"tiger1mid#aa"				requires	"tiger1mid"		costs 1  position 6 63}
 	{"munitionspanzer38t"			requires	"grille_k"		costs 0  position 4 48} ;//SE
 	{"105mm_lefh18m"			requires	"105mm_lefh18"		costs 1  position 2 34}
 	{"flammpanzer38t"			requires	"hetzer" 		costs 1  position 5 50}
-	{"hummel_early"				requires	"150mm_sfh18"	costs 4  position 6 34} ;//LIB
-	{"hummel"				requires	"hummel_early"	costs 1  position 7 34} ;//LIB
 	{"elefant"				requires	"ferdinand"		costs 2 position 5 65}
 ;TOTAL:
 

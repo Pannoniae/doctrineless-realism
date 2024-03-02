@@ -129,7 +129,7 @@ msgid "2.8cm SprGr.41 [<c(ff1200)>HE</c>]"
 msgstr ""
 
 msgctxt "desc/ammo/bulletger_30_auto apcr"
-msgid "3cm Pzgr.40 [<c(48c445)>APCR</c>] "
+msgid "3cm PzGr.40 [<c(48c445)>APCR</c>] "
 msgstr ""
 
 msgctxt "desc/ammo/bulletger_30_auto he"

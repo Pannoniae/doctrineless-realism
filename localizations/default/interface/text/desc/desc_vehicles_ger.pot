@@ -1563,3 +1563,12 @@ msgstr ""
 msgctxt "info/special/sdkfz251_9"
 msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
+
+
+msgctxt "desc/entity/bison2"
+msgid "Sturmpanzer II 'Bison'"
+msgstr ""
+
+msgctxt "info/special/bison2"
+msgid "<c(c3baae)>Light Assault Gun</c>"
+msgstr ""

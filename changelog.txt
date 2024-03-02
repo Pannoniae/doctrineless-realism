@@ -1,5 +1,11 @@
-Into the Fire 0.1.3:
- - Fixed the range of the Super Pershing.
- - Adjusted Osnaz squad to be more useful.
- - Increased the score in Battle Zones to be 2500. Point has has been scaled up accordingly.
- - A few minor fixes.
+Into the Fire 0.1.4:
+ - Fixed Conquest mode crashing on the research screen.
+ - Added new units to Conquest.
+ - Restored vanilla HP values for elite units which died too quickly.
+ - Fixed artillery ridiculously over/undershooting.
+ - Changed artillery accuracies to be more consistent and useful.
+ - Added Sturmpanzer II to Germany.
+ - Added StuIG33 to Germany.
+ - Added M6 Fargo to USA.
+ - Slightly nerfed mortar accuracy.
+ - Massively reduced the 170mm Minenwerfer's range and massively decreased its accuracy.

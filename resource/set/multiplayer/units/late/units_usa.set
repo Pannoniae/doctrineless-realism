@@ -518,6 +518,10 @@
 	("vehicle2"  period(late) year(late) cd(45) ci(10) g(supply2) side(usa) t(vehicle) crew1(driver:1) crew2(mg_crew:1) b(supply) cw(1) cp(2)
 	cost(110))
 }
+{"m6_gmc"
+	("vehicle2"  period(late) year(late) cd(90) ci(30) g(wheel9) side(usa) t(vehicle) crew1(driver:1) crew2(crew:3) b(supply) cw(1) cp(8)
+	cost(250))
+}
 {"cckw"
 	("vehicle"  period(late) year(late) cd(0) ci(0) g(supply3) side(usa) t(vehicle) crew(driver:1) b(supply) cw(1) cp(2)
 	cost(25))

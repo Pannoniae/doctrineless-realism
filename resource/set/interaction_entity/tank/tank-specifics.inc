@@ -1449,6 +1449,18 @@
 	}
 }
 
+{"bison2 tank"
+	{on "add_movement_sound" overload
+		{link_sound "engine_start"		"vehicle/engine/pz2/start"}
+		{link_sound "engine_stop"		"vehicle/engine/pz2/stop"}
+		{link_sound "engine_idle"		"vehicle/engine/pz2/idle"}
+		{link_sound "engine_full"		"vehicle/engine/pz2/full"}
+		{link_sound "exhaust"			"vehicle/engine/pz2/exhaust"}
+		{link_sound "move"				"vehicle/tracks/pz2/"}
+		{link_sound "rotate_turret"		"vehicle/turret/gun/gun_horizontal"}
+	}
+}
+
 ;/*=========== German Vehicles End ===========*/
 
 ;/*=========== Soviet Vehicles Begin ===========*/

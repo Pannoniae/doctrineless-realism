@@ -269,7 +269,7 @@ msgid "12.8cm Pak 80 L/55"
 msgstr ""
 
 msgctxt "desc/weapon/150mm_l11"
-msgid "15cm Stu IG L/11"
+msgid "15cm sIG 33/1 L/11"
 msgstr ""
 
 msgctxt "desc/weapon/150mm_nebelwerfer"

@@ -1736,4 +1736,7 @@
 	{"kugelblitz"
 		{vehicle_view "wirbelwind"}
 	}
+	{"bison2"
+		{vehicle_view "bison2"}
+	}
 }

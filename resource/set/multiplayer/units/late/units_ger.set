@@ -949,6 +949,14 @@
 	("vehicle2" period(late) year(late) cd(900) ci(10) t(light) side(ger) crew1(tankman_stug:3) crew2(tank_commander_stug:1) g(spg6) b(art) cw(6) cp(34)
 	cost(900)) ;// +35 for crew
 }
+{"bison2"
+	("vehicle2" period(late) year(late) cd(820) ci(10) t(medium) side(ger) crew1(tankman_stug:4) crew2(tank_commander_stug:1) g(spg4) b(art) cw(6) cp(30)
+	cost(725))
+}
+{"sig33b"
+	("vehicle2" period(late) year(late) cd(820) ci(10) t(medium) side(ger) crew1(tankman_stug:4) crew2(tank_commander_stug:1) g(spg4) b(art) cw(6) cp(30)
+	cost(750))
+}
 {"sturmpanzer4"
 	("vehicle2" period(late) year(late) cd(900) ci(10) t(medium) side(ger) crew1(tankman_stug:4) crew2(tank_commander_stug:1) g(spg6) b(art) cw(6) cp(34)
 	cost(1000)) ;// +35 for crew
@@ -1020,10 +1028,10 @@
 	("vehicle2" period(late) year(late) cd(320) ci(10) g(wheel4) side(ger) t(vehicle) crew1(tankman_scout:1) crew2(tank_commander_scout:1) b(lt) cw(2) cp(4)
 	cost(180))
 }
-{"blitz3_6_flak30"
-	("vehicle2" period(late) year(late) cd(350) ci(10) g(wheel5) side(ger) t(vehicle) crew1(tankman:3) crew2(tank_commander:1) b(lt) cw(2) cp(8)
-	cost(200))
-}
+;{"blitz3_6_flak30"
+;	("vehicle2" period(late) year(late) cd(350) ci(10) g(wheel5) side(ger) t(vehicle) crew1(tankman:3) crew2(tank_commander:1) b(lt) cw(2) cp(8)
+;	cost(200))
+;}
 {"sdkfz222a"
 	("vehicle2" period(late) year(late) cd(380) ci(10) g(wheel8) side(ger) t(vehicle) crew1(tankman_scout:2) crew2(tank_commander_scout:1) b(lt) cw(2) cp(8)
 	cost(220))
@@ -1062,6 +1070,10 @@
 }
 {"sdkfz234_3"
 	("vehicle2" period(late) year(late) cd(480) ci(10) g(wheel10) side(ger) t(vehicle) crew1(tankman_scout:3) crew2(tank_commander_scout:1) b(lt) cw(2) cp(18)
+	cost(350))
+}
+{"sdkfz7_2"
+	("vehicle2" period(late) year(late) cd(0) ci(0) g(wheel6) side(ger) t(vehicle) crew1(tankman:3) crew2(tank_commander:1) b(lt) cw(2) cp(12)
 	cost(350))
 }
 ; timers are gimped on this one so german players actually buy tanks and not just fag halftracks
