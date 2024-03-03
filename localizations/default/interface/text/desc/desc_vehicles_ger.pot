@@ -53,7 +53,7 @@ msgid "<c(c3baae)>Medium AA Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/37mm_pak36"
-msgid "3.7cm Pak 36"
+msgid "3.7cm Pak"
 msgstr ""
 
 msgctxt "info/special/37mm_pak36"
@@ -61,7 +61,7 @@ msgid "<c(c3baae)>Light AT Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/37mm_pak36_late"
-msgid "3.7cm Pak 36"
+msgid "3.7cm Pak"
 msgstr ""
 
 msgctxt "info/special/37mm_pak36_late"

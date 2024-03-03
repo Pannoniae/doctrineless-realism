@@ -1,2 +1,3 @@
-Into the Fire 0.1.7:
- - Fixed some units.
+Into the Fire 0.1.8:
+ - Decreased artillery accuracy.
+ - Added bigger timers for snipers and single-buy machine guns.
