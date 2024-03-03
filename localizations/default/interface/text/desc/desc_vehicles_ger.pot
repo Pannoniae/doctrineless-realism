@@ -1373,7 +1373,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/tiger2h"
-msgid "Pz.VI Ausf.B Tiger II 'Henschel turret'"
+msgid "Pz.VI Ausf.B Tiger II (Serienturm)"
 msgstr ""
 
 msgctxt "info/special/tiger2h"
@@ -1381,7 +1381,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/tiger2p"
-msgid "Pz.VI Ausf.B Tiger II 'Porsche turret'"
+msgid "Pz.VI Ausf.B Tiger II (Vorserienturm)"
 msgstr ""
 
 msgctxt "info/special/tiger2p"

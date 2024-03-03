@@ -1,3 +1,6 @@
-Into the Fire 0.1.8:
- - Decreased artillery accuracy.
- - Added bigger timers for snipers and single-buy machine guns.
+Into the Fire 0.1.9:
+ - Added 30-second timers to trucks and jeeps.
+ - Added single StG buy to Germany.
+ - Added timers for single-buy infantry.
+ - Changed starting CP to 100.
+ - Some localisation changes.

@@ -460,6 +460,10 @@ msgctxt "desc/squad/single_sa(ger)"
 msgid "G43 Rifleman"
 msgstr ""
 
+msgctxt "desc/squad/single_stg(ger)"
+msgid "StG 44 Rifleman"
+msgstr ""
+
 msgctxt "desc/squad/squad_ersatz_rifle_early_all(ger)"
 msgid "Ersatz Rifle Squad"
 msgstr ""

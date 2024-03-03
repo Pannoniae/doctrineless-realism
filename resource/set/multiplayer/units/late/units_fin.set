@@ -412,9 +412,9 @@
 ;|             inf2                               |
 ;|________________________________________________|
 
-("squad_with1types" side(fin) name(single_rifle)		period(late) year(late) cd(0)   ci(0)   g(single_1) 		c1(rifleman:1)						b(single) t())
-("squad_with1types" side(fin) name(single_smg)			period(late) year(late) cd(0)   ci(0)   g(single_1) 		c1(smg_stick:1)						b(single) t())
-("squad_with1types" side(fin) name(single_sa)			period(late) year(late) cd(0)   ci(0)   g(single_1) 		c1(rifleman_sa:1)					b(single) t())
+("squad_with1types" side(fin) name(single_rifle)		period(late) year(late) cd(0)   ci(10)   g(single_1) 		c1(rifleman:1)						b(single) t())
+("squad_with1types" side(fin) name(single_smg)			period(late) year(late) cd(0)   ci(10)   g(single_1) 		c1(smg_stick:1)						b(single) t())
+("squad_with1types" side(fin) name(single_sa)			period(late) year(late) cd(0)   ci(25)   g(single_1) 		c1(rifleman_sa:1)					b(single) t())
 ("squad_with2types" side(fin) name(single_mg)			period(late) year(late) cd(0)   ci(60)  g(single_mg)		c1(mg_dp:1) c2(mg_dp_asst:1)		b(single) t())
 ("squad_with2types" side(fin) name(single_at)			period(late) year(late) cd(0)   ci(0)   g(single_at)		c1(antitank_rifle:1) c2(antitank_asst:1)	b(single) t())
 ("squad_with2types" side(fin) name(single_bazooker)		period(late) year(late) cd(0)   ci(0)   g(single_at)		c1(antitank_pzs:1) c2(antitank_pzs_ammo:1)	b(single) t())
@@ -437,7 +437,7 @@
 	cost(15)) {round_multiple 1.0}
 }
 {"ford_v3000"
-	("vehicle"  period(late) year(late) cd(0) ci(0) g(wheel2) side(fin) t(vehicle) crew(rifleman:1) b(supply) cw(1) cp(2)
+	("vehicle"  period(late) year(late) cd(30) ci(0) g(wheel2) side(fin) t(vehicle) crew(rifleman:1) b(supply) cw(1) cp(2)
 	cost(20))
 }
 {"t20_fin"
@@ -445,15 +445,15 @@
 	cost(85))
 }
 {"ford_v3000_ammo"
-	("vehicle"  period(late) year(late) cd(0) ci(0) g(supply1) side(fin) t(vehicle supply) crew(rifleman:1) b(supply) cw(1) cp(6)
+	("vehicle"  period(late) year(late) cd(30) ci(0) g(supply1) side(fin) t(vehicle supply) crew(rifleman:1) b(supply) cw(1) cp(6)
 	cost(190))
 }
 {"ford_v3000_fuel"
-	("vehicle"  period(late) year(late) cd(0) ci(0) g(supply2) side(fin) t(vehicle supply) crew(rifleman:1) b(supply) cw(1) cp(2)
+	("vehicle"  period(late) year(late) cd(30) ci(0) g(supply2) side(fin) t(vehicle supply) crew(rifleman:1) b(supply) cw(1) cp(2)
 	cost(90))
 }
 {"ford_v3000_eng"
-	("vehicle"  period(late) year(late) cd(0) ci(0) g(supply3) side(fin) t(vehicle supply) crew(engineer_builder:2) b(supply) cw(1) cp(2)
+	("vehicle"  period(late) year(late) cd(30) ci(0) g(supply3) side(fin) t(vehicle supply) crew(engineer_builder:2) b(supply) cw(1) cp(2)
 	cost(80))
 }
 {"ford_3ton_breda"
