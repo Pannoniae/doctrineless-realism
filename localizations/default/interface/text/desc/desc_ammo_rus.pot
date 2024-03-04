@@ -403,3 +403,7 @@ msgstr ""
 msgctxt "desc/ammo/82mm_bm8"
 msgid "82-mm BM-8 Rockets [<c(ff1200)>HE</c>]"
 msgstr ""
+
+msgctxt "desc/ammo/br_240sp"
+msgid "TT-250 [<c(ff1200)>HE</c>]"
+msgstr ""
