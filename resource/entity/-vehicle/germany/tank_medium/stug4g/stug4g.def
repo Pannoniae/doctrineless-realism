@@ -100,8 +100,8 @@
 	{component "shieldr5" {tags "cut_part"}}
 	
 	; crew details
-	("crew_4_human")
-	("charger_visible")
+	("crew_4_human_2")
+	;("charger_visible")
 	{boarder
 		{anm "left"
 			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
@@ -170,12 +170,11 @@
 		}
 		{place "mgun"
 			{type "aa"}
-			{gunner "charger"}
-			{charger "charger"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
 			{LinkBone "mgun_rot"}
 			{LinkAnimation "off"}
 			("abm_mgun")
-			{rotate}
 			{basic}
 			{ai_in_manual}
 		}
@@ -228,15 +227,15 @@
 	}
 
 	{bone "mgun_turret"
-		{speed 0.002}
+		{speed 0.08}
+	}
+	{bone "mgun_rot"
+		{speed 0.08}
 	}
 	{bone "gun_rot"
 		{speed2 6}
 	}
 	{bone "gun_rot2"
-		{speed2 6}
-	}
-	{bone "mgun_turret"
 		{speed2 6}
 	}
 }

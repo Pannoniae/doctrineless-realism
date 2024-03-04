@@ -1325,7 +1325,7 @@ msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/stug4g"
-msgid "StuG IV"
+msgid "StuG IV Ausf.G"
 msgstr ""
 
 msgctxt "info/special/stug4g"
@@ -1461,7 +1461,7 @@ msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/jagdpanzer4_l48_early"
-msgid "Jagdpanzer IV L/48"
+msgid "Jagdpanzer IV L/48 (0-Serie)"
 msgstr ""
 
 msgctxt "info/special/jagdpanzer4_l48_early"
@@ -1469,7 +1469,7 @@ msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer4_70_v"
-msgid "Panzer IV/70 (V)"
+msgid "Jagdpanzer IV L/70 (V)"
 msgstr ""
 
 msgctxt "info/special/panzer4_70_v"

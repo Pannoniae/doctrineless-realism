@@ -1236,7 +1236,7 @@
 }
 {"jagdpanzer4_l48_early"
 	("vehicle2" period(late) year(late) cd(750) ci(10) t(medium) side(ger) crew1(tankman_pzjag:3) crew2(tank_commander_pzjag:1) g(spg2) b(td) cw(6) cp(24)
-	cost(550)) ;// +30 for crew
+	cost(500)) ;// +30 for crew
 }
 {"jagdpanzer4_l48"
 	("vehicle2" period(late) year(late) cd(780) ci(10) t(medium) side(ger) crew1(tankman_pzjag:3) crew2(tank_commander_pzjag:1) g(spg2) b(td) cw(6) cp(24)
