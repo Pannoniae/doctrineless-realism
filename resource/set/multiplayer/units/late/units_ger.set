@@ -704,11 +704,15 @@
 
 
 ("squad_with1types" side(ger) name(single_rifle)		period(late) year(late) cd(0)   ci(10)   g(single_1) c1(rifleman_1:1)					b(single) t())
-("squad_with1types" side(ger) name(single_smg)			period(late) year(late) cd(0)   ci(10)   g(single_1) 	c1(smg_1:1)							b(single) t())
-("squad_with1types" side(ger) name(single_sa)			period(late) year(late) cd(0)   ci(25)   g(single_1) c1(rifleman_3:1)						b(single) t())
-("squad_with1types" side(ger) name(single_stg)			period(late) year(late) cd(0)   ci(30)   g(single_1) c1(smg_stg:1)						b(single) t())
+("squad_with1types" side(ger) name(single_smg)			period(late) year(late) cd(0)   ci(10)   g(single_2) 	c1(smg_1:1)							b(single) t())
+("squad_with1types" side(ger) name(single_sa)			period(late) year(late) cd(0)   ci(25)   g(single_3) c1(rifleman_3:1)						b(single) t())
+("squad_with1types" side(ger) name(single_stg)			period(late) year(late) cd(0)   ci(30)   g(single_4) c1(smg_stg:1)						b(single) t())
+("squad_with2types" side(ger) name(single_mg_34)		period(early) year(late) cd(0)   ci(60)  g(single_mg) c1(mgun_1:1) c2(mgun_2:1)				b(single) t())
 ("squad_with2types" side(ger) name(single_mg)			period(late) year(late) cd(0)   ci(60)  g(single_mg) c1(mgun_1:1) c2(mgun_2:1)				b(single) t())
+("squad_with2types" side(ger) name(single_mg_elite_34)	period(early) year(late) cd(0)	ci(180)	g(single_mg) c1(gd_mg:1) c2(gd_mg_asst:1) b(single) t())
 ("squad_with2types" side(ger) name(single_mg_elite)		period(late) year(late) cd(0)	ci(180)	g(single_mg) c1(gd_pzgren_mg:1) c2(gd_pzgren_mg_asst:1) b(single) t())
+("squad_with2types" side(ger) name(single_mg_elite2_fg)	period(late) year(late) cd(0)	ci(240)	g(single_mg) c1(fallsch_fg:1) c2(fallsch_rifle:2) b(single) t())
+("squad_with2types" side(ger) name(single_mg_elite2_34)	period(late) year(late) cd(0)	ci(240)	g(single_mg) c1(fallsch_vet_mg34:1) c2(fallsch_vet_mg34_asst:1) b(single) t())
 ("squad_with2types" side(ger) name(single_mg_elite2)	period(late) year(late) cd(0)	ci(240)	g(single_mg) c1(fallsch_vet_mg:1) c2(fallsch_vet_mg_asst:1) b(single) t())
 ("squad_with2types" side(ger) name(single_bazooker)		period(late) year(late) cd(0)   ci(0)   g(single_at) c1(antitank_1:1) c2(antitank_2:1)		b(single) t())
 ("squad_with2types" side(ger) name(single_riflegrenade)	period(late) year(late) cd(0)   ci(0)  g(single_rifleg) c1(antitank_4:1) c2(antitank_5:1)	b(single) t())
@@ -839,23 +843,23 @@
 	cost(160))
 }
 {"20mm_flak30"
-	("vehicle"  period(late) year(late) cd(180) ci(140) t(cannon) side(ger) crew(artilleryman:2) g(empl2) b(support) cw(1) cp(8)
+	("vehicle"  period(late) year(late) cd(180) ci(10) t(cannon) side(ger) crew(artilleryman:2) g(empl2) b(support) cw(1) cp(8)
 	cost(180))
 }
 {"20mm_flak38"
-	("vehicle"  period(late) year(late) cd(180) ci(150) t(cannon) side(ger) crew(artilleryman:2) g(empl20) b(support) cw(1) cp(8)
+	("vehicle"  period(late) year(late) cd(180) ci(10) t(cannon) side(ger) crew(artilleryman:2) g(empl20) b(support) cw(1) cp(8)
 	cost(200))
 }
 {"37mm_pak36_late"
-	("vehicle"  period(late) year(late) cd(30) ci(150) t(cannon) side(ger) crew(artilleryman:4) g(empl3) b(support) cw(1) cp(6)
+	("vehicle"  period(late) year(late) cd(30) ci(10) t(cannon) side(ger) crew(artilleryman:4) g(empl3) b(support) cw(1) cp(6)
 	cost(180))
 }
 {"37mm_flak37"
-	("vehicle"  period(late) year(late) cd(240) ci(180) t(cannon) side(ger) crew(artilleryman:3) g(empl37) b(support) cw(1) cp(10)
+	("vehicle"  period(late) year(late) cd(240) ci(10) t(cannon) side(ger) crew(artilleryman:3) g(empl37) b(support) cw(1) cp(10)
 	cost(250))
 }
 {"50mm_pak38_late"
-	("vehicle"  period(late) year(late) cd(60) ci(150) t(cannon mediumcan) side(ger) crew(artilleryman:4) g(empl4) b(support) cw(1) cp(12)
+	("vehicle"  period(late) year(late) cd(60) ci(10) t(cannon mediumcan) side(ger) crew(artilleryman:4) g(empl4) b(support) cw(1) cp(12)
 	cost(200))
 }
 {"75mm_pak40"
@@ -1021,9 +1025,13 @@
 	("vehicle"  period(late) year(late) cd(320) ci(10) g(wheel10) side(ger) t(vehicle) crew(artilleryman:4) b(lt) cw(2) cp(8)
 	cost(210))
 }
-{"sdkfz251_9"
+{"sdkfz251c_9"
+	("vehicle"  period(late) year(late) cd(420) ci(10) g(wheel10) side(ger) t(vehicle) crew(artilleryman:4) b(lt) cw(2) cp(8)
+	cost(220))
+}
+{"sdkfz251d_9"
 	("vehicle"  period(late) year(late) cd(540) ci(10) g(wheel10) side(ger) t(vehicle) crew(artilleryman:4) b(lt) cw(2) cp(8)
-	cost(210))
+	cost(280))
 }
 {"sdkfz221"
 	("vehicle2" period(late) year(late) cd(320) ci(10) g(wheel4) side(ger) t(vehicle) crew1(tankman_scout:1) crew2(tank_commander_scout:1) b(lt) cw(2) cp(4)

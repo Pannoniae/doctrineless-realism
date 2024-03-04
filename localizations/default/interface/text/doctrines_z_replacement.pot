@@ -41,7 +41,7 @@ msgid "Specialise your army with a doctrine. Actually, it doesn't matter."
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_fin_allround"
-msgid "Into the Fire: 39-41"
+msgid "Into the Fire: 1941"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_fin_allround#hint"
@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_ger_allround"
-msgid "Into the Fire: 39-41"
+msgid "Into the Fire: 1941"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_ger_allround#hint"
@@ -57,7 +57,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_rus_allround"
-msgid "Into the Fire: 39-41"
+msgid "Into the Fire: 1941"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_rus_allround#hint"
@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_usa_allround"
-msgid "Into the Fire: 39-41"
+msgid "Into the Fire: 1941"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/early_usa_allround#hint"

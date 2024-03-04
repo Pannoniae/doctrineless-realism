@@ -64,12 +64,28 @@ msgctxt "desc/squad/single_medic(ger)"
 msgid "Medic"
 msgstr ""
 
+msgctxt "desc/squad/single_mg_34(ger)"
+msgid "Grenadier MG34 Team"
+msgstr ""
+
 msgctxt "desc/squad/single_mg(ger)"
-msgid "MG42 Team"
+msgid "Grenadier MG42 Team"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_elite_34(ger)"
+msgid "Panzergrenadier MG34 Team"
 msgstr ""
 
 msgctxt "desc/squad/single_mg_elite(ger)"
 msgid "Panzergrenadier MG42 Team"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_elite2_fg(ger)"
+msgid "Elite Fallschirmjäger FG42 Team"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_elite2_34(ger)"
+msgid "Elite Fallschirmjäger MG34 Team"
 msgstr ""
 
 msgctxt "desc/squad/single_mg_elite2(ger)"

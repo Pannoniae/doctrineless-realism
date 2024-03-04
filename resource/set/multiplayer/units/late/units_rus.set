@@ -686,14 +686,12 @@
 }
 {"yak1_250_late"
 	("vehicle_ss" side(rus) period(late) year(late) cd(600) ci(10) vehicle(yak1_ser69) crew(pilot:1) g(airstrike) b(supply) cost(300))
-	;("doctrine_t2" cool(360) d(late_usa_irregular) cost(10))
 	{action "airstrike:sc_50"}
 	{tags "limit3"}
 }
 
 {"il2_500_late"
 	("vehicle_ss" side(rus) period(late) year(late) cd(900) ci(10) vehicle(il2_mod42) crew(pilot:1) g(airstrike) b(supply) cost(650))
-	;("doctrine_t3" cool(360) d(late_usa_irregular) cost(30))
 	{action "airstrike:sc_250_mp"}
 	{tags "limit3"}
 }

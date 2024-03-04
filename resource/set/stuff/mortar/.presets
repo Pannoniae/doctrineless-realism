@@ -32,7 +32,7 @@
 
 (define "medium_mortar_range"
 	{spreading
-		{radiusTable {0 5} {180 12.5} {259.99 25} {260 100}}
+		{radiusTable {0 5} {180 18} {259.99 30} {260 100}}
 	}
 
 	{aimRange 260}
@@ -50,7 +50,7 @@
 
 (define "medium_heavy_mortar_range"
 	{spreading
-		{radiusTable {0 5} {180 10} {279.99 20} {280 100}}
+		{radiusTable {0 5} {180 18} {279.99 30} {280 100}}
 	}
 
 	{aimRange 280}
@@ -68,7 +68,7 @@
 
 (define "heavy_mortar_range"
 	{spreading
-		{radiusTable {0 5} {180 10} {240 18} {299.99 25} {300 100}}
+		{radiusTable {0 5} {180 10} {240 18} {299.99 30} {300 100}}
 	}
 
 	{aimRange 300}

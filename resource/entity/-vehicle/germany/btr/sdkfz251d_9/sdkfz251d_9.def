@@ -3,8 +3,8 @@
 	(include "/properties/shadow/tank.inc" scale(1.0))
 	(include "/properties/selection/vehicle.inc" scale(1.0))
 	{props "armored_car" "multi_board" "td" "tank" "shell_eject" "open_top" "turret" "with_gun" "vision_lev02" "muzzle_50mm_57mm" "tractor" "tractor_heavy" "detect_td_medium" "explosion_throw_crew" "open_death_fx_low"}
-	{Extension "sdkfz251_9.mdl"}
-	(include "sdkfz251_9.ext")
+	{Extension "sdkfz251d_9.mdl"}
+	(include "sdkfz251d_9.ext")
 	{targetclass "armoredcar"}
 	{targetSelector "cannon_aa"}
 	{patherId "sdkfz8"}
@@ -63,7 +63,7 @@
 
 	{extender "inventory"
 		{box
-			{item "bulletger_75_l24 heat" 22}		; 50 rounds
+			{item "bulletger_75_l24 heatc" 22}		; 50 rounds
 			{item "bulletger_75_l24 he" 22}
 			{item "bulletger_75_l24 sm" 5}
 			{item "ammo mgun_ger drum" 1950}		; 39 drums (50 rounds each)
@@ -74,7 +74,7 @@
 	{Weaponry
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "75mm_kwk37" filling "bulletger_75_l24 heat" 1}
+			{weapon "75mm_k51" filling "bulletger_75_l24 heatc" 1}
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic"

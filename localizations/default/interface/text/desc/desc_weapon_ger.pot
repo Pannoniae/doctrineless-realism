@@ -132,6 +132,10 @@ msgctxt "desc/weapon/75mm_fk18"
 msgid "7.5cm FK 18 L/25.8"
 msgstr ""
 
+msgctxt "desc/weapon/75mm_k37"
+msgid "7.5cm K 37 L/24"
+msgstr ""
+
 msgctxt "desc/weapon/75mm_k51"
 msgid "7.5cm K 51 L/24"
 msgstr ""

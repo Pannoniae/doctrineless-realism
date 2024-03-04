@@ -32,6 +32,8 @@ if os.path.exists("./map"):
     subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a map.pak ./map -mx=7 -mmt=16 -sdel -tzip"))
 if os.path.exists("./sound"):
     subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a sound.pak ./sound -mx=7 -mmt=16 -sdel -tzip"))
+if os.path.exists("./music"):
+    subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a music.pak ./music -mx=7 -mmt=16 -sdel -tzip"))
 if os.path.exists("./texture"):
     subprocess.call(shlex.split(f"C:/Program Files/7-Zip/7z.exe a texture.pak ./texture -mx=7 -mmt=16 -sdel -tzip"))
 #lets just assume this exists

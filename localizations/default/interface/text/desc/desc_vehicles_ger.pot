@@ -1556,11 +1556,19 @@ msgctxt "info/special/sdkfz6_ammo"
 msgid "<c(c3baae)>Ammo Halftrack</c>"
 msgstr ""
 
-msgctxt "desc/entity/sdkfz251_9"
-msgid "Sd.Kfz 251/9"
+msgctxt "desc/entity/sdkfz251c_9"
+msgid "Sd.Kfz 251/9 (K 37)"
 msgstr ""
 
-msgctxt "info/special/sdkfz251_9"
+msgctxt "info/special/sdkfz251c_9"
+msgid "<c(c3baae)>Medium Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251d_9"
+msgid "Sd.Kfz 251/9 'Stummel'"
+msgstr ""
+
+msgctxt "info/special/sdkfz251d_9"
 msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 

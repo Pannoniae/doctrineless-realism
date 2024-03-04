@@ -1,6 +1,3 @@
-Into the Fire 0.1.9:
- - Added 30-second timers to trucks and jeeps.
- - Added single StG buy to Germany.
- - Added timers for single-buy infantry.
- - Changed starting CP to 100.
- - Some localisation changes.
+Into the Fire 0.1.10:
+ - Decreased mortar accuracy by 20%.
+ - Early War added.

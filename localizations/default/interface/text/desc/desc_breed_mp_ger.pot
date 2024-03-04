@@ -3331,3 +3331,15 @@ msgstr ""
 msgctxt "desc/human/mp/ger/late/fallsch_vet_mg_asst"
 msgid "Elite Fallschirmjäger MG Asst."
 msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_vet_mg34"
+msgid "Elite Fallschirmjäger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_vet_mg34_ammo"
+msgid "Elite Fallschirmjäger MG Ammo Bearer"
+msgstr ""
+
+msgctxt "desc/human/mp/ger/late/fallsch_vet_mg34_asst"
+msgid "Elite Fallschirmjäger MG Asst."
+msgstr ""

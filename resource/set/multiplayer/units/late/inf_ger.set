@@ -449,6 +449,8 @@
 {"mp/ger/late/fallsch_mg_asst"				("inf_tier4" side(ger) period(late) cost(18.0))} ; k98
 {"mp/ger/late/fallsch_vet_mg"				("inf_tier4" side(ger) period(late) cost(75.0))} ; mg42 belt (100 round)
 {"mp/ger/late/fallsch_vet_mg_asst"			("inf_tier4" side(ger) period(late) cost(21.0))} ; k98
+{"mp/ger/late/fallsch_vet_mg34"				("inf_tier4" side(ger) period(late) cost(68.0))} ; mg42 belt (100 round)
+{"mp/ger/late/fallsch_vet_mg34_asst"		("inf_tier4" side(ger) period(late) cost(18.0))} ; k98
 {"mp/ger/late/fallsch_rifle"				("inf_tier4" side(ger) period(late) cost(18.0))} ; k98
 {"mp/ger/late/fallsch_rifle_pzf"			("inf_tier4" side(ger) period(late) cost(23.0))} ; k98 + pzfaust 30
 {"mp/ger/late/fallsch_rifle_grenadier"		("inf_tier4" side(ger) period(late) cost(38.0))} ; k98 + rifle grenade

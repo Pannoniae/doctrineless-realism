@@ -1730,7 +1730,10 @@
 	{"sdkfz251c_10"
 		{vehicle_view "sdkfz251c"}
 	}
-	{"sdkfz251_9"
+	{"sdkfz251c_9"
+		{vehicle_view "sdkfz251c"}
+	}
+	{"sdkfz251d_9"
 		{vehicle_view "sdkfz251c"}
 	}
 	{"kugelblitz"
