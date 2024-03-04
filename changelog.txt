@@ -1,13 +1,2 @@
-Into the Fire 0.2.0:
- - Decreased mortar accuracy by 20%.
- - Early War added. (no AI implemented yet)
- - Added the 15cm Scheinwerfer (searchlight) to Germany.
- - Added SdKfz 251/20 'Uhu' infrared halftrack to Germany.
- - Merged medium and heavy tank buymenus.
- - Added StuG IV from RobZ.
- - Decoupled single buy timers from each other.
- - Fixed the localisation for the USA single MG buy.
- - Increased accuracy of the .30cal and the .50cal.
- - Added a wheeled variant of the BT-7.
- - Added RBT-5 (MACE).
- - Reworked veterancy/skills to be similar to RobZ. (Skill 1 to 10)
+Into the Fire 0.2.2:
+ - Fixed StuG IV Ausf. G coax machine gun not reloading.

@@ -492,7 +492,7 @@ msgctxt "info/special/bmw_r71"
 msgid "<c(c3baae)>Motorcycle</c>"
 msgstr ""
 
-msgctxt "desc/entity/bmw_r7_mg42"
+msgctxt "desc/entity/bmw_r71_mg42"
 msgid "BMW R71 (MG42)"
 msgstr ""
 

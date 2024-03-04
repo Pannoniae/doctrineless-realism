@@ -48,8 +48,8 @@
 	{extender "inventory"
 		{weapon "mgun" {mask "mountable"}}
 		{Box
-			{item "ammo mgun_ger drum ap" 750}
-			{item "mg42_drum" filling "ammo mgun_ger drum ap" 50 {user "mgun"}}
+			{item "ammo mgun_ger drum" 750}
+			{item "mg42_drum" filling "ammo mgun_ger drum" 50 {user "mgun"}}
 		}
 	}
 

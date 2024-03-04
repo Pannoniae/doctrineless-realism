@@ -1754,4 +1754,7 @@
 	{"rbt_5"
 		{vehicle_view "bt5"}
 	}
+	{"bmw_r71_mg42"
+		{vehicle_view "bmw_r71"}
+	}
 }

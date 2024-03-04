@@ -446,6 +446,8 @@
 	{item "82mm_bm8"						"ammo" 1 {value 5}}
 	{item "132mm_bm13"						"ammo" 1 {value 25}} ;// 16 rockets costs 400 per salvo
 	{item "300mm_bm30"						"ammo" 1 {value 50}} ;// 12 rockets costs 600 per salvo
+	
+	{item "BR_240SP"				"ammo" 2 {value 100}} ;// 2 rockets costs 50 
 )
 
 (define "items_heavy_fin"
