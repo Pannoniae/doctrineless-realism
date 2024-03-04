@@ -1,0 +1,242 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "td" "medium" "-turret" "mantlet" "vision_lev03" "muzzle_75mm_76mm_sides" "shield"}
+	{Extension "stug4g.mdl"}
+	{PatherId "panzer3"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	
+	; armour details
+	
+	("tank_medium_tier2")
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	;("armor_spa_light" armor(80 30 30 30))
+	;("armor_engine"  t(30 30 30 12))
+	;("shield" args 10)
+	;("ger_5x8_sight")
+	
+	{extender "shield"
+			{on}
+	}
+	("shield_track" args "shield1" 20)
+	("shield_track" args "shield2" 20)
+
+	("shield" args "shieldl1" 5)
+	("shield" args "shieldl2" 5)
+	("shield" args "shieldl3" 5)
+	("shield" args "shieldl4" 5)
+	("shield" args "shieldl5" 5)
+	("shield" args "shieldr1" 5)
+	("shield" args "shieldr2" 5)
+	("shield" args "shieldr3" 5)
+	("shield" args "shieldr4" 5)
+	("shield" args "shieldr5" 5)
+	
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(25))
+	
+	{volume "body1"			; Hull
+		{thickness	30
+			{front 80}		; 50mm base + 30mm plate
+			{top 25}		; Glacis
+			{rear 10}
+			{bottom 15}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 30
+			{front 50}
+			{right 19}		; Overhang (above tracks)
+		}
+		{able {holed}}
+	}
+	{volume "body3"			; Superstructure Top
+		{thickness 10
+			{front 50}
+			{rear 30}
+		}
+	}
+	{volume "engine"		; Hull 
+		{thickness 30
+			{front 10}
+			{top 16}
+			{rear 50}
+			{bottom 15}
+		}
+	}
+	{volume "mantlet"
+		{thickness 50
+			{front 80}
+		}
+		{tags "gun"}
+		{component "gun"}
+	}
+	
+	{component "shield1" {tags "cut_part"}}
+	{component "shieldl1" {tags "cut_part"}}
+	{component "shieldl2" {tags "cut_part"}}
+	{component "shieldl3" {tags "cut_part"}}
+	{component "shieldl4" {tags "cut_part"}}
+	{component "shieldl5" {tags "cut_part"}}
+	{component "shieldr1" {tags "cut_part"}}
+	{component "shieldr2" {tags "cut_part"}}
+	{component "shieldr3" {tags "cut_part"}}
+	{component "shieldr4" {tags "cut_part"}}
+	{component "shieldr5" {tags "cut_part"}}
+	
+	; crew details
+	("crew_4_human")
+	("charger_visible")
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_MiddleArmor"} 	{end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_MiddleArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+	
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor2))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+	
+	{sensor
+		{visor "main"
+			{bone "visor1"}
+		}
+		{visor "around"
+			{bone "visor2"}
+		}
+	}
+	
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "mountable"}
+		}
+		{box
+			{item "bulletger_75_l43 apcbche" 19}
+			{item "bulletger_75_l43 he" 27}
+			{item "bulletger_75_l43 apcr" 2}
+			{item "bulletger_75_l43 heatc" 5}
+			{item "ammo mgun_ger drum" 550}			; 12 drums (50 rounds each)
+			{item "mg34_drum" filling "ammo mgun_ger drum" 50 {user "mgun"}}
+			{item "ammo mgun_ger belt" 1950}		; 14 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+		}
+	}
+	
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_stuk40_l48" filling "bulletger_75_l43 apcbche" 1}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_dymamic_td"
+				zeroing(2.5)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun"
+			{type "aa"}
+			{gunner "charger"}
+			{charger "charger"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun1"
+			{type "coaxial"}
+			{weapon "mg34_tank" filled}
+			{foresight "foresight4"}
+			{basic}
+		}
+	}
+
+
+	{mass 23500}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.7))
+		;{Locomotion
+		;	{MaxSpeed	 28}
+		;	{maxSpeedAtMaxTurn 4}
+		;	{StartTime	  15}
+		;	{TurnTime  	  19}
+    	;	{TurnStart  1.4} 
+    	;	{BrakeTime    1} 
+    	;	{StopTime     2} 
+    	;	{TurnRadius   8} 
+    	;	{TurnStop   0.8}
+     	;	{Gears  0.1 0.2 0.3 1}
+    	;	{RearGears 0.28}
+		;}
+		;{FuelBag
+		;	{volume 470 }	
+		;	{rate	36 }   
+		;	{remain 470 }
+		;	{fuel "fuel"}
+		;}
+		;{speed
+        ;	{Normal  10}
+        ;	{Slow  16}
+    	;}
+		("mobility_tank"
+			speed(40) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(8) ;---------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(23.9) ;-------Weight in Tonnes.
+			power(265) ;---------Engine Power, in hp. //engine under normal use was rated 265hp at 2600 rpm
+			track(5) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(310) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(95) ;----------Range in km, off-road.
+		)
+	}
+
+	{bone "mgun_turret"
+		{speed 0.002}
+	}
+	{bone "gun_rot"
+		{speed2 6}
+	}
+	{bone "gun_rot2"
+		{speed2 6}
+	}
+	{bone "mgun_turret"
+		{speed2 6}
+	}
+}

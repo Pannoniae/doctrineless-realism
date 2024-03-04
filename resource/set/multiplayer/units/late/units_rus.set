@@ -798,9 +798,13 @@
 	("vehicle"  period(late) year(late) cd(1200) ci(10) t(heavyart artillery) side(rus) crew(artilleryman:5) g(empl12) b(art) cw(1) cp(30)
 	cost(900))
 }
+{"152mm_br2"
+	("vehicle"  period(late) year(late) cd(1320) ci(10) t(cannon artillery heavyart) side(rus) crew(artilleryman:5) g(empl20) b(art) cw(1) cp(30)
+	cost(1200))
+}
 {"203mm_b4"
 	("vehicle"  period(late) year(late) cd(1500) ci(10) t(cannon artillery heavyart) side(rus) crew(artilleryman:5) g(empl12) b(art) cw(1) cp(30)
-	cost(1200))
+	cost(1350))
 }
 {"280mm_br5"
 	("vehicle"  period(late) year(late) cd(1500) ci(10) t(cannon artillery heavyart) side(rus) crew(artilleryman:5) g(empl22) b(art) cw(1) cp(36)
@@ -937,39 +941,39 @@
 ;HEAVY
 
 {"churchill3"
-	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy0) b(ht) cw(8) cp(26)
+	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy0) b(mt) cw(8) cp(26)
 	cost(570)) ;// +35 for crew
 }
 {"kv1s"
-	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy1) b(ht) cw(8) cp(26)
+	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy1) b(mt) cw(8) cp(26)
 	cost(600)) ;// +35 for crew
 }
 {"kv1_42"
-	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy2) b(ht) cw(8) cp(26)
+	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy2) b(mt) cw(8) cp(26)
 	cost(600)) ;// +35 for crew
 }
 {"kv2_40"
-	("vehicle2" period(late) year(late) cd(660) ci(10) t(heavy) side(rus) crew1(tankman:5) crew2(tank_commander:1) g(heavy2) b(ht) cw(8) cp(30)
+	("vehicle2" period(late) year(late) cd(660) ci(10) t(heavy) side(rus) crew1(tankman:5) crew2(tank_commander:1) g(heavy2) b(mt) cw(8) cp(30)
 	cost(700))
 }
 {"kv85"
-	("vehicle2" period(late) year(late) cd(900) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy2) b(ht) cw(8) cp(26)
+	("vehicle2" period(late) year(late) cd(900) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy2) b(mt) cw(8) cp(26)
 	cost(850)) ;// +30 for crew
 }
 {"is1_43"
-	("vehicle2" period(late) year(late) cd(1200) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy3) b(ht) cw(8) cp(26)
+	("vehicle2" period(late) year(late) cd(1200) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy3) b(mt) cw(8) cp(26)
 	cost(900)) ;// +30 for crew
 }
 {"is2_43"
-	("vehicle2" period(late) year(late) cd(1600) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy4) b(ht) cw(8) cp(30)
+	("vehicle2" period(late) year(late) cd(1600) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy4) b(mt) cw(8) cp(30)
 	cost(1550)) ;// +30 for crew
 }
 {"is2_44"
-	("vehicle2" period(late) year(late) cd(1700) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy5) b(ht) cw(8) cp(30)
+	("vehicle2" period(late) year(late) cd(1700) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy5) b(mt) cw(8) cp(30)
 	cost(1600)) ;// +30 for crew
 }
 {"is2_45"
-	("vehicle2" period(late) year(late) cd(1700) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy5) b(ht) cw(8) cp(30)
+	("vehicle2" period(late) year(late) cd(1700) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy5) b(mt) cw(8) cp(30)
 	cost(1650)) ;// +30 for crew
 }
 
@@ -983,7 +987,7 @@
 	cost(280)) ;// +30 for crew
 }
 {"zis30"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(light) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg2) b(tanks) cw(4) cp(16)
+	("vehicle2" period(late) year(late) cd(540) ci(10) t(light) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg2) b(tanks) cw(4) cp(16)
 	cost(350))
 }
 {"su85"

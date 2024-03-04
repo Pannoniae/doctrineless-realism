@@ -1,3 +1,7 @@
 Into the Fire 0.1.10:
  - Decreased mortar accuracy by 20%.
- - Early War added.
+ - Early War added. (no AI implemented yet)
+ - Added the 15cm Scheinwerfer (searchlight) to Germany.
+ - Added SdKfz 251/20 'Uhu' infrared halftrack to Germany.
+ - Merged medium and heavy tank buymenus.
+ - Added StuG IV from RobZ.

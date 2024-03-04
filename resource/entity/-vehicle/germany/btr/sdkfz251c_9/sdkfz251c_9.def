@@ -1,8 +1,8 @@
 {game_entity
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
-	{props "sdkfz251c" "tank" "halftrack" "wheeled" "explosion_throw_crew" "vision_lev02" "muzzle_50mm_57mm" "tractor" "tractor_heavy" "detect_tank_mg" "shell_eject"}
-	{Extension "sdkfz251_9.mdl"}
+	{props "armored_car" "sdkfz251c" "td" "tank" "open_top" "turret" "halftrack" "wheeled" "explosion_throw_crew" "vision_lev02" "muzzle_50mm_57mm" "tractor" "tractor_heavy" "detect_tank_mg" "shell_eject"}
+	{Extension "sdkfz251c_9.mdl"}
 	{extension "crew.ext"}
 	{patherId "sdkfz251"}
 	{targetclass "armoredcar"}

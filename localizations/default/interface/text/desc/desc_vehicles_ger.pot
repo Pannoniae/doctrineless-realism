@@ -337,7 +337,7 @@ msgid "150cm Flak-Scheinwerfer 34"
 msgstr ""
 
 msgctxt "info/special/150mm_sw34"
-msgid "<c(c3baae)>Search Light</c>"
+msgid "<c(c3baae)>Searchlight</c>"
 msgstr ""
 
 msgctxt "desc/entity/150mm_sw34_ger"
@@ -345,7 +345,7 @@ msgid "150cm Flak-Scheinwerfer 34"
 msgstr ""
 
 msgctxt "info/special/150mm_sw34_ger"
-msgid "<c(c3baae)>Search Light</c>"
+msgid "<c(c3baae)>Searchlight</c>"
 msgstr ""
 
 msgctxt "desc/entity/170mm_k18"
@@ -1324,6 +1324,14 @@ msgctxt "info/special/stug3g_late"
 msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
+msgctxt "desc/entity/stug4g"
+msgid "StuG IV"
+msgstr ""
+
+msgctxt "info/special/stug4g"
+msgid "<c(c3baae)>Assault Gun</c>"
+msgstr ""
+
 msgctxt "desc/entity/stuh42"
 msgid "StuH 42 Ausf.G"
 msgstr ""
@@ -1538,6 +1546,14 @@ msgstr ""
 
 msgctxt "info/special/sdkfz251d_21"
 msgid "<c(c3baae)>Medium Halftrack</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz251_20"
+msgid "SdKfz 251/20 'Uhu'"
+msgstr ""
+
+msgctxt "info/special/sdkfz251_20"
+msgid "<c(c3baae)>Searchlight Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251d_22"

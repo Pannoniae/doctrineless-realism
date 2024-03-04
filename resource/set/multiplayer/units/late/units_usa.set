@@ -570,7 +570,7 @@
 {"p47_recon_late"
 	("vehicle_ss" side(usa) period(late) year(late) cd(450) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(150))
 	{action "airstrike:reconnaissance_50"} 
-	{tags "limit3"}
+	;{tags "limit3"}
 }
 
 
@@ -578,14 +578,14 @@
 	("vehicle_ss" side(usa) period(late) year(late) cd(600) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(300))
 	;("doctrine_t2" cool(360) d(late_usa_irregular) cost(10))
 	{action "airstrike:sc_50"}
-	{tags "limit3"}
+	{tags "limit4"}
 }
 
 {"p47_500_late"
 	("vehicle_ss" side(usa) period(late) year(late) cd(900) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(650))
 	;("doctrine_t3" cool(360) d(late_usa_irregular) cost(30))
 	{action "airstrike:sc_250_mp"}
-	{tags "limit3"}
+	{tags "limit4"}
 }
 
 ;_________________________________________________
@@ -847,11 +847,11 @@
 ;HEAVY
 
 {"m26_pershing"
-	("vehicle2" period(late) year(late) cd(1320) ci(10) t(heavy) side(usa) crew1(tankman_m3:4) crew2(tank_com_m3:1) g(heavy1) b(ht) cw(8) cp(30)
+	("vehicle2" period(late) year(late) cd(1320) ci(10) t(heavy) side(usa) crew1(tankman_m3:4) crew2(tank_com_m3:1) g(heavy1) b(mt) cw(8) cp(30)
 	cost(1200)) ;// +35 for crew
 }
 {"t26e4"
-	("vehicle2" period(late) year(late) cd(1700) ci(10) t(heavy) side(usa) crew1(tankman_m3:4) crew2(tank_com_m3:1) g(heavy2) b(ht) cw(8) cp(34)
+	("vehicle2" period(late) year(late) cd(1700) ci(10) t(heavy) side(usa) crew1(tankman_m3:4) crew2(tank_com_m3:1) g(heavy2) b(mt) cw(8) cp(34)
 	cost(1700)) ;// +35 for crew
 }
 

@@ -494,7 +494,6 @@
 	{doctrine "late_fin_allround"}
 }
 
-;// Doctrine Units
 {"150mm_sw34" ; // Searchlight
 	("vehicle" period(late) year(late) cd(60) ci(10) t(cannon) side(fin) crew(rifleman:2) g(seachlight) b(single) cw(1) cp(2)
 	cost(150))
@@ -742,11 +741,11 @@
 
 ;// Doctrine Units
 {"kv1_40e_fin"
-	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(fin) crew1(tankman:4) crew2(tank_commander:1) g(heavy1) b(ht) cw(8) cp(26)
+	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(fin) crew1(tankman:4) crew2(tank_commander:1) g(heavy1) b(mt) cw(8) cp(26)
 	cost(600))
 }
 {"kv1_42_fin"
-	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(fin) crew1(tankman:4) crew2(tank_commander:1) g(heavy2) b(ht) cw(8) cp(26)
+	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(fin) crew1(tankman:4) crew2(tank_commander:1) g(heavy2) b(mt) cw(8) cp(26)
 	cost(605))
 }
 

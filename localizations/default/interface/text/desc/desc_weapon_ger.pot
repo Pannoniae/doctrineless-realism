@@ -573,7 +573,11 @@ msgid "Panzerbüchse 39"
 msgstr ""
 
 msgctxt "desc/weapon/searchlight"
-msgid "Search Light"
+msgid "150cm Flak-Scheinwerfer 34"
+msgstr ""
+
+msgctxt "desc/weapon/searchlight_uhu"
+msgid "60cm Infrarotscheinwerfer (Beobachtungsgerät 1251)"
 msgstr ""
 
 msgctxt "desc/weapon/stg44"

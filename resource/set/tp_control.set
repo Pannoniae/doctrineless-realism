@@ -78,6 +78,7 @@
 
 		{"150mm_sfh18" inherit "vehicle artillery.common"}
 		{"150mm_sw34" inherit "vehicle generic.searchlight"}
+		{"150mm_sw34_ger" inherit "vehicle generic.searchlight"}
 		{"155mm_gpf_ger" inherit "vehicle artillery.common"}
 		{"170mm_k18" inherit "vehicle artillery.common"}
 		{"210mm_morser18" inherit "vehicle artillery.common"}
@@ -721,14 +722,14 @@
 ;=================== Ger ===================
 
 		{"munitionspanzer38t" inherit "vehicle generic.unarmed"}
-		{"tiger1mid" inherit "vehicle tank.tiger"}
-		{"tiger1mid#aa" inherit "vehicle tank.tiger"}
-		{"ot3476_42" inherit "vehicle tank.t3476"}
-		{"flammpanzer38t" inherit "vehicle tank.t3476"}
-		{"hummel_early" inherit "vehicle spa.common"}
+		{"flammpanzer38t" inherit "vehicle td.hetzer"}
 		{"elefant" inherit "vehicle td.ferdinand"}
-		{"sdkfz251d_23" inherit "vehicle vehicle.222"}
+		;{"sdkfz251d_23" inherit "vehicle vehicle.222"}
 		{"128mm_pak44" inherit "vehicle atgun.pak44"}
+		{"sdkfz251c_9" inherit "vehicle tank.234_3"}
+		{"sdkfz251d_9" inherit "vehicle tank.234_3"}
+		{"sdkfz251_20" inherit "vehicle generic.searchlight"}
+		{"stug4g" inherit "vehicle td.stug3"}
 
 
 

@@ -1742,4 +1742,10 @@
 	{"bison2"
 		{vehicle_view "bison2"}
 	}
+	{"sdkfz251_20"
+		{vehicle_view "sdkfz251c"}
+	}
+	{"stug4g"
+		{vehicle_view "stug3_late"}
+	}
 }
