@@ -463,3 +463,7 @@ msgstr ""
 msgctxt "desc/weapon/300mm_bm30"
 msgid "BM-31-12 (12x300mm Rockets)"
 msgstr ""
+
+msgctxt "desc/weapon/tt-250_torpedo_x2"
+msgid "Dual TT-250"
+msgstr ""

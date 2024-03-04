@@ -429,6 +429,14 @@ msgctxt "info/special/bt7"
 msgid "<c(c3baae)>Fast Tank</c>"
 msgstr ""
 
+msgctxt "desc/entity/bt7_dt"
+msgid "BT-7 M1937 (Wheeled)"
+msgstr ""
+
+msgctxt "info/special/bt7_dt"
+msgid "<c(c3baae)>Fast Tank</c>"
+msgstr ""
+
 msgctxt "desc/entity/bt7a"
 msgid "BT-7A"
 msgstr ""
@@ -1323,4 +1331,12 @@ msgstr ""
 
 msgctxt "info/special/m4a2_75_early_rus"
 msgid "<c(c3baae)>Medium Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/rbt_5"
+msgid "RBT-5"
+msgstr ""
+
+msgctxt "info/special/rbt_5"
+msgid "<c(c3baae)>Light Rocket Tank</c>"
 msgstr ""

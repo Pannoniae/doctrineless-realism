@@ -463,8 +463,8 @@
 
 
 ("squad_with1types" side(usa) name(single_rifle)		period(late) year(late) cd(0)   ci(10)   g(single_1) c1(rifle:1)							b(single) t())
-("squad_with1types" side(usa) name(single_sa)			period(late) year(late) cd(0)   ci(25)   g(single_1) c1(rifle_sa:1)							b(single) t())
-("squad_with1types" side(usa) name(single_smg)			period(late) year(late) cd(0)   ci(10)   g(single_1) c1(smg:1)								b(single) t())
+("squad_with1types" side(usa) name(single_sa)			period(late) year(late) cd(0)   ci(25)   g(single_2) c1(rifle_sa:1)							b(single) t())
+("squad_with1types" side(usa) name(single_smg)			period(late) year(late) cd(0)   ci(10)   g(single_3) c1(smg:1)								b(single) t())
 ("squad_with3types" side(usa) name(single_bar)			period(late) year(late) cd(0)   ci(45)  g(single_bar) c1(rifle_bar:1) c2(rifle_bar_asst:1) c3(rifle_bar_ammo:1) b(single) t())
 ("squad_with3types" side(usa) name(single_mg)			period(late) year(late) cd(0)   ci(60)  g(single_bar) c1(rifle_mg:1) c2(rifle_mg_asst:1) c3(rifle_mg_ammo:1) b(single) t())
 ("squad_with3types" side(usa) name(single_mg_101)		period(late) year(late) cd(180) ci(180)  g(single_bar) c1(101st_late_mg:1) c2(101st_late_mg_asst:1) c3(101st_late_mg_ammo:1) b(single) t())
@@ -568,21 +568,21 @@
 }
 
 {"p47_recon_late"
-	("vehicle_ss" side(usa) period(late) year(late) cd(450) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(150))
+	("vehicle_ss" side(usa) period(late) year(late) cd(450) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(100))
 	{action "airstrike:reconnaissance_50"} 
 	;{tags "limit3"}
 }
 
 
 {"p47_250_late"
-	("vehicle_ss" side(usa) period(late) year(late) cd(600) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(300))
+	("vehicle_ss" side(usa) period(late) year(late) cd(600) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(250))
 	;("doctrine_t2" cool(360) d(late_usa_irregular) cost(10))
 	{action "airstrike:sc_50"}
 	{tags "limit4"}
 }
 
 {"p47_500_late"
-	("vehicle_ss" side(usa) period(late) year(late) cd(900) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(650))
+	("vehicle_ss" side(usa) period(late) year(late) cd(900) ci(10) vehicle(p47_d22) crew(pilot:1) g(airstrike) b(supply) cost(500))
 	;("doctrine_t3" cool(360) d(late_usa_irregular) cost(30))
 	{action "airstrike:sc_250_mp"}
 	{tags "limit4"}

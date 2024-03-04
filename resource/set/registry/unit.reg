@@ -832,6 +832,9 @@
 	{"bt7"
 		{vehicle_view "bt7"}
 	}
+	{"bt7_dt"
+		{vehicle_view "bt7"}
+	}
 	{"bt7a"
 		{vehicle_view "bt7a"}
 	}
@@ -1747,5 +1750,8 @@
 	}
 	{"stug4g"
 		{vehicle_view "stug3_late"}
+	}
+	{"rbt_5"
+		{vehicle_view "bt5"}
 	}
 }

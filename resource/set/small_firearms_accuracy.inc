@@ -56,7 +56,9 @@
 	)
 
 ;/*----------------------*/
-
+	(define "accuracy_mg_high"
+		("mg_range" r1(0.3) r2(1.0) r3(1.2) globalaccuracy(1.00))
+	)
 	(define "accuracy_mg"
 		("mg_range" r1(0.5) r2(1.3) r3(1.5) globalaccuracy(1.00))
 	)

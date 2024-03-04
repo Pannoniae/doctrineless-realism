@@ -730,6 +730,9 @@
 		{"sdkfz251d_9" inherit "vehicle tank.234_3"}
 		{"sdkfz251_20" inherit "vehicle generic.searchlight"}
 		{"stug4g" inherit "vehicle td.stug3"}
+		
+		{"bt7_dt" inherit "vehicle tank.t26"}
+		{"rbt_5" inherit "vehicle tank.bt5"}
 
 
 

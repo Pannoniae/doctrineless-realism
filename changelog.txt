@@ -5,3 +5,7 @@ Into the Fire 0.1.10:
  - Added SdKfz 251/20 'Uhu' infrared halftrack to Germany.
  - Merged medium and heavy tank buymenus.
  - Added StuG IV from RobZ.
+ - Decoupled single buy timers from each other.
+ - Fixed the localisation for the USA single MG buy.
+ - Increased accuracy of the .30cal and the .50cal.
+ - Added a wheeled variant of the BT-7.

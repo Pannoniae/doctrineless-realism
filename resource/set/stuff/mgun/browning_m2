@@ -17,5 +17,6 @@
 
 	("burst_stand")
 	("spreading_mounted")
+	("accuracy_mg_high")
 	{traceFreq 1}
 }

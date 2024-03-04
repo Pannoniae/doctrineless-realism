@@ -1,4 +1,4 @@
-{from "pattern hmgun"
+{from "pattern mgun"
 	{filling "mgun_usa" 500}
 	{entity "browning_m19a4"}
 	{fireSound "smallarms/s3/d1/USA/M1919A4/"}
@@ -18,4 +18,5 @@
 
 	("burst_stand")
 	("spreading_mounted")
+	("accuracy_mg_high")
 }

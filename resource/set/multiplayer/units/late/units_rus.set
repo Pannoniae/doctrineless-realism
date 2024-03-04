@@ -605,8 +605,8 @@
 
 
 ("squad_with1types" side(rus) name(single_rifle)		period(late) year(late) cd(0)   ci(10)   g(single_1) 		c1(rifleman_1:1)						b(single) t())
-("squad_with1types" side(rus) name(single_smg)			period(late) year(late) cd(0)   ci(10)   g(single_1) 		c1(smg_stick:1)							b(single) t())
-("squad_with1types" side(rus) name(single_sa)			period(late) year(late) cd(0)   ci(25)   g(single_1) 		c1(rifleman_3:1)						b(single) t())
+("squad_with1types" side(rus) name(single_smg)			period(late) year(late) cd(0)   ci(10)   g(single_2) 		c1(smg_stick:1)							b(single) t())
+("squad_with1types" side(rus) name(single_sa)			period(late) year(late) cd(0)   ci(25)   g(single_3) 		c1(rifleman_3:1)						b(single) t())
 ;("squad_with2types" side(rus) name(single_auxiliary)	period(late) year(late) cd(0)   ci(0)   g(single_rifle)	c1(rifleman_1:1) c2(smg_1:1)				b(single) t())
 ("squad_with2types" side(rus) name(single_mg)			period(late) year(late) cd(0)   ci(60)  g(single_mg)		c1(mgun_1:1) c2(mgun_2:1)				b(single) t())
 ("squad_with2types" side(rus) name(single_mg_elite)		period(late) year(late) cd(0)   ci(180)  g(single_mg)		c1(elite_guards_mg:1) c2(elite_guards_mg_asst:1) b(single) t())
@@ -861,6 +861,14 @@
 {"ba10"
 	("vehicle2" period(late) year(late) cd(320) ci(10) g(wheel5) side(rus) t(vehicle) crew1(tankman:3) crew2(tank_commander:1) b(lt) cw(2) cp(8)
 	cost(240))
+}
+{"bt7"
+	("vehicle2" period(late) year(late) cd(420) ci(10) t(light) side(rus) crew1(tankman:2) crew2(tank_commander:1) g(light11) b(lt) cw(4) cp(12)
+	cost(250))
+}
+{"bt7_dt"
+	("vehicle2" period(late) year(late) cd(420) ci(10) t(light) side(rus) crew1(tankman:2) crew2(tank_commander:1) g(light11) b(lt) cw(4) cp(12)
+	cost(250))
 }
 ;{"t50"
 ;	("vehicle2" period(late) year(late) cd(90) ci(10) t(light) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(light2) b(lt) cw(4) cp(12)

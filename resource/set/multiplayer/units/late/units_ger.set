@@ -749,6 +749,10 @@
 	("vehicle2" period(late) year(late) cd(30) ci(0) g(wheel0) side(ger) t(vehicle) crew1(rifleman_1:1) crew2(mgun_2:1) b(supply) cw(1) cp(2)
 	cost(50))
 }
+{"bmw_r71_mg42"
+	("vehicle2" period(late) year(late) cd(30) ci(0) g(wheel0) side(ger) t(vehicle) crew1(rifleman_1:1) crew2(mgun_2:1) b(supply) cw(1) cp(2)
+	cost(75))
+}
 {"kubelwagen_mg"
 	("vehicle"  period(late) year(late) cd(30) ci(0) g(wheel1) side(ger) t(vehicle) crew(mgun_2:2) b(supply) cw(1) cp(2)
 	cost(55))
@@ -803,18 +807,20 @@
 	{action "airstrike:reconnaissance_50"} 
 	{tags "limit3"}
 }
-
-
 {"bf109_250_late"
 	("vehicle_ss" side(ger) period(late) year(late) cd(600) ci(10) vehicle(bf109_f4) crew(pilot:1) g(airstrike) b(supply) cost(300))
 	{action "airstrike:sc_50"}
 	{tags "limit3"}
 }
-
 {"bf110_500_late"
 	("vehicle_ss" side(ger) period(late) year(late) cd(900) ci(10) vehicle(bf110_e2) crew(pilot:1) g(airstrike) b(supply) cost(650))
 	{action "airstrike:sc_250_mp"}
 	{tags "limit3"}
+}
+
+{"150mm_sw34_ger" ; // Searchlight
+	("vehicle" period(late) year(late) cd(60) ci(10) t(cannon) side(ger) crew(artilleryman:2) g(searchlight) b(supply) cw(1) cp(2)
+	cost(300))
 }
 
 ;_________________________________________________
@@ -826,10 +832,6 @@
 	("vehicle_ss"  period(late) year(late) cd(0) ci(0) t(supply cannon) side(ger) vehicle(inf_crate_ger) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
 	cost(50))
 	{doctrine "late_ger_allround"}
-}
-{"150mm_sw34_ger" ; // Searchlight
-	("vehicle" period(late) year(late) cd(60) ci(10) t(cannon) side(ger) crew(artilleryman:2) g(searchlight) b(single) cw(1) cp(2)
-	cost(300))
 }
 
 ;AUTOMATIC WEAPONRY

@@ -1640,6 +1640,12 @@
 		("DT")
 	}
 }
+{"bt7_dt tank"
+	("bt_sound")
+	{on "add_weapon_sound" overload
+		("DT")
+	}
+}
 {"panzer742r tank"
 	("bt_sound")
 	{on "add_weapon_sound" overload
@@ -3616,5 +3622,69 @@
 		{ani_wind "open" end}
 	}
 }
+
+{"rbt_5 tank"
+	("bt_sound")
+	{on fire "rocket"
+		{volumes "rocket01" disable bullet blast contact}		;// Disables rocket volume after firing while reloading
+		{volumes "rocket00" disable bullet blast contact}		;// Disables rocket volume after firing while reloading
+		{chassis_work 0}
+        {delay 3
+        {chassis_work 1}
+        }
+	}
+	{on "reload"
+		{if name "rocket01"
+			{delay 125									;// Delay set to match reload time of main weapon
+				{volumes "rocket01" enable bullet blast}
+			}
+		}
+		{if name "rocket00"
+			{delay 125									;// Delay set to match reload time of main weapon
+				{volumes "rocket00" enable bullet blast}
+			}
+		}
+	}
+	{on break			;// volume breaks
+		{if not tagged "exploded"
+			{if component "turret"
+				{weapon_work "rocket" 0}
+			}
+			{if component "rocket01"
+				{tags add "ammo_broken"}
+				{call "stat_break"}
+				{call "explosion"}
+				{call "explosion_extra"}
+			}
+			{if component "rocket00"
+				{tags add "ammo_broken"}
+				{call "stat_break"}
+				{call "explosion"}
+				{call "explosion_extra"}
+			}
+			{if component "engine"
+				{ani_play "engine_b" +0.70 resume}
+			}
+		}
+	}
+	{on "explosion_extra"
+		{blastwave c4 12 r0 4 r1 20 offset 0 0 25}
+		{blastwave c4 1.3 r0 15 r1 25 offset 0 0 25}
+		{spawn "tank_die_heavy" "basis"}
+	}
+	{on repair
+		{if component "engine"
+			{if work "engine"
+				{ani_play "engine_r" +1 resume}
+			}
+		}
+		{if component "turret"
+			{if work "turret"
+				{weapon_work "rocket" 1}
+			}
+		}
+	}
+}
+
 
 ;/*=========== BK Vehicles End ===========*/
