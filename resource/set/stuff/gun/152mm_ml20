@@ -10,7 +10,7 @@
 	{reloadSound "tank/reload_howitzer"}
 	("heavy_artillery")
 	{calibre 152}
-	{range 430 430} ; // 17.2km
+	{range 480 480} ; // 17.2km
 
 	("reload time" seconds(30))
 

@@ -1,2 +1,2 @@
 Into the Fire 0.2.2:
- - Fixed StuG IV Ausf. G coax machine gun not reloading.
+ - Changed some artillery ranges and accuracies.
