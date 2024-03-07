@@ -1,3 +1,2 @@
-Into the Fire 0.2.3:
- - RBT-5 explosion adjusted.
- - Added Flammjagdtiger.
+Into the Fire 0.2.4:
+ - Fixed an issue with armour penetration not working consistently.
