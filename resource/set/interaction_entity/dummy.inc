@@ -637,23 +637,23 @@
 
 {"fx_piece_flame 120"			;// causes flamer thrower fuel to burn up after delay (disables far shooting)
 	{on "delete_time" overload
-		{delay 2.5
-			{call "end"}
-		}
-	}
-	{on "fire_radius" overload
-		{fire radius 1.2 time 2.5 heating 0.75 follow}
-	}
-}
-
-{"fx_piece_flame 150"			;// causes flamer thrower fuel to burn up after delay (disables far shooting)
-	{on "delete_time" overload
 		{delay 3
 			{call "end"}
 		}
 	}
 	{on "fire_radius" overload
 		{fire radius 1.2 time 3 heating 0.75 follow}
+	}
+}
+
+{"fx_piece_flame 150"			;// causes flamer thrower fuel to burn up after delay (disables far shooting)
+	{on "delete_time" overload
+		{delay 5
+			{call "end"}
+		}
+	}
+	{on "fire_radius" overload
+		{fire radius 1.2 time 5 heating 0.75 follow}
 	}
 }
 
