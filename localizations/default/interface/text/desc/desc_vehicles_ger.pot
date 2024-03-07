@@ -580,6 +580,14 @@ msgctxt "info/special/jagdtiger"
 msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
+msgctxt "desc/entity/flammjagdtiger"
+msgid " Schwerer-Flammpanzer auf Jagdtiger"
+msgstr ""
+
+msgctxt "info/special/flammjagdtiger"
+msgid "<c(c3baae)>Super-Heavy Flame Tank</c>"
+msgstr ""
+
 msgctxt "desc/entity/kettenkrad"
 msgid "Sd.Kfz 2 'Kettenkrad'"
 msgstr ""

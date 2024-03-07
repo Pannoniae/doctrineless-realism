@@ -1,2 +1,3 @@
-Into the Fire 0.2.2:
- - Changed some artillery ranges and accuracies.
+Into the Fire 0.2.3:
+ - RBT-5 explosion adjusted.
+ - Added Flammjagdtiger.

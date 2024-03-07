@@ -1757,4 +1757,7 @@
 	{"bmw_r71_mg42"
 		{vehicle_view "bmw_r71"}
 	}
+	{"flammjagdtiger"
+		{vehicle_view "jagdtiger"}
+	}
 }

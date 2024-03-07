@@ -733,6 +733,7 @@
 		
 		{"bt7_dt" inherit "vehicle tank.t26"}
 		{"rbt_5" inherit "vehicle tank.bt5"}
+		{"flammjagdtiger" inherit "vehicle td.jagdtiger"}
 
 
 

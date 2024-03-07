@@ -1449,6 +1449,34 @@
 	}
 }
 
+{"flammjagdtiger tank"
+	{on "add_movement_sound" overload
+		{link_sound "engine_start"		"vehicle/engine/pz6b/start"}
+		{link_sound "engine_stop"		"vehicle/engine/pz6b/stop"}
+		{link_sound "engine_idle"		"vehicle/engine/pz6b/idle"}
+		{link_sound "engine_full"		"vehicle/engine/pz6b/full"}
+		{link_sound "exhaust"			"vehicle/engine/pz6b/exhaust"}
+		{link_sound "move"				"vehicle/tracks/pz6b"}
+		{link_sound "rotate_turret"		"vehicle/turret/gun/gun_horizontal"}
+	}
+	{on "charger2_hatch_open" overload
+		{ani_play "mgun_aa" +1.0 resume}
+	}
+	{on "charger2_hatch_close" overload
+		{ani_play "mgun_aa" -1.0 resume}
+	}
+	
+	{on spawn
+		{add_view "flamer_fire_tank" "gun" "foresight1"}
+	}
+	{on "_explosion"
+		{spawn "fuel_die"}
+		{blastwave c4 5 r0 4 r1 15}
+		{fire radius 5 time 15 heating 10}
+	}
+	("flame_weapon" args gun 150 1 40)
+}
+
 {"bison2 tank"
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz2/start"}

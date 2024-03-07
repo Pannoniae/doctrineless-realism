@@ -20,6 +20,10 @@ msgctxt "desc/weapon/14mm_flammenwerfer_pz3"
 msgid "14mm Flammenwerfer"
 msgstr ""
 
+msgctxt "desc/weapon/14mm_schwerer_flammenwerfer"
+msgid "14mm Schwerer Flammenwerfer"
+msgstr ""
+
 msgctxt "desc/weapon/20mm_flak30"
 msgid "2cm Flak 30 L/65"
 msgstr ""

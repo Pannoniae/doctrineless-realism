@@ -32,6 +32,10 @@ msgctxt "desc/squad/jagdtiger_ss"
 msgid "Jagdtiger"
 msgstr ""
 
+msgctxt "desc/entity/flammjagdtiger_ss"
+msgid "Flammjagdtiger"
+msgstr ""
+
 msgctxt "desc/squad/tiger2p_ss"
 msgid "Tiger II (P)"
 msgstr ""

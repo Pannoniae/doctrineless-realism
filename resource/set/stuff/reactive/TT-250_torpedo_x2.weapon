@@ -27,5 +27,5 @@
 	{minRange 50}
 	{maxRange 180} ;//4,55km
 	("velocity" mps(100))
-	("reload time" seconds(125))
+	("reload time" seconds(150))
 }

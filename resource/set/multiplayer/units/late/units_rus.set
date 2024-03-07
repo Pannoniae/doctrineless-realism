@@ -816,8 +816,8 @@
 	cost(600)) ;// +20 for crew
 }
 {"rbt_5"
-	("vehicle2" period(late) year(late) cd(420) ci(10) t(light) side(rus) crew1(tankman:2) crew2(tank_commander:1) g(light11) b(art) cw(4) cp(12)
-	cost(600))
+	("vehicle2" period(late) year(late) cd(810) ci(10) t(light) side(rus) crew1(tankman:2) crew2(tank_commander:1) g(light11) b(art) cw(4) cp(12)
+	cost(800))
 }
 {"zis6_bm8_48"
 	("vehicle"  period(late) year(late) cd(900) ci(10) g(wheel7) side(rus) t(vehicle) crew(tankman:2) b(art) cw(2) cp(34)
@@ -992,15 +992,15 @@
 ;SPG
 {"bt7a"
 	("vehicle2" period(late) year(late) cd(420) ci(10) t(light) side(rus) crew1(tankman:2) crew2(tank_commander:1) g(light8) b(td) cw(4) cp(12)
-	cost(250))
+	cost(280))
 }
 {"su76"
 	("vehicle2" period(late) year(late) cd(450) ci(10) t(light) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg1) b(td) cw(4) cp(16)
-	cost(280)) ;// +30 for crew
+	cost(320)) ;// +30 for crew
 }
 {"zis30"
 	("vehicle2" period(late) year(late) cd(540) ci(10) t(light) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg2) b(tanks) cw(4) cp(16)
-	cost(350))
+	cost(380))
 }
 {"su85"
 	("vehicle2" period(late) year(late) cd(780) ci(10) t(medium) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(spg2) b(td) cw(6) cp(24)

@@ -1280,6 +1280,14 @@
 	("vehicle2" period(late) year(late) cd(1900) ci(10) t(heavy doctrineonly) side(ger) crew1(tankman_pzjag:5) crew2(tank_commander_pzjag:1) g(spg5) b(td) cw(6) cp(40)
 	cost(2400)) ;// +35 for crew
 }
+{"flammjagdtiger_ss"
+	("vehicle2_ss" period(late) year(late) cd(1900) ci(10) t(heavy) side(ger) vehicle(flammjagdtiger) crew1(tankman_pzjag:5) crew2(tank_commander_pzjag:1) g(spg5) b(td) cw(6) cp(40)
+	cost(1800)) ;// +35 for crew
+}
+{"flammjagdtiger"
+	("vehicle2" period(late) year(late) cd(1900) ci(10) t(heavy doctrineonly) side(ger) crew1(tankman_pzjag:5) crew2(tank_commander_pzjag:1) g(spg5) b(td) cw(6) cp(40)
+	cost(1800)) ;// +35 for crew
+}
 
 ;Plane
 {"bf109_f4"
