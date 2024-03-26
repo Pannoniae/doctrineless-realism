@@ -1548,6 +1548,9 @@
 }
 {"gaz_aaa_72k"
 	("zis5_sound")
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+	}
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 
@@ -1655,9 +1658,6 @@
 {"bmw_r71"
 	("r12_sound")
 }
-{"bmw_r71_mg42"
-	("r12_sound")
-}
 {"kubel car"
 	("kubel_sound")
 }
@@ -1694,6 +1694,9 @@
 }
 
 {"blitz3_6_flak30"
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+	}
 	("opel_sound")
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
@@ -1758,6 +1761,9 @@
 
 {"sdkfz10_4"
 	("hanomag_sound")
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+	}
 	{on fire "gun"
 		{ani_play "recoil"}
 		{view start "flashbarrel1"}
@@ -1792,6 +1798,9 @@
 
 {"ford_3ton_breda car"
 	("opel_sound")
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+	}
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 	("animation_sound" args "open_rear")
@@ -1928,6 +1937,13 @@
 	("willys_mb_sound")
 	{on "add_weapon_sound" overload
 		("M2HB")
+	}
+}
+
+{"ford_gpa"
+	("willys_mb_sound")
+	{on "add_weapon_sound" overload
+		("M1919A4")
 	}
 }
 

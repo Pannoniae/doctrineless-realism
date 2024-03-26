@@ -630,8 +630,12 @@
 	("vehicle"  period(late) year(late) cd(30) ci(10) t(cannon) side(usa) crew(crew:4) g(empl5) b(support) cw(1) cp(6)
 	cost(215))
 }
+{"40mm_m1_ss"
+	("vehicle_ss"  period(late) year(late) cd(210) ci(10) t(cannon) side(usa) vehicle(40mm_m1) crew(crew:3) g(empl4) b(support) cw(1) cp(10)
+	cost(250))
+}
 {"40mm_m1"
-	("vehicle"  period(late) year(late) cd(210) ci(10) t(cannon) side(usa) crew(crew:3) g(empl4) b(support) cw(1) cp(10)
+	("vehicle"  period(late) year(late) cd(210) ci(10) t(cannon doctrineonly) side(usa) crew(crew:3) g(empl4) b(support) cw(1) cp(10)
 	cost(250))
 }
 {"57mm_m1"

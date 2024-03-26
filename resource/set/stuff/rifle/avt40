@@ -1,5 +1,5 @@
 {from "pattern rifle"
-	{tag "-rifle rifle_shell smg"}
+	{tag "-rifle rifle_shell smg battlerifle"}
 	{filling "ammo rifle_rus" 10}
 	{entity "avt40"}
 	{fireSound "smallarms/s3/d1/RUS/SVT40/"}

@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/52 "SU100"
 	{filling "bulletrus_100"}
-	{fireSound "gun/gun_75_105"}
-	{fireSoundclose "interior/large/big_reload_interior"}
-	{reloadSound "tank/reload_big"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm_HV/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
 	("range_250")
 	{calibre 100}
 

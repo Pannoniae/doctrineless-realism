@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/28 "stuh42"
 	{filling "bulletger_105"}
-	{fireSound "gun/gun_75_105"}
-	{fireSoundclose "gun/gun_interior/size3"}
-	{reloadSound "interior/large/big_reload_interior"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
 	("range_190_howitzer")
 	{calibre 105}
 

@@ -4,9 +4,9 @@
 
 
 {from "75mm_kwk37"			; L/24 "stug3b"
-	{fireSound "gun/gun_75_105_short"}
-	{fireSoundclose "gun/gun_interior/size3"}
-	{reloadSound "interior/large/medium_reload_interior"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium/"}
 
 	("accuracy_direct" r1(0.85) range_ap(190) range_he(180) range_heat(180))
 }

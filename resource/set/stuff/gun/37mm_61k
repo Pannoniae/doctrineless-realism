@@ -5,8 +5,8 @@
 
 {from "pattern gun"			; "61k", "zsu37"
 	{filling "bulletrus_37_auto" 10} ;// 2 - 5 round clips
-	{fireSound "gun/gun_auto"}
-	{fireSoundclose "gun/gun_auto"}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Autocannon_37to40mm/"}
 	{reloadSound "tank/reload_small"}
 	("range_autocannon_37-40")
 	{cursor "ironsights/aa"}

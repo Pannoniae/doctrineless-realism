@@ -5,8 +5,8 @@
 
 {from "pattern gun"			; L/48 "75mm_ikt37"
 	{filling "bullet_75x657"}
-	{fireSound "gun/gun_75_105"}
-	{fireSoundclose "gun/gun_75_105"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm/"}
+	{fireSoundclose "cannon/s3/d1/Shared/Cannon_75to76mm/"}
 	{reloadSound "tank/reload_medium"}
 	("range_220")
 	{calibre 75}

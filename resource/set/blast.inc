@@ -5,7 +5,7 @@
 	{damage blastwave
 		{energy (+ (/ %weight 2.5) (+ 0.9 %filler))}
 		{area (* 0.5 (+ (/ %weight 10) (* 5 (+ %filler 0.25))))		(+ (/ %weight 10) (* 5 (+ %filler 0.25)))}
-		{ground_interaction_radius 0.25}
+		{ground_interaction_radius 0.5}
 	}
 	{damage add blastwave
 		{energy (+ 1.1 (* 0.75 %filler))}

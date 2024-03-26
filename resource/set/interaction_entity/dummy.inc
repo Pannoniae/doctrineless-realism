@@ -951,6 +951,53 @@
 	}
 }
 
+{"bullet_sound"
+	{on spawn
+		;// link all possible sounds for projectiles
+		{link_sound "incoming"			"projectile/mortar/incoming/"}
+		{link_sound "whistle"			"projectile/mortar/whistle/"}
+		{link_sound "rocket"			"projectile/shell/rocket_big/"}
+		{link_sound "at_rocket"			"projectile/shell/rocket/"}
+		{link_sound "shell_small"		"projectile/shell/small/"}
+		{link_sound "shell_low"			"projectile/shell/standard_low/"}
+		{link_sound "shell"				"projectile/shell/standard/"}
+		{link_sound "artillery"			"projectile/shell/artillery/"}
+		{link_sound "shell_thor"		"projectile/shell/karl_gerat"}
+
+		{delay 0 ;// required
+		;// check for specific bone names in the {view "entity"} of the weapons ammo file
+			{if bone "sound_mortar"			;//  mortar shells
+				{play_sound "whistle"}
+				{delay 1
+					{play_sound "incoming"}
+				}
+			}
+
+			{if bone "sound_rocket"			;// rocket artillery
+				{play_sound "rocket"}
+			}
+			{if bone "sound_at_rocket"		;// anti-tank rockets
+				{play_sound "at_rocket"}
+			}
+			{if bone "sound_shell_small"	;// small cannon shells
+				{play_sound "shell_small"}
+			}
+			{if bone "sound_shell_low"		;// low velocity cannon shells
+				{play_sound "shell_low"}
+			}
+			{if bone "sound_shell"			;// standard cannon shells
+				{play_sound "shell"}
+			}
+			{if bone "sound_artillery"		;// artillery cannon shells
+				{play_sound "artillery"}
+			}
+			{if bone "600mm_ger_he"			;// karl thor shells
+				{play_sound "shell_thor"}
+			}
+		}
+	}
+}
+
 {"paratrooper"
 	{on spawn
 		{tags add "base"}
@@ -1690,7 +1737,7 @@
 }
 
 {"conquest_spawn_helper"
-	{on spawn
+	{on "start"
 		{delay 0
 			{spawn "conquest_spawn_indicator" random_position 400}
 		}
@@ -1702,7 +1749,7 @@
 
 {"conquest_spawn_indicator"
 	{on spawn
-		{delay 60
+		{delay 300
 			{delete}
 		}
 	}

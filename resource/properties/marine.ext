@@ -1,0 +1,116 @@
+;SDL
+actor
+
+(include "vehicle.ext")
+(include "armor.ext")
+(include "abm.inc")
+
+{able "-emit_passangers_on_enemy"}
+
+("brain_vehicle")
+
+{Chassis "water" ("chassis_defaults")}
+{simulatorid "water"}
+{patherid "water"}
+{collider "marine"}
+{obstacleID "marine"}
+
+{targetClass "tank_medium" "ap fg bullet"}
+{targetSelector "cannon_zenite"}
+
+{extender "inventory"
+	{box
+		{Size 9 15}
+		{Weight 20000}
+	}
+}
+
+{sensor
+	{Visor "main"
+		{vision "marine_main"}
+		{bone "visor"}
+	}
+}
+
+{Skeleton
+	{bone "hearing_bone"
+		{Position 0 0 40}
+	}
+}
+
+(define "locomotion"
+	{MaxSpeed	25	}		;// max speed, km/h
+	{StartTime	10	}		;// acceleration time from 0 to max. speed, seconds
+	{BrakeTime	2	}		;// deceleration time from max. speed to 0, seconds
+	{StopTime	4	}		;// stop time after turning off the engine, seconds
+	{TurnRadius	8	}		;// turn radius, m
+	{SplineRadius 3	}		;// limit turning radius on the splines, meters
+
+	{SteerOn	20	}
+	{SteerOff	40	}
+	{Gears 0.5 0.7 1.0}
+	{RearGears 0.15 0.3}
+)
+
+(define "ballast"
+	{volume "ballast%0"
+		{tags "float"}
+		{Able clear {float}}
+	}
+)
+
+("ballast" args 1)
+("ballast" args 2)
+("ballast" args 3)
+("ballast" args 4)
+("ballast" args 5)
+("ballast" args 6)
+("ballast" args 7)
+("ballast" args 8)
+("ballast" args 9)
+("ballast" args 10)
+
+(define "body_"
+	{volume %0
+		{tags %1}
+		{component %1}
+	}
+	{component %1
+		{RepairTime %2}
+		{tags %1}
+		{RepairOrder 0}
+	}
+)
+
+(define "body_boat"
+	("body_" args "body" "body" %repair)
+	("body_" args "body1" "body1" %repair)
+	("body_" args "body2" "body2" %repair)
+	("body_" args "body3" "body3" %repair)
+	("body_" args "body4" "body4" %repair)
+	("body_" args "body5" "body5" %repair)
+	("body_" args "body6" "body6" %repair)
+	("body_" args "body7" "body7" %repair)
+	("body_" args "body8" "body8" %repair)
+	("body_" args "body9" "body9" %repair)
+	("body_" args "body10" "body10" %repair)
+	("body_" args "body11" "body11" %repair)
+	("body_" args "body12" "body12" %repair)
+	("body_" args "body13" "body13" %repair)
+	("body_" args "body14" "body14" %repair)
+	("body_" args "body15" "body15" %repair)
+	("body_" args "body16" "body16" %repair)
+	("body_" args "body17" "body17" %repair)
+	("body_" args "body18" "body18" %repair)
+	("body_" args "body19" "body19" %repair)
+	("body_" args "body20" "body20" %repair)
+)
+
+("basic_armor" args 10) ;//-0.298
+("body_boat" repair(10))
+;("body" repair(10))
+("engine" repair(30))
+
+{perks {blastwave_modifier 10.0}}
+
+("marine_durability" body(200) engine(60) gun(100))

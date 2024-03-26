@@ -5,8 +5,8 @@
 
 {from "pattern gun"			; L/54 "m1a2"
 	{filling "bulletusa_37_auto" 10}
-	{fireSound "gun/gun_auto"}
-	{fireSoundclose "gun/gun_auto"}
+	{fireSound "cannon/s1/d1/Shared/Cannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Cannon_37to40mm/"}
 	{reloadSound "tank/reload_small"}
 	("range_autocannon_37-40")
 	{cursor "ironsights/aa"}

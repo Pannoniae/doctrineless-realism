@@ -93,9 +93,9 @@
 	{parameters "apcbche2" 	{minimumDamageModifier (* 1.25 %damage)}}
 	{parameters "aphebc" 	{minimumDamageModifier (* 1.25 %damage)}}
 	{parameters "aphebc2" 	{minimumDamageModifier (* 1.25 %damage)}}
-	{parameters "apcr" 		{minimumDamageModifier (* 0.75 %damage)}}
-	{parameters "hvap" 		{minimumDamageModifier (* 0.75 %damage)}}
-	{parameters "apds" 		{minimumDamageModifier (* 0.75 %damage)}}
+	{parameters "apcr" 		{minimumDamageModifier (* 1.00 %damage)}}
+	{parameters "hvap" 		{minimumDamageModifier (* 1.00 %damage)}}
+	{parameters "apds" 		{minimumDamageModifier (* 1.00 %damage)}}
 	{parameters "heat" 		{minimumDamageModifier (* 1.25 %damage)}}
 	{parameters "heata" 	{minimumDamageModifier (* 1.25 %damage)}}
 	{parameters "heatb" 	{minimumDamageModifier (* 1.25 %damage)}}
@@ -221,27 +221,27 @@
 	}
 	{parameters "he"
 		{spreading
-			{radiusTable {0 0} {125 (* %he125 (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {(- %range_he 0.1) (* %rmax %r0)} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
+			{radiusTable {0 0} {125 (* %he125 (* 0.5 (* %r2 %r0)))} {250 (* 1.85 (* %r2 %r0))} {(- %range_he 0.1) (* %rmax %r0)} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
 		}
 	}
 	{parameters "he2"
 		{spreading
-			{radiusTable {0 0} {125 (* %he125 (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {(- %range_he 0.1) (* %rmax %r0)} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
+			{radiusTable {0 0} {125 (* %he125 (* 0.5 (* %r2 %r0)))} {250 (* 1.85 (* %r2 %r0))} {(- %range_he 0.1) (* %rmax %r0)} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
 		}
 	}
 	{parameters "sm"
 		{spreading
-			{radiusTable {0 0} {125 (* %he125  (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {%range_he (* %rmax %r0)} {(* %range_he 10) 60}}
+			{radiusTable {0 0} {125 (* %he125 (* 0.5 (* %r2 %r0)))} {250 (* 1.85 (* %r2 %r0))} {%range_he (* %rmax %r0)} {(* %range_he 10) 60}}
 		}
 	}
 	{parameters "wp"
 		{spreading
-			{radiusTable {0 0} {125 (* %he125  (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {%range_he (* %rmax %r0)} {(* %range_he 10) 60}}
+			{radiusTable {0 0} {125 (* %he125 (* 0.5 (* %r2 %r0)))} {250 (* 1.85 (* %r2 %r0))} {%range_he (* %rmax %r0)} {(* %range_he 10) 60}}
 		}
 	}
 	{parameters "ic"
 		{spreading
-			{radiusTable {0 0} {125 (* %he125  (* %r2 %r0))} {250 (* 2.0 (* %r2 %r0))} {(- %range_he 0.1) (* %rmax %r0)} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
+			{radiusTable {0 0} {125 (* %he125 (* 0.5 (* %r2 %r0)))} {250 (* 1.85 (* %r2 %r0))} {(- %range_he 0.1) (* %rmax %r0)} {(+ %range_he 10) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
 		}
 	}
 	{parameters "heat"

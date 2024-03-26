@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/30 "Hummel", "sfh18"
 	{filling "bulletger_150_l30"}
-	{fireSound "gun/gun_122_152"}
-	{fireSoundclose "gun/gun_122_152"}
-	{reloadSound "tank/reload_howitzer"}
+	{fireSound "cannon/s5/d1/Shared/Cannon_150to210mm/"}
+	{fireSoundClose "cannon/s5/3p/Shared/Cannon_150to210mm/"}
+	{reloadSound "utility/"}
 	("heavy_artillery")
 	{calibre 150}
 	{range 385 385} ; // 13.3km

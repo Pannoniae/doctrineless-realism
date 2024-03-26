@@ -13,7 +13,7 @@
 
 {"human"								; // Standard human vision
 	{uncover 20}
-	{h_fov 100}
+	{h_fov 150}
 	{v_fov 180}
 	("spotting" r(1.0))
 }
@@ -22,19 +22,19 @@
 	{uncover 10}
 	{h_fov 240}
 	{v_fov 120}
-	("spotting" r(0.2))
+	("spotting" r(0.22))
 }
 
 {"human_elite"							; // Soldiers with better vision (elites, officers, snipers)
 	{uncover 20}
-	{h_fov 120}
+	{h_fov 150}
 	{v_fov 180}
-	("spotting" r(1.0))
+	("spotting" r(1.1))
 }
 
 {"human_recon"							; // Soldiers with dedicated best vision (recon soldiers)
 	{uncover 20}
-	{h_fov 120}
+	{h_fov 150}
 	{v_fov 180}
 	("spotting" r(1.25))
 }

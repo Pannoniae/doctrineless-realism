@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/17.9 "m3"
 	{filling "bulletusa_105"}
-	{fireSound "gun/gun_75_105"}
-	{fireSoundclose "gun/gun_75_105"}
-	{reloadSound "tank/reload_big"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	{reloadSound "utility/"}
 	("medium_artillery")
 	{calibre 105}
 	{range 315 315} ; // 7.6km

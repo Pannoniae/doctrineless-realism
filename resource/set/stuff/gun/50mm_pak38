@@ -4,8 +4,8 @@
 
 
 {from "50mm_kwk39"			; L/60 "pak38"
-	{fireSound "gun/gun_37_57"}
-	{fireSoundclose "gun/gun_37_57"}
+	{fireSoundClose "cannon/s2/3p/Shared/Cannon_50to57mm_HV/"}
+	{fireSoundClose "cannon/s2/3p/Shared/Cannon_50to57mm_HV/"}
 
 	("velocity m/s" ap(835) apcr(1150) he(550) heat(110))
 	("reload time" seconds(3.75))

@@ -5,8 +5,8 @@
 
 {from "pattern gun"			; "grille_m"
 	{filling "bulletger_30_auto" 160}
-	{fireSound "gun/gun_auto_tank"}
-	{fireSoundclose "gun/gun_auto_tank"}
+	{reloadSound "tank/reload_small"}
+	{reloadSound "tank/reload_small"}
 	{reloadSound "tank/reload_small"}
 	("range_autocannon_37-40")
 	{cursor "ironsights/aa"}

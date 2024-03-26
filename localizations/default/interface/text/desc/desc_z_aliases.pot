@@ -108,6 +108,10 @@ msgctxt "desc/squad/m4a3_calliope_ss"
 msgid "T34 'Calliope'"
 msgstr ""
 
+msgctxt "desc/squad/40mm_m1_ss"
+msgid "40mm Bofors"
+msgstr ""
+
 msgctxt "desc/squad/po2_recon_late"
 msgid "PO2 Recon Plane"
 msgstr ""

@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/45 "155mm_m1_longtom"
 	{filling "bullet_155"}
-	{fireSound "gun/gun_122_152"}
-	{fireSoundclose "gun/gun_122_152"}
-	{reloadSound "tank/reload_howitzer"}
+	{fireSound "cannon/s5/d1/Shared/Cannon_150to210mm/"}
+	{fireSoundClose "cannon/s5/3p/Shared/Cannon_150to210mm/"}
+	{reloadSound "utility/"}
 	("heavy_artillery")
 	{calibre 155}
 	{range 505 505} ; // 23.51km

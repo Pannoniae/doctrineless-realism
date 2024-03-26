@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/66 "m1942"
 	{filling "bulletrus_45"}
-	{fireSound "gun/gun_37_57_short"}
-	{fireSoundclose "gun/gun_37_57_short"}
-	{reloadSound "tank/reload_small"}
+	{fireSound "cannon/s2/d1/Shared/Cannon_45to47mm/"}
+	{fireSoundclose "cannon/s2/3p/Shared/Cannon_45to47mm/"}
+	{reloadSound "utility/"}
 	("range_180")
 	{calibre 45}
 

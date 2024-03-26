@@ -60,7 +60,7 @@
 
 (define "spreading_mounted"
 	{spreading
-		{BurstAccuracy 100 98 94 88 83 76 72 67}
+		{BurstAccuracy 100 98 95 91 86 81 76 70}
 	}
 )
 
@@ -100,12 +100,12 @@
 	("penetration" args 11.5 5.5 3 2 0) ;// SmK L'spur / ball belts
 
 	{parameters "ap"
-		("penetration" args 14 6.5 3.5 2 0) ;// SmK
+		("penetration" args 18 8.8 5.3 2 0) ;// SmK
 		("armor health" damage(5))
 		{cursorReloading "gun_ap"}
 	}
 	{parameters "ap2"
-		("penetration" args 22 10 5 3 0) ;// SmK(H)
+		("penetration" args 25.9 12.7 7.7 3 0) ;// SmK(H)
 		("armor health" damage(5))
 		{cursorReloading "gun_ap"}
 	}

@@ -5,8 +5,8 @@
 
 {from "pattern gun"			; L/55  "panzer2c", "panzer2f", "sdkfz222", "sdkfz232"
 	{filling "bulletger_20_auto" 10}
-	{fireSound "gun/gun_auto_tank"}
-	{fireSoundclose "gun/gun_interior/size1"}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_20to30mm/"}
+	{fireSoundclose "cannon/s1/1p/Shared/Autocannon_20to30mm/"}
 	{reloadSound "interior/large/small_reload_interior"}
 	("range_autocannon_12-20")
 	{cursor "ironsights/aa"}

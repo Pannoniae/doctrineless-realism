@@ -5,8 +5,8 @@
 
 {from "pattern gun"			;  "T-60"
 	{filling "bulletrus_20_auto" 58}
-	{fireSound "gun/gun_auto"}
-	{fireSoundclose "gun/gun_interior/size1"}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_20to30mm/"}
+	{fireSoundclose "cannon/s1/1p/Shared/Autocannon_20to30mm/"}
 	{reloadSound "interior/large/auto_reload_interior"}
 	("range_autocannon_12-20")
 	{cursor "ironsights/aa"}

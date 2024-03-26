@@ -19,7 +19,6 @@
 			0	-1	0
 			0	0	1
 		}
-		;{extension "/properties/new_components.ext"}
 		{bone "body"
 			{parameters "ID=body;"}
 			{animation
@@ -773,7 +772,6 @@
 		}
 	}
 }
-;{extension "/properties/new_components_vol.ext"}
 {Volume "body1"
 	{Polyhedron "body1.vol"}
 	{Bone "body"}

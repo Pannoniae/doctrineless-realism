@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/73 "t26e1"
 	{filling "bulletusa_90x1270"}
-	{fireSound "gun/gun_88"}
-	{fireSoundclose "gun/gun_interior/size3"}
-	{reloadSound "interior/large/big_reload_interior"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm_HV/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
 	("range_230")
 	{calibre 90}
 

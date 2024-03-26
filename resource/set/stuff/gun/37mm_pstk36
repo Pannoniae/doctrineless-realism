@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/45 "37mm_ptsk36"
 	{filling "bullet_37x257"}
-	{fireSound "gun/gun_37_57"}
-	{fireSoundclose "gun/gun_37_57"}
-	{reloadSound "tank/reload_small"}
+	{fireSound "cannon/s1/d1/Shared/Cannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Cannon_37to40mm/"}
+	{reloadSound "utility/"}
 	("range_170")
 	{calibre 37}
 

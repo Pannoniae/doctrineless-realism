@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/52 "105mm_sk18"
 	{filling "bulletger_105"}
-	{fireSound "gun/gun_75_105"}
-	{fireSoundclose "gun/gun_75_105"}
-	{reloadSound "tank/reload_big"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_105to130mm/"}
+	{reloadSound "utility/"}
 	("heavy_artillery")
 	{calibre 105}
 	{range 450 450} ; // 19km

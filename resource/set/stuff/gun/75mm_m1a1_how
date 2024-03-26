@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/15.9 "M1 howitzer"
 	{filling "bulletusa_75x272"}
-	{fireSound "gun/gun_75_105_short"}
-	{fireSoundclose "gun/gun_75_105_short"}
-	{reloadSound "tank/reload_medium"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{fireSoundclose "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{reloadSound "utility/"}
 	("range_180_howitzer")
 	{calibre 75}
 	("reload time" seconds(6))

@@ -5,7 +5,7 @@
 
 {from "45mm_20k"			; L/46 "m37"
 
-	{fireSoundclose "gun/gun_37_57_short"}
+	{fireSoundclose "cannon/s2/3p/Shared/Cannon_45to47mm/"}
 
 	("reload time" seconds(3.5))
 }

@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/29 "su152" "isu152"
 	{filling "bulletrus_152"}
-	{fireSound "gun/gun_122_152"}
-	{fireSoundclose "gun/gun_interior/size4"}
-	{reloadSound "interior/large/howitzer_reload_interior"}
+	{fireSound "cannon/s5/d1/Shared/Cannon_150to210mm/"}
+	{fireSoundClose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
 	("range_210_howitzer")
 	{calibre 152}
 

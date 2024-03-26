@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/33 "panzer38H"
 	{filling "bullet_37x149"}
-	{fireSound "gun/gun_37_57"}
-	{fireSoundclose "gun/gun_37_57"}
-	{reloadSound "tank/reload_small"}
+	{fireSound "cannon/s1/d1/Shared/Cannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
+	{reloadSound "tank/1p/small_long/"}
 	("range_180")
 	{calibre 37}
 

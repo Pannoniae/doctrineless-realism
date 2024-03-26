@@ -216,6 +216,18 @@ entity	"hit_tree_continuous2"
 entity	"tree_obliterate_bole"
 entity	"stump_shed_medium"
 
+;shells
+entity	"shell_hmgun"
+entity	"shell_inter"
+entity	"shell_mgun"
+entity	"shell_pistol"
+entity	"shell_pistol2"
+entity	"shell_ptr"
+entity	"shell_rifle_M1_Garand"
+entity	"shell_rifles"
+entity	"shell_shotgun"
+entity	"shell_smg"
+
 ;sounds
 sound	"weapon/reload"
 sound	"weapon/reload/open_bolt"

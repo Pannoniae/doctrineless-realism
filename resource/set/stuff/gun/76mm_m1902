@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/30 "M1902"
 	{filling "bulletrus_76"}
-	{fireSound "gun/gun_75_105_short"}
-	{fireSoundclose "gun/gun_75_105_short"}
-	{reloadSound "tank/reload_medium"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm/"}
+	{fireSoundclose "cannon/s3/3p/Shared/Cannon_75to76mm/"}
+	{reloadSound "utility/"}
 	("range_180")
 	{calibre 76.2}
 	("reload time" seconds(6.5))

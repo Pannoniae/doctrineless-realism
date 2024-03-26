@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/52 "t3485"
 	{filling "bulletrus_85"}
-	{fireSound "gun/gun_75_105"}
-	{fireSoundclose "gun/gun_interior/size3"}
-	{reloadSound "interior/large/medium_reload_interior"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
 	("range_210")
 	{calibre 85}
 

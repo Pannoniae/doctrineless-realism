@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/40  "pz35t"
 	{filling "bulletger_37"}
-	{fireSound "gun/gun_37_57_short"}
-	{fireSoundclose "gun/gun_interior/size2"}
-	{reloadSound "interior/large/small_reload_interior"}
+	{fireSound "cannon/s1/d1/Shared/Cannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
+	{reloadSound "tank/1p/small_long/"}
 	("range_180")
 	{calibre 37}
 

@@ -33,7 +33,7 @@
 (define "inf_tankman"
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 1}
+	{cp 2}
 	{cw 0.5}
 	{score (* %cost 0.05)}
 )
@@ -41,7 +41,7 @@
 (define "inf_medic"
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 1}
+	{cp 3}
 	{cw 0.5}
 	{score (* %cost -0.2)}
 )
@@ -57,7 +57,7 @@
 (define "inf_sniper"
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man sniper"}
-	{cp 4}
+	{cp 8}
 	{cw 1}
 	{score (* %cost 0.05)}
 )
@@ -65,7 +65,7 @@
 (define "inf_tier0"
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 0.75}
+	{cp 2}
 	{cw 0.5}
 	{score (* %cost 0.05)}
 )
@@ -73,7 +73,7 @@
 (define "inf_tier1"
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 1}
+	{cp 2}
 	{cw 0.5}
 	{score (* %cost 0.05)}
 )
@@ -81,7 +81,7 @@
 (define "inf_tier2_lite"
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 1.25}
+	{cp 2}
 	{cw 1.0}
 	{score (* %cost 0.05)}
 )
@@ -89,7 +89,7 @@
 (define "inf_tier2"
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 1.5}
+	{cp 3}
 	{cw 1.0}
 	{score (* %cost 0.05)}
 )
@@ -97,7 +97,7 @@
 (define "inf_tier3"
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 1.75}
+	{cp 3}
 	{cw 2.0}
 	{score (* %cost 0.05)}
 )
@@ -105,7 +105,7 @@
 (define "inf_tier4" ; tier 4
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 2}
+	{cp 3}
 	{cw 2.5}
 	{score (* %cost 0.05)}
 )
@@ -120,7 +120,7 @@
 (define "inf_tier1_fin"
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 1}
+	{cp 2}
 	{cw 0.75} ;// 0.25 bonus
 	{score (* %cost 0.05)}
 )
@@ -128,7 +128,7 @@
 (define "inf_tier2_fin"
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 1.5}
+	{cp 3}
 	{cw 1.25} ;// 0.25 bonus
 	{score (* %cost 0.05)}
 )
@@ -136,7 +136,7 @@
 (define "inf_tier3_fin" ;tier3
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 1.75}
+	{cp 4}
 	{cw 2.5} ;// 0.5 bonus
 	{score (* %cost 0.05)}
 )
@@ -144,7 +144,7 @@
 (define "inf_tier4_fin" ;tier4
 	("inf_settings_general" cost(%cost))
 	{tags "%period %side infantry man"}
-	{cp 2}
+	{cp 4}
 	{cw 3.0} ;// 0.5 bonus
 	{score (* %cost 0.05)}
 )

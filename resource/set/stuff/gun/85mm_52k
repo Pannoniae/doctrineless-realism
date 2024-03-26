@@ -6,8 +6,8 @@
 {from "85mm_zis53"			; L/52
 	("heavy_aa")
 	("reload time" seconds(6))
-	{fireSound "gun/gun_75_105"}
-	{fireSoundclose "gun/gun_75_105"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_85to100mm/"}
 
 	("accuracy_direct_arrowhead" r1(0.72) range_ap(210) range_he(210) range_heat(210))
 

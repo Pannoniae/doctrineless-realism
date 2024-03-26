@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/14
 	{filling "bulletrus_280"}
-	{fireSound "gun/gun_203_210"}
-	{fireSoundclose "gun/gun_203_210"}
-	{reloadSound "tank/reload_howitzer"}
+	{fireSound "cannon/s6/d1/Shared/Cannon_280mm+/"}
+	{fireSoundClose "cannon/s6/3p/Shared/Cannon_280mm+/"}
+	{reloadSound "utility/"}
 	("super_heavy_artillery")
 	{calibre 280}
 	{range 315 315} ; // 7.35km F-674

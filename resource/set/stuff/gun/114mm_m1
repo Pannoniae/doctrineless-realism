@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/43 "4.5-inch M1"
 	{filling "bulleteng_114"}
-	{fireSound "gun/gun_75_105"}
-	{fireSoundclose "gun/gun_75_105"}
-	{reloadSound "tank/reload_big"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	{reloadSound "utility/"}
 	("medium_artillery")
 	{calibre 115}
 	{range 455 455} ; // 19.31km

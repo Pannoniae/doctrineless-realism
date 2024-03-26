@@ -5,6 +5,6 @@
 
 {from "100mm_d10c"			; L/52 "BS-3"
 	("reload time" seconds(9))
-	{fireSound "gun/gun_75_105"}
-	{fireSoundclose "gun/gun_75_105"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm_HV/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_85to100mm_HV/"}
 }

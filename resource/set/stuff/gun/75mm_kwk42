@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/70 "panzer5a", "panzer5g"
 	{filling "bulletger_75_l70"}
-	{fireSound "gun/gun_75_105"}
-	{fireSoundclose "gun/gun_interior/size3"}
-	{reloadSound "interior/large/medium_reload_interior"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_HV/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
 	("range_230")
 	{calibre 75}
 

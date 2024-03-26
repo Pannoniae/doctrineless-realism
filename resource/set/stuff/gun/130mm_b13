@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/50 "SU100y"
 	{filling "bulletrus_130"}
-	{fireSound "gun/gun_122_152"}
-	{fireSoundclose "gun/gun_interior/size4"}
-	{reloadSound "interior/large/howitzer_reload_interior"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
 	("range_240")
 	{calibre 130}
 

@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/11.8 "Le IG 18" "Le Geb IG 18"
 	{filling "bulletger_75_l24"}
-	{fireSound "gun/gun_75_105_short"}
-	{fireSoundclose "gun/gun_75_105_short"}
-	{reloadSound "tank/reload_medium"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{fireSoundclose "cannon/s3/3p/Shared/Cannon_75to76mm_LV/"}
+	{reloadSound "utility/"}
 	("range_180_howitzer")
 	{calibre 75}
 

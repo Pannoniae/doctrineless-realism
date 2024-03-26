@@ -1,4 +1,5 @@
 {"tank"
+	(include "\set\interaction_terrain\effects\effects-defines.inc")
 	{on spawn
 		{set "smoke1" 0}				;// used in burn_emit call
 		{set "smoke2" 0}				;// used in burn_emit call
@@ -21,7 +22,6 @@
 		{link_sound "rotate_gun"				"vehicle/turret/gun/gun_vertical"}
 
 
-		{link_sound "bkg_mg" "weapon/shot/bkg/gun/mg/"}
 		{link_sound "contact" "fire/loops/big"}
 		;/*=========== Sounds End ===========*/
 
@@ -1189,7 +1189,7 @@
 		{if tagged "ammo_broken"
 			{blastwave c4 3 r0 2.5 r1 10}
 			{spawn "tank_die_light" "basis"}
-			{start_sound "detonation/explosion_vehicle/bkg/"}
+			("explosion_HE_s4")
 		else
 			{spawn "tank_die_peaceful_light" "basis"}
 			{stop_sound "flame"}
@@ -1261,7 +1261,7 @@
 			{blastwave c4 2 r0 6 r1 12 offset 0 0 60}
 
 			{spawn "tank_die_light" "basis"}
-			{start_sound "detonation/explosion_vehicle/bkg/"}
+			("explosion_HE_s4")
 			{if terrain_fx "snow"
 				{spawn "tank_die_snow_light" "basis"}
 			else terrain_fx "ice"
@@ -1346,7 +1346,7 @@
 			{blastwave c4 5 r0 2.5 r1 10 offset 0 0 75}
 			{blastwave c4 2 r0 10 r1 15 offset 0 0 75}
 			{spawn "tank_die_medium" "basis"}
-			{start_sound "detonation/explosion_vehicle/bkg/"}
+			("explosion_HE_s5")
 			{if terrain_fx "snow"
 				{spawn "tank_die_snow" "basis"}
 			else terrain_fx "ice"
@@ -1467,7 +1467,7 @@
 			{blastwave c4 5 r0 2.5 r1 10 offset 0 0 75}
 			{blastwave c4 2 r0 10 r1 20 offset 0 0 75}
 			{spawn "tank_die_heavy" "basis"}
-			{start_sound "detonation/explosion_vehicle/bkg/"}
+			("explosion_HE_s6")
 			{if terrain_fx "snow"
 				{spawn "tank_die_snow" "basis"}
 			else terrain_fx "ice"
@@ -1725,6 +1725,7 @@
 		{call "spawn_shell_delay"}
 		(define "shell_eject_delay"
 			{delay_ex %0
+				{play_sound "breech_open"}
 				{ani_play "shell_eject" 1}			;// door/hatch animation for tank to open and shell is thrown out
 				{ani_play "shell_hatch" 1}
 				{delay_ex %1
@@ -1764,6 +1765,8 @@
 				{delay 0.75
 					{ani_play "shell_eject" 1.0}
 					{talk "reload"}
+					{play_sound "breech_open"}
+
 				}
 				{delay (- %0 0.5)
 					{call "tank_reloaded"}
@@ -1777,6 +1780,7 @@
 
 	{on "tank_reloaded"
 		{ani_play "shell_eject" -1.0}
+		{play_sound "breech_close"}
 		{delay 0.5
 			{talk "reloaded"}
 		}

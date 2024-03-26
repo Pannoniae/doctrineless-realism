@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/25.8 "75mm_fk18"
 	{filling "bulletger_75_l24"}
-	{fireSound "gun/gun_75_105_short"}
-	{fireSoundclose "gun/gun_75_105_short"}
-	{reloadSound "tank/reload_medium"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{fireSoundclose "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{reloadSound "tank/1p/medium_long/"}
 	("heavy_artillery")
 	{calibre 75}
 	{range 370 370} ; // 9.4km

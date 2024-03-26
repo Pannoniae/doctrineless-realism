@@ -5,9 +5,9 @@
 
 {from "pattern gun"		; L/56 "flak36a"
 	{filling "bulletger_88_l56"}
-	{fireSound "gun/gun_88"}
-	{fireSoundclose "gun/gun_88"}
-	{reloadSound "tank/reload_big"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_85to100mm/"}
+	{reloadSound "utility/"}
 	("range_230")
 	{calibre 88}
 	("heavy_aa")

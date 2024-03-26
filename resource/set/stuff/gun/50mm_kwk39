@@ -5,9 +5,9 @@
 
 {from "pattern gun"			; L/60 "panzer3l", "panzer3m", "sdkfz234"
 	{filling "bulletger_50_l60"}
-	{fireSound "gun/gun_37_57"}
-	{fireSoundclose "gun/gun_interior/size2"}
-	{reloadSound "interior/large/small_reload_interior"}
+	{fireSound "cannon/s2/d1/Shared/Cannon_50to57mm_HV/"}
+	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
+	{reloadSound "tank/1p/small_long/"}
 	("range_190")
 	{calibre 50}
 

@@ -1,5 +1,5 @@
 {from "pattern rifle"
-	{tag "-rifle smg assaultrifle"}
+	{tag "-rifle smg assaultrifle battlerifle"}
 	{filling "ammo bar_mag" 20}
 	{entity "bar_bipod"}
 	{fireSound "smallarms/s3/d1/USA/M1918A2_BAR/"}
@@ -14,7 +14,7 @@
 	("penetration" args 17.3 8 4 2 0) ;// AP, M2
 
 	{spreading
-		{BurstAccuracy 100 90 70 50 30 10}
+		{BurstAccuracy 100 90 80 70 60 50}
 	}
 	{burst	;// doctrinal usage as squad heavy weapon for suppressive fire
 		{short 3 1}		; burst shots on long distance, rand (+-)shots

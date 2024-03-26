@@ -140,8 +140,8 @@
 	("recoil_rifle_bolt")
 	("ap_7_62_slope_multiplier")
 	{burst
-		{short 1 0}		; burst shots on long distance, rand (+-)shots
-		{long 2 0}		; burst shots on short distance, rand (+-)shots
+		{short 0 0.1}	; burst shots on long distance, rand (+-)shots
+		{long 2 0.1}	; burst shots on short distance, rand (+-)shots
 		{rangeKoef 0.2}	; rangeKoef * aimRange = max long burst distance
 	}
 	{AccuracyByMotionK 1.2}

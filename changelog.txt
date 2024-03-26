@@ -1,2 +1,4 @@
-Into the Fire 0.2.4:
- - Fixed an issue with armour penetration not working consistently.
+Into the Fire 0.2.5:
+ - Fixed some broken vehicle models.
+ - Corrected some USA localisation.
+ - Fixed artillery explosions being double as powerful as intended.

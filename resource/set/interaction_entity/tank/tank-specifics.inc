@@ -22,7 +22,10 @@
 {"sdkfz222a tank"
 	("sdkfz222_sound")
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("MG34")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+		{link_sound "action_recoil"		"weapon/shot/smallarms/s3/recoil/GER/MG42/"}
 	}
 	{on spawn
 		{ani_wind "open" end}
@@ -41,6 +44,7 @@
 {"sdkfz231 tank"
 	("sdkfz232_sound")
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("MG34")
 	}
 }
@@ -61,7 +65,10 @@
 {"sdkfz234_1 tank"
 	("sdkfz234_sound")
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("MG42")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+		{link_sound "action_recoil"	"weapon/shot/smallarms/s3/recoil/GER/MG42/"}
 	}
 	{on spawn
 		{ani_wind "open" end}
@@ -70,12 +77,15 @@
 {"sdkfz234_2 tank"
 	("sdkfz234_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
 		("MG42")
 	}
 }
 {"sdkfz234_3 tank"
 	("sdkfz234_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
+		("Cannon_Breech")
 		("MG42")
 	}
 	{on "gunner2_hatch_open" overload
@@ -93,6 +103,11 @@
 }
 {"sdkfz234_4 tank"
 	("sdkfz234_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("Cannon_Breech")
+		("MG42")
+	}
 	{on "spawn_shell_delay" overload
 		("shell_eject_delay" args 0.15 0.05)
 	}
@@ -103,18 +118,21 @@
 {"p204_f tank"
 	("sdkfz234_sound") ;Placeholder
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("MAC31")
 	}
 }
 {"p204_f_rail tank"
 	("sdkfz234_sound") ;Placeholder
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("MAC31")
 	}
 }
 {"panzer742r tank"
 	("bt_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 }
@@ -158,7 +176,10 @@
 {"sdkfz250a_9 tank"
 	("hanomag_sound")
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("MG34")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+		{link_sound "action_recoil"	"weapon/shot/smallarms/s3/recoil/GER/MG42/"}
 	}
 	{on spawn
 		{ani_wind "open" end}
@@ -173,28 +194,12 @@
 		{ani_play "open" -1.0 resume}
 	}
 }
-{"sdkfz250c_10 tank"
-	("hanomag_sound")
-
-	{on "event_no_crew" overload}
-	{on "event_with_crew" overload}
-
-	{on "gunner4_hatch_open" overload
-		{ani_play "mgun_aa_2" +1.0 resume}
-	}
-	{on "gunner4_hatch_close" overload
-		{ani_play "mgun_aa_2" -1.0 resume}
-	}
-
-	{on "spawn_shell_delay" overload
-		("shell_eject_delay" args 0.15 0.1)
-	}
-	{on "reload_delay" overload
-		("reload_time" args 2.0)
-	}
-}
 {"sdkfz250a_11 tank"
 	("hanomag_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		("Cannon_Breech")
+	}
 
 	{on "event_no_crew" overload}
 	{on "event_with_crew" overload}
@@ -231,7 +236,9 @@
 }
 {"sdkfz251c_2 tank"
 	("hanomag_sound")
-
+	{on "add_weapon_sound" overload
+		("Mortar_8cm")
+	}
 	{on "event_no_crew" overload}
 	{on "event_with_crew" overload}
 
@@ -370,7 +377,10 @@
 }
 {"sdkfz251d_17 tank"
 	("hanomag_sound")
-
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+	}
 	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
 }
 {"sdkfz251d_21 tank"
@@ -384,6 +394,9 @@
 }
 {"sdkfz251d_22 tank"
 	("hanomag_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+	}
 	{on "spawn_shell_delay" overload
 		("shell_eject_delay" args 0.30 0.25)
 	}
@@ -393,7 +406,9 @@
 }
 {"sdkfz10_pak38 tank"
 	("hanomag_sound")
-
+	{on "add_weapon_sound" overload
+		("Cannon_50to57mm")
+	}
 	{on "spawn_shell_delay" overload
 		("shell_eject_delay" args 0.20 0.2)
 	}
@@ -474,6 +489,10 @@
 	("hanomag_sound")
 }
 {"sdkfz6_2"
+	{on "add_weapon_sound" overload
+		("Autocannon_s2")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+	}
 	{on "add_movement_sound" overload
 		{link_sound "rotate_turret" 	"vehicle/turret/gun/gun_horizontal"}
 		{link_sound "rotate_gun" 		"vehicle/turret/gun/gun_vertical"}
@@ -490,7 +509,10 @@
 {"sdkfz7"
 	("hanomag_sound")
 }
-{"sdkfz7_2"
+{"sdkfz7_2"	
+	{on "add_weapon_sound" overload
+		("Autocannon_s2")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "rotate_turret" 	"vehicle/turret/gun/gun_horizontal"}
 		{link_sound "rotate_gun" 		"vehicle/turret/gun/gun_vertical"}
@@ -504,6 +526,10 @@
 	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
 }
 {"sdkfz8_flak18 tank"
+	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
+		("Cannon_Breech")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "rotate_turret"		"vehicle/turret/cannon/big"}
 		{link_sound "rotate_gun"		"vehicle/turret/cannon/big"}
@@ -598,6 +624,10 @@
 	}
 }
 {"panzerjager1 tank"
+	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
+		("Cannon_Breech")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz1/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz1/stop"}
@@ -615,6 +645,10 @@
 	}
 }
 {"bison tank"
+	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
+		("Cannon_Breech")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz1/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz1/stop"}
@@ -641,12 +675,14 @@
 {"panzer2c tank"
 	("pz2_sound")
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("MG34")
 	}
 }
 {"panzer2f tank"
 	("pz2_sound")
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("MG34")
 	}
 	{on break
@@ -663,12 +699,14 @@
 {"panzer2l tank"
 	("pz2_sound")
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("MG34")
 	}
 }
 {"h39_turret tank"
 	("pz2_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("MAC31")
 	}
 	{on "explosion_blastwave" overload
@@ -698,12 +736,14 @@
 {"pz38h_735 tank"
 	("pz2_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("MAC31")
 	}
 }
 {"pz38h_w40 tank"
 	("pz2_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("MAC31")
 	}
 
@@ -736,6 +776,10 @@
 }
 {"marder2 tank"
 	("pz2_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
+		("Cannon_Breech")
+	}
 	{on "spawn_shell_delay" overload
 		("shell_eject_delay" args 0.30 0.25)
 	}
@@ -745,10 +789,18 @@
 }
 {"grille_m tank"
 	("pz38_sound")
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+	}
 	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
 }
 {"grille_k tank"
 	("pz38_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
+		("Cannon_Breech")
+	}
 	{on "spawn_shell_delay" overload
 		("shell_eject_delay" args 1.5 0.25)
 	}
@@ -758,6 +810,10 @@
 }
 {"marder3m tank"
 	("pz38_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("Cannon_Breech")
+	}
 	{on "spawn_shell_delay" overload
 		("shell_eject_delay" args 0.30 0.25)
 	}
@@ -768,6 +824,7 @@
 {"pz35t tank"
 	("pz38_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("ZB37")
 	}
 	{##on "commander_hatch_open" overload
@@ -780,12 +837,14 @@
 {"pz38t_a tank"
 	("pz38_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("ZB37")
 	}
 }
 {"pz38t_f tank"
 	("pz38_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("ZB37")
 	}
 	{on break
@@ -799,10 +858,14 @@
 {"pz38t_g tank"
 	("pz38_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("ZB37")
 	}
 }
 {"hetzer tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/hetzer/start"}
 		{link_sound "engine_stop"		"vehicle/engine/hetzer/stop"}
@@ -816,12 +879,14 @@
 {"panzer35s tank"
 	("somua_s35_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("MAC31")
 	}
 }
 {"panzer3e tank"
 	("pz3_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("MG34")
 	}
 	{on spawn
@@ -853,6 +918,7 @@
 {"panzer3f tank"
 	("pz3_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm")
 		("MG34")
 	}
 	{on "commander_hatch_open" overload
@@ -865,42 +931,49 @@
 {"panzer3h tank"
 	("pz3_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm")
 		("MG34")
 	}
 }
 {"panzer3j tank"
 	("pz3_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm")
 		("MG34")
 	}
 }
 {"panzer3j1 tank"
 	("pz3_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
 		("MG34")
 	}
 }
 {"panzer3j2 tank"
 	("pz3_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
 		("MG34")
 	}
 }
 {"panzer3l tank"
 	("pz3_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
 		("MG34")
 	}
 }
 {"panzer3m tank"
 	("pz3_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
 		("MG34")
 	}
 }
 {"panzer3n tank"
 	("pz3_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
 		("MG34")
 	}
 }
@@ -920,6 +993,9 @@
 	("flame_weapon" args gun 60 1 40)
 }
 {"stug3b tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz3/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz3/stop"}
@@ -931,6 +1007,9 @@
 	}
 }
 {"stug3e tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz3/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz3/stop"}
@@ -942,6 +1021,9 @@
 	}
 }
 {"sig33b tank"
+	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz3/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz3/stop"}
@@ -953,6 +1035,9 @@
 	}
 }
 {"stug3f tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz3/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz3/stop"}
@@ -964,6 +1049,10 @@
 	}
 }
 {"stug3g tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("MG34")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz3/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz3/stop"}
@@ -984,6 +1073,7 @@
 }
 {"stug3g_late tank"
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("MG34")
 	}
 	{on "add_movement_sound" overload
@@ -1001,6 +1091,9 @@
 	}
 }
 {"stuh42 tank"
+	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz3/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz3/stop"}
@@ -1022,30 +1115,35 @@
 {"panzer4d tank"
 	("pz4_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
 		("MG34")
 	}
 }
 {"panzer4f1 tank"
 	("pz4_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
 		("MG34")
 	}
 }
 {"panzer4f2 tank"
 	("pz4_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("MG34")
 	}
 }
 {"panzer4g tank"
 	("pz4_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("MG34")
 	}
 }
 {"panzer4h tank"
 	("pz4_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("MG34")
 	}
 	{on "commander_hatch_open" overload
@@ -1059,6 +1157,7 @@
 }
 {"panzer4j tank"
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("MG34")
 	}
 	{on "add_movement_sound" overload
@@ -1081,32 +1180,26 @@
 }
 {"wirbelwind tank"
 	("pz4_sound")
-	{on "init_gun"
-		{link_sound "bkg_auto" "weapon/shot/bkg/auto/"}
-	}
 	{on "add_weapon_sound" overload
+		("2cm_Flakvierling")
 		("MG34")
 	}
+	("multi_barrel_loop" flash(tank_canon_fire_20_25_auto) smoke(smoke_zenit) shell(zenit_gilz) weapon(gun) head(0.200))
 	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
 }
 {"ostwind tank"
 	("pz4_sound")
 	{on "add_weapon_sound" overload
-		("MG34")
-	}
-	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
-}
-{"kugelblitz tank"
-	("pz4_sound")
-	{on "init_gun"
-		{link_sound "bkg_auto" "weapon/shot/bkg/auto/"}
-	}
-	{on "add_weapon_sound" overload
+		("Autocannon_s2")
 		("MG34")
 	}
 	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
 }
 {"stug4g tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("MG34")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz4/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz4/stop"}
@@ -1118,6 +1211,9 @@
 	}
 }
 {"sturmpanzer4 tank"
+	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz4/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz4/stop"}
@@ -1137,6 +1233,10 @@
 	}
 }
 {"jagdpanzer4_l48 tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("MG42")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz4/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz4/stop"}
@@ -1145,13 +1245,13 @@
 		{link_sound "exhaust"			"vehicle/engine/pz4/exhaust"}
 		{link_sound "move"				"vehicle/tracks/pz4"}
 		{link_sound "rotate_turret"		"vehicle/turret/gun/gun_horizontal"}
-	}
-
-	{on "add_weapon_sound" overload
-		("MG42")
 	}
 }
 {"panzer4_70_v tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
+		("MG42")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz4/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz4/stop"}
@@ -1161,12 +1261,12 @@
 		{link_sound "move"				"vehicle/tracks/pz4"}
 		{link_sound "rotate_turret"		"vehicle/turret/gun/gun_horizontal"}
 	}
-
-	{on "add_weapon_sound" overload
-		("MG42")
-	}
 }
 {"nashorn tank"
+	{on "add_weapon_sound" overload
+		("Cannon_85to100mm_HV")
+		("Cannon_Breech")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz4/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz4/stop"}
@@ -1186,6 +1286,10 @@
 	}
 }
 {"hummel tank"
+	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
+		("Cannon_Breech")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz4/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz4/stop"}
@@ -1205,6 +1309,10 @@
 	}
 }
 {"wespe tank"
+	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
+		("Cannon_Breech")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz4/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz4/stop"}
@@ -1226,6 +1334,7 @@
 {"panzer5g tank"
 	("pz5_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("MG34")
 	}
 	{on "commander_hatch_open" overload
@@ -1240,6 +1349,7 @@
 {"panzer5a tank"
 	("pz5_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("MG34")
 	}
 	{on "commander_hatch_open" overload
@@ -1254,11 +1364,13 @@
 {"panzer5d tank"
 	("pz5_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("MG34")
 	}
 }
 {"jagdpanther tank"
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm_HV")
 		("MG42")
 	}
 	{on "add_movement_sound" overload
@@ -1274,13 +1386,15 @@
 {"panzerb2 tank"
 	("char_b1_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("MAC31")
 	}
 }
 {"pz756r tank"
 	("kv_sound")
 	{on "add_weapon_sound" overload
-		("DT")
+		("Cannon_75to76mm")
+		("MG34")
 	}
 	{on break
 		{if not tagged "exploded"
@@ -1294,6 +1408,7 @@
 {"tiger1e tank"
 	("pz6_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("MG34")
 	}
 	{on "commander_hatch_open" overload
@@ -1308,6 +1423,7 @@
 {"tiger1h tank"
 	("pz6_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("MG34")
 	}
 	{on "commander_hatch_open" overload
@@ -1320,6 +1436,7 @@
 {"tiger1hunt tank"
 	("pz6_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("MG34")
 	}
 	{on "commander_hatch_open" overload
@@ -1334,7 +1451,7 @@
 {"ferdinand tank"
 	("ferdinand_sound")
 	{on "add_weapon_sound" overload
-		("MG34")
+		("Cannon_85to100mm_HV")
 	}
 	{on "spawn_shell_delay" overload
 		("shell_eject_delay" args 2 0.3)
@@ -1342,6 +1459,9 @@
 	{on "reload_delay" overload
 		("reload_time" args 10)
 	}
+}
+{"elefant tank"
+	("ferdinand_sound")
 }
 {"sturmtiger"
 	{on "add_weapon_sound" overload
@@ -1406,6 +1526,7 @@
 {"tiger2h tank"
 	("pz6b_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm_HV")
 		("MG34")
 	}
 	{on "commander_hatch_open" overload
@@ -1420,6 +1541,7 @@
 {"tiger2p tank"
 	("pz6b_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm_HV")
 		("MG34")
 	}
 	{on "commander_hatch_open" overload
@@ -1527,7 +1649,9 @@
 
 {"yag10_29k"
 	("yag10_sound")
-
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+	}
 	{on fire "gun"
 		{ani_play "recoil"}
 	}
@@ -1592,6 +1716,7 @@
 {"ba6"
 	("ba_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 }
@@ -1599,6 +1724,7 @@
 {"ba10 tank"
 	("ba_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 }
@@ -1611,7 +1737,6 @@
 	("ba_sound")
 	{on "add_weapon_sound" overload
 		("M2HB")
-		{link_sound "action_recoil_HMG"		"weapon/action/recoil/closed_bolt_HMG/"}
 	}
 }
 
@@ -1623,14 +1748,21 @@
 }
 {"zis30 tank"
 	("t27_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
+		("Cannon_Breech")
+		("DT")
+	}
 }
 
 {"bt2 tank"
 	("bt_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("DT")
 	}
 }
+
 {"bt2_da2 tank"
 	("bt_sound")
 	{on "add_weapon_sound" overload
@@ -1659,30 +1791,28 @@
 {"bt5 tank"
 	("bt_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 }
 {"bt7 tank"
 	("bt_sound")
 	{on "add_weapon_sound" overload
-		("DT")
-	}
-}
-{"bt7_dt tank"
-	("bt_sound")
-	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 }
 {"panzer742r tank"
 	("bt_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 }
 {"bt7a tank"
 	("bt_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
 		("DT")
 	}
 }
@@ -1756,6 +1886,7 @@
 {"t26_33 tank"
 	("t26_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 	{on spawn
@@ -1776,6 +1907,7 @@
 {"t26_38 tank"
 	("t26_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 	{on spawn
@@ -1797,6 +1929,7 @@
 {"t26_39 tank"
 	("t26_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 	{on spawn
@@ -1817,6 +1950,7 @@
 {"su26 tank"
 	("t26_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
 		("DT")
 	}
 	{on "lights_on"
@@ -1836,6 +1970,7 @@
 {"t28 tank"
 	("t28_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
 		("DT")
 	}
 	{on break
@@ -1874,6 +2009,10 @@
 {"t35 tank"
 	("t28_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
+		{link_sound 		"action_recoil_Cannon2"	"weapon/shot/cannon/s1/recoil/Shared/Cannon/"}
+		{link_sound	 	"Cannon_Mid2"		"weapon/shot/cannon/s2/d2/Shared/Cannon_45to47mm/"}
+		{link_sound 		"Cannon_Far2"		"weapon/shot/cannon/s2/d3/Shared/Cannon_45to47mm/"}
 		("DT")
 	}
 	{on "lights_on"
@@ -1926,6 +2065,10 @@
 {"smk tank"
 	("t28_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		{link_sound 		"action_recoil_Cannon2"	"weapon/shot/cannon/s1/recoil/Shared/Cannon/"}
+		{link_sound	 	"Cannon_Mid2"		"weapon/shot/cannon/s2/d2/Shared/Cannon_45to47mm/"}
+		{link_sound 		"Cannon_Far2"		"weapon/shot/cannon/s2/d3/Shared/Cannon_45to47mm/"}
 		("DT")
 	}
 	{on break
@@ -1943,6 +2086,9 @@
 
 {"t37a tank"
 	("t27_sound")
+	{on "add_weapon_sound" overload	
+		("DT")
+	}
 }
 {"panzer731r tank"
 	("t27_sound")
@@ -1953,6 +2099,7 @@
 {"t30 tank"
 	("t70_sound")
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("DT")
 	}
 }
@@ -1966,6 +2113,7 @@
 {"t50 tank"
 	("t70_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 	{on spawn
@@ -1991,6 +2139,7 @@
 {"t60 tank"
 	("t70_sound")
 	{on "add_weapon_sound" overload
+		("Autocannon_s1")
 		("DT")
 	}
 }
@@ -2002,16 +2151,22 @@
 {"t70 tank"
 	("t70_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 }
 {"t70m tank"
 	("t70_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 }
 {"su76 tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("Cannon_Breech")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/t70/start"}
 		{link_sound "engine_stop"		"vehicle/engine/t70/stop"}
@@ -2035,24 +2190,28 @@
 {"t3457_41 tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
 		("DT")
 	}
 }
 {"t3457_43 tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
 		("DT")
 	}
 }
 {"t3476_40 tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 }
 {"t3476_41 tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 	{on "cut_parts" overload
@@ -2064,24 +2223,28 @@
 {"t3476_41e tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 }
 {"t3476_42 tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 }
 {"t3476_43 tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 }
 {"t3476_43_flame tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 	{on spawn
@@ -2098,12 +2261,14 @@
 {"t3485_44 tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("DT")
 	}
 }
 {"t3485_44_flame tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("DT")
 	}
 	{on spawn
@@ -2119,12 +2284,14 @@
 {"t3485_44a tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("DT")
 	}
 }
 {"t3485_44a_flame tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("DT")
 	}
 	{on spawn
@@ -2140,67 +2307,88 @@
 {"t3485_44b tank"
 	("t34_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("DT")
 	}
 }
 
 {"su85 tank"
 	("su85_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
+	}
 }
 {"su85m tank"
 	("su85_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
+	}
 }
 {"su100 tank"
 	("su85_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_85to100mm_HV")
+	}
 }
 {"su122 tank"
 	("su85_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
+	}
 }
 {"kv1_39 tank"
 	("kv_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 }
 {"kv1_40 tank"
 	("kv_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 }
 {"kv1_41 tank"
 	("kv_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 }
 {"kv1_42 tank"
 	("kv_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 }
 {"kv1s tank"
 	("kv_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 }
 {"kv2_40 tank"
 	("kv_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
 		("DT")
 	}
 }
 {"kv85 tank"
 	("kv_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("DT")
 	}
 }
 {"kv8 tank"
 	("kv_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 	{on spawn
@@ -2221,6 +2409,9 @@
 }
 
 {"su100y tank" ;// Temp until it gets it's own sound
+	{on "add_weapon_sound" overload
+		("Cannon_105to130mm")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/kv/start"}
 		{link_sound "engine_stop"		"vehicle/engine/kv/stop"}
@@ -2232,6 +2423,9 @@
 	}
 }
 {"su152 tank"
+	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/kv/start"}
 		{link_sound "engine_stop"		"vehicle/engine/kv/stop"}
@@ -2249,24 +2443,28 @@
 {"is1_43 tank"
 	("is_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("DT")
 	}
 }
 {"is2_43 tank"
 	("is_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_105to130mm")
 		("DT")
 	}
 }
 {"is2_44 tank"
 	("is_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_105to130mm")
 		("DT")
 	}
 }
 {"is2_45 tank"
 	("is_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_105to130mm")
 		("DT")
 		("DShK38")
 	}
@@ -2281,6 +2479,7 @@
 }
 {"isu122s tank"
 	{on "add_weapon_sound" overload
+		("Cannon_105to130mm")
 		("DShK38")
 	}
 	{on "add_movement_sound" overload
@@ -2303,6 +2502,7 @@
 }
 {"isu152 tank"
 	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
 		("DShK38")
 	}
 	{on "add_movement_sound" overload
@@ -2328,10 +2528,17 @@
 ;/*=========== Soviet Vehicles End ===========*/
 
 ;/*=========== Finnish Vehicles Begin ===========*/
-
+{"ba6_fin tank"
+	("ba_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm") ;Placeholder
+		("DT")
+	}
+}
 {"ba10_fin tank"
 	("ba_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 		("DT")
 	}
 }
@@ -2339,12 +2546,16 @@
 {"l182 tank"
 	("ba_sound")
 	{on "add_weapon_sound" overload
-		("LS26")
+		("Cannon_45to47mm")
+		("DT")
 	}
 }
 
 {"ft17_fin tank"
 	("pz1_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+	}
 }
 
 {"ft17_mg_fin tank"
@@ -2357,6 +2568,7 @@
 {"vickers_6t_altb tank"
 	("t26_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("Maxim_Gun")
 		("KP31")
 	}
@@ -2369,6 +2581,7 @@
 {"t26e tank"
 	("t26_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("DT")
 		("KP31")
 	}
@@ -2380,13 +2593,22 @@
 
 {"bt42 tank"
 	("bt_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
+	}
 }
 
 {"l62 tank"
 	("bt_sound")
+	{on "add_weapon_sound" overload
+		("Autocannon_s2")
+	}
 }
 
 {"stug3g_fin tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+	}
 	{on "add_movement_sound" overload
 		{link_sound "engine_start"		"vehicle/engine/pz3/start"}
 		{link_sound "engine_stop"		"vehicle/engine/pz3/stop"}
@@ -2410,6 +2632,7 @@
 {"kv1_42_fin tank"
 	("kv_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("DT")
 	}
 }
@@ -2421,7 +2644,10 @@
 
 {"m6_gmc"
 	("wc51_sound")
-
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		("Cannon_Breech")
+	}
 	{on fire "gun"
 		{ani_play "recoil"}
 	}
@@ -2454,7 +2680,10 @@
 	("m3_halftrack_sound")
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
-
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("Cannon_Breech")
+	}
 	{on "spawn_shell_delay" overload
 		("shell_eject_delay" args 1.9 0.3)
 	}
@@ -2481,7 +2710,6 @@
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 	{on "add_weapon_sound" overload
-		("M1919A4")
 		("M2HB")
 	}
 }
@@ -2490,7 +2718,6 @@
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 	{on "add_weapon_sound" overload
-		("M1919A4")
 		("M2HB")
 	}
 	{on "commander_hatch_open" overload
@@ -2513,7 +2740,7 @@
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 	{on "add_weapon_sound" overload
-		("M1919A4")
+		("Mortar_8cm")
 	}
 }
 {"m4a1_mortar_carrier tank"
@@ -2521,12 +2748,14 @@
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 	{on "add_weapon_sound" overload
+		("Mortar_8cm")
 		("M2HB")
 	}
 }
 {"m8_greyhound tank"
 	("m8_greyhound_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("M1919A4")
 		("M2HB")
 	}
@@ -2555,6 +2784,7 @@
 	("animation_sound" args "open_right")
 
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("M2HB_M33_Mount")
 	}
 
@@ -2596,6 +2826,7 @@
 	("animation_sound" args "open_right")
 
 	{on "add_weapon_sound" overload
+		("Mortar_8cm")
 		("M2HB")
 	}
 }
@@ -2604,6 +2835,8 @@
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
+
 		("M2HB")
 	}
 
@@ -2619,6 +2852,8 @@
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
+		("Cannon_Breech")
 		("M2HB")
 	}
 
@@ -2644,6 +2879,7 @@
 		{add_view	"flash_gun_big"	"flashbarrel01"	"shooter01"}
 	}
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("M1919A4")
 	}
 	{on fire "mgun3" overload
@@ -2671,6 +2907,7 @@
 		{add_view	"flash_gun_big"	"flashbarrel01"	"shooter01"}
 	}
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("M1919A4")
 	}
 	{on fire "mgun3" overload
@@ -2694,6 +2931,7 @@
 {"m3a1_stuart tank"
 	("m5a1_stuart_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("M1919A4")
 	}
 	{on "gunner2_hatch_open" overload}
@@ -2702,6 +2940,7 @@
 {"m5a1_stuart tank"
 	("m5a1_stuart_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("M1919A4")
 	}
 	{on "gunner2_hatch_open" overload}
@@ -2710,6 +2949,7 @@
 {"m5a1_stuart_late tank"
 	("m5a1_stuart_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("M1919A4")
 	}
 	{on "gunner2_hatch_open" overload}
@@ -2718,6 +2958,8 @@
 {"m8_hmc tank"
 	("m3_stuart_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
+		("Cannon_Breech")
 		("M2HB")
 	}
 	{on "spawn_shell_delay" overload
@@ -2730,6 +2972,8 @@
 {"m18_hellcat tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
+		("Cannon_Breech")
 		("M2HB")
 	}
 	{on spawn
@@ -2745,6 +2989,8 @@
 {"m18_hellcat_late tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("Cannon_Breech")
 		("M2HB")
 	}
 	{on spawn
@@ -2760,6 +3006,7 @@
 {"m24_chaffee tank"
 	("m24_chaffee_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M1919A4")
 		("M2HB")
 	}
@@ -2769,6 +3016,10 @@
 {"m3_lee tank"
 	("m3_lee_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		{link_sound 		"action_recoil_Cannon2"	"weapon/shot/cannon/s2/recoil/Shared/Cannon/"}
+		{link_sound	 	"Cannon_Mid2"		"weapon/shot/cannon/s3/d2/Shared/Cannon_75to76mm/"}
+		{link_sound 		"Cannon_Far2"		"weapon/shot/cannon/s3/d3/Shared/Cannon_75to76mm/"}
 		("M1919A4")
 	}
 	{on spawn
@@ -2833,6 +3084,7 @@
 {"m4_75_early tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -2849,6 +3101,7 @@
 {"m4_75_early_armor tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -2865,6 +3118,7 @@
 {"m4_75_late tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -2881,6 +3135,7 @@
 {"m4_105 tank"
 	("m4_105_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -2897,6 +3152,7 @@
 {"m4a1_75_early tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -2913,6 +3169,7 @@
 {"m4a1_75_late tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -2929,6 +3186,7 @@
 {"t1e3_m4a1_75 tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -2945,6 +3203,7 @@
 {"m4a1_75_dd tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -2983,6 +3242,7 @@
 {"m4a1_75_mid tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3001,6 +3261,7 @@
 {"m4a1_75_mid_armor tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3019,6 +3280,7 @@
 {"m4a1_76w tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3036,6 +3298,7 @@
 {"m4a1_76w_mid tank"
 	("m4_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3053,6 +3316,7 @@
 {"m4a2_75_early tank"
 	("m4a2_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3071,6 +3335,7 @@
 {"m4a2_75_late tank"
 	("m4a2_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3089,6 +3354,7 @@
 {"m4a2_76w_early tank"
 	("m4a2_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3107,6 +3373,7 @@
 {"m4a2_76w_late tank"
 	("m4a2_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3123,6 +3390,7 @@
 {"m4a3_75_early tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3140,6 +3408,7 @@
 {"m4a3_75_late tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3157,6 +3426,7 @@
 {"m4a3_75w_early tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3198,6 +3468,7 @@
 {"m4a3_76w tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3215,6 +3486,7 @@
 {"m4a3_76w_field tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3229,6 +3501,7 @@
 {"m4a3_76w_hvss tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3242,6 +3515,7 @@
 {"m4a3_105 tank"
 	("m4a3_105_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3258,6 +3532,7 @@
 {"m4a3_105_hvss tank"
 	("m4a3_105_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3275,6 +3550,7 @@
 {"m4a3_calliope tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M1919A4")
 	}
 	{on spawn
@@ -3286,6 +3562,7 @@
 {"m4a3e2_75 tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3299,6 +3576,7 @@
 {"m4a3e2_76 tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3311,6 +3589,8 @@
 }
 {"m7_hmc tank"
 	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
+		("Cannon_Breech")
 		("M2HB")
 	}
 	{on "add_movement_sound" overload
@@ -3333,6 +3613,8 @@
 }
 {"m7b1_hmc tank"
 	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
+		("Cannon_Breech")
 		("M2HB")
 	}
 	{on "add_movement_sound" overload
@@ -3356,6 +3638,8 @@
 {"m10_gmc tank"
 	("m10_gmc_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
+		("Cannon_Breech")
 		("M2HB")
 	}
 	{on spawn
@@ -3377,6 +3661,8 @@
 {"m10_gmc_late tank"
 	("m10_gmc_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
+		("Cannon_Breech")
 		("M2HB")
 	}
 	{on spawn
@@ -3397,6 +3683,10 @@
 }
 {"m12_gmc tank"
 	("m4_sherman_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
+		("Cannon_Breech")
+	}
 	{on spawn
 		{link_sound "move"				"vehicle/tracks/M4_Sherman/Rubber/"}
 		{ani_wind "support_open" end}
@@ -3417,9 +3707,12 @@
 		("reload_time" args 30)
 	}
 }
+
 {"m36_gmc tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
+		("Cannon_Breech")
 		("M2HB")
 	}
 	{on spawn
@@ -3435,6 +3728,8 @@
 {"m36b1_gmc tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
+		("Cannon_Breech")
 		("M2HB")
 	}
 	{on spawn
@@ -3451,6 +3746,7 @@
 {"m26_pershing tank"
 	("m26_pershing_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
 		("M1919A4")
 		("M2HB")
 	}
@@ -3465,6 +3761,11 @@
 	}
 }
 {"t26e4 m26_pershing tank"
+	{on "add_weapon_sound" overload
+		("Cannon_85to100mm_HV")
+		("M1919A4")
+		("M2HB")
+	}
 	{on "commander_hatch_open" overload
 		{ani_play "mgun_aa" +1.0 resume}
 	}
@@ -3500,6 +3801,10 @@
 
 {"universal_carrier_rus tank"
 	("universal_carrier_sound")
+	{on "add_weapon_sound" overload
+		("DT")
+		{link_sound "action_recoil"	"weapon/action/recoil/open_bolt_MG/reciprocating/"}
+	}
 }
 
 {"mmg_carrier_rus tank"
@@ -3524,6 +3829,7 @@
 {"valentine2 tank"
 	("valentine_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("ZB37")
 	}
 }
@@ -3531,17 +3837,22 @@
 {"valentine7 tank"
 	("valentine_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
 		("M1919A4")
 	}
 }
 
 {"valentine9 tank"
 	("valentine_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
+	}
 }
 
 {"churchill3 tank"
 	("churchill_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
 		("ZB37")
 	}
 }

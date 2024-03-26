@@ -605,6 +605,9 @@
 		{"willys_mb_30cal" inherit "vehicle vehicle.jeep_mg"}
 		{"willys_mb_50cal" inherit "vehicle vehicle.jeep_mg"}
 
+		;{"ford_gpa" inherit "vehicle vehicle.wc_mg"}
+		{"ford_gpa" inherit "vehicle vehicle.jeep_mg"}
+
 		{"wc51" inherit "vehicle generic.unarmed"}
 		{"wc52_50cal" inherit "vehicle vehicle.wc_mg"}
 

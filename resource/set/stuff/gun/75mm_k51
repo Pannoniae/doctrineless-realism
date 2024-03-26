@@ -4,9 +4,9 @@
 
 
 {from "75mm_kwk37"			; L/24 "sdkfz243/3"
-	{fireSound "gun/gun_75_105_short"}
-	{fireSoundclose "gun/gun_75_105_short"}
-	{reloadSound "tank/reload_medium"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{fireSoundclose "cannon/s3/3p/Shared/Cannon_75to76mm_LV/"}
+	{reloadSound "utility/"}
 
 	("reload time" seconds(6))
 

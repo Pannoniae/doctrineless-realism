@@ -5,8 +5,8 @@
 
 {from "pattern gun"			; "Lahti L39"
 	{filling "bulletfin_20" 10}
-	{fireSound "rifle/20mm_m39_shot"}
-	{fireSoundclose "rifle/20mm_m39_shot/3p/"}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_20to30mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Autocannon_20to30mm/"}
 	{reloadSound "ptrd"}
 	("range_autocannon_12-20")
 	{cursor "ironsights/aa"}
