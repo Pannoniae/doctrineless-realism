@@ -333,7 +333,7 @@ msgid "[<c(ff1200)>HE</c>] 82-mm O-832 Mortar"
 msgstr ""
 
 msgctxt "desc/ammo/mortarrus_82 sm"
-msgid "[SMOKE] 82-mm D-832 Mortar"
+msgid "82-mm D-832 Mortar [<c(FFFFFF)>WP</c>]"
 msgstr ""
 
 msgctxt "desc/ammo/mortarrus_120 he"

@@ -246,19 +246,19 @@ msgid "<c(B29557)>( II )</c> Churchill III + Valentine IX"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_dshk_late"
-msgid "<c(B29557)>( I )</c> DsHK"
+msgid "<c(B29557)>( I )</c> DShK"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_dshk_mid"
-msgid "<c(B29557)>( I )</c> DsHK"
+msgid "<c(B29557)>( I )</c> DShK"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_dshk_stan"
-msgid "<c(B29557)>( I )</c> 12.7mm DsHK AA"
+msgid "<c(B29557)>( I )</c> 12.7mm DShK AA"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_dshk_stan_mid"
-msgid "<c(B29557)>( I )</c> 12.7mm DsHK"
+msgid "<c(B29557)>( I )</c> 12.7mm DShK"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_gunshields"

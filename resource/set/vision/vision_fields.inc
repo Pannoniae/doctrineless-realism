@@ -380,7 +380,7 @@
 }
 
 {"searchlight"
-	{uncover 100}
+	{uncover 300}
 	{h_fov 12}
 	{v_fov 90}
 	("spotting" r(3.0))

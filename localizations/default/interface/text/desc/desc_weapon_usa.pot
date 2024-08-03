@@ -387,3 +387,7 @@ msgstr ""
 msgctxt "desc/weapon/thompson_m1928a1_50"
 msgid "M1928A1 Thompson (Drum)"
 msgstr ""
+
+msgctxt "desc/weapon/240mm_m1"
+msgid "240mm Howitzer M1 L/35"
+msgstr ""

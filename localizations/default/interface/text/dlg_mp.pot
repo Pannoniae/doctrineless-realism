@@ -234,7 +234,7 @@ msgid "Score: %1%"
 msgstr ""
 
 msgctxt "mp/presets/game/standard"
-msgid "<c(20a601)>Standard"
+msgid "<c(20a601)>Standard</c> (Earns XP)"
 msgstr ""
 
 msgctxt "mp/msg_user_not_found"
@@ -364,7 +364,7 @@ msgid "High"
 msgstr ""
 
 msgctxt "mp/presets/game/custom"
-msgid "<c(d22b2b)>Custom"
+msgid "<c(d22b2b)>Custom</c> (No XP Gain)"
 msgstr ""
 
 msgctxt "mp/ds/btn"
@@ -428,7 +428,7 @@ msgid "Far"
 msgstr ""
 
 msgctxt "mp/presets/game/test"
-msgid "<c(FFA601)>Test Mode"
+msgid "<c(FFA601)>Test Mode</c> (No XP Gain)"
 msgstr ""
 
 msgctxt "mp/sync/title_resources"
@@ -545,6 +545,10 @@ msgstr ""
 
 msgctxt "mp/gs/stats/global_dialog_title"
 msgid "<f(impact)s(28)c(255 255 255)>Hall of fame"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_60"
+msgid "60 CP"
 msgstr ""
 
 msgctxt "mp/presets/spec/cp_80"
@@ -1074,6 +1078,14 @@ msgstr ""
 
 msgctxt "mp/chat2/color_system"
 msgid "<c(cccc00)>"
+msgstr ""
+
+msgctxt "mp/chat2/color_welcome_msg"
+msgid "<c(8ca0ba)>"
+msgstr ""
+
+msgctxt "mp/statistics2/personal/progress_xp_boost"
+msgid "XP Boost"
 msgstr ""
 
 msgctxt "mp/statistics2/personal/progress_xp_boost"
@@ -1792,6 +1804,10 @@ msgid "Resource settings"
 msgstr ""
 
 msgctxt "mp/gs/copy_text"
+msgid "Copy text"
+msgstr ""
+
+msgctxt "mp/gs/copy_message"
 msgid "Copy text"
 msgstr ""
 
@@ -3651,7 +3667,11 @@ msgid "HISTORY"
 msgstr ""
 
 msgctxt "mp/chat2/dms"
-msgid "COMMON LOBBY"
+msgid "PUBLISHER'S LOBBY"
+msgstr ""
+
+msgctxt "mp/chat2/goh"
+msgid "MAIN LOBBY"
 msgstr ""
 
 msgctxt "mp/chat2/cta_tester"
@@ -3861,6 +3881,22 @@ msgctxt "mp/lobby/rts_mode"
 msgid "No Direct Control"
 msgstr ""
 
+msgctxt "mp/lobby/setup/settings.manualControlMode#/tpc_mode"
+msgid "Third Person"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.manualControlMode#/dc_mode"
+msgid "Classic Top-down"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.manualControlMode#/rts_mode"
+msgid "No Direct Control"
+msgstr ""
+
+msgctxt "mp/lobby/setup/settings.manualControlMode#/any_mode"
+msgid "Classic and Third Person (Interchangable)"
+msgstr ""
+
 msgctxt "mp/statistics2/result/header/best_units"
 msgid "<x.y.>Best Units"
 msgstr ""
@@ -3912,3 +3948,81 @@ msgstr ""
 msgctxt "mp/lobby/setup/settings.loseOnZeroPoints"
 msgid "Defeat at zero points"
 msgstr ""
+
+msgctxt "mp/army/usa"
+msgid "USA"
+msgstr ""
+
+msgctxt "mp/alliance/usa"
+msgid "USA"
+msgstr ""
+
+msgctxt "mp/army/usa_early"
+msgid "USA (Early War)"
+msgstr ""
+
+msgctxt "mp/army/usa_mid"
+msgid "USA (Mid War)"
+msgstr ""
+
+msgctxt "mp/army/usa_late"
+msgid "USA (Late War)"
+msgstr ""
+
+msgctxt "mp/army/eng"
+msgid "Commonwealth"
+msgstr ""
+
+msgctxt "mp/alliance/eng"
+msgid "Commonwealth"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/all"
+msgid "All Units"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/airborne"
+msgid "Airborne"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/armor"
+msgid "Armor"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/artillery"
+msgid "Emplacement"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/combined_arms"
+msgid "Combined Arms"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/heavy"
+msgid "Heavy Tanks"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/infantry"
+msgid "Infantry"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/light"
+msgid "Light Tanks"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/mechanized"
+msgid "Motorized Infantry"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/medium"
+msgid "Medium Tanks"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/sniper"
+msgid "Snipers"
+msgstr ""
+
+msgctxt "mp/presets/browser/tags/supply"
+msgid "Supply"
+msgstr ""
+
+

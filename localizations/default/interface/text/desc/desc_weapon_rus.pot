@@ -201,7 +201,7 @@ msgid "122mm M1910 L/12.8"
 msgstr ""
 
 msgctxt "desc/weapon/125mm_ampulomet"
-msgid "125mm Incendiary Launcher"
+msgid "125mm Ampulomyot"
 msgstr ""
 
 msgctxt "desc/weapon/130mm_b13"

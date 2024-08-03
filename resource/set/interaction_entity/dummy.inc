@@ -1036,6 +1036,7 @@
 
 	{on "start" overload
 		{tags add "_flight"}
+		{tags remove "base"}
 		{physics_work 1}
 		{impulse up -0.01 forward 0.9} ;//Forward 1 
 		{gravity 0.35}

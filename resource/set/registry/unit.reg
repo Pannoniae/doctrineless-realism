@@ -1439,6 +1439,9 @@
 	{"renault_agr_civ"
 		{vehicle_view "renault_agr_civ"}
 	}
+	{"ford_gpa"
+		{vehicle_view "ford_gpa"}
+	}
 	
 	;USA BTRs
 	{"m2_halftrack"
@@ -1684,6 +1687,10 @@
 	{"m4a3e2_76"
 		{vehicle_view "m4a3e2_76"}
 	}
+	{"m4a1_75_dd"
+		{vehicle_view "m4a1_75_dd"}
+	}
+
 
 	;USA Heavy Tanks
 	{"m26_pershing"
@@ -1759,5 +1766,42 @@
 	}
 	{"flammjagdtiger"
 		{vehicle_view "jagdtiger"}
+	}
+	
+	{"sturer_emil"
+		{vehicle_view "tank_destroyer"}
+	}
+	{"dicker_max"
+		{vehicle_view "tank_destroyer"}
+	}
+	{"tiger1p"
+		{vehicle_view "tiger_1h"}
+	}
+	{"maus"
+		{vehicle_view "tiger2h"}
+	}
+	{"m19_mgmc"
+		{vehicle_view "t70"}
+	}
+	{"210mm_rakh42"
+		{vehicle_view "cannon_210mm_nebelwerfer42"}
+	}
+	{"280mm_rakh43"
+		{vehicle_view "cannon_300mm_nebelwerfer42"}
+	}
+	{"300mm_krh42"
+		{vehicle_view "170mm_minewerfer"}
+	}
+	{"panther_f"
+		{vehicle_view "panzer5"}
+	}
+	{"waffletractor"
+		{vehicle_view "marder2"}
+	}
+	{"t92_hmc"
+		{vehicle_view "m12_gmc"}
+	}
+	{"m18_gmc_90"
+		{vehicle_view "m18_hellcat_late"}
 	}
 }

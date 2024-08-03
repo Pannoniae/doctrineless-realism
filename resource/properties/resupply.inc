@@ -18,8 +18,8 @@
 
 ;// rifle
 	{item "atrifle_ger"				"ammo" 5  {value 5}}
-	{item "rifle_ger" "clip"		"ammo" 10 {value 2}}
-	{item "rifle_ger" "gewehr"		"ammo" 10 {value 2}}
+	{item "rifle_ger" "clip"		"ammo" 10 {value 1}}
+	{item "rifle_ger" "gewehr"		"ammo" 10 {value 1}}
 	{item "stg44"					"ammo" 30 {value 2}}
 	{item "fg42"					"ammo" 20 {value 2}}
 
@@ -74,9 +74,9 @@
 
 ;// rifle
 	{item "atrifle_rus"				"ammo" 5  {value 5}}
-	{item "rifle_rus" "clip"		"ammo" 10 {value 2}}
-	{item "rifle_rus" "svt"			"ammo" 10 {value 2}}
-	{item "shotgun"					"ammo" 10 {value 2}}
+	{item "rifle_rus" "clip"		"ammo" 10 {value 1}}
+	{item "rifle_rus" "svt"			"ammo" 10 {value 1}}
+	{item "shotgun"					"ammo" 10 {value 1}}
 
 ;// AT
 	{item "dyakonov"				"ammo" 1  {value 5}}
@@ -85,10 +85,10 @@
 ;// Light weaponry
 	{item "mortarrus_50" "he"		"ammo" 1  {value 3}}
 	{item "mortarrus_82" "he"		"ammo" 1  {value 5}}
-	{item "mortarrus_82" "sm"		"ammo" 1  {value 5}}
+	{item "mortarrus_82" "sm"		"ammo" 1  {value 10}} ;// is actually "ic"
 	{item "mortarrus_120" "he"		"ammo" 1  {value 15}}
-	{item "mortarrus_120" "sm"		"ammo" 1  {value 5}}
-	{item "mortarrus_120" "ic"		"ammo" 1  {value 10}}
+	{item "mortarrus_120" "sm"		"ammo" 1  {value 15}}
+	{item "mortarrus_120" "ic"		"ammo" 1  {value 15}}
 
 ;// Grenade
 	{item "grenade" "f1" 					1  {value 5}}
@@ -112,7 +112,7 @@
 	{item "chauchat"				"ammo" 20 {value 2}}
 	{item "m26"						"ammo" 20 {value 2}}
 	{item "madsen"					"ammo" 30 {value 3}}
-
+	{item "mgun_rus" "l33_36"		"ammo" 75 {value 5}}
 
 ;// Light weaponry
 	{item "mortarfin_81" "he"		"ammo" 1  {value 5}}
@@ -151,14 +151,14 @@
 	{item "hmgun_usa" "api"			"ammo" 50 {value 5}}
 
 ;// rifle
-	{item "rifle_usa" "clip"		"ammo" 10 {value 2}}
-	{item "rifle_usa" "clip" "ap"	"ammo" 10 {value 2}}
-	{item "rifle_usa" "clip" "trace" "ammo" 10 {value 2}}
-	{item "rifle_usa" "garand_clip" "ammo" 8 {value 2}}
-	{item "rifle_usa" "garand_clip" "ap" "ammo" 8 {value 2}}
-	{item "rifle_usa" "garand_clip" "trace" "ammo" 8 {value 2}}
-	
-	{item "m1_carbine_mag"			"ammo" 15 {value 2}}
+	{item "rifle_usa" "clip"		"ammo" 10 {value 1}}
+	{item "rifle_usa" "clip" "ap"	"ammo" 10 {value 1}}
+	{item "rifle_usa" "clip" "trace" "ammo" 10 {value 1}}
+	{item "rifle_usa" "garand_clip" "ammo" 8 {value 1}}
+	{item "rifle_usa" "garand_clip" "ap" "ammo" 8 {value 1}}
+	{item "rifle_usa" "garand_clip" "trace" "ammo" 8 {value 1}}
+
+	{item "m1_carbine_mag"			"ammo" 15 {value 1}}
 
 ;// AT
 	{item "usa_grenade"	"he"		"ammo" 1  {value 5}}
@@ -178,14 +178,14 @@
 
 ;// Light weaponry
 	{item "mortarusa_60" "he"		"ammo" 1  {value 3}}
-	{item "mortarusa_60" "wp"		"ammo" 1  {value 3}}
+	{item "mortarusa_60" "wp"		"ammo" 1  {value 8}}
 	{item "mortarusa_81" "he"		"ammo" 1  {value 5}}
 	{item "mortarusa_81" "he2"		"ammo" 1  {value 5}}
 	{item "mortarusa_81" "sm"		"ammo" 1  {value 5}}
-	{item "mortarusa_81" "wp"		"ammo" 1  {value 5}}
+	{item "mortarusa_81" "wp"		"ammo" 1  {value 10}}
 	{item "mortarusa_107" "he"		"ammo" 1  {value 15}}
-	{item "mortarusa_107" "sm"		"ammo" 1  {value 5}}
-	{item "mortarusa_107" "wp"		"ammo" 1  {value 10}}
+	{item "mortarusa_107" "sm"		"ammo" 1  {value 15}}
+	{item "mortarusa_107" "wp"		"ammo" 1  {value 15}}
 
 ;// Grenade
 	{item "grenade" "mk2" 					1  {value 5}}
@@ -355,10 +355,10 @@
 
 	{item "bulletger_210"		"he"		"ammo" 1 {value 100}}
 
-	{item "150mm_nebelwerfer"				"ammo" 1 {value 40}} ;// 6 rockets costs ~250 per salvo
+	{item "150mm_nebelwerfer"				"ammo" 1 {value 40}} ;// 6 rockets costs 240 per salvo
 	{item "210mm_nebelwerfer"				"ammo" 1 {value 50}} ;// 5 rockets costs 250 per salvo
-	{item "280mm_nebelwerfer"				"ammo" 1 {value 60}} ;// 6 rockets costs ~500 per salvo
-	{item "300mm_nebelwerfer"				"ammo" 1 {value 60}} ;// 6 rockets costs ~500 per salvo
+	{item "280mm_nebelwerfer"				"ammo" 1 {value 60}} ;// 6 rockets costs 360 per salvo
+	{item "300mm_nebelwerfer"				"ammo" 1 {value 60}} ;// 6 rockets costs 360 per salvo
 	{item "380mm_rw61"						"ammo" 1 {value 200}}
 
 	{item "bulletger_600"		"he"		"ammo" 1 {value 350}}
@@ -562,6 +562,8 @@
 	{item "bulletusa_155_m1"	"wp"		"ammo" 1 {value 25}}
 
 	{item "bulletusa_203"		"he"		"ammo" 1 {value 100}}
+	
+	{item "bulletusa_240"		"he"		"ammo" 1 {value 150}}
 
 	{item "114mm_m8"						"ammo" 1 {value 8}} ;// 60 rockets costs 480 per salvo
 	{item "127mm_hvar" "aphe"				"ammo" 1 {value 25}}

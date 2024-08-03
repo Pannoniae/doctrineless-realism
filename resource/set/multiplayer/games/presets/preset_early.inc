@@ -28,7 +28,7 @@
 			{value "*=1.00"}
 			{customize "0;0.25;0.5;1;2"}
 		}
-		(include "global_parameters/budget_custom.inc" start(%start) finish(%finish) doctrine(%doctrine))
+		(include "global_parameters/budget_custom.inc" s(%start) f(%finish) d(%doctrine))
 	}
 	{bots
 		(include "global_parameters/bots_generic.inc" period("early"))

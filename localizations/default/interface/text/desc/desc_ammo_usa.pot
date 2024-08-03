@@ -320,6 +320,10 @@ msgctxt "desc/ammo/bulletusa_203 he"
 msgid "8-inch HE, Shell M106 [<c(ff1200)>HE</c>] <c(65696d)>L23</c>"
 msgstr ""
 
+msgctxt "desc/ammo/bulletusa_203 he"
+msgid "240mm HE, Shell M114 [<c(ff1200)>HE</c>] <c(65696d)>L23</c>"
+msgstr ""
+
 msgctxt "desc/ammo/hdm_mag"
 msgid ".22 LR HDM Rounds"
 msgstr ""
@@ -474,4 +478,20 @@ msgstr ""
 
 msgctxt "desc/stuff/mgun_usa"
 msgid ".30 cal Medium MG"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_auto_40 apbc"
+msgid "40mm AP-T, Shot M81A1 [<c(ff6a00)>APBC</c>] <c(65696d)>L/60</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_auto_40 apc"
+msgid "40mm AP-T, Shot M81A1 [<c(ff6a00)>APBC</c>] <c(65696d)>L/60</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_auto_40 he"
+msgid "40mm HE-T, Shell Mk.II [<c(ff1200)>HE</c>] <c(65696d)>L/60</c>"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_240 he"
+msgid "240mm M114 [<c(ff1200)>HE</c>]"
 msgstr ""

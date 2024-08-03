@@ -13,7 +13,7 @@
 	; flag_team_score=100 means each map point gives a fixed score (overrides flag_team_table and is not used)
 	; flag_team_table=2/0.05 means for 2 players, 5% of final score for each map point
 	{settings
-		{options			enableSpectators preparationTime enableManualControlMode scoreFinal enableHardcore gameDuration}
+		{options			enableSpectators preparationTime scoreFinal enableHardcore gameDuration}
 		{optionsAdvanced	friendlyFire fogOfWar randomSpawnPoints showPiercing showDamageReports}
 		{optionsRanked		}
 		{fogOfWar			fog_realistic}
@@ -32,8 +32,8 @@
 		{useUnitLevelRestrictions 0}
 		{enableBots}
 		{randomSpawnPoints}
-		{useManualCharge none}
-		{enableManualControlMode dc_mode}
+		;{useManualCharge none}
+		;{enableManualControlMode dc_mode}
 		{gameDuration "50 min"} ; default value
 	}
 	{teamSettings

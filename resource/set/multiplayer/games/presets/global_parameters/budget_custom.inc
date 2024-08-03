@@ -2,8 +2,8 @@
 	{vehicle
 		{mode "custom"}
 		{resource
-			{start		%start}
-			{finish		%finish}
+			{start		%s}
+			{finish		%f}
 			{growTime	2400}		; in seconds
 			{growTable	"0.80 0.80 0.80 0.80 0.80 0.80 0.80 0.80 0.80 0.82 0.84 0.86 0.88 0.9 0.9 0.9 0.9 1.0 1.0 1.0"}
 			{payback
@@ -18,7 +18,7 @@
 	}
 	{hero
 		{resource
-			{start %doctrine}
+			{start %d}
 		}
 		{buttons "doctrine"}
 		{tag "special"}

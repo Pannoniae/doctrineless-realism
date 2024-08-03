@@ -1045,7 +1045,7 @@ msgid "<c(c3baae)>Ammo Trailer</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz4_panzerwerfer"
-msgid "15 cm Panzerwerfer 42 auf (Sf) Sd.Kfz 4/1"
+msgid "15 cm Panzerwerfer 42 auf (Sf.) Sd.Kfz 4/1"
 msgstr ""
 
 msgctxt "info/special/sdkfz4_panzerwerfer"
@@ -1085,7 +1085,7 @@ msgid "<c(c3baae)>AA Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz8_flak18"
-msgid "8.8 cm Flak 18 (Sfl.) auf SdKfz 8"
+msgid "8.8 cm Flak 18 (Sf.) auf SdKfz 8"
 msgstr ""
 
 msgctxt "info/special/sdkfz8_flak18"
@@ -1611,4 +1611,92 @@ msgstr ""
 
 msgctxt "info/special/bison2"
 msgid "<c(c3baae)>Light Assault Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/tiger1p"
+msgid "Pz.VI Tiger (P)"
+msgstr ""
+
+msgctxt "info/special/tiger1p"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/dicker_max"
+msgid "Dicker Max"
+msgstr ""
+
+msgctxt "info/special/dicker_max"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/sturer_emil"
+msgid "Sturer Emil"
+msgstr ""
+
+msgctxt "info/special/sturer_emil"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/maus"
+msgid "Maus"
+msgstr ""
+
+msgctxt "info/special/maus"
+msgid "<c(c3baae)>Super-Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/m19_mgmc"
+msgid "M19A1 MGMC"
+msgstr ""
+
+msgctxt "info/special/m19_mgmc"
+msgid "<c(c3baae)>Multiple Gun Motor Carriage</c>"
+msgstr ""
+
+msgctxt "desc/entity/waffletractor"
+msgid "Waffenträger"
+msgstr ""
+
+msgctxt "info/special/waffletractor"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
+msgctxt "desc/entity/300mm_krh42"
+msgid "300 Krh/42"
+msgstr ""
+
+msgctxt "info/special/300mm_krh42"
+msgid "<c(c3baae)>Super Heavy Mortar</c>"
+msgstr ""
+
+msgctxt "desc/entity/280mm_rakh43"
+msgid "280 RakH/43"
+msgstr ""
+
+msgctxt "info/special/280mm_rakh43"
+msgid "<c(c3baae)>Rocket Artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/210mm_rakh42"
+msgid "21cm Rkh/41"
+msgstr ""
+
+msgctxt "info/special/210mm_rakh42"
+msgid "<c(c3baae)>Rocket Artillery</c>"
+msgstr ""
+
+msgctxt "desc/entity/panther_f"
+msgid "Panther Ausf.F"
+msgstr ""
+
+msgctxt "info/special/panther_f"
+msgid "<c(c3baae)>Medium Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/t92_hmc"
+msgid "T92 HMC"
+msgstr ""
+
+msgctxt "info/special/t92_hmc"
+msgid "<c(c3baae)>Howitzer Motor Carriage</c>"
 msgstr ""

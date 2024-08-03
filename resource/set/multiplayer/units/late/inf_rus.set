@@ -27,7 +27,7 @@
 ;avt40 			= 15
 ;dp27			= 40
 ;dt				= 40
-;rifle grenade 	= +20
+;rifle grenade 	= +10
 ;any % pzfaust 	= +2
 ;any pzfaust 	= +5
 ;any flamer		= 60
@@ -61,7 +61,7 @@
 {"mp/rus/late/tankman_ace"					("inf_tankman" side(ger) cost(8.0))}
 {"mp/rus/late/tank_commander_ace"			("inf_tankman" side(ger) cost(15.0))}
 
-{"mp/rus/late/medic"						("inf_medic" side(rus) period(late) cost(25.0))}
+{"mp/rus/late/medic"						("inf_medic" side(rus) period(late) cost(40.0))}
 
 {"mp/rus/late/commisar"						("inf_officer" side(rus) period(late) cost(125.0))}
 {"mp/rus/late/commisar2"					("inf_officer" side(rus) period(late) cost(150.0))}
@@ -105,8 +105,8 @@
 
 ; // tier 2 lite
 
-{"mp/rus/late/mg_crew"						("inf_tier2_lite" side(rus) period(late) cost(7.0))} ; tt pistol
-{"mp/rus/late/mg_crew_asst"					("inf_tier2_lite" side(rus) period(late) cost(8.0))} ; mosin
+{"mp/rus/late/mg_crew"						("inf_tankman" side(rus) period(late) cost(7.0))} ; tt pistol
+{"mp/rus/late/mg_crew_asst"					("inf_tankman" side(rus) period(late) cost(8.0))} ; mosin
 
 {"mp/rus/late/rifleman_1"					("inf_tier2_lite" side(rus) period(late) cost(8.0))} ; mosin
 {"mp/rus/late/rifleman_2"					("inf_tier2_lite" side(rus) period(late) cost(8.0))} ; mosin

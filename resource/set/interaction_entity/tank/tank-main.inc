@@ -142,7 +142,6 @@
 		{add_view	"cooking_turret_smoke"		"cooking_turret_smoke"	"FXfire4"}
 		{add_view	"smoke_after_pen_hatch"		"smoke_after_pen_hatch"	"turret"}
 
-
 		;{add_view	"smoke_dead_small2a"			"smoke3_12"				"FXfire3"}
 		;{add_view	"smoke_dead_small2a"			"smoke3_13"				"FXfire3"}
 		;{add_view	"smoke_dead_small2b"			"smoke3_14"				"FXfire3"}
@@ -442,7 +441,7 @@
 	{on destroy overload
 		{if not tagged "exploded"
 			{if component "body"
-				{if not tagged "ammo_cooked"
+				{if not tagged "ammo_cooked2"
 					{tags add "ammo_broken"}
 				}
 				{call "explosion"}
@@ -473,7 +472,7 @@
 			}
 			{delay 20 5
 				{##/* if rand 0.5
-					{call "cookoff"}
+					{call_synced "cookoff"}
 					{view stop "smoke3"}
 					{stop_sound "flame_1"}
 				*/}
@@ -486,7 +485,7 @@
 
 	{on "vehicle_destroyed"
 		{if not tagged "vehicle_destroyed"
-			{if not tagged "ammo_cooked"
+			{if not tagged "ammo_cooked2"
 				{tags add "vehicle_destroyed"}
 				{ani_wind "open" end}
 				{ani_wind "open1" end}
@@ -512,7 +511,8 @@
 							{view pause "fire_vehicle_death"}
 							{view start "smoke_vehicle_death"}
 							{stop_sound "flame_1"}
-							{tags add "ammo_cooked"}
+							{call_synced "tags_add_ammo_cooked"}
+							{call_synced "tags_add_ammo_cooked2"}
 						}
 					}
 				}
@@ -672,7 +672,9 @@
 					{talk "crew_die"}
 				}
 				{delay 8
-					{crew_enable place "%0" 1}		;// re enables seat after crew death, after delay
+					{if not broken "body"
+						{crew_enable place "%0" 1}		;// re enables seat after crew death, after delay
+					}
 				}
 			}
 		}
@@ -1046,7 +1048,7 @@
 				{call "hull_destroyed"}
 				{delay_ex 0
 					{tear "piece_large_steel" bone "turret" id "turret"
-						{impulse up %0 4 dir %0 4 rnd_dir %0 %0}
+						{impulse up %0 2 dir %0 2 rnd_dir %0 4 cx 2 2 cy 2 2 cz 2 2 com}
 						{add_view "fire_dead_%5" "fire" "basis"}
 						{add_view "smoke_dead_turret" "smoke" "basis"}
 						{view start "fire"}
@@ -1093,7 +1095,7 @@
 	("turret_torn" args 7 180 45 500 75 turret)
 }
 {"turret heavy"
-	("turret_torn" args 8 200 60 600 100 turret)
+	("turret_torn" args 7 200 60 600 100 turret)
 }
 
 {"tank turret multi_turret"
@@ -1182,6 +1184,202 @@
 	)
 	("multi_gun_rotate" args gun1)
 	("multi_gun_rotate" args gun2)
+}
+{"btr_large_ammo"	;// halftrack/armored car open top type vehicles with "big caliber" ammunition, +37mm
+	{on spawn
+		{add_view	"cooking_high_open"				"cooking_high_open"			"body"}
+		{view hide  "cooking_high_open"}	;// fx has a glow that will show unless hidden until later called
+		{add_view	"cooking_high_open_2"			"cooking_high_open_2"		"body"}
+		{view hide  "cooking_high_open_2"}	;// fx has a glow that will show unless hidden until later called
+	}
+	{on "pre_cookoff" overload
+		{call "pre_cookoff_open_top"}
+	}
+	{on "light_tear_turret"
+		{if not "turret_teared"
+			{set "turret_teared" 1}
+			{clear_inventory}
+			{components "turret" break}
+			{components "gun" break}
+			{delay_ex 0
+				{tear "piece_large_steel" bone "turret" id "turret"
+					{impulse up 7 2 cx 2 1 cy 2 1 cz 2 1 rnd_dir 3 1 com}
+					{add_view "fire_dead_turret_light" "fire" "basis"}
+					{add_view "smoke_dead_turret" "smoke" "basis"}
+					{view start "fire"}
+					{delay 25 5
+						{view stop "fire"}
+						{view start "smoke"}
+					}
+					{delay_effect 90 15 "pause"}				;// calls {on "pause"} in dummy.inc
+					{delay 0.1
+						{volumes "gun" disable obstacle}
+					}
+				}
+			}
+		}
+	}
+	{on "ammo_break" overload
+		{call "stat_break"}
+		{if rand 0.75
+			{call_synced "ammo_break2"}
+		else
+			{call_synced "ammo_explosion_small"}
+		}
+	}
+	{on "ammo_break2"
+		{call "pre_cookoff"}
+		{delay 10 10
+			{call_synced "ammo_explosion_small"}
+		}
+	}
+	{on "ammo_explosion_small"
+		{if not able "exploded"
+			{if tagged "one_ammo_broken"
+				{call "ammo_explosion"}
+			else
+				{tags add "one_ammo_broken"}
+				{if rand 0.5
+					{call_synced "ammo_explosion_small_2"}
+				else
+					{call_synced "ammo_explosion"}
+				}
+			}
+		}
+	}
+	{on "ammo_explosion_small_2"
+		{tags add "death_counter_final"}
+		{call "death_counter_check"}
+		;{view pause "fire_vehicle_death"}
+		{kill_crew}
+		{spawn "vehicle_die" "body"}
+		{components "gun" break}
+		{components "body" break}
+		{call_synced "light_tear_turret"}
+		{delay 15 15
+			{if not broken "ammo1"
+				{call_synced "ammo_break"}
+			else not broken "ammo2"
+				{call_synced "ammo_break"}
+			}
+		}
+	}
+	{on "cut_parts"
+		{if rand 1
+			{call_synced "light_tear_turret"}
+		}
+	}
+	{on "ammo_explosion" overload
+		{if not tagged "ammo_cooked2"
+			{tags add "ammo_broken"}
+			{call "explosion"}
+		}
+	}
+}
+{"ammo_open_top"		;// tanks with open top hulls
+	{on spawn
+		{add_view	"cooking_high_open"				"cooking_high_open"			"FXfire5"}
+		{view hide  "cooking_high_open"}	;// fx has a glow that will show unless hidden until later called
+		{add_view	"cooking_high_open_2"			"cooking_high_open_2"		"FXfire5"}
+		{view hide  "cooking_high_open_2"}	;// fx has a glow that will show unless hidden until later called
+	}
+	{on "pre_cookoff" overload
+		{call "pre_cookoff_open_top"}
+	}
+	{on "ammo_break" overload
+		{call "stat_break"}
+		{if rand 0.75
+			{call_synced "ammo_break2"}
+		else
+			{call_synced "ammo_explosion_small"}
+		}
+	}
+	{on "ammo_break2"
+		{call "pre_cookoff"}
+		{delay 10 10
+			{if rand 0.5
+				{call_synced "ammo_explosion_small"}
+			}
+		}
+	}
+	{on "ammo_explosion_small"
+		{if not able "exploded"
+			{if tagged "one_ammo_broken"
+				{call "ammo_explosion"}
+			else
+				{tags add "one_ammo_broken"}
+				{if rand 0.75
+					{call_synced "ammo_explosion_small_2"}
+				else
+					{call_synced "ammo_explosion"}
+				}
+			}
+		}
+	}
+	{on "ammo_explosion_small_2"
+		{tags add "death_counter_final"}
+		{call "death_counter_check"}
+		;{view pause "fire_vehicle_death"}
+		{kill_crew}
+		{spawn "vehicle_die" "FXfire5"}
+		{components "body" break}
+		{delay 15 15
+			{call_synced "ammo_break"}
+		}
+	}
+}
+{"ammo_open_top_turret"		;// tanks with open top turrets
+	{on spawn
+		{add_view	"cooking_high_open"				"cooking_high_open"			"turret"}
+		{view hide  "cooking_high_open"}	;// fx has a glow that will show unless hidden until later called
+		{add_view	"cooking_high_open_2"			"cooking_high_open_2"		"turret"}
+		{view hide  "cooking_high_open_2"}	;// fx has a glow that will show unless hidden until later called
+	}
+	{on "pre_cookoff" overload
+		{call "pre_cookoff_open_top"}
+	}
+	{on "ammo_break" overload
+		{call "stat_break"}
+		{if rand 0.75
+			{call_synced "ammo_break2"}
+		else
+			{call_synced "ammo_explosion_small"}
+		}
+	}
+	{on "ammo_break2"
+		{call "pre_cookoff"}
+		{delay 10 10
+			{if rand 0.5
+				{call_synced "ammo_explosion_small"}
+			}
+		}
+	}
+	{on "ammo_explosion_small"
+		{if not able "exploded"
+			{if tagged "one_ammo_broken"
+				{call "ammo_explosion"}
+			else
+				{tags add "one_ammo_broken"}
+				{if rand 0.75
+					{call_synced "ammo_explosion_small_2"}
+				else
+					{call_synced "ammo_explosion"}
+				}
+			}
+		}
+	}
+	{on "ammo_explosion_small_2"
+		{tags add "death_counter_final"}
+		{call "death_counter_check"}
+		;{view pause "fire_vehicle_death"}
+		{kill_crew}
+		{spawn "vehicle_die" "turret"}
+		{components "turret" break}
+		{components "body" break}
+		{delay 15 15
+			{call_synced "ammo_break"}
+		}
+	}
 }
 {"armored_car"
 	{on "explosion_blastwave" overload
@@ -1812,6 +2010,13 @@
 	}
 	{on "explosion"
 		{delay 0.1 {delete}}
+	}
+	{on break						;// {on break} is for when components break
+		{if not tagged "exploded"
+			{if component "body"
+				{call "ammo_break"}
+			}
+		}
 	}
 }
 ;/*=========== General Props End ===========*/

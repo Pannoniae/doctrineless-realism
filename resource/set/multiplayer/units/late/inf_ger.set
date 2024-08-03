@@ -21,11 +21,13 @@
 ;mkb42(h)		= 20
 ;stg44			= 20
 ;fg42 			= 22
+;MG26(t)		= 25
+;MG13			= 25
 ;mg34 drum 		= 40
 ;mg34 belt 		= 45
 ;mg42 drum 		= 40
 ;mg42 belt 		= 45
-;rifle grenade	= +20
+;rifle grenade	= +10
 ;marksman 		= +2
 ;any % pzfaust 	= +2
 ;any pzfaust 	= +5
@@ -65,7 +67,7 @@
 {"mp/ger/late/tank_commander_ace"			("inf_tankman" side(ger) period(late) cost(15.0))}
 {"mp/ger/late/pilot"						("inf_tankman" side(ger) period(late) cost(0.0))}
 
-{"mp/ger/late/medic"						("inf_medic" side(ger) period(late) cost(25.0))}
+{"mp/ger/late/medic"						("inf_medic" side(ger) period(late) cost(40.0))}
 
 {"mp/ger/late/officer"						("inf_officer" side(ger) period(late) cost(125.0))}
 {"mp/ger/late/officer_lw"					("inf_officer" side(ger) period(late) cost(150.0))}
@@ -83,7 +85,7 @@
 
 ; // tier 1
 
-{"mp/ger/late/lw_fus_mg"					("inf_tier1" side(ger) period(late) cost(25.0))} ; MG13
+{"mp/ger/late/lw_fus_mg"					("inf_tier1" side(ger) period(late) cost(15.0))} ; MG13
 {"mp/ger/late/lw_fus_mg_asst"				("inf_tier1" side(ger) period(late) cost(7.0))} ; k98
 {"mp/ger/late/lw_fus_rifle"					("inf_tier1" side(ger) period(late) cost(7.0))} ; k98
 {"mp/ger/late/lw_fus_sl"					("inf_tier1" side(ger) period(late) cost(10.0))} ; mp38
@@ -109,8 +111,8 @@
 
 ; // tier 2 lite
 
-{"mp/ger/late/mg_crew"						("inf_tier2_lite" side(ger) period(late) cost(7.0))} ; p38 pistol
-{"mp/ger/late/mg_crew_asst"					("inf_tier2_lite" side(ger) period(late) cost(8.0))} ; k98
+{"mp/ger/late/mg_crew"						("inf_tankman" side(ger) period(late) cost(7.0))} ; p38 pistol
+{"mp/ger/late/mg_crew_asst"					("inf_tankman" side(ger) period(late) cost(8.0))} ; k98
 
 {"mp/ger/late/gren_rifle"					("inf_tier2_lite" side(ger) period(late) cost(8.0))} ; k98
 {"mp/ger/late/gren_rifle_pzf"				("inf_tier2_lite" side(ger) period(late) cost(13.0))} ; k98 + pzfaust 30
@@ -132,7 +134,7 @@
 
 {"mp/ger/late/gren_smg"						("inf_tier2" side(ger) period(late) cost(10.0))} ; mp40
 {"mp/ger/late/gren_sa"						("inf_tier2" side(ger) period(late) cost(13.0))} ; g43
-{"mp/ger/late/gren_rifle_grenadier"			("inf_tier2" side(ger) period(late) cost(28.0))} ; rifle grenade
+{"mp/ger/late/gren_rifle_grenadier"			("inf_tier2" side(ger) period(late) cost(18.0))} ; rifle grenade
 {"mp/ger/late/gren_mg"						("inf_tier2" side(ger) period(late) cost(45.0))} ; mg42 belt (100 round)
 {"mp/ger/late/gren_mg_asst"					("inf_tier2" side(ger) period(late) cost(8.0))} ; k98
 {"mp/ger/late/gren_sl"						("inf_tier2" side(ger) period(late) cost(10.0))} ; mp40
@@ -150,7 +152,7 @@
 {"mp/ger/late/lw_jag_mg"					("inf_tier2" side(ger) period(late) cost(45.0))} ; mg42 belt (100 round)
 {"mp/ger/late/lw_jag_mg_asst"				("inf_tier2" side(ger) period(late) cost(8.0))} ; k98
 {"mp/ger/late/lw_jag_mg34"					("inf_tier2" side(ger) period(late) cost(45.0))} ; mg34 belt (100 round)
-{"mp/ger/late/lw_jag_rifle_gren"			("inf_tier2" side(ger) period(late) cost(28.0))} ; rifle grenade
+{"mp/ger/late/lw_jag_rifle_gren"			("inf_tier2" side(ger) period(late) cost(18.0))} ; rifle grenade
 {"mp/ger/late/lw_jag_sa"					("inf_tier2" side(ger) period(late) cost(13.0))} ; g43
 {"mp/ger/late/lw_jag_sl"					("inf_tier2" side(ger) period(late) cost(10.0))} ; mp40
 {"mp/ger/late/lw_jag_sl_asst"				("inf_tier2" side(ger) period(late) cost(10.0))} ; k98 + % pzfaust 60
@@ -192,7 +194,7 @@
 {"mp/ger/late/lw_recon_mg"					("inf_tier2" side(ger) period(late) cost(40.0))} ; mg42 drum
 {"mp/ger/late/lw_recon_mg_asst"				("inf_tier2" side(ger) period(late) cost(8.0))} ; k98
 {"mp/ger/late/lw_recon_rifle"				("inf_tier2" side(ger) period(late) cost(8.0))} ; k98
-{"mp/ger/late/lw_recon_rifle_gren"			("inf_tier2" side(ger) period(late) cost(28.0))} ; rifle grenade
+{"mp/ger/late/lw_recon_rifle_gren"			("inf_tier2" side(ger) period(late) cost(18.0))} ; rifle grenade
 {"mp/ger/late/lw_recon_rifle_pzf"			("inf_tier2" side(ger) period(late) cost(13.0))} ; k98 + faustpatrone 30
 {"mp/ger/late/lw_recon_sl"					("inf_tier2" side(ger) period(late) cost(10.0))} ; mp40
 {"mp/ger/late/lw_recon_sl_asst"				("inf_tier2" side(ger) period(late) cost(10.0))} ; k98 + % pzfaust 30
@@ -202,8 +204,8 @@
 {"mp/ger/late/volksg_mg"					("inf_tier2" side(ger) period(late) cost(45.0))} ; mg42 belt (100 round)
 {"mp/ger/late/volksg_mg_asst"				("inf_tier2" side(ger) period(late) cost(8.0))} ; k98
 {"mp/ger/late/volksg_mg_asst_sa"			("inf_tier2" side(ger) period(late) cost(13.0))} ; g43
-{"mp/ger/late/volksg_rifle_grenadier"		("inf_tier2" side(ger) period(late) cost(28.0))} ; rifle grenade
-{"mp/ger/late/volksg_rifle_grenadier2"		("inf_tier2" side(ger) period(late) cost(28.0))} ; rifle grenade, 20 ammo
+{"mp/ger/late/volksg_rifle_grenadier"		("inf_tier2" side(ger) period(late) cost(18.0))} ; rifle grenade
+{"mp/ger/late/volksg_rifle_grenadier2"		("inf_tier2" side(ger) period(late) cost(18.0))} ; rifle grenade, 20 ammo
 {"mp/ger/late/volksg_sa"					("inf_tier2" side(ger) period(late) cost(13.0))} ; g43
 {"mp/ger/late/volksg_sa_pzf"				("inf_tier2" side(ger) period(late) cost(18.0))} ; g43 + pzfaust 60
 {"mp/ger/late/volksg_sa_scope"				("inf_tier2" side(ger) period(late) cost(80.0))} ; g43 scope
@@ -238,7 +240,7 @@
 {"mp/ger/late/antitank_1"					("inf_tier2" side(ger) period(late) cost(80.0))} ; pistol + Pzshreck
 {"mp/ger/late/antitank_2"					("inf_tier2" side(ger) period(late) cost(15.0))} ; mp40 + pzfaust60 + Pzschreck ammo
 {"mp/ger/late/antitank_3"					("inf_tier2" side(ger) period(late) cost(18.0))} ; g43 + pzfaust60
-{"mp/ger/late/antitank_4"					("inf_tier2" side(ger) period(late) cost(28.0))} ; rifle grenade inf
+{"mp/ger/late/antitank_4"					("inf_tier2" side(ger) period(late) cost(18.0))} ; rifle grenade inf
 {"mp/ger/late/antitank_5"					("inf_tier2" side(ger) period(late) cost(8.0))} ; k98
 
 {"mp/ger/late/engineer_1"					("inf_tier2" side(ger) period(late) cost(50.0))}
@@ -262,7 +264,7 @@
 {"mp/ger/late/pioneer_mgun"					("inf_tier2" side(ger) period(late) cost(45.0))} ; mg42 belt (100 round)
 {"mp/ger/late/pioneer_mgun_asst"			("inf_tier2" side(ger) period(late) cost(8.0))} ; k98
 {"mp/ger/late/pioneer_pzf"					("inf_tier2" side(ger) period(late) cost(13.0))} ; k98 + faustpatrone 30
-{"mp/ger/late/pioneer_rifle_grenadier"		("inf_tier2" side(ger) period(late) cost(28.0))} ; rifle grenade
+{"mp/ger/late/pioneer_rifle_grenadier"		("inf_tier2" side(ger) period(late) cost(18.0))} ; rifle grenade
 {"mp/ger/late/pioneer_sa"					("inf_tier2" side(ger) period(late) cost(13.0))} ; g43
 {"mp/ger/late/pioneer_sl"					("inf_tier2" side(ger) period(late) cost(10.0))} ; mp40
 {"mp/ger/late/pioneer_sl_asst"				("inf_tier2" side(ger) period(late) cost(8.0))} ; k98
@@ -276,7 +278,7 @@
 {"mp/ger/late/pz_pio_mine"					("inf_tier2" side(ger) period(late) cost(8.0))} ; k98 ;detector
 {"mp/ger/late/pz_pio_pzf"					("inf_tier2" side(ger) period(late) cost(13.0))} ; k98 + pzfaust 30
 {"mp/ger/late/pz_pio_rifle"					("inf_tier2" side(ger) period(late) cost(8.0))} ; k98
-{"mp/ger/late/pz_pio_rifle_gren"			("inf_tier2" side(ger) period(late) cost(28.0))} ; rifle grenade
+{"mp/ger/late/pz_pio_rifle_gren"			("inf_tier2" side(ger) period(late) cost(18.0))} ; rifle grenade
 {"mp/ger/late/pz_pio_sa"					("inf_tier2" side(ger) period(late) cost(13.0))} ; g43
 {"mp/ger/late/pz_pio_sl"					("inf_tier2" side(ger) period(late) cost(10.0))} ; mp40
 {"mp/ger/late/pz_pio_sl_asst"				("inf_tier2" side(ger) period(late) cost(10.0))} ; k98 + % pzfaust 60
@@ -301,7 +303,7 @@
 {"mp/ger/late/fusilier_mg_asst_smg"			("inf_tier3" side(ger) period(late) cost(15.0))} ; mp40
 {"mp/ger/late/fusilier_rifle"				("inf_tier3" side(ger) period(late) cost(13.0))} ; k98
 {"mp/ger/late/fusilier_rifle_pzf"			("inf_tier3" side(ger) period(late) cost(18.0))} ; k98 + pzfaust 60
-{"mp/ger/late/fusilier_rifle_grenadier"		("inf_tier3" side(ger) period(late) cost(33.0))} ; rifle grenade
+{"mp/ger/late/fusilier_rifle_grenadier"		("inf_tier3" side(ger) period(late) cost(23.0))} ; rifle grenade
 {"mp/ger/late/fusilier_sa"					("inf_tier3" side(ger) period(late) cost(18.0))} ; g43
 {"mp/ger/late/fusilier_sl"					("inf_tier3" side(ger) period(late) cost(15.0))} ; mp40
 {"mp/ger/late/fusilier_sl_asst"				("inf_tier3" side(ger) period(late) cost(15.0))} ; k98 + % pzfaust
@@ -453,7 +455,7 @@
 {"mp/ger/late/fallsch_vet_mg34_asst"		("inf_tier4" side(ger) period(late) cost(18.0))} ; k98
 {"mp/ger/late/fallsch_rifle"				("inf_tier4" side(ger) period(late) cost(18.0))} ; k98
 {"mp/ger/late/fallsch_rifle_pzf"			("inf_tier4" side(ger) period(late) cost(23.0))} ; k98 + pzfaust 30
-{"mp/ger/late/fallsch_rifle_grenadier"		("inf_tier4" side(ger) period(late) cost(38.0))} ; k98 + rifle grenade
+{"mp/ger/late/fallsch_rifle_grenadier"		("inf_tier4" side(ger) period(late) cost(28.0))} ; k98 + rifle grenade
 {"mp/ger/late/fallsch_sa"					("inf_tier4" side(ger) period(late) cost(23.0))} ; g43
 {"mp/ger/late/fallsch_sa_pzf"				("inf_tier4" side(ger) period(late) cost(25.0))} ; g43 + % pzfaust 60
 {"mp/ger/late/fallsch_sa_scope"				("inf_tier4" side(ger) period(late) cost(80.0))} ; g43 scope + % pzfaust 30
@@ -465,7 +467,7 @@
 {"mp/ger/late/fallsch_pio_mg"				("inf_tier4" side(ger) period(late) cost(65.0))} ; mg42 belt (100 round)
 {"mp/ger/late/fallsch_pio_mg_asst"			("inf_tier4" side(ger) period(late) cost(18.0))} ; k98
 {"mp/ger/late/fallsch_pio_rifle"			("inf_tier4" side(ger) period(late) cost(18.0))} ; k98
-{"mp/ger/late/fallsch_pio_rifle_grenadier"	("inf_tier4" side(ger) period(late) cost(38.0))} ; k98 + rifle grenade
+{"mp/ger/late/fallsch_pio_rifle_grenadier"	("inf_tier4" side(ger) period(late) cost(28.0))} ; k98 + rifle grenade
 {"mp/ger/late/fallsch_pio_rifle_pzf"		("inf_tier4" side(ger) period(late) cost(23.0))} ; k98 + pzfaust 60
 {"mp/ger/late/fallsch_pio_rifle_scope"		("inf_tier4" side(ger) period(late) cost(120.0))} ; k98 scope + % pzfaust 60
 {"mp/ger/late/fallsch_pio_sl"				("inf_tier4" side(ger) period(late) cost(20.0))} ; mp40
@@ -474,7 +476,7 @@
 
 {"mp/ger/late/fallsch_recon_mg"				("inf_tier4" side(ger) period(late) cost(65.0))} ; mg42 belt (100 round)
 {"mp/ger/late/fallsch_recon_mg_asst"		("inf_tier4" side(ger) period(late) cost(18.0))} ; k98
-{"mp/ger/late/fallsch_recon_mg_asst_gren"	("inf_tier4" side(ger) period(late) cost(38.0))} ; k98 + rifle grenade
+{"mp/ger/late/fallsch_recon_mg_asst_gren"	("inf_tier4" side(ger) period(late) cost(28.0))} ; k98 + rifle grenade
 {"mp/ger/late/fallsch_recon_mg34"			("inf_tier4" side(ger) period(late) cost(65.0))} ; mg34 belt (100 round)
 {"mp/ger/late/fallsch_recon_sl"				("inf_tier4" side(ger) period(late) cost(20.0))} ; mp40
 {"mp/ger/late/fallsch_recon_sl_asst"		("inf_tier4" side(ger) period(late) cost(25.0))} ; mp40 + pzfaust 100
@@ -485,7 +487,7 @@
 {"mp/ger/late/brand_2"						("inf_tier4" side(ger) period(late) cost(60.0))} ; MG42 drum
 {"mp/ger/late/brand_3"						("inf_tier4" side(ger) period(late) cost(20.0))} ; k98 + % pzfaust 60
 {"mp/ger/late/brand_4"						("inf_tier4" side(ger) period(late) cost(18.0))} ; k98
-{"mp/ger/late/brand_5"						("inf_tier4" side(ger) period(late) cost(25.0))} ; mp41 + pzfaust 60
+{"mp/ger/late/brand_5"						("inf_tier4" side(ger) period(late) cost(35.0))} ; stg44 + pzfaust 60
 {"mp/ger/late/brand_6"						("inf_tier4" side(ger) period(late) cost(28.0))} ; g43 + pzfaust 60
 
 

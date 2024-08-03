@@ -19,9 +19,10 @@
 
 {select_ammo
 	{human in_bush											; -TARGET CLASS-
-		{"flame"}											; ammo for flamethrowers
+		{"flame" {ready_for_shot}}							; ammo for flamethrowers
+		{"small_arms" {ready_for_shot}}						; bullet ammo (pistols, rifles, smgs, mgs)		{"mortar all_he"}									; HE mortar ammo
 		{"mortar all_he"}									; HE mortar ammo
-		{"shell all_he" {ground} {ready_for_shot}}			; cannon HE ammo
+		{"shell all_he" {ground}}							; cannon HE ammo
 		{"ammo rifle_grenade"}								; rifle grenade HE ammo
 		{"ammo shell wp" {ground}{ready_for_shot}}			; WP ammo (ONLY IF ALREADY LOADED)
 		{"hmgun"}											; heavy machine gun (.50 cal, etc)
@@ -45,7 +46,8 @@
 		{"light"}											; ammo for binoculars and other vision devices
 	}
 	{human in_cover											; -TARGET CLASS-
-		{"flame"}											; ammo for flamethrowers
+		{"flame" {ready_for_shot}}							; ammo for flamethrowers
+		{"small_arms" {ready_for_shot}}						; bullet ammo (pistols, rifles, smgs, mgs)
 		{"mortar all_he"}									; HE mortar ammo
 		{"shell all_he" {ready_for_shot}}					; cannon HE ammo
 		{"grenade fg"}										; standard anti-personel grenades
@@ -71,7 +73,8 @@
 		{"light"}											; ammo for binoculars and other vision devices
 	}
 	{human													; -TARGET CLASS-
-		{"flame"}											; ammo for flamethrowers
+		{"flame" {ready_for_shot}}							; ammo for flamethrowers
+		{"small_arms" {ready_for_shot}}						; bullet ammo (pistols, rifles, smgs, mgs)
 		{"mortar all_he"}									; HE mortar ammo
 		{"shell all_he" {ground} {ready_for_shot}}							; cannon HE ammo
 		{"ammo rifle_grenade"}								; rifle grenade HE ammo

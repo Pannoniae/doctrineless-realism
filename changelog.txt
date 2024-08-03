@@ -1,4 +1,3 @@
-Into the Fire 0.2.5:
- - Fixed some broken vehicle models.
- - Corrected some USA localisation.
- - Fixed artillery explosions being double as powerful as intended.
+Into the Fire 0.2.15:
+ - Decrease Sherman prices.
+ - Update to the latest game version.

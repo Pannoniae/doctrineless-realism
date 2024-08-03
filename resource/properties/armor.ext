@@ -604,6 +604,11 @@
 	("basic_armor" args 30)
 )
 
+(define "tank_heavy_tier3"
+	("general_durability" body(650) engine(300) turret(350) mantlet(250) gun(250) track(350) ammo(300))
+	("basic_armor" args 50)
+)
+
 (define "armor_carried_cannon" ;// MGs and mortars
 	("cannon_durability" body(150) gun(150) wheel(100) shield(150))
 	("cannon_thickness" args 6)

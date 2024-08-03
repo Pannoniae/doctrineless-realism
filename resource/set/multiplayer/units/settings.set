@@ -421,6 +421,21 @@
 ; For the other normal squads the cost is computed as the sum of the cost of the individual soldiers.
 ;--------------------------------------------------------------------------------------------------
 
+(define "single_with1type"
+	{"%name(%side)"
+		{charge 
+			{delay %cd}
+			{interval %ci}
+		}
+		{content "mp/%side/%period/%c1"}
+		{tags "all infantry %side %t %period"}
+		{group "%g"}
+		{button "%b"}
+		{level 1}
+		{squad_cost_factor 1.25}
+		{round_multiple 1}
+	}
+)
 (define "squad_with1types"
 	{"%name(%side)"
 		{charge 

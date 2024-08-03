@@ -113,7 +113,7 @@ msgid "Anti-Tank Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_at_rifles_early(ger)"
-msgid "Anti-tank Rifle squad"
+msgid "Anti-tank Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_blau(ger)"
@@ -121,7 +121,7 @@ msgid "Blau Division"
 msgstr ""
 
 msgctxt "desc/squad/squad_blau_con(ger)"
-msgid "Blau division squad"
+msgid "Blau division Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_brandenburger(ger)"
@@ -129,7 +129,7 @@ msgid "Brandenburger"
 msgstr ""
 
 msgctxt "desc/squad/squad_brandenburger_con(ger)"
-msgid "Brandenburger squad"
+msgid "Brandenburger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_brandenburger_early(ger)"
@@ -149,7 +149,7 @@ msgid "Fallschirmjäger"
 msgstr ""
 
 msgctxt "desc/squad/squad_fallschirmjaeger_con(ger)"
-msgid "Fallschirmjäger squad"
+msgid "Fallschirmjäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_fallschirmjaeger_late(ger)"
@@ -157,27 +157,27 @@ msgid "Fallschirmjäger"
 msgstr ""
 
 msgctxt "desc/squad/squad_fallschirmjaeger_motor_con"
-msgid "Motorized Fallschirmjäger squad"
+msgid "Motorized Fallschirmjäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_feldgendarmerie(ger)"
-msgid "Feldgendarmerie squad"
+msgid "Feldgendarmerie Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_fusilier_late(ger)"
-msgid "Fusilier squad"
+msgid "Fusilier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_gd_early(ger)"
-msgid "Großdeutschland Rifle squad"
+msgid "Großdeutschland Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_gd_mid(ger)"
-msgid "Großdeutschland Rifle squad"
+msgid "Großdeutschland Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_gd_motor_con"
-msgid "Großdeutschland Motorized Rifle squad"
+msgid "Großdeutschland Motorized Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_gebirgsjaeger(ger)"
@@ -185,15 +185,15 @@ msgid "Gebirgsjäger"
 msgstr ""
 
 msgctxt "desc/squad/squad_gebirgsjaeger_con(ger)"
-msgid "Gebirgsjäger squad"
+msgid "Gebirgsjäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_gebirgsjaeger_early(ger)"
-msgid "Gebirgsjäger squad"
+msgid "Gebirgsjäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_gebirgsjaeger_late(ger)"
-msgid "Gebirgsjäger squad"
+msgid "Gebirgsjäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_grenadiere(ger)"
@@ -201,7 +201,7 @@ msgid "Grenadiere"
 msgstr ""
 
 msgctxt "desc/squad/squad_grenadiere_late(ger)"
-msgid "Grenadier squad"
+msgid "Grenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_heavy(ger)"
@@ -209,11 +209,11 @@ msgid "Regular Inf."
 msgstr ""
 
 msgctxt "desc/squad/squad_jaeger_con(ger)"
-msgid "Jäger squad"
+msgid "Jäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_jager_late(ger)"
-msgid "Jäger squad"
+msgid "Jäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_landwehr_early(ger)"
@@ -229,7 +229,7 @@ msgid "LW. field unit"
 msgstr ""
 
 msgctxt "desc/squad/squad_luftwaffe_con(ger)"
-msgid "Luftwaffe Rifle squad"
+msgid "Luftwaffe Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_luftwaffe_early(ger)"
@@ -245,7 +245,7 @@ msgid "LW. field unit"
 msgstr ""
 
 msgctxt "desc/squad/squad_lw_fusilier_late(ger)"
-msgid "LW. Fusilier squad"
+msgid "LW. Fusilier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_officer_250_3_con"
@@ -253,7 +253,7 @@ msgid "Sd.Kfz 250/3 (Command)"
 msgstr ""
 
 msgctxt "desc/squad/squad_officer_con(ger)"
-msgid "Command squad"
+msgid "Command Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_officer_kubel_con"
@@ -265,27 +265,27 @@ msgid "Osttruppen"
 msgstr ""
 
 msgctxt "desc/squad/squad_osttruppen_con(ger)"
-msgid "Osttruppen squad"
+msgid "Osttruppen Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pionier(ger)"
-msgid "Pionier squad"
+msgid "Pionier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pionier_con(ger)"
-msgid "Pionier squad"
+msgid "Pionier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pionier_early(ger)"
-msgid "Pionier squad"
+msgid "Pionier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pionier_late(ger)"
-msgid "Pionier squad"
+msgid "Pionier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pz_pio_con"
-msgid "Armored Pz-Pionier squad"
+msgid "Armored Pz-Pionier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pz_pio_302_con(ger)"
@@ -297,59 +297,59 @@ msgid "Pz-Pionier team (Goliath)"
 msgstr ""
 
 msgctxt "desc/squad/squad_pzgrenadiere_gd_late(ger)"
-msgid "Großdeutschland Panzergrenadier squad"
+msgid "Großdeutschland Panzergrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pzgrenadiere_late(ger)"
-msgid "Panzergrenadier squad"
+msgid "Panzergrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon(ger)"
-msgid "Aufklärer squad"
+msgid "Aufklärer Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon_armor_con"
-msgid "Armored Aufklärer squad"
+msgid "Armored Aufklärer Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon_con(ger)"
-msgid "Aufklärer squad"
+msgid "Aufklärer Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon_early(ger)"
-msgid "Aufklärer squad"
+msgid "Aufklärer Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon_late(ger)"
-msgid "Aufklärer squad"
+msgid "Aufklärer Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon_motor_con"
-msgid "Motorized Aufklärer squad"
+msgid "Motorized Aufklärer Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_regular(ger)"
-msgid "Rifle squad"
+msgid "Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_regular_armor_con"
-msgid "Armored Rifle squad"
+msgid "Armored Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_regular_armored(ger)"
-msgid "Armored Rifle squad"
+msgid "Armored Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_regular_con(ger)"
-msgid "Rifle squad"
+msgid "Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_regular_early(ger)"
-msgid "Rifle squad"
+msgid "Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_regular_motor_con"
-msgid "Motorized Rifle squad"
+msgid "Motorized Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_regular_motorised"
@@ -361,11 +361,11 @@ msgid "Sd.Kfz 251 + Inf."
 msgstr ""
 
 msgctxt "desc/squad/squad_regular_vet(ger)"
-msgid "Veteran Rifle squad"
+msgid "Veteran Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_regular_vet_con(ger)"
-msgid "Veteran Rifle squad"
+msgid "Veteran Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_reserve(ger)"
@@ -373,7 +373,7 @@ msgid "Reserves"
 msgstr ""
 
 msgctxt "desc/squad/squad_sicherung_con(ger)"
-msgid "Sicherungs squad"
+msgid "Sicherungs Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_stosstrupp"
@@ -385,11 +385,11 @@ msgid "Stosstrupp"
 msgstr ""
 
 msgctxt "desc/squad/squad_strafbatallion(ger)"
-msgid "Strafbatallion squad"
+msgid "Strafbatallion Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_strafbatallion_con(ger)"
-msgid "Strafbatallion squad"
+msgid "Strafbatallion Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_sturm(ger)"
@@ -405,63 +405,63 @@ msgid "Volkssturm"
 msgstr ""
 
 msgctxt "desc/squad/squad_volkssturm_con(ger)"
-msgid "Volkssturm squad"
+msgid "Volkssturm Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_grenadier_con(ger)"
-msgid "Grenadier squad"
+msgid "Grenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_sturmgren_con(ger)"
-msgid "Sturmgrenadier squad"
+msgid "Sturmgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_sturmgren_heavy_con(ger)"
-msgid "Heavy Sturmgrenadier squad"
+msgid "Heavy Sturmgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_volksg_con(ger)"
-msgid "Volksgrenadier squad"
+msgid "Volksgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_volksg_sturm_con(ger)"
-msgid "Sturm Volksgrenadier squad"
+msgid "Sturm Volksgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_volksg_heavy_con(ger)"
-msgid "Heavy Volksgrenadier squad"
+msgid "Heavy Volksgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pzgren_motor_con"
-msgid "Motorized Panzergrenadier squad"
+msgid "Motorized Panzergrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pzgren_armor_con"
-msgid "Armored Panzergrenadier squad"
+msgid "Armored Panzergrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_sturm_pzgren_armor_con"
-msgid "Armored Pz.Sturmgrenadier squad"
+msgid "Armored Pz.Sturmgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_sturmjager_con(ger)"
-msgid "Sturmjäger squad"
+msgid "Sturmjäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_sturm_begleitgren_motor_con"
-msgid "Motorized Sturm Begleitgrenadier squad"
+msgid "Motorized Sturm Begleitgrenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_pzg_gd_armor_con"
-msgid "Armored Großdeutschland Pz.grenadier squad"
+msgid "Armored Großdeutschland Pz.grenadier Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_gebirgsjaeger_late_con(ger)"
-msgid "Gebirgsjäger 44 squad"
+msgid "Gebirgsjäger 44 Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_fallschirmjaeger_late_con(ger)"
-msgid "Fallschirmjäger 44 squad"
+msgid "Fallschirmjäger 44 Squad"
 msgstr ""
 
 msgctxt "desc/squad/single_rifle(ger)"

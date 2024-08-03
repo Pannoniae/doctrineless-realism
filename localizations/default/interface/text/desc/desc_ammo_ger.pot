@@ -631,3 +631,56 @@ msgstr ""
 msgctxt "desc/ammo/280mm_nebelwerfer"
 msgid "28cm Wurfkörper Spreng [<c(ff1200)>HE</c>]"
 msgstr ""
+
+
+msgctxt "desc/ammo/bulletger_128 apche"
+msgid "12.8cm PzGr.43 [<c(ff6a00)>APC-HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_128_2 apcbc"
+msgid "12.8cm PzGr.43 [<c(ff6a00)>APCBC</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_128_2 apc"
+msgid "12.8cm PzGr. [<c(ff6a00)>APC</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_128_2 he"
+msgid "12.8cm Sprgr. L/5 [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_128_3 he"
+msgid "12.8cm Sprgr. L/5 [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_128_3 apcbc"
+msgid "12.8cm PzGr.43 [<c(ff6a00)>APCBC</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_128_3 apc"
+msgid "12.8cm PzGr. [<c(ff6a00)>APC</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_105 apcbche"
+msgid "10.5cm PzGr. rot [<c(ff6a00)>APCBC</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_105_2 he"
+msgid "10.5cm Sprgr. [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_105_2 apcbc"
+msgid "10.5cm PzGr.39 [<c(ff6a00)>APCBC</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletger_105_2 apcr"
+msgid "10.5cm PzGr.40 [<c(48c445)>APCR</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/280mm_rkh43"
+msgid "280mm Rocket [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/mortarfin_300 he"
+msgid "300mm Mortar [<c(ff1200)>HE</c>]"
+msgstr ""

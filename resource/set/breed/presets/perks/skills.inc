@@ -132,6 +132,7 @@
 	{"pistol" lvl_1}
 	{"smg" lvl_1}
 	{"mgun" lvl_1}
+	{"mgun_light" lvl_1}
 	{"rifle" lvl_1}
 	{"melee" lvl_1}
 	{"avoidance" lvl_1}
@@ -149,6 +150,7 @@
 	{"pistol" lvl_3}
 	{"smg" lvl_3}
 	{"mgun" lvl_2}
+	{"mgun_light" lvl_2}
 	{"rifle" lvl_2}
 	{"melee" lvl_2}
 	{"avoidance" lvl_2}
@@ -163,6 +165,7 @@
 	{"pistol" lvl_4}
 	{"smg" lvl_4}
 	{"mgun" lvl_3}
+	{"mgun_light" lvl_3}
 	{"rifle" lvl_3}
 	{"melee" lvl_3}
 	{"avoidance" lvl_3}
@@ -177,6 +180,7 @@
 	{"pistol" lvl_5}
 	{"smg" lvl_5}
 	{"mgun" lvl_4}
+	{"mgun_light" lvl_4}
 	{"rifle" lvl_4}
 	{"melee" lvl_4}
 	{"avoidance" lvl_4}
@@ -191,6 +195,7 @@
 	{"pistol" lvl_6}
 	{"smg" lvl_6}
 	{"mgun" lvl_5}
+	{"mgun_light" lvl_5}
 	{"rifle" lvl_5}
 	{"melee" lvl_5}
 	{"avoidance" lvl_5}
@@ -207,6 +212,7 @@
 	{"pistol" lvl_3}
 	{"smg" lvl_2}
 	{"mgun" lvl_2}
+	{"mgun_light" lvl_2}
 	{"rifle" lvl_3}
 	{"melee" lvl_2}
 	{"avoidance" lvl_2}
@@ -221,6 +227,7 @@
 	{"pistol" lvl_4}
 	{"smg" lvl_3}
 	{"mgun" lvl_3}
+	{"mgun_light" lvl_3}
 	{"rifle" lvl_4}
 	{"melee" lvl_3}
 	{"avoidance" lvl_3}
@@ -235,6 +242,7 @@
 	{"pistol" lvl_5}
 	{"smg" lvl_4}
 	{"mgun" lvl_4}
+	{"mgun_light" lvl_4}
 	{"rifle" lvl_5}
 	{"melee" lvl_4}
 	{"avoidance" lvl_4}
@@ -249,6 +257,7 @@
 	{"pistol" lvl_6}
 	{"smg" lvl_5}
 	{"mgun" lvl_5}
+	{"mgun_light" lvl_5}
 	{"rifle" lvl_6}
 	{"melee" lvl_5}
 	{"avoidance" lvl_5}
@@ -266,6 +275,7 @@
 	{"pistol" lvl_3}
 	{"smg" lvl_2}
 	{"mgun" lvl_3}
+	{"mgun_light" lvl_3}
 	{"rifle" lvl_3}
 	{"melee" lvl_2}
 	{"avoidance" lvl_2}
@@ -280,6 +290,7 @@
 	{"pistol" lvl_4}
 	{"smg" lvl_3}
 	{"mgun" lvl_4}
+	{"mgun_light" lvl_4}
 	{"rifle" lvl_4}
 	{"melee" lvl_3}
 	{"avoidance" lvl_3}
@@ -294,6 +305,7 @@
 	{"pistol" lvl_5}
 	{"smg" lvl_4}
 	{"mgun" lvl_5}
+	{"mgun_light" lvl_5}
 	{"rifle" lvl_5}
 	{"melee" lvl_4}
 	{"avoidance" lvl_4}
@@ -308,6 +320,7 @@
 	{"pistol" lvl_6}
 	{"smg" lvl_5}
 	{"mgun" lvl_6}
+	{"mgun_light" lvl_6}
 	{"rifle" lvl_6}
 	{"melee" lvl_5}
 	{"avoidance" lvl_5}
@@ -323,6 +336,7 @@
 	{"pistol" lvl_3}
 	{"smg" lvl_3}
 	{"mgun" lvl_3}
+	{"mgun_light" lvl_3}
 	{"rifle" lvl_2}
 	{"melee" lvl_2}
 	{"avoidance" lvl_2}
@@ -337,6 +351,7 @@
 	{"pistol" lvl_4}
 	{"smg" lvl_4}
 	{"mgun" lvl_4}
+	{"mgun_light" lvl_4}
 	{"rifle" lvl_3}
 	{"melee" lvl_3}
 	{"avoidance" lvl_3}
@@ -351,6 +366,7 @@
 	{"pistol" lvl_5}
 	{"smg" lvl_5}
 	{"mgun" lvl_5}
+	{"mgun_light" lvl_5}
 	{"rifle" lvl_4}
 	{"melee" lvl_4}
 	{"avoidance" lvl_4}
@@ -365,6 +381,7 @@
 	{"pistol" lvl_6}
 	{"smg" lvl_6}
 	{"mgun" lvl_6}
+	{"mgun_light" lvl_6}
 	{"rifle" lvl_5}
 	{"melee" lvl_5}
 	{"avoidance" lvl_5}
@@ -382,6 +399,7 @@
 	{"pistol" lvl_3}
 	{"smg" lvl_2}
 	{"mgun" lvl_3}
+	{"mgun_light" lvl_3}
 	{"rifle" lvl_2}
 	{"melee" lvl_2}
 	{"avoidance" lvl_2}
@@ -396,6 +414,7 @@
 	{"pistol" lvl_4}
 	{"smg" lvl_3}
 	{"mgun" lvl_4}
+	{"mgun_light" lvl_4}
 	{"rifle" lvl_3}
 	{"melee" lvl_3}
 	{"avoidance" lvl_3}
@@ -410,6 +429,7 @@
 	{"pistol" lvl_5}
 	{"smg" lvl_4}
 	{"mgun" lvl_5}
+	{"mgun_light" lvl_5}
 	{"rifle" lvl_4}
 	{"melee" lvl_4}
 	{"avoidance" lvl_4}
@@ -424,6 +444,7 @@
 	{"pistol" lvl_6}
 	{"smg" lvl_5}
 	{"mgun" lvl_6}
+	{"mgun_light" lvl_6}
 	{"rifle" lvl_5}
 	{"melee" lvl_5}
 	{"avoidance" lvl_5}

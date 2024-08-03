@@ -14,6 +14,8 @@
 	{firing_k98_scope 100}
 	{firing_mosin_scope 100}
 	{firing_g43_scope 100}
+	{firing_m1903a4 100}
+	{firing_mosin_m27_scope 100}
 	{thrower 0}
 )
 

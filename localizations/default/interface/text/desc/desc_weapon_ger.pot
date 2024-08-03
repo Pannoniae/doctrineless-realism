@@ -236,6 +236,22 @@ msgctxt "desc/weapon/88mm_pak43"
 msgid "8.8cm Pak 43/1 L/71"
 msgstr ""
 
+msgctxt "desc/weapon/88mm_pak43_1"
+msgid "8.8cm Pak 43/1 L/71"
+msgstr ""
+
+msgctxt "desc/weapon/88mm_pak43_2"
+msgid "8.8cm Pak 43/2 L/71"
+msgstr ""
+
+msgctxt "desc/weapon/88mm_pak43_3"
+msgid "8.8cm Pak 43/3 L/71"
+msgstr ""
+
+msgctxt "desc/weapon/88mm_pak43_4"
+msgid "8.8cm Pak 43/4 L/71"
+msgstr ""
+
 msgctxt "desc/weapon/100mm_nbw35"
 msgid "10.5cm NbW 35"
 msgstr ""
@@ -626,4 +642,28 @@ msgstr ""
 
 msgctxt "desc/weapon/280mm_w40_x6"
 msgid "28cm Wurfrahmen 40"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_stuk42_0"
+msgid "7.5cm KwK 44 L/36.5"
+msgstr ""
+
+msgctxt "desc/weapon/128mm_pak44_2"
+msgid "12.8cm Pak 44 L/55"
+msgstr ""
+
+msgctxt "desc/weapon/128mm_kwk44"
+msgid "12.8cm KwK 44 L/55"
+msgstr ""
+
+msgctxt "desc/weapon/128mm_k40"
+msgid "12.8cm K 40 L/61"
+msgstr ""
+
+msgctxt "desc/weapon/128mm_KwK46"
+msgid "12.8cm KwK 44 L/56"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_kwk44"
+msgid "7.5cm KwK 44 L/70"
 msgstr ""

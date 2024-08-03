@@ -110,19 +110,19 @@ msgid "Assault Sappers"
 msgstr ""
 
 msgctxt "desc/squad/squad_assaultsappers_con(rus)"
-msgid "Assault-engineer sapper squad"
+msgid "Assault-engineer Sapper Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_assaultsappers_flame_con(rus)"
-msgid "Assault-engineer flamer squad"
+msgid "Assault-engineer Flamer Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_at_rifle(rus)"
-msgid "Anti-tank rifle squad"
+msgid "Anti-tank Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_at_rifle_con(rus)"
-msgid "AT rifle squad"
+msgid "AT rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_basic(rus)"
@@ -130,23 +130,23 @@ msgid "Light Inf."
 msgstr ""
 
 msgctxt "desc/squad/squad_border(rus)"
-msgid "Border guards squad"
+msgid "Border Guards Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_border_early(rus)"
-msgid "Border guards squad"
+msgid "Border Guards Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_conscripts(rus)"
-msgid "Conscript rifle squad"
+msgid "Conscript Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_conscripts_con(rus)"
-msgid "Conscript Rifle squad"
+msgid "Conscript Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_conscripts_late(rus)"
-msgid "Conscript rifle squad"
+msgid "Conscript Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_guards(rus)"
@@ -158,23 +158,23 @@ msgid "Heavy Guards Inf."
 msgstr ""
 
 msgctxt "desc/squad/squad_guards_smg_con(rus)"
-msgid "Guards SMG squad (heavy)"
+msgid "Guards SMG Squad (heavy)"
 msgstr ""
 
 msgctxt "desc/squad/squad_guards_smg_heavy(rus)"
-msgid "Guards SMG squad"
+msgid "Guards SMG Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_guardsrifle(rus)"
-msgid "Guards Rifle squad"
+msgid "Guards Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_guardsrifle_con(rus)"
-msgid "Guards Rifle squad"
+msgid "Guards Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_guardsrifle_motorised_con"
-msgid "Motorized Guards Rifle squad"
+msgid "Motorized Guards Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_heavy(rus)"
@@ -182,19 +182,19 @@ msgid "Heavy Inf."
 msgstr ""
 
 msgctxt "desc/squad/squad_marines(rus)"
-msgid "Black sea Marine squad"
+msgid "Black Sea Marine Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_marines_con(rus)"
-msgid "Black sea marine squad"
+msgid "Black sea marine Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_marines_late(rus)"
-msgid "Guards Marine squad"
+msgid "Guards Marine Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_mountain_rifle_early(rus)"
-msgid "Mountain Rifle squad"
+msgid "Mountain Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_mountainrifles(rus)"
@@ -202,7 +202,7 @@ msgid "Mountain Rifles"
 msgstr ""
 
 msgctxt "desc/squad/squad_mountainrifles_con(rus)"
-msgid "Mountain Rifle squad"
+msgid "Mountain Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_nkvd(rus)"
@@ -210,7 +210,7 @@ msgid "Penal Unit"
 msgstr ""
 
 msgctxt "desc/squad/squad_officer_con(rus)"
-msgid "Command squad"
+msgid "Command Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_officer_gaz_con"
@@ -218,15 +218,15 @@ msgid "GAZ-67 (Command)"
 msgstr ""
 
 msgctxt "desc/squad/squad_paras(rus)"
-msgid "Paratrooper squad"
+msgid "Paratrooper Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_paras_con(rus)"
-msgid "Paratrooper squad"
+msgid "Paratrooper Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_paras_early(rus)"
-msgid "Paratrooper squad"
+msgid "Paratrooper Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_paratrooper(rus)"
@@ -242,7 +242,7 @@ msgid "Partisans"
 msgstr ""
 
 msgctxt "desc/squad/squad_partisan_con(rus)"
-msgid "Partisan squad"
+msgid "Partisan Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_penal(rus)"
@@ -250,71 +250,71 @@ msgid "Penal Battalion"
 msgstr ""
 
 msgctxt "desc/squad/squad_penal_con(rus)"
-msgid "Penal batallion squad"
+msgid "Penal Batallion Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon(rus)"
-msgid "Recon squad"
+msgid "Recon Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon_con(rus)"
-msgid "Recon squad"
+msgid "Recon Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon_early(rus)"
-msgid "Recon squad"
+msgid "Recon Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon_late(rus)"
-msgid "Recon squad"
+msgid "Recon Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifle_heavy_early(rus)"
-msgid "Heavy Rifle squad"
+msgid "Heavy Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifle_motorised"
-msgid "Motorised rifle squad"
+msgid "Motorised Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifle_motorised_con"
-msgid "Motorized Rifle squad"
+msgid "Motorized Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifleunit(rus)"
-msgid "Rifle squad"
+msgid "Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifleunit_42(rus)"
-msgid "Rifle squad"
+msgid "Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifleunit_44(rus)"
-msgid "Rifle squad"
+msgid "Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifleunit_alt(rus)"
-msgid "Rifle squad (No LMG)"
+msgid "Rifle Squad (No LMG)"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifleunit_alt_con(rus)"
-msgid "Rifle squad (No LMG)"
+msgid "Rifle Squad (No LMG)"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifleunit_con(rus)"
-msgid "Rifle squad"
+msgid "Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifleunit_early(rus)"
-msgid "Rifle squad"
+msgid "Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_heavy_rifleunit(rus)"
-msgid "Rifle squad w/2 DPs"
+msgid "Rifle Squad w/2 DPs"
 msgstr ""
 
 msgctxt "desc/squad/squad_assault_rifle(rus)"
-msgid "Assault Rifle squad"
+msgid "Assault Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_sappers(rus)"
@@ -342,15 +342,15 @@ msgid "Elite Guards Shock SMG Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_smg(rus)"
-msgid "Shock SMG squad"
+msgid "Shock SMG Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_smg_con(rus)"
-msgid "SMG squad"
+msgid "SMG Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_smg_heavy(rus)"
-msgid "SMG squad"
+msgid "SMG Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_spetsnaz(rus)"

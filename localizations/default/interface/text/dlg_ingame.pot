@@ -2220,6 +2220,10 @@ msgctxt "perk/mgun"
 msgid "MG"
 msgstr ""
 
+msgctxt "perk/mgun_light"
+msgid "MG (Light)"
+msgstr ""
+
 msgctxt "perk/rifle"
 msgid "Rifle"
 msgstr ""

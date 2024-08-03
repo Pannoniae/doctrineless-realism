@@ -426,7 +426,7 @@ msgid "<c(c3baae)>Transport</c>"
 msgstr ""
 
 msgctxt "desc/entity/cckw_redball"
-msgid "GMC CCKW 'Red Ball Express'"
+msgid "GMC CCKW (HMG) 'Red Ball Express'"
 msgstr ""
 
 msgctxt "info/special/cckw_redball"
@@ -450,7 +450,7 @@ msgid "<c(c3baae)>Engineering Truck</c>"
 msgstr ""
 
 msgctxt "desc/entity/cckw_engineer_late"
-msgid "GMC CCKW-352 (Engineer)"
+msgid "GMC CCKW-352 (HMG) (Engineer)"
 msgstr ""
 
 msgctxt "info/special/cckw_engineer_late"
@@ -486,7 +486,7 @@ msgid "Ford GPA"
 msgstr ""
 
 msgctxt "info/special/ford_gpa"
-msgid "<c(c3baae)>Amphibious transport</c>"
+msgid "<c(c3baae)>Amphibious Transport</c>"
 msgstr ""
 
 msgctxt "desc/entity/wc51"
@@ -1002,7 +1002,7 @@ msgid "<c(c3baae)>Self-propelled Howitzer</c>"
 msgstr ""
 
 msgctxt "desc/entity/m10_gmc"
-msgid "3-inch GMC M10"
+msgid "3-inch GMC M10 'Wolverine'"
 msgstr ""
 
 msgctxt "info/special/m10_gmc"
@@ -1010,7 +1010,7 @@ msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/m10_gmc_early"
-msgid "3-inch GMC M10"
+msgid "3-inch GMC M10 'Wolverine'"
 msgstr ""
 
 msgctxt "info/special/m10_gmc_early"
@@ -1018,7 +1018,7 @@ msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/m10_gmc_late"
-msgid "3-inch GMC M10"
+msgid "3-inch GMC M10 'Wolverine'"
 msgstr ""
 
 msgctxt "info/special/m10_gmc_late"
@@ -1081,6 +1081,14 @@ msgctxt "info/special/m18_hellcat_late"
 msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
+msgctxt "desc/entity/m18_gmc_90"
+msgid "90mm GMC M18 'Super Hellcat'"
+msgstr ""
+
+msgctxt "info/special/m18_gmc_90"
+msgid "<c(c3baae)>Tank Destroyer</c>"
+msgstr ""
+
 msgctxt "desc/entity/m20"
 msgid "M20"
 msgstr ""
@@ -1114,7 +1122,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/m36_gmc"
-msgid "90mm GMC M36"
+msgid "90mm GMC M36 'Slugger'"
 msgstr ""
 
 msgctxt "info/special/m36_gmc"
@@ -1122,7 +1130,7 @@ msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/m36_gmc_late"
-msgid "90mm GMC M36"
+msgid "90mm GMC M36 'Slugger'"
 msgstr ""
 
 msgctxt "info/special/m36_gmc_late"
@@ -1130,7 +1138,7 @@ msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/m36_gmc_t33"
-msgid "90mm GMC M36"
+msgid "90mm GMC M36 'Slugger'"
 msgstr ""
 
 msgctxt "info/special/m36_gmc_t33"

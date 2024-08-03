@@ -68,7 +68,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "88mm_kwk43" filling "bulletger_88_l71 apcbche" 1}
+			{weapon "88mm_pak43_2" filling "bulletger_88_l71 apcbche" 1}
 			{gunner "gunner gunner3" minWorkers 1}
 			{charger "charger charger2" minWorkers 1}
 			("abm_dymamic_td"

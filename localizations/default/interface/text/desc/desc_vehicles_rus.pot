@@ -782,7 +782,7 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/m41_ampulomet"
-msgid "Ampulomet M1941"
+msgid "Ampulomyot M1941"
 msgstr ""
 
 msgctxt "info/special/m41_ampulomet"

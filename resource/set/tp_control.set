@@ -15,6 +15,7 @@
 		(include "third_person/vehicle_specific_eng_tank.inc")
 		(include "third_person/vehicle_specific_usa_cannon.inc")
 		(include "third_person/vehicle_specific_usa_tank.inc")
+		(include "third_person/vehicle_specific_mace.inc")
 ;_____________________________________________________
 ;|   Unnamed units will inherit 'default' setting     |
 ;|    Which has a rudimentary generic visor slot      |
@@ -104,6 +105,7 @@
 		{"kubelwagen" inherit "vehicle small.unarmed"}
 		{"schwimmwagen" inherit "vehicle small.unarmed"}
 		{"opel_maultier" inherit "vehicle generic.unarmed"}
+		{"sdkfz7" inherit "vehicle generic.unarmed"}
 
 		{"kubelwagen_dak" inherit "vehicle vehicle.kubel.dak"}
 		{"kubelwagen_mg" inherit "vehicle vehicle.kubel"}
@@ -528,8 +530,16 @@
 
 ;=================== Fin car ===================
 
+		{"ford_3ton" inherit "vehicle generic.unarmed"}
+		{"ford_3ton_ammo" inherit "vehicle generic.unarmed"}
 		{"ford_3ton_breda" inherit "vehicle truck.flak30"}
-
+		{"ford_3ton_eng" inherit "vehicle generic.unarmed"}
+		{"ford_3ton_fuel" inherit "vehicle generic.unarmed"}
+		{"ford_v3000" inherit "vehicle generic.unarmed"}
+		{"ford_v3000_ammo" inherit "vehicle generic.unarmed"}
+		{"ford_v3000_eng" inherit "vehicle generic.unarmed"}
+		{"ford_v3000_fuel" inherit "vehicle generic.unarmed"}
+		
 ;=================== Fin btr =====================
 
 		{"ba6_fin" inherit "vehicle tank.t26"}
@@ -737,6 +747,14 @@
 		{"bt7_dt" inherit "vehicle tank.t26"}
 		{"rbt_5" inherit "vehicle tank.bt5"}
 		{"flammjagdtiger" inherit "vehicle td.jagdtiger"}
+		
+		{"tiger1p" inherit "vehicle tank.tiger2h_3_2"}
+		{"dicker_max" inherit "vehicle td.ferdinand"}
+		{"sturer_emil" inherit "vehicle td.ferdinand"}
+		{"m18_gmc_90" inherit "vehicle tank.medium_us_90_m36b1"}
+		{"waffletractor" inherit "vehicle tank.tiger2h_2"}
+		{"panther_f" inherit "vehicle tank.panther"}
+		{"t92_hmc" inherit "vehicle spa.common"}
 
 
 
