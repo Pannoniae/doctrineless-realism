@@ -5,7 +5,7 @@
 
 {from "pattern gun"			; L/50 "QF 6-pounder Mk.IV"
 	{filling "bullet_57x441"}
-	{fireSound "cannon/s2/d1/Shared/Cannon_50to57mm_HV/"}	
+	{fireSound "cannon/s2/d1/Shared/Cannon_50to57mm_HV/"}
 	{fireSoundClose "cannon/s2/3p/Shared/Cannon_50to57mm_HV/"}
 	{reloadSound "utility/"}
 	("range_190")

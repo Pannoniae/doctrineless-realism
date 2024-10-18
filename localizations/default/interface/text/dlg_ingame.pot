@@ -2508,3 +2508,15 @@ msgstr ""
 msgctxt "actionbar/suppression_fire/usage"
 msgid "Unleash intense firepower at the overall vicinity of a designated target or location for 60 seconds."
 msgstr ""
+
+msgctxt "actionbar/mortar_pit"
+msgid "Place mortar trench"
+msgstr ""
+
+msgctxt "actionbar/mortar_pit/usage"
+msgid "After clicking this button, click and drag on the map to define the position for building a mortar trench."
+msgstr ""
+
+msgctxt "actionbar/mortar_pit/action"
+msgid "Place mortar trench"
+msgstr ""

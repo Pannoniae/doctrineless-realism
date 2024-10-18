@@ -22,11 +22,11 @@
 	}
 	{Automatic}
 	("accuracy_rifle_auto")
-	{LockFireDistanceTime 0.5}
-	("human health" damage(70))
-	("fire rate" rpm(150))
+	{LockFireDistanceTime 0.1}
+	("human health" damage(100))
+	("fire rate" rpm(240))
 	;("zeroing_boost")
-	{FiringTimeout 2.00 0.5}
+	{FiringTimeout 0.80 0.2}
 	{curve "autorifle"}
 	("recoil_rifle_semi")
 	("ap_7_62_slope_multiplier")
@@ -47,10 +47,10 @@
 
 	{Automatic}
 	("accuracy_rifle_auto")
-	{LockFireDistanceTime 0.5}
-	("human health" damage(70))
+	{LockFireDistanceTime 0.1}
+	("human health" damage(100))
 	{SyncedProjectiles 0}		;// not for automatic weapons
-	{FiringTimeout 2 0.5}
+	{FiringTimeout 0.8 0.5}
 	{curve "autorifle"}
 	("recoil_rifle_semi")
 	("ap_7_62_slope_multiplier")
@@ -91,9 +91,9 @@
 	{Automatic}
 	("accuracy_assault_rifle")
 	{LockFireDistanceTime 0.5}
-	("human health" damage(65))
+	("human health" damage(80))
 	{SyncedProjectiles 0}		;// not for automatic weapons
-	{FiringTimeout 1.5 0.25}
+	{FiringTimeout 1.0 0.25}
 	{burst
 		{short 1.5 0.5}		; burst shots on long distance, rand (+-)shots
 		{long 5 2}			; burst shots on short distance, rand (+-)shots
@@ -128,7 +128,7 @@
 	{range 120 120}
 	{Automatic}
 	{tag "bolt_action rifle_shell"}
-	("human health" damage(70))
+	("human health" damage(100))
 	("fire rate" rpm(40)) 
 	{states
 		{reload		"reload"}
@@ -145,6 +145,9 @@
 		{rangeKoef 0.2}	; rangeKoef * aimRange = max long burst distance
 	}
 	{AccuracyByMotionK 1.2}
+	{spreading
+		{SpreadPower 1.2}
+	}
 )
 
 (define "zeroing_boost"

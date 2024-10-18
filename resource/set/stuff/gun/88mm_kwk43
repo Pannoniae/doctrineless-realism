@@ -14,8 +14,8 @@
 	("reload time" seconds(10))
 
 	("velocity m/s" ap(1000) apcr(1130) he(750) heat(600))
-	("armor health" damage(240))
-	("armor health custom" shell(apcbche) damage(240) filler(102))
+	("armor health" damage(280))
+	("armor health custom" shell(apcbche) damage(280) filler(102))
 	("88_ger_slope_multipliers")
 
 	; Pzgr.39

@@ -198,7 +198,7 @@ msgid "<c(B29557)>( I )</c> Aufklärungspanzer 38(t)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_bf109_early"
-msgid "<c(B29557)>( II )</c> Bf-109 50kg Bomb"
+msgid "<c(B29557)>( I )</c> Bf-109 50kg Bomb"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_bf110_early"
@@ -222,7 +222,7 @@ msgid "<c(B29557)>( III )</c> Sturmpanzer I"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_bison_mid"
-msgid "<c(B29557)>( II )</c> Bison I"
+msgid "<c(B29557)>( II )</c> Sturmpanzer I"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_blitz3_6_flak30"
@@ -355,6 +355,10 @@ msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer4j"
 msgid "<c(B29557)>( II )</c> Panzer IV Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_panzer5d"
+msgid "<c(B29557)>( III )</c> Pz.Kpfw V Ausf.D"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_panzer5g"
@@ -506,15 +510,15 @@ msgid "<c(B29557)>( II )</c> Blau Division"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_brandenburger_early(ger)"
-msgid "<c(B29557)>( I )</c> Brandenburger Commandos"
+msgid "<c(B29557)>( II )</c> Brandenburger Commandos"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_brandenburger_late(ger)"
-msgid "<c(B29557)>( I )</c> Brandenburger Commandos"
+msgid "<c(B29557)>( II )</c> Brandenburger Commandos"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_brandenburger_mid(ger)"
-msgid "<c(B29557)>( I )</c> Brandenburger Commandos"
+msgid "<c(B29557)>( II )</c> Brandenburger Commandos"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_fallsch_early(ger)"

@@ -13,12 +13,12 @@
 
 	("reload_belt")
 
-	{projectileDamageTable {20 26} {100 16} {165 10} {215 5} {250 3}} ;// B-30 AP
+	{projectileDamageTable {20 29} {100 22.4} {165 15} {215 10.5} {250 8}} ;// B-30 AP
 
 	{parameters "api"
 		("armor health" damage(15))
-		("human health" damage(250))
-		{projectileDamageTable {20 24} {100 14.5} {165 9} {215 4.5} {250 2.75}} ;// B-32 API
+		("human health" damage(200))
+		{projectileDamageTable {20 29} {100 22.4} {165 15} {215 10.5} {250 8}} ;// B-32 API
 	}
 
 	("burst_aa")

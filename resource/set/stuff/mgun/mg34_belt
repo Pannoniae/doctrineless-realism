@@ -15,6 +15,6 @@
 	("ger_ap_bullets")
 
 	("burst_medium")
-	("spreading_low")
+	("spreading_mg42")
 	{traceFreq 1}
 }

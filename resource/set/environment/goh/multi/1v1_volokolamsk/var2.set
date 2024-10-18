@@ -1,6 +1,6 @@
 {environment
 	{light
-		{direction 0.645 0.653 -0.394}
+		{direction 0.574 0.598 -0.558}
 		{ambient 0xff323241}
 		{diffuse 0xff898470}
 		{lightsIntensity 0.1}
@@ -8,10 +8,9 @@
 		{sun_moon_radius 1}
 		{night_vision 1}
 		{color_correction
-			{saturation 1.5}
-			{brightness 0.95}
+			{brightness 0.85}
 			{tone 0xff000048}
-			{tone_strength 0}
+			{tone_strength 0.25}
 			{color_shading
 				{shade_tone 0xff4b4b4b}
 				{intensity 0}
@@ -63,7 +62,7 @@
 	{sky
 		{enable}
 		{texture "/texture/common/environment/environment_day_07"}
-		{globalEnvironment "/texture/common/environment/envmap_day_02"}
+		{globalEnvironment "/texture/common/environment/env03a_day"}
 		{color 0xffede5ff}
 		{intensity 1}
 		{azimuth 110}
@@ -203,8 +202,8 @@
 	}
 	{dof
 		{enable}
-		{near_scale 1}
-		{far_scale 1}
+		{near_scale 2.0}
+		{far_scale 0.75}
 		{near_start 50}
 		{near_end 75}
 		{far_start 2000}
@@ -212,15 +211,15 @@
 		{"3rd_Person"
 			{"3rdP_blur_strength" 3}
 		}
-		{blur_strength 3}
+		{blur_strength 5}
 		{"Scenario Settings"
 			{near_scale 2.5}
 			{far_scale 0.75}
 			{near_start 50}
-			{near_end 150}
+			{near_end 100}
 			{far_start 1000}
 			{far_end 3500}
-			{blur_strength 3}
+			{blur_strength 5}
 		}
 	}
 	{glow

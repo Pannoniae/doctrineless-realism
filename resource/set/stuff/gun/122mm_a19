@@ -14,7 +14,7 @@
 
 	("reload time" seconds(25))
 
-	("velocity m/s" ap(795) apcr(1) he(224) heat(1))
+	("velocity m/s" ap(795) apcr(1) he(400) heat(1))
 	("armor health" damage(320))
 	("armor health custom" shell(aphe) damage(320) filler(211))
 	("armor health custom" shell(aphebc) damage(320) filler(211))

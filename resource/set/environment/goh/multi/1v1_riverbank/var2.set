@@ -7,11 +7,11 @@
 		{draw_sun_moon}
 		{sun_moon_radius 1}
 		{color_correction
-			{saturation 1.5}
-			
+			{saturation 1.4}
 			{tone 0xff424a54}
-			{tone_strength 0}
+			{tone_strength 0.3}
 			{color_shading
+				{enable}
 				{shade_tone 0xffffe794}
 				{intensity 0.2}
 			}
@@ -194,8 +194,8 @@
 	}
 	{dof
 		{enable}
-		{near_scale 1}
-		{far_scale 1}
+		{near_scale 2.0}
+		{far_scale 0.75}
 		{near_start 50}
 		{near_end 75}
 		{far_start 2000}
@@ -203,15 +203,15 @@
 		{"3rd_Person"
 			{"3rdP_blur_strength" 1}
 		}
-		{blur_strength 3}
+		{blur_strength 5}
 		{"Scenario Settings"
 			{near_scale 2.5}
 			{far_scale 0.75}
 			{near_start 50}
-			{near_end 150}
+			{near_end 100}
 			{far_start 1000}
 			{far_end 3500}
-			{blur_strength 3}
+			{blur_strength 5}
 		}
 	}
 	{glow
@@ -220,3 +220,4 @@
 		{threshold 1.1}
 	}
 }
+

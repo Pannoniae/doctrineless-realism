@@ -29,4 +29,14 @@
 		range_heat(190) 		; // Range after which accuracy drops to prevent farshooting.
 		range_he(280)			; // Range after which accuracy drops to prevent farshooting.
 	)
+	
+	{parameters "he2" ;// stielgranate 42
+		("reload time" seconds(30))
+		{speed 100}
+		{gravity 3}
+		{range 150 150}
+		{spreading
+			{radiusTable {0 0} {50 5} {100 10} {150 15} {155 50}}
+		}
+	}
 }

@@ -9,10 +9,11 @@
 
 	("fire rate" rpm(1800))
 	("velocity" mps(740))
+	("reload time" seconds(5.6))
 
 	("ger_ap_bullets")
 
 	("burst_long")
-	("spreading_low")
+	("spreading_mg42")
 	{traceFreq 1}
 }

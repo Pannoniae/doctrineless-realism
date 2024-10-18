@@ -19,10 +19,10 @@
 	("76_rus_slope_multipliers")
 
 	; BR-350A
-	("penetration_medium" shell(aphebc) range(190) a(76) b(67) c(58) d(53) e(49))
+	("penetration_medium" shell(aphebc) range(190) a(86) b(81) c(73) d(66) e(59))
 
 	; BR-350B
-	("penetration_medium" shell(aphebc2) range(190) a(83) b(75) c(66) d(60) e(55))
+	("penetration_medium" shell(aphebc2) range(190) a(90) b(84) c(75) d(67) e(60))
 
 	; BR-350P
 	("penetration_medium" shell(apcr) range(190) a(132) b(94) c(62) d(41) e(27))

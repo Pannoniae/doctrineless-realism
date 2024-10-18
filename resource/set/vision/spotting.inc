@@ -6,7 +6,7 @@
 ; // These preset values are multiplied by radius values in generic defines section to calculate in-game settings. 
 ; // Additionally, there is a global radius modifier on vision.set for a global vision reduction or augmentation. At the moment the radius modifier is 1.
 
-(define "firing"				;// Shooting specific weapons. These weappons/terms must be defined in vision/settings.set before use here. 
+(define "firing"				;// Shooting specific weapons. These weapons/terms must be defined in vision/settings.set before use here. 
 	{firing_welrod 0}
 	{firing_delisle 0}
 	{firing_silencer_m 0}
@@ -188,7 +188,7 @@
 (define "spot_ship"				;// This section defines the distances at which different types of ships are spotted under various conditions.
 
 	;// Small vessel
-	{marine_01 (+ 100 (/ 50 %r));// distance at which it will be spotted when moving, 50m past visor range.
+	{marine_01 (+ 100 (/ 0 %r)) ;// distance at which it will be spotted when moving, 0m past visor range.
 		{firing (/ 200 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 100}			;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 100}				;// unit still / not moving
@@ -202,7 +202,7 @@
 	}
 
 	;// Marine Medium
-	{marine_03 (+ 100 (/ 200 %r));// distance at which it will be spotted when moving, 200m past visor range.
+	{marine_03 (+ 100 (/ 100 %r));// distance at which it will be spotted when moving, 200m past visor range.
 		{firing (/ 250 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 200}			;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 200}				;// unit still / not moving
@@ -216,7 +216,7 @@
 	}
 
 	;// Marine Max
-	{marine_05 (+ 100 (/ 200 %r));// distance at which it will be spotted when moving, 200m past visor range.
+	{marine_05 (+ 100 (/ 300 %r));// distance at which it will be spotted when moving, 200m past visor range.
 		{firing (/ 350 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 300}			;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 300}				;// unit still / not moving

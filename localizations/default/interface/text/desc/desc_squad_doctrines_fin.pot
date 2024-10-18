@@ -186,7 +186,7 @@ msgid "<c(B29557)>( III )</c> 150 H/40"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_150mm_sw34_early"
-msgid "<c(B29557)>( I )</c> Searchlight"
+msgid "<c(B29557)>( II )</c> Searchlight"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_150mm_sw34_late"
@@ -254,11 +254,15 @@ msgid "<c(B29557)>( III )</c> Blenheim Mk.1 250kg Bomb"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_blenheim_small_early"
-msgid "<c(B29557)>( II )</c> Blenheim Mk.1 50kg Bomb"
+msgid "<c(B29557)>( I )</c> Blenheim Mk.1 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/doctrine_blenheim_small_mid"
+msgid "<c(B29557)>( I )</c> Blenheim Mk.1 50kg Bomb"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_blenheim_small_late"
-msgid "<c(B29557)>( II )</c> Blenheim Mk.1 50kg Bomb"
+msgid "<c(B29557)>( I )</c> Blenheim Mk.1 50kg Bomb"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_bt42"
@@ -302,7 +306,7 @@ msgid "<c(B29557)>( II )</c> Kv-1 E"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_l62"
-msgid "<c(B29557)>( II )</c> Landwerk L-62 Anti II"
+msgid "<c(B29557)>( I )</c> Landwerk L-62 Anti II"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_l62_late"
@@ -318,7 +322,7 @@ msgid "<c(B29557)>( II )</c> Motorised Jäger"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_ot130_early"
-msgid "<c(B29557)>( II )</c> KhT-130 flamethrower"
+msgid "<c(B29557)>( I )</c> KhT-130 flamethrower"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_ot130_mid"
@@ -386,15 +390,15 @@ msgid "<c(B29557)>( II )</c> Artillery Signaller"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_sissi_early(fin)"
-msgid "<c(B29557)>( I )</c> Sissi Commandos"
+msgid "<c(B29557)>( II )</c> Sissi Commandos"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_sissi_late(fin)"
-msgid "<c(B29557)>( I )</c> Sissi Commandos"
+msgid "<c(B29557)>( II )</c> Sissi Commandos"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_sissi_mid(fin)"
-msgid "<c(B29557)>( I )</c> Sissi Commandos"
+msgid "<c(B29557)>( II )</c> Sissi Commandos"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_stug3g_fin"

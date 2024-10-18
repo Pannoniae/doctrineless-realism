@@ -2,6 +2,7 @@
 	{filling "mgun_usa" 250}
 	{entity "browning_m19a4"}
 	{fireSound "smallarms/s3/d1/USA/M1919A4/"}
+	{fireSoundclose "smallarms/s3/int/USA/M1919A4/"}
 	{reloadSound "dt"}
 	{calibre 7.62}
 	{mass 14}

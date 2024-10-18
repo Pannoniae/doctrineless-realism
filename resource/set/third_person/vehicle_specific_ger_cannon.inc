@@ -159,6 +159,90 @@
 	}
 }
 
+{"truck.flakvierling"
+	{clip
+		{viewMin		-15	}	; camera rotate upward limit (looking down)
+		{viewMax		85	}	; camera rotate downward limit (looking up)
+		{distanceMin	110	}	; camera min distance from object. value / 20 = meters
+		{distanceMax	300	}	; camera max distance from object. value / 20 = meters
+	}
+	{level ;0
+		{linkBone "turret"}
+		{faroffset 0 8 50}
+		{nearoffset -30 8 40}
+		{camera "zoom1"}
+		;{hide_hitmarker 1}
+		{blur_strength 2}
+		{disable_fow 0}
+		{no_grain}
+	}
+	{level ;1
+		{zoom}
+		{vision_modes_active}
+		{linkBone "visor"}
+		;{linkBone "camera"}
+		{scope_vignette "/texture/common/environment/lens_effects/vehicle_telescope_ger_20mm"}
+		{blur_mask "/texture/common/environment/lens_effects/vehicle_telescope_mask"}
+		{refraction_mask "/texture/common/environment/lens_effects/vehicle_telescope_base_bp"}
+		{lens_dirt_mask "/texture/common/environment/lens_effects/dirty_lens_scope_02"}
+		{distance 18}
+		{distanceSet 0}
+		{delta 0}
+		;{offset 10 -4 4}
+		{offset 10 0 0}
+		{camera "zoom1.5"}
+		{ManualAccuracyZoom}
+		{blur_strength 5}
+		{disable_fow 0}
+		{no_rim_light}
+		{soundEffect "opentop_vehicle"}
+	}
+	{level ;2
+		{camera "zoom3"}
+	}
+}
+
+{"atgun.flakvierling"
+	{clip
+		{viewMin		-15	}	; camera rotate upward limit (looking down)
+		{viewMax		85	}	; camera rotate downward limit (looking up)
+		{distanceMin	55	}	; camera min distance from object. value / 20 = meters
+		{distanceMax	150	}	; camera max distance from object. value / 20 = meters
+	}
+	{level ;0
+		{linkBone "basis"}
+		{faroffset 0 8 50}
+		{nearoffset -30 8 40}
+		{camera "zoom1"}
+		;{hide_hitmarker 1}
+		{blur_strength 2}
+		{disable_fow 0}
+		{no_grain}
+	}
+	{level ;1
+		{zoom}
+		{vision_modes_active}
+		{linkBone "visor"}
+		{scope_vignette "/texture/common/environment/lens_effects/vehicle_telescope_ger_20mm"}
+		{blur_mask "/texture/common/environment/lens_effects/vehicle_telescope_mask"}
+		{refraction_mask "/texture/common/environment/lens_effects/vehicle_telescope_base_bp"}
+		{lens_dirt_mask "/texture/common/environment/lens_effects/dirty_lens_scope_02"}
+		{distance 18}
+		{distanceSet 0}
+		{delta 0}
+		{offset 10 0 0}
+		{camera "zoom1.5"}
+		{ManualAccuracyZoom}
+		{blur_strength 5}
+		{disable_fow 0}
+		{no_rim_light}
+		{soundEffect "opentop_vehicle"}
+	}
+	{level ;2
+		{camera "zoom3"}
+	}
+}
+
 {"truck.flak37"
 	{clip
 		{viewMin		-15	}	; camera rotate upward limit (looking down)

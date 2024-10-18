@@ -16,6 +16,8 @@
 		(include "third_person/vehicle_specific_usa_cannon.inc")
 		(include "third_person/vehicle_specific_usa_tank.inc")
 		(include "third_person/vehicle_specific_mace.inc")
+		(include "third_person/vehicle_specific_marine.inc")
+
 ;_____________________________________________________
 ;|   Unnamed units will inherit 'default' setting     |
 ;|    Which has a rudimentary generic visor slot      |
@@ -26,6 +28,16 @@
 		{"citroen_7_civ" inherit "vehicle small.unarmed"}
 		{"renault_agr_civ" inherit "vehicle generic.unarmed"}
 		{"ford_b3000" inherit "vehicle generic.unarmed"}
+
+;_____________________________________________________
+;|                   Marine units                     |
+;|____________________________________________________|
+
+		{"lca" inherit "vehicle marine.lca"}
+		{"lca_grh" inherit "vehicle marine.lca"}
+		{"goatley_boat" inherit "vehicle marine.goatley"}
+
+
 ;_____________________________________________________
 ;|                   German units                     |
 ;|____________________________________________________|
@@ -39,6 +51,7 @@
 
 		{"20mm_flak30" inherit "vehicle atgun.flak30"}
 		{"20mm_flak38" inherit "vehicle atgun.flak38"}
+		{"20mm_flakvierling38" inherit "vehicle atgun.flakvierling"}
 
 		{"37mm_flak37" inherit "vehicle atgun.flak37"}
 
@@ -74,6 +87,7 @@
 
 		{"105mm_lefh18" inherit "vehicle artillery.common"}
 		{"105mm_lefh18m" inherit "vehicle artillery.common"}
+		{"105mm_lefh18_40" inherit "vehicle artillery.common"}
 		{"105mm_sk18" inherit "vehicle artillery.common"}
 		{"150mm_nebelwerfer41" inherit "vehicle artillery.common"}
 
@@ -83,6 +97,7 @@
 		{"155mm_gpf_ger" inherit "vehicle artillery.common"}
 		{"170mm_k18" inherit "vehicle artillery.common"}
 		{"210mm_morser18" inherit "vehicle artillery.common"}
+		{"210mm_k39" inherit "vehicle artillery.common"}
 		{"210mm_nebelwerfer42" inherit "vehicle artillery.common"}
 		{"300mm_nebelwerfer42" inherit "vehicle artillery.common"}
 		{"600mm_thor" inherit "vehicle artillery.common"}
@@ -92,9 +107,11 @@
 		{"infantry_cart_if8" inherit "vehicle medium_mg.common"}
 
 ;=================== Ger car ===================
+
 		{"m42_truppenfahrrad" inherit "vehicle generic.bicycle"}
 		{"bmw_r71" inherit "vehicle generic.moto"}
 
+		{"citroen_7_ger" inherit "vehicle small.unarmed"}
 		{"blitz3_6" inherit "vehicle generic.unarmed"}
 		{"blitz3_6_art_ammo" inherit "vehicle generic.unarmed"}
 		{"blitz3_6_engineering" inherit "vehicle generic.unarmed"}
@@ -123,6 +140,7 @@
 
 		{"sdkfz6_cargo" inherit "vehicle generic.unarmed"}
 		{"sdkfz6_2" inherit "vehicle truck.flak37"}
+		{"sdkfz7_1" inherit "vehicle truck.flakvierling"}
 		{"sdkfz7_2" inherit "vehicle truck.flak37"}
 		{"sdkfz8_flak18" inherit "vehicle atgun.flak18.mounted"}
 
@@ -468,10 +486,13 @@
 
 ;=================== Eng btr ===================
 
-
 		{"mmg_carrier_rus" inherit "vehicle vehicle.mmg_carrier"}
 		{"universal_carrier_rus" inherit "vehicle vehicle.universal_carrier"}
+		{"universal_carrier_mk2" inherit "vehicle vehicle.universal_carrier"}
 
+;=================== Eng car ===================
+
+		{"bedford_oyd" inherit "vehicle generic.unarmed"}
 
 ;=================== Eng tank ===================
 
@@ -479,6 +500,9 @@
 		{"valentine7" inherit "vehicle tank.valentinemk2"}
 
 		{"valentine9" inherit "vehicle tank.valentinemk9"}
+
+		{"sherman3_late" inherit "vehicle tank.sherman3"}
+		{"sherman5c" inherit "vehicle tank.sherman_c"}
 
 		{"churchill3" inherit "vehicle tank.churchill3"}
 
@@ -728,6 +752,7 @@
 
 		{"p47_d22_recon" inherit "vehicle aircraft.common"}
 		{"p47_d22" inherit "vehicle aircraft.common"}
+		{"c47_d" inherit "vehicle aircraft.common"}
 ;_____________________________________________________
 ;|                   BK units                     |
 ;|____________________________________________________|

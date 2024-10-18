@@ -12,6 +12,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+msgctxt "desc/squad/squad_101st_pathfinder_late_all(usa)"
+msgid "101st AB Pathfinder Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_pathfinder_late_def(usa)"
+msgid "101st AB Pathfinder Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_pathfinder_late_irr(usa)"
+msgid "82nd AB Pathfinder Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_pathfinder_late_off(usa)"
+msgid "82nd AB Pathfinder Team"
+msgstr ""
+
 msgctxt "desc/squad/conquest_p47"
 msgid "P47 500lb Bomb"
 msgstr ""

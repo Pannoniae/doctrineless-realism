@@ -216,7 +216,7 @@
 				{VolumeView "turret.ply"}
 				{bone revolute "gun_rot"
 					{parameters "ID=gun;"}
-					{limits 0 10}
+					{limits -7 10}
 					{Matrix34
 						1	0	0
 						0	0.00376744	0.999993

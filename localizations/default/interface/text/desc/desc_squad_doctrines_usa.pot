@@ -91,7 +91,7 @@ msgstr ""
 
 
 msgctxt "desc/squad/doctrine_squad_1st_special_mid(usa)"
-msgid "<c(B29557)>( I )</c> 1st Special Combat Section"
+msgid "<c(B29557)>( II )</c> 1st Special Combat Section"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_m6_gmc_mid"
@@ -103,7 +103,7 @@ msgid "<c(B29557)>( I )</c> 75mm M8 Pack Howitzer"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_p47_250_mid"
-msgid "<c(B29557)>( II )</c> P47 250lb Bomb"
+msgid "<c(B29557)>( I )</c> P47 250lb Bomb"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_m10_gmc_mid"
@@ -245,7 +245,7 @@ msgstr ""
 
 
 msgctxt "desc/squad/doctrine_squad_1st_special_late(usa)"
-msgid "<c(B29557)>( I )</c> 1st Special Combat Section"
+msgid "<c(B29557)>( II )</c> 1st Special Combat Section"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_75mm_m1a1_late"
@@ -257,7 +257,7 @@ msgid "<c(B29557)>( I )</c> 2x CCKW 'Redball' Ammo Trucks"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_p47_250_late"
-msgid "<c(B29557)>( II )</c> P47 250lb Bomb"
+msgid "<c(B29557)>( I )</c> P47 250lb Bomb"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_105mm_m3_late"

@@ -19,17 +19,17 @@
 	{traceFreq 3}
 	{Automatic}
 
-	("reload time" seconds(4.5))
+	("reload time" seconds(3.5))
 
 	{spreading
 		{BurstAccuracy 100 95 90 85 80 75 70 65 60}
 		{SpreadXYRatio	1.5}
 	}
-	{FiringTimeout 1.25 0.25}
+	{FiringTimeout 0.80 0.2}
 
-	("human health" damage(55))
+	("human health" damage(60))
 	("penetration" args 4)
-	("armor health" damage(2))
+	("armor health" damage(3))
 
 	("accuracy_smg")
 	("ap_slope_multiplier")

@@ -8,5 +8,5 @@
 	{fireSoundclose "cannon/s2/1p/Shared/"}
 	{reloadSound "tank/1p/large/"}
 
-	("reload time" seconds(15))
+	("reload time" seconds(12))
 }

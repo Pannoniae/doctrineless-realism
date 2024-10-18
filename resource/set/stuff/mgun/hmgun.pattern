@@ -28,12 +28,12 @@
 		{SpreadXYRatio 1.2}
 	}
 
-	("reload time" seconds(5))
+	("reload time" seconds(4))
 
 	;//{aimingTolerance 2}
 
 	("armor health" damage(13))
-	("human health" damage(300))
+	("human health" damage(200))
 
 	("accuracy_hmg")
 

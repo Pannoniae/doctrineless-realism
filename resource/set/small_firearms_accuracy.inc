@@ -49,7 +49,7 @@
 		("rifle_range"	r0(0.3) r1(0.6) r2(1.25) r3(2.00) globalaccuracy(1.00))
 	)
 	(define "accuracy_shotgun"
-		("rifle_range"	r0(0.2) r1(1.4) r2(0.9) r3(1.25) globalaccuracy(1.00))
+		("rifle_range"	r0(0.1) r1(0.3) r2(1.0) r3(1.25) globalaccuracy(1.00))
 	)
 	(define "accuracy_rifle_at"
 		("rifle_range"	r0(0.4) r1(0.8) r2(1.2) r3(1.50) globalaccuracy(1.00))
@@ -99,7 +99,7 @@
 	)
 	(define "mg_range"
 		{spreading
-			{radiusTable {0 0.02} {40 (* %globalaccuracy %r1)} {80 (* %globalaccuracy %r2)} {110 (* %globalaccuracy %r3)} {130 (* %globalaccuracy %r3)} {180 5}}
+			{radiusTable {0 0.04} {40 (* %globalaccuracy %r1)} {80 (* %globalaccuracy %r2)} {110 (* %globalaccuracy %r3)} {130 (* %globalaccuracy %r3)} {180 5}}
 		}
 	)
 	(define "hmg_range"

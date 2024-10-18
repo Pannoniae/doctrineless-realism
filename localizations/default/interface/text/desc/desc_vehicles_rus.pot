@@ -933,6 +933,14 @@ msgctxt "info/special/su152"
 msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
+msgctxt "desc/entity/su152_late"
+msgid "SU-152"
+msgstr ""
+
+msgctxt "info/special/su152_late"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
 msgctxt "desc/entity/t20"
 msgid "T-20"
 msgstr ""

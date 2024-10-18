@@ -2284,7 +2284,7 @@ msgid "Easy"
 msgstr ""
 
 msgctxt "version_short_string"
-msgid "Call to Arms - Gates of Hell - version %1% - Into the Fire 0.2.16"
+msgid "Call to Arms - Gates of Hell - version %1% - Into the Fire 0.3.0"
 msgstr ""
 
 msgctxt "options/keys/interface/toggle_equipment"
@@ -4752,7 +4752,7 @@ msgid "Your latest singleplayer progress will be loaded"
 msgstr ""
 
 msgctxt "main_menu2/singleplayer/select_mission"
-msgid "SELECT MISSION"
+msgid "SELECT CAMPAIGN"
 msgstr ""
 
 msgctxt "fail_minimum_reqirements"
@@ -5116,7 +5116,7 @@ msgid "<x.>Games played"
 msgstr ""
 
 msgctxt "button/single_campaigns"
-msgid "Select mission"
+msgid "Select campaign"
 msgstr ""
 
 msgctxt "user_statistics/leaderboards2/column/winrate"
@@ -6232,4 +6232,44 @@ msgstr ""
 
 msgctxt "main_menu2/library/ammo_param_wp"
 msgid "White Phosphorus (WP)"
+msgstr ""
+
+msgctxt "options/workshop/tag/fx"
+msgid "FX"
+msgstr ""
+
+msgctxt "options/workshop/tag/gamemode"
+msgid "Gamemode"
+msgstr ""
+
+msgctxt "options/workshop/tag/interface"
+msgid "Interface"
+msgstr ""
+
+msgctxt "options/workshop/tag/sound"
+msgid "Sound"
+msgstr ""
+
+msgctxt "options/workshop/tag/mp map"
+msgid "MP Map"
+msgstr ""
+
+msgctxt "options/workshop/tag/sp map"
+msgid "SP Map"
+msgstr ""
+
+msgctxt "options/workshop/tag/unit set"
+msgid "Unit Set"
+msgstr ""
+
+msgctxt "options/workshop/tag/mp compatible"
+msgid "MP Compatible"
+msgstr ""
+
+msgctxt "options/workshop/tag/total conversion"
+msgid "Total Conversion"
+msgstr ""
+
+msgctxt "main_menu2/singleplayer/select_campaign_army"
+msgid "Browse singleplayer campaigns by faction"
 msgstr ""

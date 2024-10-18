@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/tank_assaultgun.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.1))
-	{props "spg" "light" "-turret" "multi_board" "vision_lev03" "muzzle_85mm_93mm_sides" "shell_eject" "open_top" "detect_spg" "artillery_minimap_medium"}
+	{props "spg" "light" "-turret" "multi_board" "vision_lev03" "muzzle_85mm_93mm_sides" "shell_eject" "open_top" "detect_artillery" "artillery_minimap_medium" "ammo_open_top"}
 	{extension "wespe.mdl"}
 	(include "wespe.ext")
 	{patherId "panzer38"}

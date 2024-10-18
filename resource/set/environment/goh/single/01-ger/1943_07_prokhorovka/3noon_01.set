@@ -8,7 +8,6 @@
 		{sun_moon_radius 1}
 		{night_vision 0}
 		{color_correction
-			{saturation 1.5}
 			{tone 0xff363636}
 			{tone_strength 0}
 			{color_shading
@@ -199,21 +198,21 @@
 		{near_scale 2.5}
 		{far_scale 0.75}
 		{near_start 50}
-		{near_end 150}
+		{near_end 100}
 		{far_start 1000}
 		{far_end 3500}
 		{"3rd_Person"
 			{"3rdP_blur_strength" 1}
 		}
-		{blur_strength 3}
+		{blur_strength 5}
 		{"Scenario Settings"
 			{near_scale 2.5}
 			{far_scale 0.75}
 			{near_start 50}
-			{near_end 150}
+			{near_end 100}
 			{far_start 1000}
 			{far_end 3500}
-			{blur_strength 3}
+			{blur_strength 5}
 		}
 	}
 	{glow

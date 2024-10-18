@@ -18,7 +18,7 @@
 	("armor health custom" shell(apcbche) damage(200) filler(29))
 	("75_ger_slope_multipliers")
 
-	("penetration_medium" shell(apcbche) range(200) a(133) b(121) c(107) d(95) e(85))	; Pzgr.39
+	("penetration_medium" shell(apcbche) range(200) a(133) b(121) c(110) d(98) e(89))	; Pzgr.39
 	("penetration_medium" shell(apcr) range(200) a(173) b(151) c(127) d(108) e(91))		; Pzgr.40
 
 	; Gr.38 Hl

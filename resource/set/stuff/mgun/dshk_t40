@@ -6,5 +6,8 @@
 
 	("accuracy_hmg_tank")
 	("spreading_mounted_low")
+	{spreading
+		{SpreadPower 1.5}
+	}
 	{traceFreq 1}
 }

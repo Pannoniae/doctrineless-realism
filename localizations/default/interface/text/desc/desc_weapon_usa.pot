@@ -391,3 +391,7 @@ msgstr ""
 msgctxt "desc/weapon/240mm_m1"
 msgid "240mm Howitzer M1 L/35"
 msgstr ""
+
+msgctxt "desc/weapon/40mm_m19"
+msgid "40mm Dual Automatic Gun M2"
+msgstr ""

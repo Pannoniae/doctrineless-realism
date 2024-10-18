@@ -11,11 +11,11 @@
 	("range_230")
 	{calibre 90}
 
-	("reload time" seconds(8))
+	("reload time" seconds(7))
 
 	("velocity m/s" ap(823) apcr(1018) he(823) heat(1))
-	("armor health" damage(240))
-	("armor health custom" shell(apcbche) damage(240) filler(133))
+	("armor health" damage(260))
+	("armor health custom" shell(apcbche) damage(260) filler(133))
 	{parameters "apbc"
 		("apbc_90_t33_slope_multiplier")
 	}
@@ -37,7 +37,7 @@
 	}
 
 	; HVAP T30E16
-	("penetration_long" shell(hvap) range(230) a(306) b(278) c(246) d(218) e(193))
+	("penetration_long" shell(hvap) range(230) a(296) b(283) c(262) d(242) e(224))
 
 
 	("accuracy_direct" r1(0.65) range_ap(230) range_he(220) range_heat(220))

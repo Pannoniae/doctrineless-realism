@@ -45,6 +45,10 @@ msgctxt "desc/squad/fin_captured_v_t37a"
 msgid "Captured Vehicles"
 msgstr ""
 
+msgctxt "desc/squad/fin_captured_v_t3476_mid"
+msgid "Captured Vehicles"
+msgstr ""
+
 msgctxt "desc/squad/fin_captured_v_t3476"
 msgid "Captured Vehicles"
 msgstr ""
@@ -282,8 +286,19 @@ msgid "Sissi Commandos"
 msgstr ""
 
 
-# ????
-
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 msgctxt "desc/squad/single_rifle(fin)"
 msgid "Rifleman"

@@ -1,17 +1,16 @@
 {environment
 	{light
-		{direction 0.866 -0.007 -0.499}
-		{ambient 0xff50504f}
-		{diffuse 0xffc58354}
+		{direction 0.74 -0.007 -0.672}
+		{ambient 0xff393938}
+		{diffuse 0xffa06a44}
 		{lightsIntensity 0.1}
 		{draw_sun_moon}
 		{sun_moon_radius 1}
 		{night_vision 1}
 		{color_correction
-			{saturation 1.5}
-			
+			{saturation 1.4}
 			{tone 0xff1e0700}
-			{tone_strength 0}
+			{tone_strength 0.2}
 			{color_shading
 				{shade_tone 0xfffe9500}
 				{intensity 0.1}
@@ -203,24 +202,24 @@
 	}
 	{dof
 		{enable}
-		{near_scale 0.1}
-		{far_scale 0.5}
-		{near_start 100}
-		{near_end 3000}
+		{near_scale 2}
+		{far_scale 0.75}
+		{near_start 50}
+		{near_end 100}
 		{far_start 3000}
 		{far_end 6000}
 		{"3rd_Person"
 			{"3rdP_blur_strength" 3}
 		}
-		{blur_strength 3}
+		{blur_strength 5}
 		{"Scenario Settings"
 			{near_scale 2.5}
 			{far_scale 0.75}
 			{near_start 50}
 			{near_end 150}
-			{far_start 1000}
+			{far_start 2000}
 			{far_end 3500}
-			{blur_strength 3}
+			{blur_strength 5}
 		}
 	}
 	{glow
@@ -229,3 +228,4 @@
 		{threshold 1.1}
 	}
 }
+

@@ -11,7 +11,7 @@
 	("range_200_howitzer")
 	{calibre 150}
 
-	("reload time" seconds(25))
+	("reload time" seconds(20))
 
 	("velocity m/s" ap(1) apcr(1) he(280) heat(280))
 	("armor health" damage(450))
@@ -21,4 +21,14 @@
 	("penetration_medium" shell(heat) range(200) a(185) b(185) c(185) d(185) e(185))
 
 	("accuracy_spg" r1(1.20) range_ap(200) range_he(200) range_heat(200))
+	
+	{parameters "he2" ;// stielgranate 42
+		("reload time" seconds(30))
+		{speed 100}
+		{gravity 2}
+		{range 150 150}
+		{spreading
+			{radiusTable {0 0} {50 5} {100 10} {150 15} {155 50}}
+		}
+	}
 }

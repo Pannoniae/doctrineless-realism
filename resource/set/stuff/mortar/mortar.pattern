@@ -5,7 +5,7 @@
 	{fireSound "mortar\mortar_shot"}
 	{foresight "foresight"}
 
-	{ZeroingAccuracy 0.85 0.75}
+	{ZeroingAccuracy 0.85 0.75 0.7 0.65 0.6}
 	{AimingTolerance 1.5}
 
 	{curve "gun_std"}

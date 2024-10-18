@@ -17,6 +17,7 @@
 	("velocity m/s" ap(390) apcr(1) he(200) heat(496))
 	("armor health" damage(310))
 	("armor health custom" shell(aphe) damage(310) filler(230))
+	("105_slope_multipliers")
 
 	; Pzgr. Rot
 	("penetration_medium" shell(aphe) range(190) a(73) b(67) c(62) d(59) e(53))

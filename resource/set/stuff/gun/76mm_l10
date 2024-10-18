@@ -12,7 +12,7 @@
 	("armor health custom" shell(aphebc2) damage(200) filler(88))
 
 	; BR-350A
-	("penetration_medium" shell(aphebc) range(180) a(58) b(53) c(48) d(44) e(40))
+	("penetration_medium" shell(aphebc) range(180) a(67) b(63) c(57) d(52) e(47))
 
 	; BR-350B
 	("penetration_medium" shell(aphebc2) range(180) a(66) b(61) c(56) d(52) e(48))

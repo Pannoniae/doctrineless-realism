@@ -54,13 +54,13 @@
 
 (define "spreading_mounted_low"
 	{spreading
-		{BurstAccuracy 100 98 95 93 90 88 85 83 80}
+		{BurstAccuracy 100 98 95 93 90 88 85 83 80 78 }
 	}
 )
 
 (define "spreading_mounted"
 	{spreading
-		{BurstAccuracy 100 98 95 91 86 81 76 70}
+		{BurstAccuracy 100 97 93 88 83 78 72 67	62 57}
 	}
 )
 
@@ -81,11 +81,24 @@
 		{BurstAccuracy 100 90 80 70 60 55 50 45 40 35 30}
 	}
 )
-
+(define "spreading_dp"
+	{spreading
+		{BurstRecoveryTime 0.3}
+		;{BurstAccuracy 100 96 91 86 81 75 70 64 58 52 46}
+		{BurstAccuracy 100 97 93 89 85 81 76 70 64 58 52 46 40}
+	}
+)
+(define "spreading_mg42"
+	{spreading 
+		{BurstRecoveryTime 0.25}
+		;{BurstAccuracy 100 94 88 82 72 62 52 42 35 30}
+		{BurstAccuracy 100 98 93 88 83 78 72 70 64 58 52 46 40}
+	}
+)
 ;/*=========================*/
 
 (define "reload_belt"
-	("reload time" seconds(8.5))
+	("reload time" seconds(6.5))
 )
 
 (define "penetration"
@@ -126,7 +139,7 @@
 )
 
 (define "airborne_mg"
-	{range 130 130}
+	{range 140 140}
 	(mod not "mp"
 		{range 300 500}
 	)

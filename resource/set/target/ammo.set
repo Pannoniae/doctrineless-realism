@@ -22,13 +22,14 @@
 		{"flame" {ready_for_shot}}							; ammo for flamethrowers
 		{"small_arms" {ready_for_shot}}						; bullet ammo (pistols, rifles, smgs, mgs)
 		{"mortar all_he"}									; HE mortar ammo
-		{"shell all_he" {ground}}							; cannon HE ammo
+		{"shell all_he" {ground} {ready_for_shot}}			; cannon HE ammo
 		{"ammo rifle_grenade"}								; rifle grenade HE ammo
 		{"ammo shell wp" {ground}{ready_for_shot}}			; WP ammo (ONLY IF ALREADY LOADED)
+		{"all_he auto"}										; auto cannon HE ammo
 		{"hmgun"}											; heavy machine gun (.50 cal, etc)
 		{"small_arms"}										; bullet ammo (pistols, rifles, smgs, mgs)
 		{"bullet"}
-		{"all_he auto"}										; auto cannon HE ammo
+		{"shell all_he" {ground}}							; cannon HE ammo
 		{"grenade fg"}										; standard anti-personel grenades
 		{"grenade ic"}										; flame grenades (molotov)
 		{"glass ic"}										; flame shell (Ampulomet glass ball)
@@ -53,10 +54,11 @@
 		{"grenade fg"}										; standard anti-personel grenades
 		{"ammo rifle_grenade"}								; rifle grenade HE ammo
 		{"ammo shell wp" {ready_for_shot}}					; WP ammo (ONLY IF ALREADY LOADED)
+		{"all_he auto"}										; auto cannon HE ammo
 		{"hmgun"}											; heavy machine gun (.50 cal, etc)
 		{"small_arms"}										; bullet ammo (pistols, rifles, smgs, mgs)
 		{"bullet"}	
-		{"all_he auto"}										; auto cannon HE ammo
+		{"shell all_he"}									; cannon HE ammo
 		{"grenade ic"}										; flame grenades (molotov)
 		{"glass ic"}										; flame shell (Ampulomet glass ball)
 		{"grenade at"}										; anti-tank grenades
@@ -79,10 +81,11 @@
 		{"shell all_he" {ground} {ready_for_shot}}							; cannon HE ammo
 		{"ammo rifle_grenade"}								; rifle grenade HE ammo
 		{"ammo shell wp" {ground}{ready_for_shot}}			; WP ammo (ONLY IF ALREADY LOADED)
+		{"all_he auto"}										; auto cannon HE ammo
 		{"hmgun"}											; heavy machine gun (.50 cal, etc)
 		{"small_arms"}										; bullet ammo (pistols, rifles, smgs, mgs)
-		{"bullet"}	
-		{"all_he auto"}										; auto cannon HE ammo
+		{"bullet"}
+		{"shell all_he" {ground}}							; cannon HE ammo
 		{"grenade fg"}										; standard anti-personel grenades
 		{"grenade ic"}										; flame grenades (molotov)
 		{"glass ic"}										; flame shell (Ampulomet glass ball)
@@ -285,22 +288,16 @@
 		{"light"}											; ammo for binoculars and other vision devices
 	}
 	{airborne												; -TARGET CLASS-
-		{"shell aphe" {volume "body"}{ready_for_shot}}		; cannon APHE ammo (and 85mm_52k)
-		{"shell apcbche" {volume "body"}{ready_for_shot}}	; cannon APHE ammo (flak 18/36)
-		{"shell apcbche2" {volume "body"}{ready_for_shot}}	; cannon apcbche ammo (flak 18/36 early ammo)
-		{"all_he auto" {volume "body"}}						; auto cannon HE ammo
+		{"shell aphe" {ready_for_shot}}						; cannon APHE ammo (and 85mm_52k)
+		{"shell apcbche" {ready_for_shot}}					; cannon APHE ammo (flak 18/36)
+		{"shell apcbche2" {ready_for_shot}}					; cannon apcbche ammo (flak 18/36 early ammo)
 		{"all_he auto"}										; auto cannon HE ammo
-		{"zenite" {volume "body"}{ready_for_shot}}			; autocannon AP/APCR ammo
-		{"shell all_he" {volume "body"}}					; cannon HE ammo
+		{"zenite" {ready_for_shot}}			; autocannon AP/APCR ammo
 		{"shell all_he"}									; cannon HE ammo
-		{"zenite" {volume "body"}}							; autocannon AP/APCR ammo
 		{"zenite"}											; autocannon AP/APCR ammo
-		{"ptr" {volume "body"}{enable_for_user 0}}			; anti-tank rifle ammo (AI ONLY)
-		{"hmgun" {volume "body"}}							; heavy machine gun (.50 cal, etc)
+		{"ptr" {enable_for_user 0}}			; anti-tank rifle ammo (AI ONLY)
 		{"hmgun"}											; heavy machine gun (.50 cal, etc)
-		{"small_arms" {volume "body"}}						; bullet ammo (pistols, rifles, smgs, mgs)
 		{"small_arms"}										; bullet ammo (pistols, rifles, smgs, mgs)
-		{"bullet" {volume "body"}}							; bullet ammo (pistols, rifles, smgs, mgs)
 		{"bullet"}											; bullet ammo (pistols, rifles, smgs, mgs)
 		{"light"}											; ammo for binoculars and other vision devices
 	}

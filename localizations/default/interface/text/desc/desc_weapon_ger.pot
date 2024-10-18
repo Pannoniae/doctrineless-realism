@@ -332,6 +332,10 @@ msgctxt "desc/weapon/203mm_k18"
 msgid "20.3cm K (E) L/60"
 msgstr ""
 
+msgctxt "desc/weapon/210mm_k39"
+msgid "21cm K39 L/45.4"
+msgstr ""
+
 msgctxt "desc/weapon/210mm_morser"
 msgid "21cm Morser 18 L/31"
 msgstr ""

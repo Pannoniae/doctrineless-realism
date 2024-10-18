@@ -194,7 +194,7 @@
 			}
 		}
 	}
-	{on "upside_down"				;// when tank flips over
+	{on "upside_down"				;// when vehicle flips over and crew is forced to emit
 		{reset_manual_control}
 		{unlink_trailer}
 	}
@@ -389,6 +389,7 @@
 				("cut_shield_part" args "shield9")
 				("cut_shield_part" args "shield10")
 				("cut_shield_part" args "shield11")
+				("cut_shield_part" args "shield12")
 				
 				("cut_shield_part" args "shieldt11")
 				("cut_shield_part" args "shieldt12")

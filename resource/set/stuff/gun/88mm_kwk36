@@ -19,10 +19,10 @@
 	("88_ger_slope_multipliers")
 
 	; Pzgr.39
-	("penetration_long" shell(apcbche) range(230) a(162) b(151) c(138) d(126) e(116))
+	("penetration_long" shell(apcbche) range(230) a(162) b(153) c(140) d(128) e(118))
 
 	; Pzgr.40
-	("penetration_long" shell(apcr) range(230) a(219) b(200) c(179) d(160) e(143))
+	("penetration_long" shell(apcr) range(230) a(221) b(208) c(179) d(168) e(152))
 	{parameters "apcr" ; Pzgr.40
 		("large_apcr_slope_multiplier")
 	}

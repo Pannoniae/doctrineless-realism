@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/tank_assaultgun.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.1))
-	{props "td" "light" "-turret" "mantlet" "vision_lev02" "muzzle_37mm_40mm_auto_sides" "shield" "open_top" "detect_tank_light" "burst"}
+	{props "td" "light" "-turret" "mantlet" "vision_lev02" "muzzle_37mm_40mm_auto_sides" "shield" "open_top" "detect_tank_light" "ammo_open_top"}
 	{extension "grille_m.mdl"}
 	(include "grille_m.ext")
 	{targetclass "tank_light"}

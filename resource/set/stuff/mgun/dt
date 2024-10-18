@@ -11,6 +11,6 @@
 	("velocity" mps(840))
 
 	("burst_medium")
-	("spreading_mounted")
+	("spreading_dp")
 	{traceFreq 1}
 }

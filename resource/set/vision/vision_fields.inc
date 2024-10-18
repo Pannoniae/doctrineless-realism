@@ -168,7 +168,7 @@
 	{uncover 25}
 	{h_fov 90}
 	{v_fov 170}
-	("spotting" r(2.0))
+	("spotting" r(2.2))
 }
 
 {"tank_main_mg"							; // Gunner vision when main gun is MG

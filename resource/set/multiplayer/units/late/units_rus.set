@@ -978,15 +978,15 @@
 }
 {"is2_43"
 	("vehicle2" period(late) year(late) cd(1600) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy4) b(mt) cw(8) cp(30)
-	cost(1550)) ;// +30 for crew
+	cost(1350)) ;// +30 for crew
 }
 {"is2_44"
 	("vehicle2" period(late) year(late) cd(1700) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy5) b(mt) cw(8) cp(30)
-	cost(1600)) ;// +30 for crew
+	cost(1400)) ;// +30 for crew
 }
 {"is2_45"
 	("vehicle2" period(late) year(late) cd(1700) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy5) b(mt) cw(8) cp(30)
-	cost(1650)) ;// +30 for crew
+	cost(1450)) ;// +30 for crew
 }
 
 ;SPG
@@ -1014,7 +1014,7 @@
 	("vehicle2" period(late) year(late) cd(900) ci(10) t(medium) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(spg4) b(td) cw(6) cp(24)
 	cost(600)) ;// +35 for crew
 }
-{"su152"
+{"su152_late"
 	("vehicle2" period(late) year(late) cd(900) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(spg6) b(td) cw(8) cp(30)
 	cost(1000)) ;// +35 for crew
 }

@@ -11,7 +11,7 @@
 	("range_240")
 	{calibre 130}
 
-	("reload time" seconds(20))
+	("reload time" seconds(15))
 
 	("velocity m/s" ap(870) apcr(1) he(840) heat(1))
 	("armor health" damage(350))
@@ -19,7 +19,7 @@
 	("128_slope_multipliers")
 
 	; BR-540
-	("penetration_long" shell(aphe) range(240) a(165) b(152) c(137) d(124) e(111))
+	("penetration_long" shell(aphe) range(240) a(274) b(268) c(254) d(242) e(229))
 	{parameters "aphe"
 		{cursorReloading "gun_saphe"}
 	}

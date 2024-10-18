@@ -102,12 +102,12 @@
 
 ;------------------------------------------------------------------------------------------------------------
 {presets
-	{"s:early_standard_60"
+	{"s:early_standard_80"
 		{gameMode "standard"}
 		{unitMode "early"}
 		{specMode "all_normal"}
 		{apply "only_roster_early"}
-		("standard_all"			start_a(500) finish_a(8000) start_b(500) finish_b(20000) doctrine(1) cp_a(0:60,900:80,1500:100) cp_b(0:120,900:160,1500:220))
+		("standard_all"			start_a(500) finish_a(8000) start_b(500) finish_b(20000) doctrine(1) cp_a(0:80,900:100,1500:120) cp_b(0:120,900:160,1500:220))
 		{ranked}
 	}
 ;------------------------------------------------------------------------------------------------------------

@@ -445,11 +445,11 @@
 	("hanomag_sound")
 
 	{on "commander_hatch_open" overload
-		{ani_wind "open" end}
+		{ani_wind "open_mg" end}
 		{ani_play "mgun_aa" +1.0 resume}
 	}
 	{on "commander_hatch_close" overload
-		{ani_play "open" -1.0 resume}
+		{ani_play "open_mg" -1.0 resume}
 		{ani_play "mgun_aa" -1.0 resume}
 	}
 
@@ -530,6 +530,31 @@
 }
 {"sdkfz7"
 	("hanomag_sound")
+}
+{"sdkfz7_1"
+	{on "add_weapon_sound" overload
+		("2cm_Flakvierling")
+	}
+	("multi_barrel_loop" flash(tank_canon_fire_20_25_auto) smoke(smoke_zenit) shell(zenit_gilz) weapon(gun) head(0.200))
+
+	{on "reload"
+		{ani_play "reload" 1.0}
+	}
+	{on "reload_delay" overload
+		("reload_time" args 9)		;// weapon reload time
+	}
+
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/gun/gun_horizontal"}
+		{link_sound "rotate_gun" 		"vehicle/turret/gun/gun_vertical"}
+		{link_sound "engine_start"		"vehicle/engine/sdkfz251/start"}
+		{link_sound "engine_stop"		"vehicle/engine/sdkfz251/stop"}
+		{link_sound "engine_idle"		"vehicle/engine/sdkfz251/idle"}
+		{link_sound "engine_full"		"vehicle/engine/sdkfz251/full"}
+		{link_sound "exhaust"			"vehicle/engine/sdkfz251/exhaust"}
+		{link_sound "move"				"vehicle/tracks/sdkfz251"}
+	}
+	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
 }
 {"sdkfz7_2"	
 	{on "add_weapon_sound" overload
@@ -1069,6 +1094,14 @@
 		{link_sound "move"				"vehicle/tracks/pz3"}
 		{link_sound "rotate_turret"		"vehicle/turret/gun/gun_horizontal"}
 	}
+	{on "charger_hatch_open" overload
+		{ani_wind "open1" end}
+		{ani_play "mgun_aa" 1.0 resume}
+	}
+	{on "charger_hatch_close" overload
+		{ani_play "open1" -1.0 resume}
+		{ani_play "mgun_aa" -1.0 resume}
+	}
 }
 {"stug3g tank"
 	{on "add_weapon_sound" overload
@@ -1230,6 +1263,14 @@
 		{link_sound "exhaust"			"vehicle/engine/pz4/exhaust"}
 		{link_sound "move"				"vehicle/tracks/pz4"}
 		{link_sound "rotate_turret"		"vehicle/turret/gun/gun_horizontal"}
+	}
+	{on "charger_hatch_open" overload
+		{ani_wind "open1" end}
+		{ani_play "mgun_aa" 1.0 resume}
+	}
+	{on "charger_hatch_close" overload
+		{ani_play "open1" -1.0 resume}
+		{ani_play "mgun_aa" -1.0 resume}
 	}
 }
 {"sturmpanzer4 tank"
@@ -1691,18 +1732,6 @@
 	{on "reload_delay" overload
 		("reload_time" args 5)	;// weapon reload time
 	}
-	{on spawn
-		{ani_wind "support_open" end}
-	}
-	{on move on
-		{kill_delay "move_off"}
-		{ani_play "support_open" -1.0 resume}
-	}
-	{on move off
-		{delay 1 "move_off"
-			{ani_play "support_open" 1.0 resume}
-		}
-	}
 }
 
 {"stalinetz60"
@@ -1763,6 +1792,33 @@
 	("ba_sound")
 	{on "add_weapon_sound" overload
 		("M2HB")
+	}
+}
+
+{"universal_carrier_rus tank"
+	("universal_carrier_sound")
+	{on "add_weapon_sound" overload
+		("DT")
+		{link_sound "action_recoil"	"weapon/action/recoil/open_bolt_MG/reciprocating/"}
+	}
+}
+
+{"mmg_carrier_rus tank"
+	("universal_carrier_sound")
+	{on "add_weapon_sound" overload
+		("Maxim_Gun")
+		{link_sound "action_recoil"	"weapon/action/recoil/open_bolt_MG/reciprocating/"}
+	}
+	{on fire "mgun2"
+		{ani_play "fire_mgun"}
+		{play_sound "action_recoil"}
+	}
+	{on "reload"
+		{if effector "stuff weapon"
+		
+		else
+			{ani_play "reload_mgun"}
+		}
 	}
 }
 
@@ -3470,6 +3526,7 @@
 {"m4a3_75w tank"
 	("m4a3_sherman_sound")
 	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
 		("M2HB")
 		("M1919A4")
 	}
@@ -3481,6 +3538,11 @@
 	{on "gunner2_hatch_close" overload}
 }
 {"m4a3_75w_e4_5 m4a3_75w tank"
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("M2HB")
+		("M1919A4")
+	}
 	{on spawn
 		{add_view "flamer_fire_tank" "flamer1" "foresight4"}
 	}
@@ -3823,7 +3885,14 @@
 ;/*=========== USA Vehicles End ===========*/
 
 
-;/*=========== Generic Vehicles Begin ===========*/
+;/*=========== ENG Vehicles Begin ===========*/
+
+{"universal_carrier_mk2 tank"
+	("universal_carrier_sound")
+	{on "add_weapon_sound" overload
+		("Bren")
+	}
+}
 
 {"universal_carrier_rus tank"
 	("universal_carrier_sound")
@@ -3859,7 +3928,6 @@
 		("ZB37")
 	}
 }
-
 {"valentine7 tank"
 	("valentine_sound")
 	{on "add_weapon_sound" overload
@@ -3867,14 +3935,12 @@
 		("M1919A4")
 	}
 }
-
 {"valentine9 tank"
 	("valentine_sound")
 	{on "add_weapon_sound" overload
 		("Cannon_50to57mm_HV")
 	}
 }
-
 {"churchill3 tank"
 	("churchill_sound")
 	{on "add_weapon_sound" overload
@@ -3882,7 +3948,43 @@
 		("ZB37")
 	}
 }
+{"sherman3_late tank"
+	("m4a2_sherman_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("M1919A4")
+	}
+	{on spawn
+		{link_sound "move"				"vehicle/tracks/M4_Sherman/steel/"}
+		("rand_cut" args "basket")
+	}
+	{on "commander_hatch_open" overload
+		{ani_wind "open_right" end}
+	}
+	{on "commander_hatch_close" overload
+		{ani_play "open_right" -1.0 resume}
+	}
+}
+{"sherman5c tank"
+	("m4_sherman_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("M1919A4")
+	}
+	{on spawn
+		{link_sound "move"				"vehicle/tracks/M4_Sherman/steel/"}
+	}
+	{on "commander_hatch_open" overload
+		{ani_wind "open_right" end}
+	}
+	{on "commander_hatch_close" overload
+		{ani_play "open_right" -1.0 resume}
+	}
+}
 
+;/*=========== ENG Vehicles End ===========*/
+
+;/*=========== Generic Vehicles Begin ===========*/
 
 ;/*=========== Generic Vehicles End ===========*/
 
@@ -4532,4 +4634,58 @@
 		("MG34")
 		("Cannon_85to100mm")
 	}
+}
+{"m18_gmc_90 tank"
+	("m4_sherman_sound")
+	{on spawn
+		{add_view	"shell_hmgun"	"mgun_eject2"	"fxshell"}
+		{link_sound "move"				"vehicle/tracks/M4_Sherman/Rubber/"}
+	}
+	{on "add_weapon_sound" overload
+		("M2HB")
+		{link_sound "action_recoil_HMG"		"weapon/action/recoil/closed_bolt_HMG/"}
+		("M1919A4")
+		("Cannon_85to100mm")
+		("Cannon_Breech")
+	}
+	{on fire "mgun1"
+		{play_sound "action_recoil_HMG"}
+		{play_sound "HMG_Mid"}
+		{play_sound "HMG_Far"}
+		{view start "mgun_eject2"}
+		{delay 0.2
+			{view pause "mgun_eject2"}
+		}
+	}
+}
+{"m19_mgmc tank"
+	("m24_chaffee_sound")
+    {on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+    }
+    {on spawn
+	{add_view "tank_fire_minimum_dust_ground"		"minimum_ground_fx"		"basis"}
+   	{add_view "tank_fire_minimum_dust_sand"		"minimum_sand_fx"		"basis"}
+   	{add_view "tank_fire_minimum_dust_snow"		"minimum_snow_fx"		"basis"}
+	{add_view	"tank_canon_fire_37_40_auto"	"flashbarrel00"	"shooter00"}
+	{add_view	"tank_canon_fire_37_40_auto"	"flashbarrel01"	"shooter01"}
+	{link_sound "move"				"vehicle/tracks/M4_Sherman/Rubber/"}
+    }
+    {on fire "gun" overload 
+	{call "minimum_terrain_fx"}
+	{if  name "00"
+			{view start "flashbarrel00"}
+			{ani_play "fire00" 1.0 resume}
+			{delay 0.2
+				{view pause "flashbarrel00"}
+			}
+		else name "01"
+			{view start "flashbarrel01"}
+			{ani_play "fire01" 1.0 resume}
+			{delay 0.2
+				{view pause "flashbarrel01"}
+			}
+	}
+	
+    }	
 }

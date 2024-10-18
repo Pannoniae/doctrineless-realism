@@ -19,7 +19,7 @@
 	("75_ger_slope_multipliers")
 
 	; Pzgr.39
-	("penetration_medium" shell(apcbche) range(200) a(135) b(123) c(109) d(97) e(86))
+	("penetration_medium" shell(apcbche) range(200) a(131) b(123) c(111) d(100) e(90))
 
 	; Pzgr.40
 	("penetration_medium" shell(apcr) range(190) a(176) b(154) c(130) d(109) e(92))

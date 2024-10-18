@@ -18,7 +18,7 @@
 	("76_rus_slope_multipliers")
 
 	; BR-361
-	("penetration_medium" shell(aphebc) range(200) a(102) b(93) c(82) d(73) e(65))  ;RHA
+	("penetration_medium" shell(aphebc) range(200) a(115) b(107) c(96) d(85) e(76))  ;RHA
 
 	; BR-361SP
 	("penetration_medium" shell(apbc) range(200) a(118) b(108) c(96) d(86) e(77))  ;RHA

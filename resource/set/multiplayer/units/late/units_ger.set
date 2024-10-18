@@ -853,8 +853,12 @@
 	cost(180))
 }
 {"20mm_flak38"
-	("vehicle"  period(late) year(late) cd(180) ci(10) t(cannon) side(ger) crew(artilleryman:2) g(empl20) b(support) cw(1) cp(8)
+	("vehicle"  period(late) year(late) cd(180) ci(10) t(cannon) side(ger) crew(artilleryman:2) g(empl2) b(support) cw(1) cp(8)
 	cost(200))
+}
+{"20mm_flakvierling38"
+	("vehicle"  period(late) year(late) cd(240) ci(10) t(cannon) side(ger) crew(artilleryman:3) g(empl2) b(support) cw(1) cp(10)
+	cost(260))
 }
 {"37mm_pak36_late"
 	("vehicle"  period(late) year(late) cd(30) ci(10) t(cannon) side(ger) crew(artilleryman:4) g(empl3) b(support) cw(1) cp(6)
@@ -1090,6 +1094,10 @@
 {"sdkfz234_3"
 	("vehicle2" period(late) year(late) cd(480) ci(10) g(wheel10) side(ger) t(vehicle) crew1(tankman_scout:3) crew2(tank_commander_scout:1) b(lt) cw(2) cp(18)
 	cost(350))
+}
+{"sdkfz7_1"
+	("vehicle2" period(late) year(late) cd(450) ci(10) g(wheel6) side(ger) t(vehicle) crew1(tankman:3) crew2(tank_commander:1) b(lt) cw(2) cp(12)
+	cost(320))
 }
 {"sdkfz7_2"
 	("vehicle2" period(late) year(late) cd(480) ci(10) g(wheel6) side(ger) t(vehicle) crew1(tankman:3) crew2(tank_commander:1) b(lt) cw(2) cp(12)

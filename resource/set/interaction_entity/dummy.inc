@@ -1018,6 +1018,11 @@
 }
 
 {"paratrooper_attach"
+	{on "start"
+		{with_linked_entity "attach"
+			{call "para_idle_animation"}
+		}
+	}
 	{on animation_end "flight"
 		{with_linked_entity "attach"
 			{unlink}
@@ -1185,6 +1190,8 @@
 		{with_linked_entity "attach"
 			{tags remove "can_die"}
 			{unlink}
+			{call "throw_off_parachute"}	;// called in-case human/parachute lands in obstacle when {unlink} does not work
+			{call "stop_vehicle_ani"}
 		}
 		{physics_work 0}
 	}
@@ -1304,7 +1311,7 @@
 {"random_animation with_delay"
 	{on "delay" overload
 		{delay 12 4
-			{call "random_animation"}
+			{call_synced "random_animation"}
 		}
 	}
 }
@@ -1622,6 +1629,22 @@
 		{tags add "quest"}
 		{add_view "bait" "bait" "upper"}
 		{view start "bait"}
+	}
+}
+{"pointer_beacon"				;// mission objective icon/helper
+	{on spawn
+		{tags add "pointer_beacon"}
+		{tags add "quest"}
+		{add_view "beacon_fx" "beacon_fx" "upper"}
+		{view start "beacon_fx"}
+	}
+}
+{"pointer_explosives"				;// mission objective icon/helper
+	{on spawn
+		{tags add "pointer_explosives"}
+		{tags add "quest"}
+		{add_view "explosives_fx" "explosives_fx" "upper"}
+		{view start "explosives_fx"}
 	}
 }
 {"pointer_wood"				;// mission objective icon/helper

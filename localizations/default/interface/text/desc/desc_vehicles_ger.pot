@@ -12,6 +12,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+msgctxt "desc/entity/20mm_flakvierling38"
+msgid "2cm Flakvierling 38"
+msgstr ""
+
+msgctxt "info/special/20mm_flakvierling38"
+msgid "<c(c3baae)>Light AA Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/105mm_lefh18_40"
+msgid "10.5cm LeFH 18/40"
+msgstr ""
+
+msgctxt "info/special/105mm_lefh18_40"
+msgid "<c(c3baae)>Light Field Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/210mm_k39"
+msgid "21cm Kanone 39"
+msgstr ""
+
+msgctxt "info/special/210mm_k39"
+msgid "<c(c3baae)>Heavy Howitzer</c>"
+msgstr ""
+
+msgctxt "desc/entity/citroen_7_ger"
+msgid "Citroën 7 (WH)"
+msgstr ""
+
+msgctxt "info/special/citroen_7_ger"
+msgid "<c(c3baae)>Transport</c>"
+msgstr ""
+
+msgctxt "desc/entity/sdkfz7_1"
+msgid "Sd.Kfz 7/1"
+msgstr ""
+
+msgctxt "info/special/sdkfz7_1"
+msgid "<c(c3baae)>AA Halftrack</c>"
+msgstr ""
+
 msgctxt "desc/entity/50mm_kwk39_platform"
 msgid "5cm KwK 39 L/60"
 msgstr ""

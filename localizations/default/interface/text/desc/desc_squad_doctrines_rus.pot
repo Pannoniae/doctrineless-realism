@@ -230,7 +230,7 @@ msgid "<c(B29557)>( I )</c> BT-5"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_bt7a_early"
-msgid "<c(B29557)>( I )</c> BT7-A"
+msgid "<c(B29557)>( I )</c> BT-7A"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_bt7a_mid"
@@ -306,7 +306,7 @@ msgid "<c(B29557)>( I )</c> KhT-26"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_kht26_early"
-msgid "<c(B29557)>( II )</c> KHT-26 flamethrower"
+msgid "<c(B29557)>( I )</c> KHT-26 flamethrower"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_kht130_mid"
@@ -458,7 +458,7 @@ msgid "<c(B29557)>( II )</c> Marine squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_heavyrecon(rus)"
-msgid "<c(B29557)>( I )</c> Heavy Scout-Recon squad"
+msgid "<c(B29557)>( II )</c> Heavy Scout-Recon squad"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_mountainrifles(rus)"
@@ -526,15 +526,15 @@ msgid "<c(B29557)>( I )</c> Recon squad (SMG)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_spetsnaz_early(rus)"
-msgid "<c(B29557)>( I )</c> Recon Ops"
+msgid "<c(B29557)>( II )</c> Recon Ops"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_spetsnaz_late(rus)"
-msgid "<c(B29557)>( I )</c> Scout-Recon Detachment"
+msgid "<c(B29557)>( II )</c> Scout-Recon Detachment"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_spetsnaz_mid(rus)"
-msgid "<c(B29557)>( I )</c> Recon Ops"
+msgid "<c(B29557)>( II )</c> Recon Ops"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_suppression(rus)"
@@ -722,11 +722,11 @@ msgid "<c(B29557)>( II )</c> 122mm M1910"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_yak1_mid"
-msgid "<c(B29557)>( II )</c> Yak-1 50kg Bomb"
+msgid "<c(B29557)>( I )</c> Yak-1 50kg Bomb"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_yak1_late"
-msgid "<c(B29557)>( II )</c> Yak-1 50kg Bomb"
+msgid "<c(B29557)>( I )</c> Yak-1 50kg Bomb"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_ba20_mid"
@@ -770,7 +770,7 @@ msgid "<c(B29557)>( III )</c> 122mm A-19"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_bt7a_late"
-msgid "<c(B29557)>( I )</c> BT7-A"
+msgid "<c(B29557)>( I )</c> BT-7A"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_300mm_bm30"
@@ -818,11 +818,11 @@ msgid "<c(B29557)>( III )</c> BM-13-16 (ZiS-6)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_zis6_bm8_48_mid"
-msgid "<c(B29557)>( III )</c> BM-8-48 (ZiS-6)"
+msgid "<c(B29557)>( II )</c> BM-8-48 (ZiS-6)"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_zis6_bm8_48_late"
-msgid "<c(B29557)>( III )</c> BM-8-48 (ZiS-6)"
+msgid "<c(B29557)>( II )</c> BM-8-48 (ZiS-6)"
 msgstr ""
 
 msgctxt "desc/entity/doctrine_yag10_29k_early"

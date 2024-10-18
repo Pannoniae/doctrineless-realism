@@ -11,20 +11,20 @@
 	("range_250")
 	{calibre 100}
 
-	("reload time" seconds(12))
+	("reload time" seconds(10))
 
-	("velocity m/s" ap(890) apcr(1) he(880) heat(1))
-	("armor health" damage(280))
-	("armor health custom" shell(aphe) damage(280) filler(88))
-	("armor health custom" shell(aphebc) damage(280) filler(88))
+	("velocity m/s" ap(895) apcr(1) he(915) heat(1))
+	("armor health" damage(320))
+	("armor health custom" shell(aphe) damage(320) filler(88))
+	("armor health custom" shell(aphebc) damage(320) filler(88))
 	("100_rus_slope_multipliers")
 
 	; BR–412
-	("penetration_long" shell(aphe) range(250) a(209) b(187) c(162) d(141) e(122))  ;RHA
+	("penetration_long" shell(aphe) range(250) a(222) b(204) c(179) d(156) e(136))  ;RHA
  ;//("penetration_long" shell(aphe) range(250) a(175) b(160) c(140) d(123) e(108))  ;FHA
 
 	; BR–412B ;issued sometime before 1945
-	("penetration_long" shell(aphebc) range(250) a(210) b(190) c(168) d(149) e(132))  ;RHA
+	("penetration_long" shell(aphebc) range(250) a(219) b(209) c(194) d(180) e(168))  ;RHA
  ;//("penetration_long" shell(aphebc) range(250) a(182) b(171) c(158) d(147) e(136))  ;FHA
 
 	{parameters "aphebc" ; BR–412B

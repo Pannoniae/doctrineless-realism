@@ -25,6 +25,9 @@
 	{parameters "he"
 		{projectileDamageTable {0 10}}
 	}
+	{parameters "he2"
+		{projectileDamageTable {0 10}}
+	}
 	{parameters "sm"
 		("reload time" seconds(3.0))
 	}
@@ -70,6 +73,9 @@
 	{parameters "he"
 		{projectileDamageTable {0 20}}
 	}
+	{parameters "he2"
+		{projectileDamageTable {0 20}}
+	}
 	{parameters "sm"
 		("reload time" seconds(3.4))
 	}
@@ -91,6 +97,9 @@
 	{parameters "he"
 		{projectileDamageTable {0 30}}
 	}
+	{parameters "he2"
+		{projectileDamageTable {0 30}}
+	}
 	{parameters "sm"
 		("reload time" seconds(3.5))
 	}
@@ -110,6 +119,9 @@
 	("reload time" seconds(10))
 
 	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "he2"
 		{projectileDamageTable {0 30}}
 	}
 	{parameters "sm"

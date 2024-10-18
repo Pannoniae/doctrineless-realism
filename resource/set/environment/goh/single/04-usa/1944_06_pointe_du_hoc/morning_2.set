@@ -13,7 +13,7 @@
 			{gamma 1.2}
 			{brightness 1.2}
 			{contrast 1.1}
-			{saturation 1.1}
+			{saturation 1.6}
 			{tone 0xff00080a}
 			{tone_strength 1}
 			{color_shading
@@ -209,24 +209,24 @@
 	}
 	{dof
 		{enable}
-		{near_scale 0.1}
-		{far_scale 0.5}
-		{near_start 100}
-		{near_end 3000}
+		{near_scale 2.0}
+		{far_scale 0.75}
+		{near_start 50}
+		{near_end 100}
 		{far_start 3000}
 		{far_end 6000}
 		{"3rd_Person"
 			{"3rdP_blur_strength" 3}
 		}
-		{blur_strength 3}
+		{blur_strength 5}
 		{"Scenario Settings"
 			{near_scale 2.5}
 			{far_scale 0.75}
 			{near_start 50}
-			{near_end 150}
+			{near_end 100}
 			{far_start 1000}
 			{far_end 3500}
-			{blur_strength 3}
+			{blur_strength 5}
 		}
 	}
 	{glow
@@ -235,3 +235,4 @@
 		{threshold 0.5}
 	}
 }
+
