@@ -1,3 +1,5 @@
-Into the Fire 0.2.15:
- - Decrease Sherman prices.
- - Update to the latest game version.
+Into the Fire 0.3.0:
+ - Updated to the new Airborne DLC
+ - Adjusted infantry weapon accuracies
+ - Added workshop tags to the mod
+ - Added the new vehicles from Airborne to Late War.

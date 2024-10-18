@@ -580,6 +580,10 @@
 	{item "bullet_57x441" "eng"	"apds"		"ammo" 1 {value 5}}
 	{item "bullet_57x441" "eng"	"he"		"ammo" 1 {value 5}}
 
+	{item "bulleteng_76"	"apcbc"			"ammo" 1 {value 5}}
+	{item "bulleteng_76"	"apds"			"ammo" 1 {value 10}}
+	{item "bulleteng_76"	"he"			"ammo" 1 {value 5}}
+
 	{item "bulleteng_114"		"he"		"ammo" 1 {value 10}}
 
 	{item "50mm_rocket_grapnel"				"ammo" 1 {value 10}}
@@ -612,6 +616,7 @@
 	{item "geballteladung_3kg"					1 {value 15}}
 	{item "satchel_charge_rus"					1 {value 15}}
 	{item "satchel_charge_usa"					1 {value 15}}
+	{item "compositionb_x4"						1 {value 15}}
 
 ;// grenade mine hybrid
 	{item "grenade" "m7"						1 {value 10}}
@@ -772,7 +777,7 @@
 	}
 )
 
-(define "truck_ammo"
+(define "truck_ammo" ;// not used
 	{extender "supply_zone"
 		{resupply
 			("items_light_generic")
@@ -872,8 +877,8 @@
 		}
 		{radius 			12}			;// resupply radius in meter
 		{resupplyPeriod 	2}			;// resupply period in seconds
-		{regenerationPeriod 10}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
-		{limit 				3500}		;// max number of resupplies (0 = unlimited)
+		{regenerationPeriod 5}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{limit 				2000}		;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"

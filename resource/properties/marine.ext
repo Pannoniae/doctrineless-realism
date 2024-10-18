@@ -4,6 +4,7 @@ actor
 (include "vehicle.ext")
 (include "armor.ext")
 (include "abm.inc")
+(include "mobility.inc")
 
 {able "-emit_passangers_on_enemy"}
 
@@ -59,6 +60,7 @@ actor
 	}
 )
 
+("ballast" args 0)
 ("ballast" args 1)
 ("ballast" args 2)
 ("ballast" args 3)
@@ -70,47 +72,20 @@ actor
 ("ballast" args 9)
 ("ballast" args 10)
 
-(define "body_"
-	{volume %0
-		{tags %1}
-		{component %1}
+(define "component"
+	{volume %volume
+		{tags %component "hull"}
+		{component %component}
 	}
-	{component %1
-		{RepairTime %2}
-		{tags %1}
+	{component %component
+		{RepairTime %repair}
+		{tags %component "hull"}
 		{RepairOrder 0}
 	}
 )
 
-(define "body_boat"
-	("body_" args "body" "body" %repair)
-	("body_" args "body1" "body1" %repair)
-	("body_" args "body2" "body2" %repair)
-	("body_" args "body3" "body3" %repair)
-	("body_" args "body4" "body4" %repair)
-	("body_" args "body5" "body5" %repair)
-	("body_" args "body6" "body6" %repair)
-	("body_" args "body7" "body7" %repair)
-	("body_" args "body8" "body8" %repair)
-	("body_" args "body9" "body9" %repair)
-	("body_" args "body10" "body10" %repair)
-	("body_" args "body11" "body11" %repair)
-	("body_" args "body12" "body12" %repair)
-	("body_" args "body13" "body13" %repair)
-	("body_" args "body14" "body14" %repair)
-	("body_" args "body15" "body15" %repair)
-	("body_" args "body16" "body16" %repair)
-	("body_" args "body17" "body17" %repair)
-	("body_" args "body18" "body18" %repair)
-	("body_" args "body19" "body19" %repair)
-	("body_" args "body20" "body20" %repair)
-)
-
 ("basic_armor" args 10) ;//-0.298
-("body_boat" repair(10))
-;("body" repair(10))
-("engine" repair(30))
 
 {perks {blastwave_modifier 10.0}}
 
-("marine_durability" body(200) engine(60) gun(100))
+("marine_durability" body(400) engine(60) gun(100))

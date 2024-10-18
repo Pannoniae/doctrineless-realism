@@ -494,7 +494,14 @@
 		{component "body"
 			{health
 				{hp %body}
-				{hp_broken (* %body 3)}	;// destroys component and cannot be repaired
+				{hp_broken (* %body 1)}	;// destroys component and cannot be repaired
+			}
+			("global_damage_mod")
+		}
+		{component tag "hull"
+			{health
+				{hp %body}
+				{hp_broken (* %body 1)}	;// destroys component and cannot be repaired
 			}
 			("global_damage_mod")
 		}

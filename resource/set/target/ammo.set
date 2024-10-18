@@ -20,7 +20,7 @@
 {select_ammo
 	{human in_bush											; -TARGET CLASS-
 		{"flame" {ready_for_shot}}							; ammo for flamethrowers
-		{"small_arms" {ready_for_shot}}						; bullet ammo (pistols, rifles, smgs, mgs)		{"mortar all_he"}									; HE mortar ammo
+		{"small_arms" {ready_for_shot}}						; bullet ammo (pistols, rifles, smgs, mgs)
 		{"mortar all_he"}									; HE mortar ammo
 		{"shell all_he" {ground}}							; cannon HE ammo
 		{"ammo rifle_grenade"}								; rifle grenade HE ammo
