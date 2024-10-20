@@ -8,12 +8,12 @@
 	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
 	{fireSoundclose "cannon/s2/1p/Shared/"}
 	{reloadSound "tank/1p/medium_long/"}
-	("range_190_howitzer")
+	("range_190_howitzer_lowarc")
 	{calibre 105}
 
 	("reload time" seconds(12))
 
-	("velocity m/s" ap(390) apcr(1) he(470) heat(496))
+	("velocity m/s" ap(390) apcr(1) he(270) heat(496)) ; historical HE 470
 	("armor health" damage(310))
 	("armor health custom" shell(aphe) damage(310) filler(230))
 	("105_slope_multipliers")

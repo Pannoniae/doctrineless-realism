@@ -719,7 +719,13 @@
 	;/*=========== Crew End  ===========*/
 
 	;/*=========== Repairs Begin  ===========*/
-
+	(define "repair_shield_part"   ; Repairs shield
+        {if component %0
+            {delay_ex 0.11
+                {view show %0}
+            }
+        }
+    )
 	{on repair
 		{if component "turret"
 			{call "update_turret"}
@@ -742,6 +748,53 @@
 		else component "mantlet"
 			{tags remove "mantlet_brake"}
 			{call "update_mantlet"}
+		else component "cut_part"
+				("repair_shield_part" args "shieldr1")
+				("repair_shield_part" args "shieldr2")
+				("repair_shield_part" args "shieldr3")
+				("repair_shield_part" args "shieldr4")
+				("repair_shield_part" args "shieldr5")
+				("repair_shield_part" args "shieldr6")
+				("repair_shield_part" args "shieldr7")
+				("repair_shield_part" args "shieldr8")
+				("repair_shield_part" args "shieldr9")
+
+				("repair_shield_part" args "shieldl1")
+				("repair_shield_part" args "shieldl2")
+				("repair_shield_part" args "shieldl3")
+				("repair_shield_part" args "shieldl4")
+				("repair_shield_part" args "shieldl5")
+				("repair_shield_part" args "shieldl6")
+				("repair_shield_part" args "shieldl7")
+				("repair_shield_part" args "shieldl8")
+				("repair_shield_part" args "shieldl9")
+
+				("repair_shield_part" args "shield1")
+				("repair_shield_part" args "shield2")
+				("repair_shield_part" args "shield3")
+				("repair_shield_part" args "shield4")
+				("repair_shield_part" args "shield5")
+				("repair_shield_part" args "shield6")
+				("repair_shield_part" args "shield7")
+				("repair_shield_part" args "shield8")
+				("repair_shield_part" args "shield9")
+				("repair_shield_part" args "shield10")
+				("repair_shield_part" args "shield11")
+				("repair_shield_part" args "shield12")
+
+				("repair_shield_part" args "shieldt11")
+				("repair_shield_part" args "shieldt12")
+				("repair_shield_part" args "shieldt13")
+				
+				("repair_shield_part" args "fenderr")
+				("repair_shield_part" args "fenderl")
+				("repair_shield_part" args "fenderr2")
+				("repair_shield_part" args "fenderl2")
+				("repair_shield_part" args "turret_armor1")
+				("repair_shield_part" args "turret_armor2")
+				("repair_shield_part" args "turret_armor3")
+				("repair_shield_part" args "turret_armor4")
+				("repair_shield_part" args "turret_armor5")
 		}
 	}
 

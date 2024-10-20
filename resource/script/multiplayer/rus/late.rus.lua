@@ -89,7 +89,7 @@ Purchases["late.rus"] = {
 				{priority = 1.0, type = {"Class3", "Tank", "Light", "Support",}, unit = "su76"},
 				{priority = 1.0, type = {"Class2", "Tank", "Medium", "AT",}, unit = "su85"},
 				{priority = 1.0, type = {"Class3", "Tank", "Medium", "Support",}, unit = "su122"},
-				{priority = 1.0, type = {"Class2", "Tank", "Heavy", "AT",}, unit = "su152"},
+				{priority = 1.0, type = {"Class2", "Tank", "Heavy", "AT",}, unit = "su152_late"},
 				--]]
 
 

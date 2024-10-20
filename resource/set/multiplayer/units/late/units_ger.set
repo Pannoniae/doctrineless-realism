@@ -805,7 +805,7 @@
 {"fi156_recon_late"
 	("vehicle_ss" side(ger) period(late) year(late) cd(450) ci(10) vehicle(fi156) crew(pilot:1) g(airstrike) b(supply) cost(150))
 	{action "airstrike:reconnaissance_50"} 
-	{tags "limit3"}
+	;{tags "limit3"}
 }
 {"bf109_250_late"
 	("vehicle_ss" side(ger) period(late) year(late) cd(600) ci(10) vehicle(bf109_f4) crew(pilot:1) g(airstrike) b(supply) cost(300))

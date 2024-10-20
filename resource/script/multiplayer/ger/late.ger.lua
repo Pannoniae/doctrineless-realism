@@ -105,7 +105,7 @@ Purchases["late.ger"] = {
 					{priority = 1.0, type = {"Class1", "Tank", "Medium", "AT",}, unit = "jagdpanzer4_l48"},
 
 					{priority = 1.0, type = {"Class3", "Cannon", "Artillery",}, unit = "105mm_sk18"},
-					{priority = 1.0, type = {"Class2", "Armored", "Artillery",}, unit = "sdkfz251d_1_stuka"},
+					--{priority = 1.0, type = {"Class2", "Armored", "Artillery",}, unit = "sdkfz251d_1_stuka"},
 					{priority = 1.0, type = {"Class1", "Tank", "Medium", "AT",}, unit = "jagdpanther"},
 					--]]
 

@@ -682,7 +682,7 @@
 {"po2_recon_late"
 	("vehicle_ss" side(rus) period(late) year(late) cd(450) ci(10) vehicle(po2) crew(pilot:1) g(airstrike) b(supply) cost(150))
 	{action "airstrike:reconnaissance_50"} 
-	{tags "limit3"}
+	;{tags "limit3"}
 }
 {"yak1_250_late"
 	("vehicle_ss" side(rus) period(late) year(late) cd(600) ci(10) vehicle(yak1_ser69) crew(pilot:1) g(airstrike) b(supply) cost(300))

@@ -468,7 +468,7 @@
 {"blenheim_recon_late"
 	("vehicle_ss" side(fin) period(late) year(late) cd(450) ci(10) vehicle(blenheim_mk1) crew(pilot:1) g(airstrike) b(supply) cost(300))
 	{action "airstrike:reconnaissance_50"} 
-	{tags "limit3"}
+	;{tags "limit3"}
 }
 
 

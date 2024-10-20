@@ -1,11 +1,5 @@
-Into the Fire 0.3.0:
- - Updated to the new Airborne DLC
- - Adjusted infantry weapon accuracies
- - Added workshop tags to the mod
- - Added the new vehicles from Airborne to Late War.
- - More targeting fixes, tanks should use their coax/hull machineguns more.
- - Fixed various Soviet guns' penetration data.
- - New colourmap.
- - Fixed SdKfz 251/9 Ausf.C (K 37) gun rotation. (it couldn't depress at all)
- - Updated StuG IV model. (Thanks Horten!)
- - Various other small fixes
+Into the Fire 0.3.2:
+ - Make shields/fenders be repairable with repair packs.
+ - Fixed a crash with the Russian AI.
+ - Made recon planes unlimited.
+ - Added indirect fire to tanks and emplacements.
