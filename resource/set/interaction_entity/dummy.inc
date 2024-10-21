@@ -648,12 +648,12 @@
 
 {"fx_piece_flame 150"			;// causes flamer thrower fuel to burn up after delay (disables far shooting)
 	{on "delete_time" overload
-		{delay 5
+		{delay 10
 			{call "end"}
 		}
 	}
 	{on "fire_radius" overload
-		{fire radius 1.2 time 5 heating 0.75 follow}
+		{fire radius 1.2 time 10 heating 0.75 follow}
 	}
 }
 

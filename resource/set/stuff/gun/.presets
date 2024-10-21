@@ -90,6 +90,16 @@
 	{rechargeTime %seconds}
 )
 
+; ranges (scribbed off the goh discord)
+;tanks:
+;0-30 = 0-100m
+;100 = 500m
+;155 = 1000m
+;205 = 1500m
+;250 = 2000m
+;
+;arty:
+;robz: for artillery the range scale is 1/30
 
 ;/*============================== Damages ==============================*/
 

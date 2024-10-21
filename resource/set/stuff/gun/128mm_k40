@@ -18,7 +18,7 @@
 	("armor health custom" shell(apcbche) damage(375) filler(786))
 
 	; Pzgr.
-	("penetration_long" shell(apche) range(230) a(248) b(234) c(220) d(207) e(195) f(181))
+	("penetration_long" shell(apche) range(240) a(248) b(234) c(220) d(207) e(195) f(181))
 
 
 	("accuracy_direct" r1(0.55) range_ap(240) range_he(230) range_heat(230))

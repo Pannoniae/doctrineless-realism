@@ -1,5 +1,7 @@
-Into the Fire 0.3.2:
- - Make shields/fenders be repairable with repair packs.
- - Fixed a crash with the Russian AI.
- - Made recon planes unlimited.
- - Added indirect fire to tanks and emplacements.
+Into the Fire 0.3.3:
+ - Sturer Emil range fix. (230 -> 240)
+ - Fixed StuG IV x/xx models.
+ - Fixed Maus KwK44 gun penetration.
+ - Rebalance indirect fire accuracies/ranges.
+ - Fixed flame FX on the Flammjagdtiger.
+ - Added the Sherman Firefly (Sherman VC) for USA until the British Forces are released.

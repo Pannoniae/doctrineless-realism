@@ -8,6 +8,7 @@
 	("reload time" seconds(6))
 	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm/"}
 	{fireSoundclose "cannon/s4/3p/Shared/Cannon_85to100mm/"}
+	{reloadSound "utility/"}
 
 	("accuracy_direct_arrowhead" r1(0.72) range_ap(210) range_he(210) range_heat(210))
 

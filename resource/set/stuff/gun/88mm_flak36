@@ -44,7 +44,7 @@
 		range_ap(230) 			; // Range after which accuracy drops to prevent farshooting.
 		range_heat(220) 		; // Range after which accuracy drops to prevent farshooting.
 		range_he(220)			; // Range after which direct-fire accuracy drops to prevent farshooting.
-		range_hei(465)			; // Range after which indirect-fire accuracy drops to prevent farshooting.
+		range_hei(420)			; // Range after which indirect-fire accuracy drops to prevent farshooting.
 	)
 
 	{parameters "he"										; SPgGr.

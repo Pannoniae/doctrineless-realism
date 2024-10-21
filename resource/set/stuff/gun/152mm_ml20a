@@ -10,6 +10,10 @@
 	{reloadSound "tank/1p/large/"}
 	("range_210_howitzer")
 	{calibre 152}
+	
+	; {range 315 315} ; // 7.35km F-674
+	; gun could shoot 6000-6200m
+	; so range should be 300ish
 
 	("reload time" seconds(25))
 
@@ -30,11 +34,11 @@
 	;("accuracy_spg" r1(0.95) range_ap(210) range_he(210) range_heat(210))
 	("accuracy_dual" ; // Applies logic for accuracy of dual direct-indirect weapons
 		r1(0.95) 				; // Accuracy radius for direct-fire munitions
-		r1i(8) 					; // Accuracy radius for indirect fire
-		rmax(18) 				; // Accuracy radius for indirect fire at maximum range
+		r1i(12) 				; // Accuracy radius for indirect fire
+		rmax(36) 				; // Accuracy radius for indirect fire at maximum range
 		range_ap(210) 			; // Range after which accuracy drops to prevent farshooting.
 		range_heat(210) 		; // Range after which accuracy drops to prevent farshooting.
 		range_he(210)			; // Range after which direct-fire accuracy drops to prevent farshooting.
-		range_hei(480)			; // Range after which indirect-fire accuracy drops to prevent farshooting.
+		range_hei(320)			; // Range after which indirect-fire accuracy drops to prevent farshooting.
 	)
 }

@@ -1,7 +1,7 @@
 {material bump
-	{diffuse "pz4g_x"}
-	{bump "$/model/pz4g_bp"}
-	{specular "$/model/pz4g_sp"}
+	{diffuse "$/_vehicle/stug_iv_x"}
+	{bump "$/_vehicle/stug_iv_bp"}
+	{specular "$/_vehicle/stug_iv_sp"}
 	{color "230 230 230 25"}
 	{blend none}
 }

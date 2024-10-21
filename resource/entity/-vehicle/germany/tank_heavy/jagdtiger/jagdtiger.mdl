@@ -367,7 +367,7 @@
 				{Position -41.2339 	 30.7559 	 1.2899}
 				{VolumeView "shieldl5.ply"}
 			}
-			{bone "fxlight"
+			{bone "headlightr"
 				{matrix34
 					0.9996 	 0 	 -0.0289
 					0 	 1 	 0

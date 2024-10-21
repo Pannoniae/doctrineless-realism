@@ -930,7 +930,7 @@
 	("vehicle"  period(late) year(late) cd(900) ci(10) t(artillery) side(ger) crew(artilleryman:4) g(empl9) b(art) cw(1) cp(26)
 	cost(550))
 }
-{"105mm_lefh18m"
+{"105mm_lefh18_40"
 	("vehicle"  period(late) year(late) cd(900) ci(10) t(artillery) side(ger) crew(artilleryman:4) g(empl9) b(art) cw(1) cp(26)
 	cost(575))
 }
