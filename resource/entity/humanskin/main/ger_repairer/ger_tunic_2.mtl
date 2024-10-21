@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_humanskin/German/ger_tunic_2_gd_var1" }
+	{bump "$/_humanskin/German/ger_tunic_2_gd_var1"}
+	{specular "$/_humanskin/German/ger_tunic_2_gd_var1"}
+	{color "230 230 230 25"}
+	{blend test}
+}

@@ -1,0 +1,16 @@
+;it is too late when i realize this,just need something like this will save tons of work
+{props "trailer" "trailer_heavy"}
+{skeleton
+	{bone "basis"
+		{bone "body"
+			{bone "link1"
+				{matrix34					
+					0 	 0 	 1
+					0 	 1	 0
+					1 	 0 	 0
+					-80.0000 	 0 	 0
+				}
+			}
+		}
+	}
+}

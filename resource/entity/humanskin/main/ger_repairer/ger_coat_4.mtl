@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_humanskin/German/mid/ger_coat_4_gd_win"}
+	{bump "$/_humanskin/German/mid/mid_coat_4_bp"}
+	{specular "$/_humanskin/German/mid/mid_coat_3_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

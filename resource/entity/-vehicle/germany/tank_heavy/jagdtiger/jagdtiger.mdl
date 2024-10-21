@@ -26,6 +26,14 @@
 			}
 			{Position 0 	 0 	 25.5372}
 			{VolumeView "body.ply"}
+			{bone "link1"
+				{matrix34					
+					0 	 0 	 1
+					0 	 1	 0
+					1 	 0 	 0
+					-80.0000 	 0 	 0
+				}
+			}
 			{bone "engine"
 				{parameters "id=engine;"}
 				{animation
@@ -367,7 +375,7 @@
 				{Position -41.2339 	 30.7559 	 1.2899}
 				{VolumeView "shieldl5.ply"}
 			}
-			{bone "headlightr"
+			{bone "fxlight"
 				{matrix34
 					0.9996 	 0 	 -0.0289
 					0 	 1 	 0
@@ -1285,3 +1293,4 @@
 		0 	 0 	 0
 	}
 }
+{props "trailer" "trailer_heavy"}

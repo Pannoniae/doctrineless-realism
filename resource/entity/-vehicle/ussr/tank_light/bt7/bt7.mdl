@@ -23,6 +23,14 @@
 			}
 			{Position -0.4826 	 0 	 19.8218}
 			{VolumeView "body.ply"}
+			{bone "link1"
+				{matrix34					
+					0 	 0 	 1
+					0 	 1	 0
+					1 	 0 	 0
+					-80.0000 	 0 	 0
+				}
+			}
 			{bone revolute "turret"
 				{parameters "id=turret;"}
 				{animation
@@ -1000,3 +1008,4 @@
 	{bone "turret"}
 	{Position -12.2582 	 0 	 8.2557}
 }
+{props "trailer" "trailer_heavy"}

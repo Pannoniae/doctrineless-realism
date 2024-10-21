@@ -1,0 +1,9 @@
+{action
+	{target ground}
+	{button "vehicle/vehicle_repair"}
+	{able_vehicle}
+	{NotifySelect}
+	{instant
+		{effect "vehicle_repairer_spawn"}
+	}
+}

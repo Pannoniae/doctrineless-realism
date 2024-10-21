@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_humanskin/german/ger_equipment1"}
+	{bump "$/_humanskin/german/ger_equipment1"}
+	{specular "$/_humanskin/german/ger_equipment1"}
+	{color "230 230 230 25"}
+	{blend test}
+}
