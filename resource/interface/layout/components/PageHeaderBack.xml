@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <!--
+    Main menu pages header section
+    -->
+    <Content>
+        <StackPanel>
+            <Children>
+                <DockPanel>
+                   <Children>
+                       <!-- <PictureButton id="btn_exit" placement="right">
+                            <Resource value="/interface/skin/game/button/bkg/menu_exit"/>
+                        </PictureButton>-->
+						<FlowPanel direction="horizontal" placement="left">
+							<Children>
+<!-- Uncomment this to show old Options UI button
+								<PictureButton id="btn_menu_options">
+									<Sound value="gui/ui_next_item"/>
+									<Resource value="/interface/skin/game/button/menu_options"/>
+								</PictureButton>
+-->
+<!-- Uncomment this to show new Options UI button
+								<PictureButton id="btn_menu_options_new">
+									<Sound value="gui/ui_next_item"/>
+									<Resource value="/interface/skin/game/button/bkg/menu_options"/>
+								</PictureButton>
+-->
+<!-- Uncomment this to show workshop UI
+								<PictureButton id="btn_menu_workshop">
+									<Sound value="gui/ui_next_item"/>
+									<Resource value="/interface/pages/main/menu_workshop"/>
+								</PictureButton>
+-->
+
+							</Children>
+						</FlowPanel>
+ <!--game version and players counter  <StackPanel  placement="bottom">
+                            <Children>
+                                <FlowPanel halign="left">
+                                    <Insets left="8" bottom="8"/>
+                                    <Children>
+                                        <StaticText id="GAME_VERSION" ><Text value="0.000.0 Alpha" /></StaticText>
+                                    </Children>
+                                </FlowPanel>
+                                <FlowPanel halign="right">
+                                    <Insets right="8"  bottom="8"/>
+                                    <Children>
+                                        <DialogRef refid="online_counter" shared="true"/>
+                                    </Children>
+                                </FlowPanel>
+                            </Children>
+                        </StackPanel>-->
+                    </Children>
+                </DockPanel>
+                <FlowPanel halign="left" gap="2">
+                    <Children>
+                        <FlowPanel direction="horizontal">
+                            <Children>
+                                <MenuNavigationButton id="btn_home">
+                                    <Text key="main_menu2/header_buttons/home"/>
+                                    <Sound value="gui/ui_menu_button"/>
+                                </MenuNavigationButton>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

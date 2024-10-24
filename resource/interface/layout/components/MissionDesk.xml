@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <PercentPanel percent="1">
+            <Children>
+        <FlowPanel direction="vertical" halign="right" valign="center" gap="3" percent="1">
+        <Children>
+        <StackPanel>
+            <Children>
+                <PictureDialog resource="/map/single/header_loading" zoomMode="fit">
+                    <PreferredSize x="900" y="900"/>
+                    <Ables mouse="false"/>
+                    <Children>
+                    <DockPanel hgap="30" placement="center">
+                        <Insets left="245"/>
+                        <Children>
+                            <FlowPanel halign="center" valign="top" gap="10" placement="top" >
+                                <Children>
+                                    <FlowPanel direction="vertical" halign="left">
+                                        <Insets top="150"/>
+                                        <PreferredSize x="460"/>
+                                        <Children>
+                                            <FlowPanel direction="vertical" halign="left" id="caption_area">
+                                                <Children>
+                                                    <StaticText id="mission_title">
+														<TextStyle value="f(roboto_mono)s(30)c(111111)"/>
+                                                        <Insets bottom="5"/>
+                                                    </StaticText>
+                                                    <StaticText id="mission_date">
+														<TextStyle value="f(roboto_mono)s(15)c(111111)"/>
+                                                        <Insets bottom="2"/>
+                                                    </StaticText>
+                                                    <StaticText id="mission_place">
+														<TextStyle value="f(roboto_mono)s(15)c(111111)"/>
+														<Insets bottom="50"/>
+													</StaticText>
+													<WrapText id="mission_story">
+														<TextStyle value="f(roboto_mono)s(15)c(111111)"/>
+													</WrapText>
+                                                </Children>
+                                            </FlowPanel>
+                                        </Children>
+                                    </FlowPanel>
+                                </Children>
+                            </FlowPanel>
+                        </Children>
+                    </DockPanel>
+                    </Children>
+                </PictureDialog>
+            </Children>
+        </StackPanel>
+        </Children>
+        </FlowPanel>
+        <DockPanel>
+        <Children>
+        <PercentPanel direction="horizontal" placement="center" percent="0.1" stretch="true">
+            <Children>
+                <FlowPanel direction="horizontal" halign="center" valign="bottom" gap="20">
+                    <Insets top="20" bottom="40"/>
+                    <MinSize x="500"/>
+                    <Children>
+                        <DialogRef id="progress" refid="gui_mp_loadingstatus"/>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </PercentPanel>
+        </Children>
+        </DockPanel>
+        </Children>
+        </PercentPanel>
+    </Content>
+</Layout>

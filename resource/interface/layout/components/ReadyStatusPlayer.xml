@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <BackgroundPanel backgroundResource="/interface/pages/main/load_gradient_player" sizeMode="fromContent" >
+            <MinSize x="410"/>
+            <Insets all="2"/>
+            <Children>
+                        <FlowPanel direction="horizontal" halign="left" gap="3">
+                            <Children>
+                                <StackPanel>
+                                    <Children>
+                                        <FlowPanel direction="horizontal" halign="left" valign="center" gap="3">
+                                            <Children>
+                                                <FlowPanel halign="left">
+                                                    <Children>
+                                                        <BackgroundPanel backgroundResource="" sizeMode="fromContent">
+                                                            <Children>
+                                                                <PictureDialog id="steam_icon" zoomMode="fit" centerX="true" centerY="true">
+                                                                    <Active value="false"/>
+                                                                    <PreferredSize x="36" y="36"/>
+                                                                </PictureDialog>
+                                                            </Children>
+                                                        </BackgroundPanel>
+                                                    </Children>
+                                                </FlowPanel>
+                                                <FlowPanel halign="center" valign="center">
+                                                    <Children>
+                                                        <PictureDialog id="flag" zoomMode="fit" centerX="true">
+                                                            <PreferredSize y="32" x="42"/>
+                                                            <Active value="false"/>
+                                                        </PictureDialog>
+                                                    </Children>
+                                                </FlowPanel>
+
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </StackPanel>
+                                <FlowPanel  halign="left" valign="center">
+                                    <MinSize x="175"/>
+                                    <Children>
+                                        <UserNameView id="name" clanTag="true">
+                                            <TextStyle value="s(15)f(anka)"/>
+                                            <TextClip value="true" showHint="true"/>
+                                        </UserNameView>
+                                    </Children>
+                                </FlowPanel>
+                                <FlowPanel halign="right" valign="center">
+                                    <PreferredSize y="40" x="40"/>
+                                    <Children>
+                                        <StackPanel id="squad_logo"/>
+                                    </Children>
+                                </FlowPanel>
+                                <FlowPanel halign="right" valign="center" >
+                                    <PreferredSize  x="70"/>
+                                    <Children>
+                                        <FlowPanel direction="horizontal" valign="center" placement="right" gap="3" >
+                                            <Children>
+                                                <PictureDialog id="ready" resource="/interface/pages/multi/state_ready_no_anim" centerY="true" placement="right" />
+                                                <StaticText id="status" placement="right" >
+                                                    <TextStyle value="s(21)b+c(200 200 200)f(pobeda)e(shadow)" />
+                                                </StaticText>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </FlowPanel>
+                                <MenuButton id="kick" centerX="true" placement="right" centerY="true"  >
+                                    <Text key="mp/lobby2/button/kick" textFormat="e(shadow)"/>
+                                    <Hint key="mp/lobby/hint/kick"/>
+                                </MenuButton>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+        </BackgroundPanel>
+    </Content>
+</Layout>

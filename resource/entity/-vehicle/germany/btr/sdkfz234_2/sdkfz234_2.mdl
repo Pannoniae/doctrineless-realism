@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 16.12.2022 10:29:34
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\btr\Sdkfz 234_2\Sdkfz 234_2 Puma.max
+;Date:			 23.09.2023 09:56:16
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger_updated\vehicles\btr\Sdkfz 234_2\Sdkfz 234_2 Puma.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.5}}
@@ -251,12 +251,7 @@
 							{Position 18.126 	 -0.7414 	 0.0722}
 							{VolumeView "gun.ply"}
 							{bone "foresight1"
-								{matrix34
-									0.9999 	 0.0089 	 0.0073
-									-0.0073 	 0 	 1
-									0.0089 	 -1 	 0
-									30.7484 	 1.37 	 -0.06
-								}
+								{Position 30.7484 	 1.37 	 -0.06}
 							}
 						}
 						{bone "foresight5"

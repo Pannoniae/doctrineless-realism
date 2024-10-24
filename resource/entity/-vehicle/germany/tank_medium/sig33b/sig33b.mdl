@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 17.11.2022 12:59:24
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\sig33b\sig33b_export.max
+;Exported by:	 TigerF
+;Date:			 29.03.2023 22:34:05
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\sig33b\sig33b_export.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -235,7 +235,7 @@
 				}
 			}
 			{bone "engine"
-				{parameters "id=body;"}
+				{parameters "id=engine;"}
 				{animation
 					{sequence "repair" {file "engine_r.anm"}{speed 0.7}}
 				}
@@ -825,6 +825,11 @@
 		-8.6181 	 -1.2066 	 0.0325
 	}
 }
+{volume "engine1"
+	{polyhedron "engine1.vol"}
+	{bone "engine"}
+	{Position -16.5304 	 0.0075 	 2.1308}
+}
 {volume "engine"
 	{polyhedron "engine.vol"}
 	{bone "engine"}
@@ -844,6 +849,11 @@
 	{polyhedron "hole2.vol"}
 	{bone "wheelsr"}
 	{Position -2.2698 	 -2.3407 	 -8.953}
+}
+{volume "rear_box"
+	{polyhedron "rear_box.vol"}
+	{bone "rear_box"}
+	{Position 0.0014 	 0.0743 	 1.7701}
 }
 {volume "trackleft1"
 	{cylinder 7.70174 6.23255}

@@ -1,5 +1,5 @@
 ;Exported by:	 TigerF
-;Date:			 25.10.2022 20:03:13
+;Date:			 29.06.2023 13:54:42
 ;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\tank_light\Marder3M\Marder 3M.max
 {skeleton
 	{animation
@@ -699,7 +699,7 @@
 	{bone "ammo2"}
 	{Position 0 	 0 	 7.5038}
 }
-{volume "barrel2"
+{volume "barrel1"
 	{box 41.5646 3.92342 5.08734}
 	{bone "gun_rot"}
 	{matrix34
@@ -709,7 +709,7 @@
 		-2.2809 	 -4.668 	 0.5376
 	}
 }
-{volume "barrel"
+{volume "barrel2"
 	{cylinder 2.09923 69.5653}
 	{bone "gun"}
 	{matrix34
@@ -828,11 +828,6 @@
 	{box 23.0212 5.87063 11.1264}
 	{bone "fuel"}
 	{Position 0 	 0 	 5.5632}
-}
-{volume "gun_shield"
-	{polyhedron "gun_shield.vol"}
-	{bone "turret"}
-	{Position 0.8178 	 0.0021 	 -9.5349}
 }
 {volume "hole1"
 	{polyhedron "hole1.vol"}
@@ -1068,5 +1063,10 @@
 	{polyhedron "tshield7.vol"}
 	{bone "body"}
 	{Position -12.0138 	 -13.9293 	 19.9797}
+}
+{volume "turret1"
+	{polyhedron "turret1.vol"}
+	{bone "turret"}
+	{Position 0.8178 	 0.0021 	 -9.5349}
 }
 {props "trailer" "trailer_heavy"}

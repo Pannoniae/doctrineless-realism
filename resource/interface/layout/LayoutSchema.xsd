@@ -1,0 +1,1017 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xa="http://www.w3.org/2001/XMLSchema" xmlns:Xs="http://www.w3.org/2001/XMLSchema"
+        elementFormDefault="qualified"
+        xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        targetNamespace="http://www.digitalmindsoft.eu/xmllayout">
+
+    <!--
+    <xs:import schemaLocation="LayoutSchema_custom.xsd" />
+    -->
+
+    <!-- Resource file. Always starts with forward slash '/' -->
+    <xs:simpleType name="ResourceName">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+
+    <!-- Absolute file name -->
+    <xs:simpleType name="FileName">
+        <xs:restriction base="xs:string" />
+    </xs:simpleType>
+
+    <xs:complexType name="PropertyType" mixed="true">
+    </xs:complexType>
+
+    <xs:simpleType name="LocationConstant">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="begin"/>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="end"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="LocationValue">
+        <xs:restriction base="xs:short" />
+    </xs:simpleType>
+
+    <xs:complexType name="SizeType">
+        <xs:attribute name="x" default="0"/>
+        <xs:attribute name="y" default="0"/>
+        <xs:attribute name="scaleFactor" default="0.0" type="xs:float" />
+    </xs:complexType>
+
+    <xs:complexType name="LocationType">
+        <xs:attribute name="x" default="0">
+            <xs:simpleType>
+                <xs:union memberTypes="LocationValue LocationConstant" />
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="y" default="0">
+            <xs:simpleType>
+                <xs:union memberTypes="LocationValue LocationConstant" />
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <!-- properties that take Dialogs as parameters -->
+    <xs:complexType name="DialogContentType">
+        <xs:sequence maxOccurs="1">
+            <xs:element ref="AbstractDialog" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:attributeGroup name="DetailedRect">
+        <xs:attribute type="xs:short" name="left"/>
+        <xs:attribute type="xs:short" name="top"/>
+        <xs:attribute type="xs:short" name="right"/>
+        <xs:attribute type="xs:short" name="bottom"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="SimpleRect">
+        <xs:attribute type="xs:short" name="all" />
+    </xs:attributeGroup>
+
+    <xs:complexType name="RectType">
+        <xs:attributeGroup ref="DetailedRect" />
+        <xs:attributeGroup ref="SimpleRect" />
+    </xs:complexType>
+
+
+    <xs:simpleType name="ScrollPolicyType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="default"/>
+            <xs:enumeration value="never"/>
+            <xs:enumeration value="always"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="KeyValueType">
+        <xs:complexContent>
+            <xs:extension base="PropertyType">
+                <xs:attribute type="xs:string" name="key"/>
+                <xs:attribute type="xs:string" name="value"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="LocalStringPropertyType">
+        <xs:complexContent>
+            <xs:extension base="KeyValueType">
+                <xs:attribute name="textFormat" type="xs:string">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Provides additional features of text formatting.
+                            Custom format will be added to result string.
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="textTransform">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Provides additional features of text formatting.
+                            Supported values: toUpper, toLower, trim, removeFormat
+                        </xs:documentation>
+                    </xs:annotation>
+                    <xs:simpleType>
+                        <xs:list itemType="xs:string" />
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="FlagType">
+        <xs:attribute name="value" type="xs:boolean" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="IntegerValueType">
+        <xs:attribute name="value" type="xs:integer" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="StringValueType">
+        <xs:attribute name="value" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="ResourceValueType">
+        <xs:attribute name="value" type="ResourceName" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="SkinnerType">
+        <xs:attribute name="value" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="dark"/>
+                    <xs:enumeration value="light"/>
+                    <xs:enumeration value="light2"/>
+                    <xs:enumeration value="light3"/>
+                    <xs:enumeration value="black"/>
+                    <xs:enumeration value="menutab"/>
+                    <xs:enumeration value="menustart"/>
+                    <xs:enumeration value="menuinputline"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:simpleType name="PlacementType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="top"/>
+            <xs:enumeration value="left"/>
+            <xs:enumeration value="right"/>
+            <xs:enumeration value="bottom"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ZoomModeType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="no"/>
+            <xs:enumeration value="fill"/>
+            <xs:enumeration value="fit"/>
+            <xs:enumeration value="stretch"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="PercentType">
+        <xs:restriction base="xs:float">
+            <xs:minInclusive value="0.0"/>
+            <xs:maxInclusive value="1.0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--  ###### basic type declaration ###### -->
+
+    <xs:complexType name="DialogChildrenType">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element ref="AbstractDialog" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="DialogType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Visible" type="FlagType" minOccurs="0"/>
+            <xs:element name="Enable" type="FlagType" minOccurs="0"/>
+            <xs:element name="Active" type="FlagType" minOccurs="0"/>
+            <xs:element name="Buffered" type="FlagType" minOccurs="0"/>
+            <xs:element name="Alphabuffer" type="FlagType" minOccurs="0"/>
+            <xs:element name="Text" type="LocalStringPropertyType" minOccurs="0"/>
+            <xs:element name="Hint" type="LocalStringPropertyType" minOccurs="0"/>
+            <xs:element name="PreferredSize" type="SizeType" minOccurs="0"/>
+            <xs:element name="Size" type="SizeType" minOccurs="0"/>
+            <xs:element name="Location" type="LocationType" minOccurs="0"/>
+            <xs:element name="MinSize" type="SizeType" minOccurs="0"/>
+            <xs:element name="MaxSize" type="SizeType" minOccurs="0"/>
+            <xs:element name="Insets" type="RectType" minOccurs="0" />
+            <xs:element name="Skinner" type="SkinnerType" minOccurs="0"/>
+            <xs:element name="Background" type="FlagType" minOccurs="0"/>
+            <xs:element name="Ables" minOccurs="0">
+                <xs:complexType>
+                    <xs:attribute type="xs:boolean" name="keyboard"/>
+                    <xs:attribute type="xs:boolean" name="autorepeat"/>
+                    <xs:attribute type="xs:boolean" name="mouse"/>
+                    <xs:attribute type="xs:boolean" name="drag"/>
+                    <xs:attribute type="xs:boolean" name="scroll"/>
+					<xs:attribute type="xs:boolean" name="block_blur"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Children" type="DialogChildrenType" minOccurs="0"/>
+        </xs:choice>
+        <xs:attribute name="id" type="xs:string"/>
+        <xs:attribute name="name" type="xs:string"/>
+        <xs:attribute name="skin" type="xs:string"/>
+        <xs:attribute name="placement" type="PlacementType"/>
+        <xs:attribute name="percent" type="PercentType"/>
+        <xs:attribute name="layout">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="none"/>
+                    <xs:enumeration value="stack"/>
+                    <xs:enumeration value="flow"/>
+                    <xs:enumeration value="dock"/>
+                    <xs:enumeration value="grid"/>
+                    <xs:enumeration value="wrap"/>
+                    <xs:enumeration value="percent"/>
+                    <xs:enumeration value="raster"/>
+                    <xs:enumeration value="overlay"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="enableif" type="xs:string"/>
+        <xs:anyAttribute />
+    </xs:complexType>
+
+    <!--  ###### specific type declaration ###### -->
+
+    <xs:complexType name="ButtonType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="Sound" type="StringValueType" minOccurs="0"/>
+                </xs:choice>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="FadeDialogType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:attribute name="opacity" type="PercentType"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+  <xs:complexType name="BlurDialogType">
+    <xs:complexContent>
+      <xs:extension base="DialogType">
+        <xs:attribute name="use_parent_window_size" type="xs:boolean"/>
+		<xs:attribute name="use_parent_client_area_size" type="xs:boolean"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+    <xs:complexType name="ScrollPaneType">
+       <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:sequence>
+                    <xs:element name="HeaderView" type="DialogChildrenType" minOccurs="0"/>
+                    <xs:element name="ColumnView" type="DialogChildrenType" minOccurs="0"/>
+                    <xs:element name="ScrollBars" minOccurs="0">
+                        <xs:complexType>
+                            <xs:attribute name="horizontal" type="ScrollPolicyType"/>
+                            <xs:attribute name="vertical" type="ScrollPolicyType"/>
+                            <xs:attribute name="horizontalSpeed" type="xs:positiveInteger" default="32" />
+                            <xs:attribute name="verticalSpeed" type="xs:positiveInteger" default="32"/>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="StepScrollPaneType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:attribute name="upButtonResource" type="ResourceName"/>
+                <xs:attribute name="downButtonResource" type="ResourceName"/>
+                <xs:attribute name="scrollStep" type="xs:positiveInteger" default="1"/>
+                <xs:attribute name="gap" type="xs:nonNegativeInteger" default="0"/>
+                <xs:attribute name="buttonHeight" type="xs:nonNegativeInteger" default="0"/>
+                <xs:attribute name="visibleElements" type="xs:integer" default="4"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="PictureButtonType">
+        <xs:complexContent>
+            <xs:extension base="ButtonType">
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="Resource" type="StringValueType" minOccurs="0"/>
+                </xs:choice>
+                <xs:attribute name="zoomMode" type="ZoomModeType"/>
+                <xs:attribute name="centerX" type="xs:boolean"/>
+                <xs:attribute name="centerY" type="xs:boolean"/>
+                <xs:attribute name="filtering" type="xs:boolean"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="FrameButtonType">
+      <xs:complexContent>
+        <xs:extension base="ButtonType">
+          <xs:choice minOccurs="1" maxOccurs="1">
+            <xs:element name="Resource">
+              <xs:complexType>
+                <xs:attribute name="value" use="required" type="xs:string"/>
+                <xs:attribute name="tileMode" use="optional">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:enumeration value="full"/>
+                      <xs:enumeration value="simple"/>
+                      <xs:enumeration value="single"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="LargeFrameButtonType">
+        <xs:complexContent>
+            <xs:extension base="FrameButtonType">
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="Description" type="KeyValueType" minOccurs="0"/>
+                </xs:choice>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="AnimatedPictureButtonType">
+        <xs:complexContent>
+            <xs:extension base="PictureButtonType">
+                <xs:sequence maxOccurs="unbounded">
+                    <xs:element name="BackgroundResource" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:attribute name="on" use="required">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="unpressed"/>
+                                        <xs:enumeration value="pressed"/>
+                                        <xs:enumeration value="focused"/>
+                                        <xs:enumeration value="disabled"/>
+                                        <xs:enumeration value="default"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:attribute>
+                            <xs:attribute name="value" type="xs:string" use="required" />
+                            <xs:attribute name="fx" type="xs:string" />
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="TextButtonType">
+        <xs:complexContent>
+            <xs:extension base="ButtonType">
+                <xs:sequence maxOccurs="unbounded">
+                    <xs:element name="TextFrame" type="FlagType" minOccurs="0"/>
+                    <xs:element name="TextClip" type="FlagType" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="LinkButtonType">
+        <xs:complexContent>
+            <xs:extension base="ButtonType">
+                <xs:sequence maxOccurs="unbounded">
+                    <xs:element name="Url" type="StringValueType" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="CheckBoxType">
+        <xs:complexContent>
+            <xs:extension base="ButtonType">
+                <xs:attribute name="centerX" type="xs:boolean"/>
+                <xs:attribute name="centerY" type="xs:boolean"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="MenuButtonType">
+        <xs:complexContent>
+            <xs:extension base="PictureButtonType">
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="Tile" type="FlagType" minOccurs="0"/>
+                </xs:choice>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="LargeMenuButtonType">
+        <xs:complexContent>
+            <xs:extension base="MenuButtonType">
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="Description" type="KeyValueType" minOccurs="0"/>
+                </xs:choice>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="DialogRefType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:sequence>
+                    <xs:any processContents="lax" minOccurs="0" maxOccurs="unbounded" />
+                    <xs:element name="Children" minOccurs="0" type="DialogChildrenType" />
+                </xs:sequence>
+                <xs:attribute name="refid" type="xs:string"/>
+                <xs:attribute name="resource" type="xs:string"/>
+                <xs:attribute name="shared">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="true"/>
+                            <xs:enumeration value="false"/>
+                            <xs:enumeration value="global"/>
+                            <xs:enumeration value="scene"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="StaticTextType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="TextStyle" type="KeyValueType" minOccurs="0"/>
+                    <xs:element name="TextClip" minOccurs="0">
+                        <xs:complexType>
+                            <xs:attribute name="value" type="xs:boolean" />
+                            <xs:attribute name="showHint" type="xs:boolean" />
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+	
+    <xs:complexType name="WrapTextType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="TextStyle" type="KeyValueType" minOccurs="0"/>
+                </xs:choice>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="UserNameViewType">
+        <xs:complexContent>
+            <xs:extension base="StaticTextType">
+                <xs:attribute name="format" type="xs:string"/>
+                <xs:attribute name="clanTag" type="xs:boolean"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="SquadLogoViewType">
+        <xs:complexContent>
+            <xs:extension base="DialogType"/>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="ItemBackgroundType">
+        <xs:complexContent>
+            <xs:extension base="PictureDialogType"/>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="PictureDialogType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:attribute name="resource" type="xs:string"/>
+                <xs:attribute name="resourceFx" type="xs:string"/>
+                <xs:attribute name="zoomMode" type="ZoomModeType"/>
+                <xs:attribute name="tile" type="xs:boolean"/>
+                <xs:attribute name="centerX" type="xs:boolean"/>
+                <xs:attribute name="centerY" type="xs:boolean"/>
+                <xs:attribute name="filtering" type="xs:boolean"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="InputLineType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:sequence>
+                    <xs:element name="Validator" type="xs:string" minOccurs="0" maxOccurs="0" />
+                    <xs:element name="Password" type="FlagType" minOccurs="0"/>
+                    <xs:element name="MaxTextLength" minOccurs="0" type="IntegerValueType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="WebViewType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:attribute name="url" type="xs:anyURI" />
+                <xs:attribute name="resource" type="xs:string" />
+                <xa:attribute name="debug" type="xs:boolean" default="false" />
+                <xs:attribute name="scrollSpeedPixels" type="xs:positiveInteger" />
+                <xs:attribute name="displayLoadingProgress" type="xs:boolean" />
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="FrameViewType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="HeaderContent" type="DialogChildrenType" minOccurs="0"/>
+                    <xs:element name="Content" type="DialogChildrenType" minOccurs="0"/>
+                </xs:choice>
+                <xs:attribute name="resource" type="xs:string" use="required"/>
+                <xs:attribute name="top" type="xs:boolean"/>
+                <xs:attribute name="left" type="xs:boolean"/>
+                <xs:attribute name="right" type="xs:boolean"/>
+                <xs:attribute name="bottom" type="xs:boolean"/>
+                <xs:attribute name="top_left" type="xs:boolean"/>
+                <xs:attribute name="top_right" type="xs:boolean"/>
+                <xs:attribute name="bottom_left" type="xs:boolean"/>
+                <xs:attribute name="bottom_right" type="xs:boolean"/>
+                <xs:attribute name="client" type="xs:boolean"/>
+                <xs:attribute name="header" type="xs:boolean"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="ListBoxType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="AutoScroll" type="FlagType" minOccurs="0"/>
+                    <xs:element name="Items" minOccurs="0">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="Item" type="KeyValueType" minOccurs="0" maxOccurs="unbounded"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+                <xs:attribute type="xs:short" name="itemHeight"/>
+                <xs:attribute type="xs:boolean" name="slidered"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="LayoutType">
+        <xs:all>
+            <xs:element name="Properties" minOccurs="0">
+              <xs:complexType>
+                <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                    <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Content">
+                <xs:complexType>
+                    <xs:choice>
+                        <xs:element ref="AbstractDialog" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:choice>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Fragments" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="Fragment" >
+                            <xs:complexType>
+                                <xs:choice>
+                                    <xs:element ref="AbstractDialog" minOccurs="1" maxOccurs="1" />
+                                </xs:choice>
+                                <xs:attribute name="id" use="required" />
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:all>
+        <xs:attribute name="id" type="xs:ID"/>
+        <xs:attribute name="skin" type="xs:string"/>
+        <xs:attribute name="version" type="xs:integer" use="required"/>
+    </xs:complexType>
+
+    <!-- A generic Panel type -->
+    <xs:complexType name="PanelType">
+        <xs:complexContent>
+            <xs:extension base="DialogType"/>
+        </xs:complexContent>
+    </xs:complexType>
+
+
+    <!--  A Panel with fixed layout -->
+    <xs:complexType name="PanelSubType" abstract="true">
+        <xs:complexContent>
+            <xs:extension base="PanelType">
+                <!-- The 'layout' attribute is ignored, because the value of 'prohibited' for attribute use only
+                prevents inheritance of an identically named attribute from the base type definition. -->
+                <!-- https://connect.microsoft.com/VisualStudio/feedback/details/362622/vs-2008-dissallow-intellisense-for-xsd-where-attribute-has-used-use-prohibited -->
+                <!-- <xs:attribute name="layout" use="prohibited" />-->
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <!-- Specific Panel implementation with Stack layout -->
+    <xs:complexType name="StackPanelType">
+        <xs:complexContent>
+            <xs:extension base="PanelSubType"/>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <!-- Stack panel with background -->
+    <xs:complexType name="BackgroundPanelType">
+        <xs:complexContent>
+            <xs:extension base="StackPanelType">
+                <xs:attribute name="zoomMode" type="ZoomModeType"/>
+                <xs:attribute name="backgroundResource" type="xs:string"/>
+                <xs:attribute name="backgroundColor" type="xs:string"/>
+                <!--<xs:assert test="(@backgroundColor and not(@backgroundResource)) or (not(@backgroundColor) and @backgroundResource)"/>-->
+                <xs:attribute name="sizeMode">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="fromResource"/>
+                            <xs:enumeration value="fromContent"/>
+                            <xs:enumeration value="fromParent"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="ScrollableContentType">
+        <xs:complexContent>
+            <xs:extension base="StackPanelType">
+                <xs:attribute name="trackWidth" type="xs:boolean" default="true"/>
+                <xs:attribute name="trackHeight" type="xs:boolean" default="false"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="AvatarViewType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:attribute name="mode">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="button"/>
+                            <xs:enumeration value="picture"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="avatarSize">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="small"/>
+                            <xs:enumeration value="medium"/>
+                            <xs:enumeration value="large"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="ProgressBarType">
+        <xs:complexContent>
+            <xs:extension base="DialogType">
+                <xs:sequence minOccurs="0">
+                    <xs:element name="Value">
+                        <xs:complexType>
+                            <xs:attribute name="current" type="xs:float" use="required" />
+                            <xs:attribute name="max" type="xs:float" use="required" />
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+                <xs:attribute name="resource" type="xs:string"/>
+                <xs:attribute name="direction" type="Direction"/>
+                <xs:attribute name="color" type="xs:string"/>
+                <xs:attribute name="backgroundColor" type="xs:string"/>
+                <xs:attribute name="type">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="left_to_right"/>
+                            <xs:enumeration value="right_to_left"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="ComboBoxType">
+        <xs:complexContent>
+            <xs:extension base="DialogType"/>
+        </xs:complexContent>
+    </xs:complexType>
+
+
+    <xs:complexType name="DockPanelType">
+        <xs:complexContent>
+            <xs:extension base="PanelSubType">
+                <xs:attribute name="vgap" type="xs:short"/>
+                <xs:attribute name="hgap" type="xs:short"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:simpleType name="Direction">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="vertical"/>
+            <xs:enumeration value="horizontal"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="AlignmentVertical">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="top"/>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="bottom"/>
+            <xs:enumeration value="stretch"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="AlignmentHorizontal">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="left"/>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="right"/>
+            <xs:enumeration value="stretch"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="FlowPanelType">
+        <xs:complexContent>
+            <xs:extension base="PanelSubType">
+                <xs:attribute name="direction" type="Direction" />
+                <xs:attribute name="valign" type="AlignmentVertical"/>
+                <xs:attribute name="halign" type="AlignmentHorizontal"/>
+                <xs:attribute name="gap" type="xs:short"/>
+                <xs:attribute name="justify" type="xs:boolean"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="GridPanelType">
+        <xs:complexContent>
+            <xs:extension base="PanelSubType">
+                <xs:attribute name="rows" type="xs:short"/>
+                <xs:attribute name="cols" type="xs:short"/>
+                <xs:attribute name="vgap" type="xs:short"/>
+                <xs:attribute name="hgap" type="xs:short"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType> 
+
+    <xs:complexType name="WrapPanelType">
+        <xs:complexContent>
+            <xs:extension base="PanelSubType">
+                <xs:attribute name="vgap" type="xs:short"/>
+                <xs:attribute name="hgap" type="xs:short"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+     <xs:complexType name="ScrollableWrapPanelType">
+        <xs:complexContent>
+            <xs:extension base="PanelSubType">
+                <xs:attribute name="vgap" type="xs:short"/>
+                <xs:attribute name="hgap" type="xs:short"/>
+                <xs:attribute name="trackWidth" type="xs:boolean" default="false"/>
+                <xs:attribute name="trackHeight" type="xs:boolean" default="false"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="PercentPanelType">
+        <xs:complexContent>
+            <xs:extension base="PanelSubType">
+                <xs:attribute name="direction" type="Direction"/>
+                <xs:attribute name="gap" type="xs:short"/>
+                <xs:attribute name="stretch" type="xs:boolean"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="RelativePanelType">
+        <xs:complexContent>
+            <xs:extension base="PanelSubType">
+                <xs:attribute name="valign" type="AlignmentVertical"/>
+                <xs:attribute name="halign" type="AlignmentHorizontal"/>
+                <xs:attribute name="vpercent" type="xs:float"/>
+                <xs:attribute name="hpercent" type="xs:float"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="TabPanelType">
+        <xs:complexContent>
+            <xs:extension base="PanelSubType">
+                <xs:sequence>
+                    <xs:element name="HeaderHeight" minOccurs="0" type="IntegerValueType" />
+                    <xs:choice minOccurs="0" maxOccurs="1">
+                        <xs:element name="Header" minOccurs="0" maxOccurs="1">
+                            <xs:complexType>
+                                <xs:attribute name="height" type="xs:integer" />
+                                <xs:attribute name="buttonsGap" type="xs:integer" />
+                                <xs:attribute name="insets" type="xs:string" />
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="ScrollableHeader" minOccurs="0" maxOccurs="1">
+                            <xs:complexType>
+                                <xs:attribute name="height" type="xs:integer" />
+                                <xs:attribute name="buttonsGap" type="xs:integer" />
+                                <xs:attribute name="buttonWidth" type="xs:boolean" />
+                                <xs:attribute name="buttonResourcePath" type="ResourceName" />
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:choice>
+                    <xs:element name="Tab" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence maxOccurs="1">
+                                <xs:element ref="AbstractDialog"/>
+                            </xs:sequence>
+                            <xs:attribute name="id" type="xs:string"/>
+                            <xs:attribute name="titleKey" type="xs:string"/>
+                            <xs:attribute name="titleValue" type="xs:string"/>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ExtraDialog" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence maxOccurs="1">
+                                <xs:element ref="AbstractDialog" />
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="CustomButton" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence maxOccurs="1">
+                                <xs:element ref="AbstractDialog" />
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Selected" minOccurs="0" type="IntegerValueType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="CardPanelType">
+        <xs:complexContent>
+            <xs:extension base="PanelSubType">
+                <xs:sequence>
+                    <xs:element name="Card" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence maxOccurs="1">
+                                <xs:element ref="AbstractDialog" />
+                            </xs:sequence>
+                            <xs:attribute name="id" type="xs:string" use="required"/>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="FramedTabPanelType">
+        <xs:complexContent>
+            <xs:extension base="TabPanelType">
+                <xs:attribute name="resource" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:element name="SceneMenuPanel" substitutionGroup="AbstractDialog">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="FlowPanelType">
+                    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="Item">
+                            <xs:complexType>
+                                <xs:attribute name="action" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="itemSize" type="xs:positiveInteger"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="SceneGameFrontBar" substitutionGroup="AbstractDialog">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="DialogType">
+                    <xs:attribute name="cellSize" type="xs:positiveInteger"/>
+                    <xs:attribute name="cellCount" type="xs:positiveInteger"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="SceneGameActionBar" substitutionGroup="AbstractDialog">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="DialogType">
+                    <xs:sequence>
+                        <xs:element name="GridSize">
+                            <xs:complexType>
+                                <xs:attribute name="x" default="3"/>
+								<xs:attribute name="y" default="3"/>
+                            </xs:complexType>
+						</xs:element>
+                    </xs:sequence>
+					<xs:attribute name="cellSize" type="xs:positiveInteger"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <!--  ###### define child dialog elements ###### -->
+
+    <xs:element name="AbstractDialog" type="DialogType" abstract="true"/>
+    <xs:element name="AbstractButton" type="ButtonType" substitutionGroup="AbstractDialog" abstract="true"/>
+    <xs:element name="AbstractPanel" type="PanelType" substitutionGroup="AbstractDialog" abstract="true"/>
+    <xs:element name="AbstractSubPanel" type="PanelSubType" substitutionGroup="AbstractDialog" abstract="true"/>
+
+    <xs:element name="Dialog" type="DialogType" substitutionGroup="AbstractDialog" />
+    <xs:element name="Button" type="ButtonType" substitutionGroup="AbstractDialog" />
+    <xs:element name="PictureButton" type="PictureButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="PictureStateButton" type="PictureButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="AnimatedBackgroundButton" type="AnimatedPictureButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="TextButton" type="TextButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="CheckBox" type="CheckBoxType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="MenuButton" type="MenuButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="MenuTextButton" type="TextButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="MenuLinkButton" type="LinkButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="MenuNavigationButton" type="MenuButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="MarketNavigationButton" type="MenuButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="SmallMenuButton" type="MenuButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="MediumMenuButton" type="MenuButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="LargeMenuButton" type="LargeMenuButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="MenuRadioButton" type="MenuButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="LargeMenuRadioButton" type="MenuButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="MediumMenuRadioButton" type="MenuButtonType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="DialogRef" type="DialogRefType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="StaticText" type="StaticTextType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="WrapText" type="WrapTextType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="UserNameView" type="UserNameViewType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="SquadLogoView" type="SquadLogoViewType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="ItemBackground" type="ItemBackgroundType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="PictureDialog" type="PictureDialogType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="ClickablePictureDialog" type="PictureDialogType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="AvatarView" type="AvatarViewType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="InputLine" type="InputLineType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="MenuInputBox" type="InputLineType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="FrameView" type="FrameViewType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="ListBox" type="ListBoxType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="MultiSelectListBox" type="ListBoxType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="Panel" type="PanelType" substitutionGroup="AbstractDialog" />
+    <xs:element name="BackgroundPanel" type="BackgroundPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="StackPanel" type="StackPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="DockPanel" type="DockPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="FlowPanel" type="FlowPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="GridPanel" type="GridPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="WrapPanel" type="WrapPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="ScrollableWrapPanel" type="ScrollableWrapPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="PercentPanel" type="PercentPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="RelativePanel" type="RelativePanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="CardPanel" type="CardPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="ProgressBar" type="ProgressBarType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="ComboBox" type="ComboBoxType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="TabPanel" type="TabPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="FramedTabPanel" type="FramedTabPanelType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="FadeDialog" type="FadeDialogType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="BlurDialog" type="BlurDialogType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="ScrollPane" type="ScrollPaneType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="StepScrollPane" type="StepScrollPaneType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="ScrollableContent" type="ScrollableContentType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="WebView" type="WebViewType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="WebBrowser" type="WebViewType" substitutionGroup="AbstractDialog"/>
+    <xs:element name="FrameButton" type="FrameButtonType" substitutionGroup="AbstractDialog"/>	
+    <xs:element name="LargeFrameButton" type="LargeFrameButtonType" substitutionGroup="AbstractDialog"/>
+
+    <!--  ###### define root element data ###### -->
+
+    <xs:element name="Layout" type="LayoutType" final="#all"/>
+
+</xs:schema>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1"
+        skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <DockPanel>
+                    <Children>
+                        <StackPanel placement="center">
+                            <Insets all="25"/>
+                            <Children>
+                                <PercentPanel stretch="true" direction="horizontal" gap="8">
+                                    <MaxSize x="2184" y="1300" />
+                                    <Children>
+                                        <FrameView percent="1.0" resource="/interface/skin/game/frame/window5" header="false">
+                                            <Content>
+                                                <PercentPanel>
+                                                    <Insets all="25"/>
+                                                         <Children>
+                                                            <StackPanel placement="center" percent="0.5">
+                                                                <Children>
+                                                                    <DockPanel vgap="10">
+                                                                        <Children>
+                                                                            <ScrollPane placement="center">
+                                                                                <Children>
+                                                                                    <ScrollableContent>
+                                                                                        <Children>
+                                                                                            <FlowPanel id="mod_items_area" direction="vertical" halign="stretch" gap="10" justify="false">
+                                                                                                <Insets left="5" top="10" bottom="10" right="5" />
+                                                                                                <Children>
+                                                                                                    <!-- items here -->
+                                                                                                </Children>
+                                                                                            </FlowPanel>
+                                                                                        </Children>
+                                                                                    </ScrollableContent>
+                                                                                </Children>
+                                                                            </ScrollPane>
+                                                                            <StackPanel placement="bottom" id="mod_changed_area" skin="main_menu_dark_skin_small">
+                                                                                <Children>
+                                                                                    <BackgroundPanel backgroundResource="/interface/skin/game/frame/window_single/halo_bkg_line" placement="center" zoomMode="stretch"/>
+                                                                                    <DockPanel>
+                                                                                        <Children>
+                                                                                            <FlowPanel placement="center" direction="vertical" halign="left">
+                                                                                                <Insets all="5"/>
+                                                                                                <Children>
+                                                                                                    <StaticText>
+                                                                                                        <Text key="options/workshop/mod_changed_1"/>
+                                                                                                    </StaticText>
+                                                                                                    <StaticText>
+                                                                                                        <Text key="options/workshop/mod_changed_2" />
+                                                                                                    </StaticText>
+                                                                                                </Children>
+                                                                                            </FlowPanel>
+                                                                                            <FlowPanel direction="horizontal" valign="center" halign="right" placement="right" justify="false" gap="2">
+                                                                                                <Insets all="15"/>
+                                                                                                <Children>
+                                                                                                    <TextButton id="mod_changed_apply">
+                                                                                                        <Text key="options/workshop/mod_apply" textTransform="toUpper" />
+                                                                                                        <TextFrame value="false"/>
+                                                                                                    </TextButton>
+                                                                                                    <TextButton id="mod_changed_reset">
+                                                                                                        <Text key="options/workshop/mod_reset" textTransform="toUpper" />
+                                                                                                        <TextFrame value="false"/>
+                                                                                                    </TextButton>
+                                                                                                </Children>
+                                                                                            </FlowPanel>
+                                                                                            <!--<PercentPanel percent="0.3" stretch="true" gap="8">
+                                                                                                <Children>
+                                                                                                    <DockPanel percent="1" vgap="8">
+                                                                                                        <Children>
+                                                                                                            <ClickablePictureDialog id="btn_logo" resource="/interface/pages/main/mods_header.dds" zoomMode="fit" centerX="true" centerY="true" placement="center">
+                                                                                                                <MaxSize x="650" y="650" />
+                                                                                                                <Ables mouse="false"/>
+                                                                                                            </ClickablePictureDialog>
+                                                                                                        </Children>
+                                                                                                    </DockPanel>
+                                                                                                </Children>
+                                                                                            </PercentPanel>-->
+                                                                                        </Children>
+                                                                                    </DockPanel>
+                                                                                </Children>
+                                                                            </StackPanel>
+                                                                        </Children>
+                                                                    </DockPanel>
+                                                                </Children>
+                                                            </StackPanel>
+                                                    </Children>
+                                                </PercentPanel>
+                                            </Content>
+                                        </FrameView>
+                                        <DockPanel percent="0.3" vgap="8">
+                                            <Children>
+                                                <DialogRef resource="components/PageSideWorkshop.xml" placement="center"  />
+                                            </Children>
+                                        </DockPanel>
+
+                                    </Children>
+                                </PercentPanel>
+                            </Children>
+                        </StackPanel>
+
+                    </Children>
+                </DockPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>
+
+

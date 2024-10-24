@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 01.05.2022 15:44:21
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\pz3\pz3h.max
+;Exported by:	 TigerF
+;Date:			 29.05.2024 18:12:03
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_ger\vehicles\tank_medium\pz3\pz3h.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -76,10 +76,11 @@
 				}
 			}	
 			{bone revolute "turret"
-				{parameters "id=turret;ikspeed2=10;"}
+				{parameters "id=turret;"}
 				{animation
 					{sequence "repair" {file "turret_r.anm"}{speed 0.5}}
 				}
+				{speed 0.005}
 				{Position 5.9849 	 -0.008 	 8.408}
 				{VolumeView "turret.ply"}
 				{bone revolute "gun_rot"
@@ -469,8 +470,8 @@
 				}
 			}
 			{bone revolute "mgun1_rot"
-				{parameters "ikspeed2=20;"}
 				{limits -10 10}
+				{speed 0.009}
 				{matrix34
 					1 	 0 	 0
 					0 	 0 	 1
@@ -478,8 +479,8 @@
 					32.5885 	 -12.5757 	 -0.508
 				}
 				{bone revolute "mgun1a_rot"
-					{parameters "ikspeed2=20;"}
 					{limits -20 15}
+					{speed 0.009}
 					{matrix34
 						1 	 0 	 0
 						0 	 0 	 -1
@@ -911,13 +912,13 @@
 }
 {volume "engine1"
 	{polyhedron "engine1.vol"}
-	{bone "body"}
-	{Position -33.2933 	 -0.0173 	 -9.05}
+	{bone "engine"}
+	{Position -0.9704 	 -0.0766 	 -0.3881}
 }
 {volume "engine2"
 	{polyhedron "engine2.vol"}
-	{bone "body"}
-	{Position -33.2935 	 -0.0173 	 -9.0499}
+	{bone "engine"}
+	{Position -0.9706 	 -0.0766 	 -0.3882}
 }
 {volume "fuel"
 	{box 19.3161 10.1019 18.8803}
@@ -962,6 +963,16 @@
 		0 	 1 	 0
 		-0.2419 	 0 	 0.9703
 		33.2122 	 9.2685 	 -1.3251
+	}
+}
+{volume "mantlet1"
+	{polyhedron "mantlet1.vol"}
+	{bone "gun_rot"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 -1
+		0 	 1 	 0
+		5.346 	 -2.0682 	 -0.5115
 	}
 }
 {volume "shield3"

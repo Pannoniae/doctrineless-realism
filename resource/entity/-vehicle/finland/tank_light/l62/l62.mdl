@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 04.04.2022 16:32:26
-;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\goh_3d_vehicles_fin\3d vehicles\tank_light\L-62\l62_antiII.max
+;Exported by:	 guita
+;Date:			 28.09.2023 14:27:59
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_fin\3d vehicles\tank_light\L-62\l62_antiII.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -100,8 +100,13 @@
 							24.9792 	 0.2582 	 -0.508
 						}
 						{VolumeView "gun.ply"}
-						{bone "foresight1"
-							{Position 36.3233 	 0.0024 	 0.0047}
+						}
+					{bone "foresight1"
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							61.3025 	 0.2629 	 -0.5104
 						}
 					}
 				}
@@ -719,8 +724,13 @@
 }
 {volume "barrel2"
 	{polyhedron "barrel2.vol"}
-	{bone "gun"}
-	{Position 13.725 	 0 	 -0.02}
+	{bone "gun_rot"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 -1
+		0 	 1 	 0
+		38.7042 	 0.2382 	 -0.508
+	}
 }
 {volume "body1"
 	{polyhedron "body1.vol"}

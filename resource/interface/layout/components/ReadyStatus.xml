@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <BackgroundPanel backgroundResource="" sizeMode="fromContent">
+            <MinSize x="400"/>
+            <Insets top="20" bottom="20" left="20" right="20"/>
+            <Children>
+                <DockPanel>
+                    <Children>
+                        <FlowPanel placement="top" halign="center">
+                            <Children>
+                                <FlowPanel id="teams_top" direction="vertical" gap="2"/>
+                            </Children>
+                        </FlowPanel>
+<!--                        <StackPanel placement="center">-->
+<!--                            <Insets top="5" bottom="5"/>-->
+<!--                            <MinSize x="400" y="90"/>-->
+<!--                            <Children>-->
+<!--                                <PictureButton placement="center" centerY="true" centerX="true" zoomMode="fit" >-->
+<!--                                    <Buffered value="true"/>-->
+<!--                                    <PreferredSize x="90" y="90"/>-->
+<!--                                    <Resource value="/interface/pages/main/mp_versus_icon"/>-->
+<!--                                </PictureButton>-->
+<!--                            </Children>-->
+<!--                            <Children>-->
+<!--                                <FlowPanel halign="center">-->
+<!--                                    <Children>-->
+<!--                                        <StaticText id="status">-->
+<!--                                            <TextStyle value="s(42)e(shadow)b+c(d29c4f)"/>-->
+<!--                                        </StaticText>-->
+<!--                                    </Children>-->
+<!--                                </FlowPanel>-->
+<!--                            </Children>-->
+<!--                        </StackPanel>-->
+                        <FlowPanel placement="bottom" halign="center">
+                            <Children>
+                                <FlowPanel id="teams_bottom" direction="vertical" gap="2"/>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </BackgroundPanel>
+    </Content>
+</Layout>

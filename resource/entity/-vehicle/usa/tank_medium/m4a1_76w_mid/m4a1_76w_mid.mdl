@@ -1,6 +1,6 @@
 ;Exported by:	 Robin
-;Date:			 07.12.2023 00:15:19
-;File:			 D:\games\GoH_3d_vehicle_usa\vehicles\tank_medium\M4A1_76w_mid\M4A1_76w_mid.max
+;Date:			 20.05.2024 16:51:03
+;File:			 E:\SVN GoH USA 3D models\vehicles\tank_medium\M4A1_76w_mid\M4A1_76w_mid.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -382,7 +382,7 @@
 					43.8697 	 15.8318 	 5.8175
 				}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0
@@ -965,12 +965,7 @@
 {volume "body1"
 	{polyhedron "body1.vol"}
 	{bone "body"}
-	{matrix34
-		1 	 0 	 0
-		0 	 1 	 0
-		0 	 0 	 1
-		47.6954 	 0.0306 	 -6.7486
-	}
+	{Position 18.3804 	 0.0087 	 -6.7485}
 }
 {volume "body2"
 	{polyhedron "body2.vol"}
@@ -980,12 +975,12 @@
 {volume "body3"
 	{polyhedron "body3.vol"}
 	{bone "body"}
-	{Position 49.102 	 -10.8695 	 -8.212}
+	{Position 50.8119 	 -12.1316 	 -10.4559}
 }
 {volume "body4"
 	{polyhedron "body4.vol"}
 	{bone "body"}
-	{Position 49.102 	 10.9308 	 -8.212}
+	{Position 50.8119 	 15.6007 	 -10.4559}
 }
 {volume "body5"
 	{polyhedron "body5.vol"}
@@ -1068,11 +1063,6 @@
 	{polyhedron "hole2.vol"}
 	{bone "wheelsr"}
 	{Position -0.998 	 -0.0119 	 -1.0176}
-}
-{volume "hole4"
-	{polyhedron "hole4.vol"}
-	{bone "engine"}
-	{Position -13.6431 	 0.0743 	 1.6718}
 }
 {volume "mantlet"
 	{polyhedron "mantlet.vol"}

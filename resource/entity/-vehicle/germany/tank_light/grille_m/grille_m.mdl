@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 09.01.2021 09:12:02
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_light\Grille_MK103\Grille M.max
+;Date:			 28.09.2023 14:26:47
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger_updated\vehicles\tank_light\Grille_MK103\Grille M.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -22,8 +22,8 @@
 			{parameters "wheelsr;id=trackright;"}
 			{Position 11.1761 	 -18.8247 	 0}
 			{bone prizmatic "suspension_r1"
-				{parameters "ikspeed2=2;"}
-				{limits -0 0}
+				{limits -0.2 0.225}
+				{speed 0.15}
 				{Position 26.3584 	 0.757 	 8.4252}
 				{bone revolute "wheelr2"
 					{parameters "id=trackright;radius=0.44;"}
@@ -37,8 +37,8 @@
 				}
 			}
 			{bone prizmatic "suspension_r2"
-				{parameters "ikspeed2=2;"}
-				{limits -0 0}
+				{limits -0.2 0.225}
+				{speed 0.15}
 				{Position 9.2022 	 0.757 	 8.4252}
 				{bone revolute "wheelr3"
 					{parameters "id=trackright;radius=0.44;"}
@@ -52,8 +52,8 @@
 				}
 			}
 			{bone prizmatic "suspension_r3"
-				{parameters "ikspeed2=2;"}
-				{limits -0 0}
+				{limits -0.2 0.225}
+				{speed 0.15}
 				{Position -9.1464 	 0.757 	 8.4252}
 				{bone revolute "wheelr4"
 					{parameters "id=trackright;radius=0.44;"}
@@ -67,8 +67,8 @@
 				}
 			}
 			{bone prizmatic "suspension_r4"
-				{parameters "ikspeed2=2;"}
-				{limits -0 0}
+				{limits -0.2 0.225}
+				{speed 0.15}
 				{Position -26.2111 	 0.757 	 8.4252}
 				{bone revolute "wheelr5"
 					{parameters "id=trackright;radius=0.44;"}
@@ -91,8 +91,8 @@
 			{parameters "wheelsl;id=trackleft;"}
 			{Position 11.1761 	 18.824 	 0}
 			{bone prizmatic "suspension_l1"
-				{parameters "ikspeed2=2;"}
-				{limits -0 0}
+				{limits -0.2 0.225}
+				{speed 0.15}
 				{Position 26.3597 	 1.0035 	 8.4252}
 				{bone revolute "wheell2"
 					{parameters "id=trackleft;radius=0.44;"}
@@ -106,8 +106,8 @@
 				}
 			}
 			{bone prizmatic "suspension_l2"
-				{parameters "ikspeed2=2;"}
-				{limits -0 0}
+				{limits -0.2 0.225}
+				{speed 0.15}
 				{Position 9.2312 	 1.0172 	 8.4252}
 				{bone revolute "wheell3"
 					{parameters "id=trackleft;radius=0.44;"}
@@ -121,8 +121,8 @@
 				}
 			}
 			{bone prizmatic "suspension_l3"
-				{parameters "ikspeed2=2;"}
-				{limits -0 0}
+				{limits -0.2 0.225}
+				{speed 0.15}
 				{Position -9.1155 	 1.0172 	 8.4252}
 				{bone revolute "wheell4"
 					{parameters "id=trackleft;radius=0.44;"}
@@ -136,8 +136,8 @@
 				}
 			}
 			{bone prizmatic "suspension_l4"
-				{parameters "ikspeed2=2;"}
-				{limits -0 0}
+				{limits -0.2 0.225}
+				{speed 0.15}
 				{Position -26.3749 	 1.0172 	 8.4252}
 				{bone revolute "wheell5"
 					{parameters "id=trackleft;radius=0.44;"}
@@ -282,9 +282,6 @@
 							{parameters "id=gun;"}
 							{Position 15.6792 	 0.1235 	 2.7173}
 							{VolumeView "gun.ply"}
-							{bone "foresight1"
-								{Position 24.4077 	 -0.1362 	 0.0455}
-							}
 							{bone "fx_invers"
 								{matrix34
 									0 	 -1 	 0
@@ -377,6 +374,14 @@
 							0.2916 	 0.153 	 -5.1144
 						}
 						{VolumeView "ammo_7.ply"}
+					}
+					{bone "foresight1"
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							40.3967 	 0.4532 	 -0.409
+						}
 					}
 				}
 				{bone "piston2"
@@ -622,6 +627,14 @@
 					-30.0184 	 7.6049 	 34.0523
 				}
 			}
+			{bone "enumerator2"
+				{Position -28.4273 	 -19.7573 	 20.4298}
+				{VolumeView "enumerator2.ply"}
+			}
+			{bone "enumerator"
+				{Position -28.4273 	 21.1173 	 20.4298}
+				{VolumeView "enumerator.ply"}
+			}
 		}
 	}
 }
@@ -677,18 +690,23 @@
 }
 {volume "barrel4"
 	{cylinder 1.32042 45.545}
-	{bone "gun"}
+	{bone "gun_rot"}
 	{matrix34
+		0 	 0 	 -1
 		0 	 1 	 0
-		0 	 0 	 1
 		1 	 0 	 0
-		1.3454 	 -0.1672 	 0.0987
+		17.3343 	 0.5064 	 -0.3779
 	}
 }
 {volume "barrel5"
 	{box 16.5145 5.34357 5.37585}
-	{bone "gun"}
-	{Position -16.3331 	 -0.0042 	 -0.1271}
+	{bone "gun_rot"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 -1
+		0 	 1 	 0
+		-0.3441 	 0.2806 	 -0.541
+	}
 }
 {volume "body1"
 	{polyhedron "body1.vol"}

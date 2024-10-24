@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <PercentPanel>
+            <Children>
+                <DockPanel percent="0.485">
+                    <Children>
+                        <StackPanel placement="center">
+                            <Children>
+                                <StackPanel id="tutorial_vid"/>
+                                <FrameView resource="/interface/skin/game/frame/shadow_logo">
+                                    <Ables mouse="false"/>
+                                </FrameView>
+                            </Children>
+                        </StackPanel>
+                        <PictureDialog resource="/interface/skin/game/frame/window/image_shadow" zoomMode="stretch" placement="bottom"/>
+                    </Children>
+                </DockPanel>
+                <FrameView percent="0.515" resource="/interface/skin/game/frame/window2" header="true" placement="center">
+                    <HeaderContent>
+                        <FlowPanel valign="center"/>
+                    </HeaderContent>
+                    <Content>
+                        <DockPanel>
+                            <Children>
+                                <StackPanel placement="center">
+                                    <Children>
+                                        <StackPanel>
+                                            <Insets left="5" top="5" right="5" bottom="5"/>
+                                            <Children>
+                                                <PercentPanel direction="horizontal">
+                                                    <Children>
+                                                        <ListBox id="lb_groups" percent="0.5"/>
+                                                        <ListBox id="lb_tutorials" percent="0.5"/>
+                                                    </Children>
+                                                </PercentPanel>
+                                            </Children>
+                                        </StackPanel>
+                                        <FrameView resource="/interface/skin/game/frame/shadow_logo">
+                                            <Ables mouse="false"/>
+                                        </FrameView>
+                                    </Children>
+                                </StackPanel>
+                                <PictureDialog resource="/interface/skin/game/frame/window/image_shadow" zoomMode="stretch" placement="bottom"/>
+                            </Children>
+                        </DockPanel>
+                    </Content>
+                </FrameView>
+            </Children>
+        </PercentPanel>
+    </Content>
+</Layout>

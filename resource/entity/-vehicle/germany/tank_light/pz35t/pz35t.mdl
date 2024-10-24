@@ -1,11 +1,11 @@
-;Exported by:	 guita
-;Date:			 02.09.2021 09:41:06
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_light\PZ35t\Pz_35t.max
+;Exported by:	 carlos
+;Date:			 04.10.2023 13:49:42
+;File:			 F:\GoH_3D_vehicles_ger\vehicles\tank_light\PZ35t\Pz_35t.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
 		{sequence "stop" {speed 0.7}}
-		{sequence "open" {speed 0.6}{resume} {events {2 "hatch_light"}}}
+		{sequence "open" {speed 0.6}{resume}}
 		{sequence "fire" {speed 0.75}}
 	}
 	{bone "basis"
@@ -447,6 +447,38 @@
 					41.6224 	 14.1703 	 11.5048
 				}
 			}
+			{bone "seat01"
+				{matrix34
+					0 	 1 	 0
+					-1 	 0 	 0
+					0 	 0 	 1
+					-26.1641 	 19.6065 	 -0.6597
+				}
+			}
+			{bone "seat02"
+				{matrix34
+					-0.3256 	 0.9455 	 0
+					-0.9455 	 -0.3256 	 0
+					0 	 0 	 1
+					-39.6623 	 19.6065 	 -2.1504
+				}
+			}
+			{bone "seat03"
+				{matrix34
+					-0.5299 	 -0.848 	 0
+					0.848 	 -0.5299 	 0
+					0 	 0 	 1
+					-43.3073 	 -19.3723 	 -2.04
+				}
+			}
+			{bone "seat04"
+				{matrix34
+					0 	 -0.9744 	 0.225
+					1 	 0 	 0
+					0 	 0.225 	 0.9744
+					-12.0494 	 -15.6173 	 7.2816
+				}
+			}
 		}
 		{bone "emit2"
 			{matrix34
@@ -725,6 +757,38 @@
 						-38.8687 	 -0.2499 	 -4.8699
 					}
 				}
+			}
+		}
+		{bone "emit6"
+			{matrix34
+				0 	 1 	 0
+				-1 	 0 	 0
+				0 	 0 	 1
+				-25.3298 	 -34.5482 	 0
+			}
+		}
+		{bone "emit5"
+			{matrix34
+				0 	 1 	 0
+				-1 	 0 	 0
+				0 	 0 	 1
+				-37.9441 	 -34.5482 	 0
+			}
+		}
+		{bone "emit4"
+			{matrix34
+				0 	 -1 	 0
+				1 	 0 	 0
+				0 	 0 	 1
+				-35.6247 	 34.6187 	 0
+			}
+		}
+		{bone "emit3"
+			{matrix34
+				0 	 -1 	 0
+				1 	 0 	 0
+				0 	 0 	 1
+				-20.0097 	 34.6187 	 0
 			}
 		}
 	}

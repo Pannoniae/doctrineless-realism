@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 29.09.2023 17:18:41
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger2\vehicles\tank_medium\Nashorn\nashorn.max
+;Exported by:	 TigerF
+;Date:			 15.06.2024 13:28:18
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_ger\vehicles\tank_medium\Nashorn\nashorn.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -929,8 +929,8 @@
 		{bone "emit2"
 			{parameters "group=crew;"}
 			{matrix34
-				0.9994 	 -0.0349 	 0
-				0.0349 	 0.9994 	 0
+				0.9994 	 0.0349 	 0
+				-0.0349 	 0.9994 	 0
 				0 	 0 	 1
 				-74.2548 	 -6.7195 	 0
 			}
@@ -1019,7 +1019,7 @@
 		1 	 0 	 0.0075
 		0 	 1 	 -0.0045
 		-0.0075 	 0.0045 	 1
-		53.5377 	 0.2657 	 -0.1674
+		53.5385 	 0.171 	 -0.285
 	}
 }
 {volume "barrel7"

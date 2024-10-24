@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<DockPanel>
+			<Children>
+				<StackPanel placement="top">
+					<Insets left="1" right="1"/>
+					<Children>
+						<PictureDialog id="header" zoomMode="stretch">
+							<Children>
+
+							</Children>
+						</PictureDialog>
+					</Children>
+				</StackPanel>
+				<DockPanel placement="center">
+					<Insets left="10" top="20" right="10" bottom="10"/>
+					<Children>
+						<FlowPanel valign="center" gap="10" placement="left">
+							<Children>
+								<StaticText id="txt_alliance_own">
+									<TextStyle value="x.f(pobeda)s(27)b"/>
+								</StaticText>
+								<PictureDialog id="alliance_icon_own"/>
+								<StaticText id="txt_result_own">
+									<TextStyle value="x."/>
+								</StaticText>
+							</Children>
+						</FlowPanel>
+						<FlowPanel halign="center" valign="center" gap="10" placement="center">
+							<Children>
+
+								<BackgroundPanel backgroundResource="/interface/skin/game/frame/window_single/halo_bkg_line" placement="center" zoomMode="stretch" >
+									<Insets top="5" bottom="5" left="5" right="5"/>
+									<Children>
+										<StaticText id="txt_state">
+											<TextStyle value="x.s(42)e(shadow)b+c(eeeeee)"/>
+										</StaticText>
+									</Children>
+								</BackgroundPanel>
+
+
+								<StackPanel>
+									<Insets top="10"/>
+									<Children>
+<!--										<PictureDialog id="army" centerX="true"/>-->
+									</Children>
+								</StackPanel>
+								<StackPanel>
+									<Insets top="5"/>
+									<Children>
+										<StaticText id="txt_conflict_duration">
+											<TextStyle value="x.s(18)"/>
+										</StaticText>
+									</Children>
+								</StackPanel>
+							</Children>
+						</FlowPanel>
+						<FlowPanel valign="center" gap="10" placement="right">
+							<Children>
+								<StaticText id="txt_alliance_enemy">
+									<TextStyle value="x.f(pobeda)s(27)b"/>
+								</StaticText>
+								<PictureDialog id="alliance_icon_enemy"/>
+								<StaticText id="txt_result_enemy">
+									<TextStyle value="x."/>
+								</StaticText>
+							</Children>
+						</FlowPanel>
+					</Children>
+				</DockPanel>
+				<StackPanel placement="bottom">
+					<Insets left="10" top="10" right="10" bottom="10"/>
+					<Children>
+						<FlowPanel halign="left">
+							<Children>
+								<TextButton id="btn_exit">
+									<Text key="button/exit" textTransform="toUpper"/>
+									<TextFrame value="false"/>
+								</TextButton>
+							</Children>
+						</FlowPanel>
+						<FlowPanel id="continue_area" halign="right">
+							<Children>
+								<TextButton id="btn_continue_campaign">
+									<Text key="button/continue" textTransform="toUpper"/>
+									<Hint key="main_menu2/dynamic_campaign/continue_campaign"/>
+									<TextFrame value="false"/>
+								</TextButton>
+							</Children>
+							<Active value="false"/>
+						</FlowPanel>
+					</Children>
+				</StackPanel>
+			</Children>
+		</DockPanel>
+	</Content>
+</Layout>

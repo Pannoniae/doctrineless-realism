@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 10.10.2021 12:25:33
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\tank_heavy\isu122\ISU-122s.max
+;Date:			 13.08.2023 09:20:29
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_heavy\isu122\ISU-122s.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}

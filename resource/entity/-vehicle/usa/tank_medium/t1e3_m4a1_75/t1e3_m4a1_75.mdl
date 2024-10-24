@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 19.12.2023 10:44:10
-;File:			 D:\SVN\Working Resources\GatesOfHell\GoH_3d_vehicle_usa\vehicles\tank_medium\t1e3_m4a1_75_mineroller\t1e3_m4a1_75.max
+;Exported by:	 TigerF
+;Date:			 17.01.2024 22:05:58
+;File:			 D:\GOH\3dsmax9_saves\scenes\_GoH_3D_vehicle_usa\vehicles\tank_medium\t1e3_m4a1_75_mineroller\t1e3_m4a1_75.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -25,7 +25,10 @@
 				{sequence "repair" {file "body_r.anm"}{speed 0.7}}
 			}
 			{Position -0.1778 	 -0.0008 	 23.723}
-			{VolumeView "body.ply"}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+			}
 			{bone revolute "turret"
 				{parameters "id=turret;"}
 				{animation
@@ -33,7 +36,10 @@
 				}
 				{speed 0.006}
 				{Position 1.3774 	 0.0008 	 14.1404}
-				{VolumeView "turret.ply"}
+				{LODView
+					{VolumeView "turret.ply"}
+					{VolumeView "turret_lod1.ply"}
+				}
 				{bone revolute "gun_rot"
 					{parameters "id=turret;"}
 					{animation
@@ -46,7 +52,10 @@
 						0 	 -1 	 0
 						14.0884 	 0 	 5.6236
 					}
-					{VolumeView "gun_rot.ply"}
+					{LODView
+						{VolumeView "gun_rot.ply"}
+						{VolumeView "gun_rot_lod1.ply"}
+					}
 					{bone "gun"
 						{parameters "id=gun;"}
 						{matrix34
@@ -169,7 +178,10 @@
 					{sequence "repair" {file "engine_r.anm"}{speed 0.7}}
 				}
 				{Position -37.771 	 -0.0013 	 -0.2963}
-				{VolumeView "engine.ply"}
+				{LODView
+					{VolumeView "engine.ply"}
+					{VolumeView "engine_lod1.ply"}
+				}
 				{bone "hatch_engine1"
 					{parameters "id=engine;"}
 					{Position 6.8735 	 4.2066 	 13.7325}
@@ -356,7 +368,7 @@
 					43.432 	 15.9381 	 5.5904
 				}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0
@@ -614,7 +626,10 @@
 								0 	 -1 	 0
 								0 	 0 	 0
 							}
-							{VolumeView "rollerl.ply"}
+							{LODView
+								{VolumeView "rollerl.ply"}
+								{VolumeView "rollerl_lod1.ply"}
+							}
 						}
 					}
 				}
@@ -672,7 +687,10 @@
 								0 	 -1 	 0
 								0 	 0 	 0
 							}
-							{VolumeView "rollerr.ply"}
+							{LODView
+								{VolumeView "rollerr.ply"}
+								{VolumeView "rollerr_lod1.ply"}
+							}
 						}
 					}
 				}

@@ -226,7 +226,7 @@
 				{Position -41.679 	 -12.4533 	 1.7341}
 				{VolumeView "detail12.ply"}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0

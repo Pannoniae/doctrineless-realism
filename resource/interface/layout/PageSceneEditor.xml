@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1"
+        skin="default_skin">
+	<Properties>
+        <Scene.Editor>true</Scene.Editor>
+    </Properties>
+    <Content>
+        <StackPanel  id="scene_root" >
+            <Children>
+                <StackPanel id="scene_view_root"/>
+                <StackPanel id="scene_content">
+                    <Children>
+                        <StackPanel id="editor_shared_root">
+                            <Insets top="50" bottom="200"/>
+                            <Ables mouse="false"/>
+                            <Children>
+                                <Panel id="minimap_layer" layout="overlay" enableif="gui.editor" skin="main_menu_dark_skin">
+                                    <Children>
+                                        <DialogRef refid="gui_minimap"/>
+                                        <DialogRef refid="gui_map_control" />
+                                    </Children>
+                                </Panel>
+                            </Children>
+                        </StackPanel>
+                        <StackPanel id="scene_ui_root"/>
+                        <StackPanel id="map_editor_root"/>
+                        <StackPanel id="mission_editor_root"/>
+                    </Children>
+                </StackPanel>
+                <Panel layout="overlay">
+                    <Ables mouse="false"/>
+                    <Children>
+                        <DialogRef refid="gui_editor_playerIndicator" id="player">
+                            <Location x="110" y="10" />
+                        </DialogRef>
+                        <DialogRef refid="gui_editor_difficultyIndicator" id="difficulty">
+                            <Size x="96" y="15"/>
+                            <Location x="155" y="12" />
+                        </DialogRef>
+                        <TextButton id="simulate">
+                            <Visible value="false"/>
+                            <Size x="90" y="20" />
+                            <Location x="10" y="10" />
+                        </TextButton>
+                        <DialogRef refid="gui_interface_selector" id="interface" enableif="false">
+                            <Visible value="true"/>
+                            <Location x="10" y="70"/>
+                        </DialogRef>
+                    </Children>
+                </Panel>
+                <Panel layout="overlay" id="misc_dialogs_container">
+                    <!-- used to place overlay dialogs. do  not remove -->
+                </Panel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

@@ -1,7 +1,12 @@
-Into the Fire 0.3.3:
- - Sturer Emil range fix. (230 -> 240)
- - Fixed StuG IV x/xx models.
- - Fixed Maus KwK44 gun penetration.
- - Rebalance indirect fire accuracies/ranges.
- - Fixed flame FX on the Flammjagdtiger.
- - Added the Sherman Firefly (Sherman VC) for USA until the British Forces are released.
+Into the Fire 0.3.4:
+ - Fix a missing skill (avoidance lvl_2)
+ - Integrate Panzer Connect into the mod.
+ - Add the Bergetiger as a towing vehicle.
+ - Add the T-34 supply tractor.
+ - Add the T-34 tractor as a towing vehicle.
+ - Decreased mortar accuracy at long ranges.
+ - Increased flamethrower prices.
+ - Equalised flamethrower ranges.
+ - Fixed the MG texture on the Super Hellcat.
+ - Added the map Arad (RobZ)
+ - UI changes. (Thanks BBQ!)

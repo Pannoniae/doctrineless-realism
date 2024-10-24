@@ -22,7 +22,7 @@
 
 	("gun" repair(30) thickness(2))
 
-	{volume "body7" {tags "invisible"}} ;// volume disabled on carriage hidden 
+	{volume "body7" {able {holed}}}
 	{volume "body8" {tags "invisible"}} ;// volume disabled on carriage hidden 
 	{volume "body9" {tags "invisible"}} ;// volume disabled on carriage hidden 
 	{volume "wheelleft1" {tags "invisible"}}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1"
+        skin="main_menu_dark_skin">
+    <Properties>
+        <Scene.Manager.Type>default</Scene.Manager.Type>
+        <Scene.Manager.Location>in_test/1v1_test</Scene.Manager.Location>
+        <Scene.Editor>false</Scene.Editor>
+    </Properties>
+    <Content>
+        <StackPanel  id="scene_root" >
+            <Children>
+                <StackPanel id="scene_view_root">
+                    <Children>
+                        <!-- sceneview added here -->
+                    </Children>
+                </StackPanel>
+                <StackPanel id="scene_ui_root">
+                    <!-- scene interface added here -->
+                </StackPanel>
+                <Panel layout="overlay" enableif="false">
+                    <Ables mouse="false"/>
+                    <Children>
+                        <DialogRef refid="gui_interface_selector" id="interface" skin="default_skin">
+                            <Visible value="true"/>
+                            <Location x="10" y="90"/>
+                        </DialogRef>
+                    </Children>
+                </Panel>
+                <StackPanel id="system_dialogs">
+                    <Visible value="false"/>
+                    <Children>
+                    </Children>
+                </StackPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

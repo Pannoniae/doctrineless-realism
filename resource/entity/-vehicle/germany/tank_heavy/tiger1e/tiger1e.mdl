@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 30.07.2021 14:56:54
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_heavy\tiger H and E\Pz6 Tiger E.max
+;Exported by:	 TigerF
+;Date:			 23.04.2024 16:15:42
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_ger\vehicles\tank_heavy\tiger H and E\Pz6 Tiger E.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -441,7 +441,7 @@
 					{VolumeView "turret_lod1.ply"}
 				}
 				{bone revolute "gun_rot"
-					{parameters "id=gun;"}
+					{parameters "id=turret;"}
 					{animation
 						{sequence "repair" {file "gun_r.anm"}}
 					}
@@ -558,31 +558,6 @@
 						}
 					}
 				}
-				{bone "enumerator3"
-					{parameters "id=turret;"}
-					{matrix34
-						0 	 1 	 0
-						-1 	 0 	 0
-						0 	 0 	 1
-						-31.2525 	 1.4634 	 8.8325
-					}
-					{VolumeView "enumerator3.ply"}
-				}
-				{bone "enumerator2"
-					{parameters "id=turret;"}
-					{matrix34
-						-1 	 0.0087 	 0
-						-0.0087 	 -1 	 0
-						0 	 0 	 1
-						-1.2896 	 -23.1385 	 7.4958
-					}
-					{VolumeView "enumerator2.ply"}
-				}
-				{bone "enumerator"
-					{parameters "id=turret;"}
-					{Position 0.9722 	 22.91 	 7.4958}
-					{VolumeView "enumerator.ply"}
-				}
 				{bone "fxfire4"
 					{matrix34
 						0 	 0 	 1
@@ -606,6 +581,18 @@
 						{VolumeView "commander_hatch.ply"}
 						{VolumeView "commander_hatch_lod1.ply"}
 					}
+				}
+				{bone "enumerator3"
+					{Position -30.6783 	 -0.0413 	 8.3549}
+					{VolumeView "enumerator3.ply"}
+				}
+				{bone "enumerator"
+					{Position 16.0452 	 19.5674 	 3.5614}
+					{VolumeView "enumerator.ply"}
+				}
+				{bone "enumerator2"
+					{Position 16.0452 	 -18.3036 	 3.5614}
+					{VolumeView "enumerator2.ply"}
 				}
 			}
 			{bone revolute "wheell10"
@@ -1512,24 +1499,14 @@
 		0 	 0 	 -0.2984
 	}
 }
-{volume "trackleft11"
-	{polyhedron "trackleft11.vol"}
-	{bone "wheelsl"}
-	{matrix34
-		-1 	 0 	 0
-		0 	 0 	 1
-		0 	 1 	 0
-		1.7549 	 4.5978 	 10.4175
-	}
-}
 {volume "trackleft1"
-	{cylinder 7.97726 10.6919}
+	{cylinder 9.14673 14.541}
 	{bone "wheell1"}
 	{matrix34
 		-1 	 0 	 0
 		0 	 -1 	 0
 		0 	 0 	 1
-		0 	 0 	 0.0056
+		0 	 0 	 1.9301
 	}
 }
 {volume "trackleft2"
@@ -1632,24 +1609,14 @@
 		0 	 0 	 0.3263
 	}
 }
-{volume "trackright11"
-	{polyhedron "trackright11.vol"}
-	{bone "wheelsr"}
-	{matrix34
-		-1 	 0 	 0
-		0 	 0 	 1
-		0 	 1 	 0
-		1.7549 	 0.0661 	 10.6029
-	}
-}
 {volume "trackright1"
-	{cylinder 7.97726 10.6919}
+	{cylinder 9.17385 14.6436}
 	{bone "wheelr1"}
 	{matrix34
 		-1 	 0 	 0
 		0 	 -1 	 0
 		0 	 0 	 1
-		0 	 0 	 0.0546
+		0 	 0 	 -2.011
 	}
 }
 {volume "trackright2"

@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 28.08.2022 12:27:13
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\tank_medium\Su-85M\SU-85m.max
+;Date:			 13.08.2023 08:45:18
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_medium\Su-85M\SU-85m.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -792,7 +792,7 @@
 				0 	 -1 	 0
 				1 	 0 	 0
 				0 	 0 	 1
-				8.5693 	 35.4375 	 0
+				8.5693 	 43.1371 	 0
 			}
 		}
 		{bone "emit0"
@@ -834,7 +834,7 @@
 				0 	 1 	 0
 				-1 	 0 	 0
 				0 	 0 	 1
-				8.6697 	 -35.9209 	 0
+				8.6697 	 -42.6759 	 0
 			}
 		}
 		{bone "fxtracer3"

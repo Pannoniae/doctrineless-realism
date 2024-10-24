@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <DockPanel>
+            <Children>
+                <FlowPanel valign="center" halign="stretch" placement="center" gap="10">
+                    <Children>
+                        <FlowPanel direction="vertical" valign="stretch" halign="center">
+                            <Children>
+                                <UserNameView id="user_name" clanTag="true" format="user_profile2/nick"/>
+                            </Children>
+                        </FlowPanel>
+                        <FlowPanel direction="vertical" valign="stretch" halign="center">
+                            <Children>
+                                <AvatarView id="avatar" mode="picture" avatarSize="large">
+                                    <MaxSize x="128" y="128"/>
+                                </AvatarView>
+                            </Children>
+                        </FlowPanel>
+                        <FlowPanel direction="vertical" valign="stretch" halign="center">
+                            <Children>
+                                <SquadLogoView id="squad_logo" placement="right">
+                                    <PreferredSize x="128" y="128"/>
+                                </SquadLogoView>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </DockPanel>
+    </Content>
+</Layout>

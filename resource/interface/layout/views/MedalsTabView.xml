@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <DockPanel>
+            <Children>
+                <FrameView id="medals_area" resource="/interface/skin/game/frame/window" placement="center">
+                    <Content>
+                        <FlowPanel halign="center">
+                            <Children>
+                                <ScrollPane>
+                                    <Insets left="2" right="2" top="2" bottom="2"/>
+                                    <Children>
+                                        <ScrollableContent>
+                                            <Children>
+                                                <GridPanel id="medals_grid" hgap="25" vgap="20"/>
+                                            </Children>
+                                        </ScrollableContent>
+                                    </Children>
+                                </ScrollPane>
+                            </Children>
+                        </FlowPanel>
+                    </Content>
+                </FrameView>
+            </Children>
+        </DockPanel>
+    </Content>
+</Layout>

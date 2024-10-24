@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 08.09.2022 13:43:17
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\Lend-Lease\valentine\MKIX\Valentine_MKIX.max
+;Exported by:	 TigerF
+;Date:			 16.04.2023 00:15:36
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_rus\vehicles\Lend-Lease\valentine\MKIX\Valentine_MKIX.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.6}}
@@ -892,18 +892,18 @@
 }
 {volume "engine1"
 	{polyhedron "engine1.vol"}
-	{bone "body"}
-	{Position -14.0811 	 0.0249 	 4.3011}
+	{bone "engine"}
+	{Position 6.7707 	 -0.014 	 1.5225}
 }
 {volume "engine2"
 	{polyhedron "engine2.vol"}
-	{bone "body"}
-	{Position -36.454 	 0.0249 	 2.2484}
+	{bone "engine"}
+	{Position -15.6022 	 -0.014 	 -0.5303}
 }
 {volume "engine3"
 	{polyhedron "engine3.vol"}
-	{bone "body"}
-	{Position -30.5407 	 0.0249 	 12.5578}
+	{bone "engine"}
+	{Position -9.6889 	 -0.014 	 9.7792}
 }
 {volume "fuel1"
 	{box 16.6088 10.3325 5.02275}

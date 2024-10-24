@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin_small">
+    <Content>
+        <FlowPanel direction="vertical" halign="center" gap="3">
+            <Children>
+                <FlowPanel halign="center">
+                    <Children>
+                        <PictureDialog id="avatar" zoomMode="stretch">
+                            <Active value="false"/>
+                            <Ables mouse="true"/>
+                            <PreferredSize x="64" y="64"/>
+                        </PictureDialog>
+                        <SquadLogoView id="squad_logo" >
+                            <Active value="false"/>
+                            <Ables mouse="true"/>
+                            <PreferredSize x="64" y="64"/>
+                        </SquadLogoView>
+                    </Children>
+                </FlowPanel>
+                <FlowPanel halign="center">
+                    <Children>
+                        <StaticText id="desc">
+                            <Active value="false"/>
+                            <Ables mouse="true"/>
+                            <TextClip value="true" showHint="true"/>
+                        </StaticText>
+                    </Children>
+                </FlowPanel>
+                <FlowPanel halign="center">
+                    <Children>
+                        <UserNameView id="name" clanTag="true">
+                            <Ables mouse="true"/>
+                            <TextClip value="true" showHint="true"/>
+                        </UserNameView>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </FlowPanel>
+    </Content>
+</Layout>

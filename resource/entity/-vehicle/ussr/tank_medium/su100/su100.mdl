@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 28.11.2022 07:37:28
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\tank_medium\su-100\SU-100.max
+;Date:			 13.08.2023 08:47:00
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_medium\su-100\SU-100.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}

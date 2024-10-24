@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config>
+	<!-- This file is used by GUI Config -->
+	<page>
+		<sample>Hello!</sample>
+	</page>
+</config>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <DockPanel>
+            <Children>
+                <FrameView resource="/interface/skin/game/frame/window4" placement="center">
+                    <Content>
+                        <DockPanel>
+                            <Insets left="8" right="8" top="8" bottom="8"/>
+                            <Children>
+                                <FlowPanel id="labels" placement="left" gap="8">
+                                    <Insets top="28" right="24"/>
+                                    <Children>
+                                        <StaticText id="experience">
+                                            <Text key="user_statistics/faction/stat/experience"/>
+                                        </StaticText>
+                                        <StaticText id="level">
+                                            <Text key="user_statistics/faction/stat/level"/>
+                                        </StaticText>
+                                        <StaticText id="rank">
+                                            <Text key="user_statistics/faction/stat/rank"/>
+                                        </StaticText>
+                                        <StaticText id="gamesplayed">
+                                            <Text key="user_statistics/faction/stat/gamesplayed"/>
+                                        </StaticText>
+                                        <StaticText id="gameswon">
+                                            <Text key="user_statistics/faction/stat/gameswon"/>
+                                        </StaticText>
+                                        <StaticText id="winratio">
+                                            <Text key="user_statistics/faction/stat/winratio"/>
+                                        </StaticText>
+                                        <StaticText id="killman">
+                                            <Text key="user_statistics/faction/stat/killman"/>
+                                        </StaticText>
+                                        <StaticText id="lostman">
+                                            <Text key="user_statistics/faction/stat/lostman"/>
+                                        </StaticText>
+                                        <StaticText id="kdman">
+                                            <Text key="user_statistics/faction/stat/kdman"/>
+                                        </StaticText>
+                                        <StaticText id="killveh">
+                                            <Text key="user_statistics/faction/stat/killveh"/>
+                                        </StaticText>
+                                        <StaticText id="lostveh">
+                                            <Text key="user_statistics/faction/stat/lostveh"/>
+                                        </StaticText>
+                                        <StaticText id="kdveh">
+                                            <Text key="user_statistics/faction/stat/kdveh"/>
+                                        </StaticText>
+                                    </Children>
+                                </FlowPanel>
+                                <GridPanel id="statistics" rows="1" placement="center"/>
+                            </Children>
+                        </DockPanel>
+                    </Content>
+                </FrameView>
+            </Children>
+        </DockPanel>
+    </Content>
+</Layout>

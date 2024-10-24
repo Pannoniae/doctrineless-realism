@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tutorials</title>
+	<style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Hide the scrollbar on an HTML page */
+            background-color: rgb(1, 2, 1) !important; /* transparency hack */
+        }
+
+        #player_container {
+            margin: auto;
+        }
+
+    </style>
+	<script type="text/javascript">
+
+        function onDocumentLoaded()  {
+            window.player = null;
+
+            // Load the IFrame Player API code asynchronously.
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/player_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            // Setup player API
+            window.player_api = {};
+            window.player_api.ready = false;
+            window.player_api.current = false;
+            window.player_api.autosize = function () {
+                if (window.player) {
+                    window.player.setSize(window.screen.width, window.screen.height);
+                }
+            }
+            window.player_api.setup = function () {
+
+                window.player_api.ready = false;
+                window.player = new YT.Player('player_container', {
+                    // videoId: args.vid,
+                    width:  window.screen.width,
+                    height: window.screen.height,
+                    playerVars: {
+                        autoplay: 0,
+                        rel: 0,
+                        autohide: 0,
+                        showinfo: 0,
+                        controls: 1,
+                        fs: 0,
+                        modestbranding: 0,
+                        iv_load_policy: 3
+                    },
+                    events: {
+                        'onReady': onPlayerReady,
+                        'onError': onPlayerError,
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            }
+
+            window.player_api.startVideo = function (args)
+            {
+                window.player_api.current = args;
+                if (window.player_api.ready) {
+                    window.player.setSize(window.screen.width, window.screen.height);
+                    window.player.loadVideoById({
+                        videoId: args.vid,
+                        suggestedQuality: "hd720"
+                    });
+                }
+            };
+            window.player_api.playVideo = function (args) {
+                window.player.playVideo();
+            };
+            window.player_api.pauseVideo = function (args) {
+                window.player.pauseVideo();
+            };
+            window.player_api.stopVideo = function (args) {
+                window.player.stopVideo();
+            };
+        }
+
+        function onDocumentResize()
+        {
+            window.player_api.autosize();
+        }
+
+        function onYouTubePlayerAPIReady()
+        {
+            window.player_api.setup();
+            window.player_api.autosize();
+        }
+
+        function onPlayerReady(event)
+        {
+            window.player_api.ready = true;
+        }
+
+        function onPlayerError(event)
+        {
+            //event.data == 2 – The request contains an invalid parameter value. For example, this error occurs if you specify a video ID that does not have 11 characters, or if the video ID contains invalid characters, such as exclamation points or asterisks.
+            //event.data == 5 – The requested content cannot be played in an HTML5 player or another error related to the HTML5 player has occurred.
+            //event.data == 100 – The video requested was not found. This error occurs when a video has been removed (for any reason) or has been marked as private.
+            //event.data == 101 – The owner of the requested video does not allow it to be played in embedded players.
+            //event.data == 150 – This error is the same as 101. It's just a 101 error in disguise!
+            alert('state error ' + event.data);
+        }
+
+		function onPlayerStateChange(event)
+        {
+		    var state = 'unknown';
+		    switch (event.data) {
+		        case -1: state = 'idle'; break;
+		        case 0: state = 'completed'; break;
+		        case 1: state = 'playing'; break;
+		        case 2: state = 'paused'; break;
+		        case 3: state = 'buffering'; break;
+		        case 5: state = 'reply'; break;
+		    }
+		    alert('StateChange:' + state );
+		}
+
+		setInterval(function () {
+		    alert('ping');
+		}, 1000);
+
+        </script>
+</head>
+<body onload="javascript:onDocumentLoaded();" onresize="javascript:onDocumentResize();">
+<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+<div id="player_container"></div>
+</body>
+</html>

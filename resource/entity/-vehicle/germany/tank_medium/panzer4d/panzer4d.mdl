@@ -1,6 +1,6 @@
 ;Exported by:	 TigerF
-;Date:			 23.05.2021 20:56:17
-;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\pz4\pz4d_export.max
+;Date:			 29.05.2024 19:42:25
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_ger\vehicles\tank_medium\pz4\pz4d_export.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -62,6 +62,24 @@
 						13.317 	 -0.0335 	 0.0435
 					}
 					{VolumeView "gun_rot.ply"}
+					{bone "tmgun"
+						{parameters "id=mantlet;"}
+						{matrix34
+							1 	 0 	 0
+							0 	 1 	 0
+							0 	 0 	 1
+							5.0576 	 0.8745 	 6.4857
+						}
+						{VolumeView "tmgun.ply"}
+						{bone "foresight5"
+							{matrix34
+								1 	 0 	 0
+								0 	 0 	 -1
+								0 	 1 	 0
+								7.2556 	 0.0187 	 -0.0013
+							}
+						}
+					}
 					{bone "gun"
 						{parameters "id=gun;"}
 						{animation
@@ -83,24 +101,6 @@
 								0 	 1 	 0
 								0 	 0 	 1
 								16.4933 	 -0.0448 	 0.0134
-							}
-						}
-					}
-					{bone "tmgun"
-						{parameters "id=mantlet;"}
-						{matrix34
-							1 	 0 	 0
-							0 	 1 	 0
-							0 	 0 	 1
-							5.0576 	 0.8745 	 6.4857
-						}
-						{VolumeView "tmgun.ply"}
-						{bone "foresight5"
-							{matrix34
-								1 	 0 	 0
-								0 	 0 	 -1
-								0 	 1 	 0
-								7.2556 	 0.0187 	 -0.0013
 							}
 						}
 					}
@@ -451,6 +451,11 @@
 					-0.225 	 0 	 -0.9744
 					-51.7048 	 -7.4092 	 7.5169
 				}
+			}
+			{bone "antenna"
+				{parameters "id=body;"}
+				{Position 8.8074 	 -23.6873 	 12.069}
+				{VolumeView "antenna.ply"}
 			}
 		}
 		{bone "emit1"

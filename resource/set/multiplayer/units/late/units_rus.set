@@ -642,6 +642,14 @@
 	("vehicle"  period(late) year(late) cd(30) ci(0) g(wheel2) side(rus) t(vehicle) crew(rifleman_1:1) b(supply) cw(1) cp(2)
 	cost(25))
 }
+{"stalinetz60"
+	("vehicle"  period(late) year(late) cd(0) ci(30) g(wheel2) side(rus) t(vehicle) crew(rifleman_1:1) b(supply) cw(1) cp(2)
+	cost(30))
+}
+{"t26t"
+	("vehicle"  period(late) year(late) cd(90) ci(300) g(wheel2) side(rus) t(vehicle) crew(tankman:2) b(supply) cw(2) cp(5)
+	cost(90))
+}
 {"m3a1e1_scout"
 	("vehicle"  period(late) year(late) cd(240) ci(0) g(wheel9) side(rus) t(vehicle) crew(rifleman_1:1) b(supply) cw(1) cp(2)
 	cost(25))
@@ -673,6 +681,14 @@
 {"zis5eng"
 	("vehicle2" period(late) year(late) cd(30) ci(0) g(supply3) side(rus) t(vehicle supply)  crew1(engineer_1:1) crew2(engineer_2:1) b(supply) cw(1) cp(2)
 	cost(100))
+}
+{"t34_44nohead"
+	("vehicle"  period(late) year(late) cd(90) ci(300) g(wheel3) side(rus) t(vehicle) crew(tankman:2) b(supply) cw(2) cp(10)
+	cost(330))
+}
+{"t34_44supply"
+	("vehicle"  period(late) year(late) cd(90) ci(300) g(wheel3) side(rus) t(vehicle) crew(tankman:2) b(supply) cw(2) cp(12)
+	cost(530))
 }
 {"ba20_command"
 	("vehicle3" period(late) year(late) cd(180) ci(10) g(wheel18) side(rus) t(vehicle) crew1(tankman:1) crew2(recon_nco:1) crew3(recon_rifle:1) b(supply) cw(2) cp(-12)

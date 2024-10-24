@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 10.09.2022 17:37:01
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\pz3\pz3n.max
+;Exported by:	 TigerF
+;Date:			 31.07.2024 14:56:44
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_ger\vehicles\tank_medium\pz3\pz3n.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -40,7 +40,7 @@
 				{Position 5.9848 	 -0.0079 	 8.408}
 				{VolumeView "turret.ply"}
 				{bone revolute "gun_rot"
-					{parameters "id=mantlet;"}
+					{parameters "id=turret;"}
 					{limits -8 15}
 					{speed 0.004}
 					{matrix34
@@ -147,7 +147,7 @@
 						-0.9798 	 0 	 -0.1998
 						-0.1998 	 0 	 0.9798
 						0 	 1 	 0
-						-8.8384 	 -13.4918 	 -3.0025
+						-1.043 	 -13.4918 	 -3.0025
 					}
 				}
 				{bone "fxsmoke2"
@@ -155,7 +155,7 @@
 						-0.9798 	 0 	 -0.1998
 						-0.1998 	 0 	 0.9798
 						0 	 1 	 0
-						-8.8384 	 13.5225 	 -3.0025
+						-1.0647 	 13.5225 	 -3.0025
 					}
 				}
 				{bone "edoor1"
@@ -299,10 +299,10 @@
 				}
 				{VolumeView "shield3.ply"}
 			}
-			{bone "headlightl"
+			{bone "armorlightl"
 				{Position 51.113 	 15.1529 	 -4.8108}
 			}
-			{bone "headlightr"
+			{bone "armorlightr"
 				{Position 51.1129 	 -15.0397 	 -4.8108}
 			}
 			{bone revolute "wheell8"
@@ -466,7 +466,7 @@
 				}
 				{VolumeView "detail9.ply"}
 			}
-			{bone "detail6"
+			{bone "detail1"
 				{parameters "id=body;"}
 				{matrix34
 					1 	 0 	 0
@@ -474,7 +474,7 @@
 					0 	 -1 	 0
 					-52.8275 	 9.2136 	 -15.0842
 				}
-				{VolumeView "detail6.ply"}
+				{VolumeView "detail1.ply"}
 			}
 			{bone "shieldw1"
 				{parameters "id=body;"}
@@ -1051,6 +1051,36 @@
 	{polyhedron "cupola.vol"}
 	{bone "turret"}
 	{Position -11.8463 	 -0.2446 	 5.891}
+}
+{volume "detail1"
+	{cylinder 4.89214 18.5129}
+	{bone "detail1"}
+	{matrix34
+		1 	 0 	 0
+		0 	 -1 	 0
+		0 	 0 	 -1
+		0 	 0 	 9.2341
+	}
+}
+{volume "detail2"
+	{cylinder 5.30502 5.01014}
+	{bone "detail2"}
+	{matrix34
+		0.9994 	 0 	 -0.0349
+		0 	 1 	 0
+		0.0349 	 0 	 0.9994
+		-0.011 	 0.0002 	 0.0041
+	}
+}
+{volume "detail3"
+	{cylinder 5.30502 5.01014}
+	{bone "detail3"}
+	{matrix34
+		0.9976 	 0 	 0.0698
+		0 	 1 	 0
+		-0.0698 	 0 	 0.9976
+		0.0199 	 0.0104 	 0.0088
+	}
 }
 {volume "engine"
 	{polyhedron "engine.vol"}

@@ -25,7 +25,7 @@
 ;marksman 		= +2
 ;any % pzfaust 	= +0
 ;any pzfaust 	= +0
-;any flamer		= 60
+;any flamer		= 80
 ;engineer		= 50
 ;miner 			= 40
 
@@ -212,7 +212,7 @@
 {"mp/usa/late/engineer_at_m1a1"		("inf_tier2" side(usa) cost(63.0))} ; m1 garand + m1a1 bazooka
 {"mp/usa/late/engineer_at_m9a1"		("inf_tier2" side(usa) cost(63.0))} ; m1 garand + m9a1 bazooka
 {"mp/usa/late/engineer_builder"		("inf_tier2" side(usa) cost(50.0))} ; m1 garand + builder
-{"mp/usa/late/engineer_flamer"		("inf_tier2" side(usa) cost(60.0))} ; m2 flamer
+{"mp/usa/late/engineer_flamer"		("inf_tier2" side(usa) cost(80.0))} ; m2 flamer
 {"mp/usa/late/engineer_gren"		("inf_tier2" side(usa) cost(23.0))} ; m1 garand + rifle grenade
 {"mp/usa/late/engineer_mine_ap"		("inf_tier2" side(usa) cost(40.0))} ; m1 garand + AP mines
 {"mp/usa/late/engineer_mine_at"		("inf_tier2" side(usa) cost(40.0))} ; m1 garand + AT mines
@@ -225,7 +225,7 @@
 {"mp/usa/late/late_engineer_at_m1a1"		("inf_tier2" side(usa) cost(63.0))} ; m1 garand + m1a1 bazooka
 {"mp/usa/late/late_engineer_at_m9a1"		("inf_tier2" side(usa) cost(63.0))} ; m1 garand + m9a1 bazooka
 {"mp/usa/late/late_engineer_builder"		("inf_tier2" side(usa) cost(25.0))} ; m1 garand + builder
-{"mp/usa/late/late_engineer_flamer"			("inf_tier2" side(usa) cost(60.0))} ; m2 flamer
+{"mp/usa/late/late_engineer_flamer"			("inf_tier2" side(usa) cost(80.0))} ; m2 flamer
 {"mp/usa/late/late_engineer_gren"			("inf_tier2" side(usa) cost(23.0))} ; m1 garand + rifle grenade
 {"mp/usa/late/late_engineer_mine_ap"		("inf_tier2" side(usa) cost(25.0))} ; m1 garand + AP mines
 {"mp/usa/late/late_engineer_mine_at"		("inf_tier2" side(usa) cost(25.0))} ; m1 garand + AT mines
@@ -363,7 +363,7 @@
 {"mp/usa/late/82nd_glider_sniper"			("inf_tier3" side(usa) cost(110.0))} ; m1903a4
 
 {"mp/usa/late/82nd_glider_pio_carbine"		("inf_tier3" side(usa) cost(18.0))} ; m1 carbine
-{"mp/usa/late/82nd_glider_pio_flamer"		("inf_tier3" side(usa) cost(60.0))} ; m2 flamer
+{"mp/usa/late/82nd_glider_pio_flamer"		("inf_tier3" side(usa) cost(80.0))} ; m2 flamer
 {"mp/usa/late/82nd_glider_pio_rifle"		("inf_tier3" side(usa) cost(21.0))} ; m1 garand
 {"mp/usa/late/82nd_glider_pio_rifle_at"		("inf_tier3" side(usa) cost(21.0))} ; m1 garand + m7 mines
 {"mp/usa/late/82nd_glider_pio_sl"			("inf_tier3" side(usa) cost(21.0))} ; m1 garand
@@ -435,7 +435,7 @@
 {"mp/usa/late/101st_late_eng_at_asst"		("inf_tier4" side(usa) cost(23.0))} ; m1 garand + bazooka ammo
 {"mp/usa/late/101st_late_eng_at_m9a1"		("inf_tier4" side(usa) cost(73.0))} ; m1 garand + m9a1 bazooka
 {"mp/usa/late/101st_late_eng_carbine"		("inf_tier4" side(usa) cost(20.0))} ; m1a1 carbine
-{"mp/usa/late/101st_late_eng_flamer"		("inf_tier4" side(usa) cost(60.0))} ; m2 flamer
+{"mp/usa/late/101st_late_eng_flamer"		("inf_tier4" side(usa) cost(80.0))} ; m2 flamer
 {"mp/usa/late/101st_late_eng_rifle"			("inf_tier4" side(usa) cost(23.0))} ; m1 garand
 {"mp/usa/late/101st_late_eng_sl"			("inf_tier4" side(usa) cost(20.0))} ; m1a1 carbine
 {"mp/usa/late/101st_late_eng_sl_asst"		("inf_tier4" side(usa) cost(20.0))} ; m1a1 carbine

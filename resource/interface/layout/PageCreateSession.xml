@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <DialogRef refid="gui_background" shared="true"/>
+                <FrameView resource="/interface/skin/game/frame/bkg" header="true"/>
+                <DockPanel>
+                    <Children>
+                        <DialogRef resource="components/PageHeader.xml" placement="top"/>
+                        <StackPanel placement="center">
+                            <Insets left="28" right="28" bottom="28"/>
+                            <Children>
+                                <PercentPanel stretch="true" direction="horizontal" gap="8">
+                                    <MaxSize x="2184" y="1300" />
+                                    <Children>
+                                        <FrameView percent="0.5" resource="/interface/skin/game/frame/window_misc" header="true">
+                                            <HeaderContent>
+                                                <DockPanel>
+                                                    <Children>
+                                                        <FlowPanel valign="center" placement="center">
+                                                            <Children>
+                                                                <DialogRef refid="gui_breadcrumbs" shared="true"/>
+                                                            </Children>
+                                                        </FlowPanel>
+                                                        <PictureButton placement="right" id="btn_back" centerY="true" centerX="true">
+                                                            <Resource value="/interface/skin/game/button/back"/>
+                                                        </PictureButton>
+                                                    </Children>
+                                                </DockPanel>
+                                            </HeaderContent>
+                                            <Content>
+                                                <DialogRef refid="session_create_dialog" id="session_create_view"/>
+                                            </Content>
+                                        </FrameView>
+<!--                                        <PercentPanel percent="0.5" stretch="true" gap="8">-->
+<!--                                            <Children>-->
+<!--                                                <DockPanel percent="0.7" vgap="8">-->
+<!--                                                    <Children>-->
+<!--                                                        <DialogRef resource="components/MenuUserProfile.xml" placement="top" />-->
+<!--                                                        <DialogRef resource="components/MenuChat.xml" placement="center"  />-->
+<!--                                                    </Children>-->
+<!--                                                </DockPanel>-->
+<!--                                                <PercentPanel percent="0.3" gap="4" direction="horizontal">-->
+<!--                                                    <Children>-->
+<!--                                                        <DialogRef resource="components/MenuFriends.xml" percent="0.65" />-->
+<!--                                                        <DialogRef resource="components/MenuParty.xml" percent="0.35">-->
+<!--                                                            <MaxSize x="320" />-->
+<!--                                                        </DialogRef>-->
+<!--                                                    </Children>-->
+<!--                                                </PercentPanel>-->
+<!--                                            </Children>-->
+<!--                                        </PercentPanel>-->
+                                    </Children>
+                                </PercentPanel>
+                            </Children>
+                        </StackPanel>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

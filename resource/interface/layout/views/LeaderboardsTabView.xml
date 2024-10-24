@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <DockPanel>
+            <Insets all="5"/>
+            <Children>
+<!--                <StackPanel placement="top">-->
+<!--                    <Children>-->
+<!--                        <DockPanel>-->
+<!--                            <Children>-->
+<!--                                <StackPanel  placement="center">-->
+<!--                                    <Children>-->
+<!--                                        <PictureDialog resource="/interface/pages/main/leaderboard_header.dds" zoomMode="fill"/>-->
+<!--                                        <FrameView resource="/interface/skin/game/frame/shadow_logo"/>-->
+<!--                                    </Children>-->
+<!--                                </StackPanel>-->
+<!--                                <PictureDialog resource="/interface/skin/game/frame/window/image_shadow" zoomMode="stretch" placement="bottom"/>-->
+<!--                            </Children>-->
+<!--                        </DockPanel>-->
+<!--                    </Children>-->
+<!--                </StackPanel>-->
+                <StackPanel placement="center">
+                    <Insets all="5"/>
+                    <Children>
+                        <FrameView resource="/interface/skin/game/frame/window5" placement="top"  header="false" percent="1">
+                            <Insets all="25"/>
+                        </FrameView>
+                        <DialogRef refid="gui_leaderboards_dialog">
+                            <Insets all="25"/>
+                        </DialogRef>
+                    </Children>
+                </StackPanel>
+            </Children>
+        </DockPanel>
+    </Content>
+</Layout>

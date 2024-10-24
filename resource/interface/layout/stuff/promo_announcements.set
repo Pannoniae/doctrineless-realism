@@ -1,0 +1,59 @@
+{list
+
+	{announcement
+		{id "upgrade_tier3"}
+		{type "upgrade"}
+		{enabled}
+		{selector
+			{tags "deluxe"}
+		}
+		{content
+			{banner "/interface/pages/main/upgrade_edition_header"}
+			{text "promo/upgrade_to_ultimate"}
+			{details_button
+				{enabled}
+				{text "button/store"}
+				{url "https://store.steampowered.com/app/302670/Call_to_Arms/"}
+			}
+		}
+	}
+
+	{announcement
+		{id "upgrade_tier2"}
+		{type "upgrade"}
+		{enabled}
+		{selector
+			{tags "full"}
+		}
+		{content
+			{banner "/interface/pages/main/upgrade_edition_header"}
+			{text "promo/upgrade_to_deluxe"}
+			{details_button
+				{enabled}
+				{text "button/store"}
+				{url "https://store.steampowered.com/app/302670/Call_to_Arms/"}
+			}
+		}
+	}
+
+	{announcement
+		{id "upgrade_tier1"}
+		{type "upgrade"}
+		{enabled}
+		{selector
+			{tags "free"}
+		}
+		{content
+			{banner "/interface/pages/main/upgrade_edition_header"}
+			{text "promo/upgrade_to_full"}
+			{details_button
+				{enabled}
+				{text "button/store"}
+				{url "https://store.steampowered.com/app/302670/Call_to_Arms/"}
+			}
+		}
+	}
+
+
+
+}

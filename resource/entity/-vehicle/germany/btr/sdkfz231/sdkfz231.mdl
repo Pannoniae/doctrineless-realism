@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 18.06.2022 01:08:26
-;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\btr\sdkfz231\SdKfz_231.max
+;Exported by:	 guita
+;Date:			 28.09.2023 14:12:42
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger_updated\vehicles\btr\sdkfz231\SdKfz_231.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.6}}
@@ -81,12 +81,12 @@
 							}
 							{Position 2.5831 	 -0.9907 	 -0.0365}
 							{VolumeView "gun.ply"}
-							{bone "foresight1"
-								{Position 24.5449 	 -0.0033 	 0.0076}
-							}
 						}
 						{bone "foresight5"
 							{Position 10.5847 	 6.8302 	 -0.7218}
+						}
+						{bone "foresight1"
+							{Position 27.1281 	 -0.9939 	 -0.0289}
 						}
 					}
 				}
@@ -515,7 +515,7 @@
 					}
 				}
 				{bone revolute "steerr4"
-					{limits -20 20}
+					{limits -25 25}
 					{Position -40.3049 	 -14.2134 	 0.0892}
 					{bone prizmatic "suspension_r4"
 						{limits -0.1 0.1}
@@ -571,7 +571,7 @@
 					}
 				}
 				{bone revolute "steerl4"
-					{limits -20 20}
+					{limits -25 25}
 					{Position -40.3049 	 14.21 	 0.0892}
 					{bone prizmatic "suspension_l4"
 						{limits -0.1 0.1}
@@ -624,12 +624,12 @@
 }
 {volume "barrel"
 	{cylinder 0.563078 26.8797}
-	{bone "gun"}
+	{bone "mantlet"}
 	{matrix34
 		0 	 -1 	 0
 		0 	 0 	 1
 		-1 	 0 	 0
-		9.8076 	 0.0046 	 0.0206
+		12.3907 	 -0.9861 	 -0.0159
 	}
 }
 {volume "body1"

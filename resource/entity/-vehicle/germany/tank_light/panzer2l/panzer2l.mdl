@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 10.03.2021 20:20:04
-;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\Early WW2 tanks\germany\pz2luchs\panzer2l_export.max
+;Exported by:	 guita
+;Date:			 28.09.2023 14:25:18
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger_updated\vehicles\tank_light\pz2luchs\panzer2l_export.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -715,12 +715,12 @@
 }
 {volume "barrel"
 	{cylinder 0.770698 27.3337}
-	{bone "gun"}
+	{bone "gun_rot"}
 	{matrix34
-		0 	 -0.9511 	 0.309
 		0 	 0.309 	 0.9511
+		0 	 0.9511 	 -0.309
 		-1 	 0 	 0
-		6.211 	 0 	 -0.0083
+		12.5731 	 -0.1861 	 0.0047
 	}
 }
 {volume "body1"

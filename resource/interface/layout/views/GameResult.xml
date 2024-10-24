@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<StackPanel>
+			<PreferredSize x="1180" y="1200"/>
+			<Children>
+<!--				<StackPanel id="game_result_video"/>-->
+<!--				<PictureDialog resource="/interface/pages/main/dynamic_campaign/create_background" zoomMode="fill"/>-->
+				<FlowPanel halign="center">
+					<Children>
+						<FrameView percent="0.5" resource="/interface/skin/game/frame/window_misc2">
+							<Insets top="10" right="10" bottom="10" left="10"/>
+							<PreferredSize x="1000" y="1170"/>
+							<Content>
+								<TabPanel id="tabs">
+									<Tab id="personal" titleKey="mp/statistics2/personal/title">
+										<StackPanel id="personal_content">
+											<Children>
+												<DockPanel>
+													<Children>
+														<FrameView placement="center" resource="/interface/skin/game/frame/window_single" header="false">
+															<Insets left="4" top="4" right="4"/>
+															<Content>
+																<DockPanel>
+																	<Children>
+																		<DockPanel placement="top" hgap="4">
+																			<Children>
+																				<AvatarView placement="left" id="avatar" mode="button" avatarSize="large">
+																					<MaxSize x="100" y="100"/>
+																				</AvatarView>
+																				<DockPanel placement="center">
+																					<Children>
+																						<DockPanel placement="top">
+																							<Children>
+																								<UserNameView placement="left" id="user_name_view" clanTag="true" format="user_profile2/nick"/>
+																								<SquadLogoView placement="right" id="squad_logo_view"/>
+																							</Children>
+																						</DockPanel>
+																						<FlowPanel placement="bottom" direction="vertical" halign="stretch">
+																							<Children>
+																								<StackPanel id="user_xp_view"/>
+																							</Children>
+																						</FlowPanel>
+																					</Children>
+																				</DockPanel>
+																			</Children>
+																		</DockPanel>
+																		<DockPanel placement="center">
+																			<Children>
+																				<FlowPanel placement="center" direction="vertical" halign="center" valign="center" gap="20">
+																					<Children>
+																						<FlowPanel id="columns" direction="horizontal" halign="center" valign="center" gap="120">
+																							<Children>
+																								<FlowPanel direction="vertical" halign="stretch" gap="4">
+																									<Children>
+																										<StaticText id="label_progress_xp">
+																											<Text key="mp/statistics2/personal/progress_xp"/>
+																											<TextStyle value="s(15)e(shadow)b+c(d29c4f)"/>
+																										</StaticText>
+																										<StaticText id="label_progress_victory">
+																											<Text key="mp/statistics2/personal/progress_victory"/>
+																										</StaticText>
+																										<StaticText id="label_progress_friend">
+																											<Text key="mp/statistics2/personal/progress_friend"/>
+																										</StaticText>
+<!--																										<StaticText id="label_progress_deluxe">-->
+<!--																											<Text key="mp/statistics2/personal/progress_deluxe"/>-->
+<!--																										</StaticText>-->
+<!--																										<StaticText id="label_progress_xp_boost">-->
+<!--																											<Text key="mp/statistics2/personal/progress_xp_boost"/>-->
+<!--																										</StaticText>-->
+																										<StackPanel>
+																											<Insets top="22"/>
+																											<Children>
+																												<StaticText id="label_progress_total_xp">
+																													<Text key="mp/statistics2/personal/progress_total_xp"/>
+																													<TextStyle value="s(15)e(shadow)b+c(d29c4f)"/>
+																												</StaticText>
+																											</Children>
+																										</StackPanel>
+																									</Children>
+																								</FlowPanel>
+																								<FlowPanel direction="vertical" halign="stretch" gap="4">
+																									<Children>
+																										<FlowPanel halign="right">
+																											<Children>
+																												<StaticText id="progress_xp">
+																													<Text value="0 XP"/>
+																													<TextStyle value="s(15)e(shadow)b+c(d29c4f)"/>
+																												</StaticText>
+																											</Children>
+																										</FlowPanel>
+																										<FlowPanel halign="right">
+																											<Children>
+																												<StaticText id="progress_victory">
+																													<Text value="0 XP"/>
+																												</StaticText>
+																											</Children>
+																										</FlowPanel>
+<!--																										<FlowPanel halign="right">-->
+<!--																											<Children>-->
+<!--																												<StaticText id="progress_friend">-->
+<!--																													<Text value="0 XP"/>-->
+<!--																												</StaticText>-->
+<!--																											</Children>-->
+<!--																										</FlowPanel>-->
+<!--																										<FlowPanel halign="right">-->
+<!--																											<Children>-->
+<!--																												<StaticText id="progress_deluxe">-->
+<!--																													<Text value="0 XP"/>-->
+<!--																												</StaticText>-->
+<!--																											</Children>-->
+<!--																										</FlowPanel>-->
+<!--																										<FlowPanel halign="right">-->
+<!--																											<Children>-->
+<!--																												<StaticText id="progress_xp_boost">-->
+<!--																													<Text value="0 XP"/>-->
+<!--																												</StaticText>-->
+<!--																											</Children>-->
+<!--																										</FlowPanel>-->
+																										<FlowPanel halign="right">
+																											<Insets top="22"/>
+																											<Children>
+																												<StaticText id="progress_total_xp">
+																													<Text value="0 XP"/>
+																												</StaticText>
+																											</Children>
+																										</FlowPanel>
+																									</Children>
+																								</FlowPanel>
+																								<FlowPanel direction="vertical" halign="stretch" gap="4">
+																									<Children>
+																										<StaticText id="label_game_resources">
+																											<Text key="mp/statistics2/personal/game_resource_reward"/>
+																										</StaticText>
+																										<StaticText id="label_game_bonus">
+																											<Text key="mp/statistics2/personal/game_resource_bonus"/>
+																										</StaticText>
+																										<StaticText id="label_game_risk_factor">
+																											<Text key="mp/statistics2/personal/game_resource_risk_factor"/>
+																										</StaticText>
+																										<StaticText id="label_game_payback">
+																											<Text key="mp/statistics2/personal/game_resource_payback"/>
+																										</StaticText>
+																										<StackPanel>
+																											<Insets top="22"/>
+																											<Children>
+																												<StaticText id="label_game_total">
+																													<Text key="mp/statistics2/personal/game_resource_total"/>
+																												</StaticText>
+																											</Children>
+																										</StackPanel>
+																									</Children>
+																								</FlowPanel>
+																								<FlowPanel direction="vertical" halign="stretch" gap="4">
+																									<Children>
+																										<FlowPanel id="game_resources" halign="right"/>
+																										<FlowPanel id="game_bonus" halign="right"/>
+																										<FlowPanel id="game_risk_factor" halign="right"/>
+																										<FlowPanel id="game_payback" halign="right"/>
+																										<FlowPanel id="game_total" halign="right">
+																											<Insets top="22"/>
+																										</FlowPanel>
+																									</Children>
+																								</FlowPanel>
+																							</Children>
+																						</FlowPanel>
+																						<StaticText id="xp_hint">
+																							<Active value="false"/>
+																							<Text key="mp/statistics2/personal/xp_hint"/>
+																							<TextStyle value="s(16)"/>
+																						</StaticText>
+																					</Children>
+																				</FlowPanel>
+																			</Children>
+																		</DockPanel>
+																		<!--<DockPanel placement="bottom">
+																			<Children>
+																				<MenuTextButton placement="right" id="btn_save_replay">
+																					<Text key="mp/statistics2/personal/btn_replay"/>
+																				</MenuTextButton>
+																			</Children>
+																		</DockPanel>-->
+																	</Children>
+																</DockPanel>
+															</Content>
+														</FrameView>
+													</Children>
+												</DockPanel>
+											</Children>
+										</StackPanel>
+									</Tab>
+									<Tab id="result" titleKey="mp/statistics2/result/title">
+										<StackPanel id="result_content" >
+											<Children>
+												<DockPanel>
+													<Children>
+														<FrameView placement="center" resource="/interface/skin/game/frame/window_misc2" header="true">
+															<HeaderContent>
+																<DockPanel>
+																	<Children>
+																		<PercentPanel placement="center" direction="horizontal">
+																			<Children>
+																				<StackPanel percent="0.100"/>
+																				<StaticText percent="0.200">
+																					<Ables mouse="true"/>
+																					<Text key="mp/statistics2/result/header/player"/>
+																					<TextStyle value="x.s(12)"/>
+																					<TextClip value="true" showHint="true"/>
+																				</StaticText>
+																				<StaticText percent="0.162">
+																					<Ables mouse="true"/>
+																					<Text key="mp/statistics2/result/header/victory_points"/>
+																					<TextStyle value="x.s(12)"/>
+																					<TextClip value="true" showHint="true"/>
+																				</StaticText>
+																				<StaticText percent="0.112">
+																					<Ables mouse="true"/>
+																					<Text key="mp/statistics2/result/header/infantry"/>
+																					<TextStyle value="x.s(12)"/>
+																					<TextClip value="true" showHint="true"/>
+																				</StaticText>
+																				<StaticText percent="0.112">
+																					<Ables mouse="true"/>
+																					<Text key="mp/statistics2/result/header/vehicles"/>
+																					<TextStyle value="x.s(12)"/>
+																					<TextClip value="true" showHint="true"/>
+																				</StaticText>
+																				<StaticText percent="0.112">
+																					<Ables mouse="true"/>
+																					<Text key="mp/statistics2/result/header/score"/>
+																					<TextStyle value="x.s(12)"/>
+																					<TextClip value="true" showHint="true"/>
+																				</StaticText>
+																				<StaticText percent="0.200">
+																					<Ables mouse="true"/>
+																					<Text key="mp/statistics2/result/header/resources"/>
+																					<TextStyle value="x.s(12)"/>
+																					<TextClip value="true" showHint="true"/>
+																				</StaticText>
+																			</Children>
+																		</PercentPanel>
+																		<StackPanel placement="right">
+																			<PreferredSize x="16"/>
+																		</StackPanel>
+																	</Children>
+																</DockPanel>
+															</HeaderContent>
+															<Content>
+																<StackPanel>
+																	<Insets top="4" bottom="4"/>
+																	<Children>
+																		<ListBox id="result_entries"/>
+																	</Children>
+																</StackPanel>
+															</Content>
+														</FrameView>
+														<FrameView placement="bottom" resource="/interface/skin/game/frame/window_misc2" header="true">
+															<HeaderContent>
+																<DockPanel>
+																	<Children>
+																		<PercentPanel placement="center" direction="horizontal">
+																			<Children>
+																				<StackPanel percent="0.100"/>
+																				<StaticText percent="0.200">
+																					<Ables mouse="true"/>
+																					<Text key="mp/statistics2/result/header/best_units"/>
+																					<TextStyle value="x."/>
+																					<TextClip value="true" showHint="true"/>
+																				</StaticText>
+																				<StackPanel percent="0.162"/>
+																				<StaticText percent="0.112">
+																					<Ables mouse="true"/>
+																					<Text key="mp/statistics2/result/header/infantry"/>
+																					<TextStyle value="x."/>
+																					<TextClip value="true" showHint="true"/>
+																				</StaticText>
+																				<StaticText percent="0.112">
+																					<Ables mouse="true"/>
+																					<Text key="mp/statistics2/result/header/vehicles"/>
+																					<TextStyle value="x."/>
+																					<TextClip value="true" showHint="true"/>
+																				</StaticText>
+																				<StaticText percent="0.112">
+																					<Ables mouse="true"/>
+																					<Text key="mp/statistics2/result/header/score"/>
+																					<TextStyle value="x."/>
+																					<TextClip value="true" showHint="true"/>
+																				</StaticText>
+																				<StackPanel percent="0.200"/>
+																			</Children>
+																		</PercentPanel>
+																		<StackPanel placement="right">
+																			<PreferredSize x="16"/>
+																		</StackPanel>
+																	</Children>
+																</DockPanel>
+															</HeaderContent>
+															<Content>
+																<DockPanel>
+																	<Children>
+																		<StackPanel placement="center">
+																			<Insets top="4" bottom="4"/>
+																			<Children>
+																				<ListBox id="result_units"/>
+																			</Children>
+																		</StackPanel>
+																		<StackPanel placement="right">
+																			<PreferredSize x="16"/>
+																		</StackPanel>
+																	</Children>
+																</DockPanel>
+															</Content>
+														</FrameView>
+													</Children>
+												</DockPanel>
+											</Children>
+										</StackPanel>
+									</Tab>
+									<Tab id="units" titleKey="mp/statistics2/units/title">
+										<StackPanel id="units_content">
+											<Children>
+												<PercentPanel direction="horizontal" gap="5">
+													<Children>
+														<DockPanel percent="0.5">
+															<Children>
+																<ComboBox placement="top" id="cb_units_entries_left">
+																	<PreferredSize y="36"/>
+																</ComboBox>
+																<FrameView placement="center" resource="/interface/skin/game/frame/window_misc2" header="false">
+																	<Insets top="7" bottom="6"/>
+																	<Content>
+																		<ListBox id="units_entries_left"/>
+																	</Content>
+																</FrameView>
+															</Children>
+														</DockPanel>
+														<DockPanel percent="0.5">
+															<Children>
+																<ComboBox placement="top" id="cb_units_entries_right">
+																	<PreferredSize y="36"/>
+																</ComboBox>
+																<FrameView placement="center" resource="/interface/skin/game/frame/window_misc2" header="false">
+																	<Insets top="7" bottom="6"/>
+																	<Content>
+																		<ListBox id="units_entries_right"/>
+																	</Content>
+																</FrameView>
+															</Children>
+														</DockPanel>
+													</Children>
+												</PercentPanel>
+											</Children>
+										</StackPanel>
+									</Tab>
+									<Tab id="detail" titleKey="mp/statistics2/detail/title">
+										<StackPanel id="detail_content">
+											<Children>
+												<FrameView resource="/interface/skin/game/frame/window_misc2" header="true">
+													<HeaderContent>
+														<PercentPanel direction="horizontal">
+															<Children>
+																<StackPanel percent="0.150"/>
+																<StaticText percent="0.250">
+																	<Ables mouse="true"/>
+																	<Text key="mp/statistics2/detail/header/units"/>
+																	<TextStyle value="x."/>
+																	<TextClip value="true" showHint="true"/>
+																</StaticText>
+																<StaticText percent="0.150">
+																	<Ables mouse="true"/>
+																	<Text key="mp/statistics2/detail/header/infantry_kills"/>
+																	<TextStyle value="x."/>
+																	<TextClip value="true" showHint="true"/>
+																</StaticText>
+																<StaticText percent="0.150">
+																	<Ables mouse="true"/>
+																	<Text key="mp/statistics2/detail/header/vehicle_kills"/>
+																	<TextStyle value="x."/>
+																	<TextClip value="true" showHint="true"/>
+																</StaticText>
+																<StaticText percent="0.150">
+																	<Ables mouse="true"/>
+																	<Text key="mp/statistics2/detail/header/score"/>
+																	<TextStyle value="x."/>
+																	<TextClip value="true" showHint="true"/>
+																</StaticText>
+																<StaticText percent="0.150">
+																	<Ables mouse="true"/>
+																	<Text key="mp/statistics2/detail/header/effectiveness"/>
+																	<TextStyle value="x."/>
+																	<TextClip value="true" showHint="true"/>
+																</StaticText>
+															</Children>
+														</PercentPanel>
+													</HeaderContent>
+													<Content>
+														<StackPanel>
+															<Insets top="4" bottom="4"/>
+															<Children>
+																<ScrollPane>
+																	<Children>
+																		<ScrollableContent>
+																			<Children>
+																				<FlowPanel id="detail_entries" halign="stretch" gap="2"/>
+																			</Children>
+																		</ScrollableContent>
+																	</Children>
+																</ScrollPane>
+															</Children>
+														</StackPanel>
+													</Content>
+												</FrameView>
+											</Children>
+										</StackPanel>
+									</Tab>
+									<Tab id="history" titleKey="mp/statistics2/history/title">
+										<StackPanel id="history_content">
+											<Children>
+												<ScrollPane>
+													<Children>
+														<ScrollableContent>
+															<Children>
+																<FlowPanel id="history_entries" halign="stretch" gap="4"/>
+															</Children>
+														</ScrollableContent>
+													</Children>
+												</ScrollPane>
+											</Children>
+										</StackPanel>
+									</Tab>
+								</TabPanel>
+							</Content>
+						</FrameView>
+					</Children>
+				</FlowPanel>
+			</Children>
+		</StackPanel>
+	</Content>
+</Layout>

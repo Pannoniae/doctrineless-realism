@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <FlowPanel direction="vertical" halign="stretch">
+            <Children>
+                <FlowPanel>
+                    <Children>
+
+                        <StackPanel>
+                            <Children>
+                                <PictureDialog resource="/interface/pages/main/load_gradient_team" zoomMode="stretch">
+                                    <PreferredSize x="425" y="40"/>
+                                </PictureDialog>
+                                <FlowPanel direction="horizontal" valign="stretch" halign="left" percent="1" >
+                                    <PreferredSize x="200"/>
+                                    <Children>
+                                        <PictureDialog id="flag" zoomMode="fill" filtering="true">
+                                            <Alphabuffer value="true"/>
+                                            <Ables mouse="false"/>
+                                        </PictureDialog>
+                                    </Children>
+                                </FlowPanel>
+                                <FlowPanel valign="center" halign="left" >
+                                    <Insets left="15"/>
+                                    <Children>
+                                        <StaticText id="name">
+                                            <Ables mouse="true"/>
+                                            <TextClip value="true" showHint="true"/>
+                                            <TextStyle value="s(42)e(shadow)f(pobeda)b"/>
+                                        </StaticText>
+                                    </Children>
+                                </FlowPanel>
+                            </Children>
+                        </StackPanel>
+                    </Children>
+                </FlowPanel>
+                <FlowPanel direction="vertical" halign="center">
+                    <Children>
+                        <FlowPanel id="players" direction="vertical" gap="5">
+                            <Insets top="5" bottom="5" left="5" right="5"/>
+                        </FlowPanel>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </FlowPanel>
+    </Content>
+</Layout>

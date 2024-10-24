@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <PercentPanel direction="horizontal">
+            <Children>
+                <DockPanel percent="0.7">
+                    <Insets all="10"/>
+                    <Children>
+						<FlowPanel placement="center" halign="stretch" direction="vertical" id="messages"/>
+                        <FrameView placement="bottom" resource="/interface/skin/game/frame/window">
+                            <Insets left="5" top="5" right="5" bottom="5"/>
+                            <Content>
+                                <DockPanel>
+                                    <Children>
+                                        <FlowPanel placement="center" halign="stretch" valign="center">
+                                            <Children>
+                                                <MenuInputBox id="il_message">
+                                                    <MaxTextLength value="256"/>
+                                                </MenuInputBox>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </DockPanel>
+                            </Content>
+                        </FrameView>
+                    </Children>
+                </DockPanel>
+                <StackPanel percent="0.3">
+                    <Children>
+                        <FrameView resource="/interface/skin/game/frame/window4">
+                            <Insets all="12"/>
+                            <Content>
+                                <DockPanel>
+                                    <Children>
+                                        <DockPanel placement="center">
+                                            <Children>
+                                                <StackPanel placement="center">
+                                                    <Insets left="5" right="5"/>
+                                                    <Children>
+                                                        <ListBox id="lb_roster">
+                                                            <Background value="false"/>
+                                                        </ListBox>
+                                                    </Children>
+                                                </StackPanel>
+                                                <MenuInputBox id="il_user_filter" placement="bottom">
+                                                    <MaxTextLength value="128"/>
+                                                </MenuInputBox>
+                                            </Children>
+                                        </DockPanel>
+                                        <FlowPanel placement="bottom" direction="horizontal" halign="right" gap="2">
+                                            <Insets top="-2" right="2"/>
+                                            <Children>
+                                                <StackPanel id="sort_buttons_container">
+                                                    <Children>
+                                                        <PictureButton id="btn_sort_name">
+                                                            <Hint key="mp/gs/change_sort_name"/>
+                                                            <Resource value="/interface/skin/game/button/multi/btn_sort_name"/>
+                                                        </PictureButton>
+                                                        <PictureButton id="btn_sort_rank">
+                                                            <Hint key="mp/gs/change_sort_picture"/>
+                                                            <Resource value="/interface/skin/game/button/multi/btn_sort_rank_picture"/>
+                                                        </PictureButton>
+                                                        <PictureButton id="btn_sort_games">
+                                                            <Hint key="mp/gs/change_sort_number"/>
+                                                            <Resource value="/interface/skin/game/button/multi/btn_sort_rank_number"/>
+                                                        </PictureButton>
+                                                    </Children>
+                                                </StackPanel>
+                                                <PictureButton id="btn_social">
+                                                    <Hint key="mp/gs/social/social"/>
+                                                    <Resource value="/interface/skin/game/button/multi/btn_social"/>
+                                                </PictureButton>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </DockPanel>
+                            </Content>
+                        </FrameView>
+                    </Children>
+                </StackPanel>
+            </Children>
+        </PercentPanel>
+    </Content>
+</Layout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        id="page_sample"
+        version="1"
+        skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel id="page_root">
+            <Ables mouse="true"/>
+            <Children>
+                <DialogRef refid="gui_background"/>
+                <FlowPanel direction="vertical" halign="center" valign="center">
+                    <Children>
+                        <FrameView id="frame_content" resource="/interface/skin/game/frame/window">
+                            <PreferredSize x="800" y="600" />
+                            <HeaderContent>
+                                <StackPanel>
+                                    <Children>
+                                        <ClickablePictureDialog id="banner" resource="/interface/pages/main/category_header_sale" zoomMode="stretch" centerX="true"/>
+                                    </Children>
+                                </StackPanel>
+                            </HeaderContent>
+                            <Content>
+                                <DockPanel>
+                                    <Children>
+                                        <StackPanel placement="center">
+                                            <Insets left="320" right="10" bottom="10" top="10" />
+                                            <Children>
+                                                <StaticText>
+                                                    <Text key="announce_appeal" textFormat="f(pobeda)s(30)b+c(cfa855)e(shadow)" textTransform="toUpper"/>
+                                                </StaticText>
+                                            </Children>
+                                        </StackPanel>
+                                        <StackPanel id="content" placement="center">
+                                            <Insets left="10" right="10" bottom="10" top="-20" />
+                                            <Children>
+												<StaticText id="txt_content" />
+											</Children>
+                                        </StackPanel>
+                                        <StackPanel placement="top">
+                                            <Insets top="45"/>
+                                            <Children>
+                                                <DialogRef refid="gui_spacer_horizontal2" placement="top" >
+                                                </DialogRef>
+                                            </Children>
+                                        </StackPanel>
+                                        <FlowPanel placement="bottom" halign="center" direction="horizontal" gap="20">
+                                            <Insets bottom="10" top="10" />
+                                            <Children>
+                                                <MenuLinkButton id="btn_extra">
+                                                    <Text key="button/store" textTransform="toUpper" />
+                                                </MenuLinkButton>
+                                                <MenuLinkButton id="btn_close">
+                                                    <Text key="button/continue" textTransform="toUpper"/>
+                                                </MenuLinkButton>
+                                            </Children>
+                                            <Children>
+
+                                            </Children>
+
+                                        </FlowPanel>
+                                    </Children>
+                                </DockPanel>
+                            </Content>
+                        </FrameView>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

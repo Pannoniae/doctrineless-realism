@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 09.03.2022 17:12:00
-;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_rus\vehicles\tank_medium\t-34-57\T-34-57.max
+;Exported by:	 guita
+;Date:			 13.08.2023 08:26:11
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_medium\t-34-57\T-34-57.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}

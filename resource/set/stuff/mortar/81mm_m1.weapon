@@ -10,7 +10,7 @@
 	{calibre 81}
 	("medium_mortar_range")
 	{parameters "he2 heavy"
-		{aimRange 210}
-		{maxRange 210}
+		{aimRange 180}
+		{maxRange 180}
 	}
 }

@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 03.07.2021 10:00:45
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\panther_gulegas\3dsmax\Panther D.max
+;Exported by:	 Robin
+;Date:			 01.07.2023 04:40:48
+;File:			 G:\SVN GoH models\GoH_3D_vehicles_ger\vehicles\tank_medium\panther_gulegas\3dsmax\Panther D.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -434,7 +434,7 @@
 					{VolumeView "turret_lod1.ply"}
 				}
 				{bone revolute "gun_rot"
-					{parameters "id=gun;"}
+					{parameters "id=turret;"}
 					{animation
 						{sequence "repair" {file "gun_r.anm"}}
 					}
@@ -1072,19 +1072,19 @@
 				{Position 50.325 	 -32.5612 	 2.0255}
 				{VolumeView "shieldr3.ply"}
 			}
-			{bone "shieldr1"
-				{parameters "id=shieldl1;"}
+			{bone "fenderr"
+				{parameters "id=body;"}
 				{Position 57.5877 	 -24.5034 	 4.7675}
 				{LODView
-					{VolumeView "shieldr1.ply"}
-					{VolumeView "shieldr1_lod1.ply"}
+					{VolumeView "fenderr.ply"}
+					{VolumeView "fenderr_lod1.ply"}
 				}
-				{bone "shieldr2"
-					{parameters "id=shieldl2;"}
+				{bone "fenderr2"
+					{parameters "id=body;"}
 					{Position 6.3073 	 0 	 -3.5016}
 					{LODView
-						{VolumeView "shieldr2.ply"}
-						{VolumeView "shieldr2_lod1.ply"}
+						{VolumeView "fenderr2.ply"}
+						{VolumeView "fenderr2_lod1.ply"}
 					}
 				}
 			}
@@ -1118,19 +1118,19 @@
 				{Position 50.325 	 32.2467 	 2.0255}
 				{VolumeView "shieldl3.ply"}
 			}
-			{bone "shieldl1"
-				{parameters "id=shieldl1;"}
+			{bone "fenderl"
+				{parameters "id=body;"}
 				{Position 57.5877 	 24.25 	 4.7675}
 				{LODView
-					{VolumeView "shieldl1.ply"}
-					{VolumeView "shieldl1_lod1.ply"}
+					{VolumeView "fenderl.ply"}
+					{VolumeView "fenderl_lod1.ply"}
 				}
-				{bone "shieldl2"
-					{parameters "id=shieldl2;"}
+				{bone "fenderl2"
+					{parameters "id=body;"}
 					{Position 6.4136 	 0 	 -3.5145}
 					{LODView
-						{VolumeView "shieldl2.ply"}
-						{VolumeView "shieldl2_lod1.ply"}
+						{VolumeView "fenderl2.ply"}
+						{VolumeView "fenderl2_lod1.ply"}
 					}
 				}
 			}
@@ -1298,6 +1298,46 @@
 		5.9385 	 -2.7345 	 0.1971
 	}
 }
+{volume "fenderl2"
+	{polyhedron "fenderl2.vol"}
+	{bone "fenderl2"}
+	{matrix34
+		-0.6626 	 0 	 0.749
+		0.749 	 0 	 0.6626
+		0 	 1 	 0
+		1.2626 	 -6.7446 	 0.0555
+	}
+}
+{volume "fenderl"
+	{polyhedron "fenderl.vol"}
+	{bone "fenderl"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		-0.047 	 -6.7446 	 1.4927
+	}
+}
+{volume "fenderr2"
+	{polyhedron "fenderr2.vol"}
+	{bone "fenderr2"}
+	{matrix34
+		-0.6626 	 0 	 0.749
+		0.749 	 0 	 0.6626
+		0 	 1 	 0
+		1.3689 	 -6.658 	 0.0426
+	}
+}
+{volume "fenderr"
+	{polyhedron "fenderr.vol"}
+	{bone "fenderr"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		-0.047 	 -6.658 	 1.4749
+	}
+}
 {volume "fuel1"
 	{box 7.58783 7.15708 19.5885}
 	{bone "fuel1"}
@@ -1402,26 +1442,6 @@
 	{bone "body"}
 	{Position 2.7411 	 -0.5311 	 -1.2549}
 }
-{volume "shieldl1"
-	{polyhedron "shieldl1.vol"}
-	{bone "shieldl1"}
-	{matrix34
-		-1 	 0 	 0
-		0 	 0 	 1
-		0 	 1 	 0
-		-0.047 	 -6.7446 	 1.4927
-	}
-}
-{volume "shieldl2"
-	{polyhedron "shieldl2.vol"}
-	{bone "shieldl2"}
-	{matrix34
-		-0.6626 	 0 	 0.749
-		0.749 	 0 	 0.6626
-		0 	 1 	 0
-		1.2626 	 -6.7446 	 0.0555
-	}
-}
 {volume "shieldl3"
 	{box 20.7799 10.3228 0.590551}
 	{bone "shieldl3"}
@@ -1480,26 +1500,6 @@
 		0 	 0 	 1
 		0.0194 	 0.9998 	 0
 		0.0547 	 0.0046 	 -0.0111
-	}
-}
-{volume "shieldr1"
-	{polyhedron "shieldr1.vol"}
-	{bone "shieldr1"}
-	{matrix34
-		-1 	 0 	 0
-		0 	 0 	 1
-		0 	 1 	 0
-		-0.047 	 -6.658 	 1.4749
-	}
-}
-{volume "shieldr2"
-	{polyhedron "shieldr2.vol"}
-	{bone "shieldr2"}
-	{matrix34
-		-0.6626 	 0 	 0.749
-		0.749 	 0 	 0.6626
-		0 	 1 	 0
-		1.3689 	 -6.658 	 0.0426
 	}
 }
 {volume "shieldr3"

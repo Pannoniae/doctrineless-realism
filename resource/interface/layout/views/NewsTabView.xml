@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <DockPanel>
+                    <Children>
+                        <StackPanel placement="top">
+                            <Children>
+                                <DockPanel>
+                                    <Children>
+                                        <StackPanel placement="center">
+                                            <Children>
+<!--                                                <PictureDialog resource="/interface/pages/main/logo_banner.dds" zoomMode="stretch"/>-->
+<!--                                                <PictureDialog resource="/interface/pages/main/logo.png" zoomMode="fit" centerX="true"/>-->
+                                            </Children>
+                                        </StackPanel>
+                                    </Children>
+                                </DockPanel>
+                            </Children>
+                        </StackPanel>
+                        <StackPanel placement="center">
+                            <Children>
+<!--                                <PictureDialog resource="/interface/pages/main/logo_banner_background.png" zoomMode="stretch"/>-->
+                                <DialogRef refid="gui_news_dialog" shared="true"/>
+                            </Children>
+                        </StackPanel>
+                    </Children>
+                </DockPanel>
+<!--                <FrameView resource="/interface/skin/game/frame/shadow_logo">-->
+<!--                    <Ables mouse="false"/>-->
+<!--                </FrameView>-->
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

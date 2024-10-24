@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<PercentPanel direction="horizontal" placement="center">
+			<Children>
+				<FrameView percent="0.45" resource="/interface/skin/game/frame/window" header="true">
+				<MaxSize x="440" />
+					<HeaderContent>
+						<FlowPanel valign="center" halign="center">
+							<Children>
+								<StaticText id="unit_title">
+									<TextStyle value="x.e(shadow)f(roboto_mono)"/>
+								</StaticText>
+							</Children>
+						</FlowPanel>
+					</HeaderContent>
+					<Content>
+						<StackPanel>
+							<Insets left="4" top="1" right="4"/>
+							<Children>
+								<ListBox id="lb_entries"/>
+							</Children>
+						</StackPanel>
+					</Content>
+				</FrameView>
+				<FrameView percent="0.55" resource="/interface/skin/game/frame/window">
+					<Content>
+						<StackPanel>
+							<Insets left="4" top="4" right="4" bottom="4"/>
+							<Children>
+								<StackPanel id="display">
+									<Children>
+										<StackPanel placement="center">
+											<!--<Children>
+												<PictureDialog  id="background_flag" zoomMode="fit" centerX="true" centerY="true" placement="center"/>
+											</Children>-->
+										</StackPanel>
+										<FlowPanel valign="bottom" halign="left">
+											<Insets all="20"/>
+											<Children>
+												<StaticText id="entry_title"  >
+													<Text textTransform="toUpper"/>
+													<TextStyle value="s(42)x.e(shadow)f(pobeda)b+c(235 178 108 100)"  />
+												</StaticText>
+											</Children>
+										</FlowPanel>
+									</Children>
+								</StackPanel>
+							</Children>
+						</StackPanel>
+					</Content>
+				</FrameView>
+				<FrameView id="info" resource="/interface/skin/game/frame/window" header="true">
+				<MinSize x="544" />
+				<MaxSize x="544" />
+					<HeaderContent>
+						<FlowPanel valign="center" halign="center">
+							<Children>
+								<StaticText>
+									<Text key="mp/unit_info/btn_tech"/>
+									<TextStyle value="x.e(shadow)f(roboto_mono)"/>
+								</StaticText>
+							</Children>
+						</FlowPanel>
+					</HeaderContent>
+					<Content>
+						<StackPanel id="pnl_info">
+							<Insets left="4" right="6"/>
+						</StackPanel>
+					</Content>
+				</FrameView>
+			</Children>
+		</PercentPanel>
+	</Content>
+</Layout>

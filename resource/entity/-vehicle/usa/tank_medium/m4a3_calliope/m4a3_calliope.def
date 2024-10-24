@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/tank.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.1))
-	{props "medium" "vision_lev04" "rocket" "muzzle_75mm_76mm" "smoke" "2in_wp" "captor"}
+	{props "medium" "vision_lev04" "rocket" "muzzle_75mm_76mm" "smoke" "2in_wp" "detect_artillery" "artillery_minimap_medium_2" "captor"}
 	{extension "m4a3_calliope.mdl"}
 	(include  "m4a3_calliope.ext")
 	{PatherId "m4a3"}

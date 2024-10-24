@@ -1,15 +1,15 @@
 ;Exported by:	 guita
-;Date:			 23.11.2022 16:33:51
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\tank_medium\t-34-76e_armored\t34_76e.max
+;Date:			 23.08.2024 12:07:42
+;File:			 G:\SVN\Working Resources\GatesOfHell\GoH_3d_vehicle_rus\vehicles\tank_medium\t-34-76e_armored\t34_76e.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
 		{sequence "stop" {speed 0.7}}
 		{sequence "fire" {speed 0.75}}
 		{sequence "hit" {speed 0.5}}
-		{sequence "open" {resume}}
-		{sequence "open_driver" {speed 0.6}{resume}}
-		{sequence "close_driver" {speed 0.55}{resume}}
+		{sequence "open" {resume} {events {2 "hatch_medium"}}}
+		{sequence "open_driver" {speed 0.6}{resume} {events {12 "hatch_medium"} {63 "hatch_medium"}}}
+		{sequence "close_driver" {speed 0.55}{resume} {events {2 "hatch_medium"} {61 "hatch_medium"}}}
 	}
 	{bone "basis"
 		{orientation
@@ -308,7 +308,7 @@
 					1 	 0 	 0
 					0 	 0 	 1
 					0 	 -1 	 0
-					34.3499 	 23.5308 	 8.586
+					46.1438 	 14.4673 	 6.1123
 				}
 			}
 			{bone "visor2"

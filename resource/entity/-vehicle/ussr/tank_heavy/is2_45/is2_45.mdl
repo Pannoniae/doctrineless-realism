@@ -163,7 +163,7 @@
 					}
 				}
 				{bone revolute "gun_rot"
-					{parameters "id=gun;"}
+					{parameters "id=turret;"}
 					{animation
 						{sequence "repair" {file "gun_r.anm"}}
 					}

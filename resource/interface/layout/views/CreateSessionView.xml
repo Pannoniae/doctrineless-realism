@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd" version="1" skin="main_menu_dark_skin">
+<Content>
+	<PercentPanel>
+		<MaxSize x="2500" y="1300"/>
+		<Children>
+			<PercentPanel percent="0.715" placement="center" direction="horizontal">
+				<Children>
+					<DockPanel percent="0.46">
+						<Children>
+							<ScrollPane placement="center">
+								<Children>
+									<ScrollableContent>
+										<Children>
+											<FlowPanel halign="stretch" gap="10">
+												<Insets all="15"/>
+												<Children>
+													<StaticText>
+														<Text key="mp/lobby2/sess_create_mode"/>
+													</StaticText>
+													<LargeMenuRadioButton id="btn_game_type">
+													</LargeMenuRadioButton>
+													<StaticText>
+														<Text key="mp/lobby2/sess_create_map"/>
+													</StaticText>
+													<MediumMenuRadioButton id="btn_map"/>
+													<FlowPanel>
+														<Children>
+															<StaticText>
+																<Text key="mp/lobby2/sess_settings"/>
+															</StaticText>
+														</Children>
+													</FlowPanel>
+													<PercentPanel direction="vertical" gap="15">
+														<Children>
+															<MediumMenuRadioButton id="btn_players" percent="0.5"/>
+															<FrameView percent="1" resource="/interface/skin/game/frame/window_single">
+																<Content>
+																	<FlowPanel direction="horizontal" valign="center" halign="center" gap="5">
+																		<Children>
+																			<FlowPanel valign="center">
+																				<Children>
+																					<PictureDialog resource="/interface/pages/multi/vac">
+																						<Ables mouse="true"/>
+																						<Hint key="mp/gs/vac_secured_hint"/>
+																					</PictureDialog>
+																				</Children>
+																			</FlowPanel>
+																			<CheckBox id="cb_vac_secured" skin="main_menu_dark_skin_small">
+																				<Text key="mp/gs/vac_secured"/>
+																				<Hint key="mp/gs/vac_secured_hint"/>
+																			</CheckBox>
+																		</Children>
+																	</FlowPanel>
+																</Content>
+															</FrameView>
+														</Children>
+													</PercentPanel>
+													<PercentPanel direction="horizontal" gap="10">
+														<Children>
+															<FrameView resource="/interface/skin/game/frame/window_single" percent="0.5" header="false">
+																<Insets all="10"/>
+																<HeaderContent>
+																	<FlowPanel halign="center" valign="center">
+																		<Children>
+																			<StaticText>
+																				<Text key="mp/lobby2/lbl_password"/>
+																			</StaticText>
+																		</Children>
+																	</FlowPanel>
+																</HeaderContent>
+																<Content>
+																	<FlowPanel halign="stretch">
+																		<Insets all="5"/>
+																		<Children>
+																			<MenuInputBox id="il_password">
+																				<Password value="true"/>
+																				<MaxTextLength value="32"/>
+																			</MenuInputBox>
+																		</Children>
+																	</FlowPanel>
+																</Content>
+															</FrameView>
+															<FrameView resource="/interface/skin/game/frame/window_single" percent="0.5" header="false">
+																<Insets all="10"/>
+																<HeaderContent>
+																	<FlowPanel halign="center" valign="center">
+																		<Children>
+																			<StaticText>
+																				<Text key="mp/lobby2/lbl_passwordconfirm"/>
+																			</StaticText>
+																		</Children>
+																	</FlowPanel>
+																</HeaderContent>
+																<Content>
+																	<FlowPanel halign="stretch">
+																		<Insets top="5"/>
+																		<Children>
+																			<MenuInputBox id="il_password_retype">
+																				<Password value="true"/>
+																				<MaxTextLength value="32"/>
+																			</MenuInputBox>
+																		</Children>
+																	</FlowPanel>
+																</Content>
+															</FrameView>
+														</Children>
+													</PercentPanel>
+													<PercentPanel direction="horizontal" gap="10">
+														<Children>
+															<FrameView resource="/interface/skin/game/frame/window1" percent="0.5" header="false">
+																<Insets all="25"/>
+																<HeaderContent>
+																	<FlowPanel halign="center" valign="center">
+																		<Children>
+																			<StaticText>
+																				<Text key="mp/lobby2/lbl_performance"/>
+																			</StaticText>
+																		</Children>
+																	</FlowPanel>
+																</HeaderContent>
+																<Content>
+																	<FlowPanel halign="stretch" valign="center">
+																		<Insets top="5"/>
+																		<Children>
+																			<ComboBox id="cb_performance"/>
+																		</Children>
+																	</FlowPanel>
+																</Content>
+															</FrameView>
+															<FrameView resource="/interface/skin/game/frame/window1" percent="0.5" header="false">
+																<Insets all="25"/>
+																<HeaderContent>
+																	<FlowPanel halign="center" valign="center">
+																		<Children>
+																			<StaticText>
+																				<Text key="mp/lobby2/lbl_veterancy"/>
+																			</StaticText>
+																		</Children>
+																	</FlowPanel>
+																</HeaderContent>
+																<Content>
+																	<FlowPanel halign="stretch" valign="center">
+																		<Insets top="5"/>
+																		<Children>
+																			<ComboBox id="cb_veterancy"/>
+																		</Children>
+																	</FlowPanel>
+																</Content>
+															</FrameView>
+														</Children>
+													</PercentPanel>
+													<StackPanel>
+														<Children>
+															<FrameView resource="/interface/skin/game/frame/window1" header="false">
+																<Insets all="25"/>
+																<HeaderContent>
+																	<FlowPanel halign="center" valign="center">
+																		<Children>
+																			<StaticText>
+																				<Text key="mp/lobby2/lbl_info"/>
+																			</StaticText>
+																		</Children>
+																	</FlowPanel>
+																</HeaderContent>
+																<Content>
+																	<FlowPanel halign="stretch">
+																		<Insets top="5"/>
+																		<Children>
+																			<MenuInputBox id="il_additional_info">
+																				<MaxTextLength value="64"/>
+																			</MenuInputBox>
+																		</Children>
+																	</FlowPanel>
+																</Content>
+															</FrameView>
+														</Children>
+													</StackPanel>
+												</Children>
+											</FlowPanel>
+										</Children>
+									</ScrollableContent>
+								</Children>
+								<ScrollBars horizontal="never"/>
+							</ScrollPane>
+							<DockPanel placement="bottom">
+								<Insets top="5" left="15" right="15" bottom="5"/>
+								<Children>
+									<SmallMenuButton id="btn_reset" placement="left">
+										<Text key="mp/lobby2/button/reset_settings"/>
+										<Resource value="/interface/skin/game/button/start_button"/>
+									</SmallMenuButton>
+									<SmallMenuButton id="btn_create" placement="right">
+										<Text key="mp/lobby2/button/create_session"/>
+										<Resource value="/interface/skin/game/button/start_button"/>
+									</SmallMenuButton>
+								</Children>
+							</DockPanel>
+						</Children>
+					</DockPanel>
+					<PercentPanel direction="vertical" percent="0.20" gap="2">
+						<Children>
+							<FrameView percent="0.45" resource="/interface/skin/game/frame/window">
+								<Insets all="15"/>
+								<Content>
+									<StackPanel>
+										<Children>
+											<ListBox id="lb_games">
+												<Background value="false"/>
+												<AutoScroll value="false"/>
+											</ListBox>
+											<ListBox id="lb_maps">
+												<Background value="false"/>
+												<AutoScroll value="false"/>
+											</ListBox>
+											<ListBox id="lb_players">
+												<Background value="false"/>
+												<AutoScroll value="false"/>
+											</ListBox>
+										</Children>
+									</StackPanel>
+								</Content>
+							</FrameView>
+						</Children>
+					</PercentPanel>						
+					<PercentPanel direction="vertical" percent="0.33" gap="2">
+						<Children>
+							<FrameView percent="0.70" resource="/interface/skin/game/frame/window">
+								<Insets all="15"/>
+								<Children>
+									<PictureDialog id="minimap_preview" placement="center" zoomMode="fit" centerX="true" centerY="true"/>
+								</Children>
+							</FrameView>
+							
+							
+							<FrameView percent="0.30" resource="/interface/skin/game/frame/window">
+								<Insets all="15"/>
+								<Children>
+									<PictureDialog id="map_preview" placement="center" zoomMode="fill" centerX="true" centerY="true"/>
+								</Children>
+							</FrameView>
+						</Children>
+					</PercentPanel>
+				</Children>
+			</PercentPanel>
+		</Children>
+	</PercentPanel>
+</Content>
+</Layout>

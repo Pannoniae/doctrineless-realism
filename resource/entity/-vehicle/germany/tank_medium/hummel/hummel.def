@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/tank_assaultgun.ext")
 	(include "/properties/selection/vehicle_elongated.inc" scale(1.15))
-	{props "spg" "medium" "-turret" "multi_board" "vision_lev04" "muzzle_150mm_155mm" "shell_eject" "open_top" "detect_artillery" "artillery_minimap_heavy"}
+	{props "spg" "medium" "-turret" "multi_board" "vision_lev04" "muzzle_150mm_155mm" "shell_eject" "open_top" "detect_artillery" "artillery_minimap_heavy" "ammo_open_top"}
 	{extension "hummel.mdl"}
 	(include "hummel.ext")
 	{patherId "nashorn"}
@@ -81,10 +81,10 @@
 
 	{bone "gun_rot"
 		{limits -3 42}
-		{speed2 2}
+		{speed2 8}
 	}
 	{bone "turret"
 		{limits -15 15}
-		{speed2 2}
+		{speed2 8}
 	}
 }

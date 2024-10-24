@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 17.10.2023 18:12:02
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_usa\vehicles\tank_medium\M4A2_76W_late\M4A2_76w_late_rus.max
+;Exported by:	 TigerF
+;Date:			 15.06.2024 13:11:15
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_usa\vehicles\tank_medium\M4A2_76W_late\M4A2_76w_late_rus.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -453,7 +453,7 @@
 			{bone "visor2"
 				{Position 38.2428 	 4.0294 	 20.6246}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0
@@ -957,13 +957,13 @@
 	}
 }
 {volume "barrel2"
-	{cylinder 1.8349 53.4311}
+	{cylinder 1.8349 58.2677}
 	{bone "gun"}
 	{matrix34
 		0 	 1 	 0
 		0 	 0 	 1
 		1 	 0 	 0
-		10.95 	 0 	 0.0148
+		13.3683 	 0 	 0.0148
 	}
 }
 {volume "body1"

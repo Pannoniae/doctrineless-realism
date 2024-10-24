@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 21.09.2022 23:56:39
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_fin\3d vehicles\tank_light\t-26E\T-26E.max
+;Exported by:	 TigerF
+;Date:			 14.03.2024 17:42:11
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_fin\3d vehicles\tank_light\t-26E\T-26E.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.6}}
@@ -82,10 +82,7 @@
 			{bone "trackl"
 				{parameters "id=trackleft;"}
 				{Position -0.2592 	 0.2171 	 4.3212}
-				{LODView
-					{VolumeView "trackl.ply"}
-					{VolumeView "trackl_lod1.ply"}
-				}
+				{VolumeView "trackl.ply"}
 			}
 			{bone prizmatic "suspension_l1"
 				{limits -0.05 0.05}
@@ -238,10 +235,7 @@
 			{bone "trackr"
 				{parameters "id=trackright;"}
 				{Position -0.7142 	 -0.332 	 4.5515}
-				{LODView
-					{VolumeView "trackr.ply"}
-					{VolumeView "trackr_lod1.ply"}
-				}
+				{VolumeView "trackr.ply"}
 			}
 			{bone prizmatic "suspension_r4"
 				{limits -0.05 0.05}

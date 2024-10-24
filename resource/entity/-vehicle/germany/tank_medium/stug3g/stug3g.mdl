@@ -361,7 +361,7 @@
 						0 	 0 	 0
 					}
 					{bone "mantlet"
-						{parameters "id=mantlet;"}
+						{parameters "id=gun;"}
 						{matrix34
 							1 	 0 	 0
 							0 	 0 	 -1

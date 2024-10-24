@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 16.12.2022 22:41:21
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\btr\Sdkfz 234_1\SdKfz234_1.max
+;Date:			 28.09.2023 14:16:35
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger_updated\vehicles\btr\Sdkfz 234_1\SdKfz234_1.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.5}}
@@ -142,9 +142,6 @@
 							0 	 1 	 0
 						}
 						{VolumeView "gun.ply"}
-						{bone "foresight1"
-							{Position 39.5975 	 -0.0303 	 0.0272}
-						}
 						{bone "magazine"
 							{parameters "id=gun;"}
 							{VolumeView "magazine.ply"}
@@ -152,6 +149,14 @@
 					}
 					{bone "mgun"
 						{Position 4.4734 	 -1.0734 	 -6.467}
+					}
+					{bone "foresight1"
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							39.5975 	 0.0272 	 0.0303
+						}
 					}
 				}
 				{bone "grill2"
@@ -538,22 +543,17 @@
 }
 {volume "barrel2"
 	{box 15.156 3.68545 3.16738}
-	{bone "gun"}
-	{matrix34
-		1 	 0 	 0
-		0 	 0 	 1
-		0 	 -1 	 0
-		3.9737 	 0.0224 	 0.8502
-	}
+	{bone "gun_rot"}
+	{Position 3.9737 	 0.8502 	 -0.0224}
 }
 {volume "barrel3"
 	{cylinder 0.76979 27.4652}
-	{bone "gun"}
+	{bone "gun_rot"}
 	{matrix34
+		0 	 0 	 -1
 		0 	 1 	 0
-		0 	 0 	 1
 		1 	 0 	 0
-		25.2165 	 0.0073 	 -0.0037
+		25.2165 	 -0.0037 	 -0.0073
 	}
 }
 {volume "body1"

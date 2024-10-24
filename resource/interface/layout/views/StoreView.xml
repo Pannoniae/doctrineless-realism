@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <PercentPanel>
+            <Children>
+                <DockPanel percent="0.285">
+                    <Children>
+                        <StackPanel placement="center">
+                            <Children>
+                                <PictureDialog id="header" zoomMode="fill"/>
+                                <FrameView resource="/interface/skin/game/frame/shadow_logo"/>
+                            </Children>
+                        </StackPanel>
+                        <PictureDialog resource="/interface/skin/game/frame/window/image_shadow" zoomMode="stretch" placement="bottom"/>
+                    </Children>
+                </DockPanel>
+                <DockPanel percent="0.715">
+                    <Children>
+                        <StackPanel placement="top">
+                            <Insets bottom="5"/>
+                            <Children>
+                                <FrameView resource="/interface/skin/game/frame/window3">
+                                    <Content>
+                                        <DockPanel id="store_filter_area">
+                                            <Children>
+                                                <FlowPanel id="store_filter_list" direction="horizontal" valign="center" halign="stretch" placement="center" gap="10"/>
+                                                <MenuInputBox id="input_search" placement="right">
+                                                    <MaxTextLength value="128"/>
+                                                </MenuInputBox>
+                                            </Children>
+                                        </DockPanel>
+                                    </Content>
+                                </FrameView>
+                            </Children>
+                        </StackPanel>
+                        <DockPanel placement="center">
+                            <Children>
+                                <ScrollPane placement="center">
+                                    <Children>
+                                        <ScrollableContent>
+                                            <Children>
+                                                <GridPanel id="store_items_area" vgap="10" hgap="10">
+                                                    <Insets left="5" right="5" top="5" bottom="10"/>
+                                                </GridPanel>
+                                            </Children>
+                                        </ScrollableContent>
+                                    </Children>
+                                </ScrollPane>
+                            </Children>
+                        </DockPanel>
+                    </Children>
+                </DockPanel>
+
+            </Children>
+        </PercentPanel>
+    </Content>
+</Layout>

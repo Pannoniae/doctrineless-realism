@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        id="menu_load_game_view" version="1" skin="main_menu_dark_skin">
+    <Content>
+        <PercentPanel placement="center" direction="horizontal" gap="10">
+            <Children>
+                <FrameView percent="0.38" resource="/interface/skin/game/frame/window">
+                    <Insets all="15"/>
+                    <Content>
+                        <ListBox id="lb_saves">
+                            <Background value="false"/>
+                        </ListBox>
+                    </Content>
+                </FrameView>
+                <DockPanel percent="0.62">
+                    <Children>
+                        <FrameView placement="center" resource="/interface/skin/game/frame/window" percent="0.5" header="true">
+                            <HeaderContent>
+                                <FlowPanel halign="center" valign="center">
+                                    <Insets left="25"/>
+                                    <Children>
+                                        <StaticText>
+                                            <Text key="main_menu2/singleplayer/save_load_game/lbl_info"/>
+                                        </StaticText>
+                                    </Children>
+                                </FlowPanel>
+                            </HeaderContent>
+                            <Content>
+                                <StackPanel id="pnl_info"/>
+                            </Content>
+                        </FrameView>
+
+                        <DockPanel placement="bottom">
+                            <Children>
+                                <MenuTextButton id="btn_delete" placement="left">
+                                    <Text key="main_menu2/singleplayer/save_load_game/btn_delete"/>
+                                </MenuTextButton>
+                                <MenuTextButton id="btn_load" placement="right">
+                                    <Text key="main_menu2/singleplayer/save_load_game/btn_load"/>
+                                </MenuTextButton>
+                            </Children>
+                        </DockPanel>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </PercentPanel>
+    </Content>
+</Layout>

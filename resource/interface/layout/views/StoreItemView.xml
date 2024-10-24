@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin_small">
+    <Content>
+        <FrameView resource="/interface/skin/game/frame/window2">
+            <Content>
+                <DockPanel id="item_area">
+                    <Children>
+                        <StackPanel id="item_icon_area" placement="center">
+                            <Children>
+                                <ItemBackground id="item_background" zoomMode="fit" centerX="true" centerY="true">
+                                    <Enable value="false"/>
+                                    <Visible value="false"/>
+                                </ItemBackground>
+                                <PictureDialog id="item_icon" zoomMode="fit" centerX="true" centerY="true"/>
+                                <PictureDialog id="item_owned_icon" resource="/interface/pages/inventory/item_owned_icon"/>
+                            </Children>
+                        </StackPanel>
+                        <DockPanel id="item_header_area" placement="bottom">
+                            <Children>
+                                <FlowPanel id="item_quantity_area" valign="center" placement="left">
+                                    <Insets left="5"/>
+                                    <Children>
+                                        <StaticText id="item_quantity"/>
+                                    </Children>
+                                </FlowPanel>
+                                <StackPanel id="item_price_area" placement="center">
+                                    <Children>
+                                        <PictureDialog resource="/interface/skin/game/frame/window_store/header" zoomMode="stretch"/>
+                                        <FlowPanel valign="center">
+                                            <Insets left="5"/>
+                                            <Children>
+                                                <StaticText id="item_price"/>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </StackPanel>
+                                <StackPanel id="item_discount_area" placement="right">
+                                    <Children>
+                                        <PictureDialog resource="/interface/skin/game/frame/window_store/discount" zoomMode="stretch"/>
+                                        <FlowPanel halign="center" valign="center">
+                                            <Children>
+                                                <StaticText id="item_discount"/>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </StackPanel>
+                            </Children>
+                        </DockPanel>
+                        <FlowPanel id="item_title_area" halign="stretch" placement="top">
+                            <Children>
+                                <StaticText id="item_title"/>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </DockPanel>
+            </Content>
+        </FrameView>
+    </Content>
+</Layout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <PercentPanel>
+            <Children>
+                <DockPanel percent="0.285">
+                    <Children>
+                        <StackPanel placement="center">
+                            <Children>
+                                <PictureDialog id="replay_preview" zoomMode="fill"/>
+<!--                                <FrameView resource="/interface/skin/game/frame/shadow_logo"/>-->
+                            </Children>
+                        </StackPanel>
+<!--                        <PictureDialog resource="/interface/skin/game/frame/window/image_shadow" zoomMode="stretch" placement="bottom"/>-->
+                    </Children>
+                </DockPanel>
+                <PercentPanel percent="0.715" placement="center" direction="horizontal" gap="5">
+                    <Children>
+                        <FrameView percent="0.38" resource="/interface/skin/game/frame/window">
+                            <Content>
+                                <ListBox id="lb_replays">
+                                    <Background value="false"/>
+                                </ListBox>
+                            </Content>
+                        </FrameView>
+                        <DockPanel percent="0.62">
+                            <Children>
+                                <DockPanel placement="center" vgap="5">
+                                    <Children>
+                                        <FrameView resource="/interface/skin/game/frame/window" placement="center" header="true">
+                                            <HeaderContent>
+                                                <FlowPanel halign="center" valign="center">
+                                                    <Children>
+                                                        <StaticText>
+                                                            <Text key="main_menu2/singleplayer/save_load_replay/lbl_info"/>
+                                                        </StaticText>
+                                                    </Children>
+                                                </FlowPanel>
+                                            </HeaderContent>
+                                            <Content>
+                                                <DockPanel vgap="5">
+                                                    <Children>
+                                                        <StackPanel id="pnl_info" placement="center"/>
+                                                        <StaticText id="txt_upload_info" placement="bottom"/>
+                                                    </Children>
+                                                </DockPanel>
+                                            </Content>
+                                        </FrameView>
+                                        <StackPanel id="pnl_teams" placement="bottom"/>
+                                    </Children>
+                                </DockPanel>
+                                <DockPanel placement="bottom">
+                                    <Children>
+                                        <FlowPanel placement="left" direction="vertical" halign="left" justify="false">
+                                            <Children>
+                                                <MenuTextButton id="btn_delete">
+                                                    <Text key="main_menu2/singleplayer/save_load_replay/btn_delete"/>
+                                                    <Hint key="main_menu2/singleplayer/save_load_replay/hint/delete"/>
+                                                </MenuTextButton>
+                                                <MenuTextButton id="btn_rename">
+                                                    <Text key="main_menu2/singleplayer/save_load_replay/btn_rename"/>
+                                                    <Hint key="main_menu2/singleplayer/save_load_replay/hint/rename"/>
+                                                </MenuTextButton>
+                                                <MenuTextButton id="btn_upload">
+                                                    <Text key="main_menu2/singleplayer/save_load_replay/btn_upload"/>
+                                                    <Hint key="main_menu2/singleplayer/save_load_replay/hint/upload"/>
+                                                </MenuTextButton>
+                                            </Children>
+                                        </FlowPanel>
+                                        <FlowPanel direction="vertical" halign="left" valign="bottom" placement="right" justify="false">
+                                            <Children>
+                                                <MenuTextButton id="btn_results">
+                                                    <Text key="main_menu2/singleplayer/save_load_replay/btn_results"/>
+                                                    <Hint key="main_menu2/singleplayer/save_load_replay/hint/results"/>
+                                                </MenuTextButton>
+                                                <MenuTextButton id="btn_load" placement="right">
+                                                    <Text key="main_menu2/singleplayer/save_load_replay/btn_load"/>
+                                                    <Hint key="main_menu2/singleplayer/save_load_replay/hint/load"/>
+                                                </MenuTextButton>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </DockPanel>
+                            </Children>
+                        </DockPanel>
+                    </Children>
+                </PercentPanel>
+            </Children>
+        </PercentPanel>
+    </Content>
+</Layout>

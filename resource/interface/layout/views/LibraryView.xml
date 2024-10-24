@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+
+    <Content>
+    <StackPanel>
+    <Children>
+    <DockPanel>
+    <Children>
+    <StackPanel placement="center">
+    <Insets all="5"/>
+    <Children>
+    <PercentPanel stretch="true" direction="horizontal" gap="8">
+    <MaxSize x="2184" y="1088" />
+    <Children>
+    <FrameView percent="0.7" resource="/interface/skin/game/frame/window_single" header="false">
+    <Content>
+            <PercentPanel>
+                <Children>
+                    <DockPanel percent="0.51">
+                        <Children>
+                            <StackPanel placement="center">
+                                <Insets all="10"/>
+                                <Children>
+<!--                                    <FrameView resource="/interface/skin/game/frame/window_shadow">-->
+<!--                                        <Children>-->
+<!--                                        </Children>-->
+<!--                                    </FrameView>-->
+
+                                    <StackPanel id="display">
+                                        <Children>
+                                    <FlowPanel valign="bottom" halign="left">
+                                        <Insets all="20"/>
+                                        <Children>
+                                            <StaticText id="entry_title" >
+                                                <Text textTransform="toUpper"/>
+                                                <TextStyle value="s(42)x.e(shadow)f(pobeda)b+c(235 178 108 220)"  />
+                                            </StaticText>
+                                        </Children>
+                                    </FlowPanel>
+
+                                        </Children>
+                                   </StackPanel>
+                                </Children>
+                            </StackPanel>
+                        </Children>
+                    </DockPanel>
+                    <PercentPanel percent="0.415" placement="center" direction="horizontal" gap="5">
+                        <Children>
+                            <FrameView percent="0.38" resource="/interface/skin/game/frame/window3" placement="top" header="true">
+                                <HeaderContent>
+                                    <FlowPanel valign="center" halign="center">
+                                        <Children>
+                                            <StaticText>
+                                                <Text key="mp/statistics2/detail/header/units"/>
+                                                <TextStyle value="x.e(shadow)f(roboto_mono)"/>
+                                            </StaticText>
+                                        </Children>
+                                    </FlowPanel>
+                                </HeaderContent>
+                                    <Content>
+                                        <DockPanel vgap="5">
+                                            <Insets all="10"/>
+                                            <Children>
+                                                <FlowPanel placement="top" halign="stretch" gap="2">
+                                                    <Children>
+                                                        <ComboBox id="cb_library"/>
+                                                        <ComboBox id="cb_option"/>
+                                                    </Children>
+                                                </FlowPanel>
+                                                <ListBox id="lb_entries" placement="center"/>
+                                            </Children>
+                                        </DockPanel>
+                                    </Content>
+                            </FrameView>
+                            <FrameView percent="0.62" resource="/interface/skin/game/frame/window3" placement="top" header="true">
+                                <HeaderContent>
+                                    <FlowPanel valign="center" halign="center">
+                                        <Children>
+                                            <StaticText>
+                                                <Text key="mp/unit_info/btn_tech"/>
+                                                <TextStyle value="x.e(shadow)f(roboto_mono)"/>
+                                            </StaticText>
+                                        </Children>
+                                    </FlowPanel>
+                                </HeaderContent>
+                                <Content>
+                                    <StackPanel id="pnl_info">
+                                        <Insets all="10"/>
+                                    </StackPanel>
+                                </Content>
+                            </FrameView>
+                        </Children>
+
+                    </PercentPanel>
+                </Children>
+            </PercentPanel>
+    </Content>
+    </FrameView>
+        <PercentPanel percent="0.3" stretch="true" gap="8">
+            <Children>
+                <DockPanel percent="1" vgap="8">
+                    <Children>
+                        <ClickablePictureDialog id="btn_logo" resource="/interface/pages/main/library_header.dds" zoomMode="fit" centerX="true" centerY="true" placement="center">
+                            <MaxSize x="650" y="650" />
+                            <Ables mouse="false"/>
+                        </ClickablePictureDialog>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </PercentPanel>
+    </Children>
+    </PercentPanel>
+    </Children>
+    </StackPanel>
+    </Children>
+    </DockPanel>
+    </Children>
+    </StackPanel>
+    </Content>
+</Layout>

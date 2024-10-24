@@ -1740,3 +1740,11 @@ msgstr ""
 msgctxt "info/special/t92_hmc"
 msgid "<c(c3baae)>Howitzer Motor Carriage</c>"
 msgstr ""
+
+msgctxt "desc/entity/kubelwagen_mg42"
+msgid "VW82 Kübelwagen (MG42)"
+msgstr ""
+
+msgctxt "info/special/kubelwagen_mg42"
+msgid "<c(c3baae)>Armed Transport</c>"
+msgstr ""

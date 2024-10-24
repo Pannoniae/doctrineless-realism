@@ -33,7 +33,7 @@
 ;marksman		= +2
 ;any % pzfaust	= +0
 ;any pzfaust	= +0
-;any flamer		= 60
+;any flamer		= 80
 ;engineer		= 50
 ;miner			= 40
 
@@ -127,7 +127,7 @@
 ;//{"mp/fin/late/miner-ap"				("inf_tier2_fin" side(fin) period(late) cost(25.0))}
 ;//{"mp/fin/late/miner-at"				("inf_tier2_fin" side(fin) period(late) cost(25.0))}
 
-{"mp/fin/late/engineer_flamer"			("inf_tier2_fin" side(fin) period(late) cost(60.0))} ; flamethrower
+{"mp/fin/late/engineer_flamer"			("inf_tier2_fin" side(fin) period(late) cost(80.0))} ; flamethrower
 {"mp/fin/late/engineer_rifle"			("inf_tier2_fin" side(fin) period(late) cost(8.0))} ; m39
 {"mp/fin/late/engineer_sl"				("inf_tier2_fin" side(fin) period(late) cost(8.0))} ; m39
 
@@ -190,7 +190,7 @@
 {"mp/fin/late/jag_crew"					("inf_tier4_fin" side(fin) period(late) cost(5.0))} ; lahti pistol
 {"mp/fin/late/jag_crew_asst"			("inf_tier4_fin" side(fin) period(late) cost(15.0))} ; m39, less grenades
 
-{"mp/fin/late/jag_engineer_flamer"		("inf_tier4_fin" side(fin) period(late) cost(60.0))} ; roks-2 flamethrower
+{"mp/fin/late/jag_engineer_flamer"		("inf_tier4_fin" side(fin) period(late) cost(80.0))} ; roks-2 flamethrower
 {"mp/fin/late/jag_engineer_sl"			("inf_tier4_fin" side(fin) period(late) cost(23.0))} ; m31 stick
 {"mp/fin/late/jag_mg"					("inf_tier4_fin" side(fin) period(late) cost(55.0))} ; dp27
 {"mp/fin/late/jag_mg_asst"				("inf_tier4_fin" side(fin) period(late) cost(18.0))} ; m39

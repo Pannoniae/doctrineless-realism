@@ -1,6 +1,6 @@
-;Exported by:	 Robin
-;Date:			 06.12.2023 22:41:45
-;File:			 D:\games\GoH_3d_vehicle_usa\vehicles\tank_medium\M4A3_Calliope\M4A3_calliope.max
+;Exported by:	 TigerF
+;Date:			 18.01.2024 12:45:41
+;File:			 D:\GOH\3dsmax9_saves\scenes\_GoH_3D_vehicle_usa\vehicles\tank_medium\M4A3_Calliope\M4A3_calliope.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -25,7 +25,10 @@
 				{sequence "repair" {file "body_r.anm"}{speed 0.7}}
 			}
 			{Position -2.2344 	 -0.0051 	 13.7321}
-			{VolumeView "body.ply"}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+			}
 			{bone revolute "turret"
 				{parameters "id=turret;"}
 				{animation
@@ -33,21 +36,26 @@
 				}
 				{speed 0.007}
 				{Position 4.0677 	 0.0051 	 25.1771}
-				{VolumeView "turret.ply"}
+				{LODView
+					{VolumeView "turret.ply"}
+					{VolumeView "turret_lod1.ply"}
+				}
 				{bone revolute "gun_rot"
 					{parameters "id=turret;"}
 					{animation
 						{sequence "repair" {file "gun_r.anm"}{speed 0.7}}
 					}
 					{limits -10 25}
-					{speed 0.008}
 					{matrix34
 						1 	 0 	 0
 						0 	 0 	 1
 						0 	 -1 	 0
 						14.0918 	 0 	 5.0128
 					}
-					{VolumeView "gun_rot.ply"}
+					{LODView
+						{VolumeView "gun_rot.ply"}
+						{VolumeView "gun_rot_lod1.ply"}
+					}				
 					{bone "gun"
 						{parameters "id=gun;"}
 						{matrix34
@@ -1257,7 +1265,10 @@
 					{sequence "repair" {file "engine_r.anm"}{speed 0.7}}
 				}
 				{Position -35.7385 	 0.0049 	 9.2703}
-				{VolumeView "engine.ply"}
+				{LODView
+					{VolumeView "engine.ply"}
+					{VolumeView "engine_lod1.ply"}
+				}
 				{bone "detail4"
 					{parameters "id=engine;"}
 					{Position -19.4857 	 -0.0103 	 4.8681}
@@ -1431,7 +1442,7 @@
 			{bone "visor2"
 				{Position 39.3729 	 4.0345 	 23.967}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0

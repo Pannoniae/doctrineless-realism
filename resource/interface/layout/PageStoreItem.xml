@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<StackPanel>
+			<Children>
+				<DialogRef refid="gui_background" shared="true"/>
+				<FrameView resource="/interface/skin/game/frame/bkg" header="true"/>
+				<DockPanel>
+					<Children>
+						<DialogRef resource="components/PageHeader.xml" placement="top"/>
+						<StackPanel placement="center">
+							<Insets left="28" right="28" bottom="28"/>
+							<Children>
+								<PercentPanel stretch="true" direction="horizontal" gap="8">
+									<MaxSize x="2184" y="1088" />
+									<Children>
+										<FrameView percent="0.5" resource="/interface/skin/game/frame/window" header="true">
+											<HeaderContent>
+												<DockPanel>
+													<Children>
+														<FlowPanel valign="center" placement="center">
+															<Children>
+																<DialogRef refid="gui_breadcrumbs" shared="true"/>
+															</Children>
+														</FlowPanel>
+														<PictureButton placement="right" id="btn_back">
+															<Resource value="/interface/skin/game/button/back"/>
+														</PictureButton>
+													</Children>
+												</DockPanel>
+											</HeaderContent>
+											<Content>
+												<PercentPanel>
+													<Children>
+														<DockPanel percent="0.285">
+															<Children>
+																<StackPanel placement="center">
+																	<Children>
+																		<PictureDialog id="header" zoomMode="fill"/>
+																		<FrameView resource="/interface/skin/game/frame/shadow_logo"/>
+																	</Children>
+																</StackPanel>
+																<PictureDialog resource="/interface/skin/game/frame/window/image_shadow" zoomMode="stretch" placement="bottom"/>
+															</Children>
+														</DockPanel>
+														<DockPanel percent="0.715">
+															<Insets left="5" bottom="10" right="5"/>
+															<Children>
+																<PercentPanel placement="center" gap="10">
+																	<Children>
+																		<DockPanel percent="0.55">
+																			<Children>
+																				<PercentPanel direction="horizontal" stretch="true" placement="center">
+																					<Children>
+																						<FrameView percent="0.4" resource="/interface/skin/game/frame/window2">
+																							<Content>
+																								<DockPanel>
+																									<Children>
+																										<StackPanel id="item_icon_area" placement="center">
+																											<Children>
+																												<StackPanel>
+																													<Insets left="15" right="15" top="10" bottom="10"/>
+																													<Children>
+																														<StaticText id="item_quantity"/>
+																														<StaticText id="item_price"/>
+																													</Children>
+																												</StackPanel>
+																												<PictureDialog id="item_icon" zoomMode="fit"/>
+																											</Children>
+																										</StackPanel>
+																									</Children>
+																								</DockPanel>
+																							</Content>
+																						</FrameView>
+																						<!-- -->
+																						<FrameView percent="0.6" resource="/interface/skin/game/frame/window2">
+																							<Content>
+																								<DockPanel>
+																									<Insets left="10" right="20" top="10" bottom="10"/>
+																									<Children>
+																										<FlowPanel placement="top">
+																											<Children>
+																												<StaticText id="item_title"/>
+																											</Children>
+																										</FlowPanel>
+																										<ScrollPane placement="center">
+																											<Insets top="5"/>
+																											<Children>
+																												<ScrollableContent>
+																													<Children>
+																														<DockPanel>
+																															<Children>
+																																<StackPanel id="item_description_area" placement="top"/>
+																																<DockPanel id="item_content_area" placement="center">
+																																	<Insets top="5"/>
+																																	<Children>
+																																		<StaticText id="item_content_label" skin="main_menu_dark_skin_small" placement="top"/>
+																																		<GridPanel id="item_content_grid" hgap="5" vgap="5" placement="center">
+																																			<Insets top="5"/>
+																																		</GridPanel>
+																																	</Children>
+																																</DockPanel>
+																															</Children>
+																														</DockPanel>
+																													</Children>
+																												</ScrollableContent>
+																											</Children>
+																										</ScrollPane>
+																									</Children>
+																								</DockPanel>
+																							</Content>
+																						</FrameView>
+																					</Children>
+																				</PercentPanel>
+																			</Children>
+																		</DockPanel>
+																		<!-- -->
+																		<ScrollPane percent="0.45" placement="top">
+																			<Children>
+																				<ScrollableContent>
+																					<Children>
+																						<FlowPanel halign="stretch" placement="bottom" gap="5">
+																							<Children>
+																								<MediumMenuButton id="btn_open">
+																									<Text key="main_menu2/market/open"/>
+																									<Hint key="main_menu2/market/open"/>
+																									<Visible value="false"/>
+																									<Enable value="false"/>
+																								</MediumMenuButton>
+																								<MediumMenuButton id="btn_use">
+																									<Text key="main_menu2/market/use"/>
+																									<Hint key="main_menu2/market/use"/>
+																									<Visible value="false"/>
+																									<Enable value="false"/>
+																								</MediumMenuButton>
+																								<MediumMenuButton id="btn_exchange">
+																									<Text key="main_menu2/market/exchange"/>
+																									<Hint key="main_menu2/market/exchange"/>
+																									<Visible value="false"/>
+																									<Enable value="false"/>
+																								</MediumMenuButton>
+																								<MediumMenuButton id="btn_buy">
+																									<Text key="main_menu2/market/buy"/>
+																									<Hint key="main_menu2/market/buy"/>
+																									<Visible value="false"/>
+																									<Enable value="false"/>
+																								</MediumMenuButton>
+																								<MediumMenuButton id="btn_get_key">
+																									<Text key="main_menu2/market/get_key"/>
+																									<Hint key="main_menu2/market/get_key"/>
+																									<Visible value="false"/>
+																									<Enable value="false"/>
+																								</MediumMenuButton>
+																								<MediumMenuButton id="btn_market">
+																									<Text key="main_menu2/market/market"/>
+																									<Hint key="main_menu2/market/market"/>
+																									<Visible value="false"/>
+																									<Enable value="false"/>
+																								</MediumMenuButton>
+																								<MediumMenuButton id="btn_remove">
+																									<Text key="main_menu2/market/remove"/>
+																									<Hint key="main_menu2/market/remove"/>
+																									<Visible value="false"/>
+																									<Enable value="false"/>
+																								</MediumMenuButton>
+																								<MediumMenuButton id="btn_back2">
+																									<Text key="button/back"/>
+																									<Hint key="button/back"/>
+																								</MediumMenuButton>
+																							</Children>
+																						</FlowPanel>
+																					</Children>
+																				</ScrollableContent>
+																			</Children>
+																		</ScrollPane>
+																		<!-- -->
+																	</Children>
+																</PercentPanel>
+															</Children>
+														</DockPanel>
+													</Children>
+												</PercentPanel>
+											</Content>
+										</FrameView>
+										<PercentPanel percent="0.5" stretch="true" gap="8">
+											<Children>
+												<DockPanel percent="0.7" vgap="8">
+													<Children>
+														<DialogRef resource="components/MenuUserProfile.xml" placement="top"/>
+														<DialogRef resource="components/MenuChat.xml" placement="center"/>
+													</Children>
+												</DockPanel>
+												<PercentPanel percent="0.3" direction="horizontal" gap="4">
+													<Children>
+														<DialogRef resource="components/MenuFriends.xml" percent="0.65"/>
+														<DialogRef resource="components/MenuParty.xml" percent="0.35">
+															<MaxSize x="320" />
+														</DialogRef>
+													</Children>
+												</PercentPanel>
+											</Children>
+										</PercentPanel>
+									</Children>
+								</PercentPanel>
+							</Children>
+						</StackPanel>
+					</Children>
+				</DockPanel>
+			</Children>
+		</StackPanel>
+	</Content>
+</Layout>

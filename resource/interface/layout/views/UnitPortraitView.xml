@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+		version="1" skin="main_menu_dark_skin_small">
+	<Content>
+		<StackPanel>
+			<PreferredSize x="116" y="144"/>
+			<Children>
+				<StackPanel>
+					<Insets left="2" top="2" right="2" bottom="2"/>
+					<Children>						
+						<StackPanel id="portrait"/>
+						<PictureDialog id="is_incomplete" resource="/interface/scene/portrait_squad/incomplete" zoomMode="fit">
+							<Active value="false"/>
+							<Ables mouse="false"/>
+						</PictureDialog>
+						<PictureDialog id="is_invalid" resource="/interface/scene/portrait_squad/invalid2" zoomMode="fit">
+							<Active value="false"/>
+							<Ables mouse="false"/>
+						</PictureDialog>
+						<PictureDialog id="is_locked" resource="/interface/scene/portrait_squad/locked" zoomMode="fit">
+							<Active value="false"/>
+						</PictureDialog>
+						<PictureDialog id="is_locked_dlc" resource="/interface/scene/portrait_squad/locked_dlc" zoomMode="fit">
+							<Active value="false"/>
+						</PictureDialog>
+						<PictureDialog id="stage_number" zoomMode="fit">
+							<Active value="false"/>
+							<Ables mouse="false"/>
+						</PictureDialog>
+						<PictureDialog id="veterancy" zoomMode="fit">
+							<Active value="false"/>
+							<Ables mouse="false"/>
+						</PictureDialog>
+					</Children>
+				</StackPanel>
+				<PictureDialog id="frame" resource="/interface/scene/portrait_squad/frame" zoomMode="fit">
+					<Ables mouse="false"/>
+				</PictureDialog>
+				<DockPanel>
+					<Insets left="10" top="6" right="10" bottom="6"/>
+					<Children>
+						<FlowPanel valign="center" halign="center" placement="top">
+							<Children>
+								<StaticText id="description">
+									<Active value="false"/>
+									<TextClip value="true" showHint="true"/>
+									<TextStyle value="x.e(shadow)f(oswald)s(12)"/>
+								</StaticText>
+							</Children>
+						</FlowPanel>
+						<StackPanel placement="bottom">
+							<Children>
+								<FlowPanel direction="horizontal" halign="left">
+									<Children>
+										<StaticText id="cp">
+											<Active value="false"/>
+											<Ables mouse="false"/>
+											<TextStyle value="x.e(shadow)f(roboto_mono)"/>
+										</StaticText>
+										<PictureDialog id="cp_icon" resource="/interface/pages/main/resource_cp" zoomMode="fit" centerY="true">
+											<Active value="false"/>
+											<Ables mouse="false"/>
+										</PictureDialog>
+									</Children>
+								</FlowPanel>
+								<FlowPanel direction="horizontal" halign="right">
+									<Children>
+										<StackPanel>
+											<Children>
+												<StaticText id="price">
+													<Active value="false"/>
+													<Ables mouse="false"/>
+													<TextStyle value="x.e(shadow)f(roboto_mono)"/>
+												</StaticText>
+												<StaticText id="count">
+													<Active value="false"/>
+													<Ables mouse="false"/>
+													<TextStyle value="x.e(shadow)f(roboto_mono)"/>
+												</StaticText>
+											</Children>
+										</StackPanel>
+										<PictureDialog id="price_icon" zoomMode="fit" centerY="true">
+											<Active value="false"/>
+											<Ables mouse="false"/>
+										</PictureDialog>
+									</Children>
+								</FlowPanel>
+							</Children>
+						</StackPanel>
+					</Children>
+				</DockPanel>
+			</Children>
+		</StackPanel>
+	</Content>
+</Layout>

@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 29.06.2021 13:58:11
-;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\pz3\pz3f_rework.max
+;Exported by:	 guita
+;Date:			 03.05.2024 16:43:51
+;File:			 D:\SVN\Working Resources\GatesOfHell\GoH_3d_vehicle_ger\vehicles\tank_medium\pz3\pz3f_rework.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -1010,6 +1010,16 @@
 		0 	 0 	 -1
 		0 	 1 	 0
 		34.4213 	 -8.7834 	 24.6607
+	}
+}
+{volume "mantlet1"
+	{polyhedron "mantlet1.vol"}
+	{bone "gun_rot"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 -1
+		0 	 1 	 0
+		5.346 	 -2.0682 	 -0.5115
 	}
 }
 {volume "shield3"

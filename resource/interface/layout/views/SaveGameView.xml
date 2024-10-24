@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <PercentPanel>
+            <Children>
+				<DockPanel percent="0.3">
+                    <Children>
+                        <StackPanel placement="center">
+                            <Children>
+                                <PictureDialog id="save_preview" zoomMode="fill"/>
+                            </Children>
+                        </StackPanel>
+                    </Children>
+                </DockPanel>
+                <PercentPanel percent="0.715" placement="center" direction="horizontal" gap="5">
+                    <Children>
+                        <FrameView percent="0.38" resource="/interface/skin/game/frame/window" header="true">
+                            <HeaderContent>
+                                <FlowPanel halign="center" valign="center">
+                                    <Children>
+                                        <StaticText>
+                                            <Text key="main_menu2/singleplayer/save_load_game/lbl_list" textFormat="f(pobeda)s(27)b" />
+                                        </StaticText>
+                                    </Children>
+                                </FlowPanel>
+                            </HeaderContent>
+                            <Content>
+                                <StackPanel>
+                                    <Insets left="12" right="12" bottom="5"/>
+                                    <Children>
+                                        <ListBox id="lb_saves">
+                                            <Background value="false"/>
+                                        </ListBox>
+                                    </Children>
+                                </StackPanel>
+
+                            </Content>
+                        </FrameView>
+                        <DockPanel percent="0.62">
+                            <Children>
+                                <DockPanel placement="center">
+                                    <Children>
+                                        <FrameView placement="center" resource="/interface/skin/game/frame/window" header="true">
+                                            <HeaderContent>
+                                                <FlowPanel halign="center" valign="center">
+                                                    <Children>
+                                                        <StaticText>
+                                                            <Text key="main_menu2/singleplayer/save_load_game/lbl_info" textFormat="f(pobeda)s(27)b"/>
+                                                        </StaticText>
+                                                    </Children>
+                                                </FlowPanel>
+                                            </HeaderContent>
+                                            <Content>
+                                                <StackPanel id="pnl_info">
+                                                    <Insets all="5"/>
+                                                </StackPanel>
+                                            </Content>
+                                        </FrameView>
+                                        <FrameView placement="bottom" resource="/interface/skin/game/frame/window" header="true">
+                                            <HeaderContent>
+                                                <FlowPanel halign="center" valign="center">
+                                                    <Children>
+                                                        <StaticText>
+                                                            <Text key="main_menu2/singleplayer/save_load_game/lbl_save_name" textFormat="f(pobeda)s(27)b"/>
+                                                        </StaticText>
+                                                    </Children>
+                                                </FlowPanel>
+                                            </HeaderContent>
+                                            <Content>
+                                                <FlowPanel gap="5" halign="stretch">
+                                                    <Insets all="15"/>
+                                                    <Children>
+                                                        <MenuInputBox id="il_save_name">
+                                                            <MaxTextLength value="64"/>
+                                                        </MenuInputBox>
+                                                    </Children>
+                                                </FlowPanel>
+                                            </Content>
+                                        </FrameView>
+                                    </Children>
+                                </DockPanel>
+                                <FrameView placement="bottom" resource="">
+                                    <Insets all="15"/>
+                                    <Content>
+                                        <DockPanel>
+                                            <Children>
+                                                <MenuTextButton id="btn_delete" placement="left">
+                                                    <Text key="main_menu2/singleplayer/save_load_game/btn_delete" textFormat="f(pobeda)s(27)b"/>
+                                                </MenuTextButton>
+                                                <MenuTextButton id="btn_save" placement="right">
+                                                    <Text key="main_menu2/singleplayer/save_load_game/btn_save" textFormat="f(pobeda)s(27)b"/>
+                                                </MenuTextButton>
+                                            </Children>
+                                        </DockPanel>
+                                    </Content>
+                                </FrameView>
+                            </Children>
+                        </DockPanel>
+                    </Children>
+                </PercentPanel>
+            </Children>
+        </PercentPanel>
+    </Content>
+</Layout>

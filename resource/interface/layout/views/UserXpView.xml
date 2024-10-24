@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <DockPanel>
+                    <Children>
+                        <PictureDialog placement="left" resource="/interface/pages/main/xp_progress_bar_left"/>
+                        <PictureDialog zoomMode="stretch" placement="center" resource="/interface/pages/main/xp_progress_bar"/>
+                        <PictureDialog placement="right" resource="/interface/pages/main/xp_progress_bar_right"/>
+                    </Children>
+                </DockPanel>
+                <StackPanel>
+                    <Insets top="2" left="7" right="2" bottom="2"/>
+                    <Children>
+                        <ProgressBar id="pb_xp_last" resource="/interface/pages/main/xp_progress_last"/>
+                        <ProgressBar id="pb_xp" resource="/interface/pages/main/xp_progress"/>
+                    </Children>
+                </StackPanel>
+                <FlowPanel valign="center" halign="center">
+                    <Children>
+                        <StaticText id="txt_xp">
+                            <Ables mouse="true"/>
+                        </StaticText>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 29.11.2020 20:36:56
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_light\pz2c\panzerII_c.max
+;Date:			 28.09.2023 14:22:58
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger_updated\vehicles\tank_light\pz2c\panzerII_c.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -185,9 +185,6 @@
 							4.6448 	 -0.0338 	 -4.7178
 						}
 						{VolumeView "gun.ply"}
-						{bone "foresight1"
-							{Position 15.1454 	 -0.0109 	 0.0073}
-						}
 					}
 					{bone "mgun"
 						{parameters "id=turret;"}
@@ -195,6 +192,14 @@
 						{VolumeView "mgun.ply"}
 						{bone "foresight3"
 							{Position 8.1173 	 -0.1206 	 -0.0105}
+						}
+					}
+					{bone "foresight1"
+						{matrix34
+							1 	 0 	 0
+							0 	 0 	 -1
+							0 	 1 	 0
+							19.7902 	 -0.0264 	 -4.707
 						}
 					}
 				}
@@ -614,12 +619,12 @@
 }
 {volume "barrel"
 	{cylinder 0.703076 21.9631}
-	{bone "gun"}
+	{bone "gun_rot"}
 	{matrix34
+		0 	 0 	 -1
 		0 	 1 	 0
-		0 	 0 	 1
 		1 	 0 	 0
-		3.6286 	 -0.0212 	 -0.0241
+		8.2734 	 -0.0579 	 -4.6967
 	}
 }
 {volume "body1"
@@ -644,12 +649,12 @@
 }
 {volume "breech"
 	{box 17.6378 4.33877 4.33071}
-	{bone "gun"}
+	{bone "gun_rot"}
 	{matrix34
-		1 	 0 	 -0.0005
-		0 	 1 	 0
-		0.0005 	 0 	 1
-		-14.242 	 0.0539 	 -0.2284
+		1 	 -0.0005 	 0
+		0 	 0 	 -1
+		0.0005 	 1 	 0
+		-9.5972 	 -0.2622 	 -4.7717
 	}
 }
 {volume "engine1"

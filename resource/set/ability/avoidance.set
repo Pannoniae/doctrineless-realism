@@ -14,7 +14,7 @@
 		{knockdown_melee 0.0}
 		{fire 0.1}
 	}
-	{level "lvl_1"
+	{level "lvl_2"
 		{drop_weapon 0}
 		{knockdown_melee 0.05}
 		{fire 0.1}
@@ -59,7 +59,7 @@
 		{fire 0.3}
 		{aimed_shot 0.35}
 	}
-	{level "lvl_9"
+	{level "lvl_10"
 		{drop_weapon 0}
 		{knockdown_melee 0.7}
 		{fire 0.3}

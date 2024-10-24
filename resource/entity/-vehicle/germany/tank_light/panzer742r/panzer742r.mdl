@@ -1,6 +1,6 @@
 ;Exported by:	 TigerF
-;Date:			 11.06.2021 13:22:58
-;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_rus\vehicles\tank_light\bt7\bt7_ger_export.max
+;Date:			 08.06.2024 17:29:00
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_rus\vehicles\tank_light\bt7\bt7_ger_export.max
 {skeleton
 	{animation
 		{sequence "open_driver" {speed 0.1} {events {2 "hatch_light"} {18 "hatch_light"}}}
@@ -295,7 +295,7 @@
 					0 	 0.9669 	 0.255
 					-1 	 0 	 0
 					0 	 -0.255 	 0.9669
-					-12.3868 	 12.794 	 4.0738
+					-21.3116 	 19.6139 	 4.0738
 				}
 			}
 			{bone "seat03"

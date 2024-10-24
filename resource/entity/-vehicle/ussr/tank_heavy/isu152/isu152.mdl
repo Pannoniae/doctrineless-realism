@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 25.07.2021 09:12:17
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\tank_heavy\isu152\ISU-152.max
+;Date:			 13.08.2023 08:58:04
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_heavy\isu152\ISU-152.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -461,6 +461,7 @@
 				}
 			}
 			{bone "enumerator2"
+				{parameters "id=body;"}
 				{matrix34
 					-0.9945 	 0.1045 	 -0.0002
 					-0.1004 	 -0.9552 	 0.2785
@@ -478,6 +479,7 @@
 				}
 			}
 			{bone "enumerator"
+				{parameters "id=body;"}
 				{matrix34
 					0.9945 	 0.1045 	 -0.0002
 					-0.1003 	 0.9552 	 0.2785
@@ -515,7 +517,7 @@
 					1 	 0 	 0
 					0 	 0 	 1
 					0 	 -1 	 0
-					44.7487 	 16.3823 	 15.2086
+					44.4438 	 16.4381 	 15.3099
 				}
 			}
 			{bone "visor1"

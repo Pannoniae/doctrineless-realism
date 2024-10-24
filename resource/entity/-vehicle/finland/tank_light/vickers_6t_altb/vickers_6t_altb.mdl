@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 23.12.2021 23:12:51
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_fin\3d vehicles\tank_light\vickers_MkF\Vickers MkF 6ton.max
+;Exported by:	 TigerF
+;Date:			 14.03.2024 17:54:32
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_fin\3d vehicles\tank_light\vickers_MkF\Vickers MkF 6ton.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -8,7 +8,7 @@
 		{sequence "fire" {speed 0.6}}
 		{sequence "hit" {speed 0.5}}
 		{sequence "open" {speed 0.6}{resume}{events {1 "hatch_light"}}}
-		{sequence "open_driver" {speed 0.6}{events {1 "hatch_light"} {101 "hatch_light"}}}
+		{sequence "open_driver" {speed 0.6}{resume}{events {1 "hatch_light"} {101 "hatch_light"}}}
 	}
 	{bone "basis"
 		{orientation
@@ -26,10 +26,7 @@
 			{bone "trackr"
 				{parameters "id=trackright;"}
 				{Position -0.266 	 -0.1047 	 4.3211}
-				{LODView
-					{VolumeView "trackr.ply"}
-					{VolumeView "trackr_lod1.ply"}
-				}
+				{VolumeView "trackr.ply"}
 			}
 			{bone prizmatic "suspension_r3"
 				{limits -0.09 0.09}
@@ -182,10 +179,7 @@
 			{bone "trackl"
 				{parameters "id=trackleft;"}
 				{Position -0.266 	 0.1714 	 4.3212}
-				{LODView
-					{VolumeView "trackl.ply"}
-					{VolumeView "trackl_lod1.ply"}
-				}
+				{VolumeView "trackl.ply"}
 			}
 			{bone prizmatic "suspension_l4"
 				{limits -0.05 0.05}

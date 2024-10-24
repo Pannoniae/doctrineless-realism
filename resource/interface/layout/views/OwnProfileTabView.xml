@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+
+        <DockPanel>
+            <Children>
+                <DockPanel placement="top">
+                    <Insets left="4" right="4"/>
+                    <Children>
+                        <DialogRef resource="views/UserProfileView.xml"/>
+                        <FlowPanel direction="horizontal" halign="stretch" valign="center" placement="center" gap="10">
+                            <Children>
+                                <AvatarView id="avatar" mode="picture" avatarSize="large">
+                                    <PreferredSize x="96" y="96"/>
+                                </AvatarView>
+                                <UserNameView id="user_name" clanTag="true" format="user_profile2/nick"/>
+<!--                                <DialogRef resource="views/UserXpView.xml"/>-->
+                            </Children>
+                        </FlowPanel>
+                        <SquadLogoView id="squad_logo" placement="right">
+                            <PreferredSize x="128" y="128"/>
+                        </SquadLogoView>
+                    </Children>
+                </DockPanel>
+                <DockPanel id="customization_area" placement="center">
+                    <Children>
+                        <FlowPanel direction="horizontal" halign="stretch" valign="center" placement="center" gap="10">
+                    <Children>
+                        <DialogRef resource="views/UserProfileView.xml"/>
+                        <DockPanel placement="center" hgap="5" id="pnl_user" percent="1"/>
+                    </Children>
+
+                </FlowPanel>
+
+                    </Children>
+                    <Children>
+                        <FramedTabPanel id="tab_panel" resource="/interface/skin/game/frame/window_misc" placement="center">
+                            <Tab titleKey="user_statistics/profile/logos">
+                                <ScrollPane id="logos">
+                                    <Insets left="2" right="2" top="2" bottom="2"/>
+                                    <Children>
+                                        <ScrollableContent>
+                                            <Children>
+                                                <GridPanel id="logo_grid" hgap="2" vgap="2"/>
+                                            </Children>
+
+                                        </ScrollableContent>
+                                    </Children>
+                                </ScrollPane>
+                            </Tab>
+                            <Tab titleKey="user_statistics/profile/backgrounds">
+                                <ScrollPane id="backgrounds">
+                                    <Insets left="2" right="2" top="2" bottom="2"/>
+                                    <Children>
+                                        <ScrollableContent>
+                                            <Children>
+                                                <GridPanel id="background_grid" hgap="2" vgap="2"/>
+                                            </Children>
+                                        </ScrollableContent>
+                                    </Children>
+                                </ScrollPane>
+                            </Tab>
+                            <Tab titleKey="user_statistics/profile/clan_tag">
+                                <FlowPanel id="clantag" valign="center" halign="stretch">
+                                    <Insets left="200" right="200" top="2" bottom="2"/>
+                                    <Children>
+                                        <MenuInputBox id="il_clan_tag">
+                                            <MaxTextLength value="5"/>
+                                        </MenuInputBox>
+                                    </Children>
+                                </FlowPanel>
+                            </Tab>
+                            <Tab titleKey="user_statistics/profile/hud">
+                                <FlowPanel id="hud" valign="center" halign="center">
+                                    <Insets left="200" right="200" top="2" bottom="2"/>
+                                    <Children>
+                                        <StaticText>
+                                            <Text key="user_statistics/profile/hud_color"/>
+                                        </StaticText>
+                                        <FlowPanel valign="center" halign="center">
+                                            <Insets top="8"/>
+                                            <Children>
+                                                <StackPanel>
+                                                    <Children>
+                                                        <PictureDialog id="hud_color" zoomMode="fit"/>
+                                                    </Children>
+                                                </StackPanel>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </FlowPanel>
+                            </Tab>
+                        </FramedTabPanel>
+                        <FramedTabPanel resource="/interface/skin/game/frame/window_misc" placement="bottom">
+                            <Tab titleKey="user_statistics/profile/color">
+                                <ScrollPane id="colors">
+                                    <Insets left="4" right="4" top="1" bottom="1"/>
+                                    <Children>
+                                        <ScrollableContent trackWidth="false">
+                                            <Children>
+                                                <GridPanel id="color_grid" rows="1" hgap="-2" vgap="2"/>
+                                            </Children>
+                                        </ScrollableContent>
+                                    </Children>
+                                    <ScrollBars horizontal="always" vertical="never"/>
+                                </ScrollPane>
+                            </Tab>
+                        </FramedTabPanel>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </DockPanel>
+    </Content>
+</Layout>

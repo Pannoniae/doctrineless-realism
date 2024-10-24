@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 30.09.2023 11:37:19
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger2\vehicles\tank_medium\jagdpanzer4\L48_early\jagdpanzer4_l48_early.max
+;Exported by:	 TigerF
+;Date:			 03.08.2024 23:12:21
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_ger\vehicles\tank_medium\jagdpanzer4\L48_early\jagdpanzer4_l48_early.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -939,13 +939,13 @@
 	}
 }
 {volume "barrel1"
-	{cylinder 1.64013 36.6051}
+	{cylinder 1.64013 42.0766}
 	{bone "gun_rot"}
 	{matrix34
 		0 	 0 	 -1
 		0 	 1 	 0
 		1 	 0 	 0
-		34.5569 	 0 	 0
+		37.2926 	 0 	 0
 	}
 }
 {volume "body1"
@@ -1053,13 +1053,13 @@
 	{Position 3.3252 	 0 	 1.0902}
 }
 {volume "shield1"
-	{box 1.11058 7.04028 41.3437}
+	{box 1.11058 7.04028 32.3349}
 	{bone "shield1"}
 	{matrix34
 		-0.9971 	 0 	 -0.0758
 		-0.0758 	 0 	 0.9971
 		0 	 1 	 0
-		0.3825 	 -0.0175 	 0.1129
+		0.3825 	 4.5113 	 0.1129
 	}
 }
 {volume "shieldl1"

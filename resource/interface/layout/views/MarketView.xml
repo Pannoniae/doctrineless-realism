@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <PercentPanel stretch="true" direction="horizontal" gap="8">
+            <MaxSize x="2184" y="1088" />
+            <Children>
+                <FramedTabPanel percent="0.5" id="main_tabs" resource="/interface/skin/game/frame/window">
+                    <Tab titleKey="main_menu2/inventory" id="tab_inventory">
+                        <DialogRef refid="gui_inventory" shared="true"/>
+                    </Tab>
+                    <Tab titleKey="main_menu2/store" id="tab_store">
+                        <DialogRef refid="gui_store" shared="true"/>
+                    </Tab>
+                    <Tab titleKey="main_menu2/library" id="tab_library">
+                        <DialogRef refid="gui_library" shared="true"/>
+                    </Tab>
+                </FramedTabPanel>
+                <StackPanel percent="0.5">
+                    <Children>
+                        <FramedTabPanel id="expLibrary" resource="/interface/skin/game/frame/window">
+                            <Enable value="false"/>
+                            <Tab titleKey="main_menu2/library">
+                                <DialogRef refid="gui_expandlibrary" shared="true"/>
+                            </Tab>
+                        </FramedTabPanel>
+                        <PercentPanel id="chat" gap="8">
+                            <Children>
+                                <DockPanel percent="0.7" vgap="8">
+                                    <Children>
+                                        <DialogRef resource="components/MenuUserProfile.xml" placement="top" />
+                                        <DialogRef resource="components/MenuChat.xml" placement="center"  />
+                                    </Children>
+                                </DockPanel>
+                                <PercentPanel percent="0.3" gap="4" direction="horizontal">
+                                    <Children>
+                                        <DialogRef resource="components/MenuFriends.xml" percent="0.65" />
+                                        <DialogRef resource="components/MenuParty.xml" percent="0.35">
+                                            <MaxSize x="320" />
+                                        </DialogRef>
+                                    </Children>
+                                </PercentPanel>
+                            </Children>
+                        </PercentPanel>
+                    </Children>
+                </StackPanel>
+            </Children>
+        </PercentPanel>
+    </Content>
+</Layout>

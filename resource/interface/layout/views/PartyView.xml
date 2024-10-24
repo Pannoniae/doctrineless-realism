@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Properties>
+        <PromoDebug>true</PromoDebug>
+    </Properties>
+    <Content>
+        <FramedTabPanel id="tab_control" resource="/interface/skin/game/frame/window">
+<!--            <Tab id="tab_upgrade" titleKey="main_menu2/upgrade">-->
+<!--                <StackPanel>-->
+<!--                    <Children>-->
+<!--                        <PictureDialog resource="" zoomMode="fill" layout="stack">-->
+<!--                            <Children>-->
+<!--                                <FlowPanel direction="horizontal" halign="center" valign="center">-->
+<!--                                    <Children>-->
+<!--                                        <PictureButton id="btn_upgrade" zoomMode="stretch" filtering="true">-->
+<!--                                            <Resource value="/interface/pages/main/btn_discord" />-->
+<!--                                        </PictureButton>-->
+<!--                                    </Children>-->
+<!--                                </FlowPanel>-->
+<!--                            </Children>-->
+<!--                        </PictureDialog>-->
+<!--                    </Children>-->
+<!--                </StackPanel>-->
+<!--            </Tab>-->
+            <Tab id="tab_party" titleKey="main_menu2/party">
+                <StackPanel id="content" />
+            </Tab>
+
+            <CustomButton>
+                <PictureButton id="btn_create">
+                    <Resource value="/interface/skin/game/button/window_add"/>
+                </PictureButton>
+            </CustomButton>
+            <CustomButton>
+                <PictureButton id="btn_leave">
+                    <Resource value="/interface/skin/game/button/window_remove"/>
+                </PictureButton>
+            </CustomButton>
+        </FramedTabPanel>
+    </Content>
+</Layout>

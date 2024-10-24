@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <FlowPanel direction="vertical" halign="center" valign="center" gap="3">
+            <Children>
+            <PercentPanel percent="1" stretch="false" gap="8">
+                <Children>
+                    <!--<PictureDialog resource="/interface/pages/main/mods_header" zoomMode="fit" centerX="true" centerY="true" placement="center">
+                        <PreferredSize x="650" y="650" />
+                        <Ables mouse="false"/>
+                    </PictureDialog>-->
+                </Children>
+                <Children>
+                    <!--<FrameView resource="/interface/skin/game/frame/window_misc" header="false" percent="0.1" placement="center">
+                    </FrameView>-->
+                </Children>
+            </PercentPanel>
+            </Children>
+        </FlowPanel>
+    </Content>
+</Layout>

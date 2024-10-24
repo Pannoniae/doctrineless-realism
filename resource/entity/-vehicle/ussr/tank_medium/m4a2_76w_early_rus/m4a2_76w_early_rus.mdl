@@ -312,10 +312,10 @@
 				}
 			}
 			{bone revolute "mgun_h_rot1"
-				{limits -15 15}
+				{limits -25 20}
 				{Position 41.1271 	 -10.1822 	 11.6158}
 				{bone revolute "mgun_h_rot2"
-					{limits -10 10}
+					{limits -10 20}
 					{matrix34
 						1 	 0 	 0
 						0 	 0 	 1
@@ -521,7 +521,7 @@
 					43.3126 	 17.9622 	 13.8775
 				}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0

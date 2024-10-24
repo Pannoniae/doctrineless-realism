@@ -16,3 +16,11 @@ msgstr ""
 msgctxt "mission/multi/4v4_warfare3_remaster/name"
 msgid "Warfare 3 Remastered <c(2eff4c)>[RobZ]"
 msgstr ""
+
+msgctxt "mission/multi/2v2_arad/name"
+msgid "Arad <c(2eff4c)>[GSM]"
+msgstr ""
+
+msgctxt "mission/multi/3v3_arad/name"
+msgid "Arad <c(2eff4c)>[GSM]"
+msgstr ""

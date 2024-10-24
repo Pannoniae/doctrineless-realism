@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <DialogRef refid="gui_background" shared="true"/>
+                <FrameView resource="/interface/skin/game/frame/bkg" header="true"/>
+                <DockPanel>
+                    <Children>
+                        <DialogRef resource="components/PageHeader.xml" placement="top"/>
+                        <StackPanel placement="center">
+                            <Insets left="28" right="28" bottom="28"/>
+                            <Children>
+                                <DialogRef refid="gui_market"/>
+                            </Children>
+                        </StackPanel>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

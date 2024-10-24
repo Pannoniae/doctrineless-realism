@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<DockPanel>
+			<Children>
+				<StackPanel placement="center">
+					<Children>
+						<StackPanel id="item_icon_area">
+							<PreferredSize y="384"/>
+						</StackPanel>
+						<FlowPanel direction="vertical" valign="bottom" halign="stretch">
+							<Children>
+								<GridPanel id="army_grid" rows="1" hgap="5">
+									<PreferredSize y="50"/>
+								</GridPanel>
+							</Children>
+						</FlowPanel>
+					</Children>
+				</StackPanel>
+				<FlowPanel halign="stretch" placement="bottom">
+					<Children>
+						<MediumMenuButton id="btn_use">
+							<Text key="main_menu2/market/use"/>
+							<Enable value="false"/>
+						</MediumMenuButton>
+					</Children>
+				</FlowPanel>
+			</Children>
+		</DockPanel>
+	</Content>
+</Layout>

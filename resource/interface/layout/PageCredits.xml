@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Properties>
+        <page.credits>
+            <stage_1>
+                <key>credits_barbedwire</key>
+                <style>f(anka)s(30)c(200 200 200)e(shadow)b</style>
+                <interval>0.5</interval>
+                <speed>0.01</speed>
+                <logo>/interface/pages/main/logo_barbedwire</logo>
+            </stage_1>
+            <stage_2>
+                <key>credits_dms</key>
+                <style>f(pobeda)s(30)c(200 200 200)e(shadow)b</style>
+                <interval>0.5</interval>
+                <speed>0.01</speed>
+                <logo>/interface/pages/main/logo_dms</logo>
+            </stage_2>
+            <stage_3>
+                <key>credits_other</key>
+               <style>f(pobeda)s(30)c(200 200 200)e(shadow)b</style>
+                <interval>1.0</interval>
+                <speed>6</speed>
+                <logo>/interface/pages/main/logo_other</logo>
+            </stage_3>
+        </page.credits>
+    </Properties>
+    <Content>
+        <StackPanel>
+            <Children>
+                <DialogRef refid="gui_background" shared="true"/>
+                <FrameView resource="/interface/skin/game/frame/bkg" header="true"/>
+                <DockPanel>
+                    <Children>
+                        <DialogRef resource="components/PageHeader.xml" placement="top"/>
+                        <StackPanel placement="center">
+                            <Insets left="28" right="28"  bottom="28"/>
+                            <Children>
+                                <DockPanel>
+                                    <Children>
+<!--                                        <FlowPanel placement="top" halign="center" valign="center">-->
+<!--                                            <Children>-->
+<!--                                                <PictureDialog resource="/interface/pages/main/logo_big.png" placement="top" />-->
+<!--                                            </Children>-->
+<!--                                        </FlowPanel>-->
+                                        <FlowPanel placement="center" halign="center" valign="stretch" direction="horizontal">
+                                            <Children>
+                                                <StackPanel id="pnl_credits"/>
+                                            </Children>
+                                        </FlowPanel>
+                                        <FlowPanel id="pnl_logo" halign="center" placement="bottom"/>
+                                    </Children>
+                                </DockPanel>
+                            </Children>
+                        </StackPanel>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

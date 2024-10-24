@@ -417,7 +417,7 @@
 					45.2648 	 17.9627 	 7.1756
 				}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0

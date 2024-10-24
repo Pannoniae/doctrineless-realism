@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        id="page_sample"
+        version="1"
+        skin="main_menu_dark_skin">
+    <Properties>
+        <tier1>
+            <image>/interface/pages/main/upgrade_tier1</image>
+            <link>http://store.steampowered.com/app/302670/Call_to_Arms/</link>
+            <tag_image>/interface/pages/main/upgrade_discount_50</tag_image>
+        </tier1>
+        <tier2>
+            <image>/interface/pages/main/upgrade_tier2</image>
+            <link>http://store.steampowered.com/app/374390/Call_to_Arms__Deluxe_Edition_upgrade/</link>
+            <tag_image>/interface/pages/main/upgrade_discount_60</tag_image>
+        </tier2>
+        <tier3>
+            <image>/interface/pages/main/upgrade_tier3</image>
+            <link>http://store.steampowered.com/app/561140/Call_to_Arms__Season_Pass/</link>
+            <tag_image>/interface/pages/main/upgrade_discount_70</tag_image>
+        </tier3>
+        <tier4>
+            <image>/interface/pages/main/upgrade_tier6</image>
+            <link>http://store.steampowered.com/itemstore/302670/detail/20002/</link>
+            <tag_image>/interface/pages/main/upgrade_special</tag_image>
+        </tier4>
+        <tier5>
+            <image>/interface/pages/main/upgrade_tier7</image>
+            <link>http://store.steampowered.com/itemstore/302670/detail/10002/</link>
+            <tag_image>/interface/pages/main/upgrade_special</tag_image>
+        </tier5>
+    </Properties>
+    <Content>
+        <StackPanel id="page_root">
+            <Ables mouse="true"/>
+            <Children>
+                <DialogRef refid="gui_background"/>
+                <FlowPanel direction="vertical" halign="center" valign="center">
+                    <Children>
+                        <FlowPanel direction="vertical" halign="center" valign="center">
+                            <Children>
+                                <FrameView id="frame_content" resource="/interface/skin/game/frame/window2">
+                                    <PreferredSize x="800"/>
+                                    <HeaderContent>
+                                        <StackPanel>
+                                            <Children>
+                                                <ClickablePictureDialog id="banner" resource="/interface/pages/main/category_header_sale_xmas" zoomMode="stretch" centerX="true" centerY="true"/>
+                                            </Children>
+                                        </StackPanel>
+                                    </HeaderContent>
+                                    <Content>
+                                        <DockPanel vgap="20">
+                                            <Insets top="10" bottom="10" />
+                                            <Children>
+                                                <DockPanel placement="center" vgap="10">
+                                                    <Children>
+                                                        <StackPanel id="content" placement="center">
+                                                            <Children>
+                                                                <StaticText id="txt_content">
+                                                                    <Text key="promo/text" />
+                                                                </StaticText>
+                                                            </Children>
+                                                        </StackPanel>
+                                                        <FlowPanel direction="vertical" halign="center" placement="bottom" gap="5">
+                                                            <Children>
+                                                                <FlowPanel direction="horizontal" halign="center" gap="5">
+                                                                    <Children>
+                                                                        <StackPanel id="btn_upgrade_tier1_container">
+                                                                            <PreferredSize x="260" y="260"/>
+                                                                        </StackPanel>
+
+                                                                        <StackPanel id="btn_upgrade_tier2_container">
+                                                                            <PreferredSize x="260" y="260"/>
+                                                                        </StackPanel>
+
+                                                                        <StackPanel id="btn_upgrade_tier3_container">
+                                                                            <PreferredSize x="260" y="260"/>
+                                                                        </StackPanel>
+                                                                    </Children>
+                                                                </FlowPanel>
+                                                                <FlowPanel direction="horizontal" halign="center" gap="70">
+                                                                    <Children>
+                                                                        <StackPanel id="btn_upgrade_tier4_container">
+                                                                            <PreferredSize x="200" y="200"/>
+                                                                        </StackPanel>
+                                                                        <StackPanel id="btn_upgrade_tier5_container">
+                                                                            <PreferredSize x="200" y="200"/>
+                                                                        </StackPanel>
+                                                                    </Children>
+                                                                </FlowPanel>
+                                                            </Children>
+                                                        </FlowPanel>
+                                                    </Children>
+                                                </DockPanel>
+                                                <FlowPanel placement="bottom" halign="center" direction="horizontal" gap="20">
+                                                    <Insets bottom="10" top="10" />
+                                                    <Children>
+                                                        <MenuLinkButton id="btn_extra">
+                                                            <Text key="button/store" textTransform="toUpper" />
+                                                        </MenuLinkButton>
+                                                        <MenuLinkButton id="btn_close">
+                                                            <Text key="button/continue" textTransform="toUpper"/>
+                                                        </MenuLinkButton>
+                                                    </Children>
+                                                </FlowPanel>
+                                            </Children>
+                                        </DockPanel>
+                                    </Content>
+                                </FrameView>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

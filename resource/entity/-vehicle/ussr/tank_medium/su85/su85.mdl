@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 28.08.2022 21:53:18
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\tank_medium\su-85\SU-85.max
+;Date:			 13.08.2023 08:43:59
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_medium\su-85\SU-85.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -943,6 +943,11 @@
 		0 	 -1 	 0
 		41.0946 	 11.4321 	 7.8307
 	}
+}
+{volume "body5"
+	{polyhedron "body5.vol"}
+	{bone "body"}
+	{Position 25.7036 	 5.0321 	 14.7595}
 }
 {volume "breech"
 	{box 7.4245 6.57122 27.2348}

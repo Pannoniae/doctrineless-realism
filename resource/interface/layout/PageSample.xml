@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        id="page_sample"
+        version="1"
+        skin="main_menu_dark_skin">
+    <Properties>
+        <local>
+            <alpha>true</alpha>
+            <beta>false</beta>
+            <gamma>true</gamma>
+			<text>пример текста, 01 sample text Beispieltext exemple de texte texto de ejemplo 示范文本 </text>
+        </local>
+    </Properties>
+    <Content>
+        <StackPanel>
+            <Children>
+                <DialogRef refid="gui_background" enableif="false">
+                    <Ables mouse="false" />
+                </DialogRef>
+                <PercentPanel direction="horizontal">
+                    <Children>
+                        <StackPanel percent="0.2" />
+                        <StackPanel placement="center" percent="0.6">
+                            <Children>
+                                <FlowPanel id="content" direction="vertical" halign="stretch" valign="center" gap="5">
+                                    <Children>
+										<StaticText><Text value="M08|${local.text}" textFormat="f(anka)s(8)" /></StaticText>
+										<StaticText><Text value="M08|${local.text}" textFormat="f(anka)s(8)b" /></StaticText>
+										<StaticText><Text value="M09|${local.text}" textFormat="f(anka)s(9)" /></StaticText>
+										<StaticText><Text value="M09|${local.text}" textFormat="f(anka)s(9)b" /></StaticText>
+										<StaticText><Text value="M10|${local.text}" textFormat="f(anka)s(10)" /></StaticText>
+										<StaticText><Text value="M10|${local.text}" textFormat="f(anka)s(10)b" /></StaticText>
+										
+										<StaticText><Text value="AHQ8|${local.text}" textFormat="f(arial_hq)s(8)" /></StaticText>
+										<StaticText><Text value="AN15|${local.text}" textFormat="f(arial_narrow)s(15)" /></StaticText>
+										<StaticText><Text value="AN18|${local.text}" textFormat="f(arial_narrow)s(18)" /></StaticText>
+										
+										<StaticText><Text value="BK12|${local.text}" textFormat="f(bookman)s(12)" /></StaticText>
+										
+										<StaticText><Text value="I21|${local.text}" textFormat="f(impact)s(21)" /></StaticText>
+										<StaticText><Text value="I27|${local.text}" textFormat="f(impact)s(27)" /></StaticText>
+										<StaticText><Text value="I28|${local.text}" textFormat="f(impact)s(28)" /></StaticText>
+										<StaticText><Text value="I30|${local.text}" textFormat="f(impact)s(30)" /></StaticText>
+
+                                        <StaticText><Text value="MP12|${local.text}" textFormat="f(myriadpro)s(12)" /></StaticText>
+                                        <StaticText><Text value="MP12|${local.text}" textFormat="f(myriadpro)s(12)b" /></StaticText>
+                                        <StaticText><Text value="MP13|${local.text}" textFormat="f(myriadpro)s(13)" /></StaticText>
+                                        <StaticText><Text value="MP13|${local.text}" textFormat="f(myriadpro)s(13)b" /></StaticText>
+                                        <StaticText><Text value="MP15|${local.text}" textFormat="f(myriadpro)s(15)" /></StaticText>
+                                        <StaticText><Text value="MP15|${local.text}" textFormat="f(myriadpro)s(15)b" /></StaticText>
+                                        <StaticText><Text value="MP18|${local.text}" textFormat="f(myriadpro)s(18)" /></StaticText>
+                                        <StaticText><Text value="MP18|${local.text}" textFormat="f(myriadpro)s(18)b" /></StaticText>
+                                        <StaticText><Text value="MP21|${local.text}" textFormat="f(myriadpro)s(21)" /></StaticText>
+                                        <StaticText><Text value="MP21|${local.text}" textFormat="f(myriadpro)s(21)b" /></StaticText>
+                                        <StaticText><Text value="MP27|${local.text}" textFormat="f(myriadpro)s(27)" /></StaticText>
+                                        <StaticText><Text value="MP27|${local.text}" textFormat="f(myriadpro)s(27)b" /></StaticText>
+                                        <StaticText><Text value="MP28|${local.text}" textFormat="f(myriadpro)s(28)" /></StaticText>
+                                        <StaticText><Text value="MP28|${local.text}" textFormat="f(myriadpro)s(28)b" /></StaticText>
+                                        <StaticText><Text value="MP30|${local.text}" textFormat="f(myriadpro)s(30)" /></StaticText>
+                                        <StaticText><Text value="MP30|${local.text}" textFormat="f(myriadpro)s(30)b" /></StaticText>
+
+                                    </Children>
+                                </FlowPanel>
+                            </Children>
+                        </StackPanel>
+                        <StackPanel percent="0.2" />
+                    </Children>
+                </PercentPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

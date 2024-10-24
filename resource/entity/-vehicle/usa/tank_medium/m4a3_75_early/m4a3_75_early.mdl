@@ -397,7 +397,7 @@
 					42.9461 	 17.963 	 6.2752
 				}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0
@@ -1290,11 +1290,6 @@
 	{polyhedron "turret3.vol"}
 	{bone "turret"}
 	{Position 15.268 	 0.3464 	 6.1339}
-}
-{volume "turret4"
-	{polyhedron "turret4.vol"}
-	{bone "turret"}
-	{Position 11.1558 	 -14.364 	 5.2816}
 }
 {volume "turret5"
 	{cylinder 19.3979 0.984252}

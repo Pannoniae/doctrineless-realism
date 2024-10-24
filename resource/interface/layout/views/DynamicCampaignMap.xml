@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<StackPanel>
+			<Insets left="1" top="1" right="1" bottom="1"/>
+			<Children>
+				<StackPanel id="background" placement="center">			
+					<PreferredSize x="1200" y="675"/>
+					<Children>
+						<PictureDialog id="banner" resource="/interface/pages/main/dynamic_campaign/background_map" zoomMode="fit"/>
+						<DialogRef refid="video_dialog" id="video"/>
+						<FlowPanel id="initiative" halign="left" placement="center"/>
+						<Panel id="linesContainer"/>
+						<Panel id="pointsContainer"/>
+						
+						<DockPanel>
+							<Children>
+								<FlowPanel placement="center">
+									<PreferredSize x="1200" y="675"/>
+									<Children>
+<!--										<StaticText>-->
+<!--										<Text value="Current Task:" />-->
+<!--									</StaticText>-->
+
+									</Children>
+								</FlowPanel>
+
+								<FlowPanel halign="right" placement="bottom">
+									<Insets all="10"/>
+									<Children>
+										<MenuButton id="btn_confirm">
+											<Text key="dialog_box/title_confirm" textFormat="s(24)"/>
+											<Sound value="gui/misc_gui_select"/>
+											<Resource value="/interface/skin/game/button/start_button"/>
+										</MenuButton>
+									</Children>
+								</FlowPanel>		
+							</Children>
+						</DockPanel>
+					</Children>
+				</StackPanel>
+			</Children>
+		</StackPanel>
+	</Content>
+</Layout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        id="menu_popup_dialog_view" version="1" skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <FadeDialog id="fade" opacity="0.8">
+                    <Ables mouse="false"/>
+                </FadeDialog>
+<!--                 <BlurDialog id="blur">
+                    <Ables mouse="false"/>
+                </BlurDialog> -->
+                <FrameView id="popup_frame" resource="/interface/skin/game/frame/window6" header="true">
+                    <Insets all="15"/>
+                    <Ables mouse="true"/>
+                    <HeaderContent>
+                        <DockPanel>
+                            <Children>
+                                <StackPanel id="popup_header" placement="center">
+                                    <Insets left="20" right="20" bottom="5"  />
+                                </StackPanel>
+                                <PictureButton id="btn_close" placement="right" >
+                                    <Sound value="gui/ui_next_item"/>
+                                    <Resource value="/interface/skin/game/button/close"/>
+                                </PictureButton>
+                            </Children>
+                        </DockPanel>
+                    </HeaderContent>
+                    <Content>
+                        <StackPanel id="popup_content">
+                        <Insets all="25" />
+                        </StackPanel>
+                    </Content>
+                </FrameView>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

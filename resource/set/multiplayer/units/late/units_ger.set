@@ -769,6 +769,10 @@
 	("vehicle"  period(late) year(late) cd(30) ci(0) g(wheel2) side(ger) t(vehicle) crew(rifleman_1:1) b(supply) cw(1) cp(2)
 	cost(25))
 }
+{"sdkfz8_armored"
+	("vehicle"  period(late) year(late) cd(0) ci(30) g(wheel8) side(ger) t(vehicle) crew(rifleman_1:1) b(supply) cw(1) cp(2)
+	cost(90))
+}
 {"sdkfz251d_1"
 	("vehicle"  period(late) year(late) cd(180) ci(10) g(wheel3) side(ger) t(vehicle) crew(rifleman_1:2) b(supply) cw(2) cp(4)
 	cost(150))
@@ -796,6 +800,10 @@
 {"munitionspanzer38t"
 	("vehicle2" period(late) year(late) cd(180) ci(10) g(wheel9) side(ger) t(vehicle supply) crew1(tankman_stug:3) crew2(tank_commander_stug:1) b(supply) cw(1) cp(5)
 	cost(300))
+}
+{"bergetiger"
+	("vehicle2" period(late) year(late) cd(600) ci(60) t(heavy) side(ger) crew1(tankman:4) crew2(tank_commander:1) g(heavy2) b(supply) cw(8) cp(20)
+	cost(680)) ;// +35 for crew
 }
 {"sdkfz303b"
 	("vehicle"  period(late) year(late) cd(240) ci(10) t(light limit3b) side(ger) crew(tankman:0) g(light1) b(supply) cw(0) cp(0)

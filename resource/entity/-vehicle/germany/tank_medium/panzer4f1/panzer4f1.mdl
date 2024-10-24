@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 13.11.2022 17:42:19
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\pz4\pz4f1_export.max
+;Exported by:	 TigerF
+;Date:			 30.03.2023 19:13:54
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\pz4\pz4f1_export.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}

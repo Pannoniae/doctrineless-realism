@@ -1,9 +1,9 @@
 ;Exported by:	 guita
-;Date:			 02.09.2021 10:07:35
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\tank_light\T37\t37_export.max
+;Date:			 28.03.2023 18:48:44
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_light\T37\t37_export.max
 {skeleton
 	{animation
-		{sequence "open_driver" {speed 0.1} {events {0 "hatch_light"} {9 "hatch_light"}}}
+		{sequence "open_driver" {speed 0.1} {events {2 "hatch_light"} {11 "hatch_light"}}}
 		{sequence "open" {speed 0.1}{resume} {events {2 "hatch_light"}}}
 		{sequence "move" {speed 0.7}}
 		{sequence "stop" {speed 0.25}}
@@ -180,23 +180,6 @@
 				{parameters "id=body;"}
 				{Position 1.5668 	 -17.0771 	 10.0957}
 				{VolumeView "detail3.ply"}
-			}
-			{bone "body7"
-				{Position 26.714 	 0 	 7.9458}
-			}
-			{bone "body3"
-				{matrix34
-					0.9962 	 0 	 0.0872
-					0 	 1 	 0
-					-0.0872 	 0 	 0.9962
-					-10.4377 	 0 	 13.7182
-				}
-			}
-			{bone "poplavokr"
-				{Position 1.9462 	 -17.5653 	 8.5637}
-			}
-			{bone "poplavokl"
-				{Position 1.9462 	 17.5591 	 8.5637}
 			}
 			{bone "engine"
 				{parameters "id=engine;"}
@@ -417,6 +400,54 @@
 				{Position 11.4793 	 17.4827 	 -3.0363}
 				{VolumeView "springleft1.ply"}
 			}
+			{bone "seat03"
+				{matrix34
+					-0.8209 	 -0.5324 	 0.2065
+					0.54 	 -0.8414 	 -0.0225
+					0.1857 	 0.0931 	 0.9782
+					-31.6393 	 -17.0512 	 6.4138
+				}
+			}
+			{bone "seat01"
+				{matrix34
+					0.0872 	 0.9811 	 0.173
+					-0.9962 	 0.0858 	 0.0151
+					0 	 -0.1736 	 0.9848
+					27.1931 	 20.1372 	 1.5123
+				}
+			}
+			{bone "seat02"
+				{matrix34
+					0 	 -0.9848 	 0.1736
+					1 	 0 	 0
+					0 	 0.1736 	 0.9848
+					25.4292 	 -20.1925 	 2.1152
+				}
+			}
+			{bone "seat04"
+				{matrix34
+					-0.9962 	 0.0872 	 0
+					-0.0872 	 -0.9962 	 0
+					0 	 0 	 1
+					-34.7305 	 10.6717 	 4.9059
+				}
+			}
+			{bone "seat05"
+				{matrix34
+					0.0872 	 0.9811 	 0.173
+					-0.9962 	 0.0858 	 0.0151
+					0 	 -0.1736 	 0.9848
+					-3.7041 	 14.7033 	 8.7392
+				}
+			}
+			{bone "seat06"
+				{matrix34
+					0.0872 	 0.9623 	 0.2578
+					-0.9962 	 0.0842 	 0.0226
+					0 	 -0.2588 	 0.9659
+					-20.1287 	 18.1604 	 6.345
+				}
+			}
 		}
 		{bone "emit1"
 			{matrix34
@@ -629,6 +660,49 @@
 				}
 			}
 		}
+		{bone "emit3"
+			{matrix34
+				0 	 -1 	 0
+				1 	 0 	 0
+				0 	 0 	 1
+				26.0165 	 34.4446 	 0
+			}
+		}
+		{bone "emit4"
+			{matrix34
+				0.1736 	 0.9848 	 0
+				-0.9848 	 0.1736 	 0
+				0 	 0 	 1
+				25.4786 	 -32.677 	 0
+			}
+		}
+		{bone "emit5"
+			{matrix34
+				0 	 1 	 0
+				-1 	 0 	 0
+				0 	 0 	 1
+				-31.8954 	 -32.6077 	 0
+			}
+		}
+		{bone "emit6"
+			{Position -56.8741 	 10.429 	 0}
+		}
+		{bone "emit7"
+			{matrix34
+				0 	 -1 	 0
+				1 	 0 	 0
+				0 	 0 	 1
+				-4.3909 	 34.4446 	 0
+			}
+		}
+		{bone "emit8"
+			{matrix34
+				0 	 -1 	 0
+				1 	 0 	 0
+				0 	 0 	 1
+				-24.4296 	 34.4446 	 0
+			}
+		}
 	}
 }
 {volume "body1"
@@ -660,6 +734,11 @@
 	{polyhedron "body4.vol"}
 	{bone "body"}
 	{Position 3.2614 	 9.0235 	 10.3874}
+}
+{volume "body7"
+	{polyhedron "body7.vol"}
+	{bone "body"}
+	{Position 26.714 	 0 	 7.9458}
 }
 {volume "engine1"
 	{polyhedron "engine1.vol"}

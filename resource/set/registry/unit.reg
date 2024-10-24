@@ -1,5 +1,26 @@
 ;SDL
 {units
+	{"bergetiger"
+		{vehicle_view "tiger_1h"}
+	}
+	{"t34_44nohead"
+		{vehicle_view "t34_85"}
+	}
+	{"t34_44supply"
+		{vehicle_view "t34_85"}
+	}
+	{"t34_44nohead_fin"
+		{vehicle_view "t34_85"}
+	}
+	{"t34_44supply_fin"
+		{vehicle_view "t34_85"}
+	}
+	{"sdkfz8_armored"
+		{vehicle_view "sdkfz7"}
+	}
+	{"t26t"
+		{vehicle_view "kht26"}
+	}
 
 	;Boxes
 	{"inf_crate_ger"

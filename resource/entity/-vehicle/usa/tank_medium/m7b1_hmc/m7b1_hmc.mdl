@@ -469,7 +469,7 @@
 			{bone "sus_r3"
 				{Position -28.957 	 -20.2088 	 -4.7871}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0
@@ -477,7 +477,7 @@
 					35.9112 	 -22.6767 	 13.6235
 				}
 			}
-			{bone "headlighl"
+			{bone "headlightl"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0

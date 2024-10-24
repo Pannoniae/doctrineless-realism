@@ -19,7 +19,7 @@
 		{strokes "basic"}
 	}
 	
-	{level "lvl_1"
+	{level "lvl_2"
 		{agility 0.45}
 		{strength 1}
 		{strokes "basic"}
@@ -99,7 +99,7 @@
 		}
 	}
 	
-	{level "lvl_9"
+	{level "lvl_10"
 		{agility 1.2}
 		{strength 2.0}
 		{strokes "basic"}

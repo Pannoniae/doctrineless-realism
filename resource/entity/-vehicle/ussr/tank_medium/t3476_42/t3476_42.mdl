@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 09.03.2022 18:14:08
-;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_rus\vehicles\tank_medium\t-34-76_42\T-34-76_42.max
+;Exported by:	 guita
+;Date:			 12.08.2023 17:52:36
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_medium\t-34-76_42\T-34-76_42.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -497,9 +497,6 @@
 					{LODView
 						{VolumeView "engine_cover.ply"}
 					}
-				}
-				{bone "engine3"
-					{Position 74.6448 	 0.0235 	 -5.8789}
 				}
 			}
 			{bone "internals"

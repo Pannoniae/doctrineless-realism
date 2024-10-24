@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <PictureDialog id="background">
+                    <Ables mouse="false"/>
+                </PictureDialog>
+                <PercentPanel direction="vertical">
+                    <Children>
+                        <StackPanel percent="0.25">
+                            <Children>
+                                <FlowPanel direction="vertical" halign="left" valign="top">
+                                    <Insets top="10" left="10"/>
+                                    <Children>
+                                        <BackgroundPanel backgroundResource="/interface/pages/main/load_gradient_tip" sizeMode="fromContent">
+                                            <Insets top="10" bottom="10" left="10"/>
+                                            <Children>
+                                                <FlowPanel direction="horizontal" halign="left">
+                                                    <Children>
+                                                        <DialogRef id="mission_objective" refid="objective_dialog">
+                                                            <Active value="true"/>
+                                                        </DialogRef>
+                                                    </Children>
+                                                </FlowPanel>
+                                            </Children>
+                                        </BackgroundPanel>
+                                    </Children>
+                                </FlowPanel>
+                            </Children>
+
+                        </StackPanel>
+                        <StackPanel percent="0.50">
+                        </StackPanel>
+                    </Children>
+                </PercentPanel>
+                <StackPanel>
+                    <Children>
+                        <FlowPanel halign="right" valign="top">
+                            <Insets right="40" top="40"/>
+                            <Children>
+                                <PictureDialog id="spinner" resource="/interface/pages/main/load_spinner" resourceFx="/interface/pages/main/load_spinner.fx" centerX="true" centerY="true"/>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </StackPanel>
+                <FlowPanel valign="center" halign="center" direction="horizontal">
+                    <Children>
+                        <DialogRef id="ready_status" refid="gui_mp_readystatus"/>
+                    </Children>
+                </FlowPanel>
+                <PercentPanel direction="horizontal" placement="center" >
+                    <Children>
+                        <FlowPanel direction="horizontal" halign="center" valign="bottom" gap="5">
+                            <Insets bottom="20"/>
+                            <Children>
+                                <DialogRef id="progress" refid="gui_mp_loadingstatus">
+                                    <MinSize x="350" y="50"/>
+                                </DialogRef>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </PercentPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

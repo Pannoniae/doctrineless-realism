@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<DockPanel>
+			<Children>
+				<StackPanel id="open_input_area" placement="center">
+					<PreferredSize y="384"/>
+				</StackPanel>
+				<FlowPanel halign="stretch" placement="bottom">
+					<Children>
+						<MediumMenuButton id="btn_open">
+							<Text key="main_menu2/market/open"/>
+							<Enable value="false"/>
+						</MediumMenuButton>
+						<MediumMenuButton id="btn_get_key">
+							<Text key="main_menu2/market/get_key"/>
+							<Enable value="false"/>
+						</MediumMenuButton>
+					</Children>
+				</FlowPanel>
+			</Children>
+		</DockPanel>
+	</Content>
+</Layout>

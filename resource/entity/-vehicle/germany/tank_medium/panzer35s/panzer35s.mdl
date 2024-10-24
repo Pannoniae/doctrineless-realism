@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 04.06.2022 09:17:59
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\panzer35s\panzer35s.max
+;Exported by:	 TigerF
+;Date:			 10.04.2024 17:57:40
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_ger\vehicles\tank_medium\panzer35s\panzer35s.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -953,10 +953,7 @@
 			{bone "trackr"
 				{parameters "id=trackright;"}
 				{Position 1.3631 	 0.07 	 9.2236}
-				{LODView
-					{VolumeView "trackr.ply"}
-					{VolumeView "trackr_lod1.ply"}
-				}
+				{VolumeView "trackr.ply"}
 			}
 		}
 		{bone "wheelsl"
@@ -1124,10 +1121,7 @@
 			{bone "trackl"
 				{parameters "id=trackleft;"}
 				{Position 1.3631 	 0.213 	 9.2235}
-				{LODView
-					{VolumeView "trackl.ply"}
-					{VolumeView "trackl_lod1.ply"}
-				}
+				{VolumeView "trackl.ply"}
 			}
 		}
 	}

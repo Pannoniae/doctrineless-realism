@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<DockPanel>
+			<Children>
+				<StackPanel placement="center">
+					<Children>
+						<FlowPanel direction="horizontal" halign="stretch">
+							<Children>
+								<StackPanel id="exchange_input_area">
+									<PreferredSize y="384"/>
+								</StackPanel>
+								<StackPanel>
+									<PreferredSize y="384"/>
+									<Children>
+										<StackPanel id="exchange_output_area">
+											<PreferredSize x="384"/>
+										</StackPanel>
+										<FlowPanel halign="center" valign="top">
+											<PreferredSize x="384" y="30"/>
+											<Insets top="10"/>
+											<Children>
+												<PictureButton id="btn_next">
+													<Resource value="/interface/skin/game/button/up"/>
+												</PictureButton>
+											</Children>
+										</FlowPanel>
+										<FlowPanel halign="center" valign="bottom">
+											<PreferredSize x="384" y="30"/>
+											<Insets bottom="10"/>
+											<Children>
+												<PictureButton id="btn_prev">
+													<Resource value="/interface/skin/game/button/down"/>
+												</PictureButton>
+											</Children>
+										</FlowPanel>
+									</Children>
+								</StackPanel>
+							</Children>
+						</FlowPanel>
+						<FlowPanel valign="center" halign="center">
+							<Children>
+								<PictureDialog resource="/interface/skin/game/button/exchange"/>
+							</Children>
+						</FlowPanel>
+					</Children>
+				</StackPanel>
+				<FlowPanel halign="stretch" placement="bottom">
+					<Children>
+						<MediumMenuButton id="btn_exchange">
+							<Text key="main_menu2/market/exchange"/>
+							<Enable value="false"/>
+						</MediumMenuButton>
+					</Children>
+				</FlowPanel>
+			</Children>
+		</DockPanel>
+	</Content>
+</Layout>

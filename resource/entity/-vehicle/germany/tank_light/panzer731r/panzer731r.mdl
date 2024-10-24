@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 05.11.2022 08:28:13
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_light\panzer731r\t37_ger_export.max
+;Date:			 28.03.2023 18:52:28
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger_updated\vehicles\tank_light\panzer731r\t37_ger_export.max
 {skeleton
 	{animation
 		{sequence "open_driver" {speed 0.1} {events {2 "hatch_light"} {11 "hatch_light"}}}
@@ -180,23 +180,6 @@
 				{parameters "id=body;"}
 				{Position 1.5668 	 -17.0771 	 10.0957}
 				{VolumeView "detail3.ply"}
-			}
-			{bone "body7"
-				{Position 26.714 	 0 	 7.9458}
-			}
-			{bone "body3"
-				{matrix34
-					0.9962 	 0 	 0.0872
-					0 	 1 	 0
-					-0.0872 	 0 	 0.9962
-					-10.4377 	 0 	 13.7182
-				}
-			}
-			{bone "poplavokr"
-				{Position 1.9462 	 -17.5653 	 8.5637}
-			}
-			{bone "poplavokl"
-				{Position 1.9462 	 17.5591 	 8.5637}
 			}
 			{bone "engine"
 				{parameters "id=engine;"}
@@ -771,6 +754,11 @@
 	{polyhedron "body4.vol"}
 	{bone "body"}
 	{Position 3.2614 	 9.0235 	 10.3874}
+}
+{volume "body7"
+	{polyhedron "body7.vol"}
+	{bone "body"}
+	{Position 26.714 	 0 	 7.9458}
 }
 {volume "engine1"
 	{polyhedron "engine1.vol"}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <FlowPanel halign="stretch" valign="stretch">
+                    <Children>
+                        <PictureDialog id="background" resource="/interface/pages/main/load_gradient_player" zoomMode="stretch">
+                            <Active value="false"/>
+                            <Ables mouse="false"/>
+                            <Buffered value="false"/>
+                        </PictureDialog>
+                    </Children>
+                </FlowPanel>
+                <DockPanel hgap="3">
+                    <Insets all="3"/>
+                    <Children>
+                        <FlowPanel direction="horizontal" valign="center" placement="left" gap="3">
+                            <Children>
+                                <FlowPanel direction="vertical" valign="center">
+                                    <MinSize x="24" y="24"/>
+                                    <Children>
+                                        <PictureDialog id="status" zoomMode="stretch">
+                                            <PreferredSize x="24" y="24"/>
+                                            <Active value="false"/>
+                                        </PictureDialog>
+                                    </Children>
+                                </FlowPanel>
+                                <PictureDialog id="flag" zoomMode="fit" centerX="true">
+                                    <PreferredSize y="32" x="42"/>
+                                    <Active value="false"/>
+                                </PictureDialog>
+                                <PictureDialog id="avatar" zoomMode="fit">
+<!--                                    <PreferredSize x="64" y="64"/>-->
+                                    <Active value="false"/>
+                                </PictureDialog>
+                            </Children>
+                        </FlowPanel>
+                        <FlowPanel direction="horizontal" halign="stretch" valign="center" placement="center" gap="3">
+                            <Insets left="3"/>
+                            <Children>
+                                <FlowPanel direction="vertical" valign="center">
+                                    <Children>
+                                        <StaticText id="name">
+                                            <Ables mouse="true"/>
+                                            <TextClip value="true" showHint="true"/>
+                                        </StaticText>
+                                    </Children>
+                                </FlowPanel>
+                            </Children>
+                        </FlowPanel>
+                        <FlowPanel direction="horizontal" valign="center" placement="right" gap="3">
+                            <Children>
+                                <StaticText id="score" >
+                                    <Ables mouse="true"/>
+                                    <PreferredSize x="130"/>
+                                    <TextClip value="true" showHint="true"/>
+                                </StaticText>
+                                <StaticText id="man">
+                                    <Ables mouse="true"/>
+                                    <PreferredSize x="130"/>
+                                    <TextStyle value="x.s(12)"/>
+                                    <TextClip value="true" showHint="true"/>
+                                </StaticText>
+                                <StaticText id="veh">
+                                    <Ables mouse="true"/>
+                                    <PreferredSize x="130"/>
+                                    <TextStyle value="x.s(12)"/>
+                                    <TextClip value="true" showHint="true"/>
+                                </StaticText>
+                                <StaticText id="personal_score">
+                                    <Ables mouse="true"/>
+                                    <PreferredSize x="80"/>
+                                    <TextStyle value="x.s(12)"/>
+                                    <TextClip value="true" showHint="true"/>
+                                </StaticText>
+                                <StaticText id="lag">
+                                    <Ables mouse="true"/>
+                                    <PreferredSize x="70"/>
+                                    <TextStyle value="x.s(12)"/>
+                                    <TextClip value="true" showHint="true"/>
+                                </StaticText>
+                                <FlowPanel halign="center" valign="center">
+                                    <PreferredSize x="20"/>
+                                    <Children>
+                                        <PictureDialog id="perfomance">
+                                            <Active value="false"/>
+                                            <Hint key="mp/lobby/hint/performance"/>
+                                            <Ables mouse="1"/>
+                                        </PictureDialog>
+                                    </Children>
+                                </FlowPanel>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

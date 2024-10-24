@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 17.11.2023 14:09:16
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_usa\vehicles\tank_medium\M36\M36.max
+;Exported by:	 TigerF
+;Date:			 15.06.2024 12:50:18
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_usa\vehicles\tank_medium\M36\M36.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}

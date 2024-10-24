@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 31.07.2021 12:02:07
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_heavy\tiger H and E\Pz6 Tiger H.max
+;Exported by:	 TigerF
+;Date:			 13.08.2023 21:02:11
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\tank_heavy\tiger H and E\Pz6 Tiger H.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -332,22 +332,6 @@
 				{VolumeView "body.ply"}
 				{VolumeView "body_lod1.ply"}
 			}
-			{bone "link1"
-				{matrix34					
-					0 	 0 	 1
-					0 	 1	 0
-					1 	 0 	 0
-					-80.0000 	 0 	 0
-				}
-			}			
-			;{bone "link1"
-			;	{matrix34
-			;		0.866 	 0 	 0.5
-			;		0 	 1 	 0
-			;		-0.5 	 0 	 0.866
-			;		-100.3086 	 0 	 4.1742
-			;	}
-			;}
 			{bone revolute "wheelr1"
 				{parameters "id=trackright;radius=0.46;"}
 				{matrix34
@@ -527,7 +511,7 @@
 					{VolumeView "turret_lod1.ply"}
 				}
 				{bone revolute "gun_rot"
-					{parameters "id=gun;"}
+					{parameters "id=turret;"}
 					{animation
 						{sequence "repair" {file "gun_r.anm"}}
 					}
@@ -629,21 +613,6 @@
 						-8.2351 	 10.4412 	 20.501
 					}
 				}
-				{bone "enumerator"
-					{parameters "id=turret;"}
-					{Position 0.9722 	 22.9097 	 7.4958}
-					{VolumeView "enumerator.ply"}
-				}
-				{bone "enumerator2"
-					{parameters "id=turret;"}
-					{matrix34
-						-1 	 0.0087 	 0
-						-0.0087 	 -1 	 0
-						0 	 0 	 1
-						-1.2895 	 -23.1388 	 7.4958
-					}
-					{VolumeView "enumerator2.ply"}
-				}
 				{bone "smoke_shot3"
 					{matrix34
 						-0.671 	 -0.4102 	 -0.6176
@@ -740,16 +709,6 @@
 						15.6039 	 -23.5483 	 13.3982
 					}
 				}
-				{bone "enumerator3"
-					{parameters "id=turret;"}
-					{matrix34
-						0 	 1 	 0
-						-1 	 0 	 0
-						0 	 0 	 1
-						-31.2525 	 1.4631 	 8.8325
-					}
-					{VolumeView "enumerator3.ply"}
-				}
 				{bone "commander_hatch_detail"
 					{parameters "id=turret;"}
 					{matrix34
@@ -798,6 +757,23 @@
 							0 	 0 	 2.1884
 						}
 					}
+				}
+				{bone "enumerator"
+					{matrix34
+						0.9613 	 0.2756 	 0
+						-0.2756 	 0.9613 	 0
+						0 	 0 	 1
+						-0.4072 	 22.9943 	 7.6819
+					}
+					{VolumeView "enumerator.ply"}
+				}
+				{bone "enumerator3"
+					{Position -30.6783 	 -0.0416 	 8.3549}
+					{VolumeView "enumerator3.ply"}
+				}
+				{bone "enumerator2"
+					{Position -0.4072 	 -23.1439 	 7.6819}
+					{VolumeView "enumerator2.ply"}
 				}
 			}
 			{bone "at1"

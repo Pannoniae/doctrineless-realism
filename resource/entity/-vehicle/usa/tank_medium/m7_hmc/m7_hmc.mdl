@@ -35,14 +35,6 @@
 					-100.0000 	 0 	 0
 				}
 			}
-			{bone "link1"
-				{matrix34					
-					0 	 0 	 1
-					0 	 1	 0
-					1 	 0 	 0
-					-100.0000 	 0 	 0
-				}
-			}
 			{bone revolute "turret"
 				{parameters "id=gun;"}
 				{animation
@@ -458,7 +450,7 @@
 			{bone "sus_r3"
 				{Position -28.957 	 -20.2088 	 -4.7871}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0
@@ -466,7 +458,7 @@
 					28.449 	 -22.6501 	 25.5787
 				}
 			}
-			{bone "headlighl"
+			{bone "headlightl"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0

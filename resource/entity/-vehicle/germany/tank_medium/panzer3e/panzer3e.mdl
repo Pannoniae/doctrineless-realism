@@ -1,6 +1,6 @@
 ;Exported by:	 TigerF
-;Date:			 29.06.2021 13:05:59
-;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\pz3\pz3e.max
+;Date:			 09.12.2023 22:40:55
+;File:			 D:\GOH\3dsmax9_saves\scenes\_GoH_3d_vehicle_ger\vehicles\tank_medium\pz3\pz3e.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -481,6 +481,10 @@
 						}
 					}
 				}
+			}
+			{bone "can"
+				{Position 6.8291 	 -23.7608 	 -0.7023}
+				{VolumeView "can.ply"}
 			}
 		}
 		{bone "wheelsr"

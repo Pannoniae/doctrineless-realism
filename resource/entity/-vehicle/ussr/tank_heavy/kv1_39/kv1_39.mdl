@@ -1,6 +1,6 @@
 ;Exported by:	 guita
-;Date:			 05.07.2022 23:24:29
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\tank_heavy\kv1_1939\kv1_1939.max
+;Date:			 13.08.2023 09:18:02
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_heavy\kv1_1939\kv1_1939.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}

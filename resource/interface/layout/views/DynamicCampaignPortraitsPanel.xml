@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<DockPanel>
+			<Children>
+				<StackPanel placement="center">
+					<Children>
+						<ScrollPane>
+							<Insets left="4" right="4" bottom="4" top="4"/>
+							<Children>
+								<DialogRef id="wrap_panel" refid="portrait_wrap_panel"/>
+							</Children>
+							<ScrollBars vertical="always"/>
+						</ScrollPane>
+						<DialogRef id="drag_panel" refid="draggable_stackpanel"/>
+					</Children>
+				</StackPanel>
+			</Children>
+		</DockPanel>
+	</Content>
+</Layout>

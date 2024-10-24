@@ -1,6 +1,6 @@
-;Exported by:	 ART
-;Date:			 06.06.2021 16:22:15
-;File:			 E:\Autodesk\Low poly\freelance\Carlos\Tanks\T-34-85\export\DMS suspension max 2015\T-34-40.max
+;Exported by:	 guita
+;Date:			 12.08.2023 17:46:54
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_medium\t-34-40\T-34-40.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -321,6 +321,7 @@
 					}
 				}
 				{bone "enumerator"
+					{parameters "id=turret;"}
 					{matrix34
 						0.9334 	 0.3588 	 -0.0047
 						-0.3105 	 0.8142 	 0.4906
@@ -330,6 +331,7 @@
 					{VolumeView "enumerator.ply"}
 				}
 				{bone "enumerator2"
+					{parameters "id=turret;"}
 					{matrix34
 						-0.9324 	 0.3614 	 0.0012
 						-0.3156 	 -0.8158 	 0.4847

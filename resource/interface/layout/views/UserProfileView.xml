@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <BackgroundPanel backgroundResource="/interface/skin/game/frame/bkg/profile" placement="center" zoomMode="stretch"/>
+        <DockPanel hgap="10">
+            <Insets left="1" top="1" right="1" bottom="1"/>
+            <Children>
+                <FlowPanel placement="left" halign="right">
+                    <Children>
+                        <PictureDialog id="icon_unranked" zoomMode="fit"/>
+                        <PictureDialog id="icon_ranked" zoomMode="fit"/>
+                    </Children>
+                </FlowPanel>
+                <StackPanel layout="dock" placement="left">
+                    <Children>
+                <FlowPanel placement="left" halign="center" valign="center">
+                    <Children>
+                        <AvatarView id="btn_user_avatar" mode="button" avatarSize="large">
+                            <PreferredSize x="64" y="64"/>
+                        </AvatarView>
+                    </Children>
+                </FlowPanel>
+                    </Children>
+                </StackPanel>
+                <StackPanel placement="center">
+                    <Children>
+                        <DockPanel hgap="5">
+                            <Children>
+                                <DockPanel placement="center" hgap="5" id="pnl_user" percent="1">
+                                    <Children>
+<!--                                        <FlowPanel halign="stretch" direction="horizontal" placement="top" gap="5">-->
+<!--                                            <Children>-->
+<!--                                                <UserNameView id="txt_nickname" clanTag="true" format="user_profile2/nick"/>-->
+<!--                                                <FlowPanel valign="center" direction="horizontal" gap="5">-->
+<!--                                                    <Children>-->
+<!--                                                        <PictureButton id="icon_controller" >-->
+<!--                                                            <Resource value="/interface/pages/main/controller"/>-->
+<!--                                                        </PictureButton>-->
+<!--                                                    </Children>-->
+<!--                                                </FlowPanel>-->
+<!--                                            </Children>-->
+<!--                                        </FlowPanel>-->
+                                        <DockPanel placement="center" >
+                                            <Children>
+                                                <UserNameView id="txt_nickname" clanTag="true" format="user_profile2/nick" placement="left">
+                                                    <PreferredSize x="110"/>
+                                                    <TextStyle value="e(shadow)f(main)y."/>
+                                                    <TextClip value="true" showHint="true"/>
+                                                </UserNameView>
+                                                <FlowPanel direction="horizontal" valign="center" placement="right" halign="center">
+                                                    <Children>
+														<StaticText id="txt_level"/>
+														<ComboBox id="cb_armies"/>
+													</Children>
+                                                </FlowPanel>
+                                            </Children>
+                                        </DockPanel>
+                                    </Children>
+                                </DockPanel>
+                            </Children>
+                        </DockPanel>
+                    </Children>
+                </StackPanel>
+            </Children>
+        </DockPanel>
+    </Content>
+</Layout>

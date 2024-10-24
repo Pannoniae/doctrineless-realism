@@ -353,7 +353,7 @@
 			{bone "visor2"
 				{Position 32.8217 	 9.861 	 24.1728}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0

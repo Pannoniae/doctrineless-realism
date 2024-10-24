@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Properties>
+        <page.game_result>
+            <timeout>3000</timeout>
+        </page.game_result>
+    </Properties>
+    <Content>
+        <StackPanel>
+            <Children>
+                <FlowPanel>
+
+                </FlowPanel>
+<!--                <PictureDialog id="logo" zoomMode="fit">-->
+<!--                    <Ables mouse="false"/>-->
+<!--                </PictureDialog>-->
+                <FlowPanel direction="vertical" halign="center" valign="bottom">
+                    <Insets bottom="50"/>
+                    <Children>
+<!--                        <DialogRef refid="gui_spacer_horizontal2">-->
+<!--                            <MinSize x="350"/>-->
+<!--                        </DialogRef>-->
+                        <FlowPanel halign="center">
+                            <Children>
+                                <StaticText id="status">
+                                    <TextStyle value="s(30)e(shadow)b+c(d29c4f)"/>
+                                </StaticText>
+                            </Children>
+                        </FlowPanel>
+                        <DialogRef refid="gui_spacer_horizontal2"/>
+                        <FlowPanel halign="center">
+                            <Children>
+                                <StaticText id="status_desc">
+                                    <TextStyle value="s(18)e(shadow)f(roboto_mono)"/>
+                                </StaticText>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

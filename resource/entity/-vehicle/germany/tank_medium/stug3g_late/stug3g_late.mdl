@@ -636,7 +636,7 @@
 						0 	 0 	 0
 					}
 					{bone "mantlet"
-						{parameters "id=mantlet;"}
+						{parameters "id=gun;"}
 						{animation
 							{sequence "repair" {file "gun_r.anm"}{speed 0.7}}
 						}

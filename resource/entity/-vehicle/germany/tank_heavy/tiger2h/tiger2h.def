@@ -132,7 +132,7 @@
 		{speed2 3}
 	}
 	{bone "turret"
-		("turret_heavy" power_traverse(19))
+		("turret_heavy" power_traverse(23.7))
 	}
 
 	{texmod "camo"}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<StackPanel>
+			<Children>
+				<PictureDialog id="circle">
+					<Ables mouse="false"/>
+				</PictureDialog>
+				<PictureDialog id="flag">
+					<Ables mouse="false"/>
+				</PictureDialog>
+				<PictureDialog id="landscape">
+					<Ables mouse="false"/>
+				</PictureDialog>
+				<FlowPanel placement="right" direction="horizontal" halign="right" valign="top">
+					<Insets right="25" top="75"/>
+					<Children>
+						<StaticText>
+<!--							<Text value="Season" />-->
+							<Text key="main_menu2/dynamic_campaign/map/season"/>
+						</StaticText>
+					</Children>
+				</FlowPanel>
+				<FlowPanel placement="left" direction="horizontal" halign="left" valign="top">
+					<Insets left="25" top="77"/>
+					<Children>
+						<StaticText>
+<!--							<Text value="Risk:" />-->
+							<Text key="main_menu2/dynamic_campaign/map/risk"/>
+						</StaticText>
+					</Children>
+				</FlowPanel>
+				<FlowPanel placement="left" direction="horizontal" halign="left" valign="center">
+					<Insets left="25" bottom="22"/>
+					<Children>
+						<StaticText>
+<!--							<Text value="Enemy:" />-->
+							<Text key="main_menu2/dynamic_campaign/map/enemy"/>
+						</StaticText>
+					</Children>
+				</FlowPanel>
+				<PercentPanel direction="vertical">
+					<Insets left="25" top="22"/>
+					<Children>
+						<StackPanel percent="0.5"/>
+						<FlowPanel percent="0.5" halign="left" valign="stretch">
+							<Children>
+								<FlowPanel placement="top" direction="vertical" halign="left" valign="top" gap="5">
+									<Children>
+										<StaticText>
+<!--											<Text value="Reward:" />-->
+											<Text key="main_menu2/dynamic_campaign/map/reward"/>
+										</StaticText>
+									</Children>
+								</FlowPanel>
+								<FlowPanel id="cash" valign="bottom" halign="center" gap="2" direction="horizontal"/>
+							</Children>
+						</FlowPanel>
+
+					</Children>
+				</PercentPanel>
+				<FlowPanel percent="0.5" halign="left" valign="top">
+					<Children>
+				<PictureDialog id="initiative">
+					<Ables mouse="false"/>
+				</PictureDialog>
+					</Children>
+				</FlowPanel>
+				<PictureDialog id="reward">
+					<Ables mouse="false"/>
+				</PictureDialog>
+			</Children>
+		</StackPanel>
+	</Content>
+</Layout>

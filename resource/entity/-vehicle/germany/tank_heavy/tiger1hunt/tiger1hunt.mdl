@@ -1,6 +1,6 @@
 ;Exported by:	 TigerF
-;Date:			 13.08.2023 20:48:16
-;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\tank_heavy\tiger H and E\Pz6 Tiger hunt.max
+;Date:			 23.04.2024 16:21:06
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_ger\vehicles\tank_heavy\tiger H and E\Pz6 Tiger hunt.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -1589,24 +1589,14 @@
 		0 	 0 	 -0.2984
 	}
 }
-{volume "trackleft11"
-	{polyhedron "trackleft11.vol"}
-	{bone "wheelsl"}
-	{matrix34
-		-1 	 0 	 0
-		0 	 0 	 1
-		0 	 1 	 0
-		1.7549 	 4.5978 	 10.4175
-	}
-}
 {volume "trackleft1"
-	{cylinder 7.97726 10.6919}
+	{cylinder 9.14673 14.541}
 	{bone "wheell1"}
 	{matrix34
 		-1 	 0 	 0
 		0 	 -1 	 0
 		0 	 0 	 1
-		0 	 0 	 0.0056
+		0 	 0 	 1.9302
 	}
 }
 {volume "trackleft2"
@@ -1709,24 +1699,14 @@
 		0 	 0 	 0.3263
 	}
 }
-{volume "trackright11"
-	{polyhedron "trackright11.vol"}
-	{bone "wheelsr"}
-	{matrix34
-		-1 	 0 	 0
-		0 	 0 	 1
-		0 	 1 	 0
-		1.7549 	 0.0661 	 10.6029
-	}
-}
 {volume "trackright1"
-	{cylinder 7.97726 10.6919}
+	{cylinder 9.17385 14.6436}
 	{bone "wheelr1"}
 	{matrix34
 		-1 	 0 	 0
 		0 	 -1 	 0
 		0 	 0 	 1
-		0 	 0 	 0.0546
+		0 	 0 	 -2.011
 	}
 }
 {volume "trackright2"

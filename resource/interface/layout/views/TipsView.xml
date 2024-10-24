@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<StackPanel>
+			<Children>
+				<DockPanel>
+					<Children>
+						<StackPanel placement="center">
+							<Insets all="25"/>
+							<Children>
+								<PercentPanel stretch="true" direction="horizontal" gap="8">
+									<MaxSize x="2184" y="1088" />
+									<Children>
+										<FrameView percent="0.5" resource="/interface/skin/game/frame/window4" header="false">
+											<Content>
+												<PercentPanel>
+													<Children>
+														<DockPanel percent="0.35">
+															<Insets top="55" right="25" left="25" bottom="25"/>
+															<Children>
+																<StackPanel placement="center">
+																	<Children>
+																		<StaticText id="sta_tip"/>
+																	</Children>
+																</StackPanel>
+																<!-- <PictureDialog resource="/interface/skin/game/frame/window/image_shadow" zoomMode="stretch" placement="bottom"/>-->
+															</Children>
+														</DockPanel>
+													</Children>
+													<Children>
+														<FrameView percent="0.6" resource="/interface/skin/game/frame/window_single" header="false">
+															<HeaderContent>
+																<FlowPanel valign="center" halign="left"/>
+															</HeaderContent>
+															<Content>
+																<DockPanel>
+																	<Children>
+																		<StackPanel placement="center">
+																			<Insets left="5" top="5" right="5" bottom="5"/>
+																			<Children>
+																				<PercentPanel direction="horizontal">
+																					<Insets left="25" top="25" right="25" bottom="25"/>
+																					<Children>
+																						<ListBox id="lb_tips" percent="0.5"/>
+																						<ListBox id="lb_tips_2" percent="0.5"/>
+
+																					</Children>
+																				</PercentPanel>
+																			</Children>
+																		</StackPanel>
+																		<!-- <PictureDialog resource="/interface/skin/game/frame/window/image_shadow" zoomMode="stretch" placement="bottom">
+                                                                             <Ables mouse="false"/>
+                                                                         </PictureDialog>-->
+																	</Children>
+
+																</DockPanel>
+
+															</Content>
+
+														</FrameView>
+													</Children>
+												</PercentPanel>
+											</Content>
+										</FrameView>
+										<DockPanel percent="0.4" vgap="8">
+											<Children>
+												<DialogRef resource="components/PageSide.xml" placement="center"  />
+											</Children>
+										</DockPanel>
+<!--										<PercentPanel percent="0.4" stretch="false" gap="8">-->
+<!--													<Children>-->
+<!--														<PictureDialog resource="/interface/pages/main/tips_header" zoomMode="fit" centerX="true" centerY="true" placement="center">-->
+<!--                                                            <PreferredSize x="650" y="650" />-->
+<!--                                                        <Ables mouse="false"/>-->
+<!--                                                        </PictureDialog>-->
+<!--													</Children>-->
+<!--											<Children>-->
+<!--												&lt;!&ndash;<FrameView resource="/interface/skin/game/frame/window_misc" header="false" percent="0.1" placement="center">-->
+<!--												</FrameView>&ndash;&gt;-->
+<!--											</Children>-->
+<!--										</PercentPanel>-->
+									</Children>
+								</PercentPanel>
+							</Children>
+						</StackPanel>
+
+					</Children>
+				</DockPanel>
+			</Children>
+		</StackPanel>
+	</Content>
+</Layout>

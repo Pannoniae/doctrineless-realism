@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 08.11.2022 07:45:33
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\pz4\pz4j.max
+;Exported by:	 TigerF
+;Date:			 30.03.2023 21:39:11
+;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_ger\vehicles\tank_medium\pz4\pz4j.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -74,7 +74,7 @@
 					{VolumeView "mgun_a_rot1.ply"}
 					{bone revolute "mgun_a_rot2"
 						{parameters "id=turret;"}
-						{limits -20 45}
+						{limits -15 45}
 						{matrix34
 							0.9063 	 0 	 0.4226
 							-0.4226 	 0 	 0.9063
@@ -169,6 +169,36 @@
 						-0.766 	 0 	 0.6428
 						-2.9386 	 7.7149 	 6.2471
 					}
+				}
+				{bone "shieldt11"
+					{parameters "id=body;"}
+					{matrix34
+						-0.9925 	 0 	 0.1219
+						0 	 -1 	 0
+						0.1219 	 0 	 0.9925
+						10.3563 	 1.3152 	 6.2565
+					}
+					{VolumeView "shieldt11.ply"}
+				}
+				{bone "shieldt12"
+					{parameters "id=body;"}
+					{matrix34
+						-0.9925 	 0 	 0.1219
+						0 	 -1 	 0
+						0.1219 	 0 	 0.9925
+						10.3555 	 8.7967 	 6.2505
+					}
+					{VolumeView "shieldt12.ply"}
+				}
+				{bone "shieldt13"
+					{parameters "id=body;"}
+					{matrix34
+						0.0087 	 1 	 0
+						-0.9925 	 0.0087 	 0.1219
+						0.1219 	 -0.0011 	 0.9925
+						12.0457 	 -7.4556 	 6.0612
+					}
+					{VolumeView "shieldt13.ply"}
 				}
 			}
 			{bone "antena"
@@ -497,10 +527,10 @@
 			{bone "shield6"
 				{parameters "id=body;"}
 				{matrix34
-					-0.9765 	 -0.2154 	 0
-					0.0015 	 -0.0067 	 -1
-					0.2154 	 -0.9765 	 0.0068
-					16.0137 	 -23.2972 	 9.523
+					-0.9784 	 -0.2069 	 0
+					0.0014 	 -0.0067 	 -1
+					0.2069 	 -0.9783 	 0.0068
+					-3.9707 	 -23.2839 	 9.523
 				}
 				{VolumeView "shield6.ply"}
 			}
@@ -513,6 +543,46 @@
 					53.3523 	 -6.6792 	 -3.3948
 				}
 				{VolumeView "shield7.ply"}
+			}
+			{bone "shield8"
+				{parameters "id=body;"}
+				{matrix34
+					-0.9681 	 0 	 0.2504
+					0 	 -1 	 0
+					0.2504 	 0 	 0.9681
+					43.6176 	 0.2291 	 4.4076
+				}
+				{VolumeView "shield8.ply"}
+			}
+			{bone "shield9"
+				{parameters "id=body;"}
+				{matrix34
+					-0.9681 	 0 	 0.2504
+					0 	 -1 	 0
+					0.2504 	 0 	 0.9681
+					43.6176 	 7.7379 	 4.4076
+				}
+				{VolumeView "shield9.ply"}
+			}
+			{bone "shield10"
+				{parameters "id=body;"}
+				{matrix34
+					-0.9784 	 -0.2069 	 0
+					0.0014 	 -0.0067 	 -1
+					0.2069 	 -0.9783 	 0.0068
+					6.6696 	 -23.2723 	 9.523
+				}
+				{VolumeView "shield10.ply"}
+			}
+			{bone "shield11"
+				{parameters "id=body;"}
+				{matrix34
+					-0.9104 	 -0.4138 	 0
+					0.0029 	 -0.0062 	 -1
+					0.4138 	 -0.9104 	 0.0068
+					17.5238 	 -22.1231 	 9.523
+				}
+				{VolumeView "shield11.ply"}
 			}
 		}
 		{bone "emit0"
@@ -1026,6 +1096,26 @@
 		5.4351 	 0.5235 	 0.881
 	}
 }
+{volume "shield10"
+	{box 10.3324 7.62943 1.3079}
+	{bone "shield10"}
+	{matrix34
+		0.9773 	 -0.0015 	 -0.2118
+		0 	 -1 	 0.0068
+		-0.2118 	 -0.0067 	 -0.9773
+		0.0863 	 0.0064 	 0.1534
+	}
+}
+{volume "shield11"
+	{box 10.3324 7.62943 1.3079}
+	{bone "shield11"}
+	{matrix34
+		0.9773 	 -0.003 	 -0.2118
+		-0.0015 	 -1 	 0.0073
+		-0.2118 	 -0.0069 	 -0.9773
+		0.1256 	 -0.0531 	 0.1372
+	}
+}
 {volume "shield1"
 	{cylinder 4.72351 4.28009}
 	{bone "shield1"}
@@ -1067,23 +1157,23 @@
 	}
 }
 {volume "shield5"
-	{box 10.4905 1.29428 23.062}
+	{box 10.4905 1.29428 7.37983}
 	{bone "shield5"}
 	{matrix34
 		1 	 0 	 0
 		0 	 0 	 1
 		0 	 -1 	 0
-		0.1831 	 -7.7001 	 -0.7202
+		0.1831 	 -0.0005 	 -0.7202
 	}
 }
 {volume "shield6"
-	{box 32.2888 7.62943 2.7248}
+	{box 10.3324 7.62943 1.3079}
 	{bone "shield6"}
 	{matrix34
-		0.9765 	 -0.0015 	 -0.2154
+		0.9773 	 -0.0015 	 -0.2118
 		0 	 -1 	 0.0068
-		-0.2154 	 -0.0067 	 -0.9765
-		10.6411 	 0.1822 	 -2.5281
+		-0.2118 	 -0.0067 	 -0.9773
+		0.0549 	 0.0063 	 0.1482
 	}
 }
 {volume "shield7"
@@ -1094,6 +1184,26 @@
 		0.0027 	 1 	 0.0002
 		1 	 -0.0027 	 0
 		6.6876 	 -0.0059 	 -0.4642
+	}
+}
+{volume "shield8"
+	{box 10.4905 1.29428 7.37983}
+	{bone "shield8"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		0.1831 	 -0.0344 	 -0.7202
+	}
+}
+{volume "shield9"
+	{box 10.4905 1.29428 7.37983}
+	{bone "shield9"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		0.1831 	 -0.0318 	 -0.7202
 	}
 }
 {volume "shieldt10"
@@ -1107,13 +1217,33 @@
 	}
 }
 {volume "shieldt11"
-	{box 10.1635 1.0597 26.661}
-	{bone "shieldt"}
+	{box 10.4905 1.29428 7.30531}
+	{bone "shieldt11"}
 	{matrix34
-		-0.9925 	 0 	 0.1219
-		0.1219 	 0 	 0.9925
-		0 	 1 	 0
-		18.2645 	 -0.0432 	 4.6988
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		0.0467 	 -0.0208 	 -0.6267
+	}
+}
+{volume "shieldt12"
+	{box 10.4905 1.29428 7.30531}
+	{bone "shieldt12"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		0.0513 	 -0.0106 	 -0.6253
+	}
+}
+{volume "shieldt13"
+	{box 10.4905 1.29428 7.30531}
+	{bone "shieldt13"}
+	{matrix34
+		-0.9999 	 0 	 -0.0153
+		-0.0153 	 -0.0024 	 0.9999
+		0 	 1 	 0.0024
+		-0.1394 	 -0.0139 	 -0.5498
 	}
 }
 {volume "shieldt1"

@@ -307,10 +307,10 @@
 				{VolumeView "detail8.ply"}
 			}
 			{bone revolute "mgun_h_rot1"
-				{limits -15 15}
+				{limits -25 20}
 				{Position 43.0179 	 -10.1771 	 14.9799}
 				{bone revolute "mgun_h_rot2"
-					{limits -10 10}
+					{limits -10 20}
 					{matrix34
 						1 	 0 	 0
 						0 	 0 	 1
@@ -380,7 +380,7 @@
 			{bone "visor2"
 				{Position 39.3729 	 4.0345 	 23.967}
 			}
-			{bone "headlighr"
+			{bone "headlightr"
 				{matrix34
 					1 	 0 	 0
 					0 	 1 	 0

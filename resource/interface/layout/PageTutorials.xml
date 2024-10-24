@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <DialogRef refid="gui_background" shared="true"/>
+                <DockPanel>
+                    <Children>
+                        <DialogRef resource="components/PageHeader.xml" placement="top" />
+                        <StackPanel placement="center">
+                            <Children>
+                                <FrameView percent="0.3" resource="/interface/skin/game/frame/shadow">
+									<Insets left="10" right="10" top="10" bottom="10" />
+									<Content>
+										<DialogRef id="browser" refid="webviewdialog" />
+									</Content>
+								</FrameView>
+                            </Children>
+                        </StackPanel>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

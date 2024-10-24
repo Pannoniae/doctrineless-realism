@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 26.07.2021 17:50:18
-;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_rus\vehicles\tank_medium\T-34-57_41.max
+;Exported by:	 guita
+;Date:			 13.08.2023 08:29:04
+;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_medium\t-34-57_41\T-34-57_41.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -370,7 +370,7 @@
 			{bone "engine"
 				{parameters "id=engine;"}
 				{animation
-					{sequence "repair" {file "engine_r.anm"}{speed 0.6}}
+					{sequence "repair" {file "engine_r.anm"}}
 				}
 				{Position -29.7606 	 1.494 	 0}
 				{LODView
@@ -510,6 +510,7 @@
 					}
 				}
 				{bone "enumerator"
+					{parameters "id=turret;"}
 					{matrix34
 						0.9334 	 0.3588 	 -0.0047
 						-0.3105 	 0.8142 	 0.4906
@@ -519,6 +520,7 @@
 					{VolumeView "enumerator.ply"}
 				}
 				{bone "enumerator2"
+					{parameters "id=turret;"}
 					{matrix34
 						-0.9324 	 0.3614 	 0.0012
 						-0.3156 	 -0.8158 	 0.4847

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        id="menu_dialog_view" version="1" skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <!--<DialogRef id="background" />-->
+                <FlowPanel valign="center" halign="center" id="root">
+                    <Ables mouse="true"/>
+                    <!--<MaxSize x="600" y="400" />-->
+                    <!--<Children>-->
+                        <!--<DockPanel>-->
+                            <!--<Children>-->
+                                <!--<FlowPanel id="header_container" placement="top" direction="vertical" halign="stretch" valign="stretch">-->
+                                    <!--<Insets bottom="5" left="5" right="5" top="5" />-->
+                                    <!--<PreferredSize y="32" />-->
+                                <!--</FlowPanel>-->
+                                <!--<FlowPanel id="content_container" placement="center" direction="vertical" halign="stretch" valign="stretch">-->
+                                    <!--<Insets bottom="5" left="5" right="5" top="5" />-->
+                                    <!--<MaxSize x="400" />-->
+                                <!--</FlowPanel>-->
+                                <!--<FlowPanel id="buttons_container" placement="bottom" direction="horizontal">-->
+                                    <!--<Insets bottom="5" left="5" right="5" top="5" />-->
+                                    <!--<PreferredSize y="32" />-->
+                                <!--</FlowPanel>-->
+                            <!--</Children>-->
+                        <!--</DockPanel>-->
+                    <!--</Children>-->
+                </FlowPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

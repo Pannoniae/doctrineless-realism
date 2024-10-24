@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        id="page_announce"
+        version="1"
+        skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel id="page_root">
+            <Ables mouse="true"/>
+            <Children>
+                <DialogRef refid="gui_background"/>
+                <FlowPanel direction="vertical" halign="center" valign="center">
+                    <Children>
+                        <FrameView id="frame_content" resource="/interface/skin/game/frame/window2">
+                            <PreferredSize x="800" y="600" />
+                            <HeaderContent>
+                                <StackPanel>
+                                    <Children>
+                                        <ClickablePictureDialog id="banner" resource="/interface/pages/main/category_header_sale" zoomMode="stretch" centerX="true"/>
+                                    </Children>
+                                </StackPanel>
+                            </HeaderContent>
+                            <Content>
+                                <DockPanel>
+                                    <Children>
+                                        <StackPanel id="content" placement="center">
+                                            <Insets left="10" right="10" bottom="10" top="10" />
+                                            <Children>
+												<StaticText id="txt_content" />
+											</Children>
+                                        </StackPanel>
+                                        <FlowPanel placement="bottom" halign="center" direction="horizontal" gap="20">
+                                            <Insets bottom="10" top="10" />
+                                            <Children>
+                                                <TextButton id="btn_extra">
+                                                    <Text key="button/store" textTransform="toUpper" />
+                                                    <TextFrame value="false"/>
+                                                </TextButton>
+                                                <TextButton id="btn_close">
+                                                    <Text key="button/continue" textTransform="toUpper"/>
+                                                    <TextFrame value="false"/>
+                                                </TextButton>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </DockPanel>
+                            </Content>
+                        </FrameView>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

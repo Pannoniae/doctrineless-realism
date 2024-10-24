@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <DialogRef refid="gui_background" shared="true"/>
+                <FrameView resource="/interface/skin/game/frame/bkg" header="true"/>
+                <DockPanel>
+                    <Children>
+                        <DialogRef resource="components/PageHeader.xml" placement="top"/>
+                        <StackPanel placement="center">
+                            <Insets left="28" right="28" bottom="28"/>
+                            <Children>
+                                <PercentPanel stretch="true" direction="horizontal" gap="8">
+                                    <MaxSize x="2184" y="1300" />
+                                    <Children>
+                                        <FramedTabPanel id="main_tabs" percent="0.5" resource="/interface/skin/game/frame/window_misc">
+                                            <Tab id="mods" titleKey="main_menu2/mods" >
+                                                <DialogRef refid="gui_mod_manager" shared="true" />
+                                            </Tab>
+<!--   tips window                                         <Tab titleKey="main_menu2/tips">-->
+<!--                                                <DialogRef refid="gui_tips_dialog"/>-->
+<!--                                            </Tab>-->
+                                            <Tab titleKey="main_menu2/library">
+                                                <DialogRef refid="gui_library"/>
+                                            </Tab>
+<!--                                            <Tab titleKey="main_menu2/replays">-->
+<!--                                                <DialogRef refid="gui_replays_dialog"/>-->
+<!--                                            </Tab>-->
+                                            <Tab id="leaderboard" titleKey="main_menu2/leaderboard">
+                                                <DialogRef resource="views/LeaderboardsTabView.xml" />
+                                            </Tab>
+<!--                                            <Tab titleKey="main_menu2/tutorials">-->
+<!--                                                <DialogRef refid="gui_tutorials_dialog"/>-->
+<!--                                            </Tab>-->
+                                        </FramedTabPanel>
+                                        <!-- <PercentPanel percent="0.5" stretch="true" gap="8">
+                                              <Children>
+                                              <DockPanel percent="1" vgap="8">
+                                                  <Children>
+                                                      <PictureDialog resource="/map/single/header" zoomMode="fit" centerX="true" centerY="true" placement="center">
+                                                          <PreferredSize x="650" y="650" />
+                                                          <Ables mouse="false"/>
+                                                      </PictureDialog>
+                                                  </Children>
+                                              </DockPanel>
+                                             <PercentPanel percent="0.3" gap="4" direction="horizontal">
+                                                 <Children>
+                                                     <DialogRef resource="components/MenuFriends.xml" percent="0.65" />
+                                                     <DialogRef resource="components/MenuParty.xml" percent="0.35">
+                                                         <MaxSize x="320" />
+                                                     </DialogRef>
+                                                 </Children>
+                                             </PercentPanel>
+                                         </Children>
+                                         </PercentPanel>-->
+                                    </Children>
+                                </PercentPanel>
+                            </Children>
+                        </StackPanel>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

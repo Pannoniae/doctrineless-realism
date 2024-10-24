@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1"
+        skin="main_menu_dark_skin_small">
+    <Content>
+        <StackPanel>
+            <Children>
+                <FrameView resource="/interface/skin/game/frame/window"/>
+                <DockPanel hgap="5">
+                    <Insets all="10"/>
+                    <Children>
+                        <FlowPanel direction="vertical" placement="left" valign="top" justify="false">
+                            <Children>
+                                <StackPanel id="item_icon_area">
+                                    <MinSize x="128" y="128" />
+                                    <MaxSize x="128" y="128" />
+                                </StackPanel>
+                            </Children>
+                        </FlowPanel>
+                        <DockPanel placement="center" vgap="5">
+                            <Insets top="9"/>
+                            <Children>
+                                <FlowPanel direction="horizontal" valign="top" placement="top">
+                                    <Children>
+                                        <StaticText id="mod_item_title">
+                                            <Text value="Mod title" />
+                                            <TextStyle value="s(18)c(d29c4f)m(u)e(shadow)"/>
+                                        </StaticText>
+                                    </Children>
+                                </FlowPanel>
+                                <FlowPanel direction="vertical" halign="stretch" placement="center" gap="5">
+                                    <Children>
+                                        <StackPanel>
+                                            <Children>
+                                                <StaticText id="mod_item_description">
+                                                    <Text value="Description" />
+                                                    <TextStyle value="c(acacac)e(shadow)"/>
+                                                </StaticText>
+                                            </Children>
+                                        </StackPanel>
+                                        <FlowPanel direction="vertical" halign="left" id="item_props_area" justify="false">
+                                            <Insets top="15"/>
+                                            <Children>
+                                                <StaticText>
+                                                    <Text value="PROPS title" />
+                                                    <TextStyle value="c(3c3c3c)"/>
+                                                </StaticText>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </FlowPanel>
+                                <StackPanel placement="bottom">
+                                    <Children>
+                                        <FlowPanel direction="horizontal" valign="center">
+                                            <Insets all="5"/>
+                                            <Children>
+                                                <StaticText id="mod_item_status">
+                                                    <Visible value="false" />
+                                                    <Text value="warning message" />
+                                                </StaticText>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </StackPanel>
+                            </Children>
+                        </DockPanel>
+                        <FlowPanel placement="right" direction="horizontal" halign="right">
+                            <PreferredSize x="150" />
+                            <Children>
+                                <FlowPanel direction="vertical" valign="top" id="item_actions_area" gap="1" justify="false" halign="right">
+                                    <Insets top="5" />
+                                </FlowPanel>
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </DockPanel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

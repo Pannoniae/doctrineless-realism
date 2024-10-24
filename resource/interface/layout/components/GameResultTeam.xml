@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+        <FlowPanel direction="vertical" halign="stretch" gap="3">
+            <Children>
+                <StackPanel>
+                    <Children>
+                        <PictureDialog resource="/interface/pages/main/load_gradient_team" zoomMode="stretch">
+                            <Ables mouse="false"/>
+                            <PreferredSize y="40"/>
+                        </PictureDialog>
+                        <DockPanel hgap="3">
+                            <Insets right="30"/>
+                            <Children>
+                                <StackPanel placement="center">
+                                    <Children>
+                                        <FlowPanel direction="horizontal" valign="stretch" halign="stretch">
+<!--                                            <PreferredSize y="120"/>-->
+                                            <Children>
+                                                <PictureDialog id="flag" zoomMode="fill">
+                                                    <Ables mouse="false"/>
+                                                </PictureDialog>
+                                            </Children>
+                                        </FlowPanel>
+                                        <FlowPanel valign="center" halign="stretch">
+                                            <Insets left="60"/>
+                                            <Children>
+                                                <StaticText id="name">
+                                                    <Ables mouse="true"/>
+                                                    <TextStyle value="s(27)f(pobeda)b"/>
+                                                    <TextClip value="true" showHint="true"/>
+                                                </StaticText>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </StackPanel>
+                                <FlowPanel direction="horizontal" valign="center" placement="right" gap="3">
+                                    <Insets right="3"/>
+                                    <Children>
+                                        <StaticText id="score">
+                                            <PreferredSize x="130"/>
+                                            <TextStyle value="x.s(12)"/>
+                                        </StaticText>
+                                        <StaticText id="man">
+                                            <PreferredSize x="130"/>
+                                            <TextStyle value="x.s(12)"/>
+                                        </StaticText>
+                                        <StaticText id="veh">
+                                            <PreferredSize x="130"/>
+                                            <TextStyle value="x.s(12)"/>
+                                        </StaticText>
+                                        <StackPanel>
+                                            <PreferredSize x="176"/>
+                                        </StackPanel>
+                                    </Children>
+                                </FlowPanel>
+                            </Children>
+                        </DockPanel>
+                    </Children>
+                </StackPanel>
+                <FlowPanel direction="vertical" halign="stretch">
+                    <Insets left="10" right="30"/>
+                    <Children>
+                        <FlowPanel id="players" direction="vertical" halign="stretch"/>
+                    </Children>
+                </FlowPanel>
+            </Children>
+        </FlowPanel>
+    </Content>
+</Layout>

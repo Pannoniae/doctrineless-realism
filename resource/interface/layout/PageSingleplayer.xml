@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<StackPanel>
+			<Children>
+				<DialogRef refid="gui_background" shared="true"/>
+				<FrameView resource="/interface/skin/game/frame/bkg" header="true"/>
+				<DockPanel>
+					<Children>
+						<PercentPanel  direction="horizontal" placement="bottom">
+							<MaxSize x="2184" y="1300" />
+							<Children>
+								<FlowPanel placement="left" halign="left" valign="bottom" justify="false">
+									<Insets bottom="25" left="25"/>
+									<Children>
+										<BackgroundPanel backgroundResource="/interface/skin/game/frame/window_single/halo_bkg_line" placement="center" zoomMode="stretch"/>
+										<DialogRef resource="components/MenuUserProfile.xml">
+											<MinSize x="270" y="64"/>
+											<MaxSize x="270" y="64"/>
+										</DialogRef>
+									</Children>
+								</FlowPanel>
+							</Children>
+						</PercentPanel>
+						<DialogRef resource="components/PageHeader.xml" placement="top"/>
+						<StackPanel placement="center">
+							<Insets left="28" right="28"  bottom="28"/>
+							<Children>
+								<PercentPanel stretch="true" direction="horizontal" gap="8">
+									<MaxSize x="2184" y="1300" />
+									<Children>
+										<FrameView percent="0.55" resource="/interface/skin/game/frame/window_single" header="true">
+											<HeaderContent>
+												<DockPanel>
+													<Insets left="25"/>
+													<Children>
+														<FlowPanel valign="center" placement="center">
+															<Children>
+																<DialogRef refid="gui_breadcrumbs" shared="true"/>
+															</Children>
+														</FlowPanel>
+													</Children>
+												</DockPanel>
+											</HeaderContent>
+											<Content>
+												<PercentPanel>
+													<Children>
+														<StackPanel percent="0.01" placement="bottom">
+															<Children>
+															</Children>
+														</StackPanel>
+														<DockPanel percent="0.715">
+															<Children>
+																<DockPanel placement="bottom">
+																	<Children>
+																		<StackPanel placement="center">
+																			<Children>
+																			</Children>
+																		</StackPanel>
+																	</Children>
+																</DockPanel>
+																<StackPanel id="single_player_menu_content" placement="center"/>
+																<FlowPanel placement="bottom" halign="stretch" id="single_player_settings_panel" gap="5">
+																	<Visible value="false"/>
+																	<Enable value="false"/>
+																	<Insets bottom="25" left="55" right="55"/>
+																	<Children>
+																		<!-- <FlowPanel valign="bottom" halign="stretch" placement="bottom">
+																			<Children>
+																				<FrameView id="rating_frame" resource="/interface/skin/game/frame/window_single">
+																					<Visible value="false"/>
+																					<Content>
+																						<DialogRef refid="rating_dialog" id="rating"/>
+																					</Content>
+																				</FrameView>
+																			</Children>
+																		</FlowPanel> -->
+																		<FlowPanel halign="center">
+																			<Children>
+																				<StaticText>
+																					<Text key="main_menu2/singleplayer/select_difficulty"/>
+																				</StaticText>
+																			</Children>
+																		</FlowPanel>
+																		<BackgroundPanel backgroundResource="/interface/skin/game/frame/window_single/halo_bkg_line" placement="center" zoomMode="stretch" >
+																			<Insets top="8" bottom="8" left="12" right="12"/>
+																			<Children>
+																		        <FlowPanel id="single_player_menu_difficulty" halign="center" valign="center"/>
+																		    </Children>
+																		</BackgroundPanel>
+																		<FlowPanel halign="center" valign="center" direction="vertical" gap="5" justify="false">
+																			<Children>
+																				<CheckBox id="single_player_fog_of_war" skin="main_menu_dark_skin_small" centerY="true" >
+																					<Text key="main_menu2/singleplayer/fog_of_war"/>
+																					<Hint key="mp/lobby/setup/settings.fogofwar#hint"/>
+																					<Sound value="gui/ui_click" />
+																				</CheckBox>
+																			</Children>
+																		</FlowPanel>
+																	</Children>
+																</FlowPanel>
+															</Children>
+														</DockPanel>
+													</Children>
+												</PercentPanel>
+											</Content>
+										</FrameView>
+<!--										banner image for load game-->
+										<StackPanel percent="0" placement="bottom" >
+											<Children>
+												<PictureDialog id="banner" resource="" zoomMode="fill"/>
+											</Children>
+										</StackPanel>
+<!--										banner image for load game-->
+										<PercentPanel percent="0.5" placement="center" direction="vertical" gap="4" stretch="false">
+											<Children>
+												<PercentPanel percent="0.60" >
+													<MaxSize x="650" y="900" />
+													<Insets all="15"/>
+														<Children>
+															<!-- <StaticText >
+																<Text key="main_menu2/singleplayer/declare_difficulty"/>
+															</StaticText> -->
+															<FrameView id="rating_frame" resource="/interface/skin/game/frame/window_single">
+																<Visible value="false"/>
+																<Content>
+																	<DialogRef refid="rating_dialog" id="rating"/>
+																</Content>
+															</FrameView>
+														</Children>
+												</PercentPanel>
+												<PercentPanel percent="0.50" >
+													<MaxSize x="650" />
+													<Insets all="5"/>
+													<Children>
+														<PictureDialog id="banner" placement="center" zoomMode="fit" centerX="true" centerY="true">
+														<Ables mouse="false"/>
+														</PictureDialog>						
+													</Children>
+												</PercentPanel>
+												<PercentPanel percent="0.40" >
+													<MaxSize x="650" y="900" />
+													<Insets all="15"/>
+													<Children>
+														<PictureDialog id="minimap_preview" placement="center" zoomMode="fit" centerX="true" centerY="true" opacity="0.6"/>
+													</Children>
+												</PercentPanel>
+											</Children>
+										</PercentPanel>
+									</Children>
+								</PercentPanel>
+							</Children>
+						</StackPanel>
+
+					</Children>
+				</DockPanel>
+			</Children>
+		</StackPanel>
+	</Content>
+</Layout>

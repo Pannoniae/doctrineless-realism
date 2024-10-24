@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+	<Content>
+		<FlowPanel gap="10" halign="center" valign="top">
+			<Insets bottom="20" left="10" right="10" top="20"/>
+			<Children>
+				<FlowPanel halign="center" valign="center">
+					<Children>
+						<StaticText id="stTitle"/>
+					</Children>
+				</FlowPanel>
+				<FlowPanel halign="center" valign="center">
+					<Children>
+						<StaticText id="stKey"/>
+					</Children>
+				</FlowPanel>
+				<FlowPanel id="pnlModifiers" valign="center" halign="center">
+					<Children>
+						<GridPanel cols="4" rows="2">
+							<Children>
+								<CheckBox id="cbCtrl">
+									<Text key="options/keys/keymap/CTRL"/>
+									<Hint key="options/keys/with_ctrl"/>
+								</CheckBox>
+								<CheckBox id="cbAlt">
+									<Text key="options/keys/keymap/ALT"/>
+									<Hint key="options/keys/with_alt"/>
+								</CheckBox>
+								<CheckBox id="cbShift">
+									<Text key="options/keys/keymap/SHIFT"/>
+									<Hint key="options/keys/with_shift"/>
+								</CheckBox>
+								<CheckBox id="cbDouble">
+									<Text key="options/keys/keymap/DOUBLE"/>
+									<Hint key="options/keys/with_double"/>
+								</CheckBox>
+								<CheckBox id="cbNoCtrl">
+									<Text key="options/keys/keymap/~CTRL"/>
+									<Hint key="options/keys/with_noctrl"/>
+								</CheckBox>
+								<CheckBox id="cbNoAlt">
+									<Text key="options/keys/keymap/~ALT"/>
+									<Hint key="options/keys/with_noalt"/>
+								</CheckBox>
+								<CheckBox id="cbNoShift">
+									<Text key="options/keys/keymap/~SHIFT"/>
+									<Hint key="options/keys/with_noshift"/>
+								</CheckBox>
+								<CheckBox id="cbNoDouble">
+									<Text key="options/keys/keymap/~DOUBLE"/>
+									<Hint key="options/keys/with_nodouble"/>
+								</CheckBox>
+							</Children>
+						</GridPanel>
+					</Children>
+				</FlowPanel>
+				<FlowPanel id="pnlMouse" valign="center" halign="center">
+					<Children>
+						<GridPanel cols="2" rows="1">
+							<Children>
+								<CheckBox id="cbLMB">
+									<Text key="options/keys/keymap/MOUSE_LEFT"/>
+									<Hint key="options/keys/mouse_left"/>
+								</CheckBox>
+								<CheckBox id="cbRMB">
+									<Text key="options/keys/keymap/MOUSE_RIGHT"/>
+									<Hint key="options/keys/mouse_right"/>
+								</CheckBox>
+							</Children>
+						</GridPanel>
+					</Children>
+				</FlowPanel>
+			</Children>
+		</FlowPanel>
+	</Content>
+</Layout>
