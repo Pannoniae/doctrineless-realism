@@ -794,10 +794,7 @@
 			{bone "trackl"
 				{parameters "id=trackleft;"}
 				{Position -0.0537 	 0.0295 	 11.8892}
-				{LODView
-					{VolumeView "trackl.ply"}
-					{VolumeView "trackl_lod1.ply"}
-				}
+				{VolumeView "trackl.ply"}
 			}
 			{bone prizmatic "suspension_l1"
 				{limits -0.05 0.05}

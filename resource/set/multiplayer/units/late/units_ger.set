@@ -757,6 +757,10 @@
 	("vehicle"  period(late) year(late) cd(30) ci(0) g(wheel1) side(ger) t(vehicle) crew(mgun_2:2) b(supply) cw(1) cp(2)
 	cost(55))
 }
+{"kubelwagen_mg42"
+	("vehicle"  period(late) year(late) cd(30) ci(0) g(wheel1) side(ger) t(vehicle) crew(mgun_2:2) b(supply) cw(1) cp(2)
+	cost(80))
+}
 {"blitz3_6"
 	("vehicle"  period(late) year(late) cd(30) ci(0) g(wheel2) side(ger) t(vehicle) crew(rifleman_1:1) b(supply) cw(1) cp(2)
 	cost(25))

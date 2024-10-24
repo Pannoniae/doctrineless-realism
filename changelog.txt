@@ -1,12 +1,3 @@
-Into the Fire 0.3.4:
- - Fix a missing skill (avoidance lvl_2)
- - Integrate Panzer Connect into the mod.
- - Add the Bergetiger as a towing vehicle.
- - Add the T-34 supply tractor.
- - Add the T-34 tractor as a towing vehicle.
- - Decreased mortar accuracy at long ranges.
- - Increased flamethrower prices.
- - Equalised flamethrower ranges.
- - Fixed the MG texture on the Super Hellcat.
- - Added the map Arad (RobZ)
- - UI changes. (Thanks BBQ!)
+Into the Fire 0.3.5:
+ - Fix a crash with the Finnish FT-17.
+ - Fix KV-1 gun elevation (not being able to fire max. range)
