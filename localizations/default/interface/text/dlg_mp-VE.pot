@@ -1,0 +1,93 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Call to Arms (dlg_mp)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 3.0\n"
+
+msgctxt "mp/presets/unit/latef"
+msgid "Late (1943-45)"
+msgstr ""
+
+msgctxt "mp/presets/unit/midf"
+msgid "Mid (1941-43)"
+msgstr ""
+
+msgctxt "mp/presets/unit/earlyf"
+msgid "Early (1939-41)"
+msgstr ""
+
+msgctxt "mp/army/+germany"
+msgid "Germany [HVE]"
+msgstr ""
+
+msgctxt "mp/army/+ussr"
+msgid "USSR [HVE]"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_4v4"
+msgid "4v4"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_5v5"
+msgid "5v5"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_6v6"
+msgid "6v6"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_7v7"
+msgid "7v7"
+msgstr ""
+
+msgctxt "mp/presets/spec/cp_8v8"
+msgid "8v8"
+msgstr ""
+
+msgctxt "mp/army/+usa"
+msgid "USA [HVE]"
+msgstr ""
+
+msgctxt "mp/army/+finland"
+msgid "Finland [HVE]"
+msgstr ""
+
+msgctxt "mp/game/frontline"
+msgid "Frontline"
+msgstr ""
+
+msgctxt "mp/game/frontline/info"
+msgid "<c(ffffff)>\nDefend as <c(ff6a00)>A team</c> or attack as <c(ff6a00)>B team.</c> \nRepelling attacks or capturing flags will lead you to victory!</c>"
+msgstr ""
+
+msgctxt "mp/game/frontline/objective"
+msgid ""
+"Capture or defend the lines of defences marked by flags. Both eliminating enemy "
+"troops and dominating most of the strategic positions will take you to "
+"victory!"
+msgstr ""
+
+msgctxt "mp/gs/stats/ri_top_frontline"
+msgid "Frontline"
+msgstr ""
+
+msgctxt "mp/settings/team_defenders"
+msgid "Defenders"
+msgstr ""
+
+msgctxt "mp/settings/team_attackers"
+msgid "Attackers"
+msgstr ""
+
+msgctxt "mp/lobby2/teams"
+msgid "Top team    - Defenders \nBottom team - Attackers"
+msgstr ""

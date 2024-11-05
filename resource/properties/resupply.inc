@@ -75,6 +75,7 @@
 ;// rifle
 	{item "atrifle_rus"				"ammo" 5  {value 5}}
 	{item "rifle_rus" "clip"		"ammo" 10 {value 1}}
+	{item "6mm_arisaka"				"ammo" 10 {value 1}}
 	{item "rifle_rus" "svt"			"ammo" 10 {value 1}}
 	{item "shotgun"					"ammo" 10 {value 1}}
 
@@ -252,6 +253,7 @@
 )
 
 (define "items_heavy_ger"
+	{item "borgward"			"450kg"		"ammo"	1 {value 350}}
 	{item "bullet_20_auto"		"aphe"		"ammo" 20 {value 5}}
 
 	{item "bulletger_15_auto"	"ap"		"ammo" 20 {value 5}}
@@ -333,6 +335,9 @@
 	{item "bulletger_88_l71"	"heat"		"ammo" 1 {value 10}}
 
 	{item "bulletger_105"		"aphe"		"ammo" 1 {value 5}}
+	{item "bulletger_105_late"	"apcbche"	"ammo" 1 {value 5}}
+	{item "bulletger_105_late"	"heat"		"ammo" 1 {value 10}}
+	{item "bulletger_105_late"	"he"		"ammo" 1 {value 15}}
 	{item "bulletger_105"		"he"		"ammo" 1 {value 15}}
 	{item "bulletger_105"		"he2"		"ammo" 1 {value 5}}
 	{item "bulletger_105"		"heat"		"ammo" 1 {value 10}}
@@ -381,6 +386,9 @@
 	{item "bulletrus_37"		"aphe"		"ammo" 2 {value 5}}
 	{item "bulletrus_37"		"he"		"ammo" 2 {value 5}}
 
+	{item "bullet_37x94"	"rus"	"aphe"		"ammo" 2 {value 5}}
+	{item "bullet_37x94"	"rus"	"he"		"ammo" 2 {value 5}}
+
 	{item "bulletrus_45"		"aphebc"	"ammo" 2 {value 5}}
 	{item "bulletrus_45"		"apcr"		"ammo" 1 {value 10}}
 	{item "bulletrus_45"		"he"		"ammo" 2 {value 5}}
@@ -411,6 +419,8 @@
 
 	{item "bullet_107x442" "rus" "apcbche"	"ammo" 1 {value 5}}
 	{item "bullet_107x442" "rus" "he"		"ammo" 1 {value 15}}
+	{item "bullet_107x442" "rus" "ic"		"ammo" 1 {value 15}}
+	{item "bullet_107x442" "rus" "sm"		"ammo" 1 {value 15}}
 
 	{item "bullet_122x159" "rus" "he"		"ammo" 1 {value 25}}
 	{item "bullet_122x159" "rus" "wp"		"ammo" 1 {value 15}}
@@ -568,6 +578,7 @@
 	{item "114mm_m8"						"ammo" 1 {value 8}} ;// 60 rockets costs 480 per salvo
 	{item "127mm_hvar" "aphe"				"ammo" 1 {value 25}}
 	{item "127mm_hvar" "he"					"ammo" 1 {value 25}}
+	{item "no1_demolition_bomb" "he"		"ammo" 1 {value 25}}
 )
 
 (define "items_heavy_eng"
@@ -587,6 +598,7 @@
 	{item "bulleteng_114"		"he"		"ammo" 1 {value 10}}
 
 	{item "50mm_rocket_grapnel"				"ammo" 1 {value 10}}
+	{item "bullet290" "he" "ammo"  1 {value 30}}
 )
 
 (define "items_heavy_generic"
@@ -649,10 +661,10 @@
 		{resupply
 			("items_medic")
 		}
-		{radius 			5}		;// resupply radius in meter
+		{radius 			10}		;// resupply radius in meter
 		{resupplyPeriod 	1}		;// resupply period in seconds
 		{regenerationPeriod 2}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
-		{limit 				50}		;// max number of resupplies (0 = unlimited)
+		{limit 				100}		;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
@@ -679,7 +691,7 @@
 			("items_heavy_fin")
 			("items_heavy_usa")
 		}
-		{radius				10}		;// resupply radius in meter
+		{radius				15}		;// resupply radius in meter
 		{resupplyPeriod		2}		;// resupply period in seconds
 		{regenerationPeriod 10}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				%supply}	;// max number of resupplies (0 = unlimited)
@@ -817,9 +829,9 @@
 			("items_heavy_fin")
 			("items_heavy_usa")
 		}
-		{radius 			12}			;// resupply radius in meter
+		{radius 			15}			;// resupply radius in meter
 		{resupplyPeriod 	2}			;// resupply period in seconds
-		{regenerationPeriod 10}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 5}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				1750}		;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
@@ -846,9 +858,9 @@
 			("items_heavy_fin")
 			("items_heavy_usa")
 		}
-		{radius 			12}			;// resupply radius in meter
+		{radius 			15}			;// resupply radius in meter
 		{resupplyPeriod 	2}			;// resupply period in seconds
-		{regenerationPeriod 10}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{regenerationPeriod 5}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				1000}		;// max number of resupplies (0 = unlimited)
 	}
 	{DecalView supply_zone
@@ -875,7 +887,7 @@
 			("items_heavy_fin")
 			("items_heavy_usa")
 		}
-		{radius 			12}			;// resupply radius in meter
+		{radius 			15}			;// resupply radius in meter
 		{resupplyPeriod 	2}			;// resupply period in seconds
 		{regenerationPeriod 5}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				2000}		;// max number of resupplies (0 = unlimited)
@@ -895,7 +907,7 @@
 		{resupply
 			{item "flame_thrower" "ammo" 50 {value 1}}
 		}
-		{radius 			12}			;// resupply radius in meter
+		{radius 			15}			;// resupply radius in meter
 		{resupplyPeriod 	1}			;// resupply period in seconds
 		{regenerationPeriod 0}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				%liters}	;// max number of resupplies (0 = unlimited)
@@ -916,7 +928,7 @@
 			("items_explosives")
 		}
 		{mechanicResources {amount 10}{value 10}}
-		{radius 			12}			;// resupply radius in meter
+		{radius 			15}			;// resupply radius in meter
 		{resupplyPeriod 	2}			;// resupply period in seconds
 		{regenerationPeriod 0}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				200}		;// max number of resupplies (0 = unlimited)
@@ -937,7 +949,7 @@
 			("items_explosives")
 		}
 		{mechanicResources {amount 10}{value 10}}
-		{radius 			12}			;// resupply radius in meter
+		{radius 			15}			;// resupply radius in meter
 		{resupplyPeriod 	2}			;// resupply period in seconds
 		{regenerationPeriod 0}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				500}		;// max number of resupplies (0 = unlimited)

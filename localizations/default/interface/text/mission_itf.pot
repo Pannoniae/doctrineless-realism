@@ -24,3 +24,7 @@ msgstr ""
 msgctxt "mission/multi/3v3_arad/name"
 msgid "Arad <c(2eff4c)>[GSM]"
 msgstr ""
+
+msgctxt "mission/multi/3v3_january/name"
+msgid "Stalingrad 9th of January Square <c(ffee4c)>[Jors]"
+msgstr ""

@@ -1,0 +1,6 @@
+{state
+	{ForPick	"pickup-hand"}
+	{ForMount	"inventory-pick-stand"}
+	{ForUnmount	"inventory-drop"}
+	{ForHold	"hold-bazooka"}
+}

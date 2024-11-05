@@ -48,4 +48,10 @@
 	(include "construction/burning.inc")
 	(include "construction/bridge.inc")
 	(include "construction/placement.inc")
+	
+	(include "tank/entity-VE.inc")
+	(include "tank/script-VE.inc")
+;//	(include "minimap_icons-VE.inc")
+;//	(include "reliability-VE.inc")
+	(include "shells-VE.inc")
 }

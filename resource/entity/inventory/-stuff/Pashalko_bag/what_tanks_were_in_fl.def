@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "secret_doc_bag3.mdl"}
+	{extender "stuff"
+		{item "what_tanks_were_in_fl"}
+	}
+	{volume "body"
+		{thickness 1}
+	}
+}

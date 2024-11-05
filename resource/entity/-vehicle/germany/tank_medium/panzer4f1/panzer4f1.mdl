@@ -24,14 +24,6 @@
 			}
 			{Position -1.3082 	 -0.4508 	 18.4907}
 			{VolumeView "body.ply"}
-			{bone "link1"
-				{matrix34					
-					0 	 0 	 1
-					0 	 1	 0
-					1 	 0 	 0
-					-80.0000 	 0 	 0
-				}
-			}	
 			{bone revolute "turret"
 				{parameters "id=turret;"}
 				{animation
@@ -259,6 +251,7 @@
 					0 	 1 	 0
 					27.7134 	 -23.2329 	 -0.3092
 				}
+				
 				{VolumeView "wheelr10.ply"}
 			}
 			{bone revolute "wheelr1"
@@ -541,7 +534,9 @@
 						0 	 0 	 1
 						-1.5255 	 4.1978 	 4.981
 					}
-					{VolumeView "trackl.ply"}
+					{LODView
+						{VolumeView "trackl.ply"}
+					}
 				}
 				{bone prizmatic "suspension_l2"
 					{limits -0.04 0.04}
@@ -695,7 +690,9 @@
 						0 	 0 	 1
 						-1.5038 	 -4.117 	 4.9795
 					}
-					{VolumeView "trackr.ply"}
+					{LODView
+						{VolumeView "trackr.ply"}
+					}
 				}
 				{bone prizmatic "suspension_r2"
 					{limits -0.04 0.04}
@@ -1205,4 +1202,3 @@
 	{bone "turret"}
 	{Position -1.3409 	 -0.0099 	 0.0338}
 }
-{props "trailer" "trailer_heavy"}

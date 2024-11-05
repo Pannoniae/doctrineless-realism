@@ -4,5 +4,6 @@
 
 
 {from "150mm_sig33"			; L/11 "sig33b"
-
+	{fireSoundClose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
 }

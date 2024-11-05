@@ -869,6 +869,14 @@ msgctxt "info/special/stalinetz60"
 msgid "<c(c3baae)>Tractor</c>"
 msgstr ""
 
+msgctxt "desc/entity/stalinetz60_fin"
+msgid "Stalinets-60"
+msgstr ""
+
+msgctxt "info/special/stalinetz60_fin"
+msgid "<c(c3baae)>Tractor</c>"
+msgstr ""
+
 msgctxt "desc/entity/su26"
 msgid "SU-26"
 msgstr ""
@@ -1347,4 +1355,28 @@ msgstr ""
 
 msgctxt "info/special/rbt_5"
 msgid "<c(c3baae)>Light Rocket Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/ba64_dshk"
+msgid "BA-64D"
+msgstr ""
+
+msgctxt "info/special/ba64_dshk"
+msgid "<c(c3baae)>Armored Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/ba64_sg_43"
+msgid "BA-64 SG-43"
+msgstr ""
+
+msgctxt "info/special/ba64_sg_43"
+msgid "<c(c3baae)>Armored Car</c>"
+msgstr ""
+
+msgctxt "desc/entity/ba64_ptrs"
+msgid "BA-64 PTRS"
+msgstr ""
+
+msgctxt "info/special/ba64_ptrs"
+msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""

@@ -18,6 +18,7 @@
 	("armor health" damage(450))
 	("armor health custom" shell(aphe) damage(450) filler(660))
 	("armor health custom" shell(aphebc) damage(450) filler(480))
+	("armor health custom" shell(sr) damage(450) filler(480))
 	("152_rus_slope_multipliers")
 
 	; BR-540
@@ -28,10 +29,13 @@
 	("penetration_medium" shell(aphebc) range(200) a(140) b(134) c(127) d(120) e(113))  ;RHA
  ;//("penetration_medium" shell(aphebc) range(200) a(148) b(142) c(135) d(128) e(122))  ;FHA
 	
+	; Shrapnel
+	("penetration_medium" shell(sr) range(430) a(37) b(31) c(29) d(26) e(22)) ; Pen data for shrapnel shell 
+
 	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
 		r1(0.95) 				; // Accuracy radius for direct-fire munitions
 		r2(8) 					; // Accuracy radius for indirect fire
-		rmax(18) 				; // Accuracy radius for indirect fire at maximum range
+		rmax(26) 				; // Accuracy radius for indirect fire at maximum range
 		range_ap(200) 			; // Range after which accuracy drops to prevent farshooting.
 		range_heat(200) 		; // Range after which accuracy drops to prevent farshooting.
 		range_he(440)			; // Range after which accuracy drops to prevent farshooting.

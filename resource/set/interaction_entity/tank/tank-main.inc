@@ -335,7 +335,9 @@
 				{tags add "turret_stopped_by_body"}
 				{spawn "tank_die_particle" "body"}
 				{reset_manual_control}
-				{able select 0}			;// disables vehicle from being crewed until body is repaired
+				;{able select 0}			;// disables vehicle from being crewed until body is repaired
+				{call "deactivate_vehicle"}
+				{call "disable_all_seats"}
 				{unlink_trailer}
 			else component "engine"
 				{tags add "engine_brake"}
@@ -1597,14 +1599,30 @@
 		{if tagged "ammo_broken"
 			{blastwave c4 5 r0 2.5 r1 10 offset 0 0 75}
 			{blastwave c4 2 r0 10 r1 15 offset 0 0 75}
-			{spawn "tank_die_medium" "basis"}
-			("explosion_HE_s5")
-			{if terrain_fx "snow"
-				{spawn "tank_die_snow" "basis"}
-			else terrain_fx "ice"
-				{spawn "tank_die_snow" "basis"}
+			{if rand 0.93
+				{spawn "tank_die_medium" "basis"}
+				("explosion_HE_s5")
+				{if terrain_fx "snow"
+					{spawn "tank_die_snow" "basis"}
+				else terrain_fx "ice"
+					{spawn "tank_die_snow" "basis"}
+				else
+					{spawn "tank_die_dust" "basis"}
+				}
 			else
-				{spawn "tank_die_dust" "basis"}
+				{spawn "tank_die_heavy" "basis"}
+				{spawn "enormous_fire" "basis"}
+				{spawn "crater_massive" "basis"}
+				("explosion_HE_s6")
+				{call_synced "cut_parts"}
+				{delay 0.1{delete}}
+				{if terrain_fx "snow"
+					{spawn "tank_die_snow" "basis"}
+				else terrain_fx "ice"
+					{spawn "tank_die_snow" "basis"}
+				else
+					{spawn "tank_die_dust" "basis"}
+				}
 			}
 		else
 			{spawn "tank_die_peaceful" "basis"}
@@ -1718,14 +1736,30 @@
 		{if tagged "ammo_broken"
 			{blastwave c4 5 r0 2.5 r1 10 offset 0 0 75}
 			{blastwave c4 2 r0 10 r1 20 offset 0 0 75}
-			{spawn "tank_die_heavy" "basis"}
-			("explosion_HE_s6")
-			{if terrain_fx "snow"
-				{spawn "tank_die_snow" "basis"}
-			else terrain_fx "ice"
-				{spawn "tank_die_snow" "basis"}
-			else
-				{spawn "tank_die_dust" "basis"}
+			{if rand 0.89
+				{spawn "tank_die_heavy" "basis"}
+				("explosion_HE_s6")
+				{if terrain_fx "snow"
+					{spawn "tank_die_snow" "basis"}
+				else terrain_fx "ice"
+					{spawn "tank_die_snow" "basis"}
+				else
+					{spawn "tank_die_dust" "basis"}
+				}
+			else 
+				{spawn "tank_die_heavy" "basis"}
+				{spawn "enormous_fire" "basis"}
+				{spawn "crater_massive" "basis"}
+				("explosion_HE_s6")
+				{call_synced "cut_parts"}
+				{delay 0.1{delete}}
+				{if terrain_fx "snow"
+					{spawn "tank_die_snow" "basis"}
+				else terrain_fx "ice"
+					{spawn "tank_die_snow" "basis"}
+				else
+					{spawn "tank_die_dust" "basis"}
+				}
 			}
 		else
 			{spawn "tank_die_peaceful" "basis"}

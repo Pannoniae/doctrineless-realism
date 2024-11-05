@@ -27,14 +27,6 @@
 			}
 			{Position 0.2618 	 0 	 24.4381}
 			{VolumeView "body.ply"}
-			{bone "link1"
-				{matrix34					
-					0 	 0 	 1
-					0 	 1	 0
-					1 	 0 	 0
-					-80.0000 	 0 	 0
-				}
-			}
 			{bone "hull_hatch"
 				{parameters "id=body;"}
 				{Position 60.817 	 17.1707 	 13.5441}
@@ -895,6 +887,22 @@
 					-90.733 	 8.1094 	 7.767
 				}
 			}
+            {Bone "smokegenerator"
+                {Matrix34
+                    -0.9976	0	0.0698
+                    0	-1	0
+                    0.0698	0	0.9976
+                    -90.733	-18	7.767
+                }
+            }
+            {Bone "smokegenerator1"
+                {Matrix34
+                    -0.9976	0	0.0698
+                    0	-1	0
+                    0.0698	0	0.9976
+                    -90.733	18	7.767
+                }
+            }
 			{bone "sg_r"
 				{parameters "id=body;"}
 				{Position 21.3631 	 -29.4189 	 25.9329}
@@ -1808,4 +1816,3 @@
 		10.2082 	 -10.4993 	 6.6342
 	}
 }
-{props "trailer" "trailer_heavy"}

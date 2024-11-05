@@ -1,0 +1,10 @@
+{action
+	{able_vehicle}
+	{NotifySelect}
+	{button "engine_toggle"}
+	{instant
+		{if not props "rc_child"
+			{effect "engine_toggle"}
+		}
+	}
+}

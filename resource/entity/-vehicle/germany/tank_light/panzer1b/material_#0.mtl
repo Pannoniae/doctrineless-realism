@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "flamethrower35"}
+	{bump "flamethrower35_bp"}
+	{specular "flamethrower35_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -2,7 +2,7 @@
 	(include "/properties/tank.ext")
 	
 	(include "/properties/selection/vehicle.inc" scale(1.2))
-	{props "light" "turret_rotator" "vision_lev03" "muzzle_37mm_47mm" "diesel" "detect_tank_light"}
+	{props "light" "turret_rotator" "vision_lev03" "muzzle_37mm_47mm" "shield" "diesel" "detect_tank_light"}
 	{extension "bt7.mdl"}
 	(include "bt7.ext")
 	{targetclass "tank_light"}

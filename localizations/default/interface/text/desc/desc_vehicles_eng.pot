@@ -131,3 +131,76 @@ msgstr ""
 msgctxt "info/special/sherman5c"
 msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
+
+msgctxt "desc/entity/churchill_black_prince"
+msgid "Black Prince"
+msgstr ""
+
+msgctxt "info/special/churchill_black_prince"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/churchill_avre"
+msgid "Churchill AVRE"
+msgstr ""
+
+msgctxt "info/special/churchill_avre"
+msgid "<c(c3baae)>Self-Propelled Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/churchill_crocodile"
+msgid "Churchill Crocodile"
+msgstr ""
+
+msgctxt "info/special/churchill_crocodile"
+msgid "<c(c3baae)>Heavy Flame Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/churchill2"
+msgid "Churchill Mk.II"
+msgstr ""
+
+msgctxt "info/special/churchill2"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/churchill4"
+msgid "Churchill Mk.IV"
+msgstr ""
+
+msgctxt "info/special/churchill4"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/churchill_gun_carrier"
+msgid "Churchill Gun Carrier"
+msgstr ""
+
+msgctxt "info/special/churchill_gun_carrier"
+msgid "<c(c3baae)>Self-Propelled Gun</c>"
+msgstr ""
+
+msgctxt "desc/entity/churchill7"
+msgid "Churchill Mk.VII"
+msgstr ""
+
+msgctxt "info/special/churchill7"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/churchill8"
+msgid "Churchill Mk.VIII"
+msgstr ""
+
+msgctxt "info/special/churchill8"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+
+msgctxt "desc/entity/churchill9"
+msgid "Churchill Mk.IX"
+msgstr ""
+
+msgctxt "info/special/churchill9"
+msgid "<c(c3baae)>Heavy Tank</c>"
+msgstr ""
+

@@ -68,6 +68,10 @@ msgctxt "desc/weapon/30mm_mk103_2"
 msgid "3cm Flakzwilling 103/38"
 msgstr ""
 
+msgctxt "desc/weapon/30mm_flak103_38"
+msgid "3cm Flak 103/38"
+msgstr ""
+
 msgctxt "desc/weapon/37mm_flak37"
 msgid "3.7cm Flak 37 L/87"
 msgstr ""
@@ -585,11 +589,11 @@ msgid "Panzerfaust 150"
 msgstr ""
 
 msgctxt "desc/weapon/panzershreck_43"
-msgid "Panzerschreck RPZB 43"
+msgid "RPzB 43 'Panzerschreck'"
 msgstr ""
 
 msgctxt "desc/weapon/panzershreck_54"
-msgid "Panzerschreck RPZB 54"
+msgid "RPzB 54 'Panzerschreck'"
 msgstr ""
 
 msgctxt "desc/weapon/pzb_39"

@@ -1,0 +1,113 @@
+{game_entity
+	(include "/properties/tank.ext")
+	
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "light" "vision_lev03" "flame" "shield" "tractor" "tractor_light" "detect_tank_light" }
+	{extension "flammpanzer1.mdl"}
+	(include "flammpanzer1.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "panzer1"}
+	{collider "tank.light"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	("crew_driver" door(emit0) door2(emit2) door3(emit2))
+	("crew_human" place(commander)	door(emit2) door2(emit2) visor(main))
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_LowTank_left"} {base "open_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward {begin "board_LowTank_left"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_LowTank_left"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor"
+			{forward {begin "board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_lowArmor"} {end "seat_armor"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3) animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4) animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5) animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6) animation(armor1))
+
+	{sensor
+		{visor "main"
+			{bone "foresight14"}
+			{vision "tank_main_mg"}
+		}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{box
+			{item "ammo mgun_ger belt ap2" 900}	; 6 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+			{item "ammo flame_thrower" 250}
+		}
+	}
+
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "fmw_35_pz1" filled}
+			{foresight "foresight1"}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_dymamic"
+				zeroing(2.0)
+				dispersion(0.15)
+			)
+		}
+		{place "mgun1"
+			{type "coaxial"}
+			{weapon "mg34_tank" filling "ammo mgun_ger belt ap2" 150}
+			{foresight "foresight15"}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 5800}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.43))
+		("mobility_tank"
+			speed(40) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(6) ;---------Max speed in reverse on road, km/h.
+			traverse(32) ;-------Track traverse, per second, in degrees.
+			weight(5.8) ;--------Weight in Tonnes.
+			power(100) ;---------Engine Power, in hp.
+			track(4) ;-----------Track performance: (0,10), 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(146) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(115) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -10 20}
+		{speed2 20}
+	}
+	{bone "turret"
+		{speed2 20}
+	}
+}

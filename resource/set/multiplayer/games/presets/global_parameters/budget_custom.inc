@@ -12,7 +12,7 @@
 			}
 			{limitmin	10}
 			{limitmax	500000}
-			{speedset	"2000 2500 3000 3500 4000 4500 5000 6000 10000"}
+			{speedset	"3000 4000 6000 8000 10000 12000 16000 20000 24000"}
 		}
 		{buttons "squad single supply support art lt mt ht td"}
 	}

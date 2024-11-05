@@ -16,7 +16,7 @@
 	("velocity m/s" ap(853) apcr(1151) he(820) heat(1))
 	("armor health" damage(150))
 	("armor health custom" shell(apcbche) damage(150) filler(32))
-	("57_slope_multipliers")
+	("57_eng_slope_multipliers")
 
 	; AP shot Mk.IT - VIIT ;1941
 	("penetration_medium" shell(ap) range(190) a(128) b(105) c(83) d(65) e(51))  ;RHA

@@ -474,6 +474,7 @@
 ("squad_with1types" side(usa) name(single_at_miner)		period(late) year(late) cd(0)   ci(0)  g(single_atmine) c1(engineer_mine_at:2)				b(single) t(engineer))
 ("squad_with1types" side(usa) name(single_engineer)		period(late) year(late) cd(0)   ci(0)  g(single_eng) c1(engineer_builder:2) 					b(single) t(engineer))
 ("squad_with1types" side(usa) name(single_flamer)		period(late) year(late) cd(0)   ci(60)  g(single_flamer) c1(engineer_flamer:1) 				b(single) t(flamer))
+("squad_with1types_man" side(usa) name(single_support)		period(late) year(late) cd(90) ci(0) g(single_crew)		c1(artilleryman:5)					b(single) t() cost(45))
 ("squad_with2types" side(usa) name(single_tankman)		period(late) year(late) cd(150) ci(0) g(single_crew) c1(tank_commander:1) c2(tankman:4)		b(single) t())
 ("squad_with1types" side(usa) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic) c1(medic:2)							b(single) t(medic))
 ("squad_with1types" side(usa) name(single_sniper)		period(late) year(late) cd(120) ci(180) g(single_sniper) c1(rifle_sniper:1) 					b(single) t(sniper))
@@ -885,6 +886,10 @@
 	("vehicle2" period(late) year(late) cd(720) ci(10) t(light) side(usa) crew1(tankman_m1:4) crew2(tank_com_m1:1) g(spg1) b(td) cw(4) cp(20)
 	cost(500)) ;// +30 for crew
 }
+{"churchill3_avre"
+	("vehicle2" period(late) year(late) cd(800) ci(10) t(medium) side(usa) crew1(tankman_m3:4) crew2(tank_com_m3:1) g(medium13) b(td) cw(6) cp(20)
+	cost(950)) ;// +30 for crew
+}
 {"m36_gmc_late"
 	("vehicle2" period(late) year(late) cd(1200) ci(10) t(medium) side(usa) crew1(tankman_m1:4) crew2(tank_com_m1:1) g(spg3) b(td) cw(6) cp(26)
 	cost(900)) ;// +30 for crew
@@ -894,7 +899,7 @@
 ;	cost(950)) ;// +30 for crew
 ;}
 {"sherman5c"
-	("vehicle2" period(late) year(late) cd(1320) ci(10) t(medium) side(usa) crew1(tankman_m1:4) crew2(tank_com_m1:1) g(spg5) b(td) cw(6) cp(26)
+	("vehicle2" period(late) year(late) cd(1320) ci(10) t(medium) side(usa) crew1(tankman_m1:3) crew2(tank_com_m1:1) g(spg5) b(td) cw(6) cp(26)
 	cost(900)) ;// +30 for crew
 }
 {"m36b1_gmc_t33"

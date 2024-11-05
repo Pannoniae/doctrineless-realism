@@ -9,6 +9,8 @@
 (define "fortification"
 	{barricade
 		{"fortifications" "foxhole"}
+		{"fortifications" "barricade_sq"}
+		{"fortifications" "barricade"}
 		{"fortifications" "medic_rally"}
 	}
 	{"resources" "10%"}

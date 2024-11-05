@@ -618,6 +618,10 @@ msgctxt "desc/squad/single_tankman(usa)"
 msgid "Tank Crew"
 msgstr ""
 
+msgctxt "desc/squad/single_support(usa)"
+msgid "Support crew"
+msgstr ""
+
 msgctxt "desc/squad/single_medic(usa)"
 msgid "Medic"
 msgstr ""

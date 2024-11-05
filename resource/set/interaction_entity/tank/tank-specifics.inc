@@ -4,6 +4,9 @@
 {"kfz13 tank"
 	("kfz13_sound")
 }
+{"kfz13_early tank"
+	("kfz13_sound")
+}
 {"kfz14 tank"
 	("kfz13_sound")
 	{on "event_no_crew" overload}
@@ -14,6 +17,23 @@
 	}
 	{on "commander_hatch_close" overload
 		{ani_wind "binocular" begin}
+	}
+}
+{"sdkfz221_spzb tank"
+	("sdkfz222_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		("Cannon_Breech")
+	}
+
+	{on "event_no_crew" overload}
+	{on "event_with_crew" overload}
+
+	{on "spawn_shell_delay" overload
+		("shell_eject_delay" args 0.15 0.1)
+	}
+	{on "reload_delay" overload
+		("reload_time" args 2.0)
 	}
 }
 {"sdkfz221 tank"
@@ -36,6 +56,18 @@
 	}
 	{##on "commander_hatch_close" overload
 		{ani_play "open" -1.0 resume}
+	}
+}
+{"sdkfz222b tank"
+	("sdkfz222_sound")
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+		("MG42")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+		{link_sound "action_recoil"	"weapon/shot/smallarms/s3/recoil/GER/MG42/"}
+	}
+	{on spawn
+		{ani_wind "open" end}
 	}
 }
 {"sdkfz223 tank"
@@ -664,6 +696,51 @@
 	{on "add_weapon_sound" overload
 		("MG13")
 	}
+}
+{"flammpanzer1 tank"
+	{on spawn
+		{add_view	"flamer_fire_tank"	"gun" "foresight1"}
+	}
+	{on "_explosion"
+		{spawn "fuel_die"}
+		{blastwave c4 5 r0 4 r1 15}
+		{fire radius 5 time 15 heating 10}
+	}
+	{on "add_movement_sound" overload
+		{link_sound "engine_start"		"vehicle/engine/pz1/start"}
+		{link_sound "engine_stop"		"vehicle/engine/pz1/stop"}
+		{link_sound "engine_idle"		"vehicle/engine/pz1/idle"}
+		{link_sound "engine_full"		"vehicle/engine/pz1/full"}
+		{link_sound "exhaust"			"vehicle/engine/pz1/exhaust"}
+		{link_sound "move"				"vehicle/tracks/pz1"}
+		{link_sound "rotate_turret"		"vehicle/turret/gun/gun_horizontal"}
+	}
+
+	{on break						;// {on break} is for when components break
+		{if not tagged "exploded"
+			{if component "turret"
+				{weapon_work "mgun1" 0}
+				{weapon_work "gun" 0}
+			else component "mantlet"
+				{weapon_work "mgun1" 0}
+				{weapon_work "gun" 0}
+			}
+		}
+	}
+	{on repair
+		{if component "turret"
+			{if work "mantlet"
+				{weapon_work "mgun1" 1}
+				{weapon_work "gun" 1}
+			}
+		else component "mantlet"
+			{if work "turret"
+				{weapon_work "mgun1" 1}
+				{weapon_work "gun" 1}
+			}
+		}
+	}
+	("flame_weapon" args gun 30 1 40)
 }
 {"panzer1f tank"
 	{on "add_weapon_sound" overload
@@ -1741,7 +1818,15 @@
 {"ba64"
 	("ba_sound")
 }
-
+{"ba64_dshk"
+	("ba_sound")
+}
+{"ba64_sg_43"
+	("ba_sound")
+}
+{"ba64_ptrs"
+	("ba_sound")
+}
 {"fai_m"
 	("ba_sound")
 	{on "add_weapon_sound" overload
@@ -2172,6 +2257,14 @@
 		("DT")
 	}
 }
+{"t37a_shkas tank"
+	("t27_sound")
+	{on "add_weapon_sound" overload	
+		("DT")
+	}
+}
+
+
 {"panzer731r tank"
 	("t27_sound")
 	{on "add_weapon_sound" overload
@@ -3902,6 +3995,22 @@
 	}
 }
 
+{"bren_carrier_rus tank"
+	("universal_carrier_sound")
+	{on "add_weapon_sound" overload
+		("ZB37")
+		{link_sound "action_recoil"	"weapon/action/recoil/open_bolt_MG/reciprocating/"}
+	}
+}
+
+{"dshk_carrier_rus tank"
+	("universal_carrier_sound")
+	{on "add_weapon_sound" overload
+		("DT")
+		{link_sound "action_recoil"	"weapon/action/recoil/open_bolt_MG/reciprocating/"}
+	}
+}
+
 {"mmg_carrier_rus tank"
 	("universal_carrier_sound")
 	{on "add_weapon_sound" overload
@@ -4688,4 +4797,95 @@
 	}
 	
     }	
+}
+
+(define "churchill_tank_sound"
+	{on "add_movement_sound" overload
+		{link_sound "engine_start"		"vehicle/engine/churchill/start"}
+		{link_sound "engine_stop"		"vehicle/engine/churchill/stop"}
+		{link_sound "engine_idle"		"vehicle/engine/churchill/idle"}
+		{link_sound "engine_full"		"vehicle/engine/churchill/full"}
+		{link_sound "exhaust"			"vehicle/engine/churchill/exhaust"}
+		{link_sound "move"			"vehicle/tracks/churchill"}
+		{link_sound "rotate_turret"		"vehicle/turret/churchill_turret"}
+	}
+)
+
+{"churchill_avre"
+	("churchill_tank_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
+	}
+}
+{"churchill7"
+	("churchill_tank_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("ZB37")
+	}
+}
+{"churchill2"
+	("churchill_tank_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		("ZB37")
+	}
+}
+{"churchill4"
+	("churchill_tank_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
+		("ZB37")
+	}
+}
+{"churchill_gun_carrier"
+	("churchill_tank_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
+	}
+}
+{"churchill_crocodile"
+	("churchill_tank_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("ZB37")
+	}
+	{on spawn
+		{add_view "flamer_fire_tank" "flame" "foresight4"}
+		{add_view "flamer_fire_barrel" "fire" "foresight4"}
+	}
+	{on operatable on
+		{view start "fire"}
+	}
+	{on operatable off
+		{view stop "fire"}
+	}
+	{on "_explosion"
+		{spawn "fuel_die"}
+		{blastwave c4 5 r0 4 r1 15}
+		{fire radius 5 time 15 heating 10}
+	}
+	("flame_weapon" args flamer1 60 4 40)
+}
+
+{"churchill_black_prince" 
+	("churchill_tank_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_HV")
+		("ZB37")
+	}
+}
+{"churchill8"
+	("churchill_tank_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("ZB37")
+	}
+}
+{"churchill9"
+	("churchill_tank_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_50to57mm_HV")
+		("ZB37")
+	}
 }

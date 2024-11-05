@@ -1,26 +1,6 @@
 ;SDL
 {units
-	{"bergetiger"
-		{vehicle_view "tiger_1h"}
-	}
-	{"t34_44nohead"
-		{vehicle_view "t34_85"}
-	}
-	{"t34_44supply"
-		{vehicle_view "t34_85"}
-	}
-	{"t34_44nohead_fin"
-		{vehicle_view "t34_85"}
-	}
-	{"t34_44supply_fin"
-		{vehicle_view "t34_85"}
-	}
-	{"sdkfz8_armored"
-		{vehicle_view "sdkfz7"}
-	}
-	{"t26t"
-		{vehicle_view "kht26"}
-	}
+	(include "unit_VE.inc")
 
 	;Boxes
 	{"inf_crate_ger"
@@ -866,9 +846,6 @@
 		{vehicle_view "bt5"}
 	}
 	{"bt7"
-		{vehicle_view "bt7"}
-	}
-	{"bt7_dt"
 		{vehicle_view "bt7"}
 	}
 	{"bt7a"
@@ -1792,6 +1769,28 @@
 	{"lca_grh"
 		{vehicle_view "lca_grh"}
 	}
+	; PZ connect
+	{"bergetiger"
+		{vehicle_view "tiger_1h"}
+	}
+	{"t34_44nohead"
+		{vehicle_view "t34_85"}
+	}
+	{"t34_44supply"
+		{vehicle_view "t34_85"}
+	}
+	{"t34_44nohead_fin"
+		{vehicle_view "t34_85"}
+	}
+	{"t34_44supply_fin"
+		{vehicle_view "t34_85"}
+	}
+	{"sdkfz8_armored"
+		{vehicle_view "sdkfz7"}
+	}
+	{"t26t"
+		{vehicle_view "kht26"}
+	}
 	;BK Vehicles
 	{"munitionspanzer38t"
 		{vehicle_view "munitionspanzer38t"}
@@ -1820,6 +1819,8 @@
 	{"sdkfz251d_23"
 		{vehicle_view "sdkfz250a_9"}
 	}
+	
+	; MACE
 	{"128mm_pak44"
 		{vehicle_view "128mm_pak44"}
 	}
@@ -1849,9 +1850,6 @@
 	}
 	{"bmw_r71_mg42"
 		{vehicle_view "bmw_r71"}
-	}
-	{"flammjagdtiger"
-		{vehicle_view "jagdtiger"}
 	}
 	
 	{"sturer_emil"
@@ -1889,5 +1887,76 @@
 	}
 	{"m18_gmc_90"
 		{vehicle_view "m18_hellcat_late"}
+	}
+	
+	;valour
+	{"churchill2"
+		{vehicle_view "churchill3"}
+	}
+	{"churchill4"
+		{vehicle_view "churchill3"}
+	}
+	{"churchill7"
+		{vehicle_view "churchill3"}
+	}
+	{"churchill8"
+		{vehicle_view "churchill3"}
+	}
+	{"churchill9"
+		{vehicle_view "churchill3"}
+	}
+	{"churchill_avre"
+		{vehicle_view "churchill3"}
+	}
+	{"churchill_gun_carrier"
+		{vehicle_view "churchill3"}
+	}
+	{"churchill_crocodile"
+		{vehicle_view "churchill3"}
+	}
+	{"churchill_black_prince"
+		{vehicle_view "churchill3"}
+	}
+
+	; BA
+	{"ba64_dshk"
+		{vehicle_view "ba64"}
+	}
+	{"ba64_sg_43"
+		{vehicle_view "ba64"}
+	}
+	{"ba64_ptrs"
+		{vehicle_view "ba64"}
+	}
+
+	; ITF
+	{"flammjagdtiger"
+		{vehicle_view "jagdtiger"}
+	}
+	{"bt7_dt"
+		{vehicle_view "bt7"}
+	}
+
+	;CR
+	{"30mm_flak38"
+		{vehicle_view "cannon_30mm_flak38"}
+	}
+	{"sdkfz221_spzb"
+		{vehicle_view "sdkfz221"}
+	}
+	{"sdkfz222b"
+		{vehicle_view "sdkfz222"}
+	}
+	{"flammpanzer1"
+		{vehicle_view "flammpanzer1"}
+	}
+	{"bren_carrier_rus"
+		{vehicle_view "universal"}
+	}
+	{"dshk_carrier_rus"
+		{vehicle_view "universal"}
+	}
+	{"t37a_shkas"
+		{vehicle_view "t37a_shkas"}
 	}
 }

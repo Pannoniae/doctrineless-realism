@@ -117,8 +117,9 @@
 ;//---AA---
 	{"20mm_flak30"	requires	""					costs 1  position 0 27}
 	{"20mm_flak38"	requires	"20mm_flak30"		costs 1  position 1 26} ;//SE, LIB
+	{"20mm_flakvierling38" requires	"20mm_flak38"		costs 2  position 2 25}
+	{"30mm_flak38"	requires	"20mm_flak38"		costs 2  position 3 26} ;//AIR
 	{"37mm_flak37"	requires	"20mm_flak30"		costs 2  position 2 27}
-	{"20mm_flakvierling38" requires "37mm_flak37"	costs 1  position 3 26} ;//AIR
 	{"50mm_flak41"	requires	"37mm_flak37"		costs 2  position 4 27}
 	{"88mm_flak18"	requires	"50mm_flak41"		costs 2  position 6 27}
 	{"88mm_flak36"	requires	"88mm_flak18"		costs 4  position 8 27}
@@ -126,12 +127,14 @@
 ;//---AT Guns---
 	{"28mm_pzb41"	requires	"single_at(ger)"	costs 1  position 2 6}
 	{"37mm_pak36"	requires	""					costs 0  position 0 31}
+	{"37mm_pak36_late"	requires	"37mm_pak36"	costs 0  position 1 31}
 	{"47mm_pakt"	requires	"37mm_pak36"		costs 1  position 2 31}
 	{"50mm_pak38"	requires	"47mm_pakt"			costs 2  position 4 31}
-	{"75mm_pak9738"	requires	"50mm_pak38"		costs 2  position 5 31}
-	{"75mm_pak40"	requires	"75mm_pak9738"		costs 3  position 6 31}
-	{"88mm_pak4341"	requires	"75mm_pak40"		costs 6  position 8 31} ;//SE, LIB
-	{"128mm_pak44"		requires	"88mm_pak4341"		costs 9  position 10 31}
+	{"50mm_pak38_late"	requires	"50mm_pak38"		costs 1  position 5 30}
+	{"75mm_pak9738"	requires	"50mm_pak38"		costs 2  position 6 31}
+	{"75mm_pak9738_late"	requires	"75mm_pak9738"		costs 1  position 7 31}
+	{"75mm_pak40"	requires	"75mm_pak9738"		costs 2  position 8 31}
+	{"88mm_pak4341"	requires	"75mm_pak40"		costs 6  position 9 31} ;//SE, LIB
 
 ;//---Infantry Guns---
 	{"75mm_lg40"		requires 	"squad_fallschirmjaeger_con(ger)"	costs 2  position 7 21}
@@ -167,9 +170,10 @@
 	{"kubelwagen_dak"		requires	"squad_recon_con(ger)"	costs 1  position 3 20}
 
 	{"kettenkrad_eng"		requires	"single_engineer(ger)"	costs 1  position 3 12}
-	{"sdkfz10"				requires	""						costs 1  position 0 30}
-	{"sdkfz10_4"			requires	"sdkfz10 20mm_flak30"	costs 0  position 0 28}
-	{"sdkfz10_pak38"		requires	"sdkfz10 50mm_pak38"	costs 0  position 4 30}
+	{"sdkfz7"				requires	""						costs 0  position 0 30}
+	{"sdkfz10"				requires	"sdkfz7"				costs 1  position 1 30}
+	{"sdkfz10_4"			requires	"sdkfz10 20mm_flak30"	costs 0  position 1 28}
+	{"sdkfz10_pak38"		requires	"sdkfz10 50mm_pak38"	costs 0  position 3 30}
 	{"sdkfz6_2"				requires	"37mm_flak37 sdkfz10_4"	costs 1  position 2 28}
 	{"sdkfz7_1"				requires	"20mm_flakvierling38"	costs 1  position 4 26} ;//AIR
 	{"sdkfz7_2"				requires	"sdkfz6_2"				costs 2  position 3 29} ;//SE, LIB
@@ -182,19 +186,22 @@
 	{"sdkfz251d_21"			requires	"sdkfz251d_17"			costs 2  position 8 42} ;// LIB
 	{"sdkfz251d_22"			requires	"sdkfz251d_21"			costs 4  position 9 42} ;// LIB
 
-	{"kfz13"				requires	""				costs 1  position 0 40}
-	{"sdkfz221"				requires	"kfz13"			costs 1  position 1 39}
-	{"sdkfz222a"			requires	"sdkfz221"		costs 1  position 2 38}
-	{"sdkfz231"				requires	"sdkfz221"		costs 1  position 2 39}
-	{"p204_f"				requires	"sdkfz222a"		costs 1  position 5 38}
+	{"kfz13_early"			requires	""				costs 0  position 0 39}
+	{"kfz13"				requires	"kfz13_early"	costs 1  position 1 39}
+	{"sdkfz221"				requires	"kfz13"			costs 1  position 3 39}
+	{"sdkfz222a"			requires	"sdkfz221"		costs 1  position 4 39}
+	{"sdkfz222b"			requires	"sdkfz222a"		costs 0  position 5 40}
+	
+	{"sdkfz231"				requires	"sdkfz222a"		costs 1  position 6 39}
+	{"p204_f"				requires	""				costs 1  position 0 38}
 	{"sdkfz250a_1"			requires	"kfz13"			costs 1  position 1 40}
 	{"sdkfz250a_9"			requires	"sdkfz250a_1"	costs 1  position 2 40} ;//SE, LIB
 	{"sdkfz250a_11"			requires	"28mm_pzb41"	costs 1  position 3 7}
 
-	{"sdkfz234_1"			requires	"sdkfz234_2"	costs 1  position 6 40} ;//SE
-	{"sdkfz234_2"			requires	"sdkfz231"		costs 3  position 5 39}
-	{"sdkfz234_3"			requires	"sdkfz234_2"	costs 2  position 6 39} ;//SE, LIB
-	{"sdkfz234_4"			requires	"sdkfz234_3"	costs 3  position 7 39}  ;//SE, LIB
+	{"sdkfz234_1"			requires	"sdkfz234_2"	costs 1  position 8 40} ;//SE
+	{"sdkfz234_2"			requires	"sdkfz231"		costs 3  position 7 39}
+	{"sdkfz234_3"			requires	"sdkfz234_2"	costs 2  position 8 39} ;//SE, LIB
+	{"sdkfz234_4"			requires	"sdkfz234_3"	costs 3  position 9 39}  ;//SE, LIB
 	
 	{"panzerwerfer42"		requires	"150mm_nebelwerfer41"	costs 3  position 5 36} ;// LIB
 	{"sdkfz251d_1_stuka"	requires	"210mm_nebelwerfer42"	costs 3  position 7 36}
@@ -205,11 +212,15 @@
 ;//---Light Tanks---
 	{"pz38h_735"			requires	"p204_f"		costs 2  position 8 38}
 	{"pz38h_w40"			requires	"pz38h_735 300mm_nebelwerfer42" costs 1  position 8 36} ;//Talvisota
+	{"panzer731r"			requires	"panzer35s"		costs 1  position 4 37}
+	{"panzer742r"			requires	"panzer731r"	costs 2  position 5 37}
+	{"pz756r"				requires	"panzer742r"	costs 12  position 7 37}
 
 	{"panzer1b"				requires	""				costs 1  position 0 45}
+	{"flammpanzer1"			requires	"panzer1b"		costs 1  position 1 45}
 	{"panzerjager1"			requires	"panzer1b"		costs 2  position 1 44}
 	{"bison"				requires	"panzerjager1"	costs 3  position 2 44}
-	{"panzer1f"				requires	"panzer1b"		costs 5  position 3 45}
+	{"panzer1f"				requires	"flammpanzer1"		costs 5  position 3 45}
 
 	{"panzer2c"				requires	"panzer1b"		costs 1  position 0 47}
 	{"panzer2f"				requires	"panzer2c"		costs 1  position 1 47}

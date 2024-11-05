@@ -424,6 +424,7 @@
 ("squad_with1types" side(fin) name(single_engineer)		period(late) year(late) cd(0)   ci(0)  g(single_eng)		c1(engineer_builder:2)				b(single) t(engineer))
 ("squad_with1types" side(fin) name(single_engineer_heavy) period(late) year(late) cd(0)   ci(0)  g(single_eng)		c1(engineer_heavy:2)				b(single) t(engineer))
 ("squad_with1types" side(fin) name(single_flamer)		period(late) year(late) cd(0)   ci(60)  g(single_flamer)	c1(engineer_flamer:1)				b(single) t(flamer))
+("squad_with1types_man" side(fin) name(single_support)		period(late) year(late) cd(90) ci(0) g(single_crew)		c1(artilleryman:5)					b(single) t() cost(45))
 ("squad_with2types" side(fin) name(single_tankman)		period(late) year(late) cd(150) ci(0) g(single_crew)		c1(tank_commander:1) c2(tankman:4)	b(single) t())
 ("squad_with1types" side(fin) name(single_medic)		period(late) year(late) cd(0)   ci(0)   g(single_medic)	c1(medic:2)							b(single) t(medic))
 ("squad_with1types" side(fin) name(single_sniper)		period(late) year(late) cd(0) ci(180) g(single_sniper)	c1(sniper:1)						b(single) t(sniper))
@@ -437,8 +438,8 @@
 	("vehicle"  period(late) year(late) cd(0) ci(0) g(wheel0) side(fin) t(vehicle) crew(rifleman:1) b(supply) cw(1) cp(0)
 	cost(15)) {round_multiple 1.0}
 }
-{"stalinetz60"
-	("vehicle"  period(late) year(late) cd(0) ci(30) g(wheel2) side(fin) t(vehicle) crew(rifleman:1) b(supply) cw(1) cp(2)
+{"stalinetz60_fin"
+	("vehicle_ss"  period(late) year(late) cd(0) ci(30) g(wheel2) side(fin) t(vehicle) vehicle(stalinetz60) crew(rifleman:1) b(supply) cw(1) cp(2)
 	cost(30))
 }
 {"ford_v3000"

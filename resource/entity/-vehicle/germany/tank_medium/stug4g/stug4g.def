@@ -121,7 +121,7 @@
 			{basic}
 			{ai_in_manual}
 		}
-		{##place "mgun2"
+		{place "mgun2"
 			{type "coaxial"}
 			{weapon "mg34_tank" filled}
 			{foresight "foresight4"}

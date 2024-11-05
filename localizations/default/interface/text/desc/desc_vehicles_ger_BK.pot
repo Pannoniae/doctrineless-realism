@@ -83,3 +83,11 @@ msgstr ""
 msgctxt "info/special/sdkfz251d_23"
 msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
+
+msgctxt "desc/entity/30mm_flak38"
+msgid "3cm Flak 38/103 'Jaboschreck'"
+msgstr ""
+
+msgctxt "info/special/30mm_flak38"
+msgid "<c(c3baae)>Light AA Gun</c>"
+msgstr ""

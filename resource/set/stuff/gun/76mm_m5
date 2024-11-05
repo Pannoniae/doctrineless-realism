@@ -27,5 +27,5 @@
 		{range 160 160}
 	}
 
-	("accuracy_direct" r1(0.80) range_ap(200) range_he(200) range_heat(200))
+	("accuracy_direct" r1(0.75) range_ap(200) range_he(200) range_heat(200))
 }

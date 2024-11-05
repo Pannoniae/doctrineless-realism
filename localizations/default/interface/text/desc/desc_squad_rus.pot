@@ -105,6 +105,10 @@ msgctxt "desc/squad/single_tankman(rus)"
 msgid "Tank Crew"
 msgstr ""
 
+msgctxt "desc/squad/single_support(rus)"
+msgid "Support crew"
+msgstr ""
+
 msgctxt "desc/squad/squad_assaultsappers(rus)"
 msgid "Assault Sappers"
 msgstr ""

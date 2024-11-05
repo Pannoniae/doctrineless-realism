@@ -39,6 +39,8 @@
 	{parameters "he2"		("global velocity" gv(%he))}
 	{parameters "sm"		("global velocity" gv(%he))}
 	{parameters "wp"		("global velocity" gv(%he))}
+	{parameters "sr"		("global velocity" gv(%he))}
+	{parameters "can"		("global velocity" gv(%he))}
 
 	{parameters "heat"		("global velocity" gv(%heat))}
 	{parameters "heata"		("global velocity" gv(%heat))}
@@ -146,6 +148,7 @@
 	{parameters "heata" 	{minimumDamageModifier (* 1.25 %damage)}}
 	{parameters "heatb" 	{minimumDamageModifier (* 1.25 %damage)}}
 	{parameters "heatc" 	{minimumDamageModifier (* 1.25 %damage)}}
+	{parameters "sr" 		{minimumDamageModifier (* 1.25 %damage)}}
 	;// HE, WP, SM not included as they have no penetration power modelled.
 )
 
@@ -280,6 +283,11 @@
 	{parameters "he"
 		{spreading
 			{radiusTable {0 0} {125 (* %he125 (* 0.5 (* %r2 %r0)))} {250 (* 1.85 (* %r2 %r0))} {(- %range_he 0.01) (* %rmax %r0)} {(+ %range_he 1) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
+		}
+	}
+	{parameters "sr"
+		{spreading
+			{radiusTable {0 0} {125 (* %he125 (* 0.5 (* %r2 %r0)))} {250 (* 1.85 (* %r2 %r0))} {(- %range_he 0.1) (* %rmax %r0)} {(+ %range_he 1) 60}} ; // Anti-farshoot, accuracy goes haywire past max range
 		}
 	}
 	{parameters "he2"
@@ -504,6 +512,13 @@
 		{FalloffMeter %range_he}
 		{FalloffStrength %falloff}
 	}
+	{parameters "sr"
+		{spreading
+			{radiusTable {0 0} {50 (* %he50 (* %r1 %r0))} {100 (* %he100 (* %r1 %r0))} {140 (* %he140 (* %r1 %r0))} { (- %range_he 0.01) (* (+ (* (/ (- %range_he 140) (- 200 140)) (- %he200 %he140)) %he140) (* %r1 %r0))} {%range_he 20}}
+		}
+		{FalloffMeter %range_he}
+		{FalloffStrength %falloff}
+	}
 	{parameters "sm"
 		{spreading
 			{radiusTable {0 0} {50 (* %he50 (* %r1 %r0))} {100 (* %he100 (* %r1 %r0))} {140 (* %he140 (* %r1 %r0))} { (- %range_he 0.01) (* (+ (* (/ (- %range_he 140) (- 200 140)) (- %he200 %he140)) %he140) (* %r1 %r0))} {%range_he 20}}
@@ -718,6 +733,23 @@
 		{FalloffMeter %range_hei}
 		{FalloffStrength %falloff}
 	}
+	{parameters "sr"
+		{spreading
+			{radiusTable
+				{0 0}
+				{50 (* %he50 (* %r1 %r0))}
+				{100 (* %he100 (* %r1 %r0))}
+				{140 (* %he140 (* %r1 %r0))}
+				{ (- %range_he 0.01) (* (+ (* (/ (- %range_he 140) (- 200 140)) (- %he200 %he140)) %he140) (* %r1 %r0))}
+				{(+ %range_he 10) (* 1.5 (* %r1i %r0i))}
+				{(- %range_hei 0.01) (* %rmax %r0i)}
+				{(+ %range_hei 1) 60}
+			}
+		}
+		{range %range_hei %range_hei}
+		{FalloffMeter %range_hei}
+		{FalloffStrength %falloff}
+	}
 	{parameters "he2"
 		{spreading
 			{radiusTable 
@@ -896,7 +928,7 @@
 (define "indirect_settings"
 	{SpreadTolerance 0.75}		;// Zeroing up to 75% needed before fire
 	{ZeroingAccuracy 0.8 0.65 0.55 0.5 0.45}
-	{spreading {SpreadXYRatio 3}}
+	{spreading {SpreadXYRatio 1}}
 )
 
 ;/*============================== RANGES AND SPECIFICS ==============================*/
@@ -981,7 +1013,11 @@
 	}
 	{SyncedProjectiles 0}		;// not for automatic weapons
 )
-
+(define "range_90"
+	("standard_firing_arc")
+	{range 90 90}
+	("direct_settings")
+)
 (define "range_160"
 	("standard_firing_arc")
 	{range 160 160}
@@ -1160,14 +1196,14 @@
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
 		}
+	}
 	{parameters "he2"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
-		} 
-	}
+			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
+		}
 	}
 	{ZeroingAccuracy 0.90 0.80 0.70 0.65 0.60}
 	("artillery_firing_arc")
@@ -1175,6 +1211,7 @@
 	{DisableRicochet}
 	{traceFreq 0}
 	{unlimitedRangeTPC 0}	;// restrict range in TPC/FPC
+	
 )
 
 (define "heavy_artillery"
@@ -1182,13 +1219,13 @@
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
 	{parameters "he2"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
 	{ZeroingAccuracy 0.90 0.80 0.70 0.65 0.60}
@@ -1197,6 +1234,7 @@
 	{DisableRicochet}
 	{traceFreq 0}
 	{unlimitedRangeTPC 0}	;// restrict range in TPC/FPC
+	
 )
 
 (define "super_heavy_artillery"
@@ -1204,13 +1242,13 @@
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
 	{parameters "he2"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
 	{ZeroingAccuracy 0.90 0.80 0.70 0.65 0.60}
@@ -1219,6 +1257,7 @@
 	{DisableRicochet}
 	{traceFreq 0}
 	{unlimitedRangeTPC 0}	;// restrict range in TPC/FPC
+	
 )
 
 
@@ -1551,6 +1590,7 @@
 		{90		99.0000		0.00000	}
 	}
 )
+
 (define "apc_57_slope_multiplier" ;use for 50-57mm APC Projectiles
 	{overmatchCalibre
 		{0		1.0			0.00	}
@@ -2760,6 +2800,9 @@
 	{parameters "aphe"
 		("ap_105_slope_multiplier")
 	}
+	{parameters "sr"
+		("ap_105_slope_multiplier")
+	}
 	{parameters "apc"
 		("apc_90_slope_multiplier")
 	}
@@ -2841,6 +2884,9 @@
 	{parameters "aphe"
 		("ap_75_slope_multiplier")
 	}
+	{parameters "sr"
+		("ap_75_slope_multiplier")
+	}
 	{parameters "apbc"
 		("apbc_76_slope_multiplier")
 	}
@@ -2886,6 +2932,9 @@
 	{parameters "aphe"
 		("ap_122_slope_multiplier")
 	}
+	{parameters "sr"
+		("ap_122_slope_multiplier")
+	}
 	{parameters "aphebc"
 		("apbc_122_slope_multiplier")
 	}
@@ -2902,5 +2951,22 @@
 	}
 	{parameters "heat"
 		("heat_slope_multiplier")
+	}
+	{parameters "sr"
+		("ap_152_slope_multiplier")
+	}
+)
+;//---CANISTER SHOT---//
+(define "speed"   
+	{speed (* 0.5 %s)}  
+)
+(define "canister_shot_18"
+	{parameters "can"
+       		{spreading 1}
+		{gravity 0}
+   		{range 100 100}
+		("speed" s(60))
+		{cursorReloading "gun_can"}
+		{DisableRicochet}
 	}
 )

@@ -113,6 +113,10 @@ msgctxt "desc/squad/single_tankman(fin)"
 msgid "Tank crew"
 msgstr ""
 
+msgctxt "desc/squad/single_support(fin)"
+msgid "Support crew"
+msgstr ""
+
 msgctxt "desc/squad/squad_antitank_late(fin)"
 msgid "AT Squad"
 msgstr ""

@@ -1,3 +1,3 @@
-Into the Fire 0.3.5:
- - Fix a crash with the Finnish FT-17.
- - Fix KV-1 gun elevation (not being able to fire max. range)
+Into the Fire 0.3.9:
+ - Massive RobZ-like vision overhaul.
+ - Make normal infantry be able to build sandbags for cover.

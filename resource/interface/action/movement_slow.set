@@ -1,0 +1,8 @@
+{action
+	{able_vehicle}
+	{NotifySelect}
+	{button "movement_slow"}
+	{instant
+		{effect "movement_slow"}
+	}
+}

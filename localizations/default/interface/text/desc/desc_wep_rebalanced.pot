@@ -1,0 +1,334 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Conquest Rebalanced Weapons, Ammo and Gear\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "desc/ammo/johnson_mag"
+msgid ".30 cal Johnson LMG Magazine"
+msgstr ""
+
+msgctxt "desc/ammo/lewis_mag"
+msgid "Lewis Gun Drum Magazine"
+msgstr ""
+
+msgctxt "desc/ammo/reising_mag"
+msgid "M50 Reising Magazine"
+msgstr ""
+
+msgctxt "desc/weapon/shkas_t37"
+msgid "ShKAS"
+msgstr ""
+
+msgctxt "desc/weapon/m1941lmg"
+msgid "M1941 Johnson LMG"
+msgstr ""
+
+msgctxt "desc/weapon/lewis_gun"
+msgid "Lewis Gun"
+msgstr ""
+
+msgctxt "desc/weapon/m50reising"
+msgid "M50 Reising"
+msgstr ""
+
+msgctxt "desc/weapon/luger_08"
+msgid "Luger P08"
+msgstr ""
+
+msgctxt "desc/weapon/fmw_35_pz1"
+msgid "Flammenwerfer 35"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_artillery"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_border"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_down"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_vvs"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_down_vvs"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_cav"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_down_cav"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_down_artillery"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_down_border"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_down_early"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_down_nkvd"
+msgid "Budenovka (NKVD)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_early"
+msgid "Budenovka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_budinovka_nkvd"
+msgid "Budenovka (NKVD)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap"
+msgid "Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_artillery"
+msgid "Artillery Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_border"
+msgid "Border Guard Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_early"
+msgid "Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_var_new"
+msgid "Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_airforce_new"
+msgid "Air Force Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_airforce2_new"
+msgid "Air Force Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_armored_new"
+msgid "Armored Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_cavalry_new"
+msgid "Cavalry Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_medic_new"
+msgid "Medical Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_pioneer_new"
+msgid "Pioneers Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_commisar_cap_voso_new"
+msgid "VOSO Furazhka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_marine_pilotka"
+msgid "Sailor's Cap"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_naval_commisar_cap"
+msgid "Furazhka (Naval)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_nkvd_cap"
+msgid "NKVD Political Officer's Visor"
+msgstr ""
+
+msgctxt "desc/stuff/sailor_cap_aurora_var1"
+msgid "Soviet Sailor Cap (Aurora)"
+msgstr ""
+
+msgctxt "desc/stuff/sailor_cap_aurora_var2"
+msgid "Soviet Sailor Cap (Aurora)"
+msgstr ""
+
+msgctxt "desc/stuff/sailor_cap_aurora_var3"
+msgid "Soviet Sailor Cap (Aurora)"
+msgstr ""
+
+msgctxt "desc/stuff/sailor_cap_chf_var1"
+msgid "Soviet Sailor Cap (BSF)"
+msgstr ""
+
+msgctxt "desc/stuff/sailor_cap_chf_var2"
+msgid "Soviet Sailor Cap (BSF)"
+msgstr ""
+
+msgctxt "desc/stuff/sailor_cap_chf_var3"
+msgid "Soviet Sailor Cap (BSF)"
+msgstr ""
+
+msgctxt "desc/stuff/sailor_cap_sf_var1"
+msgid "Soviet Sailor Cap (NF)"
+msgstr ""
+
+msgctxt "desc/stuff/sailor_cap_sf_var2"
+msgid "Soviet Sailor Cap (NF)"
+msgstr ""
+
+msgctxt "desc/stuff/sailor_cap_sf_var3"
+msgid "Soviet Sailor Cap (NF)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_pilotka_airforce_new"
+msgid "Pilotka (VVS)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_pilotka_airforce2_new"
+msgid "Pilotka (VVS)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_pilotka_armored_new"
+msgid "Pilotka (Armored)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_pilotka_artillery"
+msgid "Pilotka (Artillery)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_pilotka_border"
+msgid "Pilotka (Border)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_pilotka_early"
+msgid "Pilotka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_pilotka_grey"
+msgid "Pilotka (Subdued)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_pilotka_nkvd"
+msgid "NKVD Pilotka"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh35_helmet_new2"
+msgid "'Steel Helmet' Ssh-36"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh35_helmet_marine_new2"
+msgid "'Steel Helmet' Ssh-36 (Marine)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh35_helmet_medic_new2"
+msgid "'Steel Helmet' Ssh-36 (Medic)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh35_helmet_navy_new2"
+msgid "'Steel Helmet' Ssh-36 (Navy)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh35_helmet_var_new2"
+msgid "'Steel Helmet' Ssh-36"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh37_helmet_new2"
+msgid "'Steel Helmet' Ssh-36 (Late)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh39_helmet_star_new2"
+msgid "'Steel Helmet' Ssh-39"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh39_helmet_star2_new2"
+msgid "'Steel Helmet' Ssh-39"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh39_marine_early_new2"
+msgid "'Steel Helmet' Ssh-39 (Marine)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh39_navy_new2"
+msgid "'Steel Helmet' Ssh-39 (Navy)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh40_helmet_star_new2"
+msgid "'Steel Helmet' Ssh-40"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh40_marine_early_new2"
+msgid "'Steel Helmet' Ssh-40 (Marine)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh40_navy_new2"
+msgid "'Steel Helmet' Ssh-40 (Navy)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh35_helmet"
+msgid "'Steel Helmet' Ssh-36"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh35_helmet_strapontop"
+msgid "'Steel Helmet' Ssh-36"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh39_marine"
+msgid "'Steel Helmet' Ssh-39 (Naval)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh39_medic"
+msgid "'Steel Helmet' Ssh-39 (Medic)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh40_helmet"
+msgid "'Steel Helmet' Ssh-40"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh40_marine"
+msgid "'Steel Helmet' Ssh-40 (Naval)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_ssh40_medic"
+msgid "'Steel Helmet' Ssh-40 (Medic)"
+msgstr ""
+
+msgctxt "desc/stuff/soviet_tankist_cap"
+msgid "Tank Commander's Visor"
+msgstr ""
+
+msgctxt "desc/stuff/tm_35 mine"
+msgid "Anti-Tank TM Obr.35 Mine"
+msgstr ""
+
+msgctxt "desc/stuff/tm_41 mine"
+msgid "Anti-Tank TM Obr.41 Mine"
+msgstr ""
+
+msgctxt "desc/stuff/tmd_44 mine"
+msgid "Anti-Tank TMD Obr.44 Mine"
+msgstr ""
+
+msgctxt "desc/stuff/tmd_b mine"
+msgid "Anti-Tank TMD-B mine"
+msgstr ""

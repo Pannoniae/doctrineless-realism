@@ -1,0 +1,5 @@
+{sound
+(include "\sound\defines.inc")
+("vehicle_plane")
+{volume 1.5}
+}

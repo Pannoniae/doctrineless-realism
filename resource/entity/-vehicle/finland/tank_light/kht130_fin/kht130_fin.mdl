@@ -232,6 +232,14 @@
 					{Position 13.2082 	 12.294 	 11.1229}
 					{VolumeView "detail1.ply"}
 				}
+				{Bone "smokegenerator"
+                    {Matrix34
+                        -1	0	-0
+                        0	-1	0
+                        -0	-0	1
+                        -18	-10	5
+                    }
+                }
 			}
 			{bone "fuel"
 				{Position -35.8881 	 -8.9991 	 -0.6238}

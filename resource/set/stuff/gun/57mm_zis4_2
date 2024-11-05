@@ -4,6 +4,7 @@
 
 
 {from "57mm_zis4"			; L/73  "t3457_43"
+	{reloadSound "tank/1p/small_long/"}
 	("reload time" seconds(6.5))
 
 }

@@ -7,4 +7,5 @@
 	("reload time" seconds(9))
 	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm_HV/"}
 	{fireSoundclose "cannon/s4/3p/Shared/Cannon_85to100mm_HV/"}
+	{reloadSound "utility/"}
 }

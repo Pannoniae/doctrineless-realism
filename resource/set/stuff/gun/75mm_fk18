@@ -8,6 +8,7 @@
 	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
 	{fireSoundclose "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
 	{reloadSound "tank/1p/medium_long/"}
+	{reloadSound "utility/"}
 	("heavy_artillery")
 	{calibre 75}
 	{range 370 370} ; // 9.4km

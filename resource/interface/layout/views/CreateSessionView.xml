@@ -6,7 +6,7 @@
 		<Children>
 			<PercentPanel percent="0.715" placement="center" direction="horizontal">
 				<Children>
-					<DockPanel percent="0.46">
+					<DockPanel percent="0.62">
 						<Children>
 							<ScrollPane placement="center">
 								<Children>
@@ -198,8 +198,14 @@
 							</DockPanel>
 						</Children>
 					</DockPanel>
-					<PercentPanel direction="vertical" percent="0.20" gap="2">
+					<PercentPanel direction="vertical" percent="0.36" gap="2">
 						<Children>
+							<FrameView percent="0.25" resource="/interface/skin/game/frame/window">
+								<Insets all="15"/>
+								<Children>
+									<PictureDialog id="map_preview" placement="center" zoomMode="fill" centerX="true" centerY="true"/>
+								</Children>
+							</FrameView>
 							<FrameView percent="0.45" resource="/interface/skin/game/frame/window">
 								<Insets all="15"/>
 								<Content>
@@ -221,22 +227,10 @@
 									</StackPanel>
 								</Content>
 							</FrameView>
-						</Children>
-					</PercentPanel>						
-					<PercentPanel direction="vertical" percent="0.33" gap="2">
-						<Children>
-							<FrameView percent="0.70" resource="/interface/skin/game/frame/window">
-								<Insets all="15"/>
-								<Children>
-									<PictureDialog id="minimap_preview" placement="center" zoomMode="fit" centerX="true" centerY="true"/>
-								</Children>
-							</FrameView>
-							
-							
 							<FrameView percent="0.30" resource="/interface/skin/game/frame/window">
 								<Insets all="15"/>
 								<Children>
-									<PictureDialog id="map_preview" placement="center" zoomMode="fill" centerX="true" centerY="true"/>
+									<PictureDialog id="minimap_preview" placement="center" zoomMode="fit" centerX="true" centerY="true"/>
 								</Children>
 							</FrameView>
 						</Children>

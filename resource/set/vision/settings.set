@@ -49,6 +49,6 @@
 		{human}
 	}
 	{vehicle          ; // main vision range displayed. 
-		{cannon_00}   ; // The vision range displayed is far enough to detect this prop if it comes within the range.
+		{vehicle_03}   ; // The vision range displayed is far enough to detect this prop if it comes within the range.
 	}
 }

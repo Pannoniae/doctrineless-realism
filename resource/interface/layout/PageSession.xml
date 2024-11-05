@@ -97,9 +97,17 @@
 																	<Children>
 																		<PercentPanel percent="0.37" gap="10" direction="vertical">
 																		<Children>
-																			<StackPanel percent="1.0" placement="top"  id="panel_players">
+																			<StackPanel percent="0.37" placement="top"  id="panel_players">
 																				<MinSize y="380"/>
 																			</StackPanel>
+																			<FlowPanel placement="top" direction="vertical" halign="center">
+																				<Insets bottom="300" left="50" right="6"/>
+																				<Children>
+																					<StaticText>
+																						<Text key="mp/lobby2/teams"/>
+																					</StaticText>
+																				</Children>
+																			</FlowPanel>
 																			<FlowPanel placement="bottom" direction="vertical" gap="10" halign="center">
 																				<Children>
 																					<FlowPanel id="panel_comment">
@@ -221,12 +229,12 @@
 										<PercentPanel percent="0.4" stretch="true" gap="2">
 											<!--<Insets all="10"/>-->
 											<Children>
-												<DockPanel percent="0.06" vgap="0">
+												<DockPanel percent="0.1" vgap="2">
 													<Children>
 														<DialogRef resource="components/MenuUserProfile.xml" placement="top"  />
 													</Children>
 												</DockPanel>
-												<PercentPanel percent="0.3" gap="2" direction="vertical">
+												<PercentPanel percent="0.5" gap="2" direction="vertical">
 													<Children>
 														<DialogRef resource="components/MenuChat.xml" placement="center"  />
 													</Children>

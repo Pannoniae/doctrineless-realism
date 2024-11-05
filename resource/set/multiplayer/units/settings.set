@@ -126,10 +126,16 @@
 	{content "%vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3) %vehicle ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3)"}
 )
 
-; 2 different vehicles with 2 types of crew for the first one and one type of crew for the other one
+; 2 different vehicles with 3 types of crew for the first one and one type of crew for the other one
 (define "squad_2vehicles4"
 	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
 	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3) %vehicle2 ( mp/%side/%period/%crew4)"}
+)
+
+; 2 different vehicles with 2 types of crew for the first one and 2 types of crew for the other one
+(define "squad_2vehicles2_4"
+	("generic_v" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp)) ;//h
+	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2) %vehicle2 ( mp/%side/%period/%crew3 mp/%side/%period/%crew4)"}
 )
 
 ; squad setup for vehicle, 4 crew

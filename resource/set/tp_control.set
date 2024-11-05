@@ -782,7 +782,81 @@
 		{"t92_hmc" inherit "vehicle spa.common"}
 
 
+		{"churchill2" inherit "vehicle tank.medium_oqf40mm"}
+		{"churchill4" inherit "vehicle tank.medium_pdr6"}
+		{"churchill9" inherit "vehicle tank.medium_pdr6"}
+		{"churchill_gun_carrier" inherit "vehicle td.brit"}
+		{"churchill_avre" inherit "vehicle spg.common"}
+		{"churchill7" inherit "vehicle tank.medium_us75"}
+		{"churchill_crocodile" inherit "vehicle tank.medium_us75"}
+		{"churchill8" inherit "vehicle tank.medium_us75"}
 
+		; __________________________________________
+		;|          MODDED units (Horten)           |
+		;|__________________________________________|
+		
+		;=================== MODDED vehicles ===================
+
+		{"t3_hmc" 					inherit "vehicle spa.common"}
+		{"t1_hmc" 					inherit "vehicle spa.common"}
+		{"mtls_1g14"				inherit "vehicle tank.m3_stuart_early"}
+		{"t1e1" 					inherit "vehicle tank.m3_stuart_early"}
+		{"t1e3" 					inherit "vehicle tank.m3_stuart_early"}
+		{"m2a4" 					inherit "vehicle tank.m3_stuart_early"}
+		{"m2a1" 					inherit "vehicle tank.ft17"}
+		{"m1_combat_car" 			inherit "vehicle tank.ft17"}	
+		{"flakpz_38t" 				inherit "vehicle td.grille"}
+		{"me_262a2a" 				inherit "vehicle aircraft.common"}
+		{"t3476_42_pt3" 			inherit "vehicle tank.t3476"}
+		{"bt7m" 					inherit "vehicle tank.t26"}
+		{"m4a3_75_crab" 			inherit "vehicle tank.sherman_75"}
+		{"churchill3_avre" 			inherit "vehicle tank.churchill3"}
+		{"zis12_94km" 				inherit "vehicle truck.gaz72k"}
+		{"stuh42_late" 				inherit "vehicle td.stuh42"}
+		{"t80" 						inherit "vehicle tank.t26"}
+		{"t34s" 					inherit "vehicle tank.t3476"}
+		{"t26_32" 					inherit "vehicle tank.t2631"}
+		{"panzer3j_funk" 			inherit "vehicle tank.panzer3f"}
+		{"panzer5fg" 				inherit "vehicle tank.panther"}
+		{"panzer5g_armor" 			inherit "vehicle tank.panther"}
+		{"panzer5g_fg1250"			inherit "vehicle tank.panther"}
+		{"gaz_aaa_72k_early" 		inherit "vehicle truck.gaz72k"}
+		{"25mm_72k_early"			inherit "vehicle atgun.72k"}
+		{"sdkfz301b" 				inherit "vehicle generic.unarmed"}
+		{"zis42" 					inherit "vehicle generic.unarmed"}
+		{"su5_2" 					inherit "vehicle artillery.common"}
+		{"zis5eng_e" 				inherit "vehicle generic.unarmed"}
+		{"zis5eng_l" 				inherit "vehicle generic.unarmed"}
+		{"sdkfz251c_ru" 			inherit "vehicle vehicle.hanomag"}
+		{"blitz3_6_engineering_e" 	inherit "vehicle generic.unarmed"}
+		{"blitz3_6_engineering_l" 	inherit "vehicle generic.unarmed"}	
+		{"sdkfz10_5" 				inherit "vehicle truck.flak30"}
+		{"76mm_m1902_e" 			inherit "vehicle atgun.m1902"}
+		{"kv1_40_early" 			inherit "vehicle tank.kv1"}
+		{"kv8s" 					inherit "vehicle tank.kv1"}
+		{"t3485_43" 				inherit "vehicle tank.t3485"}
+		{"panzer4f1_e"				inherit "vehicle tank.panzer3n"}
+		{"kugelblitz" 				inherit "vehicle td.grille"}
+		{"ford_gpa_rus" 			inherit "vehicle generic.unarmed"}	
+		{"stug3e" 					inherit "vehicle td.stug3b"}
+		{"stug4" 					inherit "vehicle td.stug3"}
+		{"panzer3l_funk" 			inherit "vehicle tank.panzer3l"}
+		{"ford_v3000_eng_e"		 	inherit "vehicle generic.unarmed"}
+		{"ford_v3000_eng_m" 		inherit "vehicle generic.unarmed"}
+		{"m17_mgmc" 				inherit "vehicle vehicle.m13_mgmc"}
+		{"76mm_m1933_late" 			inherit "vehicle atgun.f22"}
+		{"t3476_41_pt3" 			inherit "vehicle tank.t3476"}
+		{"bt7_35"					inherit "vehicle tank.bt5"}
+		{"152mm_h37" 				inherit "vehicle artillery.common"}
+		{"panzer4f1_vorpanzer" 		inherit "vehicle tank.panzer3n"}
+		
+		; CR
+		{"30mm_flak38" inherit "vehicle atgun.flak38"}
+		{"kfz13_early" inherit "vehicle vehicle.kfz13"}
+		{"sdkfz222b" inherit "vehicle vehicle.222"}
+		{"flammpanzer1" inherit "vehicle tank.panzer1b"}
+		{"t37a_shkas" inherit "vehicle tank.t40"}
+		{"dshk_carrier_rus" inherit "vehicle vehicle.mmg_carrier"}
 	}
 	{human
 		;{disabled}

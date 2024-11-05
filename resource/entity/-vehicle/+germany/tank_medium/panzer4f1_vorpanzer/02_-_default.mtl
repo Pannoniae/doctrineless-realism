@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "panzerivg2"}
+	{blend none}
+}

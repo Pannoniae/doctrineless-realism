@@ -1389,7 +1389,7 @@ msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/stuh42"
-msgid "StuH 42 Ausf.G"
+msgid "StuH 42 Ausf.G1"
 msgstr ""
 
 msgctxt "info/special/stuh42"

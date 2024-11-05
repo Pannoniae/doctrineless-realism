@@ -1,0 +1,10 @@
+{action
+	{button "vehicle/rc_check"}
+	{able_vehicle}
+	{notifyselect}
+	{instant
+		{if props "rc_child"
+			{effect "rc_check"}
+		}
+	}
+}
