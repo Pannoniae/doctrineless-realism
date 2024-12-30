@@ -48,12 +48,12 @@
                                                     <Children>
                                                         <StaticText id="txt_cls">
                                                             <Text value="Unit Type"/>
-                                                            <TextStyle value="x.s(12)e(shadow)" />
+                                                            <TextStyle value="x.f(arial_hq)s(9)e(shadow)" />
                                                             <TextClip value="true"/>
                                                         </StaticText>
                                                         <StaticText id="txt_name">
                                                             <Text value="Unit Name"/>
-                                                            <TextStyle value="x.s(12)e(shadow)" />
+                                                            <TextStyle value="x.f(arial_hq)s(9)e(shadow)" />
                                                             <TextClip value="true"/>
                                                         </StaticText>
                                                     </Children>
@@ -138,7 +138,7 @@
                                                                                             <Children>
                                                                                                 <StaticText id="txt_fuel">
                                                                                                     <Text textFormat="y."/>
-                                                                                                    <TextStyle value="s(12)e(shadow)" />
+                                                                                                    <TextStyle value="f(arial_hq)s(8)e(shadow)" />
                                                                                                 </StaticText>
                                                                                             </Children>
                                                                                         </FlowPanel>
@@ -180,7 +180,7 @@
                                                                                             <Children>
                                                                                                 <StaticText id="txt_supply">
                                                                                                     <Text textFormat="y."/>
-                                                                                                    <TextStyle value="s(12)e(shadow)" />
+                                                                                                    <TextStyle value="f(arial_hq)s(8)e(shadow)" />
                                                                                                 </StaticText>
                                                                                             </Children>
                                                                                         </FlowPanel>
@@ -221,7 +221,7 @@
                                                                                             <Children>
                                                                                                 <StaticText id="txt_speed">
                                                                                                     <Text textFormat="y."/>
-                                                                                                    <TextStyle value="s(12)e(shadow)" />
+                                                                                                    <TextStyle value="f(arial_hq)s(8)e(shadow)" />
                                                                                                 </StaticText>
                                                                                             </Children>
                                                                                         </FlowPanel>

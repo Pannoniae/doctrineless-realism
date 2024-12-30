@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 19.06.2024 14:29:38
-;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3d_vehicle_rus\vehicles\tank_heavy\kv2\KV-2.max
+;Exported by:	 Robin
+;Date:			 17.11.2024 13:33:13
+;File:			 E:\SVN GoH RUS 3D models\vehicles\tank_heavy\kv2\KV-2.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.6}}
@@ -898,6 +898,11 @@
 	{box 15.0253 35.0159 4.21826}
 	{bone "turret"}
 	{Position -26.4716 	 -0.0338 	 1.2891}
+}
+{volume "hull_armor1"
+	{polyhedron "hull_armor1.vol"}
+	{bone "body"}
+	{Position 63.4352 	 -0.0414 	 9.2736}
 }
 {volume "ram"
 	{polyhedron "ram.vol"}

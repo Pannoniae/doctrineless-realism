@@ -263,7 +263,7 @@ msgid "Rotate"
 msgstr ""
 
 msgctxt "human_view/health"
-msgid "<f(anka)s(21)y(+5)e(shadow)c(%1%)b>%2%"
+msgid "<f(arial_narrow)s(15)y(+5)e(shadow)c(%1%)b>%2%"
 msgstr ""
 
 msgctxt "actionbar/rotate/action"
@@ -1607,12 +1607,12 @@ msgid "<f(arial_hq)c(FFFFFF)s(8)>%1%"
 msgstr ""
 
 msgctxt "vehicle_view/fuel"
-msgid "<e(shadow)f(anka)s(21)x.y.b+c(%1%)p(25)> %2% L<x(+15)> "
+msgid "<e(shadow)f(arial_narrow)s(15)y(+5)c(%1%)p(25)>%2% L"
 msgstr ""
 
 msgctxt "vehicle_view/speed"
-msgid "<e(shadow)f(anka)s(15)x.y.b+c(%1%)p(25)>%2% km/h\n"
-"<e(shadow)f(anka)s(12)x.y.b+c(%1%)p(25)>(%3%)"
+msgid "<e(shadow)f(arial_narrow)s(15)y(+5)c(%1%)p(25)>%2% km/h\n"
+"<e(shadow)f(arial_narrow)s(15)y(+5)c(%1%)p(25)>(%3%)"
 msgstr ""
 
 msgctxt "vehicle_view/body"
@@ -1948,7 +1948,7 @@ msgid "<f(arial_hq)s(10)e(shadow)c(%1%)>%2%"
 msgstr ""
 
 msgctxt "human_view/stamina"
-msgid "<f(anka)s(15)e(shadow)y(+5)c(%1%)>%2% (%3%)"
+msgid "<f(arial_narrow)s(15)e(shadow)y(+5)c(%1%)>%2% (%3%)"
 msgstr ""
 
 msgctxt "perk/stealth"
@@ -2325,7 +2325,7 @@ msgid "+%.0f bmpm"
 msgstr ""
 
 msgctxt "humanbar/resources_hint"
-msgid "<f(anka)s(14)c(dea968)e(shadow)>Building Material<f(anka)c(eeeeee)s(12)y(+5)>\nUsed to construct engineer emplacements.\n<y(+5)>Can be renewed by supply trucks\n\nBuilding material left: (%1%/%2%)"
+msgid "<f(arial_narrow)s(15)c(dea968)e(shadow)>Building Material<f(anka)c(eeeeee)s(12)y(+5)>\nUsed to construct engineer emplacements.\n<y(+5)>Can be renewed by supply trucks\n\nBuilding material left: (%1%/%2%)"
 msgstr ""
 
 msgctxt "crewbar/gunner1"

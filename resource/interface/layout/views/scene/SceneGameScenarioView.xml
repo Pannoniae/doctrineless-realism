@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../../LayoutSchema.xsd"
+        version="1"
+        skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+               
+                <DockPanel id="shutter_container">
+                    <Visible value="false"/>
+                    <Children>
+                        <StackPanel placement="top">
+                            <MaxSize y="80"/>
+                            <PreferredSize y="80"/>
+                            <Children>
+                                <DialogRef refid="gui_scenario_background" />
+                                <FlowPanel direction="horizontal" halign="right" valign="center">
+                                    <Insets right="30" top="5" bottom="5"/>
+                                    <Children>
+                                        <FlowPanel direction="horizontal" halign="left" valign="center">
+                                            <Children>
+                                                <MenuTextButton id="scenario_button">
+                                                    <Skinner value="light"/>
+                                                    <Text value="Continue" key="button/continue" />
+                                                </MenuTextButton>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </FlowPanel>
+                            </Children>
+                        </StackPanel>
+                        <StackPanel placement="center">
+                            <Children>
+                                <StackPanel id="video_container">
+									<Visible value="false"/>
+								</StackPanel>
+								<FlowPanel direction="vertical" justify="false" halign="center" gap="5">
+                                    <Insets top="100" />
+                                    <PreferredSize x="450" />
+                                    <Children>
+                                        <!--<DialogRef refid="scene_timer" />-->
+                                        <!--<DialogRef refid="preparation_text" enableif="game.multiplayer" />-->
+                                        <!--<DialogRef refid="game_hint" />-->
+                                        <DialogRef refid="objective_hint" />
+                                        <DialogRef refid="objective_progress"/>
+                                        <!--<DialogRef refid="pause_hint" />-->
+                                        <!--<DialogRef refid="notification_hint" />-->
+                                        <DialogRef refid="slowdown_hint" enableif="game.multiplayer" />
+                                        <DialogRef refid="slow_hint" enableif="game.multiplayer" />
+                                        <DialogRef refid="outofsync_hint" enableif="game.multiplayer" />
+                                        <DialogRef refid="waiting_hint" enableif="game.multiplayer" />
+                                    </Children>
+                                </FlowPanel>
+                            </Children>
+                        </StackPanel>
+                        <StackPanel placement="bottom">
+                            <MaxSize y="80"/>
+                            <PreferredSize y="80"/>
+                            <Children>
+                                <DialogRef refid="gui_scenario_background"/>
+								<FlowPanel direction="horizontal" halign="center" valign="center">
+									<MaxSize x="1350" y="75"/>
+									<PreferredSize y="75"/>
+									<Children>
+										<WrapText id="text_container"/>
+									</Children>
+								</FlowPanel>
+                            </Children>
+                        </StackPanel>
+                    </Children>
+                </DockPanel>
+				<Panel id="misc_dialogs_container">
+					<!--
+					DO NOT REMOVE. Container for misc scene dialogs
+					 -->
+				</Panel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../../LayoutSchema.xsd"
+        version="1"
+        skin="main_menu_dark_skin">
+    <Content>
+        <StackPanel>
+            <Children>
+                <FlowPanel halign="center" valign="top" gap="10">
+                    <Insets top="10"/>
+                    <Alphabuffer value="true"/>
+                    <Children>
+                        <DialogRef refid="gui_gc_gamebar_selector" enableif="gui.modern and game.multiplayer">
+                            <MinSize x="600" y="60"/>
+                        </DialogRef>
+                        <FlowPanel halign="center">
+                            <Children>
+                                <DialogRef refid="visionmode_view"/>
+                            </Children>
+                        </FlowPanel>
+<!--						<FlowPanel direction="vertical" halign="center" enableif="gui.useManualChargeBar">-->
+<!--							<Children>-->
+<!--								<DialogRef refid="gui_gc_controlbar"/>-->
+<!--							</Children>-->
+<!--						</FlowPanel>-->
+                        <FlowPanel direction="vertical" justify="false" halign="center" gap="5">
+                            <Insets top="80"/>
+                            <MinSize y="40"/>
+                            <Children>
+                                <BackgroundPanel backgroundResource="/interface/skin/game/frame/bkg/task_background" placement="center" >
+                                    <Insets right="75" left="75"/>
+                                    <Alphabuffer value="true"/>
+                                    <Children>
+                                        <DialogRef refid="objective_hint"/>
+                                    </Children>
+                                </BackgroundPanel>
+                                <DialogRef refid="scene_timer" />
+                                <DialogRef refid="preparation_text" enableif="game.multiplayer" />
+                                <DialogRef refid="game_hint" />
+                                <DialogRef refid="objective_progress"/>
+                                <DialogRef refid="pause_hint" />
+                                <DialogRef refid="slowdown_hint" enableif="game.multiplayer" />
+                                <DialogRef refid="slow_hint" enableif="game.multiplayer" />
+                                <DialogRef refid="outofsync_hint" enableif="game.multiplayer" />
+                                <DialogRef refid="waiting_hint" enableif="game.multiplayer" />
+                            </Children>
+                        </FlowPanel>
+                    </Children>
+                </FlowPanel>
+                <Panel id="minimap_layer" layout="overlay" enableif="!gui.editor">
+                    <Children>
+                        <DialogRef refid="gui_minimap"/>
+                    </Children>
+                </Panel>
+                <DialogRef refid="crosshair_view"/>
+                <FlowPanel halign="center" valign="top">
+                    <Insets bottom="5"/>
+                    <Children>
+                        <DialogRef refid="compass"/>
+                    </Children>
+                </FlowPanel>
+                <FlowPanel halign="left" valign="bottom">
+                    <Insets left="25" bottom="25"/>
+                    <PreferredSize x="400" y="330"/>
+                    <Children>
+                        <BackgroundPanel backgroundResource="/interface/scene/vehicle_view/view_background" >
+                            <Alphabuffer value="true"/>
+                            <Children>
+                                <DialogRef refid="vehicle_view">
+                                    <PreferredSize x="400" y="330"/>
+                                </DialogRef>
+                            </Children>
+                    </BackgroundPanel>
+                    </Children>
+                </FlowPanel>
+                <FlowPanel halign="left" valign="bottom">
+                    <Insets  bottom="130"/>
+                    <Children>
+                        <DialogRef refid="human_view">
+                            <PreferredSize x="450" y="260"/>
+                        </DialogRef>
+                    </Children>
+                </FlowPanel>
+                <FlowPanel halign="right" valign="bottom">
+                    <Insets bottom="75" right="25"/>
+                    <Children>
+                        <BackgroundPanel backgroundResource="/interface/scene/vehicle_view/background_meter" sizeMode="fromContent">
+                            <Insets right="10"/>
+                            <Children>
+                                    <DialogRef refid="crew_view"/>
+                                    <DialogRef refid="squad_view"/>
+                            </Children>
+                        </BackgroundPanel>
+                    </Children>
+                </FlowPanel>
+<!--                <FlowPanel halign="right" valign="bottom">-->
+<!--                    <Insets bottom="75" right="50"/>-->
+<!--                    <Children>-->
+<!--                        <BackgroundPanel backgroundResource="/interface/scene/vehicle_view/background_meter" sizeMode="fromContent">-->
+<!--                            <Insets right="10" bottom="32"/>-->
+<!--                            <Children>-->
+<!--                            </Children>-->
+<!--                        </BackgroundPanel>-->
+<!--                    </Children>-->
+<!--                </FlowPanel>-->
+                <FlowPanel halign="center" valign="bottom">
+                    <Insets bottom="600"/>
+                    <Children>
+                        <DialogRef refid="notification_hint" />
+                    </Children>
+                </FlowPanel>
+                <FlowPanel halign="center" valign="bottom" direction="vertical">
+                    <Insets bottom="35"/>
+                    <Children>
+                        <DialogRef refid="weapon_view"/>
+                    </Children>
+                </FlowPanel>
+                <!-- middle top notifications area -->
+                <StackPanel>
+                    <Insets top="120" />
+                    <Children>
+                        <Panel id="misc_dialogs" layout="overlay">
+                            <Children>
+                                <DialogRef refid="objectives" shared="scene" />
+                                <DialogRef refid="message_history" shared="scene" />
+                                <DialogRef refid="event_history" shared="scene" />
+                                <!-- <DialogRef refid="gui_mp_gamechat" enableif="game.multiplayer" /> -->
+                                <DialogRef refid="messagewheel" enableif="game.multiplayer" />
+                                <DialogRef refid="notificationwheel" enableif="game.multiplayer" />
+                                <!-- <DialogRef refid="manual_control_icon" enableif="game.multiplayer" /> -->
+                                <!-- <DialogRef refid="paint_threats" enableif="game.multiplayer" /> -->
+                            </Children>
+                        </Panel>
+                    </Children>
+                </StackPanel>
+                <Panel id="scene_view_misc" layout="overlay">
+                    <Ables mouse="false"/>
+                    <Children>
+                        <DialogRef refid="damage_report">
+                         <Text textFormat="f(roboto_mono)m(u)"/>
+                        </DialogRef>
+                    </Children>
+                </Panel>
+                <StackPanel>
+                    <Insets top="10"/>
+                    <Children>
+                        <Panel layout="overlay">
+                            <Children>
+                                <DialogRef refid="gui_event_log" skin="default_skin" shared="scene" />
+                            </Children>
+                        </Panel>
+                    </Children>
+                </StackPanel>
+				<Panel id="misc_dialogs_container">
+					<!--
+					DO NOT REMOVE. Container for misc scene dialogs
+					 -->
+				</Panel>
+            </Children>
+        </StackPanel>
+    </Content>
+</Layout>

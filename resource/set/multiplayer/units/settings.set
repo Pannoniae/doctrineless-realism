@@ -30,8 +30,8 @@
 
 (define "single_unit"
 	{charge
-		{delay %cd}
-		{interval %ci}
+		{delay %cd}			;// adjusts the initial delay only
+		{interval %ci}		;// adjusts the interval only
 	}
 	{tags "all %t"}
 	{group "%g"}
@@ -42,11 +42,23 @@
 	{cp %cp}
 )
 
-(define "emplacement"
-	("single_unit" cd(%cd) ci(%ci) t(%t %side %year) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
-	{content "* ( mp/%side/%period/%crew )"}
+(define "emplacement_generic"
+	("single_unit" cd(%cd) ci(%ci) t(%t ger fin rus usa frontlines emplacement) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	;{content "* ( mp/%side/%period/%crew )"}
+	{content "*"}
 	{conditions "%condition"}
 	{action "%action"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
+)
+(define "emplacement"
+	("single_unit" cd(%cd) ci(%ci) t(%t %side %year frontlines emplacement) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	;{content "* ( mp/%side/%period/%crew )"}
+	{content "*"}
+	{conditions "%condition"}
+	{action "%action"}
+	{squad_cost_factor 1}
+	{round_multiple 5.0}
 )
 
 ; vehicle with one type of crew, crew adds to MP

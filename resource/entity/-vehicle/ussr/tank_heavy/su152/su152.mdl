@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 13.08.2023 09:00:41
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_heavy\su152\SU-152.max
+;Exported by:	 Robin
+;Date:			 17.11.2024 14:24:31
+;File:			 E:\SVN GoH RUS 3D models\vehicles\tank_heavy\su152\SU-152.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -892,16 +892,6 @@
 	{bone "ammo4"}
 	{Position 0 	 0 	 3.6896}
 }
-{volume "armor1"
-	{polyhedron "armor1.vol"}
-	{bone "body"}
-	{matrix34
-		-1 	 0 	 0
-		0 	 0 	 1
-		0 	 1 	 0
-		63.8105 	 -0.001 	 3.1623
-	}
-}
 {volume "armor2"
 	{polyhedron "armor2.vol"}
 	{bone "body"}
@@ -1044,6 +1034,16 @@
 		0 	 0 	 1
 		0 	 1 	 0
 		4.7035 	 6.5022 	 10.6029
+	}
+}
+{volume "hull_armor1"
+	{polyhedron "hull_armor1.vol"}
+	{bone "body"}
+	{matrix34
+		-1 	 0 	 0
+		0 	 0 	 1
+		0 	 1 	 0
+		63.8105 	 -0.001 	 3.1623
 	}
 }
 {volume "mantlet1"

@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 05.07.2022 21:09:42
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\tank_heavy\kv1_1940\kv-1_1940_f32_export.max
+;Exported by:	 Robin
+;Date:			 17.11.2024 01:02:32
+;File:			 E:\SVN GoH RUS 3D models\vehicles\tank_heavy\kv1_1940\kv-1_1940_f32_export.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -801,31 +801,6 @@
 		-7.3397 	 12.0452 	 5.1487
 	}
 }
-{volume "armor1"
-	{polyhedron "armor1.vol"}
-	{bone "body"}
-	{Position 60.7098 	 -0.0077 	 -2.7002}
-}
-{volume "armor2"
-	{box 0.503525 5.84089 33.7531}
-	{bone "armor2"}
-	{matrix34
-		-0.9135 	 0 	 0.4067
-		0.4067 	 0 	 0.9135
-		0 	 1 	 0
-		-0.0298 	 -0.0098 	 -0.0559
-	}
-}
-{volume "armor3"
-	{box 34.5276 0.589831 7.7473}
-	{bone "body"}
-	{matrix34
-		0 	 -1 	 0
-		0.8572 	 0 	 0.515
-		-0.515 	 0 	 0.8572
-		46.0041 	 0.0054 	 9.3306
-	}
-}
 {volume "armor4"
 	{box 20.105 1.21111 0.802601}
 	{bone "body"}
@@ -954,6 +929,31 @@
 		0.8572 	 0 	 0.515
 		-0.515 	 0 	 0.8572
 		46.5057 	 0.0054 	 8.4171
+	}
+}
+{volume "hull_armor1"
+	{polyhedron "hull_armor1.vol"}
+	{bone "body"}
+	{Position 60.7098 	 -0.0077 	 -2.7002}
+}
+{volume "hull_armor2"
+	{box 0.503525 5.84089 33.7531}
+	{bone "armor2"}
+	{matrix34
+		-0.9135 	 0 	 0.4067
+		0.4067 	 0 	 0.9135
+		0 	 1 	 0
+		-0.0298 	 -0.0098 	 -0.0559
+	}
+}
+{volume "hull_armor3"
+	{box 34.5276 0.589831 7.7473}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0.8572 	 0 	 0.515
+		-0.515 	 0 	 0.8572
+		46.0041 	 0.0054 	 9.3306
 	}
 }
 {volume "shield3"

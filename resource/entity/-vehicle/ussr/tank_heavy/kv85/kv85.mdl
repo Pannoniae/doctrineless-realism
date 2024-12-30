@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 15.09.2022 19:45:18
-;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_rus\vehicles\tank_heavy\KV85\kv-85.max
+;Exported by:	 Robin
+;Date:			 17.11.2024 14:16:07
+;File:			 E:\SVN GoH RUS 3D models\vehicles\tank_heavy\KV85\kv-85.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -820,11 +820,6 @@
 		2.7566 	 0 	 -1.0582
 	}
 }
-{volume "armor"
-	{polyhedron "armor.vol"}
-	{bone "body"}
-	{Position 63.6892 	 0.0504 	 -0.6634}
-}
 {volume "barrel1"
 	{cylinder 4.28727 2.07805}
 	{bone "gun_rot"}
@@ -984,6 +979,11 @@
 	{polyhedron "hole2.vol"}
 	{bone "wheelsl"}
 	{Position 2.342 	 5.7878 	 0.3844}
+}
+{volume "hull_armor"
+	{polyhedron "hull_armor.vol"}
+	{bone "body"}
+	{Position 63.6892 	 0.0504 	 -0.6634}
 }
 {volume "trackleft1"
 	{cylinder 6.79134 6.29921}

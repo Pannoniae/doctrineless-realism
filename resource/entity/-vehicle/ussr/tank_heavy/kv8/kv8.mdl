@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 08.09.2022 08:50:17
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus\vehicles\tank_heavy\kv8\kv8.max
+;Exported by:	 Robin
+;Date:			 17.11.2024 13:49:27
+;File:			 E:\SVN GoH RUS 3D models\vehicles\tank_heavy\kv8\kv8.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -786,31 +786,6 @@
 		0 	 0 	 0
 	}
 }
-{volume "armor1"
-	{polyhedron "armor1.vol"}
-	{bone "body"}
-	{Position 62.9616 	 -0.0077 	 4.5314}
-}
-{volume "armor2"
-	{box 0.503525 5.84089 33.7531}
-	{bone "body"}
-	{matrix34
-		-0.9135 	 0 	 0.4067
-		0.4067 	 0 	 0.9135
-		0 	 1 	 0
-		63.6311 	 -0.0098 	 1.5548
-	}
-}
-{volume "armor3"
-	{box 34.7287 0.589831 9.68412}
-	{bone "body"}
-	{matrix34
-		0 	 -1 	 0
-		0.8572 	 0 	 0.515
-		-0.515 	 0 	 0.8572
-		48.142 	 -0.0802 	 16.7476
-	}
-}
 {volume "armor4"
 	{box 20.105 1.21111 0.802601}
 	{bone "body"}
@@ -849,6 +824,16 @@
 		0 	 0 	 1
 		0 	 -1 	 0
 		10.5793 	 -19.1182 	 19.2348
+	}
+}
+{volume "armor8"
+	{box 34.7287 0.589831 2.19055}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0.8594 	 0 	 0.5112
+		-0.5112 	 0 	 0.8594
+		46.2282 	 0.0054 	 19.9041
 	}
 }
 {volume "barrel1"
@@ -947,13 +932,38 @@
 	}
 }
 {volume "hole4"
-	{box 7.29303 1.01345 6.13463}
+	{box 7.29303 1.01345 6.91266}
 	{bone "body"}
 	{matrix34
 		0 	 -1 	 0
 		0.8572 	 0 	 0.515
 		-0.515 	 0 	 0.8572
-		48.7574 	 0.0054 	 15.6487
+		48.9967 	 0.0054 	 15.3361
+	}
+}
+{volume "hull_armor1"
+	{polyhedron "hull_armor1.vol"}
+	{bone "body"}
+	{Position 62.9616 	 -0.0077 	 4.5314}
+}
+{volume "hull_armor2"
+	{box 0.503525 5.84089 33.7531}
+	{bone "body"}
+	{matrix34
+		-0.9135 	 0 	 0.4067
+		0.4067 	 0 	 0.9135
+		0 	 1 	 0
+		63.6311 	 -0.0098 	 1.5548
+	}
+}
+{volume "hull_armor3"
+	{box 34.7287 0.589831 7.7825}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0.8572 	 0 	 0.515
+		-0.515 	 0 	 0.8572
+		48.6087 	 0.0054 	 15.9742
 	}
 }
 {volume "trackleft1"

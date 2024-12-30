@@ -1,6 +1,8 @@
 Purchases["late.ger"] = {
 	{Repeat = 0,  --infinite
 		Units = { 
+			---[====[
+			-- Infantry Squads
 				-- Old Squads
 				{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_lw_fusilier_late(ger)"},
 				{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_recon_late(ger)"},
@@ -36,6 +38,7 @@ Purchases["late.ger"] = {
 
 				{priority = 1.0, type = {"Class2", "Cannon", "MG",}, unit = "mg42_lafette"},
 				{priority = 1.0, type = {"Class2", "Cannon", "AA",}, unit = "20mm_flak30"},
+				{priority = 1.0, type = {"Class2", "Cannon", "AA",}, unit = "20mm_flakvierling38"},
 
 				{priority = 1.0, type = {"Class3", "Cannon", "AT",}, unit = "28mm_pzb41"},
 				{priority = 1.0, type = {"Class2", "Cannon", "AT",}, unit = "37mm_pak36_late"},
@@ -45,6 +48,7 @@ Purchases["late.ger"] = {
 				{priority = 1.0, type = {"Class1", "Cannon", "Support",}, unit = "75mm_leig18"},
 				{priority = 1.0, type = {"Class1", "Cannon", "Mortar",}, unit = "80mm_sgrw34"},
 				{priority = 1.0, type = {"Class3", "Cannon", "Artillery",}, unit = "105mm_lefh18"},
+				{priority = 1.0, type = {"Class3", "Cannon", "Artillery",}, unit = "105mm_lefh18_40"},
 				--]]
 
 			-- Wheeled vehicles
@@ -54,7 +58,7 @@ Purchases["late.ger"] = {
 				--{priority = 1.0, type = {"Class1", "Vehicle", "AA",}, unit = "blitz3_6_flak30"},
 
 				{priority = 1.0, type = {"Class2", "Armored", "MG",}, unit = "sdkfz221"},
-				{priority = 1.0, type = {"Class3", "Armored", "AA",}, unit = "sdkfz222a"},
+				{priority = 1.0, type = {"Class3", "Armored", "AA",}, unit = "sdkfz222b"},
 				{priority = 1.0, type = {"Class1", "Armored", "AA",}, unit = "sdkfz231"},
 
 				--{priority = 1.0, type = {"Class", "Vehicle", "Unarmed", "Transport",}, unit = "blitz3_6"},

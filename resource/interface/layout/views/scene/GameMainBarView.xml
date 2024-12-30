@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Layout xmlns="http://www.digitalmindsoft.eu/xmllayout"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.digitalmindsoft.eu/xmllayout ../../../LayoutSchema.xsd"
+        version="1" skin="main_menu_dark_skin">
+    <Content>
+		 <StackPanel placement="left" >
+		 <Insets bottom="0"/>
+		</StackPanel>
+	        <DockPanel id="bottom_bar_root" hgap="1">
+            <Insets left="0" right="0"/>
+            <Children>
+				<FlowPanel placement="left" direction="horizontal" valign="bottom" gap="0">
+                    <Insets bottom="0"/>
+                    <Children>
+                        <SceneMenuPanel gap="0"  direction="vertical" >
+                           <Item action="gc_cp_state_highlight_stuff"/>
+                        </SceneMenuPanel>
+                    </Children>
+                </FlowPanel>
+                  <StackPanel placement="center" id="bottom_bar_middle_area">
+                    <Children>
+                        <DockPanel>
+                            <Children>
+                                <StackPanel placement="left">
+                                    <Children>
+                                        <StackPanel placement="left">
+                                            <MinSize x="400"/>
+                                            <Insets bottom="0" />
+                                            <Children>
+                                                <FlowPanel direction="vertical" valign="bottom" halign="stretch">
+                                                    <Children>
+                                                        <DialogRef refid="gui_gc_human_bar" shared="scene" />
+                                                        <DialogRef refid="gui_gc_vehicle_bar" shared="scene" />
+                                                    </Children>
+                                                </FlowPanel>
+                                            </Children>
+                                        </StackPanel>
+                                    </Children>
+                                </StackPanel>
+                                <StackPanel placement="center">
+                                    <Insets bottom="10"/>
+                                    <Children>
+                                        <FlowPanel direction="vertical" halign="center" valign="bottom" gap="8">
+                                            <Children>
+                                                <SceneGameFrontBar id="gui_gc_frontbar" cellCount="15" cellSize="42" />
+                                                <StackPanel>
+                                                    <Children>
+                                                        <DialogRef refid="gui_spacer_horizontal2"/>
+                                                    </Children>
+                                                </StackPanel>
+                                                <FlowPanel halign="center">
+                                                    <MinSize y="40"/>
+                                                    <Children>
+                                                        <DialogRef refid="gui_gc_panel_squad"/>
+                                                        <DialogRef refid="gui_gc_panel_crew"/>
+                                                    </Children>
+                                                </FlowPanel>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </StackPanel>
+                                <StackPanel placement="right">
+                                    <Children>
+                                        <FlowPanel placement="center" halign="right" valign="bottom">
+                                            <MinSize x="180"/>
+                                            <Insets bottom="20"/>
+                                            <Children>
+                                                <SceneGameActionBar cellSize="45"/>
+                                            </Children>
+                                        </FlowPanel>
+                                    </Children>
+                                </StackPanel>
+                            </Children>
+                        </DockPanel>
+                    </Children>
+                </StackPanel>
+                <FlowPanel placement="right" direction="horizontal" valign="bottom" gap="1">
+                    <Insets bottom="20"/>
+                    <Children>
+                        <SceneMenuPanel gap="1" direction="vertical" itemSize="64x128" >
+                            <Item action="gc_cp_state_message_history" />
+                            <Item action="gc_cp_state_highlight_corpses" />
+                            <Item action="gc_cp_state_highlight_silhouettes"/>
+                            <Item action="gc_cp_state_highlight_stuff"/>
+                            <Item action="gc_cp_state_objectives" />
+                            <Item action="gc_cp_game_menu" />
+                        </SceneMenuPanel>
+                    </Children>
+                </FlowPanel>
+				</Children>
+        </DockPanel>
+    </Content>
+</Layout>

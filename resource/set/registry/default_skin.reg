@@ -149,6 +149,6 @@
 	}
 	{statusbar
 		{height 20}
-		{text_style "f(roboto_mono)s(8)c(200 200 200)"}
+		{text_style "f(arial_hq)s(8)c(200 200 200)"}
 	}
 }

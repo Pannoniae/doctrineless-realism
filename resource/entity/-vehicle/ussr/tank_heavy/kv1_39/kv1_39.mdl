@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 13.08.2023 09:18:02
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_rus_updated\vehicles\tank_heavy\kv1_1939\kv1_1939.max
+;Exported by:	 Robin
+;Date:			 17.11.2024 11:09:53
+;File:			 E:\SVN GoH RUS 3D models\vehicles\tank_heavy\kv1_1939\kv1_1939.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -738,11 +738,6 @@
 		-2.8643 	 12.0452 	 5.1487
 	}
 }
-{volume "armor"
-	{polyhedron "armor.vol"}
-	{bone "body"}
-	{Position 62.1813 	 -0.0077 	 -3.3656}
-}
 {volume "barrel1"
 	{polyhedron "barrel1.vol"}
 	{bone "gun_rot"}
@@ -812,6 +807,11 @@
 	{polyhedron "hole2.vol"}
 	{bone "wheelsl"}
 	{Position -4.3094 	 4.8635 	 2.6233}
+}
+{volume "hull_armor"
+	{polyhedron "hull_armor.vol"}
+	{bone "body"}
+	{Position 62.1813 	 -0.0077 	 -3.3656}
 }
 {volume "trackleft1"
 	{cylinder 6.63929 12.6088}

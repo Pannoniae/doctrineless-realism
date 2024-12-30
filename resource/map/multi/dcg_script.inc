@@ -6751,6 +6751,44 @@
 						{time 1.1}
 					}
 					{"switch"
+						{"case"
+							{condition
+								{type entities}
+								{selector
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag enemy_air}
+											}
+										}
+										{include
+											{tag
+												{tag altitude_high}
+											}
+										}
+									}
+								}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"air_attack"
+								{selector
+									{ignore_captured_by_user 0}
+									{tag enemy_air}
+									{type vehicle}
+									{state inhabited}
+								}
+								{drop "orders sensor senseless"}
+								{enemies
+									{ignore_captured_by_user 0}
+									{tag ai_air_target}
+								}
+								{attack_altitude 58}
+							}
+						}						
 						{"default"
 							{"delay"
 								{time 0.1}
@@ -7969,7 +8007,7 @@
 							{"objective_progress"
 								{set 0}
 								{add 0}
-								{title "dcg eid error 01 - enemyid above 4!"}
+								{title "mission/multi/dcg_error01"}
 							}
 							{"delay"
 								{time 5}
@@ -7978,7 +8016,7 @@
 								{hide}
 								{set 0}
 								{add 0}
-								{title "dcg eid error 01 - enemyid above 4!"}
+								{title "mission/multi/dcg_error01"}
 							}
 						}
 					}
@@ -8083,7 +8121,7 @@
 							{"objective_progress"
 								{set 0}
 								{add 0}
-								{title "dcg side 01 error - report if you see this"}
+								{title "mission/multi/dcg_error02"}
 							}
 							{"delay"
 								{time 30}
@@ -8092,7 +8130,7 @@
 								{hide}
 								{set 0}
 								{add 0}
-								{title "dcg side 01 error - report if you see this"}
+								{title "mission/multi/dcg_error02"}
 							}
 						}
 					}
@@ -10436,9 +10474,6 @@
 									}
 									{exclude
 										{tag
-											{tag user_ai}
-										}
-										{tag
 											{tag _bot}
 										}
 										{tag
@@ -10479,9 +10514,6 @@
 									}
 								}
 								{exclude
-									{tag
-										{tag user_ai}
-									}
 									{tag
 										{tag _ai}
 									}
@@ -16738,77 +16770,11 @@
 			}
 			{"minimap/arrows"
 				{condition
-					{expression "(1 & 2 & 4) | (1 & 3 & 4)"}
 					{terms
 						{"1.event"
 							{id "init"}
 						}
-						{"2.entities"
-							{selector
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{zone
-											{zone "a_1"}
-										}
-										{zone
-											{zone "a_2"}
-										}
-										{zone
-											{zone "a_3"}
-										}
-										{zone
-											{zone "a_4"}
-										}
-										{zone
-											{zone "b_1"}
-										}
-										{zone
-											{zone "b_2"}
-										}
-										{zone
-											{zone "b_3"}
-										}
-										{zone
-											{zone "b_4"}
-										}
-									}
-									{include
-										{tag
-											{tag _bot}
-										}
-										{state
-											{state operatable}
-										}
-									}
-									{exclude
-										{tag
-											{tag air_vehicle}
-										}
-										{tag
-											{tag cmp_def}
-										}
-										{relation
-											{relation ally}
-											{player "0"}
-										}
-										{state
-											{state user_control}
-										}
-									}
-								}
-							}
-						}
-						{"3.entities"
-							{selector
-								{ignore_captured_by_user 0}
-								{tag _user}
-								{zone "gamezone"}
-								{state operatable}
-							}
-						}
-						{"4.cmp_i"
+						{"2.cmp_i"
 							{var "dcg_on$"}
 							{op ">"}
 							{value 0}
@@ -16822,46 +16788,10 @@
 					{"switch"
 						{"case"
 							{condition
-								{type entities}
-								{selector
-									{source advanced}
-									{ignore_captured_by_user 0}
-									{group
-										{select
-											{zone
-												{zone "b_1"}
-											}
-											{zone
-												{zone "b_2"}
-											}
-											{zone
-												{zone "b_3"}
-											}
-											{zone
-												{zone "b_4"}
-											}
-										}
-										{include
-											{tag
-												{tag _bot}
-											}
-											{state
-												{state operatable}
-											}
-										}
-										{exclude
-											{zone
-												{zone "combat"}
-											}
-											{state
-												{state inactive}
-											}
-											{state
-												{state user_control}
-											}
-										}
-									}
-								}
+								{type cmp_i}
+								{var "bots_spawnside$"}
+								{op "=="}
+								{value 2}
 							}
 							{"delay"
 								{time 0.1}
@@ -16885,46 +16815,10 @@
 						}
 						{"case"
 							{condition
-								{type entities}
-								{selector
-									{source advanced}
-									{ignore_captured_by_user 0}
-									{group
-										{select
-											{zone
-												{zone "a_1"}
-											}
-											{zone
-												{zone "a_2"}
-											}
-											{zone
-												{zone "a_3"}
-											}
-											{zone
-												{zone "a_4"}
-											}
-										}
-										{include
-											{tag
-												{tag _bot}
-											}
-											{state
-												{state operatable}
-											}
-										}
-										{exclude
-											{zone
-												{zone "combat"}
-											}
-											{state
-												{state inactive}
-											}
-											{state
-												{state user_control}
-											}
-										}
-									}
-								}
+								{type cmp_i}
+								{var "bots_spawnside$"}
+								{op "=="}
+								{value 1}
 							}
 							{"delay"
 								{time 0.1}
@@ -16947,123 +16841,6 @@
 							}
 						}
 						{"default"}
-					}
-					{"delay"
-						{time 0.2}
-					}
-					{"switch"
-						{"case"
-							{condition
-								{type cmp_i}
-								{var "arrows$"}
-								{op "=="}
-								{value 0}
-							}
-							{"delay"
-								{time 0.1}
-							}
-							{"switch"
-								{"case"
-									{condition
-										{type entities}
-										{selector
-											{source advanced}
-											{ignore_captured_by_user 0}
-											{group
-												{select
-													{zone
-														{zone "b_1"}
-													}
-													{zone
-														{zone "b_2"}
-													}
-													{zone
-														{zone "b_3"}
-													}
-													{zone
-														{zone "b_4"}
-													}
-												}
-												{include
-													{tag
-														{tag _user}
-													}
-												}
-											}
-										}
-									}
-									{"delay"
-										{time 0.1}
-									}
-									{"set_i"
-										{var "user_team$"}
-										{op "="}
-										{value 2}
-									}
-									{"set_i"
-										{var "arrows$"}
-										{op "="}
-										{value 1}
-									}
-									{"delete"
-										{selector
-											{ignore_captured_by_user 0}
-											{tag arrow_enemy_b}
-										}
-									}
-								}
-								{"case"
-									{condition
-										{type entities}
-										{selector
-											{source advanced}
-											{ignore_captured_by_user 0}
-											{group
-												{select
-													{zone
-														{zone "a_1"}
-													}
-													{zone
-														{zone "a_2"}
-													}
-													{zone
-														{zone "a_3"}
-													}
-													{zone
-														{zone "a_4"}
-													}
-												}
-												{include
-													{tag
-														{tag _user}
-													}
-												}
-											}
-										}
-									}
-									{"delay"
-										{time 0.1}
-									}
-									{"set_i"
-										{var "user_team$"}
-										{op "="}
-										{value 1}
-									}
-									{"set_i"
-										{var "arrows$"}
-										{op "="}
-										{value 2}
-									}
-									{"delete"
-										{selector
-											{ignore_captured_by_user 0}
-											{tag arrow_enemy_a}
-										}
-									}
-								}
-								{"default"}
-							}
-						}
 					}
 					{"delay"
 						{time 0.5}
@@ -17119,7 +16896,7 @@
 									{"objective_progress"
 										{set 0}
 										{add 0}
-										{title "dcg arrow error - report if you see this"}
+										{title "mission/multi/dcg_error03"}
 									}
 									{"delay"
 										{time 10}
@@ -17128,12 +16905,514 @@
 										{hide}
 										{set 0}
 										{add 0}
-										{title "dcg arrow error - report if you see this"}
+										{title "mission/multi/dcg_error03"}
 									}
 									{"delay"
 										{time 0.1}
 									}
 								}
+							}
+						}
+					}
+				}
+			}
+			{"dcg/def/show"
+				{condition
+					{expression "!1 & 2 & 3 & 4"}
+					{terms
+						{"1.event"
+							{id "talk_on"}
+						}
+						{"2.cmp_i"
+							{var "user_is_defender$"}
+							{op "=="}
+							{value 1}
+						}
+						{"3.cmp_i"
+							{var "arrows$"}
+							{op ">"}
+							{value 0}
+						}
+						{"4.entities"
+							{selector
+								{ignore_captured_by_user 0}
+								{tag player}
+								{zone "gamezone"}
+								{type human}
+								{state operatable}
+							}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 1}
+					}
+					{"set_i"
+						{var "display$"}
+						{op "="}
+						{value 4}
+					}
+					{"event"
+						{event "talk_on"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 1}
+					}
+					{"sound"
+						{name "interface/morse"}
+					}
+					{"delay"
+						{time 6}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "bot_army$"}
+								{op "=="}
+								{value 2}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"talk"
+								{selector
+									{ignore_captured_by_user 0}
+									{amount 1
+									}
+									{tag player}
+									{zone "gamezone"}
+									{type human}
+									{state operatable}
+								}
+								{text "mission/multi/display_defense_ger"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "bot_army$"}
+								{op "=="}
+								{value 3}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"talk"
+								{selector
+									{ignore_captured_by_user 0}
+									{amount 1
+									}
+									{tag player}
+									{zone "gamezone"}
+									{type human}
+									{state operatable}
+								}
+								{text "mission/multi/display_defense_fin"}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "bot_army$"}
+								{op "=="}
+								{value 4}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"talk"
+								{selector
+									{ignore_captured_by_user 0}
+									{amount 1
+									}
+									{tag player}
+									{zone "gamezone"}
+									{type human}
+									{state operatable}
+								}
+								{text "mission/multi/display_defense_usa"}
+							}
+						}
+						{"default"
+							{"delay"
+								{time 0.1}
+							}
+							{"talk"
+								{selector
+									{ignore_captured_by_user 0}
+									{amount 1
+									}
+									{tag player}
+									{zone "gamezone"}
+									{type human}
+									{state operatable}
+								}
+								{text "mission/multi/display_defense_rus"}
+							}
+						}
+					}
+					{"delay"
+						{time 10}
+					}
+					{"event"
+						{event "talk_on"}
+						{mode reset}
+						{delay 0}
+					}
+					{"set_i"
+						{var "display$"}
+						{op "="}
+						{value 0}
+					}
+				}
+			}
+			{"dcg/def/display_a"
+				{condition
+					{terms
+						{"1.cmp_i"
+							{var "display$"}
+							{op ">"}
+							{value 0}
+						}
+						{"2.cmp_i"
+							{var "arrows$"}
+							{op "=="}
+							{value 1}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"spawn"
+						{entity "conquest_spawn_helper"}
+						{waypoint "0"}
+					}
+					{"set_i"
+						{var "display$"}
+						{op "-"}
+						{value 1}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag spawn_a}
+									}
+								}
+								{exclude
+									{tag
+										{tag _displayed}
+									}
+								}
+							}
+							{amount 1
+							}
+						}
+						{tag_add _d}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag conquest_spawn_helper}
+									}
+								}
+								{exclude
+									{tag
+										{tag _placed}
+									}
+								}
+							}
+						}
+						{tag_add _p}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"placement"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag conquest_spawn_helper}
+									}
+								}
+								{include
+									{tag
+										{tag _p}
+									}
+								}
+							}
+						}
+						{target
+							{ignore_captured_by_user 0}
+							{tag _d}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"effect"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag conquest_spawn_helper}
+									}
+								}
+								{include
+									{tag
+										{tag _p}
+									}
+								}
+							}
+						}
+						{effect start}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag _d}
+						}
+						{tag_add _displayed}
+						{tag_remove _d}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag _p}
+						}
+						{tag_add _placed}
+						{tag_remove _p}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "display$"}
+								{op "<<="}
+								{value 0}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"entity_state"
+								{selector
+									{ignore_captured_by_user 0}
+									{tag _displayed}
+								}
+								{tag_remove _displayed}
+							}
+							{"entity_state"
+								{selector
+									{ignore_captured_by_user 0}
+									{tag _placed}
+								}
+								{tag_remove _placed}
+							}
+						}
+						{"default"
+							{"delay"
+								{time 0.1}
+							}
+							{"trigger"
+								{name "dcg/def/display_a"}
+							}
+						}
+					}
+				}
+			}
+			{"dcg/def/display_b"
+				{condition
+					{terms
+						{"1.cmp_i"
+							{var "display$"}
+							{op ">"}
+							{value 0}
+						}
+						{"2.cmp_i"
+							{var "arrows$"}
+							{op "=="}
+							{value 2}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 0.1}
+					}
+					{"spawn"
+						{entity "conquest_spawn_helper"}
+						{waypoint "0"}
+					}
+					{"set_i"
+						{var "display$"}
+						{op "-"}
+						{value 1}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag spawn_b}
+									}
+								}
+								{exclude
+									{tag
+										{tag _displayed}
+									}
+								}
+							}
+							{amount 1
+							}
+						}
+						{tag_add _d}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag conquest_spawn_helper}
+									}
+								}
+								{exclude
+									{tag
+										{tag _placed}
+									}
+								}
+							}
+						}
+						{tag_add _p}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"placement"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag conquest_spawn_helper}
+									}
+								}
+								{include
+									{tag
+										{tag _p}
+									}
+								}
+							}
+						}
+						{target
+							{ignore_captured_by_user 0}
+							{tag _d}
+						}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"effect"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag conquest_spawn_helper}
+									}
+								}
+								{include
+									{tag
+										{tag _p}
+									}
+								}
+							}
+						}
+						{effect start}
+					}
+					{"delay"
+						{time 0.2}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag _d}
+						}
+						{tag_add _displayed}
+						{tag_remove _d}
+					}
+					{"entity_state"
+						{selector
+							{ignore_captured_by_user 0}
+							{tag _p}
+						}
+						{tag_add _placed}
+						{tag_remove _p}
+					}
+					{"switch"
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "display$"}
+								{op "<<="}
+								{value 0}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"entity_state"
+								{selector
+									{ignore_captured_by_user 0}
+									{tag _displayed}
+								}
+								{tag_remove _displayed}
+							}
+							{"entity_state"
+								{selector
+									{ignore_captured_by_user 0}
+									{tag _placed}
+								}
+								{tag_remove _placed}
+							}
+						}
+						{"default"
+							{"delay"
+								{time 0.1}
+							}
+							{"trigger"
+								{name "dcg/def/display_b"}
 							}
 						}
 					}

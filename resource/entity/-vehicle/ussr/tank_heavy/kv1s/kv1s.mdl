@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 15.09.2022 20:10:48
-;File:			 D:\GOH\3dsmax9_saves\scenes\GoH_3D_vehicles_rus\vehicles\tank_heavy\kv1s\kv-1s_1942.max
+;Exported by:	 Robin
+;Date:			 17.11.2024 14:10:04
+;File:			 E:\SVN GoH RUS 3D models\vehicles\tank_heavy\kv1s\kv-1s_1942.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -786,11 +786,6 @@
 	{bone "ammo2"}
 	{Position 0 	 0 	 1.7717}
 }
-{volume "armor"
-	{polyhedron "armor.vol"}
-	{bone "body"}
-	{Position 63.6892 	 0.0504 	 -0.6634}
-}
 {volume "barrel1"
 	{polyhedron "barrel1.vol"}
 	{bone "gun_rot"}
@@ -930,6 +925,11 @@
 	{polyhedron "hole2.vol"}
 	{bone "wheelsl"}
 	{Position 2.342 	 5.7878 	 0.3844}
+}
+{volume "hull_armor"
+	{polyhedron "hull_armor.vol"}
+	{bone "body"}
+	{Position 63.6892 	 0.0504 	 -0.6634}
 }
 {volume "trackleft1"
 	{cylinder 6.79134 6.29921}
