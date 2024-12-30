@@ -350,6 +350,15 @@
 		}
 
 		{"aircraft.common"
+			{clip
+				{viewMin		-180}	; camera rotate upward limit (looking down)
+				{viewMax		180	}	; camera rotate downward limit (looking up)
+				{viewNear		0	}
+				{viewFar		0	}	; desired view angle when zooming out (not correction)
+				{viewcorrection	0	}	; percentage (from distanceMax) after which correction sets in. 80 in this case.
+				{distanceMin	300	}	; camera min distance from object. value / 20 = meters
+				{distanceMax	800	}	; camera max distance from object. value / 20 = meters
+			}
 			{level ;0
 				{linkBone "body"}  ; читаки сосать
 				{faroffset 900 900 900000}		; camera position offect at distanceMax

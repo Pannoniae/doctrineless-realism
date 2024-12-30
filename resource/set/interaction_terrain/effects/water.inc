@@ -48,14 +48,14 @@
 	else stuff "ptab size1"								; PTAB-2.5-1.5 
 		{spawn "ex_size2_water"}
 		
-	else stuff "shell size2 all_heat_shell"					; 75-104mm cannon HEAT shells
+	else stuff "shell size2_heat_shell"					; 75-104mm cannon HEAT shells
 		{spawn "ex_size2_water"}
 
-	else stuff "shell size3 all_heat_shell"					; 105-149mm cannon HEAT shells
+	else stuff "shell size3_heat_shell"					; 105-149mm cannon HEAT shells
 		{spawn "shockwave_sphere"}
 		{spawn "ex_size3_water"}
 
-	else stuff "shell size4 all_heat_shell"					; 150mm cannon HEAT shells
+	else stuff "shell size4_heat_shell"					; 150mm cannon HEAT shells
 		{spawn "shockwave_sphere"}
 		{spawn "ex_size4_water"}
 
@@ -383,18 +383,18 @@
 			{spawn "crater_tiny" texmod "mud"}
 			{spawn "ex_size2_water"}
 
-		else stuff "shell size2 all_heat_shell"					; 75-104mm cannon HEAT shells
+		else stuff "shell size2_heat_shell"					; 75-104mm cannon HEAT shells
 			{spawn "ex_he_size1_mud"}
 			{spawn "grenade_shellhole" texmod "mud"}
 			{spawn "ex_size2_water"}
 
-		else stuff "shell size3 all_heat_shell"					; 105-149mm cannon HEAT shells
+		else stuff "shell size3_heat_shell"					; 105-149mm cannon HEAT shells
 			{spawn "shockwave_sphere"}
 			{spawn "ex_he_size2_mud"}
 			{spawn "crater_tiny" texmod "mud"}
 			{spawn "ex_size3_water"}
 
-		else stuff "shell size4 all_heat_shell"					; 150mm cannon HEAT shells
+		else stuff "shell size4_heat_shell"					; 150mm cannon HEAT shells
 			{spawn "shockwave_sphere"}
 			{spawn "ex_he_size3_mud"}
 			{spawn "crater_small" texmod "mud"}
@@ -707,16 +707,16 @@
 			{spawn "ex_mort_sm_mud"}
 			{spawn "crater_tiny" texmod "mud"}
 
-		else stuff "shell size2 all_heat_shell"					; 75-104mm cannon HEAT shells
+		else stuff "shell size2_heat_shell"					; 75-104mm cannon HEAT shells
 			{spawn "ex_heat_size2_mud"}
 			{spawn "grenade_shellhole" texmod "mud"}
 
-		else stuff "shell size3 all_heat_shell"					; 105-149mm cannon HEAT shells
+		else stuff "shell size3_heat_shell"					; 105-149mm cannon HEAT shells
 			{spawn "shockwave_sphere"}
 			{spawn "ex_heat_size3_mud"}
 			{spawn "crater_tiny" texmod "mud"}
 
-		else stuff "shell size4 all_heat_shell"					; 150mm cannon HEAT shells
+		else stuff "shell size4_heat_shell"					; 150mm cannon HEAT shells
 			{spawn "shockwave_sphere"}
 			{spawn "ex_heat_size3_mud"}
 			{spawn "crater_small" texmod "mud"}

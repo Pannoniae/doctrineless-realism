@@ -40,9 +40,9 @@
 	}
 	
 ;// fourth button
-	{movement_slow
+	{call_ally
 		{position 3 0}
-		{condition "vehicle tank"}
+		{condition "human disabled"}
 	}
 
 ; // second row-------------------------

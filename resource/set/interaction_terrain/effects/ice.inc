@@ -112,16 +112,16 @@
 			{spawn "ex_heat_size2_snow"}
 			{spawn "grenade_shellhole" texmod "snow"}
 
-		else stuff "shell size2 all_heat_shell"					; 75-104mm cannon HEAT shells
+		else stuff "shell size2_heat_shell"					; 75-104mm cannon HEAT shells
 			{spawn "ex_heat_size2_snow"}
 			{spawn "grenade_shellhole" texmod "snow"}
 
-		else stuff "shell size3 all_heat_shell"					; 105-149mm cannon HEAT shells
+		else stuff "shell size3_heat_shell"					; 105-149mm cannon HEAT shells
 			{spawn "ex_heat_size3_snow"}
 			{spawn "shockwave_sphere"}
 			{spawn "grenade_at_shellhole" scale 0.8 texmod "snow"}
 
-		else stuff "shell size4 all_heat_shell"					; 150mm cannon HEAT shells
+		else stuff "shell size4_heat_shell"					; 150mm cannon HEAT shells
 			{spawn "ex_heat_size3_snow"}
 			{spawn "shockwave_sphere"}
 			{spawn "grenade_at_shellhole" texmod "snow"}

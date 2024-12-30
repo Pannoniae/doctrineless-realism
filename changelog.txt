@@ -1,3 +1,2 @@
-Into the Fire 0.3.9:
- - Massive RobZ-like vision overhaul.
- - Make normal infantry be able to build sandbags for cover.
+Megamod Moshpit 0.1.0:
+ - Initial release-ish?

@@ -54,10 +54,8 @@
 		{view start "wp"}
 		{delay 0.05
 			{volumes "body" enable contact}
-			{delay 0.5
-				{fire radius 0.5 time 0.5 heating 5 follow}
-				{fire radius 0.3 time 15 heating 0.1 follow}
-			}
+			{fire radius 0.5 time 0.5 heating 2 follow}
+			{fire radius 0.3 time 12 heating 0.1 follow}
 		}
 		{delay 25 10
 			{delete}
@@ -132,6 +130,7 @@
 				{with_effector
 					{delay 20
 						{hide 3}
+						{delay 4 {delete}}
 					}
 				}
 			}
@@ -143,7 +142,7 @@
 	{on spawn
 		{delay 0.01 {volumes disable bullet contact blast touch}}
 		{delay 1 {volumes enable bullet contact blast touch}}
-		{delay 300 240 {hide 1}}
+		{delay 300 240 {hide 1}{delay 2 {delete}}}
 	}
 	{on blast
 		{delay 0.01 {volumes disable bullet contact blast touch}}
@@ -261,11 +260,12 @@
 		}
 		{delay 2 {volumes enable bullet contact blast}}
 		;{call "stop_view"}
-		{delay 25 15 {hide 10}}
+		{delay 25 15 {hide 10}{delay 11 {delete}}}
 	}
 	{on blast_hit
 		{if min_energy 0.5
 			{hide 1}
+			{delay 2 {delete}}
 		else
 			{impulse up 3 1 dir 2 1}
 		}
@@ -275,12 +275,14 @@
 			{impulse up 2 1 dir 1 0.5}
 		else stuff "shell"
 			{hide 1}
+			{delay 2 {delete}}
 		}
 	}
 	{on contact
 		{if effector "vehicle"
 			{volumes disable bullet contact blast}		;//prevent destroing at spawn moment
 			{hide 1}
+			{delay 2 {delete}}
 		}
 	}
 }
@@ -318,7 +320,7 @@
 {"medium part"
 	{on spawn
 		{delay 0.05
-			{volumes disable bullet contact blast touch}	;//prevent destroing at spawn moment
+			{volumes disable bullet contact blast touch}	;//prevent destroying at spawn moment
 		}
 		{delay 1 {volumes enable bullet contact blast}}
 	}
@@ -351,6 +353,17 @@
 	}
 	{on "destroy_part"
 		{hide 0.5}
+		{delay 1 {delete}}
+	}
+}
+
+{"medium part wood"
+	{on blast_hit
+		{if min_energy 5
+			{call "destroy_part"}
+		else min_energy 1
+			{impulse up 1 0.3 dir 1 0.5}
+		}
 	}
 }
 
@@ -358,6 +371,7 @@
 	{on blast_hit
 		{if min_energy 10
 			{hide 1}
+			{delay 2 {delete}}
 		}
 	}
 	{on contact overload
@@ -449,6 +463,12 @@
 		else terrain_pp "deep_water"
 			;{call "kick"}
 		}
+		{if "crush"
+			{if rand 0.2
+				{call "destroy_part"}
+			}
+		}
+		{set "ground_hit" 1}
 	}
 	{on "kick"
 		{delay 15
@@ -461,6 +481,25 @@
 			{impulse up 0.01}
 			{call "kick_process"}
 		}
+	}
+	{on contact
+		{if effector "vehicle"
+			{if not effector "bicycle"
+				{if not effector "moto"
+					{if not effector "cannon"
+						{if "ground_hit"
+							{call "destroy_part"}
+						else "crush"
+							{call "destroy_part"}
+						}
+					}
+				}
+			}
+		}
+	}
+	{on "destroy_part" overload
+		{spawn "wood_crush_big"}
+		{delete}
 	}
 }
 
@@ -1015,6 +1054,7 @@
 	{on animation_end "landing"
 		{view show "parachute_x"}
 		{hide 20}
+		{delay 21 {delete}}
 	}
 }
 
@@ -1569,6 +1609,7 @@
 	{on spawn
 		{delay 10
 			{hide 2}
+			{delay 3 {delete}}
 		}
 	}
 }
@@ -1838,6 +1879,13 @@
 {"spawn_team_b"				;// mission objective icon/helper
 	{on spawn
 		{tags add "spawn_team_b"}
+	}
+}
+{"obstacle_frontlines"		;// mission helper
+	{on spawn
+		{if not tagged "frontline_divider"
+			{tags add "frontline_divider"}
+		}
 	}
 }
 

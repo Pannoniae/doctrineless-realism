@@ -102,6 +102,5 @@
 (include "newcannon.inc")
 (include "submuzzle.inc")
 (include "tank-notmain.inc")
-(include "vehicle-notreallymaina.inc")
 (include "vehicle-lightscontrol.inc")
 (include "repairvehicle.inc")

@@ -382,51 +382,24 @@
 		{RepairOrder 5}
 	}
 )
-(define "internals2"
-	{volume %0
-		{tags "%1" "no_target"}
-		{able {Contact 0} {NoWoundDecal}}
-		{thickness 10}
-		{component %0}
-	}
-	{component %0
-		{RepairTime %2}
-		{tags "%1"}
-		{RepairOrder 5}
-	}
-)
 
 (define "ammo"
 	("internals" args %0 ammo 1)
 )
 
 (define "fuel"
-	("make_component" args "fuel" "fuel")
-	("make_component" args "fuel1" "fuel")
-	("make_component" args "fuel2" "fuel")
-	("make_component" args "fuel3" "fuel")
-	("make_component" args "fuel4" "fuel")
-	("make_component" args "fuel5" "fuel")
-	("make_component" args "fuel6" "fuel")
-	{component "fuel"
-		{RepairTime 20}
-		{RepairOrder 10}
-	}
+	("internals" args %0 fuel 1)
 )
 
 (define "transmission"
-	("internals2" args %0 transmission 20)
-	{component "transmission"
-		{tags "mover"}
-		{RepairTime 45}
-		{RepairOrder 3}
-	}
+	("internals" args %0 transmission 20)
 )
 
 
 (define "holes"
 	{volume "%volume%number"
 		{able clear {hole}}
+		{density 0}
 	}
 )
 
@@ -755,4 +728,5 @@
 ("armor_tag" args "armor_front2")
 ("armor_tag" args "armor_front3")
 ("armor_tag" args "armor_front4")
+;/*========================================*/
 ;/*========================================*/

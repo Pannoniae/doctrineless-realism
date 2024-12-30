@@ -432,6 +432,10 @@
 	{on "destroyed_stamp" overload
 		{spawn "crash_brick4se" "root" x no_position}
 	}
+	{on "crush_fx" overload
+		{spawn "crash_brick4se" "root" x no_position}
+		{spawn "debris" "root"}
+	}
 }
 
 {"backwall_stairs6_secret"

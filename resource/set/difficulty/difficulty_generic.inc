@@ -22,11 +22,11 @@
 		}
 
 		;// Modifies human's distance from blastwave center when calculating amount of energy that hits the human. 2.0 = double the distance. 
-		{blast_crawl 1.80}			;// simply lying on the ground
-		{blast_cover 1.80}			;// in cover from protected side
+		{blast_crawl 1.50}			;// simply lying on the ground
+		{blast_cover 1.50}			;// in cover from protected side
 		{blast_crawl_prepared 2.00}	;// lying on the ground & waiting for explosion
 		{blast_cover_prepared 2.00}	;// in cover not from protected side, but waiting for explosion
-		{blast_squat 1.5}			;// on the knees
+		{blast_squat 1.15}			;// on the knees
 
 		{death_delay_min 300}		;// min bleeding out time in seconds
 		{death_delay_max 400}		;// max bleeding out time in seconds

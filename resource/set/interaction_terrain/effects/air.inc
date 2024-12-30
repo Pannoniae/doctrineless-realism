@@ -77,13 +77,13 @@
 			{spawn "shell_smoke_size4"}							; actual smoke and vision volumes
 
 		else stuff "bomb size1"								; 50-60kg bombs / explosives
-			{spawn "ex_air_he_size3"}
+			{spawn "ex_bomb_50kg"}
 
 		else stuff "bomb size2"								; 100-200kg bombs / explosives
-			{spawn "ex_air_he_size4"}
+			{spawn "ex_bomb_100kg"}
 
 		else stuff "bomb size3"								; 250kg+ bomb
-			{spawn "ex_air_he_size5"}
+			{spawn "ex_bomb_250kg"}
 
 		else stuff "ptab size1"								; PTAB-2.5-1.5 
 			{spawn "ex_air_he_size2"}

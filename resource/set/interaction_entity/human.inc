@@ -1,5 +1,5 @@
 {"human"
-	{inflammation_time 1}
+	{inflammation_time 1.0}
 	{on spawn
 		{add_view	"cigarettesmoke"		"smoke"		"head"}
 		{add_view	"drops_water_small2"	"on_water"	"foot3r"}
@@ -587,6 +587,7 @@
 	{on "die"
 		{view stop "officer"}
 		{view stop "documents"}
+		{view stop "mines"}
 		{call "stop_repair"}
 		{call "personage_check"}
 		{if linked "airborne"
@@ -791,7 +792,7 @@
 				{if not dead
 					{if able "burning"
 						("human_health" c(%c))
-						{fire radius 1 time 1 heating 0.75 follow}	;// adds heating to unit (potential to set other items on fire due to proximity)
+						{fire radius 1 time 1 heating 0.25 follow}	;// adds heating to unit (potential to set other items on fire due to proximity)
 						{if not tagged "no_revive"
 							{if not tagged "hero_unit"	;// exception for unit to be revive-able in missions
 								{tags add "no_revive"}
@@ -827,6 +828,7 @@
 
 	{on "stop_burn_damage"
 		{view pause "burn_fire"}		;// stops burning fx
+		{kill_delay "burn_scream"}		;// stop loop call for talk
 		{stop_sound "burn"}
 		{able "burning" 0}			;// stops uncontrollable actions (keep in-case friendly is set on fire and is not damaged/killed)
 		{delay 1.0
@@ -879,7 +881,11 @@
 		{if not dead
 			{if not senseless
 				{if not "quench"
-					{talk "death_cry"}
+					{if not tagged "death_cry_talk"
+						{tags add "death_cry_talk"}
+						{talk "death_cry"}
+						{delay 4 {tags remove "death_cry_talk"}}
+					}
 					{delay_effect 1.25 "burn_scream"}		;// calls own event again (loops)
 				else
 					{call "stop_burn_damage"}
@@ -1336,28 +1342,12 @@
 		{view pause "marker_personage_acute"}
 		{view start ally neutral "marker_personage"}
 		{tags add "start_personage"}
-		{delay 3
-			{if rand 0.5
-				{ani_play "lie_wounded" loop}
-				{talk "bleeding_out"}
-			else rand 0.5
-				{ani_play "lie_wounded_1" loop}
-				{talk "bleeding_out"}
-			else rand 0.5
-				{ani_play "lie_wounded_2" loop}
-				{talk "bleeding_out"}
-			}
-		}
 	}
 
 	{on "stop_personage"
 		{set "die_sound" 0}
 		{view pause "marker_personage"}
 		{view pause "marker_personage_acute"}
-		{ani_stop "lie_wounded"}
-		{ani_stop "lie_wounded_1"}
-		{ani_stop "lie_wounded_2"}
-		{ani_play "lie_die"}
 		{if tagged "start_personage"
 			{delay 1
 				{if dead
@@ -1367,19 +1357,6 @@
 			}
 		}
 		{tags remove "start_personage"}
-	}
-
-	{on "medic_switch" ;//CREDIT TO Nikral
-		{if tagged "medic"
-			{tags add "medic_ignored"}
-			{tags remove "medic"}
-			{drop_orders}
-			{damage_report "medic_mode" "component/medic_mode_off"}
-		else tagged "medic_ignored"
-			{tags add "medic"}
-			{tags remove "medic_ignored"}
-			{damage_report "medic_mode" "component/medic_mode_on"}
-		}
 	}
 
 	{on "start_personage_acute"
@@ -1411,6 +1388,11 @@
 		{view start "officer"}
 	}
 
+	{on "mines_mark"
+		{add_view	"mines" "mines" "head"}
+		{view start "mines"}
+	}
+	
 	{on "documents"
 		{add_view	"documents" "documents" "head"}
 		{view start "documents"}

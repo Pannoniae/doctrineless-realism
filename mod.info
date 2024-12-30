@@ -1,7 +1,8 @@
 {mod
-	{name "Into The Fire Realism Mod 0.4.0 dev"}
-	{tags "realism, mod, doctrines, gameplay"}
-	{desc "A realism mod to remove doctrines from the game."}
-	{minGameVersion "1.046"}
-	{maxGameVersion "1.048"}
+	{name "Megamod Moshpit 0.1.0 dev"}
+	;{tags "realism" "mod" "doctrines" "gameplay" "cold war" "world war" "hotmod" "ww2" "ww3" "total conversion" "maps" "tanks" "vehicles" "infantry" "weapons" "realism" "immersion"}
+	; description of your mod
+	{desc "A megamod consisting of a cursed moshpit including ALL the content. Without doctrines, of course. ;)"}
+	{minGameVersion "1.047"}
+	{maxGameVersion "1.050"}
 }

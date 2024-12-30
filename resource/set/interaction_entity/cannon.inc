@@ -428,7 +428,7 @@
 	}
 
 	{on "self_destruct"
-		{spawn "vehicle_die" "basis"}
+		{spawn "car_die" "basis"}
 	}
 
 	{on "at_grenade_blast"
@@ -478,7 +478,7 @@
 		}
 	}
 
-	{on crew out				;// even happens when cannon changes from towed to fire state. Prevents unhiching underwater exploit.
+	{on crew out				;// even happens when cannon changes from towed to fire state. Prevents unhitching underwater exploit.
 		{if not tagged "water_check"
 			{tags add "water_check"}
 			{call "check_water_level"}
@@ -487,6 +487,9 @@
 			}
 		}
 	}
+
+	{on "disable_all_seats" overload} ;// stops code from vehicle main that disables seats on break
+	{on "enable_all_seats" overload} ;// stops code from vehicle main that disables seats on repair. For cannons, causes mover and gunner seats to be crewable at the same time
 }
 
 ;/*=========== Cannon End ===========*/
@@ -3267,7 +3270,7 @@
 		("Mortar_12cm")
 	}
 	{on "self_destruct" overload
-		{spawn "vehicle_die" "basis"}
+		{spawn "car_die" "basis"}
 	}
 }
 

@@ -219,7 +219,7 @@
 				{spawn "grenade_shellhole" terrain_texmod}
 			}
 
-		else stuff "shell size2 all_heat_shell"					; 75-104mm cannon HEAT shells
+		else stuff "shell size2_heat_shell"					; 75-104mm cannon HEAT shells
 			{if rain
 				{spawn "ex_heat_size2_mud"}
 				{spawn "grenade_shellhole" texmod "mud"}
@@ -231,7 +231,7 @@
 				{spawn "grenade_shellhole" terrain_texmod}
 			}
 
-		else stuff "shell size3 all_heat_shell"					; 105-149mm cannon HEAT shells
+		else stuff "shell size3_heat_shell"					; 105-149mm cannon HEAT shells
 			{spawn "shockwave_sphere"}
 			{if rain
 				{spawn "ex_heat_size3_mud"}
@@ -244,7 +244,7 @@
 				{spawn "crater_tiny" terrain_texmod}
 			}
 
-		else stuff "shell size4 all_heat_shell"					; 150mm cannon HEAT shells
+		else stuff "shell size4_heat_shell"					; 150mm cannon HEAT shells
 			{spawn "shockwave_sphere"}
 			{if rain
 				{spawn "ex_heat_size3_mud"}

@@ -202,6 +202,7 @@
 		{if air
 			{impulse up 0.01 rnd_dir 3 com}
 			{ani_play "start"}
+			{volumes disable bullet}
 			{delay 1
 				{volumes enable contact}
 			}
@@ -966,7 +967,7 @@
 
 
 {"explosive_barrel"			;// properties/barrel.ext
-	{inflammation_time 5}
+	{inflammation_time 4}
 	{on break_armor
 		{if name "pierce"
 			{if stuff "bullet"
@@ -991,17 +992,31 @@
 			{call "break"}
 		}
 	}
-	{on "burn"
+	{on "burn_end"
+		{tags add "burned"}
 		{call "break"}
 	}
 	{on "break"
-		{if stuff_filled "fuel" 20
-			{call "explosion"}
-		else stuff_filled "diesel" 20
-			{call "explosion"}
+		{if tagged "burned"
+			{if stuff_filled "fuel" 1
+				{call "explosion"}
+			else stuff_filled "diesel" 1
+				{call "explosion"}
+			else
+				{spawn "car_die_particle"}
+				{spawn "burned_spot01"		no_position}
+				{hide 0.3}
+			}
 		else
-			{spawn "car_die_particle"}
-			{hide 0.3}
+			{if stuff_filled "fuel" 20
+				{call "explosion"}
+			else stuff_filled "diesel" 20
+				{call "explosion"}
+			else
+				{spawn "car_die_particle"}
+				{spawn "burned_spot01"		no_position}
+				{hide 0.3}
+			}
 		}
 	}
 	{on "explosion"
@@ -1047,7 +1062,7 @@
 }
 
 {"explosive_stuff"			;// props for bombs, rockets, mortars, and cannon shells
-	{inflammation_time 10}
+	{inflammation_time 3}
 	{on "burn_volume"
 		{if volume "body"
 			{stuff_detonate}

@@ -901,7 +901,7 @@
 {"marder2 tank"
 	("pz2_sound")
 	{on "add_weapon_sound" overload
-		("Cannon_50to57mm_HV")
+		("Cannon_75to76mm")
 		("Cannon_Breech")
 	}
 	{on "spawn_shell_delay" overload

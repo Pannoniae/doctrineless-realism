@@ -108,16 +108,16 @@
 			{spawn "ex_mort_sm_rock"}
 			{spawn "grenade_shellhole" scale 0.8 texmod "ground"}
 
-		else stuff "shell size2 all_heat_shell"					; 75-104mm cannon HEAT shells
+		else stuff "shell size2_heat_shell"					; 75-104mm cannon HEAT shells
 			{spawn "ex_heat_size2_rock"}
 			{spawn "grenade_shellhole" texmod "ground"}
 
-		else stuff "shell size3 all_heat_shell"					; 105-149mm cannon HEAT shells
+		else stuff "shell size3_heat_shell"					; 105-149mm cannon HEAT shells
 			{spawn "ex_heat_size3_rock"}
 			{spawn "shockwave_sphere"}
 			{spawn "grenade_at_shellhole" scale 0.8 texmod "ground"}
 
-		else stuff "shell size4 all_heat_shell"					; 150mm cannon HEAT shells
+		else stuff "shell size4_heat_shell"					; 150mm cannon HEAT shells
 			{spawn "ex_heat_size3_rock"}
 			{spawn "shockwave_sphere"}
 			{spawn "grenade_at_shellhole" texmod "ground"}
@@ -416,14 +416,14 @@
 		else stuff "mortar"									; 80mm Mortar shells
 			{spawn "ex_mort_sm_wood"}
 
-		else stuff "shell size2 all_heat_shell"					; 75-104mm cannon HEAT shells
+		else stuff "shell size2_heat_shell"					; 75-104mm cannon HEAT shells
 			{spawn "ex_heat_size2"}
 
-		else stuff "shell size3 all_heat_shell"					; 105-149mm cannon HEAT shells
+		else stuff "shell size3_heat_shell"					; 105-149mm cannon HEAT shells
 			{spawn "ex_heat_size3"}
 			{spawn "shockwave_sphere"}
 
-		else stuff "shell size4 all_heat_shell"					; 150mm cannon HEAT shells
+		else stuff "shell size4_heat_shell"					; 150mm cannon HEAT shells
 			{spawn "ex_heat_size3"}
 			{spawn "shockwave_sphere"}
 
@@ -693,14 +693,14 @@
 		else stuff "mortar"									; 80mm Mortar shells
 			{spawn "ex_mort_sm_wood"}
 
-		else stuff "shell size2 all_heat_shell"					; 75-104mm cannon HEAT shells
+		else stuff "shell size2_heat_shell"					; 75-104mm cannon HEAT shells
 			{spawn "ex_heat_size2"}
 
-		else stuff "shell size3 all_heat_shell"					; 105-149mm cannon HEAT shells
+		else stuff "shell size3_heat_shell"					; 105-149mm cannon HEAT shells
 			{spawn "ex_heat_size3"}
 			{spawn "shockwave_sphere"}
 
-		else stuff "shell size4 all_heat_shell"					; 150mm cannon HEAT shells
+		else stuff "shell size4_heat_shell"					; 150mm cannon HEAT shells
 			{spawn "ex_heat_size3"}
 			{spawn "shockwave_sphere"}
 
@@ -979,16 +979,16 @@
 			{spawn "ex_mort_sm_snow"}
 			{spawn "grenade_shellhole" scale 0.8 texmod "snow"}
 
-		else stuff "shell size2 all_heat_shell"					; 75-104mm cannon HEAT shells
+		else stuff "shell size2_heat_shell"					; 75-104mm cannon HEAT shells
 			{spawn "ex_heat_size2_snow"}
 			{spawn "grenade_shellhole" texmod "snow"}
 
-		else stuff "shell size3 all_heat_shell"					; 105-149mm cannon HEAT shells
+		else stuff "shell size3_heat_shell"					; 105-149mm cannon HEAT shells
 			{spawn "shockwave_sphere"}
 			{spawn "ex_heat_size3_snow"}
 			{spawn "grenade_at_shellhole" scale 0.8 texmod "snow"}
 
-		else stuff "shell size4 all_heat_shell"					; 150mm cannon HEAT shells
+		else stuff "shell size4_heat_shell"					; 150mm cannon HEAT shells
 			{spawn "shockwave_sphere"}
 			{spawn "ex_heat_size4_snow"}
 			{spawn "grenade_at_shellhole" texmod "snow"}

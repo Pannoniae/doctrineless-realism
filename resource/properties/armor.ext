@@ -50,6 +50,7 @@
 		("set_armor" args shield)
 		("set_armor" args tshield)
 		("set_armor" args armor)
+		("set_armor" args hull_armor)
 		("set_armor" args glass)
 		("set_armor" args window)
 		("set_armor" args lamp)

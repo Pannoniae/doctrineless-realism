@@ -313,20 +313,20 @@
 		{if not "explode"
 			("sink_sequence" args "ballast2" 2 "ballast4" 4 "ballast3" 7 "ballast1" 8)
 			{set "explode" 1}
-			{spawn "tank_die_heavy" "fx_exp1"}
+			{spawn "marine_die" "fx_exp1"}
 			{delay 0.3 0.1
-				{spawn "tank_die_heavy" "fx_exp2"}
+				{spawn "marine_die" "fx_exp2"}
 				{blastwave c4 8 r0 5 r1 6 bone "fx_exp2"}
 				{components "body_rear" destroy}
 				{delay 0.3 0.1
 					{volumes "float" disable float bullet blast}
 					{components "body" destroy}
 					{call "cut_parts"}
-					{spawn "tank_die_heavy" "fx_exp3"}
+					{spawn "marine_die" "fx_exp3"}
 					{blastwave c4 8 r0 5 r1 6 bone "fx_exp3"}
 					{call "explosion"}
 					{delay 0.3 0.1
-						{spawn "tank_die_heavy" "fx_exp4"}
+						{spawn "marine_die" "fx_exp4"}
 						{blastwave c4 8 r0 5 r1 6 bone "fx_exp4"}
 						{components "body_front" destroy}
 					}
@@ -342,7 +342,7 @@
 {"boat big"
 	(define "body_break_fx"
 		{set "body_%0_broken" 1}
-		{spawn "tank_die_heavy" "fire_%02"}
+		{spawn "marine_die" "fire_%02"}
 		{add_view "smoke_dead_norm"		"fire_%0"		"fire_%01"}
 		{add_view "smoke_dead_norm"		"fire_%0"		"fire_%02"}
 		{add_view "smoke_dead_norm"		"fire_%0"		"fire_%03"}
@@ -407,14 +407,11 @@
 }
 
 {"air-bag"
-	{on "add_exhaustview" overload
-		{add_view	"exhaust_dark_big_diesel"			"on_move"	"fxsmoke1"}
-	}
 	{on "add_movement_sound" overload
-		{link_sound "move"				"vehicle/tracks/lct"			}
-		{link_sound "engine_full"		"vehicle/marine/airbag"		}
-		{link_sound "engine_stop"		"vehicle/marine/airbag_end"		}
-		{link_sound "exhaust"			"vehicle/marine/airbag_up"		}
+		{link_sound "move"				"vehicle/tracks/lct"}
+		{link_sound "engine_full"		"vehicle/marine/airbag"}
+		{link_sound "engine_stop"		"vehicle/marine/airbag_end"}
+		{link_sound "exhaust"			"vehicle/marine/airbag_up"}
 	}
 	{on break
 		{crew_emit}
