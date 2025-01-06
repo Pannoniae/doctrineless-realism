@@ -12,7 +12,7 @@ actor
 {PatherID  "armored"}
 {collider "armored"}
 
-{props "armored_car" "engine" "hatch" "detect_tank_light"}
+{props "armored_car" "engine" "hatch" "detect_tank_light" "tow_vehicle"}
 
 {targetClass "armoredcar" "bullet"}
 {targetSelector "tank_zenite"}

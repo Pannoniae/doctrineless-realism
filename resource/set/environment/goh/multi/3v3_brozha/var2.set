@@ -5,7 +5,7 @@
 		{diffuse 0xff3c3c3b}
 		{specularIntensity 5}
 		{specularPower 5}
-		{lightsIntensity 0.1}
+		{lightsIntensity 0.05}
 		{draw_sun_moon}
 		{sun_moon_radius 1}
 		{night_vision 1}
@@ -56,9 +56,9 @@
 	{haze
 		{enable}
 		{color 0xff95abb3}
-		{start 0}
+		{start 5500}
 		{end 6000}
-		{altitude_strength 0.2}
+		{altitude_strength 0}
 		{sky_haziness 0}
 	}
 	{sky
@@ -203,7 +203,6 @@
 		{color 0xffffffff}
 	}
 	{dof
-		{enable}
 		{near_scale 2.0}
 		{far_scale 0.75}
 		{near_start 50}
@@ -230,4 +229,3 @@
 		{threshold 0.5}
 	}
 }
-

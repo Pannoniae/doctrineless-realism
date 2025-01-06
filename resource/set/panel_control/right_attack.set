@@ -1,0 +1,65 @@
+;SDL
+
+; {position column row}
+
+
+{panel_control
+
+; first row-------------------------
+
+	{lights_switch
+		{position 0 0}
+		{condition "vehicle"}
+	}
+	{throw_ap_grenade
+		{position 0 0}
+		{condition "human disabled"}
+	}
+	{throw_at_grenade
+		{position 1 0}
+		{condition "human disabled"}
+	}
+	{throw_sk_grenade
+		{position 2 0}
+		{condition "human disabled"}
+	}
+	
+	{suppression_fire
+		{position 3 0}
+		{condition "disabled"}
+	}
+; second row-------------------------
+
+	{bazooka_shot
+		{position 0 1}
+		{condition "human disabled"}
+	}
+	{attack
+		{position 1 1}
+		{condition "disabled"}
+	}
+	{attack_ground
+		{position 2 1}
+		{condition "disabled"}
+	}
+	{kamikaze_explosion
+		{position 3 1}
+		{condition "human disabled"}
+	}
+	
+; third row-------------------------
+
+	{attack_melee
+		{position 0 2}
+		{condition "human disabled"}
+	}
+	{aimed_shot
+		{position 1 2}
+		{condition "human disabled"}
+	}
+	{gc_cp_browse_back
+		{position 3 2}
+	}
+	
+	
+}

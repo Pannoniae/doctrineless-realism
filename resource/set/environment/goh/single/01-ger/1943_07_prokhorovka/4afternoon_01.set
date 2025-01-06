@@ -4,7 +4,7 @@
 		{ambient 0xff636363}
 		{diffuse 0xff676767}
 		{specularIntensity 0.2}
-		{lightsIntensity 0.1}
+		{lightsIntensity 0.05}
 		{draw_sun_moon}
 		{sun_moon_radius 1}
 		{night_vision 0.6}
@@ -12,7 +12,6 @@
 			{tone 0xff000000}
 			{tone_strength 0.1}
 			{color_shading
-				{enable}
 				{shade_tone 0xff4b4b4b}
 				{intensity 0}
 			}
@@ -52,7 +51,7 @@
 		{start 1500}
 		{end 6500}
 		{altitude_strength 0}
-		{sky_haziness 0.1}
+		{sky_haziness 0}
 	}
 	{sky
 		{enable}

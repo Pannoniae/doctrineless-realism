@@ -3,14 +3,14 @@
 		{direction 0.889 0.133 -0.436}
 		{ambient 0xff19191a}
 		{diffuse 0xff96695b}
-		{lightsIntensity 0.2}
+		{lightsIntensity 0.05}
 		{draw_sun_moon}
 		{sun_moon_radius 1}
 		{night_vision 1}
 		{color_correction
 			{gamma 1.1}
 			{contrast 1.1}
-			{saturation 1.6}
+			{saturation 1.4}
 			{tone 0xff0f0f23}
 			{tone_strength 0.25}
 			{color_shading
@@ -56,9 +56,9 @@
 	{haze
 		{enable}
 		{color 0xff54575b}
-		{start 0}
+		{start 5500}
 		{end 6000}
-		{altitude_strength 0.1}
+		{altitude_strength 0}
 		{sky_haziness 0}
 	}
 	{sky
@@ -199,7 +199,6 @@
 		{color 0xffffffff}
 	}
 	{dof
-		{enable}
 		{near_scale 0.1}
 		{far_scale 0.5}
 		{near_start 100}
@@ -226,4 +225,3 @@
 		{threshold 0.5}
 	}
 }
-

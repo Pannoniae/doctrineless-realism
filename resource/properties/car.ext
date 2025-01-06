@@ -11,7 +11,7 @@ actor
 
 {hearingBias 4.5} ; in meters
 {collider "car"}
-{props "car" "engine" "wheeled" "turn_over"}
+{props "car" "engine" "wheeled" "turn_over" "tow_vehicle"}
 {targetClass "car"}
 {targetSelector "car_bullet"}
 

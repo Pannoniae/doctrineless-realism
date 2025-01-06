@@ -1,4 +1,4 @@
-(include "/map/ripair.mi")
+			(include "mod_triggers.inc")
 			{"parachute"
 				{condition
 					{terms

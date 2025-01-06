@@ -382,24 +382,51 @@
 		{RepairOrder 5}
 	}
 )
+(define "internals2"
+	{volume %0
+		{tags "%1" "no_target"}
+		{able {Contact 0} {NoWoundDecal}}
+		{thickness 10}
+		{component %0}
+	}
+	{component %0
+		{RepairTime %2}
+		{tags "%1"}
+		{RepairOrder 5}
+	}
+)
 
 (define "ammo"
 	("internals" args %0 ammo 1)
 )
 
 (define "fuel"
-	("internals" args %0 fuel 1)
+	("make_component" args "fuel" "fuel")
+	("make_component" args "fuel1" "fuel")
+	("make_component" args "fuel2" "fuel")
+	("make_component" args "fuel3" "fuel")
+	("make_component" args "fuel4" "fuel")
+	("make_component" args "fuel5" "fuel")
+	("make_component" args "fuel6" "fuel")
+	{component "fuel"
+		{RepairTime 20}
+		{RepairOrder 10}
+	}
 )
 
 (define "transmission"
-	("internals" args %0 transmission 20)
+	("internals2" args %0 transmission 20)
+	{component "transmission"
+		{tags "mover"}
+		{RepairTime 45}
+		{RepairOrder 3}
+	}
 )
 
 
 (define "holes"
 	{volume "%volume%number"
 		{able clear {hole}}
-		{density 0}
 	}
 )
 
@@ -478,7 +505,7 @@
 (define "wheel"
 	{volume %0
 		{thickness 0.5}
-		{tags "wheel"}
+		{tags "wheel" "towing"}
 		{component %0}
 		{able {NoWoundDecal}}
 	}
@@ -492,21 +519,21 @@
 (define "solid_wheel"
 	{volume %0
 		{thickness 10}
-		{tags "wheel" "no_target"}
+		{tags "wheel"  "no_target" "towing"}
 		{component %0}
 		{able {NoWoundDecal}}
 	}
 	{component %0
 		{RepairTime 10}
-		{tags "wheel" "no_target"}
+		{tags "wheel"  "no_target"}
 		{RepairOrder 10}
 	}
 )
 
 (define "track_wheels"
 	{volume "track%0%1"
-		{tags "mover" "track"}
-		;{able {NoWoundDecal}}
+		{tags "mover" "track" "towing"}
+		{able {NoWoundDecal}}
 		{thickness %2}
 		{component "track%0"}
 	}
@@ -515,12 +542,12 @@
 (define "tracks"
 	{volume "trackleft"
 		{thickness %thickness}
-		{tags "mover" "track"}
+		{tags "mover" "track" "towing"}
 		{able {NoWoundDecal} {holed} {contact_ground 0}}
 	}
 	{volume "trackright"
 		{thickness %thickness}
-		{tags "mover" "track"}
+		{tags "mover" "track" "towing"}
 		{able {NoWoundDecal} {holed} {contact_ground 0}}
 	}
 

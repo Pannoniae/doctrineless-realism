@@ -57,9 +57,7 @@
 		{ww_pollution_color 0xff72605d}
 		{ww_pollution_factor 0.5}
 	}
-	{GlobalTexture
-		{Normalmap "/texture/land/goh_aut/grass_aut_nm"}
-	}
+	
 	{Entity "sandbag_watchtower" 0x193d
 		{Position 19857.1 -6689.35}
 		{Constrain zero}

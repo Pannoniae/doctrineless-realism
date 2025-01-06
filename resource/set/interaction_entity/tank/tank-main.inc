@@ -1148,9 +1148,53 @@
 	("turret_torn" args 6 90 30 400 50 turret_light)
 }
 {"turret medium"
-	("turret_torn" args 7 180 45 500 75 turret)
+	{on pierce sync
+		{if component "turret"
+			{if stuff "shell size4 all_ap"			;// 150-169mm cannon shells
+				{if rand 0.125{call "tear_turret"}}
+			else stuff "shell size5 all_ap"		
+				{if rand 0.35{call "tear_turret"}}
+			else stuff "shell size6 all_ap"		
+				{call "tear_turret"}
+			}
+		}
+	}
+	{on bullet_hit
+		{if component "turret"
+			{if stuff "shell size4 all_he"			
+				{if rand 0.125{call "tear_turret"}}
+			else stuff "shell size5 all_he"		
+				{if rand 0.35{call "tear_turret"}}
+			else stuff "shell size6 all_he"		
+				{call "tear_turret"}
+			}
+		}
+	}
+	("turret_torn" args 6 180 45 500 75 turret)
 }
 {"turret heavy"
+	{on pierce sync
+		{if component "turret"
+			{if stuff "shell size4 all_ap"			;// 150-169mm cannon shells
+				{if rand 0.05{call "tear_turret"}}
+			else stuff "shell size5 all_ap"		
+				{if rand 0.1{call "tear_turret"}}
+			else stuff "shell size6 all_ap"		
+				{call "tear_turret"}
+			}
+		}
+	}
+	{on bullet_hit
+		{if component "turret"
+			{if stuff "shell size4 all_he"			
+				{if rand 0.05{call "tear_turret"}}
+			else stuff "shell size5 all_he"		
+				{if rand 0.1{call "tear_turret"}}
+			else stuff "shell size6 all_he"		
+				{call "tear_turret"}
+			}
+		}
+	}
 	("turret_torn" args 7 200 60 600 100 turret)
 }
 
@@ -1503,6 +1547,23 @@
 			}
 		}
 	}
+	{on "install_tow"			
+		{if work "engine"
+			{if "engine_on"
+				{call "engine_off"}
+			}
+		}
+		{spawn "towing_rope" "basis" x   
+			{if not tagged "cargo_inside"					
+				{call "load_heavy_vehicle"} 
+				{tags add "btr_linked"}
+			}
+		}
+		{tags add "link_to_place1"} 
+		{delay 3 
+			{tags remove "link_to_place1"}
+		}	
+	}
 	(include "damage-armoredcar.inc")
 }
 
@@ -1588,6 +1649,23 @@
 				{tags remove "death_counter_2"}
 			}
 		}
+	}
+	{on "install_tow"			
+		{if work "engine"
+			{if "engine_on"
+				{call "engine_off"}
+			}
+		}
+		{spawn "towing_rope" "basis" x   
+			{if not tagged "cargo_inside"					
+				{call "load_heavy_vehicle"} 
+				{tags add "light_tank_linked"}
+			}
+		}
+		{tags add "link_to_place1"} 
+		{delay 3 
+			{tags remove "link_to_place1"}
+		}	
 	}
 	(include "damage-light.inc")
 }
@@ -1725,6 +1803,23 @@
 				{tags remove "death_counter_3"}
 			}
 		}
+	}
+	{on "install_tow"			
+		{if work "engine"
+			{if "engine_on"
+				{call "engine_off"}
+			}
+		}
+		{spawn "towing_rope" "basis" x   
+			{if not tagged "cargo_inside"					
+				{call "load_heavy_vehicle"} 
+				{tags add "tank_linked"}
+			}
+		}
+		{tags add "link_to_place1"} 
+		{delay 3 
+			{tags remove "link_to_place1"}
+		}	
 	}
 	(include "damage-medium.inc")
 }
@@ -1883,6 +1978,23 @@
 				{tags remove "death_counter_4"}
 			}
 		}
+	}
+	{on "install_tow"			
+		{if work "engine"
+			{if "engine_on"
+				{call "engine_off"}
+			}
+		}
+		{spawn "towing_rope" "basis" x   
+			{if not tagged "cargo_inside"					
+				{call "load_heavy_vehicle"} 
+				{tags add "tank_linked"}
+			}
+		}
+		{tags add "link_to_place1"} 
+		{delay 3 
+			{tags remove "link_to_place1"}
+		}	
 	}
 	(include "damage-heavy.inc")
 }
@@ -2050,12 +2162,14 @@
 			else ;//switching ammo
 				{delay 0.75
 					{ani_play "shell_eject" 1.0}
+					{tags add "ani_played"}
 					{talk "reload"}
 					{play_sound "breech_open"}
 
 				}
 				{delay (- %0 0.5)
 					{call "tank_reloaded"}
+					{tags remove "ani_played"}
 				}
 			}
 		)
@@ -2065,10 +2179,12 @@
 	}
 
 	{on "tank_reloaded"
+		{tags add "ani_played"}
 		{ani_play "shell_eject" -1.0}
 		{play_sound "breech_close"}
 		{delay 0.5
 			{talk "reloaded"}
+			{tags remove "ani_played"}
 		}
 	}
 

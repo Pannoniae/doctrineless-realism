@@ -1,0 +1,12 @@
+;SDL
+
+;Talvisota-1911520
+;Scorched Earth-2123890
+;Liberation-2447590
+;Airborne-2904660
+
+{dlc
+	{"cckw_aa" "2447590 2904660"}
+	{"cckw_aa_x" "2447590 2904660"}
+	{"cckw_aa_xx" "2447590 2904660"}
+}

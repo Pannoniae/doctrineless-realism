@@ -3,6 +3,7 @@ Purchases["late.ger"] = {
 		Units = { 
 			---[====[
 			-- Infantry Squads
+				---[[
 				-- Old Squads
 				{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_lw_fusilier_late(ger)"},
 				{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_recon_late(ger)"},
@@ -14,6 +15,102 @@ Purchases["late.ger"] = {
 				{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_gebirgsjaeger_late(ger)"},
 				{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_pzgrenadiere_gd_late(ger)"},
 				--]]
+
+				-- All-Around Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_ersatz_gren_late_all(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_volksg_late_all(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_volksg_sturm_late_all_1(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_volksg_sturm_late_all_2(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_volksg_sturm_late_all_3(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_volksg_h_sturm_late_all_1(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_volksg_h_sturm_late_all_2(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_volksg_h_sturm_late_all_3(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_fus_smg_late_all_1(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fus_smg_late_all_2(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fus_smg_late_all_3(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_jager_late_all(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_gebirgs_recon_late_all_1(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_gebirgs_recon_late_all_2(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_gebirgs_recon_late_all_3(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_gebirgs_late_all(ger)"},
+					--]]
+
+				-- Defensive Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_volkssturm_late_def_1(ger)"},
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_volkssturm_late_def_2(ger)"},
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_volkssturm_late_def_3(ger)"},
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_km_late_def_1(ger)"},
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_km_late_def_2(ger)"},
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_km_late_def_3(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_gren_late_def(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_pzgren_late_def_1(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_pzgren_late_def_2(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_pzgren_late_def_3(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_pio_late_def(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_fusilier_late_def_1(ger)"},
+					--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fusilier_late_def_2(ger)"},
+					--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fusilier_late_def_3(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_gebirgs_late_def(ger)"},
+					--]]
+
+				-- Irregular Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_lw_fusilier_late_irr(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_lw_recon_late_irr(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_lw_jager_late_irr_1(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_lw_jager_late_irr_2(ger)"},
+					--{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_lw_jager_late_irr_3(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_lw_pio_late_irr_1(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_lw_pio_late_irr_2(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_fallschirm_recon_late_irr_1(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fallschirm_recon_late_irr_2(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fallschirm_recon_late_irr_3(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_fallschirm_pio_late_irr_1(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fallschirm_pio_late_irr_2(ger)"},
+					--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fallschirm_pio_late_irr_3(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fallschirm_late_irr_1(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fallschirm_late_irr_2(ger)"},
+					--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_fallschirm_late_irr_3(ger)"},
+					--]]
+
+				-- Offensive Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_pz_recon_late_off(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_pzgren_late_off(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_pz_sturmgren_late_off(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_pz_pio_late_off(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_begleitgren_late_off(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_sturmjager_late_off(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_pz_pio_gd_late_off(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_pzgren_gd_late_off(ger)"},
+					--]]
+
+				-- Support Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_landes_late_sup(ger)"},
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_recon_late_sup(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_gren_late_sup(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_sturmgren_late_sup(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_h_sturmgren_late_sup(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_begleit_pio_late_sup(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_begleit_sturm_late_sup(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_gebirgs_late_sup(ger)"},
+					--]]
+
+				-- All-round 2 (WEST) Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_ersatz_gren_late_all2(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_gren_late_all2(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_pzlehr_recon_late_all2(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_pzlehr_pio_late_all2(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_pzlehr_pzgren_late_all2(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_pzlehr_pzgren_late_mech_all2(ger)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_pzlehr_pz_sturmgren_late_all2(ger)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_pzlehr_pz_sturmgren_late_mech_all2(ger)"},
+					--]]
+
 			-- Infantry Singles / Teams
 				---[[
 				{priority = 1.0, type = {"Class3", "Infantry", "Team", "Aux",}, unit = "single_rifle(ger)"},
@@ -188,6 +285,19 @@ Purchases["late.ger"] = {
 					{priority = 1.0, type = {"Class1", "Tank", "Medium", "Artillery",}, unit = "hummel"},
 					{priority = 1.0, type = {"Class2", "Armored", "Artillery",}, unit = "panzerwerfer42"},
 					--{priority = 1.0, type = {"Class1", "Tank", "Heavy",}, unit = "tiger2p_ss"},
+					--]]
+				--  Extra Doctrine
+					--[[					
+					{priority = 1.0, type = {"Class1", "Doctrine", "Tier1", "Tank", "Light",}, unit = "doctrine_panzer2j_late"},
+					{priority = 1.0, type = {"Class2", "Doctrine", "Tier1", "Armored", "Artillery",}, unit = "doctrine_sdkfz251d_2"},
+					
+					{priority = 1.0, type = {"Class1", "Doctrine", "Tier2", "Tank", "Medium", "AT",}, unit = "doctrine_stug4g"},
+					{priority = 1.0, type = {"Class3", "Doctrine", "Tier2", "Armored", "AA", "AT",}, unit = "doctrine_88mmflak37sfl"},
+					{priority = 1.0, type = {"Class2", "Doctrine", "Tier2", "Tank", "Medium",}, unit = "doctrine_pz5g_m10"},
+					
+					{priority = 1.0, type = {"Class2", "Doctrine", "Tier3", "Armored", "Artillery",}, unit = "doctrine_zgkw303f"},
+					{priority = 1.0, type = {"Class3", "Doctrine", "Tier3", "Cannon", "AT",}, unit = "doctrine_128mm_pak44"},
+					{priority = 1.0, type = {"Class1", "Doctrine", "Tier3", "Tank", "Heavy",}, unit = "doctrine_tiger_p"},
 					--]]
 		
 		}

@@ -1,0 +1,5 @@
+{army
+	{id 17}
+	{title "mp/army/allies"} 
+	{icon "/interface/pages/multi/flag_allies"}
+}

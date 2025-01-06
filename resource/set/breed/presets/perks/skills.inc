@@ -30,6 +30,11 @@
 		{"fortifications" "mortar_pit"}
 		{"fortifications" "tank_cover"}
 
+		{"fortifications" "ft_embankment"}
+		{"fortifications" "ft_pillbox"}
+		{"fortifications" "ft_tower"}
+		{"fortifications" "ft_dot"}
+		
 		{"fortifications" "heavy_mg_mg34"}
 		{"fortifications" "heavy_mg_maxim"}
 		{"fortifications" "heavy_mg_maxim_m1910_30"}
@@ -40,6 +45,23 @@
 	{mechanic factor 1.0}
 )
 
+(define "engineer_light"
+	{fortification}
+	{barricade
+		{"fortifications" "barricade_sq"}
+		{"fortifications" "barricade"}
+
+		{"fortifications" "foxhole"}
+		{"fortifications" "foxhole_big"}
+		{"fortifications" "tank_cover"}
+	
+		{"fortifications" "mortar_pit"}
+		{"fortifications" "mg_foxhole"}
+	}
+	{"resources" "1000%"}
+	{"resources_regeneration" "0%"}
+	{mechanic factor 1.0}
+)
 (define "engineer_heavy_fin"
 	{fortification}
 	{barricade

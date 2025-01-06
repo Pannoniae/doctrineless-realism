@@ -31,6 +31,11 @@
 		{if stuff "grenade fire"							; Molotov Grenades
 			{spawn "ex_molot_ground"}
 			
+		;==== incendiary grenades >
+		else stuff "grenade incendiary"
+			{spawn "ex_ic_grenade_ground"}
+		;==== incendiary grenades <
+			
 		else stuff "shell shrapnel"
 			{spawn "ex_shrapnel"}
 			{spawn "ex_fragments_shrap"}
@@ -462,6 +467,15 @@
 			}
 
 		else stuff "shell size7"							; 600mm cannon HE shells
+			{spawn "ex_he_size7"}
+			{spawn "shockwave_sphere"}
+			{if rain
+				{spawn "crater_massive" texmod "mud"}
+			else
+				{spawn "crater_massive" terrain_texmod}
+			}
+			
+		else stuff "bomb size7"							; 600mm cannon HE shells
 			{spawn "ex_he_size7"}
 			{spawn "shockwave_sphere"}
 			{if rain

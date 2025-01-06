@@ -73,6 +73,9 @@
 	{"sdkfz301b"
 		{vehicle_view "pz2f"}
 	}
+	{"sdkfz301c"
+		{vehicle_view "pz2f"}
+	}
 	{"zis42"
 		{vehicle_view "zis5"}
 	}
@@ -153,4 +156,76 @@
 	}
 	{"kht133"
 		{vehicle_view "kht130"}
+	}
+	{"t3476_40_early"
+		{vehicle_view "t3476_40"}
+	}
+	{"su76i"
+		{vehicle_view "stug3f"}
+	}
+	{"t5"
+		{vehicle_view "panzer5"}
+	}
+	{"isu122"
+		{vehicle_view "isu152"}
+	}
+	{"t34_747"
+		{vehicle_view "t34_76"}
+	}
+	{"sdkfz251c_8"
+		{vehicle_view "sdkfz251c"}
+	}
+	{"t26a"
+		{vehicle_view "t26_31"}
+	}
+	{"t26_33_fin_m"
+		{vehicle_view "t26_fin"}
+	}
+	{"t26c"
+		{vehicle_view "t26_fin"}
+	}
+	{"t26c_m"
+		{vehicle_view "t26_fin"}
+	}
+	{"t26c_39"
+		{vehicle_view "t26_fin"}
+	}
+	{"t26c_39_m"
+		{vehicle_view "t26_fin"}
+	}
+	{"t26c_t130"
+		{vehicle_view "t26_fin"}
+	}
+	{"t26c_t133"
+		{vehicle_view "t26_fin"}
+	}
+	{"su122_sap"
+		{vehicle_view "su122"}
+	}
+	{"su100_early"
+		{vehicle_view "su85"}
+	}
+	{"is2_45_vet"
+		{vehicle_view "is1_43"}
+	}
+	{"panzer5g_vet"
+		{vehicle_view "panzer5"}
+	}
+	{"panzer4_70_v_reserve"
+		{vehicle_view "panzer4_70_v"}
+	}
+	{"fai_bab_b"
+		{vehicle_view "ba20"}
+	}
+	{"ba20_bab_b"
+		{vehicle_view "ba20"}
+	}
+	{"isu152_vet"
+		{vehicle_view "isu152"}
+	}
+	{"m10_gmc_rus"
+		{vehicle_view "m10_gmc"}
+	}
+	{"su57"
+		{vehicle_view "m3a1_gmc"}
 	}

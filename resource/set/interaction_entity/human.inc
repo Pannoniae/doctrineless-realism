@@ -1,5 +1,30 @@
 {"human"
 	{inflammation_time 1.0}
+	(define "st_off_i"
+		{view pause "stuff_view_%i"}
+		{view stop "stuff_view_%i"}
+		{view hide "stuff_view_%i"}
+	)
+	(define "off_stuff_view_all_item"
+		("st_off_i" i(thompson_m1928a1_30))
+		("st_off_i" i(garand))
+	)
+	(define "stuff_view_h"
+		{add_view "%item" "stuff_view_h" "%bone"}
+		{view show "stuff_view_h"}
+		{view start "stuff_view_h"}
+	)
+	(define "stuff_view_off"
+		{view pause "stuff_view_h"}
+		{view hide "stuff_view_h"}
+		{view pause "stuff_view_arrow"}
+		{view hide "stuff_view_arrow"}
+		{view stop "stuff_view_h"}
+		{view stop "stuff_view_arrow"}
+		{view pause "stuff_view"}
+		{view hide "stuff_view"}
+		{view stop "stuff_view"}
+	)
 	{on spawn
 		{add_view	"cigarettesmoke"		"smoke"		"head"}
 		{add_view	"drops_water_small2"	"on_water"	"foot3r"}
@@ -1250,6 +1275,10 @@
 	}
 
 	{on board out							;// exiting a vehicle
+		{if linked "moto"
+			("stuff_view_off")
+			("off_stuff_view_all_item")
+		}
 		{if linked "airborne"
 			{delay 0.01
 				;{call "eject"}
@@ -1342,12 +1371,28 @@
 		{view pause "marker_personage_acute"}
 		{view start ally neutral "marker_personage"}
 		{tags add "start_personage"}
+		{delay 3
+			{if rand 0.5
+				{ani_play "lie_wounded" loop}
+				{talk "bleeding_out"}
+			else rand 0.5
+				{ani_play "lie_wounded_1" loop}
+				{talk "bleeding_out"}
+			else rand 0.5
+				{ani_play "lie_wounded_2" loop}
+				{talk "bleeding_out"}
+			}
+		}
 	}
 
 	{on "stop_personage"
 		{set "die_sound" 0}
 		{view pause "marker_personage"}
 		{view pause "marker_personage_acute"}
+		{ani_stop "lie_wounded"}
+		{ani_stop "lie_wounded_1"}
+		{ani_stop "lie_wounded_2"}
+		{ani_play "lie_die"}
 		{if tagged "start_personage"
 			{delay 1
 				{if dead
@@ -1359,6 +1404,19 @@
 		{tags remove "start_personage"}
 	}
 
+	{on "medic_switch" ;//CREDIT TO Nikral
+		{if tagged "medic"
+			{tags add "medic_ignored"}
+			{tags remove "medic"}
+			{drop_orders}
+			{damage_report "medic_mode" "component/medic_mode_off"}
+		else tagged "medic_ignored"
+			{tags add "medic"}
+			{tags remove "medic_ignored"}
+			{damage_report "medic_mode" "component/medic_mode_on"}
+		}
+	}
+	
 	{on "start_personage_acute"
 		{view pause "marker_personage"}
 		{view start ally neutral "marker_personage_acute"}
@@ -1427,6 +1485,36 @@
 		{ani_stop "goatley_crew_r_row_5"}
 		{ani_stop "goatley_crew_l_idle"}
 		{ani_stop "goatley_crew_r_idle"}
+	}
+	{on "kamikaze_explosion"
+		{if not tagged "explosioned"
+			{tags add "explosioned"}
+			{blastwave c4 25 r0 4 r1 6 offset 0 0 20}
+			{blastwave c4 1 r0 10 r1 15 offset 0 0 20}
+			{spawn "ex_bomb_50kg"}
+			{stuff_detonate}
+			{delete}
+		}
+	}
+	{on "in_ani_stop"
+		{ani_stop "moto_driver_aim"}
+		{ani_stop "moto_driver_aim_left"}
+		{ani_stop "moto_driver_aim_right"}
+		{ani_stop "moto_driver_new"}
+		{ani_stop "moto_driver_new_fast"}
+		{ani_stop "moto_driver_rifle_recoil"}
+		{ani_stop "moto_driver_rifle_reload_6"}
+		{ani_stop "moto_driver_rifle_reload_10"}
+		{ani_stop "moto_driver_take_rifle"}
+		{ani_stop "moto_driver_pistol"}
+		{ani_stop "moto_driver_pistol_aim"}
+		{ani_stop "moto_driver_pistol_aim_left"}
+		{ani_stop "moto_driver_pistol_aim_right"}
+		{ani_stop "moto_driver_pistol_fast1"}
+		{ani_stop "moto_driver_pistol_fast"}
+		{ani_stop "moto_driver_take_pistol"}
+		{ani_stop "moto_driver_pistol_recoil"}
+		{ani_stop "moto_driver_pistol_reload"}
 	}
 }
 

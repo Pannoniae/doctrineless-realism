@@ -1,32 +1,35 @@
 Purchases["late.usa"] = {
 	{Repeat = 0,  --infinite
 		Units = { 
+			---[====[
+			-- Infantry Squads
+				---[[
 		
-		-- All-round Doctrine Squads
-		{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_cav_late_all_1(usa)"},
-		{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_mp_late_all(usa)"},
-		{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_arm_rifle_late_off_1(usa)"},
-		
-		{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle(usa)"},
-		{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_assault(usa)"},
-		{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_bar(usa)"},
-		{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_arm_rifle_mech_late_off_1(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_eng_late_def_1(usa)"},
-		
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_101st_glider_late_def_1(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_10th_mountain_late_off_1(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_vet_rifle_late_def_1(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_1st_arm_rifle_late_off_1(usa)"},
-		--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_1st_rifle_late_all_1(usa)"},
-		--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_82nd_glider_late_irr_1(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_ranger_assault_sub_late_all(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_ranger_assault_late_all(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_ranger_special_late_all(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_101st_late_def_1(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_101st_eng_late_def(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_82nd_late_irr_1(usa)"},
-		{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_82nd_demo_late_irr(usa)"},
-
+					-- All-round Doctrine Squads
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_cav_late_all_1(usa)"},
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_mp_late_all(usa)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_arm_rifle_late_off_1(usa)"},
+					
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle(usa)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_assault(usa)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_bar(usa)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_arm_rifle_mech_late_off_1(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_eng_late_def_1(usa)"},
+					
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_101st_glider_late_def_1(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_10th_mountain_late_off_1(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_vet_rifle_late_def_1(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_1st_arm_rifle_late_off_1(usa)"},
+					--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_1st_rifle_late_all_1(usa)"},
+					--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_82nd_glider_late_irr_1(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_ranger_assault_sub_late_all(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_ranger_assault_late_all(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_ranger_special_late_all(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_101st_late_def_1(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_101st_eng_late_def(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_82nd_late_irr_1(usa)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_82nd_demo_late_irr(usa)"},
+			
 
 			-- Infantry Singles / Teams
 				---[[

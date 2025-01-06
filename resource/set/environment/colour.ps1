@@ -2,7 +2,7 @@
 $files = Get-ChildItem -Recurse -File
 
 # Regular expression pattern to match the saturation value
-$pattern = '\{saturation\s+(\d+(\.\d+)?)\}'
+$pattern = '\\s+(\d+(\.\d+)?)\}'
 
 foreach ($file in $files) {
     $content = Get-Content -Path $file.FullName -Raw
@@ -14,7 +14,7 @@ foreach ($file in $files) {
         $currentValue = [double]$match.Groups[1].Value
         $newValue = $currentValue + 0.5
         $global:modified = $true
-        return "{saturation $($newValue.ToString('0.0'))}"
+        return " $($newValue.ToString('0.0'))}"
     })
 	#Write-Host "$global:modified"
 

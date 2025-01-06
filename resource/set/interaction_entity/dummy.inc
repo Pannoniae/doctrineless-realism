@@ -1888,8 +1888,25 @@
 		}
 	}
 }
+{"grenade_m15_wp"
+	{on "add_grenade_sound"
+		{link_sound "explode" 	"detonation/grenade_wp/explode/"}
+		{link_sound "burn_down" "detonation/grenade_wp/burn_down/"}
+		{link_sound "smoke_pop"	"detonation/grenade_smoke/generic/pop"}
+		{link_sound "smoke_loop" "detonation/grenade_smoke/generic/detonation_misc_s1_smoke_generic_loop"}
+		{link_sound "smoke_end"	"detonation/grenade_smoke/generic/detonation_misc_s1_smoke_generic_end_01"}
+	}
+}
 
-
+{"grenade_type91"
+	{on "add_grenade_sound"
+		{link_sound "explode" 	"detonation/grenade_wp/explode/"}
+		{link_sound "burn_down" "detonation/grenade_wp/burn_down/"}
+		{link_sound "smoke_pop"	"detonation/grenade_smoke/generic/pop"}
+		{link_sound "smoke_loop" "detonation/grenade_smoke/generic/detonation_misc_s1_smoke_generic_loop"}
+		{link_sound "smoke_end"	"detonation/grenade_smoke/generic/detonation_misc_s1_smoke_generic_end_01"}
+	}
+}
 
 ;// register engine-used props
 
@@ -1913,6 +1930,7 @@
 {"spread_items"}
 {"trailer"}
 {"tractor"}
+{"tow_vehicle"}
 {"turn_over"}
 {"captor"} 			;// source code: used for bots move orders and stop distance from flags
 

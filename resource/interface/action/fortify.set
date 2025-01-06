@@ -204,6 +204,26 @@
 ("fortification_mp"			name(heavy_mg_mg34)		entity(heavy_mg_mg34)			time(30)	rotation(-90.0))
 ("fortification_mp"			name(heavy_mg_maxim)	entity(heavy_mg_maxim)			time(30)	rotation(-90.0))
 ("fortification_mp"	name(heavy_mg_maxim_m1910_30)	entity(heavy_mg_maxim_m1910_30)	time(30)	rotation(-90.0))
+
+;valour
+("fortification_mp"			name(heavy_mg_us-0_3cal)	entity(heavy_mg_us-0_3cal)			time(30)	rotation(-90.0))
+("fortification_mp"			name(heavy_mg_0_3cal_m1917a1)		entity(heavy_mg_0_3cal_m1917a1)			time(30)	rotation(-90.0))
+("fortification_mp"			name(heavy_mg_type92_lewis)	entity(heavy_mg_type92_lewis)			time(30)	rotation(-90.0))
+("fortification_mp"			name(heavy_mg_vickers_mkiv)		entity(heavy_mg_vickers_mkiv)			time(30)	rotation(-90.0))
+("fortification_mp"			name(heavy_mg_8mm_fiat)		entity(heavy_mg_8mm_fiat)			time(30)	rotation(-90.0))
+("fortification_mp"			name(heavy_mg_schwarzlose)		entity(heavy_mg_schwarzlose)			time(30)	rotation(-90.0))
+("fortification_mp"			name(heavy_mg_bren)	entity(heavy_mg_bren)			time(30)	rotation(-90.0))
+("fortification_mp"			name(heavy_mg_ckm_wz30_aa)	entity(heavy_mg_ckm_wz30_aa)			time(30)	rotation(-90.0))
+("fortification_mp"			name(heavy_mg_reibel_aa_x2)	entity(heavy_mg_reibel_aa_x2)			time(30)	rotation(-90.0))
+
+("building_expendable"		name(type45)		entity(240mm_type_45)			animation(squat_construct_sandbag)	time(90)	rotation(0.0)	spacing(100) cost(20)	item(t45build)	restrictions("shallow_water water"))
+("building_expendable"		name(type3)			entity(200mm_type_3)			animation(squat_construct_sandbag)	time(90)	rotation(0.0)	spacing(100) cost(20)	item(t3build)	restrictions("shallow_water water"))
+
+("entrenchment_rotate"		name(ft_pillbox)		entity(ft_pillbox)		    animation(dig_pickaxe_01)			time(45)	rotation(270.0)	spacing(180) cost(40)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"		name(ft_dot)			entity(ft_dot)		        animation(dig_pickaxe_01)			time(30)	rotation(180.0)	spacing(180) cost(20)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"		name(ft_embankment)		entity(ft_embankment)		animation(dig_pickaxe_01)			time(30)	rotation(180.0)	spacing(180) cost(40)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"		name(ft_tower)			entity(ft_tower)			animation(dig_pickaxe_01)			time(60)	rotation(180.0)	spacing(180) cost(40)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+
 ;modded horten
 ("entrenchment_rotate"		name(mortar_pit)		entity(trench_dirt_mortar_engineer_mp)			animation(stand_dig_01)			time(90)	rotation(90.0)	spacing(180) cost(25)	item(engineering_light)	restrictions("bridge bridge_wood rock shallow_water ice water"))
 ("entrenchment_rotate"		name(mg_foxhole)		entity(mg_foxhole)								animation(stand_dig_01)			time(60)	rotation(-90.0)	spacing(180) cost(15)	item(engineering_light)	restrictions("bridge bridge_wood rock shallow_water ice water"))

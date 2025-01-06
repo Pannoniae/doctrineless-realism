@@ -1,4 +1,4 @@
-(include "/map/ripair.mi")
+			(include "dcg_triggers.inc")
 			{"random_cmp_def"
 				{condition
 				}
@@ -6596,7 +6596,28 @@
 												{tag airstrike_fin}
 											}
 											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
 												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_hun}
 											}
 										}
 										{include
@@ -6633,7 +6654,28 @@
 												{tag airstrike_fin}
 											}
 											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
 												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_hun}
 											}
 										}
 										{include
@@ -6788,7 +6830,7 @@
 								}
 								{attack_altitude 58}
 							}
-						}						
+						}
 						{"default"
 							{"delay"
 								{time 0.1}
@@ -7564,7 +7606,28 @@
 												{tag airstrike_fin}
 											}
 											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
 												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
 											}
 										}
 									}
@@ -7610,7 +7673,28 @@
 												{tag airstrike_fin}
 											}
 											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
 												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
 											}
 										}
 									}
@@ -7656,7 +7740,28 @@
 												{tag airstrike_ger}
 											}
 											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
 												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
 											}
 										}
 									}
@@ -7696,13 +7801,503 @@
 									{group
 										{select
 											{tag
+												{tag airstrike_rus}
+											}
+											{tag
 												{tag airstrike_ger}
 											}
 											{tag
 												{tag airstrike_fin}
 											}
 											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
+												{tag airstrike_hun}
+											}
+										}
+									}
+								}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"set_i"
+								{var "dcg_on$"}
+								{op "+"}
+								{value 1}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"event"
+								{event "airplane_set"}
+								{mode set}
+								{delay 0}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "bot_army$"}
+								{op "=="}
+								{value 11}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"delete"
+								{selector
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
 												{tag airstrike_rus}
+											}
+											{tag
+												{tag airstrike_ger}
+											}
+											{tag
+												{tag airstrike_fin}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
+											}
+											{tag
+												{tag airstrike_usa}
+											}
+										}
+									}
+								}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"set_i"
+								{var "dcg_on$"}
+								{op "+"}
+								{value 1}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"event"
+								{event "airplane_set"}
+								{mode set}
+								{delay 0}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "bot_army$"}
+								{op "=="}
+								{value 5}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"delete"
+								{selector
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag airstrike_rus}
+											}
+											{tag
+												{tag airstrike_ger}
+											}
+											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
+												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_fin}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
+											}
+										}
+									}
+								}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"set_i"
+								{var "dcg_on$"}
+								{op "+"}
+								{value 1}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"event"
+								{event "airplane_set"}
+								{mode set}
+								{delay 0}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "bot_army$"}
+								{op "=="}
+								{value 6}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"delete"
+								{selector
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag airstrike_rus}
+											}
+											{tag
+												{tag airstrike_ger}
+											}
+											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
+												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_fin}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
+											}
+										}
+									}
+								}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"set_i"
+								{var "dcg_on$"}
+								{op "+"}
+								{value 1}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"event"
+								{event "airplane_set"}
+								{mode set}
+								{delay 0}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "bot_army$"}
+								{op "=="}
+								{value 7}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"delete"
+								{selector
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag airstrike_rus}
+											}
+											{tag
+												{tag airstrike_ger}
+											}
+											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
+												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_fin}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
+											}
+										}
+									}
+								}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"set_i"
+								{var "dcg_on$"}
+								{op "+"}
+								{value 1}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"event"
+								{event "airplane_set"}
+								{mode set}
+								{delay 0}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "bot_army$"}
+								{op "=="}
+								{value 8}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"delete"
+								{selector
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag airstrike_rus}
+											}
+											{tag
+												{tag airstrike_ger}
+											}
+											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
+												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fin}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
+											}
+										}
+									}
+								}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"set_i"
+								{var "dcg_on$"}
+								{op "+"}
+								{value 1}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"event"
+								{event "airplane_set"}
+								{mode set}
+								{delay 0}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "bot_army$"}
+								{op "=="}
+								{value 9}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"delete"
+								{selector
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag airstrike_rus}
+											}
+											{tag
+												{tag airstrike_ger}
+											}
+											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
+												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_fin}
+											}
+											{tag
+												{tag airstrike_hun}
+											}
+										}
+									}
+								}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"set_i"
+								{var "dcg_on$"}
+								{op "+"}
+								{value 1}
+							}
+							{"delay"
+								{time 1}
+							}
+							{"event"
+								{event "airplane_set"}
+								{mode set}
+								{delay 0}
+							}
+						}
+						{"case"
+							{condition
+								{type cmp_i}
+								{var "bot_army$"}
+								{op "=="}
+								{value 10}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"delete"
+								{selector
+									{source advanced}
+									{ignore_captured_by_user 0}
+									{group
+										{select
+											{tag
+												{tag airstrike_rus}
+											}
+											{tag
+												{tag airstrike_ger}
+											}
+											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
+												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_fin}
 											}
 										}
 									}
@@ -7787,7 +8382,28 @@
 												{tag airstrike_fin}
 											}
 											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
 												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
 											}
 										}
 										{include
@@ -7836,7 +8452,28 @@
 												{tag airstrike_fin}
 											}
 											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
 												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
 											}
 										}
 										{include
@@ -7885,7 +8522,28 @@
 												{tag airstrike_fin}
 											}
 											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
 												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
 											}
 										}
 										{include
@@ -7934,7 +8592,28 @@
 												{tag airstrike_fin}
 											}
 											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
 												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
 											}
 										}
 										{include
@@ -7982,7 +8661,28 @@
 												{tag airstrike_fin}
 											}
 											{tag
+												{tag airstrike_usaf}
+											}
+											{tag
 												{tag airstrike_usa}
+											}
+											{tag
+												{tag airstrike_uk}
+											}
+											{tag
+												{tag airstrike_ita}
+											}
+											{tag
+												{tag airstrike_jap}
+											}
+											{tag
+												{tag airstrike_fra}
+											}
+											{tag
+												{tag airstrike_pol}
+											}
+											{tag
+												{tag airstrike_hun}
 											}
 										}
 										{include
@@ -8104,6 +8804,188 @@
 								{var "user_nation$"}
 								{op "="}
 								{value 4}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side usaf}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 11}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side uk}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 12}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side ita}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 6}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side jap}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 7}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side fra}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 8}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side pol}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 9}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side hun}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 10}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side gerita}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 13}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side usuk}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 14}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side ost}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 15}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side frabri}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 16}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side axis}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 17}
+							}
+						}
+						{"case"
+							{condition
+								{type side}
+								{side allies}
+							}
+							{"delay"
+								{time 0.1}
+							}
+							{"set_i"
+								{var "user_nation$"}
+								{op "="}
+								{value 18}
 							}
 						}
 						{"default"

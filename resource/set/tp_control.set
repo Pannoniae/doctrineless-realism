@@ -17,6 +17,7 @@
 		(include "third_person/vehicle_specific_usa_tank.inc")
 		(include "third_person/vehicle_specific_mace.inc")
 		(include "third_person/vehicle_specific_marine.inc")
+		(include "third_person/vehicle_specific_valour.inc")
 
 ;_____________________________________________________
 ;|   Unnamed units will inherit 'default' setting     |
@@ -245,6 +246,7 @@
 		{"jagdpanzer4_l48" inherit "vehicle td.stug3"}
 		{"panzer4_70_v" inherit "vehicle td.stug3"}
 
+		{"b1sf" inherit "vehicle spa.common"}
 		{"wespe" inherit "vehicle spa.common"}
 		{"hummel" inherit "vehicle spa.common"}
 		{"nashorn" inherit "vehicle atgun.pak4341.mounted"}
@@ -338,6 +340,7 @@
 		{"122mm_a19" inherit "vehicle artillery.common"}
 		{"122mm_m30" inherit "vehicle artillery.common"}
 		{"152mm_ml20" inherit "vehicle artillery.common"}
+		{"152mm_d1" inherit "vehicle artillery.common"}
 		{"152mm_br2" inherit "vehicle artillery.common"}
 		{"203mm_b4" inherit "vehicle artillery.common"}
 		{"280mm_br5" inherit "vehicle artillery.common"}
@@ -406,7 +409,7 @@
 		{"panzer742r" inherit "vehicle tank.t26"}
 
 		{"t50" inherit "vehicle tank.t26"}
-
+		{"t-50" inherit "vehicle tank.t26"}
 		{"t30" inherit "vehicle tank.t60"}
 		{"t40" inherit "vehicle tank.t60"}
 		{"t60" inherit "vehicle tank.t60"}
@@ -447,6 +450,7 @@
 		{"kv1s" inherit "vehicle tank.kv1"}
 
 		{"kv85" inherit "vehicle tank.kv85"}
+		{"kv122" inherit "vehicle tank.is2"}
 
 		{"is1_43" inherit "vehicle tank.kv85"}
 
@@ -525,6 +529,7 @@
 		{"20mm_l39" inherit "vehicle atgun.l39"}
 		{"20mm_itk35" inherit "vehicle atgun.itk35"}
 		{"20mm_itk40" inherit "vehicle atgun.itk35"}
+		{"25mm_pstk34" inherit "vehicle atgun.common"}
 		{"40mm_itk38b" inherit "vehicle atgun.bofors"}
 		{"75mm_k44" inherit "vehicle atgun.k44"}
 		{"75mm_itk37" inherit "vehicle atgun.flak18"}
@@ -542,6 +547,7 @@
 		{"84mm_k18_late" inherit "vehicle fieldgun.common"}
 
 		{"105mm_k13" inherit "vehicle artillery.common"}
+		{"105mm_k29" inherit "vehicle artillery.common"}
 		{"105mm_h33" inherit "vehicle artillery.common"}
 		{"105mm_k34" inherit "vehicle artillery.common"}
 		{"107mm_k10" inherit "vehicle artillery.common"}
@@ -549,7 +555,7 @@
 		{"122mm_m1910_fin" inherit "vehicle artillery.common"}
 		{"155mm_h17" inherit "vehicle artillery.common"}
 		{"203mm_h17" inherit "vehicle artillery.common"}
-
+		{"210mm_h17" inherit "vehicle artillery.common"}
 		{"inf_crate_fin" inherit "vehicle high_mg.common"}
 
 ;=================== Fin car ===================
@@ -569,13 +575,16 @@
 		{"ba6_fin" inherit "vehicle tank.t26"}
 		{"ba10_fin" inherit "vehicle tank.t26"}
 		{"l182" inherit "vehicle tank.panzer2f"}
+		{"caterpillar" inherit "vehicle generic.unarmed"}
 
 ;=================== Fin tank =====================
 
 		{"ft17_fin" inherit "vehicle tank.ft17"}
 		{"ft17_mg_fin" inherit "vehicle tank.ft17"}
 		{"vickers_6t_altb" inherit "vehicle tank.t26"}
+		{"vickers_6t_b" inherit "vehicle tank.t26"}
 		{"t26e" inherit "vehicle tank.t26"}
+		{"kht130_fin" inherit "vehicle tank.kht130"}
 
 		{"bt42" inherit "vehicle tank.bt42"}
 		{"t50_fin" inherit "vehicle tank.t26"}
@@ -587,7 +596,8 @@
 ;=================== Fin plane =====================
 
 		{"blenheim_mk1" inherit "vehicle aircraft.common"}
-
+		{"fokker_fin" inherit "vehicle aircraft.common"}
+		{"po2_fin" inherit "vehicle aircraft.common"}
 
 ;___________________________________________
 ;|                  USA units               |
@@ -651,6 +661,7 @@
 		{"cckw_engineer" inherit "vehicle generic.unarmed"}
 		{"cckw_engineer_late" inherit "vehicle vehicle.gmc_mg"}
 		{"cckw_redball" inherit "vehicle vehicle.gmc_mg"}
+		{"cckw_aa" inherit "vehicle vehicle.m15a1_cgmc"}
 
 		{"m6_gmc" inherit "vehicle vehicle.m6_gmc"}
 
@@ -754,7 +765,7 @@
 		{"p47_d22" inherit "vehicle aircraft.common"}
 		{"c47_d" inherit "vehicle aircraft.common"}
 ;_____________________________________________________
-;|                   BK units                     |
+;|                   BK units                     	  |
 ;|____________________________________________________|
 
 ;=================== Ger ===================
@@ -764,17 +775,14 @@
 		{"elefant" inherit "vehicle td.ferdinand"}
 		;{"sdkfz251d_23" inherit "vehicle vehicle.222"}
 		{"128mm_pak44" inherit "vehicle atgun.pak44"}
-		{"sdkfz251c_9" inherit "vehicle tank.234_3"}
 		{"sdkfz251d_9" inherit "vehicle tank.234_3"}
 		{"sdkfz251_20" inherit "vehicle generic.searchlight"}
-		{"stug4g" inherit "vehicle td.stug3"}
 		
 		{"bt7_dt" inherit "vehicle tank.t26"}
 		{"rbt_5" inherit "vehicle tank.bt5"}
 		{"flammjagdtiger" inherit "vehicle td.jagdtiger"}
 		
 		{"tiger1p" inherit "vehicle tank.tiger2h_3_2"}
-		{"dicker_max" inherit "vehicle td.ferdinand"}
 		{"sturer_emil" inherit "vehicle td.ferdinand"}
 		{"m18_gmc_90" inherit "vehicle tank.medium_us_90_m36b1"}
 		{"waffletractor" inherit "vehicle tank.tiger2h_2"}
@@ -823,6 +831,7 @@
 		{"gaz_aaa_72k_early" 		inherit "vehicle truck.gaz72k"}
 		{"25mm_72k_early"			inherit "vehicle atgun.72k"}
 		{"sdkfz301b" 				inherit "vehicle generic.unarmed"}
+		{"sdkfz301c" 				inherit "vehicle generic.unarmed"}
 		{"zis42" 					inherit "vehicle generic.unarmed"}
 		{"su5_2" 					inherit "vehicle artillery.common"}
 		{"zis5eng_e" 				inherit "vehicle generic.unarmed"}
@@ -849,6 +858,27 @@
 		{"bt7_35"					inherit "vehicle tank.bt5"}
 		{"152mm_h37" 				inherit "vehicle artillery.common"}
 		{"panzer4f1_vorpanzer" 		inherit "vehicle tank.panzer3n"}
+		{"t3476_40_early" 			inherit "vehicle tank.t3476early"}
+		{"su76i" 					inherit "vehicle tank.t3476"}
+		{"isu122" 					inherit "vehicle td.isu122"}
+		{"t5" 						inherit "vehicle tank.panther"}
+		{"t34_747" 					inherit "vehicle tank.t3457"}
+		{"sdkfz251c_8" 				inherit "vehicle generic.unarmed"}
+		{"t26a" 					inherit "vehicle tank.t2631"}
+		{"t26_33_fin" 				inherit "vehicle tank.t26"}
+		{"t26_33_fin_m" 			inherit "vehicle tank.t26"}
+		{"t26c"						inherit "vehicle tank.t26"}
+		{"t26c_m" 					inherit "vehicle tank.t26"}
+		{"t26c_39" 					inherit "vehicle tank.t26"}
+		{"t26c_39_m" 				inherit "vehicle tank.t26"}
+		{"t26c_t130" 				inherit "vehicle tank.t26"}
+		{"t26c_t133" 				inherit "vehicle tank.t26"}
+		{"kht133_fin" 				inherit "vehicle tank.kht130"}
+		{"su122_sap" 				inherit "vehicle td.su122"}
+		{"su100_early" 				inherit "vehicle td.su100"}
+		{"is2_45_vet" 				inherit "vehicle tank.is2"}
+		{"panzer5g_vet" 			inherit "vehicle tank.panther"}
+		{"su57" 					inherit "vehicle vehicle.m3_gmc"}
 		
 		; CR
 		{"30mm_flak38" inherit "vehicle atgun.flak38"}
@@ -857,6 +887,605 @@
 		{"flammpanzer1" inherit "vehicle tank.panzer1b"}
 		{"t37a_shkas" inherit "vehicle tank.t40"}
 		{"dshk_carrier_rus" inherit "vehicle vehicle.mmg_carrier"}
+		
+;_____________________________________________________
+;|                   Valour		                      |
+;|____________________________________________________|
+		
+		
+		
+;_____________________________________________________
+;|                   French units                     |
+;|____________________________________________________|
+
+;=================== French cannon ===================
+		{"inf_crate_fra" inherit "vehicle medium_mg.common"}
+		{"hotchkiss_mle1914" inherit "vehicle low_mg.common"}
+		{"heavy_mg_reibel_aa_x2" inherit "vehicle medium_mg.common"}
+		{"13mm_hotchkiss" inherit "vehicle medium_mg.common"}
+		{"25mm_hotchkiss_mle38" inherit "vehicle low_cannon.common"}
+		{"25mm_hotchkiss_mle34" inherit "vehicle atgun.common"}
+		{"47mm_puteaux_mle37" inherit "vehicle atgun.common"}
+		{"75mm_mle1897" inherit "vehicle fieldgun.common"}
+		{"81mm_brandt_fra" inherit "vehicle mortar.common"}
+		{"105mm_mle1913" inherit "vehicle artillery.common"}
+		{"155mm_gpf" inherit "vehicle artillery.common"}
+		{"155mm_m1917a4" inherit "vehicle artillery.common"}
+		{"22cm_mortier" inherit "vehicle artillery.common"}
+
+;=================== French car ===================
+		{"laffly_v15t_mg" inherit "vehicle vehicle.mg"}
+		{"citroen_23r_inf" inherit "vehicle generic.unarmed"}
+		{"laffly_s15_toe" inherit "vehicle  vehicle.mg"}
+		{"lorraine39" inherit "vehicle generic.unarmed"}
+		{"citroen_23r_art" inherit "vehicle generic.unarmed"}
+		{"citroen_23r_eng" inherit "vehicle generic.unarmed"}
+		{"renault_agk" inherit "vehicle generic.unarmed"}
+		{"renault_fuel" inherit "vehicle generic.unarmed"}
+		{"panhard" inherit "vehicle tank.panhard"}
+		{"autocanon_75mm" inherit "vehicle spg.common"}
+		
+;===================French light armor ===================		
+		{"ft17" inherit "vehicle tank.ft17"}
+		{"ft17m31" inherit "vehicle tank.ft17"}
+		{"amr35-13mm" inherit "vehicle tank.panhard"}
+		{"amr35-25mm" inherit "vehicle tank.panhard"}
+		{"laffly15tcc" inherit "vehicle spg.common"}
+		{"bs-75" inherit "vehicle spg.common"}
+		{"amc_p16" inherit "vehicle tank.light_fra"}
+		{"r35" inherit "vehicle tank.light_fra"}
+		{"r39" inherit "vehicle tank.light_fra"}
+		{"h39" inherit "vehicle tank.light_fra"}
+		{"fcm36" inherit "vehicle tank.light_fra"}
+		
+;=================== French tank ===================		
+		{"char_d2" inherit "vehicle tank.medium_fra"}
+		{"s35" inherit "vehicle tank.medium_fra"}
+		{"b1bis" inherit "vehicle tank.medium_fra"}
+		{"sau40" inherit "vehicle tank.panzerb2"}
+
+;=================== French airborne ===================
+		{"potez631" inherit "vehicle aircraft.common_mp"}
+		{"douglas" inherit "vehicle aircraft.common"}
+
+
+;_____________________________________________________
+;|                   Polish units                     |
+;|____________________________________________________|
+
+;=================== Polish cannon ===================
+		{"inf_crate_pol" inherit "vehicle medium_mg.common"}
+		{"ckm_wz30_mgun" inherit "vehicle low_mg.common"}
+		{"ckm_wz08" inherit "vehicle low_mg.common"}
+		{"heavy_mg_ckm_wz30_aa" inherit "vehicle medium_mg.common"}
+		{"20mm_fka" inherit "vehicle low_cannon.common"}
+		{"37mm_bofors" inherit "vehicle atgun.common"}
+		{"40mm_bofors" inherit "vehicle atgun.common"}
+		{"75mm_aa_wz36" inherit "vehicle atgun.common"}
+		{"75mm_wz97" inherit "vehicle fieldgun.common"}
+		{"ft17_pol" inherit "vehicle tank.ft17"}
+		{"75mm_wz_02_26" inherit "vehicle fieldgun.common"}
+		{"81mm_brandt_pol" inherit "vehicle mortar.common"}
+		{"105mm_wz29" inherit "vehicle artillery.common"}
+		{"105mm_wz1913" inherit "vehicle artillery.common"}
+		{"100mm_wz14" inherit "vehicle artillery.common"}
+		{"120mm_wz1878" inherit "vehicle artillery.common"}
+		{"155mm_wz1917" inherit "vehicle artillery.common"}
+
+;=================== Polish car ===================
+		{"sokol1000" inherit "vehicle generic.moto"}
+		{"pf621_inf" inherit "vehicle generic.unarmed"}
+		{"pf621_art" inherit "vehicle generic.unarmed"}
+		{"pf621_eng" inherit "vehicle generic.unarmed"}
+		{"pf621_aa" inherit  "vehicle vehicle.mg_turret"}
+		{"pf621_fuel" inherit "vehicle generic.unarmed"}
+		{"praga_rv" inherit "vehicle generic.unarmed"}
+		{"wz34" inherit "vehicle vehicle.mg"}
+		{"wz34puteaux" inherit "vehicle spg.common"}
+		{"wz29" inherit "vehicle spg.common"}
+		{"pf621_75mm" inherit "vehicle spg.common"}
+		
+;===================Polish light armor ===================		
+		{"tks-mg" inherit "vehicle vehicle.gun_rot"}
+		{"tks-20mm" inherit "vehicle vehicle.gun_rot"}
+		{"tks-37mm" inherit "vehicle vehicle.gun_rot"}
+		{"vickersedw" inherit "vehicle tank.t2633"}
+		{"vickersejw" inherit "vehicle tank.t26"}
+		{"7tp" inherit "vehicle tank.t26"}
+		{"10tp" inherit "vehicle tank.t26"}
+		{"r35_pol" inherit "vehicle tank.medium_fra"}
+		{"h39_pol" inherit "vehicle tank.light_fra"}
+		
+;=================== Polish airborne ===================
+		{"pzlp11" inherit "vehicle aircraft.common_mp"}
+		{"pzlp23" inherit "vehicle aircraft.common"}
+
+;=================== Japan vehicles ===================
+	{"a6m21_reisen" inherit "vehicle aircraft.common"}
+	{"a6m2" inherit "vehicle aircraft.common_mp"}
+	{"j2m_raiden" inherit "vehicle aircraft.common"}
+	{"type1_ho-ki" inherit "vehicle generic.unarmed"}
+	{"type1_ho-ki_mg" inherit "vehicle vehicle.mg_turret"}
+	{"type1_ho-ha" inherit "vehicle vehicle.mg_turret"}
+	{"type87" inherit "vehicle vehicle.mg"}
+	{"type93" inherit "vehicle vehicle.mg"}
+	{"13mm_type_93" inherit "vehicle medium_mg.common"}	
+	{"20mm_type_2" inherit "vehicle low_cannon.common"}
+	{"20mm_type_97" inherit "vehicle low_mg.common"}
+	{"20mm_type_98" inherit "vehicle low_cannon.common"}
+	{"37mm_type_11" inherit "vehicle atgun.common"}
+	{"37mm_type_94" inherit "vehicle atgun.common"}
+	{"47mm_type_1" inherit "vehicle atgun.common"}
+	{"57mm_type_2" inherit "vehicle atgun.common"}
+	{"70mm_type_92" inherit "vehicle artillery.common"}
+	{"75mm_type_4" inherit "vehicle atgun.common"}
+	{"75mm_type_41" inherit "vehicle fieldgun.common"}
+	{"75mm_type_88" inherit "vehicle atgun.common"}
+	{"75mm_type_90" inherit "vehicle atgun.common"}
+	{"88mm_type_99" inherit "vehicle atgun.common.tall"}
+	{"105mm_type_91" inherit "vehicle artillery.common"}
+	{"105mm_type_92" inherit "vehicle artillery.common"}
+	{"120mm_type_38" inherit "vehicle artillery.common"}
+	{"150mm_type_96" inherit "vehicle artillery.common"}
+	{"150mm_type_97" inherit "vehicle mortar.common"}
+	{"200mm_type_4" inherit "vehicle artillery.common"}
+	{"240mm_type_45" inherit "vehicle artillery.common"}
+	{"type92_stan" inherit "vehicle low_mg.common"}
+	{"7_7mm_type92_lewis" inherit "vehicle medium_mg.common"}
+	{"heavy_mg_type92_lewis" inherit "vehicle medium_mg.common"}
+	{"type1_stan" inherit "vehicle low_mg.common"}
+	{"type97_sidecar" inherit "vehicle generic.moto"}
+	{"type94" inherit "vehicle generic.unarmed"}
+	{"type94_kamikaze" inherit "vehicle generic.unarmed"}
+	{"type94art" inherit "vehicle generic.unarmed"}
+	{"type94eng" inherit "vehicle generic.unarmed"}
+	{"type94_fuel" inherit "vehicle generic.unarmed"}
+	{"type94inf" inherit "vehicle generic.unarmed"}
+	{"type94aa" inherit "vehicle spg.common"}
+	{"type95" inherit "vehicle vehicle.mg_turret"}
+	{"type95_com" inherit "vehicle small.unarmed"}
+	{"81mm_brandt_jap" inherit "vehicle mortar.common"}
+	{"type4_ke-nu" inherit "vehicle tank.medium_jap"}
+	{"type3_ke-ri" inherit "vehicle tank.medium_jap"}
+	{"type94_te-ke" inherit "vehicle vehicle.mg"}
+	{"type95_ha-go" inherit "vehicle tank.t26"}
+	{"type97_te-ke" inherit "vehicle tank.t26"}
+	{"type1_chi-he"	inherit "vehicle tank.medium_jap"}
+	{"type1_ho-ni1" inherit "vehicle spg.common"}
+	{"type1_ho-ni2" inherit "vehicle spg.common"}
+	{"ijn_12cm_spg" inherit "vehicle spg.common"}
+	{"type1_ho-i" inherit "vehicle tank.medium_jap"}
+	{"type2_ho-i" inherit "vehicle tank.medium_jap"}
+	{"type2_ho-i_kou" inherit "vehicle tank.medium_jap"}
+	{"type3_ho-ni" inherit "vehicle spg.common"}
+	{"type3_chi-nu" inherit "vehicle tank.medium_jap"}
+	{"type3_chi-nu2" inherit "vehicle tank.medium_jap"}
+	{"type5_chi-ri" inherit "vehicle tank.medium_jap"}
+	{"type4_ho-ro" inherit "vehicle spg.common"}
+	{"type5_ho-chi" inherit "vehicle spg.common"}
+	{"type89_i-go" inherit "vehicle tank.medium_jap"}
+	{"type89_i-go_early" inherit "vehicle tank.medium_jap"}
+	{"type91_heavy" inherit "vehicle tank.medium_jap"}
+	{"type97_chi-ha" inherit "vehicle tank.medium_jap"}
+	{"type97_shi-ki" inherit "vehicle td.jap"}
+	{"type97_shinhoto_120mm" inherit "vehicle tank.medium_jap"}
+	{"type97_shinhoto_47mm" inherit "vehicle tank.medium_jap"}
+	{"type97_eng" inherit "vehicle vehicle.turret_mg"}
+	{"inf_crate_jap" inherit "vehicle medium_mg.common"}
+	{"toyota_rocket" inherit "vehicle artillery.katyusha"}
+	{"type4_ha-to" inherit "vehicle artillery.common"}
+	{"type97_ka-ho" inherit "vehicle tank.medium_jap"}
+	{"40mm_type5_aa" inherit "vehicle artillery.common"}
+	{"t12gmc_jap" inherit "vehicle spg.common"}
+	{"l2d3" inherit "vehicle aircraft.common"}
+
+;=================== USA vehicles ===================
+	{"np_b25" inherit "vehicle aircraft.common"}
+	{"np_p-39" inherit "vehicle aircraft.common"}
+	{"np_piper_j-3" inherit "vehicle aircraft.common"}
+	{"np_skytrain" inherit "vehicle aircraft.common"}
+	{"np_p-40" inherit "vehicle aircraft.common_mp"}
+	{"np_m3a1_scout_tr" inherit "vehicle vehicle.turret_mg"}
+	{"np_m8_grayhound" inherit "vehicle tank.light_us37"}
+	{"np_m8_grayhound_2" inherit "vehicle tank.light_us37"}
+	{"np_m20" inherit "vehicle vehicle.turret_mg"}
+	{"np_m4halftrack" inherit "vehicle mortar.common"}
+	{"np_m16" inherit "vehicle vehicle.hmg_us"}
+	{"np_m15a1" inherit "vehicle truck.gaz72k"}
+	{"np_t12gmc" inherit "vehicle spg.common"}
+	{"np_t30hmc" inherit "vehicle spg.common"}
+	{"np_0_5cal_maxson" inherit "vehicle low_cannon.common"}
+	{"np_0_3cal_m1919a4" inherit "vehicle medium_mg.common"}
+	{"np_37_mm_m3" inherit "vehicle atgun.common"}
+	{"np_40_mm_m1" inherit "vehicle artillery.common"}
+	{"np_57_mm_m1" inherit "vehicle atgun.common"}
+	{"np_75_mm_m1897a2" inherit "vehicle atgun.common"}
+	{"np_75_mm_m1897a4" inherit "vehicle atgun.common"}
+	{"np_76_mm_m5" inherit "vehicle atgun.common"}
+	{"np_76_mm_m5late" inherit "vehicle atgun.us"}
+	{"np_90_mm_m1" inherit "vehicle atgun.flak18"}
+	{"np_75_mm_m1" inherit "vehicle artillery.common"}
+	{"np_105_mm_m2a1l" inherit "vehicle artillery.common"}
+	{"np_105_mm_m3" inherit "vehicle artillery.common"}
+	{"np_155_mm_m1917a4" inherit "vehicle artillery.common"}
+	{"np_155_mm_m1" inherit "vehicle artillery.common"}
+	{"np_155_mm_m2" inherit "vehicle artillery.common"}
+	{"np_155mm_gpf" inherit "vehicle artillery.common"}
+	{"np_203_mm_m115" inherit "vehicle artillery.common"}
+	{"np_81_mm_m1" inherit "vehicle mortar.common"}
+	{"np_107_mm_m2" inherit "vehicle mortar.common"}
+	{"np_0_3cal_m1917a1_aa" inherit "vehicle medium_mg.common"}
+	{"np_0_3cal_m1917a1" inherit "vehicle medium_mg.common"}
+	{"np_heavy_mg_us-0_3cal" inherit "vehicle medium_mg.common"}
+	{"np_0_5cal_m2hb" inherit "vehicle medium_mg.common"}
+	{"np_harley" inherit "vehicle generic.moto"}
+	{"np_harley-2wheels" inherit "vehicle generic.moto2w"}
+	{"np_cckw352" inherit "vehicle generic.unarmed"}
+	{"np_cckw353_inf" inherit "vehicle generic.unarmed"}
+	{"np_cckw352_art" inherit "vehicle generic.unarmed"}
+	{"np_cckw353_eng" inherit "vehicle generic.unarmed"}
+	{"np_cckw353_fuel" inherit "vehicle generic.unarmed"}
+	{"np_cckw353_2xt27" inherit "vehicle artillery.katyusha"}
+	{"np_chevrolet_aa" inherit "vehicle vehicle.hmg_us"}
+	{"np_dodgewc55" inherit "vehicle atgun.common"}
+	{"np_willysmb" inherit "vehicle vehicle.mg_turret"}
+	{"np_willysat" inherit "vehicle vehicle.mg_turret"}
+	{"np_willys50" inherit "vehicle vehicle.mg_turret"}
+	{"np_dodge_armor" inherit "vehicle vehicle.car_mg"}
+	{"np_willys_com" inherit "vehicle generic.unarmed"}
+	{"np_dodge" inherit "vehicle generic.unarmed"}
+	{"np_m22" inherit "vehicle tank.light_us37"}
+	{"np_m3_stuart" inherit "vehicle tank.light_us37"}
+	{"np_m3_stuart_early" inherit "vehicle tank.light_us37"}
+	{"np_m3_satan" inherit "vehicle tank.light_us37"}
+	{"np_m5a1" inherit "vehicle tank.light_us37"}
+	{"np_m8" inherit "vehicle tank.medium_us75"}
+	{"np_lvt4" inherit "vehicle tank.medium_us75"}
+	{"np_m10wolverine" inherit "vehicle tank.medium_us76"}
+	{"np_m7" inherit "vehicle spg.common"}
+	{"np_m4a1" inherit "vehicle tank.medium_us75"}
+	{"np_m4a2" inherit "vehicle tank.medium_us75"}
+	{"np_m4" inherit "vehicle tank.medium_us75"}
+	{"np_m3lee" inherit "vehicle tank.medium_us75"}
+	{"np_inf_crate_usa" inherit "vehicle medium_mg.common"}
+	{"np_m4a3c" inherit "vehicle tank.medium_us75"}
+	{"np_m4a3_zippo" inherit "vehicle tank.medium_us75"}
+	{"np_m12gmc" inherit "vehicle spg.common"}
+	{"np_m4_105" inherit "vehicle tank.medium_us105"}
+	{"np_m4a3_105" inherit "vehicle tank.medium_us105"}
+	{"np_m4a3e2_jumbo_76w" inherit "vehicle tank.medium_us76"}
+	{"np_m4a3e2_jumbo" inherit "vehicle tank.medium_us75"}
+	{"np_m4a3_75" inherit "vehicle tank.medium_us75"}
+	{"np_m4a3_76" inherit "vehicle tank.medium_us76"}
+	{"np_m26_pershing" inherit "vehicle tank.medium_us90"}
+	{"np_m26_veteran" inherit "vehicle tank.medium_us90"}
+	{"np_m26e4_pershing" inherit "vehicle tank.medium_us90"}
+	{"np_t26e4" inherit "vehicle tank.medium_us90"}
+	{"np_m18" inherit "vehicle tank.medium_us76"}
+	{"np_m24_chaffee" inherit "vehicle tank.medium_us75"}
+	{"np_m3" inherit "vehicle vehicle.mg_rot"}
+	{"np_m36gmc" inherit "vehicle tank.medium_us90"}
+	{"np_m36b1" inherit "vehicle tank.medium_us90"}
+	{"np_m36b2" inherit "vehicle tank.medium_us90"}
+	{"np_m4a3e8" inherit "vehicle tank.medium_us76"}
+	{"np_m4a3e8_armor" inherit "vehicle tank.medium_us76"}
+	{"np_m2a4" inherit "vehicle tank.light_us37"}
+	{"np_m2halftrack" inherit "vehicle vehicle.turret_mg"}
+	{"np_m4a1e8" inherit "vehicle tank.medium_us76"}
+	{"np_m4hst" inherit "vehicle vehicle.turret_mg"}
+	{"np_lvt4_wb2" inherit "vehicle vehicle.turret_mg"}
+	{"np_57_mm_m18" inherit "vehicle medium_mg.common"}
+	{"np_60_mm_m2" inherit "vehicle mortar.common"}
+	{"np_m4a1_76_w" inherit "vehicle tank.medium_us76"}
+	{"np_m4a3e8_fury" inherit "vehicle tank.medium_us76"}
+	{"np_m18_90" inherit "vehicle tank.medium_us90"}
+	{"np_t29" inherit "vehicle tank.medium_us90"}
+	{"np_t26e2" inherit "vehicle tank.medium_us75"}
+		
+	{"m3a1_scout_fr" inherit "vehicle vehicle.turret_mg"}
+	{"m8_grayhound_fr" inherit "vehicle tank.light_us37"}
+	{"m20_fr" inherit "vehicle vehicle.turret_mg"}
+	{"m4halftrack_fr" inherit "vehicle mortar.common"}
+	{"m3halftrack_fr" inherit "vehicle vehicle.mg_rot"}
+	{"m17_fr" inherit "vehicle vehicle.hmg_us"}
+	{"0_5cal_maxson_fr" inherit "vehicle low_cannon.common"}
+	{"0_3cal_m1919a4_fr" inherit "vehicle medium_mg.common"}
+	{"heavy_mg_0_3cal_m1917a1" inherit "vehicle medium_mg.common"}
+	{"0_3cal_m1917a1_aa_fra" inherit "vehicle medium_mg.common"}
+	{"57_mm_m1_fr" inherit "vehicle atgun.common"}
+	{"40_mm_m1_fr" inherit "vehicle artillery.common"}
+	{"75_mm_m1897a2_fr" inherit "vehicle atgun.common"}
+	{"75_mm_m1897a4_fr" inherit "vehicle atgun.common"}
+	{"105_mm_m2a1l_fr" inherit "vehicle artillery.common"}
+	{"105_mm_m3_fr" inherit "vehicle artillery.common"}
+	{"155mm_gpf_late" inherit "vehicle artillery.common"}
+	{"155_mm_m1918" inherit "vehicle artillery.common"}
+	{"81_mm_m1_fr" inherit "vehicle mortar.common"}
+	{"0_5cal_m2hb_fr" inherit "vehicle medium_mg.common"}
+	{"cckw352_fr_inf" inherit "vehicle generic.unarmed"}
+	{"cckw352_fr_art" inherit "vehicle generic.unarmed"}
+	{"cckw352_fr_eng" inherit "vehicle generic.unarmed"}
+	{"chevrolet_fr" inherit "vehicle generic.unarmed"}
+	{"chevrolet_fuel_fr" inherit "vehicle generic.unarmed"}
+	{"dodgewc55_fr" inherit "vehicle atgun.common"}
+	{"dodge_fr" inherit "vehicle generic.unarmed"}
+	{"m5a1_fr" inherit "vehicle tank.light_us37"}
+	{"m8_fr" inherit "vehicle tank.medium_us75"}
+	{"m10wolverine_fr" inherit "vehicle tank.medium_us76"}
+	{"m7_fr" inherit "vehicle spg.common"}
+	{"m4a3_75_fr" inherit "vehicle tank.medium_us75"}
+	{"m4a3_76_fr" inherit "vehicle tank.medium_us76"}
+	{"inf_crate_fr" inherit "vehicle medium_mg.common"}
+	{"m4a3_105_fr" inherit "vehicle tank.medium_us105"}
+	{"cavalier_mk_vii" inherit "vehicle tank.medium_pdr6"}
+	{"m3_stuart_fr" inherit "vehicle tank.light_us37"}
+	{"m4a2_fr" inherit "vehicle tank.medium_us75"}
+	{"t12gmc_fr" inherit "vehicle spg.common"}
+	{"m2halftrack_fr" inherit "vehicle vehicle.turret_mg"}
+	{"crusader_fr" inherit "vehicle tank.medium_pdr6"}
+	{"crusader_mk2_fr" inherit "vehicle tank.medium_oqf40mm"}
+	{"crusader_mk2_cs_fr" inherit "vehicle tank.medium_oqf40mm"}
+	{"m4a1e8_fr" inherit "vehicle tank.medium_us76"}
+	{"m12gmc_fr" inherit "vehicle spg.common"}
+	{"m4hst_fr" inherit "vehicle vehicle.turret_mg"}
+
+	{"303_bren_pol" inherit "vehicle low_cannon.common"}
+	{"heavy_mg_bren" inherit "vehicle medium_mg.common"}
+	{"303_bren_tripod_aa" inherit "vehicle medium_mg.common"}
+	{"oerlikon_mk2_pol" inherit "vehicle artillery.common"}
+	{"qf40mm_pol" inherit "vehicle artillery.common"}
+	{"qf2pdr_pol" inherit "vehicle atgun.common"}
+	{"qf6pdr_pol" inherit "vehicle atgun.common"}
+	{"qf6pdr_late_pol" inherit "vehicle atgun.common"}
+	{"qf17pdr_pol" inherit "vehicle atgun.common"}
+	{"qf17pdr_42_pol" inherit "vehicle atgun.17-25pdr"}
+	{"qf25pdr_pol" inherit "vehicle artillery.common"}
+	{"qf25pdr_pol_early" inherit "vehicle artillery.common"}
+	{"bl45_pol" inherit "vehicle artillery.common"}
+	{"bedford_ql_inf" inherit "vehicle generic.unarmed"}
+	{"bedford_ql_art" inherit "vehicle generic.unarmed"}
+	{"bedford_ql_eng" inherit "vehicle generic.unarmed"}
+	{"chevrolet_fuel_pol" inherit "vehicle generic.unarmed"}
+	{"chevrolet_pol" inherit "vehicle generic.unarmed"}
+	{"cmp_tri-polsten" inherit "vehicle vehicle.hmg_us"}
+	{"dingo_pol" inherit "vehicle vehicle.mg_rot_carrier"}
+	{"mk2daimler_pol" inherit "vehicle tank.medium_oqf40mm"}
+	{"m3halftrack_pol" inherit "vehicle vehicle.mg_rot"}
+	{"staghound_pol" inherit "vehicle tank.light_us37"}
+	{"crusader_aa2_pol" inherit "vehicle tank.light_us37"}
+	{"a10_mk2_pol" inherit "vehicle tank.medium_oqf40mm"}
+	{"crusader_mki_cs_pol" inherit "vehicle tank.medium_oqf40mm"}
+	{"crusader_pol" inherit "vehicle tank.medium_pdr6"}
+	{"cromwell_mk_i_pol" inherit "vehicle tank.medium_pdr6"}
+	{"cromwell_mk_iv_pol" inherit "vehicle tank.medium_us75"}
+	{"cromwell_mk_vi_pol" inherit "vehicle tank.medium_us75"}
+	{"m4a4_pol" inherit "vehicle tank.medium_us75"}
+	{"challenger_pol" inherit "vehicle tank.medium_pdr17"}
+	{"m4a4_firefly_pol" inherit "vehicle tank.medium_pdr17"}
+	{"churchill_mk_ii_pol" inherit "vehicle tank.medium_oqf40mm"}
+	{"achilles_pol" inherit "vehicle tank.medium_pdr17"}
+	{"sexton_pol" inherit "vehicle spg.common"}
+	{"m4a3_105_pol" inherit "vehicle tank.medium_us105"}
+	{"crusader_mkii_pol" inherit "vehicle tank.medium_pdr6"}
+	{"valentine_mkiii_pol" inherit "vehicle tank.medium_oqf40mm"}
+	{"303_vickers_pol" inherit "vehicle low_cannon.common"}
+	{"m5a1_pol" inherit "vehicle tank.light_us37"}
+	{"m4a1_76_pol" inherit "vehicle tank.medium_us76"}
+	{"dodge_pol" inherit "vehicle generic.unarmed"}
+	{"75mm_m1_pol" inherit "vehicle atgun.common"}
+	{"m5hst_pol" inherit "vehicle vehicle.turret_mg"}
+	
+	{"np_beaufighter" inherit "vehicle aircraft.common"}
+	{"np_hawker" inherit "vehicle aircraft.common"}
+	{"np_hurricane_mk2" inherit "vehicle aircraft.common"}
+	{"np_flitfire" inherit "vehicle aircraft.common"}
+	{"np_spitfire_mkvb" inherit "vehicle aircraft.common_mp"}
+	{"np_75_mm_m1a1" inherit "vehicle artillery.common"}
+	{"np_76mm_mk_ii" inherit "vehicle mortar.common"}
+	{"np_107mm_mk_ii" inherit "vehicle mortar.common"}
+	{"np_303_bren" inherit "vehicle low_cannon.common"}
+	{"np_heavy_mg_vickers_mkiv" inherit "vehicle medium_mg.common"}
+	{"np_303_vickers_mki" inherit "vehicle low_cannon.common"}
+	{"np_303_vickers_mkiv_aa" inherit "vehicle medium_mg.common"}
+	{"np_qf40mm" inherit "vehicle artillery.common"}
+	{"np_qf75mm_mk1" inherit "vehicle atgun.common"}
+	{"np_qf2pdr" inherit "vehicle atgun.common"}
+	{"np_qf6pdr" inherit "vehicle atgun.common"}
+	{"np_qf6pdr_late" inherit "vehicle atgun.common"}
+	{"np_qf17pdr" inherit "vehicle atgun.common"}
+	{"np_qf17pdr_42" inherit "vehicle atgun.17-25pdr"}
+	{"np_qf18pdr" inherit "vehicle fieldgun.common"}
+	{"np_qf25pdr" inherit "vehicle artillery.common"}
+	{"np_qf25pdr_early" inherit "vehicle artillery.common"}
+	{"np_bl45" inherit "vehicle artillery.common"}
+	{"np_chevrolet30cwt" inherit "vehicle vehicle.turret_mg"}
+	{"np_dingo" inherit "vehicle vehicle.mg_rot_carrier"}
+	{"np_willys" inherit "vehicle generic.unarmed"}
+	{"np_m3halftrack" inherit "vehicle vehicle.mg_rot"}
+	{"np_m3a1_scout" inherit "vehicle vehicle.turret_mg"}
+	{"np_staghound" inherit "vehicle tank.light_us37"}
+	{"np_aec_mk2" inherit "vehicle tank.medium_pdr6"}
+	{"np_aec_mk3" inherit "vehicle tank.medium_us75"}
+	{"np_aec_aa" inherit "vehicle truck.bofors"}
+	{"np_crusader_aa2" inherit "vehicle tank.light_us37"}
+	{"np_crusader_mk6" inherit "vehicle tank.medium_pdr6"}
+	{"np_cromwell_mk_iv" inherit "vehicle tank.medium_us75"}
+	{"np_m4a4" inherit "vehicle tank.medium_us75"}
+	{"np_challenger_a30" inherit "vehicle tank.medium_pdr17"}
+	{"np_m4a4_firefly" inherit "vehicle tank.medium_pdr17"}
+	{"np_achilles" inherit "vehicle tank.medium_pdr17"}
+	{"np_archer" inherit "vehicle td.medium_pdr17"}
+	{"np_sexton" inherit "vehicle spg.common"}
+	{"np_qf3,7inch" inherit "vehicle artillery.common"}
+	{"np_qf3,7inch_armor" inherit "vehicle atgun.qf"}
+	{"np_bl72" inherit "vehicle artillery.common"}
+	{"np_morris_cs8" inherit "vehicle generic.unarmed"}
+	{"np_bedford_ql" inherit "vehicle generic.unarmed"}
+	{"np_matador" inherit "vehicle generic.unarmed"}
+	{"np_matador_art" inherit "vehicle generic.unarmed"}
+	{"np_matador_eng" inherit "vehicle generic.unarmed"}
+	{"np_matador_fuel" inherit "vehicle generic.unarmed"}
+	{"np_humber" inherit "vehicle tank.light_us37"}
+	{"np_humber_mk4" inherit "vehicle tank.light_us37"}
+	{"np_churchill_avre" inherit "vehicle spg.common"}
+	{"np_cromwell_mk_vi" inherit "vehicle tank.medium_us75"}
+	{"np_cromwell_75hv" inherit "vehicle tank.medium_us75"}
+	{"np_comet_a34" inherit "vehicle tank.medium_pdr17"}
+	{"np_churchill_mk_vii" inherit "vehicle tank.medium_us75"}
+	{"np_cromwell_mk_i" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_churchill_mk_ii" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_churchill_mk_iv" inherit "vehicle tank.medium_pdr6"}
+	{"np_churchill_mk_ix" inherit "vehicle tank.medium_pdr6"}
+	{"np_churchill_gun_carrier" inherit "vehicle td.brit"}
+	{"np_valentine_mkiii" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_valentine_mkix" inherit "vehicle tank.medium_pdr6"}
+	{"np_valentine_mkxi" inherit "vehicle tank.medium_us75"}
+	{"np_matilda_mkii" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_matilda_mkii_cs" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_crusader_aa1" inherit "vehicle tank.light_us37"}
+	{"np_churchill_crocodile" inherit "vehicle tank.medium_us75"}
+	{"np_crusader_mkii" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_crusader_mki" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_crusader_mki_cs" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_mk2daimler" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_land_mattress" inherit "vehicle artillery.common"}
+	{"np_black_prince" inherit "vehicle tank.medium_pdr17"}
+	{"np_churchill_mk_viii" inherit "vehicle tank.medium_us75"}
+	{"np_m4a1_76" inherit "vehicle tank.medium_us76"}
+	{"np_tetrarch_mk7" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_m3grant" inherit "vehicle tank.medium_us75"}
+	{"np_bishop" inherit "vehicle spg.common"}
+	{"np_a13_mk2a" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_a13_mk1" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_a10_mk2" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_a10_mk2_cs" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_bl6-inch" inherit "vehicle artillery.common"}
+	{"np_bl7_2-inch" inherit "vehicle artillery.common"}
+	{"np_universal_carrier" inherit "vehicle vehicle.mg_rot_carrier"}
+	{"np_mkvic" inherit "vehicle tank.medium_oqf40mm"}
+	{"np_oerlikon_mk2" inherit "vehicle artillery.common"}
+	{"np_m4a4_tulip" inherit "vehicle tank.medium_us75"}
+	{"np_m4a4_firefly_tulip" inherit "vehicle tank.medium_pdr17"}
+	{"np_tog2" inherit "vehicle tank.medium_pdr17"}
+	{"np_universal_boyes_carrier" inherit "vehicle vehicle.mg_rot_carrier"}
+	{"np_universal_mortar_carrier" inherit "vehicle mortar.common"}
+	{"np_universal_mg_carrier" inherit "vehicle vehicle.turret_mg"}
+	
+	{"sm79" inherit "vehicle aircraft.common"}
+	{"macchi200" inherit "vehicle aircraft.common_mp"}
+	{"cr_42" inherit "vehicle aircraft.common_mp"}
+	{"8mm_breda_37" inherit "vehicle low_cannon.common"}
+	{"8mm_fiat_revelli_m1914_35" inherit "vehicle low_cannon.common"}
+	{"heavy_mg_8mm_fiat" inherit "vehicle low_cannon.common"}
+	{"8mm_breda_37_aa" inherit "vehicle medium_mg.common"}
+	{"cannone_2065" inherit "vehicle artillery.common"}
+	{"2cm_solothurn" inherit "vehicle low_cannon.common"}
+	{"cannone_4732" inherit "vehicle atgun.common"}
+	{"cannone_7527" inherit "vehicle artillery.common"}
+	{"cannone_7543" inherit "vehicle atgun.pak40"}
+	{"cannone_9053" inherit "vehicle atgun.us"}
+	{"cannone_8855" inherit "vehicle atgun.flak18"}
+	{"cannone_10528" inherit "vehicle artillery.common"}
+	{"7_5cm_pak97_38" inherit "vehicle atgun.common"}
+	{"obice_7513" inherit "vehicle artillery.common"}
+	{"81mm_brandt_ita" inherit "vehicle mortar.common"}
+	{"obice_10017" inherit "vehicle artillery.common"}
+	{"obice_14912" inherit "vehicle artillery.common"}
+	{"obice_210" inherit "vehicle artillery.common"}
+	{"fiat626" inherit "vehicle generic.unarmed"}
+	{"fiat626_art" inherit "vehicle generic.unarmed"}
+	{"fiat626_eng" inherit "vehicle generic.unarmed"}
+	{"fiat626_fuel" inherit "vehicle generic.unarmed"}
+	{"fiat626_inf" inherit "vehicle generic.unarmed"}
+	{"lancia" inherit "vehicle generic.unarmed"}
+	{"as42" inherit "vehicle generic.unarmed"}
+	{"as42_2065" inherit "vehicle artillery.common"}
+	{"autocannone10017" inherit "vehicle artillery.common"}
+	{"3ro" inherit "vehicle spg.common"}
+	{"cv35" inherit "vehicle vehicle.mg_turret"}
+	{"as37" inherit "vehicle vehicle.mg"}
+	{"ab41" inherit "vehicle tank.medium_ita2"}
+	{"ab43" inherit "vehicle tank.medium_ita"}
+	{"fiat3000" inherit "vehicle tank.ft17"}
+	{"l640" inherit "vehicle tank.medium_ita2"}
+	{"l640fl" inherit "vehicle tank.medium_ita2"}
+	{"l640_37mm" inherit "vehicle tank.medium_ita2"}
+	{"m1139" inherit "vehicle tank.medium_ita2"}
+	{"m1340" inherit "vehicle tank.medium_ita"}
+	{"m1441" inherit "vehicle tank.medium_ita"}
+	{"m1542" inherit "vehicle tank.medium_ita"}
+	{"p2640" inherit "vehicle tank.medium_ita"}
+	{"p2640_18" inherit "vehicle tank.medium_ita"}
+	{"m15_contraereo" inherit "vehicle vehicle.hmg_us"}
+	{"pz3n_ita" inherit "vehicle tank.panzer3n_ita"}
+	{"pz4g_ita" inherit "vehicle tank.panzer4f2"}
+	{"m10525"  inherit "vehicle td.ita"}
+	{"m7518"  inherit "vehicle td.ita"}
+	{"m7534"  inherit "vehicle td.ita"}
+	{"m7546"  inherit "vehicle td.ita"}
+	{"m4732" inherit "vehicle td.ita2"}
+	{"stug3g_ita" inherit "vehicle td.stug3"}
+	{"breda_61t" inherit "vehicle generic.unarmed"}
+	
+	{"ca101_b" inherit "vehicle aircraft.common"}
+	{"re2000_hun" inherit "vehicle aircraft.common_mp"}
+	{"schwarzlose_8mm" inherit "vehicle low_cannon.common"}
+	{"heavy_mg_schwarzlose" inherit "vehicle medium_mg.common"}
+	{"2cm_solothurn_hun" inherit "vehicle medium_mg.common"}
+	{"4cm_bofors_36m" inherit "vehicle artillery.common"}
+	{"4cm_40m" inherit "vehicle atgun.pak36"}
+	{"5cm_38m" inherit "vehicle atgun.pak38"}
+	{"7_5cm_pak97_38_hun" inherit "vehicle atgun.common"}
+	{"7_5cm_40m" inherit "vehicle atgun.pak40"}
+	{"8cm_bofors_29m" inherit "vehicle atgun.common"}
+	{"81mm_brandt_hun" inherit "vehicle mortar.common"}
+	{"8cm_feldkanone" inherit "vehicle artillery.common"}
+	{"10cm_37m" inherit "vehicle artillery.common"}
+	{"10cm_feldhaubtize" inherit "vehicle artillery.common"}
+	{"15cm_43m" inherit "vehicle artillery.common"}
+	{"15cm_feldhaubitze" inherit "vehicle artillery.common"}
+	{"21cm_44m_buzoganyveto" inherit "vehicle low_cannon.common"}
+	{"21cm_39m" inherit "vehicle artillery.common"}
+	{"mercedesl3000_art" inherit "vehicle generic.unarmed"}
+	{"mercedesl3000_eng" inherit "vehicle generic.unarmed"}
+	{"mercedesl3000_fuel" inherit "vehicle generic.unarmed"}	
+	{"mercedesl3000" inherit "vehicle generic.unarmed"}
+	{"botond" inherit "vehicle generic.unarmed"}
+	{"botond2" inherit "vehicle generic.unarmed"}
+	{"hansa_lloyd" inherit "vehicle generic.unarmed"}
+	{"krupp" inherit "vehicle generic.unarmed"}
+	{"krupp_mg" inherit "vehicle vehicle.turret_mg"}
+	{"csaba40m" inherit "vehicle vehicle.mg"}
+	{"csaba39m" inherit "vehicle tank.medium_ita2"}
+	{"cv35_hun" inherit "vehicle vehicle.mg_turret"}
+	{"r35_hun" inherit "vehicle tank.light_fra"}
+	{"h39_hun" inherit "vehicle tank.light_fra"}
+	{"s35_hun" inherit "vehicle tank.medium_fra"}
+	{"toldi2" inherit "vehicle tank.light_hun40"}
+	{"toldi2_late" inherit "vehicle tank.light_hun40"}
+	{"toldi1" inherit "vehicle tank.medium_ita2"}
+	{"toldi1_rocket" inherit "vehicle artillery.common"}
+	{"pzkpfw38t_hun" inherit "vehicle tank.panzer38h"}
+	{"zrinyi2"  inherit "vehicle td.ita"}
+	{"zrinyi1"  inherit "vehicle td.ita"}
+	{"zrinyi1_rl"  inherit "vehicle td.ita"}
+	{"nimrod" inherit "vehicle artillery.common"}
+	{"turan1" inherit "vehicle tank.light_hun40"}
+	{"turan1_late" inherit "vehicle tank.light_hun40"}
+	{"turan2" inherit "vehicle tank.light_hun40"}
+	{"turan2_late" inherit "vehicle tank.light_hun40"}
+	{"turan3" inherit "vehicle tank.light_hun40"}
+	{"pz3m_hun" inherit "vehicle tank.panzer3l"}
+	{"pz4e_hun" inherit "vehicle tank.panzer3n"}
+	{"pz4f_hun" inherit "vehicle tank.panzer4f2"}
+	{"pz4h_hun" inherit "vehicle tank.panzer4h"}
+	{"marder2_hun" inherit "vehicle td.marder2"}
+	{"hetzer_hun" inherit "vehicle td.hetzer"}
+	{"stug3g_hun" inherit "vehicle td.stug3"}
+	{"pz6e_hun" inherit "vehicle tank.tigerh"}
+	{"sdkfz7_hun" inherit "vehicle generic.unarmed"}
+	
+	(include "tp_control_extra.inc")
 	}
 	{human
 		;{disabled}

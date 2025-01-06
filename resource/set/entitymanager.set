@@ -9,9 +9,10 @@
 	{group "canister" gameentity
 		(mod "mp" 		{limit 500})
 		(mod not "mp"	{limit 500})
-		{remove instant}
+		{remove dissolve}
 		{entity "canist_drob_d"}	
 		{entity "canister_shot_18"}
+		{tag "canister_shell"}
 	}
 	
 	{group "broken" gameentity

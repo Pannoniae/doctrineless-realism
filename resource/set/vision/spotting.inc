@@ -65,121 +65,121 @@
 (define "spot_cannon"			;// This section defines the distances at which different types of cannons are spotted under various conditions.
 
 	;//heavy mgun
-	{cannon_00 (* 1 (* %can_vis %r))				;// distance at which it will be spotted when moving
-		;{firing (* 200 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 1 (* %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1 (* %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1 (* %can_vis %r))}				;// unit still / not moving. 1st Blue line in v_visor
+	{cannon_00 100				;// distance at which it will be spotted when moving
+		;{firing (/ 200 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 100 (/ %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 100 (/ %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 100}				;// unit still / not moving. 1st Blue line in v_visor
 	}
 
 	;//infantry mortar
-	{cannon_01 (* 1 (* %can_vis %r))				;// distance at which it will be spotted when moving
-		;{firing (* 200 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 1.1 (* %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1 (* %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1 (* %can_vis %r))}				;// unit still / not moving. 1st Blue line in v_visor
+	{cannon_01 100				;// distance at which it will be spotted when moving
+		;{firing (/ 200 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 140 (/ %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 100 (/ %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 100}				;// unit still / not moving. 1st Blue line in v_visor
 	}
 
 	;// light gun
-	{cannon_02 (* 1.1 (* %can_vis %r))				;// distance at which it will be spotted when moving
-		;{firing (* 250 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 1.2 (* %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1.1 (* %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1.1 (* %can_vis %r))}				;// unit still / not moving
+	{cannon_02 110				;// distance at which it will be spotted when moving
+		;{firing (/ 250 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 125 (/ %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 110 (/ %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 110}				;// unit still / not moving
 	}
 
 	;// medium gun
-	{cannon_03 (* 1.2 (* %can_vis %r))				;// distance at which it will be spotted when moving
-		;{firing (* 250 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 1.3 (* %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1.2 (* %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1.2 (* %can_vis %r))}				;// unit still / not moving
+	{cannon_03 120				;// distance at which it will be spotted when moving
+		;{firing (/ 250 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 150 (/ %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 120 (/ %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 120}				;// unit still / not moving
 	}
 
 	;// heavy gun
-	{cannon_04 (* 1.3 (* %can_vis %r))				;// distance at which it will be spotted when moving
-		;{firing (* 300 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 1.4 (* %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1.3 (* %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1.3 (* %can_vis %r))}				;// unit still / not moving
+	{cannon_04 130				;// distance at which it will be spotted when moving
+		;{firing (/ 300 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 160 (/ %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 130 (/ %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 130}				;// unit still / not moving
 	}
 
 	;// artillery
-	{cannon_05 (* 1.7 (* %can_vis %r))				;// distance at which it will be spotted when moving
-		;{firing (* 500 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 2.0 (* %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1.7 (* %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1.7 (* %can_vis %r))}				;// unit still / not moving
+	{cannon_05 140				;// distance at which it will be spotted when moving
+		;{firing (/ 500 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 170 (/ %can_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 160 (/ %can_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 140}				;// unit still / not moving
 	}
 )
 
 (define "spot_vehicle"			;// This section defines the distances at which different types of vehicles are spotted under various conditions.
 
 	;// goliath
-	{vehicle_00 (* 1.1 (* %veh_vis %r))					;// distance at which it will be spotted when moving, 50m past visor range.
-		;{firing (* 200 %r)}				;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 2 (* %veh_fire %r))}	;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1.5 (* %veh_vis %r))}						;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1.5 (* %veh_vis %r))}					;// unit still / not moving
+	{vehicle_00 100					;// distance at which it will be spotted when moving, 50m past visor range.
+		;{firing (/ 200 %r)}				;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 100 (/ %veh_fire %r))}	;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible 100}						;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 100}					;// unit still / not moving
 	}
 
 	;// moto, jeep
-	{vehicle_01 (* 1.1 (* %veh_vis %r))	;// distance at which it will be spotted when moving, 50m past visor range.
-		;{firing (* 200 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 2 (* %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1.6 (* %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1.6 (* %veh_vis %r))}					;// unit still / not moving
+	{vehicle_01 (+ 100 (/ 50 %r))	;// distance at which it will be spotted when moving, 50m past visor range.
+		;{firing (/ 200 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 130 (/ %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 100 (/ %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 100}					;// unit still / not moving
 	}
 
 	;// armoredcars, trucks
-	{vehicle_02 (* 1.8 (* %veh_vis %r))	;// distance at which it will be spotted when moving, 50m past visor range.
-		;{firing (* 200 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 2.25 (* %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1.7 (* %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1.7 (* %veh_vis %r))}					;// unit still / not moving
+	{vehicle_02 (+ 105 (/ 50 %r))	;// distance at which it will be spotted when moving, 50m past visor range.
+		;{firing (/ 200 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 140 (/ %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 115 (/ %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 105}					;// unit still / not moving
 	}
 
 	;// light tanks
-	{vehicle_03 (* 2.0 (* %veh_vis %r))	;// distance at which it will be spotted when moving, 50m past visor range.
-		;{firing (* 200 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 2.5 (* %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1.8 (* %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1.8 (* %veh_vis %r))}					;// unit still / not moving
+	{vehicle_03 (+ 120 (/ 50 %r))	;// distance at which it will be spotted when moving, 50m past visor range.
+		;{firing (/ 200 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 160 (/ %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 120 (/ %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 120}					;// unit still / not moving
 	}
 
 	;// medium tanks, rocket artillery
-	{vehicle_04 (* 2.2 (* %veh_vis %r))	;// distance at which it will be spotted when moving, 50m past visor range.
-		;{firing (* 200 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 2.75 (* %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 1.9 (* %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 1.9 (* %veh_vis %r))}					;// unit still / not moving
+	{vehicle_04 (+ 130 (/ 50 %r))	;// distance at which it will be spotted when moving, 50m past visor range.
+		;{firing (/ 200 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 170 (/ %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 130 (/ %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 130}					;// unit still / not moving
 	}
 
 	;//heavy tanks
-	{vehicle_05 (* 2.4 (* %veh_vis %r))	;// distance at which it will be spotted when moving, 50m past visor range.
-		;{firing (* 3 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 1 (* %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 2.0 (* %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 2.0 (* %veh_vis %r))}					;// unit still / not moving
+	{vehicle_05 (+ 150 (/ 50 %r))	;// distance at which it will be spotted when moving, 50m past visor range.
+		;{firing (/ 200 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 180 (/ %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 150 (/ %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 150}					;// unit still / not moving
 	}
 
 	;//SPG indirect artillery vehicles (105+mm)
-	{vehicle_06 (* 2.5 (* %veh_vis %r))	;// distance at which it will be spotted when moving, 50m past visor range.
-		;{firing (* 3 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{firing (* 1 (* %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
-		{visible (* 2.1 (* %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
-		{still (* 2.1 (* %veh_vis %r))}					;// unit still / not moving
+	{vehicle_06 (+ 150 (/ 50 %r))	;// distance at which it will be spotted when moving, 50m past visor range.
+		;{firing (/ 200 %r)}			;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (+ 175 (/ %veh_fire %r))}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{visible (+ 150 (/ %veh_vis %r))}	;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
+		{still 150}					;// unit still / not moving
 	}
 
 	;// recon aircraft
 	{plane_01 400				;// distance at which it will be spotted when moving
-		{firing (* 400 %r)}	;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (/ 400 %r)}	;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 400}			;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 100}				;// unit still / not moving
 	}
 	;// fighter/bomber aircraft
 	{plane_02 700				;// distance at which it will be spotted when moving
-		{firing (* 700 %r)}	;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+		{firing (/ 700 %r)}	;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 700}			;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 100}				;// unit still / not moving
 	}
@@ -188,36 +188,36 @@
 (define "spot_ship"				;// This section defines the distances at which different types of ships are spotted under various conditions.
 
 	;// Small vessel
-	{marine_01 (+ 100 (* 50 %r)) ;// distance at which it will be spotted when moving, 0m past visor range.
-		{firing (* 200 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+	{marine_01 (+ 100 (/ 50 %r));// distance at which it will be spotted when moving, 50m past visor range.
+		{firing (/ 200 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 100}			;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 100}				;// unit still / not moving
 	}
 
 	;// Marine Small
-	{marine_02 (+ 100 (* 50 %r));// distance at which it will be spotted when moving, 50m past visor range.
-		{firing (* 200 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+	{marine_02 (+ 100 (/ 50 %r));// distance at which it will be spotted when moving, 50m past visor range.
+		{firing (/ 200 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 100}			;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 100}				;// unit still / not moving
 	}
 
 	;// Marine Medium
-	{marine_03 (+ 100 (* 100 %r));// distance at which it will be spotted when moving, 200m past visor range.
-		{firing (* 250 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+	{marine_03 (+ 100 (/ 200 %r));// distance at which it will be spotted when moving, 200m past visor range.
+		{firing (/ 250 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 200}			;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 200}				;// unit still / not moving
 	}
 
 	;// Marine Large
-	{marine_04 (+ 100 (* 200 %r));// distance at which it will be spotted when moving, 200m past visor range.
-		{firing (* 300 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+	{marine_04 (+ 100 (/ 200 %r));// distance at which it will be spotted when moving, 200m past visor range.
+		{firing (/ 300 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 300}			;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 300}				;// unit still / not moving
 	}
 
 	;// Marine Max
-	{marine_05 (+ 100 (* 300 %r));// distance at which it will be spotted when moving, 200m past visor range.
-		{firing (* 350 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
+	{marine_05 (+ 100 (/ 200 %r));// distance at which it will be spotted when moving, 200m past visor range.
+		{firing (/ 350 %r)}		;// When this unit fires its weapon, it will be spotted up to this distance. Then, it will become fogged again after remaining visible for the period of time defined in set/detect.set
 		{visible 300}			;// once spotted, the distance the unit will remain spotted until Line Of Sight is broken.
 		{still 300}				;// unit still / not moving
 	}
@@ -231,14 +231,14 @@
 	("radius" r(%r))				;// vision = radius * (one) applicable "rules" situation * (one) applicable "mods" situation
 	{rules							;// no multiplication within rules blocks
 		{human 100					;// fallback value if no other subordinated case is applicable
-			{firing 150		;// To achieve a constant distance of firing through noise, it divides by the radius multiplier. 1st Green line in v_visor
-				("firing" r(1))	;// Preset from above (a modifier picked here is final, the stance for example will not be considered anymore)
+			{firing (/ 150 %r)		;// To achieve a constant distance of firing through noise, it divides by the radius multiplier. 1st Green line in v_visor
+				("firing" r(%r))	;// Preset from above (a modifier picked here is final, the stance for example will not be considered anymore)
 			}
 			("spot_human" r(1))			;// Preset from above
 		}
 		("animal" r(1))
-		("spot_cannon" r(1) can_vis(80) can_fire(80));// Preset from above
-		("spot_vehicle" r(1) veh_vis(80) veh_fire(80));// Preset from above
+		("spot_cannon" r(%r) can_vis(50) can_fire(70));// Preset from above
+		("spot_vehicle" r(%r) veh_vis(50) veh_fire(70));// Preset from above
 		("spot_ship" r(%r))			;// Preset from above
 	}
 	{mods							;// no nested blocks allowed, but all applicable values will be multiplied
@@ -253,15 +253,15 @@
 (define "spotting2"
 	("radius" r(%r))				;// vision = radius * (one) applicable "rules" situation * (one) applicable "mods" situation
 	{rules							;// no multiplication within rules blocks
-		{human 100			;// fallback value if no other subordinated case is applicable
-			{firing 150		;// To achieve a constant distance of firing through noise, it divides by the radius multiplier. 1st Green line in v_visor
+		{human (/ 100 %r)			;// fallback value if no other subordinated case is applicable
+			{firing (/ 150 %r)		;// To achieve a constant distance of firing through noise, it divides by the radius multiplier. 1st Green line in v_visor
 				("firing" r(%r_human))	;// Preset from above (a modifier picked here is final, the stance for example will not be considered anymore)
 			}
 			("spot_human" r(%r_human))	;// Preset from above
 		}
 		("animal" r(%r_human))
-		("spot_cannon" r(1) can_vis(%can_vis) can_fire(%can_fire)) ;// Preset from above
-		("spot_vehicle" r(1) veh_vis(%veh_vis) veh_fire(%can_fire));// Preset from above
+		("spot_cannon" r(%r) can_vis(%can_vis) can_fire(%can_fire)) ;// Preset from above
+		("spot_vehicle" r(%r) veh_vis(%veh_vis) veh_fire(%can_fire));// Preset from above
 		("spot_ship" r(%r))			;// Preset from above
 	}
 	{mods							;// no nested blocks allowed, but all applicable values will be multiplied

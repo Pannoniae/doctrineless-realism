@@ -1,0 +1,12 @@
+{action
+	{target entity "transport_tow" volume "gate_lock"}
+	{cursor "collect"}
+	{fx "flashred"}
+	{button "towrope"}
+	{instructions
+		{bind range 1.0}
+		;{bind bone "open_point"}
+		{place_on_bone "open_point"}
+		{effect_object "open"}
+	}
+}

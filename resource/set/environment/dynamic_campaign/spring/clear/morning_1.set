@@ -4,7 +4,7 @@
 		{ambient 0xff323232}
 		{diffuse 0xff7e7e7e}
 		{specularPower 2}
-		{lightsIntensity 0.1}
+		{lightsIntensity 0.05}
 		{draw_sun_moon}
 		{sun_moon_radius 1}
 		{night_vision 1}
@@ -12,7 +12,6 @@
 			{tone 0xff001d48}
 			{tone_strength 0.05}
 			{color_shading
-				{enable}
 				{shade_tone 0xffdce4fd}
 				{intensity 0.1}
 			}
@@ -55,9 +54,9 @@
 	{haze
 		{enable}
 		{color 0xff92919e}
-		{start 1000}
+		{start 4500}
 		{end 5000}
-		{altitude_strength 0.4}
+		{altitude_strength 0}
 		{sky_haziness 0}
 	}
 	{sky
@@ -202,7 +201,6 @@
 		{color 0xffffffff}
 	}
 	{dof
-		{enable}
 		{near_scale 2}
 		{far_scale 0.75}
 		{near_start 50}

@@ -5,13 +5,13 @@
 		{diffuse 0xff000000}
 		{specularIntensity 0}
 		{specularPower 0}
-		{lightsIntensity 0}
+		{lightsIntensity 0.05}
 		{sun_moon_radius 1}
 		{color_correction
 			{gamma 0}
 			{brightness 0}
 			{contrast 0}
-			{saturation 0.5}
+			{saturation 0}
 			{tone 0xff000000}
 			{tone_strength 0}
 			{color_shading
@@ -50,7 +50,7 @@
 	}
 	{haze
 		{color 0xff000000}
-		{start 0}
+		{start 2000}
 		{end 0}
 		{altitude_strength 0}
 		{sky_haziness 0}
@@ -210,4 +210,3 @@
 		{threshold 1.1}
 	}
 }
-

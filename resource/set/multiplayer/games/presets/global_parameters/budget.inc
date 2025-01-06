@@ -17,7 +17,7 @@
 		{resource
 			{start %d}
 		}
-		{buttons "doctrine"}
+		{buttons "d"}
 		{tag "special"}
 	}
 }

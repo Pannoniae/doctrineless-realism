@@ -7,7 +7,7 @@ actor
 (include "tank_crew.ext")
 
 {collider "tank.medium"}
-{props "tank" "hatch" "engine"}
+{props "tank" "hatch" "engine" "tow_vehicle"}
 {PatherID "tank"}
 
 ("brain_vehicle")

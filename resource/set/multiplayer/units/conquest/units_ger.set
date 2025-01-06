@@ -399,7 +399,7 @@
 	{cost 25}
 }
 {"kfz13_early"
-	("vehicle2" side(ger) period(early) min_stage(1) max_stage(2) cw(2) cp(4) crew1(tankman_beret:1) crew2(tank_commander_beret:1))
+	("vehicle2" side(ger) period(early) min_stage(1) max_stage(2) cw(2) cp(4) crew1(tankman:1) crew2(tank_commander:1))
 	{cost 80}
 }
 {"kfz13"

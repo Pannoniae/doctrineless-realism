@@ -40,9 +40,9 @@
 	}
 	
 ;// fourth button
-	{call_ally
+	{movement_slow
 		{position 3 0}
-		{condition "human disabled"}
+		{condition "vehicle tank"}
 	}
 
 ; // second row-------------------------
@@ -68,11 +68,20 @@
 		{position 2 1}
 		{condition "human"}
 	}
+	{plant
+		{position 1 1}
+		{condition "human disabled"}
+	}
 	{gc_cp_state_supply
 		{position 2 1}
 	}
 	
 ;// fourth button
+	{ft_embankment
+		{position 3 1}
+		{condition "human barricade disabled"}
+	}
+	
 	{medic_switch
 		{position 3 1}
 		{condition "human single medic"}
@@ -102,9 +111,17 @@
 
 ;// third button
 	{horn
+		{position 1 2}
+		{condition "vehicle"}
+	}
+	{para_emit 
+		{condition "airborne disabled"}
 		{position 2 2}
-		{condition "vehicle disabled"}
-	}	
+	}
+	{ft_pillbox
+		{position 2 2}
+		{condition "human barricade disabled"}
+	}
 
 
 ;// fourth button

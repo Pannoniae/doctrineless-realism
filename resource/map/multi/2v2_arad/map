@@ -33,9 +33,7 @@
 		{ww_pollution_color 0xffffffff}
 		{ww_pollution_factor 0}
 	}
-	{GlobalTexture
-		{Normalmap "/texture/land/goh_aut/grass_aut_nm"}
-	}
+	
 	{Entity "sand_light" 0x480
 		{Position 1576.98 6646.61}
 		{xform zl -34.75 y 21.6 zw 119.89}

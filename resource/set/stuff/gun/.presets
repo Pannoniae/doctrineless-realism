@@ -175,7 +175,7 @@
 		range_he(%range_he)
 		range_heat(%range_heat)
 		falloff(0.05)
-		r0(1.0)					;// global accuracy indirect
+		r0(1.10)					;// global accuracy indirect
 		r01(0.3)					;// global accuracy direct
 		  ap50(1.50)   ap100(2.75)   ap140(3.75)   ap200(6.50)
 		heat50(1.50) heat100(3.00) heat140(4.25) heat200(8.00)
@@ -581,7 +581,7 @@
 		range_hei(%range_hei)
 		range_heat(%range_heat)
 		falloff(0.15)
-		r0i(1.0)					;// global accuracy indirect
+		r0i(1.15)					;// global accuracy indirect
 		r0(0.3)						;// global accuracy direct
 		;he125(0.4)
 		 
@@ -916,9 +916,9 @@
 (define "direct_settings"
 	{SpreadTolerance 0.60}		;// Zeroing up to 60% needed before fire
 	{ZeroingAccuracy 0.8 0.65 0.55 0.5 0.45}
-	{spreading {SpreadXYRatio 1}}
-	{parameters "he" {spreading {SpreadXYRatio 1}}}
-	{parameters "he2" {spreading {SpreadXYRatio 1}}}
+	{spreading {SpreadXYRatio 1.5}}
+	{parameters "he" {spreading {SpreadXYRatio 1.5}}}
+	{parameters "he2" {spreading {SpreadXYRatio 1.5}}}
 	{parameters "apds" {spreading {SpreadXYRatio 1}}}
 )
 (define "direct_settings_low"
@@ -928,7 +928,7 @@
 (define "indirect_settings"
 	{SpreadTolerance 0.75}		;// Zeroing up to 75% needed before fire
 	{ZeroingAccuracy 0.8 0.65 0.55 0.5 0.45}
-	{spreading {SpreadXYRatio 1}}
+	{spreading {SpreadXYRatio 3}}
 )
 
 ;/*============================== RANGES AND SPECIFICS ==============================*/
@@ -1192,20 +1192,20 @@
 )
 
 (define "medium_artillery"
-	{spreading {SpreadXYRatio 1}}
+	{spreading {SpreadXYRatio 2}}
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
 		}
 	}
 	{parameters "he2"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
 		}
 	}
-	{ZeroingAccuracy 0.90 0.80 0.70 0.65 0.60}
+	{ZeroingAccuracy 0.80 0.65 0.55 0.45 0.40}
 	("artillery_firing_arc")
 	{SpreadTolerance 0.85}		;// Zeroing up to 85% needed before fire
 	{DisableRicochet}
@@ -1215,20 +1215,20 @@
 )
 
 (define "heavy_artillery"
-	{spreading {SpreadXYRatio 1}}
+	{spreading {SpreadXYRatio 2}}
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
 	{parameters "he2"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
-	{ZeroingAccuracy 0.90 0.80 0.70 0.65 0.60}
+	{ZeroingAccuracy 0.80 0.65 0.55 0.45 0.40}
 	("artillery_firing_arc")
 	{SpreadTolerance 0.85}		;// Zeroing up to 85% needed before fire
 	{DisableRicochet}
@@ -1238,20 +1238,20 @@
 )
 
 (define "super_heavy_artillery"
-	{spreading {SpreadXYRatio 1}}
+	{spreading {SpreadXYRatio 2}}
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
 	{parameters "he2"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 1}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
-	{ZeroingAccuracy 0.90 0.80 0.70 0.65 0.60}
+	{ZeroingAccuracy 0.80 0.65 0.55 0.45 0.40}
 	("artillery_firing_arc")
 	{SpreadTolerance 0.85}		;// Zeroing up to 85% needed before fire
 	{DisableRicochet}
@@ -1775,10 +1775,10 @@
 		{0		1.0			0.00	}
 		{10		1.025		-0.0049	}
 		{20		1.091		0.11	}
-		{30		1.223		0.15	}
-		{40		1.462		0.19	}
-		{45		1.715		0.20	}
-		{50		2.002		0.21	}
+		{30		1.223		0.28	}
+		{40		1.452		0.39	}
+		{45		1.625		0.40	}
+		{50		2.042		0.36	}
 		{55		2.495		0.20	}
 		{60		2.903		0.09	}
 		{65		3.74		0.14	}
@@ -2850,6 +2850,9 @@
 )
 
 (define "45_rus_slope_multipliers"
+	{parameters "apc"
+		("ap_40_slope_multiplier")
+	}
 	{parameters "aphe"
 		("ap_40_slope_multiplier")
 	}
@@ -2956,6 +2959,7 @@
 		("ap_152_slope_multiplier")
 	}
 )
+
 ;//---CANISTER SHOT---//
 (define "speed"   
 	{speed (* 0.5 %s)}  

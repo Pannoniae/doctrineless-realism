@@ -14,6 +14,96 @@ Purchases["late.rus"] = {
 				--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_guards_smg_heavy(rus)"},
 				{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_marines_late(rus)"},
 				--]]
+				-- All-round Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_rifle_late_all_1(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_all_2(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_all_3(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_smg_late_all_1(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_smg_late_all_2(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_smg_late_all_3(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_sap_late_all(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_guard_rifle_late_all_1(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_guard_rifle_late_all_2(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_guard_rifle_late_all_3(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_assault_eng_late_all(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_assault_eng_flame_at_late_all(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_elite_guard_rifle_late_all_1(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_elite_guard_rifle_late_all_2(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_elite_guard_rifle_late_all_3(rus)"},
+					--]]
+
+				-- Defensive Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_conscript_late_def(rus)"},
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_recon_late_def(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_rifle_late_def_1(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_def_2(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_def_3(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_sap_late_def(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_at_rifle_late_def(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_marine_late_def_1(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_marine_late_def_2(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_marine_late_def_3(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_guard_marine_late_def(rus)"},
+					--]]
+
+				-- Irregular Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_partisan_late_irr_1(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_partisan_late_irr_2(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_partisan_late_irr_3(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_recon_late_irr(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_irr_1(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_irr_2(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_irr_3(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_vet_partisan_rifle_late_irr_1(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_vet_partisan_rifle_late_irr_2(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_vet_partisan_rifle_late_irr_3(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_vet_partisan_smg_late_irr_1(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_vet_partisan_smg_late_irr_2(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_vet_partisan_smg_late_irr_3(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_at_rifle_late_irr(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_guard_rifle_late_irr(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_elite_guard_rifle_late_irr(rus)"},
+					--]]
+
+				-- Support Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_recon_late_sup(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_rifle_late_sup_1(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_sup_3(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_sup_2(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_sup_4(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_smg_late_sup_1(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_smg_late_sup_3(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_smg_late_sup_2(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_smg_late_sup_4(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_guard_rifle_late_sup(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_guard_smg_late_sup(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_elite_guard_rifle_late_sup(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_elite_guard_smg_late_sup(rus)"},
+					--]]
+
+				-- Lend-Lease Doctrine Squads
+					--[[
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_conscript_late_len(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_recon_late_len(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_rifle_late_len_1(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_len_2(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_rifle_late_len_3(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_smg_late_len_1(rus)"},
+					-- {priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_smg_late_len_2(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_smg_late_len_3(rus)"},
+					{priority = 1.0, type = {"Class3", "Infantry", "Squad",}, unit = "squad_at_rifle_late_len(rus)"},
+					{priority = 1.0, type = {"Class2", "Infantry", "Squad",}, unit = "squad_cav_late_len_1(rus)"},
+					--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_cav_late_len_2(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_cav_late_len_3(rus)"},
+					--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_guard_cav_late_len_1(rus)"},
+					--{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_guard_cav_late_len_2(rus)"},
+					{priority = 1.0, type = {"Class1", "Infantry", "Squad",}, unit = "squad_guard_cav_late_len_3(rus)"},
+					--]]
+
 			-- Infantry Singles / Teams
 				---[[
 				{priority = 1.0, type = {"Class3", "Infantry", "Team", "Aux",}, unit = "single_rifle(rus)"},
@@ -170,6 +260,20 @@ Purchases["late.rus"] = {
 					{priority = 1.0, type = {"Class1", "Cannon", "Artillery",}, unit = "280mm_br5"},
 					{priority = 1.0, type = {"Class1", "Tank", "Heavy",}, unit = "is2_45"},
 					--]]
+					--  Extra Doctrine
+					--[[
+					{priority = 1.0, type = {"Class3", "Doctrine", "Tier1", "Armored", "MG",}, unit = "doctrine_m3_rus"},
+					{priority = 1.0, type = {"Class2", "Doctrine", "Tier1", "Armored", "AA",}, unit = "doctrine_m17"},
+					{priority = 1.0, type = {"Class1", "Doctrine", "Tier1", "Tank", "Light", "Support",}, unit = "doctrine_t80"},
+					
+					{priority = 1.0, type = {"Class3", "Doctrine", "Tier2", "Vehicle", "AA", "AT",}, unit = "doctrine_su57"},
+					{priority = 1.0, type = {"Class1", "Doctrine", "Tier2", "Tank", "Medium", "AT",}, unit = "doctrine_wolverine"},
+					
+					{priority = 1.0, type = {"Class3", "Doctrine", "Tier3", "Cannon", "Artillery",}, unit = "doctrine_152mm_d1"},
+					{priority = 1.0, type = {"Class1", "Doctrine", "Tier3", "Tank", "Heavy",}, unit = "doctrine_kv122"},
+					{priority = 1.0, type = {"Class2", "Doctrine", "Tier3", "Vehicle", "Artillery",}, unit = "doctrine_bm8-48"},
+					--]]
+				--]====]
 		
 		}
 	}

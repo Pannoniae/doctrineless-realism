@@ -1,0 +1,23 @@
+{from "pattern gun"     ; 94mm Q.F. 3.7 Inch Mk.II L / 50
+	{filling "bullet94_eng"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	("range_230")
+	{calibre 94}
+
+	("reload time" seconds(8))
+
+	("velocity m/s" ap(792) apcr(1) he(792) heat(1))
+	("armor health" damage(210))
+	("90_slope_multipliers")
+	
+	; Shot Mk.1
+	("penetration_long" shell(apcbc) range(230) a(202) b(192) c(180) d(169) e(159))
+
+	;Shell Mk.1
+	{parameters "he"
+		{range 230 230}
+	}
+	("accuracy_direct" r1(0.50) range_ap(230) range_he(230) range_heat(230))
+}

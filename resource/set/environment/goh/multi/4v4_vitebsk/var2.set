@@ -3,7 +3,7 @@
 		{direction -0.765 -0.054 -0.64}
 		{ambient 0xff323241}
 		{diffuse 0xffaf886a}
-		{lightsIntensity 0.1}
+		{lightsIntensity 0.05}
 		{draw_sun_moon}
 		{sun_moon_radius 1}
 		{night_vision 1}
@@ -56,9 +56,9 @@
 	{haze
 		{enable}
 		{color 0xff77848d}
-		{start 0}
+		{start 4500}
 		{end 5000}
-		{altitude_strength 0.2}
+		{altitude_strength 0}
 		{sky_haziness 0}
 	}
 	{sky
@@ -200,7 +200,6 @@
 		{color 0xffffffff}
 	}
 	{dof
-		{enable}
 		{near_scale 2.0}
 		{far_scale 0.75}
 		{near_start 50}
@@ -227,4 +226,3 @@
 		{threshold 1.1}
 	}
 }
-

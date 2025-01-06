@@ -231,8 +231,8 @@
 	
 	;stettings for grain in standard option and effects it's used in
 	{grain
-		{strength_std 0.08}
-		{strength_fx  0.06}
+		{strength_std 0}
+		{strength_fx  0}
 		{particlesize_std  1}
 		{particlesize_fx   1}
 	}

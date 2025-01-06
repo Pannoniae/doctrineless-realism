@@ -1,0 +1,20 @@
+{action
+	{target entity "tow_vehicle" volume "towing"}
+	{cursor "attach"}
+	{fx "flashred"}
+	{ShowCount}
+	{item "tow_rope"}
+	{item_in_box}
+	{button "towrope"}
+	{instructions
+		{bind range 1.5}
+		{disable_action_restart}
+		{take_item}
+		{reserve_hands}
+		{animations "squat_repair_1 squat_repair_2" random loop totaltime 20}
+		{unreserve_hands}
+		{effect_object "install_tow"}
+		{plant "tow_informer" default "tow_informer"}
+		{fsm_request nocheck "hold-nothing"}
+	}
+}

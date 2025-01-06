@@ -31,6 +31,10 @@
 		{if stuff "grenade fire"							; Molotov Grenades
 			{spawn "ex_molot_ground"}
 
+		;==== incendiary grenades >
+		else stuff "grenade incendiary"
+			{spawn "ex_ic_grenade_ground"}
+		;==== incendiary grenades <
 		else stuff "grapple_fx"								; grapple hook
 			{spawn "ex_ap_size2"}
 			{spawn "ap_shellhole" scale 0.4}
@@ -205,6 +209,11 @@
 			{spawn "shockwave_sphere"}
 			{spawn "grenade_at_shellhole" texmod "ground"}
 
+		else stuff "bomb size7"							; 600mm cannon HE shells
+			{spawn "ex_he_size7_rock"}
+			{spawn "shockwave_sphere"}
+			{spawn "grenade_at_shellhole" texmod "ground"}
+			
 		else stuff "shell wp_size1"							; 50mm WP shells
 			{spawn "ex_wp_size1_rock"}							; initial explosion fx
 			{spawn "shell_smoke_wp_size1"}						; actual smoke and vision volumes
@@ -353,6 +362,10 @@
 		{if stuff "grenade fire"							; Molotov Grenades
 			{spawn "ex_molot_ground"}
 
+		;==== incendiary grenades >
+		else stuff "grenade incendiary"
+			{spawn "ex_ic_grenade_ground"}
+		;==== incendiary grenades <
 		else stuff "grapple_fx"								; grapple hook
 			{spawn "ex_ap_size2"}
 			{spawn "ap_shellhole" scale 0.4}
@@ -630,6 +643,10 @@
 		{if stuff "grenade fire"							; Molotov Grenades
 			{spawn "ex_molot_ground"}
 
+		;==== incendiary grenades >
+		else stuff "grenade incendiary"
+			{spawn "ex_ic_grenade_ground"}
+		;==== incendiary grenades <
 		else stuff "grapple_fx"								; grapple hook
 			{spawn "ex_ap_size2"}
 			{spawn "ap_shellhole" scale 0.4}
@@ -906,6 +923,11 @@
 		{if stuff "grenade fire"							; Molotov Grenades
 			{spawn "ex_molot_ground"}
 
+		;==== incendiary grenades >
+		else stuff "grenade incendiary"
+			{spawn "ex_ic_grenade_ground"}
+		;==== incendiary grenades <
+		
 		else stuff "grapple_fx"								; grapple hook
 			{spawn "ex_ap_size2_snow"}
 			{spawn "ap_shellhole" scale 0.4 texmod "snow"}

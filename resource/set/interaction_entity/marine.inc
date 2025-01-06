@@ -407,6 +407,9 @@
 }
 
 {"air-bag"
+	{on "add_exhaustview" overload
+		{add_view	"exhaust_dark_big_diesel"			"on_move"	"fxsmoke1"}
+	}
 	{on "add_movement_sound" overload
 		{link_sound "move"				"vehicle/tracks/lct"}
 		{link_sound "engine_full"		"vehicle/marine/airbag"}

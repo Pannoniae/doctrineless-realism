@@ -31,6 +31,10 @@
 		{if stuff "grenade fire"							; Molotov Grenades
 			{spawn "ex_molot_ground"}
 
+		;==== incendiary grenades >
+		else stuff "grenade incendiary"
+			{spawn "ex_ic_grenade_ground"}
+		;==== incendiary grenades <
 		else stuff "grapple_fx"								; grapple hook
 			{spawn "ex_ap_size2_mud"}
 			{spawn "ap_shellhole" scale 0.4}
@@ -205,6 +209,11 @@
 			{spawn "crater_massive" terrain_texmod}
 
 		else stuff "shell size7"							; 600mm cannon HE shells
+			{spawn "ex_he_size7"}
+			{spawn "shockwave_sphere"}
+			{spawn "crater_massive" terrain_texmod}
+			
+		else stuff "bomb size7"							; 600mm cannon HE shells
 			{spawn "ex_he_size7"}
 			{spawn "shockwave_sphere"}
 			{spawn "crater_massive" terrain_texmod}

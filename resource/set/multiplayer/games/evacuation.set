@@ -56,6 +56,6 @@
 		}
 	}
 	(include "presets/laststand_early.inc")
-	;(include "presets/laststand_mid.inc")
+	(include "presets/laststand_mid.inc")
 	(include "presets/laststand_late.inc")
 }

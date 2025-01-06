@@ -30,6 +30,11 @@
 
 		{if stuff "grenade fire"							; Molotov Grenades
 			{spawn "ex_molot_ground"}
+			
+		;==== incendiary grenades >
+		else stuff "grenade incendiary"
+			{spawn "ex_ic_grenade_ground"}
+		;==== incendiary grenades <
 
 		else stuff "shell shrapnel"
 			{spawn "ex_shrapnel"}
@@ -216,6 +221,11 @@
 			{spawn "shockwave_sphere"}
 			{spawn "crater_massive" terrain_texmod}
 
+		else stuff "bomb size7"							; 600mm cannon HE shells
+			{spawn "ex_he_size7_rock"}
+			{spawn "shockwave_sphere"}
+			{spawn "crater_massive" terrain_texmod}
+		
 		else stuff "shell wp_size1"							; 50mm WP shells
 			{spawn "ex_wp_size1_rock"}							; initial explosion fx
 			{spawn "shell_smoke_wp_size1"}						; actual smoke and vision volumes
@@ -361,6 +371,10 @@
 		{if stuff "grenade fire"							; Molotov Grenades
 			{spawn "ex_molot_ground"}
 
+		;==== incendiary grenades >
+		else stuff "grenade incendiary"
+			{spawn "ex_ic_grenade_ground"}
+		;==== incendiary grenades <
 		else stuff "grapple_fx"								; grapple hook
 			{if rain
 				{spawn "ex_ap_size2"}

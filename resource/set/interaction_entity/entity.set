@@ -9,6 +9,7 @@
 	(include "human.inc")
 
 	(include "weapons-defines.inc")
+	(include "vehicle/weapons-specifics.inc") ;<--normand
 
 	(include "icon.inc")
 
@@ -16,11 +17,19 @@
 	(include "tank/sound-defines.inc")
 	(include "vehicle/vehicle-main.inc")
 	(include "vehicle/car-main.inc")
+	(include "vehicle/car-specifics.inc") ;<--normand
 	(include "vehicle/moto.inc")
 	(include "tank/tank-main.inc")
 	(include "tank/tank-specifics.inc")
+	(include "tank/tank-fra.inc") ;<--normand
+	(include "tank/tank-usa.inc") ;<--normand
+	(include "tank/tank-pol.inc") ;<--normand
+	(include "tank/tank-jap.inc") ;<--normand
+	(include "tank/tank-ita.inc") ;<--normand
+	(include "moto_battle.inc") ;<--normand
 
 	(include "cannon.inc")
+	(include "cannon_mod.inc")	;<--normand
 	(include "airborne.inc")
 	(include "marine.inc")
 	(include "railway.inc")
@@ -49,9 +58,9 @@
 	(include "construction/bridge.inc")
 	(include "construction/placement.inc")
 	
-	(include "tank/entity-VE.inc")
-	(include "tank/script-VE.inc")
-;//	(include "minimap_icons-VE.inc")
-;//	(include "reliability-VE.inc")
-	(include "shells-VE.inc")
+	(include "tank/entity-HF.inc")
+	(include "tank/script-HF.inc")
+;//	(include "minimap_icons-HF.inc")
+;//	(include "reliability-HF.inc")
+	(include "shells-HF.inc")
 }

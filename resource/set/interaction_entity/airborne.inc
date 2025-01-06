@@ -685,6 +685,7 @@
 	{on "check_speed" overload} ;// disabled calls to check speed for dust fx. Planes only have 1 fx
 
 	{on "propeller_stop"		;// called on explosion and ground_hit
+		{bone hide "propeller_work"}
 		{bone hide "propeller1_work"}
 		{bone hide "propeller2_work"}
 	}
@@ -1629,6 +1630,158 @@
 	}
 }
 
+{"airborne_w_explosion"
+	{on spawn
+		{delay 0.1
+			{tags add "below10m"}
+			{call "contact_watcher"}
+		}
+	}
+	{on "contact_watcher"
+		{if chassis "airborne"
+			{if operatable
+				{if altitude 159
+					{if not tagged "150m"
+						{tags add "150m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}					
+					}
+				else altitude 119
+					{if not tagged "120m"
+						{tags add "120m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "150m"}
+						{tags remove "110m"}{tags remove "100m"}
+						{tags remove "below10m"}
+					}
+				else altitude 109
+					{if not tagged "110m"
+						{tags add "110m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "150m"}
+						{tags remove "100m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}
+				else altitude 99
+					{if not tagged "100m"
+						{tags add "100m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "150m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}
+				else altitude 89
+					{if not tagged "90m"
+						{tags add "90m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "150m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}
+				else altitude 79
+					{if not tagged "80m"
+						{tags add "80m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "150m"}{tags remove "90m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}			
+				else altitude 69
+					{if not tagged "70m"
+						{tags add "70m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "150m"}{tags remove "80m"}{tags remove "90m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}
+				else altitude 59
+					{if not tagged "60m"
+						{tags add "60m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "150m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}
+				else altitude 49
+					{if not tagged "50m"
+						{tags add "50m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "150m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}
+				else altitude 39
+					{if not tagged "40m"
+						{tags add "40m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "150m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}
+				else altitude 29
+					{if not tagged "30m"
+						{tags add "30m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "150m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}
+				else altitude 19
+					{if not tagged "20m"
+						{tags add "20m"}
+						{tags remove "10m"}{tags remove "150m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}						
+				else altitude 3
+					{if not tagged "10m"
+						{volumes enable contact}
+						{tags add "10m"}
+						{tags remove "150m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "below10m"}
+					}
+				else
+					{if not tagged "below10m"
+						{volumes enable contact}
+						{tags add "below10m"}
+						{tags remove "10m"}{tags remove "20m"}{tags remove "30m"}{tags remove "40m"}{tags remove "50m"}
+						{tags remove "60m"}{tags remove "70m"}{tags remove "80m"}{tags remove "90m"}{tags remove "100m"}
+						{tags remove "110m"}{tags remove "120m"}
+						{tags remove "150m"}
+						{delay 0.1
+							{call "ground_hit"}
+							{call "break_all"}
+							{call "propeller_stop"}
+							{call "destroy"}
+							{impulse up 0.1 com}
+							{call "die"}
+							{kick_entity_manager}
+						}
+					}
+				}
+			else
+				{volumes enable contact} 
+			}
+		}
+		{if not chassis "airborne"
+			{if operatable
+				{tags add "below10m"}
+			}
+		}
+		{delay 0.01
+			{call "contact_watcher"}
+		}
+	}
+	
+	{on "fall_fx" overload}
+	
+}
+
 ;/*=========== Other Plane Props End  ===========*/
 
 
@@ -1701,6 +1854,7 @@
 		{link_sound "bkg_plane"				"vehicle/airborne/bkg/C47_bkg"}
 	}
 )
+
 (define "fi156_sound"
 	{on "add_movement_sound" overload
 		{link_sound "engine1_start"			"vehicle/engine/nkl/start"}
@@ -1890,6 +2044,117 @@
 			{call "engine2_stop_sequence"}
 		}
 	}
+	{on "die"
+		{bone hide "bomb_00"}
+		{bone hide "bomb_01"}
+	}
+}
+
+{"pe2_205"
+	("bf110_sound")
+	{on spawn
+		(mod "mp"
+			{weapon_work "bomb" 0} ; читаки сосать
+			{weapon_work "bomb1" 0}
+			{weapon_work "rocket" 0}
+			{bone hide "propeller1"}
+			{bone hide "propeller2"}
+			{bone show "propeller1_work"}
+			{bone show "propeller2_work"}
+		)
+		
+		{add_view	"flash_gun_big"			"flashbarrel1"			"foresight1"}
+		{add_view	"flash_gun_big"			"flashbarrel2"			"foresight2"}
+		{add_view	"flash_gun_big"			"flashbarrel3"			"foresight3"}
+		{add_view	"flash_gun_big"			"flashbarrel4"			"foresight4"}
+		{add_view	"flash_gun_big"			"flashbarrel5"			"foresight5"}
+		{add_view	"flash_gun_big"			"flashbarrel6"			"foresight6"}
+		
+		{bone hide "propeller1_work"}
+		{bone hide "propeller2_work"}
+	}
+	{on fire "gun" overload
+		{play_sound "MG_Mid"}
+		{play_sound "MG_Far"}
+		{view start "flashbarrel1"}
+		{delay 0.2
+			{view pause "flashbarrel1"}
+		}
+	}
+	{on fire "mgun2" overload
+		{play_sound "MG_Mid"}
+		{play_sound "MG_Far"}
+		{view start "flashbarrel2"}
+		{delay 0.2
+			{view pause "flashbarrel2"}
+		}
+	}
+	{on fire "mgun3" overload
+		{play_sound "MG_Mid"}
+		{play_sound "MG_Far"}
+		{view start "flashbarrel3"}
+		{delay 0.2
+			{view pause "flashbarrel3"}
+		}
+	}
+	{on fire "mgun4" overload
+		{play_sound "MG_Mid"}
+		{play_sound "MG_Far"}
+		{view start "flashbarrel4"}
+		{delay 0.2
+			{view pause "flashbarrel4"}
+		}
+	}
+	{on fire "mgun5" overload
+		{play_sound "MG_Mid"}
+		{play_sound "MG_Far"}
+		{view start "flashbarrel5"}
+		{delay 0.2
+			{view pause "flashbarrel5"}
+		}
+	}
+	{on fire "mgun6" overload
+		{play_sound "MG_Mid"}
+		{play_sound "MG_Far"}
+		{view start "flashbarrel6"}
+		{delay 0.2
+			{view pause "flashbarrel6"}
+		}
+	}
+	{on animation_end "engine_start"
+		{bone show "propeller1_work"}
+		{bone hide "propeller1"}
+	}
+	{on animation_end "engine2_start"
+		{bone show "propeller2_work"}
+		{bone hide "propeller2"}
+	}
+	{on "add_weapon_sound" overload
+		("SG43")
+	}
+
+	{on "engine_count" overload
+		{tags add "engine_count_2"}
+	}
+
+	{on "engine_start_sequence" overload
+		{inherited}
+		{if work "engine1"
+			{delay 4.5 0.5
+				{call_synced "engine2_start_sequence"}
+			}
+		else
+			{call "engine2_start_sequence"}
+		}
+	}
+
+	{on "engine1_stop_sequence" overload
+		{inherited}
+		{if not "engine_on"
+			{call "engine2_stop_sequence"}
+		}
+	}
+
 	{on "die"
 		{bone hide "bomb_00"}
 		{bone hide "bomb_01"}
@@ -2323,4 +2588,750 @@
 	}
 }
 
+{"np_b25"
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel1m00"	"shooter1m_00"}
+		{add_view "flash_zenit"	"flashbarrel1m01"	"shooter1m_01"}
+		{add_view "flash_zenit"	"flashbarrel1m02"	"shooter1m_02"}
+		{add_view "flash_zenit"	"flashbarrel1m03"	"shooter1m_03"}
+		{add_view "flash_zenit"	"flashbarrel2m00"	"shooter2m_00"}
+		{add_view "flash_zenit"	"flashbarrel2m01"	"shooter2m_01"}
+		{add_view "flash_zenit"	"flashbarrel3m00"	"shooter3m_00"}
+		{add_view "flash_zenit"	"flashbarrel3m01"	"shooter3m_01"}
+		{add_view "flash_zenit"	"flashbarrel4"	"foresight7"}
+		{add_view "flash_zenit"	"flashbarrel5"	"foresight8"}
+	}
+	("bf110_sound")
+	{on fire "mgun1"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel1m%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel1m%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		  else ("fire_barrel" args 02)
+                                      else ("fire_barrel" args 03)
+		}
+	}
+	{on fire "mgun2"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel2m%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel2m%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		}
+	}
+	{on fire "mgun3"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel3m%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel3m%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		}
+	}
+	{on fire "mgun4"
+		{view start "flashbarrel4"}
+		{delay 0.5
+			{view pause "flashbarrel4"}
+		}
+	}
+	{on fire "mgun5"
+		{view start "flashbarrel5"}
+		{delay 0.5
+			{view pause "flashbarrel5"}
+		}
+	}
+	{on "engine_count" overload
+		{tags add "engine_count_2"}
+	}
+}
+
+{"sm79"
+	("bf110_sound")
+	{on "engine_count" overload
+		{tags add "engine_count_2"}
+	}
+}
+{"p-40"
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "flash_zenit"	"flashbarrel01"	"shooter01"}
+		{add_view "flash_zenit"	"flashbarrel02"	"shooter02"}
+		{add_view "flash_zenit"	"flashbarrel03"	"shooter03"}
+		{add_view "flash_zenit"	"flashbarrel04"	"shooter04"}
+		{add_view "flash_zenit"	"flashbarrel05"	"shooter05"}
+	}
+	("bf109_sound")
+	{on fire "mgun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		  else ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		  else ("fire_barrel" args 04)
+		  else ("fire_barrel" args 05)
+		}
+	}
+}
+{"p-40_fr"
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "flash_zenit"	"flashbarrel01"	"shooter01"}
+		{add_view "flash_zenit"	"flashbarrel02"	"shooter02"}
+		{add_view "flash_zenit"	"flashbarrel03"	"shooter03"}
+		{add_view "flash_zenit"	"flashbarrel04"	"shooter04"}
+		{add_view "flash_zenit"	"flashbarrel05"	"shooter05"}
+	}
+	("bf109_sound")
+	{on fire "mgun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		  else ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		  else ("fire_barrel" args 04)
+		  else ("fire_barrel" args 05)
+		}
+	}
+}
+{"np_beaufighter"
+	{on spawn
+		{add_view	 "flash_zenit"	"flashbarrel_g00"	"shooter_g00"}
+		{add_view	 "flash_zenit"	"flashbarrel_g01"	"shooter_g01"}
+		{add_view	 "flash_zenit"	"flashbarrel_g02"	"shooter_g02"}
+		{add_view	 "flash_zenit"	"flashbarrel_g03"	"shooter_g03"}
+		{add_view "light_flash_zenit"	"flashbarrel_m00"	"shooter_m00"}
+		{add_view "light_flash_zenit"	"flashbarrel_m01"	"shooter_m01"}
+		{add_view "light_flash_zenit"	"flashbarrel_m02"	"shooter_m02"}
+		{add_view "light_flash_zenit"	"flashbarrel_m03"	"shooter_m03"}
+		{add_view "light_flash_zenit"	"flashbarrel_m04"	"shooter_m04"}
+		{add_view "light_flash_zenit"	"flashbarrel_m05"	"shooter_m05"}
+	}
+	("bf110_sound")
+	{on fire "zenite"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel_g%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel_g%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		  else ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		}
+	}
+	{on fire "mgun1"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel_m%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel_m%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		  else ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		  else ("fire_barrel" args 04)
+  		  else ("fire_barrel" args 05)
+		}
+	}
+	{on "engine_count" overload
+		{tags add "engine_count_2"}
+	}
+}
+{"np_hawker"
+	("bf109_sound")
+	{on fire "gun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		  else ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		}
+	}
+}
+{"spitfiremk1a_fra"
+	("bf109_sound")
+}
+{"ca101_b"
+	("bf110_sound")
+	{on "engine_count" overload
+		{tags add "engine_count_2"}
+	}
+}
+{"douglas"
+	{on spawn
+		{add_view "light_flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "light_flash_zenit"	"flashbarrel01"	"shooter01"}
+		{add_view "light_flash_zenit"	"flashbarrel02"	"shooter02"}
+		{add_view "light_flash_zenit"	"flashbarrel03"	"shooter03"}
+		{add_view "light_flash_zenit"	"flashbarrel04"	"shooter_a00"}
+		{add_view "light_flash_zenit"	"flashbarrel05"	"shooter_a01"}
+	}
+	("bf110_sound")
+	{on "die"
+		{bone hide "bomb00"}
+		{bone hide "bomb01"}
+	}
+	{on fire "mgun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    
+			("fire_barrel" args 00)
+		else 
+			("fire_barrel" args 01)
+		else 
+			("fire_barrel" args 02)
+		else 
+			("fire_barrel" args 03)
+		}
+	}
+	{on fire "mgun1"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    
+			("fire_barrel" args 04)
+		else 
+			("fire_barrel" args 05)
+		}
+	}
+	{on "engine_count" overload
+		{tags add "engine_count_2"}
+	}
+}
+{"a6m21_reisen"
+	("bf109_sound")
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "flash_zenit"	"flashbarrel01"	"shooter01"}
+	}
+	{on fire "gun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		}
+	}
+}
+{"j2m_raiden"
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "flash_zenit"	"flashbarrel01"	"shooter01"}
+		{add_view "flash_zenit"	"flashbarrel02"	"shooter02"}
+		{add_view "flash_zenit"	"flashbarrel03"	"shooter03"}
+	}
+	{on fire "gun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		  else ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		}
+	}
+	{on fire "bomb" 
+		{if not tagged "bombrunout"
+			{if not tagged "bomb1"
+				{tags add "bomb1"}
+				{bone hide "rocket00"}
+			else not tagged "bomb2"
+				{tags add "bomb2"}
+				{bone hide "rocket01"}
+			else not tagged "bomb3"
+				{tags add "bomb3"}
+				{bone hide "rocket02"}
+			else not tagged "bomb4"
+				{tags add "bomb4"}
+				{bone hide "rocket03"}
+			else not tagged "bomb5"
+				{tags add "bomb5"}
+				{bone hide "rocket04"}
+			else not tagged "bomb6"
+				{tags add "bomb6"}
+				{bone hide "rocket05"}
+			else not tagged "bomb7"
+				{tags add "bomb7"}
+				{bone hide "rocket06"}
+			else 
+				{tags add "bombrunout"} ;8 
+				{tags remove "bomb1"}
+				{tags remove "bomb2"}
+				{tags remove "bomb3"}
+				{tags remove "bomb4"}
+				{tags remove "bomb5"}
+				{tags remove "bomb6"}
+				{tags remove "bomb7"}
+				{bone hide "rocket07"}
+			}
+		}
+	}
+	{on "die"
+		{bone hide "rocket00"}
+		{bone hide "rocket01"}
+		{bone hide "rocket02"}
+		{bone hide "rocket03"}
+		{bone hide "rocket04"}
+		{bone hide "rocket05"}
+		{bone hide "rocket06"}
+		{bone hide "rocket07"}
+	}
+	("bf109_sound")
+}
+{"pzlp11"
+	{on "init_gun"
+		{add_view "light_flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "light_flash_zenit"	"flashbarrel01"	"shooter01"}
+		{add_view "light_flash_zenit"	"flashbarrel02"	"shooter02"}
+		{add_view "light_flash_zenit"	"flashbarrel03"	"shooter03"}
+	}
+	("po2_sound")
+	{on fire "zenite"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		  else ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		}
+	}
+}
+{"pzlp23"
+	("il2_sound")
+}
+{"np_p-39"
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "flash_zenit"	"flashbarrel01"	"shooter01"}
+		{add_view "light_flash_zenit"	"flashbarrel02"	"shooter02"}
+		{add_view "light_flash_zenit"	"flashbarrel03"	"shooter03"}
+		{add_view "light_flash_zenit"	"flashbarrel04"	"shooter04"}
+		{add_view "light_flash_zenit"	"flashbarrel05"	"shooter05"}
+	}
+	("bf109_sound")
+	{on animation_end "engine_start"
+		{bone hide "propeller"}
+		{ani_play "engine_work" loop}
+		{play_sound "engine_work" 1}
+	}
+	{on "engine_stop"
+		{kill_delay "engine_stopped"}
+		{if "engine_started"
+			{set "engine_started" 0}
+			{ani_stop "engine_start"}
+			{ani_stop "engine_work"}
+			{bone show "propeller"}
+			{ani_play "engine_stop"}
+			{stop_sound "engine_start"}
+			{stop_sound "engine_work"}
+			{stop_sound "fly"}
+		}
+	}
+	{on fire "mgun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		}
+	}
+	{on fire "mgun1"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		  else ("fire_barrel" args 04)
+		  else ("fire_barrel" args 05)
+		}
+	}
+}
+{"np_skytrain"
+	("bf110_sound")
+	{on "engine_count" overload
+		{tags add "engine_count_2"}
+	}
+}
+{"l2d3"
+	("bf110_sound")
+	{on "engine_count" overload
+		{tags add "engine_count_2"}
+	}
+}
+{"li-2"
+	("bf110_sound")
+	{on "engine_count" overload
+		{tags add "engine_count_2"}
+	}
+}
+{"np_hurricane_mk2"
+	("bf109_sound")
+	{on fire "gun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		  else ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		}
+	}
+}
+{"po2_fin"
+	("po2_sound")
+	{on "wing_tear" overload
+		{if volume "wingl1"
+			{call "crash"}
+			{delay_ex 0
+				("cut_part_delete" args "wireL_ail")
+				{tear "piece_big_airborne_wing" bone "wingl2"
+					{impulse up 2 1 forward 5 dir 2 1}
+				}
+			}
+			{delay_ex 0
+				{tear "piece_big_airborne_wing" bone "wingl1"
+					{impulse up 2 1 forward 5 dir 2 1}
+				}
+			}
+		else volume "wingr1"
+			{call "crash"}
+			{delay_ex 0
+				("cut_part_delete" args "wireR_ail")
+				{tear "piece_big_airborne_wing" bone "wingr2"
+					{impulse up 2 1 forward 5 dir 2 1}
+				}
+			}
+			{delay_ex 0
+				{tear "piece_big_airborne_wing" bone "wingr1"
+					{impulse up 2 1 forward 5 dir 2 1}
+				}
+			}
+		}
+	}
+	{on "tear_part"
+		{if volume "elevator1"
+			("cut_part_delete" args "wireL_elev")
+		}
+		{if volume "elevator2"
+			("cut_part_delete" args "wireR_elev")
+		}
+		{if volume "rudder1"
+			("cut_part_delete" args "wire_rud")
+		}
+
+		;//Left Wings
+		{if volume "aileron1"
+			("cut_part_delete" args "wireL_top")
+			("cut_part_delete" args "wireL_ail")
+		}
+		{if volume "aileron3"
+			("cut_part_delete" args "wireL_bottom")
+			("cut_part_delete" args "wireL_ail")
+		}
+
+		;//Right Wings
+		{if volume "aileron2"
+			("cut_part_delete" args "wireR_top")
+			("cut_part_delete" args "wireR_ail")
+		}
+		{if volume "aileron4"
+			("cut_part_delete" args "wireR_bottom")
+			("cut_part_delete" args "wireR_ail")
+		}
+	}
+}
+{"fokker_fin"
+	("bf109_sound")
+	{on fire "mgun1"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		  else ("fire_barrel" args 04)
+		  else ("fire_barrel" args 05)
+		}
+	}
+}
+{"np_p-40" 
+	("bf109_sound")
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "flash_zenit"	"flashbarrel01"	"shooter01"}
+		{add_view "flash_zenit"	"flashbarrel02"	"shooter_mg00"}
+		{add_view "flash_zenit"	"flashbarrel03"	"shooter_mg01"}
+		{add_view "flash_zenit"	"flashbarrel04"	"shooter_mg02"}
+		{add_view "flash_zenit"	"flashbarrel05"	"shooter_mg03"}
+	}
+	{on fire "mgun2"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		}
+	}
+	{on fire "mgun1"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		  else ("fire_barrel" args 04)
+		  else ("fire_barrel" args 05)
+		}
+	}
+}
+{"np_spitfire_mkvb"
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "flash_zenit"	"flashbarrel01"	"shooter01"}
+		{add_view "light_flash_zenit"	"flashbarrel02"	"shooter_mg00"}
+		{add_view "light_flash_zenit"	"flashbarrel03"	"shooter_mg01"}
+		{add_view "light_flash_zenit"	"flashbarrel04"	"shooter_mg02"}
+		{add_view "light_flash_zenit"	"flashbarrel05"	"shooter_mg03"}
+	}
+	("bf109_sound")
+	{on fire "gun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		}
+	}
+	{on fire "gun2"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		  else ("fire_barrel" args 04)
+		  else ("fire_barrel" args 05)
+		}
+	}
+}
+{"a6m2"
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "flash_zenit"	"flashbarrel01"	"shooter01"}
+		{add_view "light_flash_zenit"	"flashbarrel02"	"shooter_mg00"}
+		{add_view "light_flash_zenit"	"flashbarrel03"	"shooter_mg01"}
+	}
+	("bf109_sound")
+	{on fire "gun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		}
+	}
+	{on fire "mgun1"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 02)
+		  else ("fire_barrel" args 03)
+		}
+	}
+}
+{"re2000_hun"
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel00"	"shooter00"}
+		{add_view "flash_zenit"	"flashbarrel01"	"shooter01"}
+	}
+	("bf109_sound")
+	{on fire "gun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		}
+	}
+}
+{"potez631"
+	("bf110_sound")
+	{on fire "gun" overload
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{delay 0.42
+					{view pause "flashbarrel%0"}
+				}
+		)
+
+		{if ("fire_barrel" args 00)
+		else ("fire_barrel" args 01)
+		}
+	}
+
+	{on "engine_count" overload
+		{tags add "engine_count_2"}
+	}
+
+	{on "engine_start_sequence" overload
+		{inherited}
+		{if work "engine1"
+			{delay 4.5 0.5
+				{call "engine2_start_sequence"}
+			}
+		else
+			{call "engine2_start_sequence"}
+		}
+	}
+
+	{on "engine1_stop_sequence" overload
+		{inherited}
+		{if not "engine_on"
+			{call "engine2_stop_sequence"}
+		}
+	}
+}
+{"macchi200"
+	{on spawn
+		{add_view "flash_zenit"	"flashbarrel00"	"shooter_mg00"}
+		{add_view "flash_zenit"	"flashbarrel01"	"shooter_mg01"}
+	}
+	("bf109_sound")
+	{on fire "gun"
+		(define "fire_barrel"
+			name "%0"
+				{view start "flashbarrel%0"}
+				{call "spawn_shell"}
+				{delay 0.5
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if    ("fire_barrel" args 00)
+		  else ("fire_barrel" args 01)
+		}
+	}
+}
 ;/*=========== Plane Specifics End  ===========*/

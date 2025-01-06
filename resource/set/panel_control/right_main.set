@@ -82,6 +82,10 @@
 		{position 3 1}
 		{condition "human multiple disabled"}
 	}
+	{medic_switch  
+		{position 3 1}
+		{condition "human single medic"}
+	}
 	{repair
 		{position 3 1}
 		{condition "vehicle disabled"}

@@ -1308,6 +1308,70 @@
 			{play_sound %0}
 		}
 	)
+	{on "lights_switch"
+		{if "engine_on"
+			{if tagged "lightison"		
+				{call "lights_off"}
+				{tags remove "lightison"}
+			else
+				{call "lights_on"}
+				{tags add "lightison"}
+			}
+		}
+	}
+	
+	{on "para_emit" 
+		{delay 0.5
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
+		}
+		{delay 1.5
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
+		}
+		{delay 2.5
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
+		}
+		{delay 3.5
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
+		}
+		{delay 4.5
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
+		}
+		{delay 5.5
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
+		}
+		{delay 6.5
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
+		}
+		{delay 7.5
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
+		}
+		{delay 8.5
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
+		}
+		{delay 9.5
+			{if not tagged "_abandoned"
+				{crew_emit}
+			}
+		}
+	}	
 }
 
 ;/*=========== Vehicle End ===========*/
@@ -1811,11 +1875,274 @@
 		{tags add "no_scavenge"}
 	}
 }
+
+{"towing_rope"		
+	{on "check_water_level"			
+		{if tagged "cargo_inside"				
+			{if tagged "car_linked" 
+				{spawn "tow_informer" "link1" 
+					{tags add "car_linked"}
+				}
+			else tagged "btr_linked" 
+				{spawn "tow_informer" "link1" 
+					{tags add "btr_linked"}
+				}
+			else tagged "light_tank_linked" 
+				{spawn "tow_informer" "link1" 
+					{tags add "light_tank_linked"}
+				}
+			else tagged "tank_linked" 
+				{spawn "tow_informer" "link1" 
+					{tags add "tank_linked"}
+				}
+			}
+		}
+	}		
+	{on "load_heavy_vehicle"			
+		{tags add "cargo_inside"}			
+		{call "check_sinking"}			
+		{if not tagged "place1_busy"				
+			{delay 0.1 
+				{ani_play "vehicle1_in" callback}
+			}				
+			{tags add "link_place1"} 
+			{delay 3 
+				{tags remove "link_place1"}
+			}				
+			{tags add "place1_busy"}
+		}
+	}		
+	{on "open"	
+		{unlink_trailer}			
+		{if not tagged "cargo_open"				
+			{volumes "vehicle" enable overlap}
+		}
+		{if tagged "cargo_inside"				
+			{tags remove "cargo_inside"}				
+			{if tagged "place1_busy"					
+				{volumes disable overlap} 
+				{ani_play "vehicle1_unload" callback}
+			}				
+			{tags remove "place1_busy"}
+			
+		else 
+			{volumes "vehicle" enable overlap}
+		}
+		{with_linked_entity "vehicle1"
+			{call "check_work_mover"}	
+		}
+		{bone cut "vehicle1"}			
+		{spawn "tow_rope" "open_point" 
+			{impulse up 0.01 com}
+		}			
+		{delete}
+	}
+}	
+{"tow_informer"		
+	{on spawn 			
+		{impulse up 0.1 com} 
+			{delay 0.5 
+			{delete}
+		}
+	}		
+	{on contact				
+		(define "load_type"				
+			{call "update_moveability"}
+			
+			{tags add "%type"}				
+			{delay 1 				
+				{tags remove "%type"} 
+				{call "update_moveability"}
+			}
+		)
+		{if effector "heavy_tractor"
+			{if tagged "car_linked" 
+				{with_effector 
+					("load_type" type(light))
+					{with_effector}
+				}
+			else tagged "btr_linked" 
+				{with_effector 
+					("load_type" type(light))
+					{with_effector}
+				}
+			else tagged "light_tank_linked" 
+				{with_effector 
+					("load_type" type(normal))
+					{with_effector}
+				}
+			else tagged "tank_linked" 
+				{with_effector 
+					("load_type" type(heavy))
+					{with_effector}
+				}
+			}
+		else effector "medium_tractor"				
+			{if tagged "car_linked" 
+				{with_effector 
+					("load_type" type(light))
+					{with_effector}
+			}
+			else tagged "btr_linked" 
+				{with_effector 
+					("load_type" type(normal))
+					{with_effector}
+				}
+			else tagged "light_tank_linked" 
+				{with_effector 
+					("load_type" type(heavy))
+					{with_effector}
+				}
+			else tagged "tank_linked" 
+				{with_effector 
+					{unlink_trailer} 
+					{with_effector}
+				}
+			}
+		else effector "car"				
+			{if tagged "car_linked" 
+				{with_effector ("load_type" type(heavy))
+					{with_effector}
+				}
+			else tagged "btr_linked" 
+				{with_effector 
+					{unlink_trailer} 
+					{with_effector}
+				}
+			else tagged "light_tank_linked" 
+				{with_effector 
+					{unlink_trailer} 
+					{with_effector}
+				}
+			else tagged "tank_linked" 
+				{with_effector 
+					{unlink_trailer} 
+					{with_effector}
+				}
+			}
+		else effector "armored_car"				
+			{if tagged "car_linked" 
+				{with_effector 
+					("load_type" type(normal)) 
+					{with_effector}
+				}
+			else tagged "btr_linked" 
+				{with_effector 
+					("load_type" type(heavy)) 
+					{with_effector}
+				}
+			else tagged "light_tank_linked" 
+				{with_effector 
+					{unlink_trailer} 
+					{with_effector}
+				}
+			else tagged "tank_linked" 
+				{with_effector 
+					{unlink_trailer} 
+					{with_effector}
+				}
+			}
+		else effector "tank light"				
+			{if tagged "car_linked" 
+				{with_effector 
+					("load_type" type(light))
+					{with_effector}
+			}
+			else tagged "btr_linked" 
+				{with_effector 
+					("load_type" type(normal))
+					{with_effector}
+				}
+			else tagged "light_tank_linked" 
+				{with_effector 
+					("load_type" type(heavy))
+					{with_effector}
+				}
+			else tagged "tank_linked" 
+				{with_effector 
+					{unlink_trailer} 
+					{with_effector}
+				}
+			}
+		else effector "tank medium"				
+			{if tagged "car_linked" 
+				{with_effector 
+					("load_type" type(light))
+					{with_effector}
+			}
+			else tagged "btr_linked" 
+				{with_effector 
+					("load_type" type(light))
+					{with_effector}
+				}
+			else tagged "light_tank_linked" 
+			{with_effector 
+					("load_type" type(normal))
+					{with_effector}
+				}
+			else tagged "tank_linked" 
+				{with_effector 
+					("load_type" type(heavy))
+					{with_effector}
+				}
+			}
+		else effector "tank heavy"				
+			{if tagged "car_linked" 
+				{with_effector 
+					("load_type" type(light))
+					{with_effector}
+				}
+			else tagged "btr_linked" 
+				{with_effector 
+					("load_type" type(light))
+					{with_effector}
+				}
+			else tagged "light_tank_linked" 
+				{with_effector 
+					("load_type" type(normal))
+					{with_effector}
+				}
+			else tagged "tank_linked" 
+				{with_effector 
+					("load_type" type(heavy))
+					{with_effector}
+				}
+			}
+	    }		    
+		{delay 0.1 
+			{delete}
+		}
+	}
+}
+{"aa"
+	{on spawn
+		{delay 0.1
+			{tags add "anti_aircraft"}
+		}
+	}
+}
+{"c_aa_hvy"
+	{on spawn
+		{delay 0.1
+			{tags add "anti_aircraft"}
+		}
+	}
+}
+
+{"automatic"
+	{on spawn
+		{delay 0.1
+			{tags add "anti_aircraft"}
+		}
+	}
+}
+
 {"no_recrew_logic"
 	{on spawn
 		{tags add "_no-recrew"} ;// used by AI mission scripts to not allow AI to recrew abandoned motorcycles
 	}
 }
+{"td"}						;// used for minimap icons
 {"spg"}						;// used for minimap icons
 {"sandbag_tank_near"}		;// used for constructor
 {"sandbag_tank_far"}		;// used for constructor

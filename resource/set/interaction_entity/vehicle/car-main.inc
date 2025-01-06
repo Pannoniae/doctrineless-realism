@@ -624,6 +624,23 @@
 	{on animation_event "tailgate_close"
 		{play_sound "tailgate_close"}
 	}
+	{on "install_tow"			
+		{if work "engine"
+			{if "engine_on"
+				{call "engine_off"}
+			}
+		}
+		{spawn "towing_rope" "basis" x   
+			{if not tagged "cargo_inside"					
+				{call "load_heavy_vehicle"} 
+				{tags add "car_linked"}
+			}
+		}
+		{tags add "link_to_place1"} 
+		{delay 3 
+			{tags remove "link_to_place1"}
+		}	
+	}
 }
 
 ;/*=========== Car End ===========*/
