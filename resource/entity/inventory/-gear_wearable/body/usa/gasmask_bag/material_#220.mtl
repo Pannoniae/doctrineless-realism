@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "gasmask bag"}
+	{blend none}
+}
