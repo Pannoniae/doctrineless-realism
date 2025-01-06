@@ -3,7 +3,7 @@
 	
 	{extension "105mm_lefh18m.mdl"}
 	(include "/properties/selection/cannon_elongated.inc" scale(1.1))
-	{props "105mm_lefh18m" "wheeled" "vision_lev05_can" "muzzle_85mm_93mm_sides" "cannon_sandbag_standard" "trailer" "trailer_medium" "detect_artillery" "artillery_minimap_medium" "c_how_lite"}
+	{props "105mm_lefh18m" "wheeled" "vision_lev05_can" "muzzle_85mm_93mm_sides" "cannon_sandbag_standard" "trailer" "trailer_medium" "detect_artillery" "artillery_minimap_medium" "c_how_lite" "105mm_lefh18"}
 	{PatherId "cannon.medium"}
 	{targetclass "howitzer"}
 	{targetSelector "cannon_howitzer"}

@@ -1,0 +1,30 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "stalinetz60_xx.mdl"}
+	{volume "body1"
+	}
+	{volume "body2"
+	}
+	{volume "body3"
+	}
+	{volume "engine1"
+	}
+	{volume "engine3"
+	}
+	{volume "part1"
+	}
+	{volume "part2"
+	}
+	{volume "part3"
+	}
+	{volume "part4"
+	}
+	{volume "part5"
+	}
+	{volume "part6"
+	}
+	{volume "trackleft"
+	}
+	{volume "trackright"
+	}
+}

@@ -1,6 +1,6 @@
-;Exported by:	 guita
-;Date:			 20.09.2022 08:47:50
-;File:			 D:\Git\3D_Scenes\GoH_3D_vehicles_ger\vehicles\tank_heavy\panzer 756r\PzKpfw_756R.max
+;Exported by:	 Robin
+;Date:			 17.11.2024 18:20:22
+;File:			 E:\SVN GoH GER 3D models\vehicles\tank_heavy\panzer 756r\PzKpfw_756R.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.7}}
@@ -782,32 +782,57 @@
 		0 	 -0.9489 	 5.3812
 	}
 }
-{volume "armor1"
-	{polyhedron "armor1.vol"}
-	{bone "body"}
-	{Position 64.6716 	 -0.0294 	 -1.9728}
-}
-{volume "armor2"
-	{box 0.54084 5.33383 33.7169}
-	{bone "body"}
-	{matrix34
-		0.9205 	 0 	 -0.3907
-		0.3907 	 0 	 0.9205
-		0 	 -1 	 0
-		63.6471 	 -0.0849 	 -7.1159
-	}
-}
-{volume "armor3"
-	{box 0.593565 9.39069 34.5472}
-	{bone "body"}
-	{matrix34
-		0.8598 	 0 	 0.5106
-		-0.5106 	 0 	 0.8598
-		0 	 -1 	 0
-		47.8248 	 -0.081 	 8.5228
-	}
-}
 {volume "armor4"
+	{box 20.105 1.21111 0.802601}
+	{bone "body"}
+	{matrix34
+		0.5299 	 -0.848 	 0
+		0 	 0 	 1
+		-0.848 	 -0.5299 	 0
+		30.3943 	 9.569 	 11.2936
+	}
+}
+{volume "armor5"
+	{box 22.3714 1.21111 0.802601}
+	{bone "body"}
+	{matrix34
+		-0.4757 	 -0.8796 	 0
+		0 	 0 	 1
+		-0.8796 	 0.4757 	 0
+		30.3804 	 -8.4395 	 11.2936
+	}
+}
+{volume "armor6"
+	{box 38.1351 2.68105 0.763971}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		10.7228 	 18.9523 	 10.5026
+	}
+}
+{volume "armor7"
+	{box 38.1351 2.68105 0.763971}
+	{bone "body"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 1
+		0 	 -1 	 0
+		10.7228 	 -19.1046 	 10.5026
+	}
+}
+{volume "armor8"
+	{box 34.7287 0.589831 2.19055}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
+		0.8594 	 0 	 0.5112
+		-0.5112 	 0 	 0.8594
+		45.961 	 0.0054 	 11.6032
+	}
+}
+{volume "armor9"
 	{box 0.836927 12.4495 6.16902}
 	{bone "turret"}
 	{matrix34
@@ -913,7 +938,7 @@
 	{Position 2.342 	 5.7878 	 0.3844}
 }
 {volume "hole3"
-	{box 7.38828 6.17118 0.984252}
+	{box 7.38828 6.29522 0.984252}
 	{bone "body"}
 	{matrix34
 		0 	 1 	 0
@@ -922,14 +947,29 @@
 		48.7212 	 -0.0798 	 6.8513
 	}
 }
-{volume "hole4"
-	{cylinder 3.97206 0.984252}
+{volume "hull_armor1"
+	{polyhedron "hull_armor1.vol"}
+	{bone "body"}
+	{Position 64.6716 	 -0.0294 	 -1.9728}
+}
+{volume "hull_armor2"
+	{box 0.54084 5.33383 33.7169}
 	{bone "body"}
 	{matrix34
-		0 	 1 	 0
-		-0.515 	 0 	 0.8572
+		0.9205 	 0 	 -0.3907
+		0.3907 	 0 	 0.9205
+		0 	 -1 	 0
+		63.6471 	 -0.0849 	 -7.1159
+	}
+}
+{volume "hull_armor3"
+	{box 34.7287 0.589831 7.55362}
+	{bone "body"}
+	{matrix34
+		0 	 -1 	 0
 		0.8572 	 0 	 0.515
-		49.04 	 9.4276 	 6.4752
+		-0.515 	 0 	 0.8572
+		48.4534 	 0.0054 	 7.4542
 	}
 }
 {volume "trackleft1"

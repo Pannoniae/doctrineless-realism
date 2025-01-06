@@ -31,6 +31,7 @@
 				-73.0888	-0.33932	0.0419865
 			}
 		}
+		{Extension "/properties/damage_components.ext"}
 		{bone "body"
 			{parameters "ID=body;"}
 			{animation

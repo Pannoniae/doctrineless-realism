@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/pzshield_x"}
+	{bump "$/model/pzshield_bp"}
+	{specular "$/model/pzshield_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}
