@@ -1,6 +1,7 @@
 import zipfile
 import subprocess
 import os
+import re
 import shlex
 from zipfile import *
 import shutil
@@ -21,6 +22,18 @@ try:
 except Exception as e:
     print("Couldn't delete git folder, remove it manually")
     print(traceback.format_exc())
+    
+# Update mod.info to remove dev suffix
+mod_info_path = f"../{new_directory}/mod.info"
+if os.path.exists(mod_info_path):
+    with open(mod_info_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Replace the name line, removing the dev suffix
+    content = re.sub(r'(\{name "[^"]+) dev"}', r'\1"}', content)
+    
+    with open(mod_info_path, 'w', encoding='utf-8') as f:
+        f.write(content)
 
 # go in resource
 os.chdir(f"../{new_directory}")
