@@ -2,7 +2,7 @@
 	(include "/properties/tank.ext")
 	
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
-	{props "medium" "vision_lev04" "muzzle_50mm_57mm" "shield"}
+	{props "medium" "vision_lev04" "muzzle_75mm_76mm" "shield"}
 	{Extension "panzer4f1.mdl"}
 	(include  "panzer4f1.ext")
 	{PatherId "panzer3"}
@@ -51,9 +51,9 @@
 	
 	{extender "inventory"
 		{box
-			{item "bulletger_75_l24 apcbche" 10} 		; 80 rounds
+			{item "bulletger_75_l24 apcbche" 11} 		; 80 rounds
+			{item "bulletger_75_l24 heatb" 24}
 			{item "bulletger_75_l24 he" 40}
-			{item "bulletger_75_l24 heata" 25}
 			{item "bulletger_75_l24 sm" 4}
 			{item "ammo mgun_ger belt" 2850}		; 21 belts (150 rounds each)
 			{item "geballteladung_3kg" 1}
@@ -64,7 +64,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "75mm_kwk37" filling "bulletger_75_l24 apcbche" 1}
+			{weapon "75mm_kwk37" filling "bulletger_75_l24 heatb" 1}
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic"
@@ -122,10 +122,9 @@
 		{speed2 6}
 	}
 	{bone "turret"
-		("turret_medium" power_traverse(16))
+		("turret_medium" power_traverse(14))
 	}
 	{##bone "commander_rot"
 		{speed2 180}
 	}
-	{texmod "grey"}
 }

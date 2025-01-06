@@ -59,7 +59,7 @@
 		("tank_trace_ex" fx("tracks_mid") step(0.52) len(-0.7) boneleft("FXtraceL2") boneright("FXtraceR2"))
 		("car_trace" fx("tracewheel03") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
 		("mobility_car"
-			speed(35) ;----------------------------------Max speed.
+			speed(39.8) ;----------------------------------Max speed.
 			speedatmaxturn(15) ;-------------------------Max speed at max turn.
 			reverse(20) ;--------------------------------Max speed in Reverse.
 			weight(5.2) ;--------------------------------Weight in Tonnes.

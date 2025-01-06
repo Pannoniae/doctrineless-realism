@@ -3,7 +3,7 @@
 ;Date: Sun Aug 18 16:45:56 2024
 ;File: C:\Users\Professional\Desktop\mod\zis-42_tent\zis_42.max
 ;Model create/rebuild by: horten
-;Last build date: Monday 18 August 2024 [23:02:48]
+;Last build date: Sunday 14 December 2024 [20:36:37]
 {Skeleton
     {Animation
         {Sequence "start" {Speed 0.8}}
@@ -20,6 +20,7 @@
             0	0	1
         }
         {Bone "body"
+            {Parameters "id=body;"}
             {Matrix34
                 0	-1	0
                 1	0	0

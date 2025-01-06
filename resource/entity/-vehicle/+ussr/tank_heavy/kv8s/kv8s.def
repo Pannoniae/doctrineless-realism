@@ -131,7 +131,7 @@
 		("tank_trace" fx("tracks_big") step(0.47) len(0.79))
 		("mobility_tank"
 			speed(40) ;----------Max speed when fully accelerated on road, km/h.
-			reverse(6);----------Max speed in reverse on road, km/h.
+			reverse(18);----------Max speed in reverse on road, km/h.
 			traverse(20) ;-------Track traverse, per second, in degrees.
 			weight(42.3) ;-------Weight in Tonnes.
 			power(600) ;---------Engine Power, in hp.

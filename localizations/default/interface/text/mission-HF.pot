@@ -1,0 +1,228 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CtA:GoH (mission)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+;/*===MODDED 3V3 MAPS FRONTLINE START===*/
+
+;// HEX CODES FOR PERFORMANCE RATING:
+;// EXCELLENT 		- 2dc937
+;// GOOD 	  		- 99c140
+;// MEH		  		- e7b416
+;// BAD		  		- db7b2b
+;// LIBERATION DLC	- cc3232
+
+;// DEFAULT COLOUR b09779
+
+msgctxt "mission/multi/a_frontline/fr-smolensk/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Smolensk</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-petrozavodsk/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Petrozavodsk</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-stalingrad/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Stalingrad</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-operation_cobra/name"
+msgid "<c(cc3232)>P</c> <c(b09779)>Marigny Outskirts</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-hurtgen_forest/name"
+msgid "<c(db7b2b)>P</c> <c(b09779)>Hurtgen Forest</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-polar_fox_alakurtti/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Alakurtti</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-moscow/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Moscow Outskirts</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-utah_beach/name"
+msgid "<c(e7b416)>P</c> <c(b09779)>Utah Beach</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-kerch/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Kerch</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-ilomantsi/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Ilomantsi</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-krasny_bor/name"
+msgid "<c(e7b416)>P</c> <c(b09779)>Krasny Bor</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-z-krasny_bor_4v4/name"
+msgid "<c(e7b416)>P</c> <c(b09779)>Krasny Bor</c> <c(9fd4a3)>4v4</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-z-utah_beach_4v4/name"
+msgid "<c(e7b416)>P</c> <c(b09779)>Utah Beach</c> <c(9fd4a3)>4v4</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-berlin/name"
+msgid "<c(e7b416)>P</c> <c(b09779)>Berlin</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-kharkov/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Kharkov</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-op_bagration/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Bagration</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-seelow_heights/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Seelow Heights</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-petrovka/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Petrovka</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-winterstorm/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Gromoslavka</c> <c(9fd4a3)>3v3</c>"
+msgstr ""
+
+;/*===MODDED 3V3 MAPS FRONTLINE END=====*/
+;/*===MODDED 1V1 MAPS FRONTLINE START===*/
+
+msgctxt "mission/multi/a_frontline/fr-winterstorm_1v1/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Gromoslavka</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-petrovka_1v1/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Petrovka</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-seelow_heights_1v1/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Seelow Heights</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-polar_fox_alakurtti_1v1/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Alakurtti</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-op_bagration_1v1/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Bagration</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-krasny_bor_1v1/name"
+msgid "<c(e7b416)>P</c> <c(b09779)>Krasny Bor</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-kharkov_1v1/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Kharkov</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-ilomantsi_1v1/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Ilomantsi</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-petrozavodsk_1v1/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Petrozavodsk</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-smolensk_1v1/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Smolensk</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-stalingrad_1v1/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Stalingrad</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-hurtgen_forest_1v1/name"
+msgid "<c(db7b2b)>P</c> <c(b09779)>Hurtgen Forest</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-kerch_1v1/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Kerch</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-moscow_1v1/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Moscow Outskirts</c> <c(836953)>1v1</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-utah_beach_1v1/name"
+msgid "<c(e7b416)>P</c> <c(b09779)>Utah Beach</c> <c(836953)>1v1</c>"
+msgstr ""
+
+;/*===MODDED 1V1 MAPS FRONTLINE END=====*/
+;/*===MODDED 2V2 MAPS FRONTLINE START===*/
+
+msgctxt "mission/multi/a_frontline/fr-winterstorm_2v2/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Gromoslavka</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-petrozavodsk_2v2/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Petrozavodsk</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-petrovka_2v2/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Petrovka</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-seelow_heights_2v2/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Seelow Heights</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-polar_fox_alakurtti_2v2/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Alakurtti</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-op_bagration_2v2/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Bagration</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-krasny_bor_2v2/name"
+msgid "<c(e7b416)>P</c> <c(b09779)>Krasny Bor</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-kharkov_2v2/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Kharkov</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-ilomantsi_2v2/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Ilomantsi</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-smolensk_2v2/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Smolensk</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-stalingrad_2v2/name"
+msgid "<c(99c140)>P</c> <c(b09779)>Stalingrad</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-hurtgen_forest_2v2/name"
+msgid "<c(db7b2b)>P</c> <c(b09779)>Hurtgen Forest</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-kerch_2v2/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Kerch</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-moscow_2v2/name"
+msgid "<c(2dc937)>P</c> <c(b09779)>Moscow Outskirts</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+msgctxt "mission/multi/a_frontline/fr-utah_beach_2v2/name"
+msgid "<c(e7b416)>P</c> <c(b09779)>Utah Beach</c> <c(ff964f)>2v2</c>"
+msgstr ""
+
+;/*===MODDED 2V2 MAPS FRONTLINE END=====*/

@@ -1,0 +1,31 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Call to Arms - Gates of Hell: Ostfront (dlg_ingame)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+
+
+msgctxt "actionbar/human/medic_switch"
+msgid "Auto-medic switch"
+msgstr ""
+
+msgctxt "actionbar/human/medic_switch/usage"
+msgid "Click to set whether this medic will perform auto-medic commands, it's ON by default. \nIf a hint pops up on the medic after clicking, and the status switches normally, it means that auto-medic script is running."
+msgstr ""
+
+msgctxt "actionbar/vehicle/lights_switch"
+msgid "Toggle Lights on/off"
+msgstr ""
+
+msgctxt "actionbar/vehicle/para_emit"
+msgid "Drop paratroopers"
+msgstr ""

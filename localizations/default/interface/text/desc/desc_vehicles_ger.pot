@@ -1572,11 +1572,11 @@ msgctxt "info/special/sdkfz251d_1"
 msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
-msgctxt "desc/entity/sdkfz251d_1_stuka"
+msgctxt "desc/entity/sdkfz251d_1_stenga"
 msgid "Sd.Kfz 251/1 Ausf.D (Wurfrahmen 40)"
 msgstr ""
 
-msgctxt "info/special/sdkfz251d_1_stuka"
+msgctxt "info/special/sdkfz251d_1_stenga"
 msgid "<c(c3baae)>Rocket Halftrack</c>"
 msgstr ""
 

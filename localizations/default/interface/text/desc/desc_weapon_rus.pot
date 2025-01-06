@@ -245,7 +245,7 @@ msgid "305mm"
 msgstr ""
 
 msgctxt "desc/weapon/305mm_m1907"
-msgid "Obukhovskii 305mm/52 Pattern 1907"
+msgid "Obenghovskii 305mm/52 Pattern 1907"
 msgstr ""
 
 msgctxt "desc/weapon/ato_41_flame_thrower"

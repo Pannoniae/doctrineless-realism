@@ -3252,7 +3252,7 @@ msgctxt "mp/settings/teamb"
 msgid "B Team"
 msgstr ""
 
-msgctxt "mp/chat2/cta_ukrainian"
+msgctxt "mp/chat2/cta_engrainian"
 msgid "УКРАЇНСЬКИЙ"
 msgstr ""
 

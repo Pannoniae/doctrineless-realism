@@ -141,6 +141,14 @@ msgctxt "desc/ammo/sm2"
 msgid "Smoke"
 msgstr ""
 
+msgctxt "desc/ammo/sr"
+msgid "Shrapnel"
+msgstr ""
+
+msgctxt "desc/stuff/sr"
+msgid "Shrapnel"
+msgstr ""
+
 msgctxt "desc/ammo/wp"
 msgid "White Phosphorus"
 msgstr ""
