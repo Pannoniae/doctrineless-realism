@@ -164,14 +164,6 @@ msgctxt "info/special/churchill2"
 msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
-msgctxt "desc/entity/churchill4"
-msgid "Churchill Mk.IV"
-msgstr ""
-
-msgctxt "info/special/churchill4"
-msgid "<c(c3baae)>Heavy Tank</c>"
-msgstr ""
-
 msgctxt "desc/entity/churchill_gun_carrier"
 msgid "Churchill Gun Carrier"
 msgstr ""

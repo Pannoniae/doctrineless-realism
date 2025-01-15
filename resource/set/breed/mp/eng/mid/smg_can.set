@@ -19,7 +19,7 @@
 	}
 	{inventory
 		{item "thompson_m1928a1_30" filled}
-		{item  "ammo 11x23" 180}
+		{item  "thompson_mag stick 30 ammo" 180}
 		{item "bandage" 3}
 		{item "grenade no36m" 2}
 		{item "smoke grenade" 1}

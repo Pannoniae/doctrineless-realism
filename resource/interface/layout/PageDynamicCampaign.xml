@@ -15,11 +15,12 @@
 							<Insets left="28" right="28" bottom="28"/>
 							<Children>
 								<DockPanel>
-									<MaxSize x="3000" y="1380" />
+									<MaxSize x="3452" y="1880"/>
 									<Children>
 										<PercentPanel stretch="true" direction="vertical" gap="2" placement="center">
 											<Children>
 												<DialogRef id="overview" refid="gui_dynamic_campaign_overview" percent="0.6">
+												<MaxSize y="880"/>
 												</DialogRef>
 												<DialogRef id="inspector" refid="gui_multiplayer_library" percent="0.4"/>
 											</Children>
@@ -29,8 +30,9 @@
 											<Children>
 												<FlowPanel direction="horizontal" gap="16" placement="right">
 													<Children>
-														<StaticText placement="">
-															<Text key="main_menu2/dynamic_campaign/battle_location" textFormat="f(anka)c(eeeeee)s(15)"  />
+														<StaticText placement="center">
+															<Insets top="5"/>
+															<Text key="main_menu2/dynamic_campaign/battle_location" textFormat="e(shadow)f(pobeda)b+c(dcae65)s(24)"  />
 														</StaticText>
 														<MenuButton id="btn_next_map">
 															<Insets left="52"/>

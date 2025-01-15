@@ -165,9 +165,9 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 			{item "dynamite"}
-			{item "ammo bullet75_usa ap" 32}
-			{item "ammo bullet75_usa he" 45}
-			{item "ammo bullet75_usa apcbc" 20}
+			{item "ammo bulletusa_75x350 ap" 32}
+			{item "ammo bulletusa_75x350 he" 45}
+			{item "ammo bulletusa_75x350 apcbc" 20}
 			{item "browning" filled {user "mgun"}}
 			{item "ammo 12x99" 500}
 			{item "ammo 7x63" 2350}
@@ -177,7 +177,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "75mm_m3" filling "ammo bullet75_usa ap" 1}		
+			{weapon "75mm_m3" filling "ammo bulletusa_75x350 ap" 1}		
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_stabilised"

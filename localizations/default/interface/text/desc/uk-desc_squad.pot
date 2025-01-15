@@ -17,10 +17,6 @@ msgctxt "desc/squad/single_auxiliary(eng)"
 msgid "Auxiliary Detach."
 msgstr ""
 
-msgctxt "desc/squad/single_mg(eng)"
-msgid "Machine Gunner"
-msgstr ""
-
 msgctxt "desc/squad/single_at(eng)"
 msgid "AT Riflemen"
 msgstr ""
@@ -50,7 +46,7 @@ msgid "Medic"
 msgstr ""
 
 msgctxt "desc/squad/single_sniper(eng)"
-msgid "Sniper"
+msgid "Lee-Enfield Sniper"
 msgstr ""
 
 msgctxt "desc/squad/single_officer(eng)"
@@ -58,15 +54,15 @@ msgid "Officer"
 msgstr ""
 
 msgctxt "desc/squad/squad_light_late(eng)"
-msgid "Light infantry"
+msgid "Home Guard"
 msgstr ""
 
 msgctxt "desc/squad/squad_regular_late(eng)"
-msgid "Regular Squad"
+msgid "Rifle Section"
 msgstr ""
 
 msgctxt "desc/squad/squad_sas_late(eng)"
-msgid "SAS team"
+msgid "SAS Section"
 msgstr ""
 
 msgctxt "desc/squad/squad_para1st(eng)"
@@ -89,8 +85,28 @@ msgctxt "desc/squad/single_auxiliary_late(eng)"
 msgid "Auxiliary Detach."
 msgstr ""
 
+msgctxt "desc/squad/single_rifle_late(eng)"
+msgid "Lee-Enfield Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_smg_late(eng)"
+msgid "Sten SMG"
+msgstr ""
+
 msgctxt "desc/squad/single_mg_late(eng)"
 msgid "Machine Gunner"
+msgstr ""
+
+msgctxt "desc/squad/single_mg(eng)"
+msgid "Bren MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_sas(eng)"
+msgid "SAS Bren MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_com(eng)"
+msgid "Commando Bren MG Team"
 msgstr ""
 
 msgctxt "desc/squad/single_atrifle(eng)"
@@ -102,11 +118,15 @@ msgid "AT Infantry"
 msgstr ""
 
 msgctxt "desc/squad/single_mortar_late(eng)"
-msgid "Mortar"
+msgid "50mm Portable Mortar"
 msgstr ""
 
 msgctxt "desc/squad/single_tankman_late(eng)"
 msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_support_crew(eng)"
+msgid "Support Crew"
 msgstr ""
 
 msgctxt "desc/squad/single_flamer_late(eng)"
@@ -117,16 +137,8 @@ msgctxt "desc/squad/single_riflegrenade_late(eng)"
 msgid "Rilfe-Grenade Infantry"
 msgstr ""
 
-msgctxt "desc/squad/single_mortar_late(eng)"
-msgid "Mortar"
-msgstr ""
-
-msgctxt "desc/squad/np_conquest_beaufighter"
-msgid "Beaufighter"
-msgstr ""
-
-msgctxt "desc/squad/squad_scott_late(eng)"
-msgid "Highlanders"
+msgctxt "desc/squad/squad_scot_late(eng)"
+msgid "Highlander Section"
 msgstr ""
 
 msgctxt "desc/squad/squad_recon(eng)"
@@ -134,7 +146,7 @@ msgid "Special reconnaissance"
 msgstr ""
 
 msgctxt "desc/squad/squad_canadians(eng)"
-msgid "Canadian Rifle section"
+msgid "Canadian Rifle Section"
 msgstr ""
 
 msgctxt "desc/squad/squad_bef(eng)"
@@ -174,5 +186,5 @@ msgid "BL 7.2-inch artillery barrage"
 msgstr ""
 
 msgctxt "desc/squad/np_para_infantry"
-msgid "Para infantry"
+msgid "Paratroopers"
 msgstr ""

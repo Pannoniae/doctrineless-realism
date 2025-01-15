@@ -20,7 +20,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "weaponbazooka_m9" filled}
+		{item "weapon bazooka_m9" filled}
 		{item "garand" filled}
 		{item "ammo 7x63" 128}
 		{item "bandage" 3}

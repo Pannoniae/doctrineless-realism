@@ -113,14 +113,6 @@ msgctxt "desc/squad/squad_assaultsappers(rus)"
 msgid "Assault Sappers"
 msgstr ""
 
-msgctxt "desc/squad/squad_assaultsappers_con(rus)"
-msgid "Assault-engineer Sapper Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_assaultsappers_flame_con(rus)"
-msgid "Assault-engineer Flamer Squad"
-msgstr ""
-
 msgctxt "desc/squad/squad_at_rifle(rus)"
 msgid "Anti-tank Rifle Squad"
 msgstr ""
@@ -161,24 +153,12 @@ msgctxt "desc/squad/squad_guards_heavy(rus)"
 msgid "Heavy Guards Inf."
 msgstr ""
 
-msgctxt "desc/squad/squad_guards_smg_con(rus)"
-msgid "Guards SMG Squad (heavy)"
-msgstr ""
-
 msgctxt "desc/squad/squad_guards_smg_heavy(rus)"
 msgid "Guards SMG Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_guardsrifle(rus)"
 msgid "Guards Rifle Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_guardsrifle_con(rus)"
-msgid "Guards Rifle Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_guardsrifle_motorised_con"
-msgid "Motorized Guards Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_heavy(rus)"
@@ -222,10 +202,6 @@ msgid "GAZ-67 (Command)"
 msgstr ""
 
 msgctxt "desc/squad/squad_paras(rus)"
-msgid "Paratrooper Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_paras_con(rus)"
 msgid "Paratrooper Squad"
 msgstr ""
 

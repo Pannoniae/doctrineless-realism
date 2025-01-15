@@ -97,10 +97,6 @@ msgctxt "desc/squad/squad_regular_late(ita)"
 msgid "2nd Division Littorio"
 msgstr ""
 
-msgctxt "desc/squad/squad_gnr(ita)"
-msgid "Guardia Nazionale Repubblican"
-msgstr ""
-
 msgctxt "desc/squad/squad_stormtrooper_late(ita)"
 msgid "Decima MAS Battalion Barbarigo"
 msgstr ""

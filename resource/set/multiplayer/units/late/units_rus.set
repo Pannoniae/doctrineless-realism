@@ -997,22 +997,6 @@
 	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy0) b(mt) cw(8) cp(26)
 	cost(570)) ;// +35 for crew
 }
-{"churchill9"
-	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:5) crew2(tankman2:1) g(heavy1) b(mt) cw(8) cp(20) 
-	cost(800))
-}
-;{"churchill7"
-;	("vehicle2" period(late) year(late) cd(600)  ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tankman2:1) g(heavy3) b(mt) cw(8) cp(30) 
-;	cost(900))
-;}
-;{"churchill8"
-;	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(mt) cw(8) cp(30)
-;	cost(950))
-;}
-;{"churchill_crocodile"
-;	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(mt) cw(8) cp(30)
-;	cost(900))
-;}
 
 {"kv1s"
 	("vehicle2" period(late) year(late) cd(600) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(heavy1) b(mt) cw(8) cp(26)
@@ -1033,10 +1017,6 @@
 {"is1_43"
 	("vehicle2" period(late) year(late) cd(1200) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy3) b(mt) cw(8) cp(26)
 	cost(900)) ;// +30 for crew
-}
-{"churchill_black_prince"
-	("vehicle2" period(late) year(late) cd(1500) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(mt) cw(8) cp(35)
-	cost(1200))
 }
 {"is2_43"
 	("vehicle2" period(late) year(late) cd(1600) ci(10) t(heavy) side(rus) crew1(tankman:3) crew2(tank_commander:1) g(heavy4) b(mt) cw(8) cp(30)
@@ -1080,10 +1060,6 @@
 	("vehicle2" period(late) year(late) cd(900) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(spg6) b(td) cw(8) cp(30)
 	cost(1000)) ;// +35 for crew
 }
-;{"churchill3_avre"
-;	("vehicle2" period(late) year(late) cd(810) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tankman2:1) g(heavy2) b(td) cw(8) cp(30) 
-;	cost(900))
-;}
 {"isu122s"
 	("vehicle2" period(late) year(late) cd(1200) ci(10) t(heavy) side(rus) crew1(tankman:4) crew2(tank_commander:1) g(spg5) b(td) cw(8) cp(30)
 	cost(1100)) ;// +35 for crew

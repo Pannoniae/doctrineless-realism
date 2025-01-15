@@ -146,7 +146,7 @@ msgid "<c(c3baae)>AA Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/50cal_quad_m45"
-msgid "M45 Quadmount"
+msgid "M55 MMGT"
 msgstr ""
 
 msgctxt "info/special/50cal_quad_m45"
@@ -834,11 +834,11 @@ msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/m4a3_75w_e4_5"
-msgid "M4A3(75)W 'E4-5' (Flame)"
+msgid "M4A3(75)W 'E4-5'"
 msgstr ""
 
 msgctxt "info/special/m4a3_75w_e4_5"
-msgid "<c(c3baae)>Medium Tank</c>"
+msgid "<c(c3baae)>Medium Flamethrower Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/m4a3_76w"

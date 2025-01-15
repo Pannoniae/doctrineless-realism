@@ -346,10 +346,6 @@ msgctxt "desc/human/mp/usa/mid/82nd_company_radio"
 msgid "82nd Airborne Company Radio Operator"
 msgstr ""
 
-msgctxt "desc/human/mp/usa/mid/82nd_company_radio"
-msgid "82nd Airborne Company Radio Operator"
-msgstr ""
-
 msgctxt "desc/human/mp/usa/mid/82nd_company_sgt"
 msgid "82nd Airborne Company Sergeant"
 msgstr ""
@@ -712,10 +708,6 @@ msgstr ""
 
 msgctxt "desc/human/mp/usa/mid/ar1_vehicle_com"
 msgid "1st Armored Vehicle Commander"
-msgstr ""
-
-msgctxt "desc/human/mp/usa/mid/ar1_vehicle_crew"
-msgid "1st Armored Vehicle Crew"
 msgstr ""
 
 msgctxt "desc/human/mp/usa/mid/ar1_vehicle_crew"
@@ -3003,10 +2995,6 @@ msgctxt "desc/human/mp/usa/late/antitank_m9a1"
 msgid "AT Inf."
 msgstr ""
 
-msgctxt "desc/human/mp/usa/late/antitank_m9a1"
-msgid "AT Inf."
-msgstr ""
-
 
 
 msgctxt "desc/human/mp/usa/late/ar_carbine_gren"
@@ -4482,10 +4470,6 @@ msgid "Asst. Squadleader"
 msgstr ""
 
 msgctxt "desc/human/mp/usa/late/late_sl_asst_gren"
-msgid "Asst. Squadleader"
-msgstr ""
-
-msgctxt "desc/human/mp/usa/late/late_sl_asst"
 msgid "Asst. Squadleader"
 msgstr ""
 

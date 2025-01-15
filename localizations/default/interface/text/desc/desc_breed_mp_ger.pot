@@ -561,14 +561,6 @@ msgctxt "desc/human/mp/ger/late/begleitgren_sa_pzf"
 msgid "Begleitgrenadier"
 msgstr ""
 
-msgctxt "desc/human/mp/ger/late/begleitgren_sl"
-msgid "Begleitgrenadier Squadleader"
-msgstr ""
-
-msgctxt "desc/human/mp/ger/late/begleitgren_sl_asst"
-msgid "Begleitgrenadier Asst. Leader"
-msgstr ""
-
 msgctxt "desc/human/mp/ger/late/begleitgren_stg"
 msgid "Begleitgrenadier"
 msgstr ""
@@ -2491,10 +2483,6 @@ msgctxt "desc/human/mp/ger/mid/mgun_42"
 msgid "MG Operator"
 msgstr ""
 
-msgctxt "desc/human/mp/ger/mid/pioneer_builder"
-msgid "Pionier Engineer"
-msgstr ""
-
 msgctxt "desc/human/mp/ger/mid/pz_mg_asst"
 msgid "Panzerschütze MG Asst."
 msgstr ""
@@ -2731,20 +2719,12 @@ msgctxt "desc/human/mp/ger/late/ersatz_gren_sl_asst"
 msgid "Ersatz-Grenadier Asst. Leader"
 msgstr ""
 
-msgctxt "desc/human/mp/ger/late/fallsch_pio_rifle"
-msgid "Fallschirmpionier"
-msgstr ""
-
 msgctxt "desc/human/mp/ger/late/fallsch_pio_rifle_pzf"
 msgid "Fallschirmpionier"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/fallsch_pio_rifle_scope"
 msgid "Fallschirmpionier"
-msgstr ""
-
-msgctxt "desc/human/mp/ger/late/fallsch_pio_sl_asst"
-msgid "Fallschirmpionier Asst. Leader"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/fallsch_pio_sl_asst_stg"
@@ -2915,18 +2895,6 @@ msgctxt "desc/human/mp/ger/late/gren_rifle_pzf"
 msgid "Grenadier"
 msgstr ""
 
-msgctxt "desc/human/mp/ger/late/gren_sl_asst"
-msgid "Grenadier Asst. Leader"
-msgstr ""
-
-msgctxt "desc/human/mp/ger/late/gren_sl_asst_smg"
-msgid "Grenadier Asst. Leader"
-msgstr ""
-
-msgctxt "desc/human/mp/ger/late/gren_sl_asst_sniper"
-msgid "Grenadier Asst. Leader"
-msgstr ""
-
 msgctxt "desc/human/mp/ger/late/landes_rifle"
 msgid "Landesschütze"
 msgstr ""
@@ -3077,10 +3045,6 @@ msgstr ""
 
 msgctxt "desc/human/mp/ger/late/lehr_pzgren_sturm_stg_pzf2"
 msgid "Pz-Lehr Pz.Sturmgrenadier"
-msgstr ""
-
-msgctxt "desc/human/mp/ger/late/lw_fus_sl_asst"
-msgid "LW Füsilier Asst. Leader"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/lw_jag_mg"

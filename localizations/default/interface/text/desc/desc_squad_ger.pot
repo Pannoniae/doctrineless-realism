@@ -408,66 +408,6 @@ msgctxt "desc/squad/squad_volkssturm(ger)"
 msgid "Volkssturm"
 msgstr ""
 
-msgctxt "desc/squad/squad_volkssturm_con(ger)"
-msgid "Volkssturm Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_grenadier_con(ger)"
-msgid "Grenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_sturmgren_con(ger)"
-msgid "Sturmgrenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_sturmgren_heavy_con(ger)"
-msgid "Heavy Sturmgrenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_volksg_con(ger)"
-msgid "Volksgrenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_volksg_sturm_con(ger)"
-msgid "Sturm Volksgrenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_volksg_heavy_con(ger)"
-msgid "Heavy Volksgrenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_pzgren_motor_con"
-msgid "Motorized Panzergrenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_pzgren_armor_con"
-msgid "Armored Panzergrenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_sturm_pzgren_armor_con"
-msgid "Armored Pz.Sturmgrenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_sturmjager_con(ger)"
-msgid "Sturmjäger Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_sturm_begleitgren_motor_con"
-msgid "Motorized Sturm Begleitgrenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_pzg_gd_armor_con"
-msgid "Armored Großdeutschland Pz.grenadier Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_gebirgsjaeger_late_con(ger)"
-msgid "Gebirgsjäger 44 Squad"
-msgstr ""
-
-msgctxt "desc/squad/squad_fallschirmjaeger_late_con(ger)"
-msgid "Fallschirmjäger 44 Squad"
-msgstr ""
-
 msgctxt "desc/squad/single_rifle(ger)"
 msgid "K98 Rifleman"
 msgstr ""

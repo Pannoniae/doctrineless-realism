@@ -242,9 +242,9 @@
 	{text_style "f(arial_narrow)s(15)p(0)c(255 255 255)"} ;temp size fix prev use s(%fs)
 }
 {tip
-	{text_style "f(arial_hq)s(8)e(shadow)s(15)c(255 255 255)"}
-	{text_style_link "f(arial_hq)s(8)e(shadow)s(15)c(219 165 79)"}
-	{text_style_link_selected "f(arial_hq)s(8)e(shadow)s(15)c(255 255 255)"}
+	{text_style "f(arial_hq)s(15)e(shadow)c(255 255 255)"}
+	{text_style_link "f(arial_hq)s(15)e(shadow)c(219 165 79)"}
+	{text_style_link_selected "f(arial_hq)s(15)e(shadow)c(255 255 255)"}
 }
 {scenario
 	{text_style "s(10)c(200 200 200)"}

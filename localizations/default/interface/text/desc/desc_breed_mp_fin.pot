@@ -385,34 +385,6 @@ msgctxt "desc/human/mp/fin/late/border_jag_smg_stick"
 msgid "Rajajääkäri"
 msgstr ""
 
-msgctxt "desc/human/mp/fin/late/cav_mg"
-msgid "Ratsuväki MG Operator"
-msgstr ""
-
-msgctxt "desc/human/mp/fin/late/cav_mg_asst"
-msgid "Ratsuväki MG Asst."
-msgstr ""
-
-msgctxt "desc/human/mp/fin/late/cav_rifle"
-msgid "Ratsuväki"
-msgstr ""
-
-msgctxt "desc/human/mp/fin/late/cav_sa"
-msgid "Ratsuväki"
-msgstr ""
-
-msgctxt "desc/human/mp/fin/late/cav_sl"
-msgid "Ratsuväki Squadleader"
-msgstr ""
-
-msgctxt "desc/human/mp/fin/late/cav_smg"
-msgid "Ratsuväki"
-msgstr ""
-
-msgctxt "desc/human/mp/fin/late/cav_smg_stick"
-msgid "Ratsuväki"
-msgstr ""
-
 msgctxt "desc/human/mp/fin/late/engineer_builder"
 msgid "Pioneeri Engineer"
 msgstr ""

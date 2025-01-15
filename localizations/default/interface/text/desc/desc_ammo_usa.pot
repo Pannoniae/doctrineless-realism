@@ -320,10 +320,6 @@ msgctxt "desc/ammo/bulletusa_203 he"
 msgid "8-inch HE, Shell M106 [<c(ff1200)>HE</c>] <c(65696d)>L23</c>"
 msgstr ""
 
-msgctxt "desc/ammo/bulletusa_203 he"
-msgid "240mm HE, Shell M114 [<c(ff1200)>HE</c>] <c(65696d)>L23</c>"
-msgstr ""
-
 msgctxt "desc/ammo/hdm_mag"
 msgid ".22 LR HDM Rounds"
 msgstr ""

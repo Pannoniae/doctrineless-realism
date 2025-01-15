@@ -40,11 +40,6 @@ msgctxt "desc/squad/conquest_p47_recon"
 msgid "P47 Recon"
 msgstr ""
 
-msgctxt "desc/squad/squad_101st_con(usa)"
-msgid "101st Airborne Squad"
-msgstr ""
-
-
 msgctxt "desc/squad/squad_mp_mid_all(usa)"
 msgid "Military Police Squad"
 msgstr ""

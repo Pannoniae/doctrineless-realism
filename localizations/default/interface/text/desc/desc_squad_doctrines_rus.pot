@@ -633,10 +633,6 @@ msgctxt "desc/squad/doctrine_t60_late"
 msgid "<c(B29557)>( I )</c> T-60"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_t70_mid"
-msgid "<c(B29557)>( I )</c> T-70"
-msgstr "<c(B29557)>( I )</c> T-70"
-
 msgctxt "desc/squad/doctrine_t70m"
 msgid "<c(B29557)>( I )</c> T-70M + Inf."
 msgstr ""

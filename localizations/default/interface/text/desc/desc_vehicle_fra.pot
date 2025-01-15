@@ -142,14 +142,6 @@ msgctxt "desc/entity/hotchkiss_mle1914"
 msgid "Hotchkiss"
 msgstr ""
 
-msgctxt "desc/entity/ft17"
-msgid "FT 17"
-msgstr ""
-
-msgctxt "desc/entity/ft17m31"
-msgid "FT 17 mgun"
-msgstr ""
-
 msgctxt "desc/entity/s35"
 msgid "Somua S-35"
 msgstr ""

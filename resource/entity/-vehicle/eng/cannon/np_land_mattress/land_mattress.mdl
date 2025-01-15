@@ -206,7 +206,7 @@
 				}
 				{bone revolute "gun"
 					{parameters "ID=gun;"}
-					{limits -17 30}
+					{limits -17 35}
 					{speed 0.01}
 					{Matrix34
 						0.766045	0	0.642787

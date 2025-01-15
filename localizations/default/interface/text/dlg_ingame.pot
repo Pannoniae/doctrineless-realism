@@ -46,10 +46,6 @@ msgctxt "actionbar/engine_toggle"
 msgid "Toggle Engine on/off"
 msgstr ""
 
-msgctxt "actionbar/sandbag_vehicle"
-msgid "Vehicle sandbags"
-msgstr ""
-
 msgctxt "actionbar/mp_available_points"
 msgid "MP Points"
 msgstr ""
@@ -60,10 +56,6 @@ msgstr ""
 
 msgctxt "actionbar/sandbag_vehicle"
 msgid "Build emplacement for vehicle"
-msgstr ""
-
-msgctxt "actionbar/engine_toggle"
-msgid "Start/Turn off vehicle engine"
 msgstr ""
 
 msgctxt "actionbar/sp_available_points"
@@ -120,10 +112,6 @@ msgstr ""
 
 msgctxt "actionbar/attack_ground"
 msgid "Attack ground"
-msgstr ""
-
-msgctxt "actionbar/engine_toggle"
-msgid "Turn engine on/off"
 msgstr ""
 
 msgctxt "actionbar/examine"
@@ -235,19 +223,19 @@ msgid "Click item or unit whose inventory you want to examine."
 msgstr ""
 
 msgctxt "crewbar/charger"
-msgid "<f(roboto_mono)>Charger"
+msgid "<f(arial_narrow)>Charger"
 msgstr ""
 
 msgctxt "crewbar/charger2"
-msgid "<f(roboto_mono)>Charger"
+msgid "<f(arial_narrow)>Charger"
 msgstr ""
 
 msgctxt "crewbar/charger3"
-msgid "<f(roboto_mono)>Charger"
+msgid "<f(arial_narrow)>Charger"
 msgstr ""
 
 msgctxt "crewbar/charger4"
-msgid "<f(roboto_mono)>Charger"
+msgid "<f(arial_narrow)>Charger"
 msgstr ""
 
 msgctxt "actionbar/collect/action"
@@ -343,7 +331,7 @@ msgid ""
 msgstr ""
 
 msgctxt "crewbar/seat9"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "actionbar/free_fire"
@@ -431,7 +419,7 @@ msgid "<e(shadow)s(8)c(b3ecec)>%.1fm"
 msgstr ""
 
 msgctxt "crewbar/seat6"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "actionbar/weapon_reload/on/action"
@@ -439,7 +427,7 @@ msgid "Reload weapon"
 msgstr ""
 
 msgctxt "crewbar/commander"
-msgid "<f(roboto_mono)>Commander"
+msgid "<f(arial_narrow)>Commander"
 msgstr ""
 
 msgctxt "actionbar/minimap_fade_out"
@@ -673,23 +661,23 @@ msgid "Armor"
 msgstr ""
 
 msgctxt "crewbar/gunner2"
-msgid "<f(roboto_mono)>Gunner"
+msgid "<f(arial_narrow)>Gunner"
 msgstr ""
 
 msgctxt "crewbar/gunner3"
-msgid "<f(roboto_mono)>Gunner"
+msgid "<f(arial_narrow)>Gunner"
 msgstr ""
 
 msgctxt "crewbar/gunner4"
-msgid "<f(roboto_mono)>Gunner"
+msgid "<f(arial_narrow)>Gunner"
 msgstr ""
 
 msgctxt "crewbar/gunner5"
-msgid "<f(roboto_mono)>Gunner"
+msgid "<f(arial_narrow)>Gunner"
 msgstr ""
 
 msgctxt "crewbar/gunner6"
-msgid "<f(roboto_mono)>Gunner"
+msgid "<f(arial_narrow)>Gunner"
 msgstr ""
 
 msgctxt "actionbar/squad/dismiss"
@@ -851,7 +839,7 @@ msgid "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)>Enemy team is leading!"
 msgstr ""
 
 msgctxt "crewbar/seat4"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "actionbar/altitude/surface_warning/action"
@@ -1271,27 +1259,27 @@ msgid "Use squad icons"
 msgstr ""
 
 msgctxt "crewbar/driver1"
-msgid "<f(roboto_mono)>Crew"
+msgid "<f(arial_narrow)>Crew"
 msgstr ""
 
 msgctxt "crewbar/driver2"
-msgid "<f(roboto_mono)>Crew"
+msgid "<f(arial_narrow)>Crew"
 msgstr ""
 
 msgctxt "crewbar/driver3"
-msgid "<f(roboto_mono)>Crew"
+msgid "<f(arial_narrow)>Crew"
 msgstr ""
 
 msgctxt "crewbar/driver4"
-msgid "<f(roboto_mono)>Crew"
+msgid "<f(arial_narrow)>Crew"
 msgstr ""
 
 msgctxt "crewbar/driver5"
-msgid "<f(roboto_mono)>Crew"
+msgid "<f(arial_narrow)>Crew"
 msgstr ""
 
 msgctxt "crewbar/driver6"
-msgid "<f(roboto_mono)>Crew"
+msgid "<f(arial_narrow)>Crew"
 msgstr ""
 
 msgctxt "actionbar/map_control/show_hit_cursor"
@@ -1331,7 +1319,7 @@ msgid "Zoom out"
 msgstr ""
 
 msgctxt "hints/friendly_leading"
-msgid "<f(roboto_mono)s(18)c(FFFFFF)e(shadow)>Your team is leading!"
+msgid "<f(arial_narrow)s(15)c(FFFFFF)e(shadow)>Your team is leading!"
 msgstr ""
 
 msgctxt "actionbar/minimap_zoom_out/usage"
@@ -1507,7 +1495,7 @@ msgid ""
 msgstr ""
 
 msgctxt "hints/vehicle_not_working"
-msgid "<f(roboto_mono)s(16)c(FFFFFF)e(shadow)>Vehicle is immobile. Turn the engine on, repair or refuel the vehicle!"
+msgid "<f(arial_narrow)s(15)c(FFFFFF)e(shadow)>Vehicle is immobile. Turn the engine on, repair or refuel the vehicle!"
 msgstr ""
 
 msgctxt "actionbar/move/usage"
@@ -1808,11 +1796,11 @@ msgid "Close the top hatch to prevent units to mount an exposed secondary weapon
 msgstr ""
 
 msgctxt "crewbar/driver"
-msgid "<f(roboto_mono)>Driver"
+msgid "<f(arial_narrow)>Driver"
 msgstr ""
 
 msgctxt "crewbar/seat5"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "equipmentbar/title"
@@ -1820,11 +1808,11 @@ msgid "<x.f(bookman_hq)s(8)><e(shadow)>%s"
 msgstr ""
 
 msgctxt "crewbar/gunner"
-msgid "<f(roboto_mono)>Gunner"
+msgid "<f(arial_narrow)>Gunner"
 msgstr ""
 
 msgctxt "crewbar/seat0"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "stats/damage/bullet"
@@ -1832,11 +1820,11 @@ msgid "shot"
 msgstr ""
 
 msgctxt "crewbar/seat1"
-msgid "<f(roboto_mono)>Passenger"
+msgid "<f(arial_narrow)>Passenger"
 msgstr ""
 
 msgctxt "crewbar/seat2"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "tips/menu/next"
@@ -1844,15 +1832,15 @@ msgid "Next"
 msgstr ""
 
 msgctxt "crewbar/seat3"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "crewbar/seat7"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "crewbar/seat8"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "vehiclebar/stunned"
@@ -1892,11 +1880,11 @@ msgid "Prev"
 msgstr ""
 
 msgctxt "humanbar/health"
-msgid "<f(roboto_mono)s(11)x.e(shadow)>%1%"
+msgid "<f(arial_hq)s(8)x.e(shadow)>%1%"
 msgstr ""
 
 msgctxt "humanbar/stamina"
-msgid "<f(roboto_mono)s(11)x.e(shadow)>%1%"
+msgid "<f(arial_hq)s(8)x.e(shadow)>%1%"
 msgstr ""
 
 msgctxt "stats/color/enemy"
@@ -1956,7 +1944,7 @@ msgid "Stealth"
 msgstr ""
 
 msgctxt "squad_view/squad_member"
-msgid "<f(roboto_mono)s(12)e(shadow)c(%1%)>%2%: %3%"
+msgid "<f(arial_hq)s(8)e(shadow)c(%1%)>%2%: %3%"
 msgstr ""
 
 msgctxt "vehiclebar/terrain/shallow_water"
@@ -2097,19 +2085,19 @@ msgid "<f(arial_hq)c(FFFFFF)s(8)>Flag lost"
 msgstr ""
 
 msgctxt "hints/friendly_winning"
-msgid "<f(roboto_mono)s(18)c(FFFFFF)e(shadow)>Your team is winning!"
+msgid "<f(arial_narrow)s(15)c(FFFFFF)e(shadow)>Your team is winning!"
 msgstr ""
 
 msgctxt "hints/vehicle_repaired"
-msgid "<f(roboto_mono)s(16)c(FFFFFF)e(shadow)>Vehicle repaired!"
+msgid "<f(arial_narrow)s(15)c(FFFFFF)e(shadow)>Vehicle repaired!"
 msgstr ""
 
 msgctxt "hints/friendly_fire"
-msgid "<f(roboto_mono)s(16)c(FFFFFF)e(shadow)>FRIENDLY FIRE!"
+msgid "<f(arial_narrow)s(15)c(FFFFFF)e(shadow)>FRIENDLY FIRE!"
 msgstr ""
 
 msgctxt "hints/weapon_not_working"
-msgid "<f(roboto_mono)s(16)c(FFFFFF)e(shadow)>The vehicle is damaged and unable to shoot, it needs to be repaired!"
+msgid "<f(arial_narrow)s(15)c(FFFFFF)e(shadow)>The vehicle is damaged and unable to shoot, it needs to be repaired!"
 msgstr ""
 
 msgctxt "entity_info/desc/helicopter"
@@ -2269,7 +2257,7 @@ msgid "<f(arial_hq)s(8)>%1% <c(ffffff)>%2% %3% <c(9fd186)>%4% "
 msgstr ""
 
 msgctxt "stats/kills_count"
-msgid "<f(roboto_con)s(18)b+c(dddddd)e(shadow)x.y(-4)>%1%"
+msgid "<f(arial_narrow)s(15)b+c(dddddd)e(shadow)x.y(-4)>%1%"
 msgstr ""
 
 msgctxt "stats/flags_count"
@@ -2325,31 +2313,31 @@ msgid "+%.0f bmpm"
 msgstr ""
 
 msgctxt "humanbar/resources_hint"
-msgid "<f(arial_narrow)s(15)c(dea968)e(shadow)>Building Material<f(anka)c(eeeeee)s(12)y(+5)>\nUsed to construct engineer emplacements.\n<y(+5)>Can be renewed by supply trucks\n\nBuilding material left: (%1%/%2%)"
+msgid "<f(arial_narrow)s(15)c(dea968)e(shadow)>Building Material<f(arial_hq)c(eeeeee)s(8)y(+5)>\nUsed to construct engineer emplacements.\n<y(+5)>Can be renewed by supply trucks\n\nBuilding material left: (%1%/%2%)"
 msgstr ""
 
 msgctxt "crewbar/gunner1"
-msgid "<f(roboto_mono)>Gunner"
+msgid "<f(arial_narrow)>Gunner"
 msgstr ""
 
 msgctxt "crewbar/seat10"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "crewbar/seat11"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "crewbar/seat12"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "crewbar/seat13"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "crewbar/seat14"
-msgid "<f(roboto_mono)>Passengers"
+msgid "<f(arial_narrow)>Passengers"
 msgstr ""
 
 msgctxt "actionbar/browse_emplacement"

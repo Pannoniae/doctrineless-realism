@@ -121,8 +121,8 @@
 	{extender "inventory"
 		{box
 			{item "dynamite"}
-			{item "bullet57_eng apcbc" 37}
-			{item "bullet57_eng he" 28}
+			{item "bullet_57x441 eng apcbc" 37}
+			{item "bullet_57x441 eng he" 28}
 			{item "ammo 7x57b" 2475}
 		}
 	}
@@ -130,7 +130,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "57mm_oqf" filling "bullet57_eng apcbc" 1}
+			{weapon "57mm_qf6_mk3" filling "bullet_57x441 eng apcbc" 1}
 			("abm_dymamic_stabilised"
 				zeroing(3.0)
 				dispersion(0.20)

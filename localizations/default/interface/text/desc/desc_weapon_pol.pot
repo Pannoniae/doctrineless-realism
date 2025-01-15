@@ -36,10 +36,6 @@ msgctxt "desc/weapon/pwuwz33"
 msgid "PWU wz. 33 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
 msgstr ""
 
-msgctxt "desc/weapon/vickers_k_mg"
-msgid "Vickers K (VGO) | <c(FFC923)>Cartridge :.303 British</c>"
-msgstr ""
-
 msgctxt "desc/weapon/wz08_15"
 msgid "wz. 15/08 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
 msgstr ""

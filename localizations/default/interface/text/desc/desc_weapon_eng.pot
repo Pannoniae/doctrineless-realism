@@ -48,6 +48,10 @@ msgctxt "desc/weapon/76mm_qf17_mk4"
 msgid "76mm Ordnance QF 17-pounder Mk.IV L/55"
 msgstr ""
 
+msgctxt "desc/weapon/76mm_qf17_mk4_vet"
+msgid "76mm Ordnance QF 17-pounder Mk.IV L/55 [Veteran]"
+msgstr ""
+
 msgctxt "desc/weapon/besa"
 msgid "BESA"
 msgstr ""

@@ -214,10 +214,6 @@ msgctxt "desc/human/mp/ger/late/waffen_pzgren_sl_asst"
 msgid "SS-Panzergrenadier Asst."
 msgstr ""
 
-msgctxt "desc/human/mp/ger/late/waffen_pz_recon_sl_asst_stg"
-msgid "SS-Panzergrenadier Asst."
-msgstr ""
-
 msgctxt "desc/human/mp/ger/late/waffen_pzgren_stg"
 msgid "SS-Panzergrenadier"
 msgstr ""

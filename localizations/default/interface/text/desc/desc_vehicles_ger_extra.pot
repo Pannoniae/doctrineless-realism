@@ -12,14 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgctxt "desc/entity/sdkfz251c_9"
-msgid "Sd.Kfz 251/9 Ausf. C"
-msgstr ""
-
-msgctxt "info/special/sdkfz251c_9"
-msgid "<c(c3baae)>Self-Propelled Assault Gun</c>"
-msgstr ""
-
 msgctxt "desc/entity/sdkfz251d_2"
 msgid "Sd.Kfz 251/2"
 msgstr ""
@@ -68,14 +60,6 @@ msgctxt "info/special/stug3a"
 msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
-msgctxt "desc/entity/stug4g"
-msgid "StuG IV Ausf.G"
-msgstr ""
-
-msgctxt "info/special/stug4g"
-msgid "<c(c3baae)>Assault Gun</c>"
-msgstr ""
-
 msgctxt "desc/entity/tiger_p"
 msgid "Pz.BefWg. Tiger(P)"
 msgstr ""
@@ -104,14 +88,6 @@ msgctxt "info/special/76mm_pak36r"
 msgid "<c(c3baae)>Anti-Tank Gun</c>"
 msgstr ""
 
-msgctxt "desc/entity/128mm_pak44"
-msgid "12,8 cm Pak.44"
-msgstr ""
-
-msgctxt "info/special/128mm_pak44"
-msgid "<c(c3baae)>Heavy Anti-Tank Gun</c>"
-msgstr ""
-
 msgctxt "desc/entity/marder139"
 msgid "7,62 cm Pak.36(r) auf Fgst. Pz.Kpfw.38(t)"
 msgstr ""
@@ -122,10 +98,6 @@ msgstr ""
 
 msgctxt "desc/entity/sdkfz7_1_early"
 msgid "Sd.Kfz 7/1"
-msgstr ""
-
-msgctxt "desc/entity/sdkfz251c_10"
-msgid "Sd.Kfz 251/10"
 msgstr ""
 
 msgctxt "desc/entity/105mm_lfh16"
@@ -154,10 +126,6 @@ msgstr ""
 
 msgctxt "desc/entity/sdkfz251_stenga"
 msgid "Stenga zu Fuss"
-msgstr ""
-
-msgctxt "info/special/sdkfz4"
-msgid "<c(c3baae)>Rocket Artillery</c>"
 msgstr ""
 
 msgctxt "desc/entity/marder3h"
@@ -201,5 +169,5 @@ msgid "Pz.Kpfw Panther Ausf.G (steel rims)"
 msgstr ""
 
 msgctxt "desc/entity/panzer3l_pak38"
-msgid "Pz.Kpfw III Ausf.L 50mm Pak 38"
+msgid "Pz.Kpfw III Ausf.L mit 50mm Pak 38"
 msgstr ""

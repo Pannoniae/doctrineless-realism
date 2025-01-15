@@ -65,10 +65,6 @@ msgctxt "mp/search_replay/title"
 msgid "<f(impact)s(28)c(255 255 255)>Search Replays"
 msgstr ""
 
-msgctxt "mp/presets/browser/tags/all"
-msgid "Standard"
-msgstr ""
-
 msgctxt "mp/msg_starting"
 msgid "Starting multiplayer..."
 msgstr ""
@@ -173,6 +169,10 @@ msgctxt "mp/army/generic"
 msgid "Miscellaneous"
 msgstr ""
 
+msgctxt "mp/army/tutorial"
+msgid "TUTORIALS"
+msgstr ""
+
 msgctxt "mp/army/germany"
 msgid "Germany"
 msgstr ""
@@ -191,10 +191,6 @@ msgstr ""
 
 msgctxt "mp/msg_processmods"
 msgid "Processing mods..."
-msgstr ""
-
-msgctxt "mp/presets/browser/tags/artillery"
-msgid "Emplacement"
 msgstr ""
 
 msgctxt "mp/msg_searching"
@@ -253,17 +249,9 @@ msgctxt "mp/msg_client_blocked"
 msgid "You were blocked on this host"
 msgstr ""
 
-msgctxt "mp/presets/browser/tags/heavy"
-msgid "Heavy Vehicles"
-msgstr ""
-
 msgctxt "mp/gs/chat/connect_fail"
 msgid ""
 "Chat connection failed. Please check your internet and firewall settings."
-msgstr ""
-
-msgctxt "mp/presets/browser/tags/mechanized"
-msgid "Motorized Infantry"
 msgstr ""
 
 msgctxt "mp/msg_rank_unbalanced"
@@ -272,10 +260,6 @@ msgstr ""
 
 msgctxt "mp/lobby/session/nat"
 msgid "NAT"
-msgstr ""
-
-msgctxt "mp/presets/browser/tags/light"
-msgid "Light Vehicles"
 msgstr ""
 
 msgctxt "mp/lobby/setup/settings.useManualCharge"
@@ -415,10 +399,6 @@ msgctxt "mp/chat2/cta"
 msgid "MAIN LOBBY"
 msgstr ""
 
-msgctxt "mp/presets/browser/tags/sniper"
-msgid "Snipers"
-msgstr ""
-
 msgctxt "mp/presets/spec/all_normal"
 msgid "Normal"
 msgstr ""
@@ -535,10 +515,6 @@ msgctxt "mp/presets/spec/cp_50"
 msgid "50 CP"
 msgstr ""
 
-msgctxt "mp/presets/browser/tags/infantry"
-msgid "Infantry"
-msgstr ""
-
 msgctxt "mp/statistics2/statistics/header/effectiveness"
 msgid "<x.y.>Effectiveness"
 msgstr ""
@@ -619,18 +595,6 @@ msgctxt "mp/presets/browser/title_value"
 msgid "<c(20a601)>Click to browse"
 msgstr ""
 
-msgctxt "mp/presets/browser/tags/combined_arms"
-msgid "Combined Arms"
-msgstr ""
-
-msgctxt "mp/presets/browser/tags/medium"
-msgid "Medium Vehicles"
-msgstr ""
-
-msgctxt "mp/presets/browser/tags/airborne"
-msgid "Airborne"
-msgstr ""
-
 msgctxt "mp/lobby/setup/preset.unitmode"
 msgid "War Stage"
 msgstr ""
@@ -645,10 +609,6 @@ msgstr ""
 
 msgctxt "mp/chat2/chat_others"
 msgid "<c(white)>Users [%1%]"
-msgstr ""
-
-msgctxt "mp/presets/browser/tags/armor"
-msgid "Armor"
 msgstr ""
 
 msgctxt "mp/lobby/army_mode/default"
@@ -693,6 +653,10 @@ msgstr ""
 
 msgctxt "mp/scene/hint_requires/barricade"
 msgid "Requires Engineer"
+msgstr ""
+
+msgctxt "mp/scene/hint_available"
+msgid "Available: %1% / %2%"
 msgstr ""
 
 msgctxt "mp/game/armored_warfare/objective"
@@ -1020,10 +984,6 @@ msgctxt "mp/gs/social/color_blocked"
 msgid "<c(bdbdbd)>"
 msgstr ""
 
-msgctxt "mp/game/text/frontline_preparetime"
-msgid "Preparation time"
-msgstr ""
-
 msgctxt "mp/gs/stats/armies"
 msgid "<y(+9)>Armies"
 msgstr ""
@@ -1060,6 +1020,10 @@ msgctxt "mp/game/text/captureflag_preparetime"
 msgid "Preparation time"
 msgstr ""
 
+msgctxt "mp/game/text/frontline_preparetime"
+msgid "Preparation time"
+msgstr ""
+
 msgctxt "mp/game/text/combat_inactivity_lose_time"
 msgid "Your team has no units left. You will lose in:"
 msgstr ""
@@ -1082,10 +1046,6 @@ msgstr ""
 
 msgctxt "mp/chat2/color_welcome_msg"
 msgid "<c(8ca0ba)>"
-msgstr ""
-
-msgctxt "mp/statistics2/personal/progress_xp_boost"
-msgid "XP Boost"
 msgstr ""
 
 msgctxt "mp/statistics2/personal/progress_xp_boost"
@@ -2055,7 +2015,7 @@ msgid "Reinforcement of %1% units has arrived."
 msgstr ""
 
 msgctxt "mp/lobby/setup/settings.preparationtime"
-msgid "Preparation time"
+msgid "Preparation time  (s)"
 msgstr ""
 
 msgctxt "mp/lobby/button/start"
@@ -3119,7 +3079,7 @@ msgid "<f(arial_hq)s(8)c(d8e2dc)p(0)e(shadow)>+ %1% MP"
 msgstr ""
 
 msgctxt "mp/scene/txt_sp"
-msgid "<f(roboto_mono)c(b7b7a4)><e(shadow)>DP %1% / %2% "
+msgid "<f(roboto_mono)c(b7b7a4)><e(shadow)>doctrineless"
 msgstr ""
 
 msgctxt "mp/scene/txt_ap"
@@ -3252,7 +3212,7 @@ msgctxt "mp/settings/teamb"
 msgid "B Team"
 msgstr ""
 
-msgctxt "mp/chat2/cta_engrainian"
+msgctxt "mp/chat2/cta_ukrainian"
 msgid "УКРАЇНСЬКИЙ"
 msgstr ""
 
@@ -3951,6 +3911,10 @@ msgstr ""
 
 msgctxt "mp/army/usa"
 msgid "USA"
+msgstr ""
+
+msgctxt "mp/army/usa2"
+msgid "USA (Airborne)"
 msgstr ""
 
 msgctxt "mp/alliance/usa"

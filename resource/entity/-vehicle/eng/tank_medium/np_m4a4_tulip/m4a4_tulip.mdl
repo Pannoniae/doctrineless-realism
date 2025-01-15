@@ -156,7 +156,7 @@
 				{bone "gun2"
 					{VolumeView "gun2.ply"}
 					{bone revolute "foresight2"
-						{limits -10 35}
+						{limits -10 42}
 						{speed 0.01}
 						{Matrix34
 							1	0	0

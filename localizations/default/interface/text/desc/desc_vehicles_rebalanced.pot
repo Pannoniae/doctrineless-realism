@@ -14,26 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgctxt "desc/entity/m3a1_halftrack_inf_late"
-msgid "M3A1 Halftrack (Late)"
-msgstr ""
-
-msgctxt "desc/entity/m3a1_halftrack_inf"
-msgid "M3A1 Halftrack (AT)"
-msgstr ""
-
-msgctxt "desc/entity/m3_halftrack_inf_late"
-msgid "M3 Halftrack (Late)"
-msgstr ""
-
-msgctxt "desc/entity/m3_halftrack_inf"
-msgid "M3 Halftrack (AT)"
-msgstr ""
-
-msgctxt "desc/entity/m2_halftrack_at"
-msgid "M2 Halftrack (AT)"
-msgstr ""
-
 msgctxt "desc/entity/t37a_shkas"
 msgid "T-37A (ShKAS)"
 msgstr ""
@@ -66,22 +46,6 @@ msgctxt "info/special/50mm_krh38_su"
 msgid "<c(c3baae)>Light Mortar</c>"
 msgstr ""
 
-msgctxt "desc/entity/37mm_pak36_late"
-msgid "3.7cm Pak 36 (Late)"
-msgstr ""
-
-msgctxt "desc/entity/50mm_pak38_late"
-msgid "5cm Pak 38 (Late)"
-msgstr ""
-
-msgctxt "desc/entity/75mm_pak9738_late"
-msgid "7.5cm Pak 97/38 (Late)"
-msgstr ""
-
-msgctxt "desc/entity/150mm_sig33_late"
-msgid "15cm sIG 33 (Late)"
-msgstr ""
-
 msgctxt "desc/entity/flammpanzer1"
 msgid "Pz.Kpfw I Ausf.A (Flamm)"
 msgstr ""
@@ -112,14 +76,6 @@ msgstr ""
 
 msgctxt "info/special/sdkfz221_spzb"
 msgid "<c(c3baae)>Armored Car</c>"
-msgstr ""
-
-msgctxt "desc/entity/76mm_m1927_late"
-msgid "76mm M1927 (Late)"
-msgstr ""
-
-msgctxt "desc/entity/57mm_zis2_late"
-msgid "57mm ZIS-2 M1941 (Late)"
 msgstr ""
 
 msgctxt "desc/entity/kfz13_early"

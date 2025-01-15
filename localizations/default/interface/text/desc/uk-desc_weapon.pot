@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 msgctxt "desc/weapon/vickers_k_mg"
-msgid "Vickers K (VGO) | <c(FFC923)>Cartridge :.303 British</c>"}
+msgid "Vickers K (VGO)"}
 msgstr ""
 
 msgctxt "desc/weapon/20mm_oerlikon"
@@ -136,10 +136,6 @@ msgctxt "desc/weapon/em4_mark1"
 msgid "Rifle grenade No.4"
 msgstr ""
 
-msgctxt "desc/weapon/lewis_gun"
-msgid "Lewis Gun | <c(FFC923)>Cartridge :.303 British</c>"
-msgstr ""
-
 msgctxt "desc/weapon/piat"
 msgid "P.I.A.T. Mk.I"
 msgstr ""
@@ -184,28 +180,8 @@ msgctxt "desc/weapon/76mm_qf3"
 msgid "QF 3 inch"
 msgstr ""
 
-msgctxt "desc/weapon/77mm_hv"
-msgid "77mm HV"
-msgstr ""
-
-msgctxt "desc/weapon/94mm_oqf"
-msgid "94mm OQF"
-msgstr ""
-
-msgctxt "desc/weapon/94mm_vickers"
-msgid "94mm 32pdr"
-msgstr ""
-
-msgctxt "desc/weapon/95mm_oqf"
-msgid "95mm OQF"
-msgstr ""
-
 msgctxt "desc/weapon/183mm_gun"
 msgid "183mm"
-msgstr ""
-
-msgctxt "desc/weapon/290mm_mortar"
-msgid "290mm Spigot mortar"
 msgstr ""
 
 msgctxt "desc/weapon/tulip"
@@ -218,14 +194,6 @@ msgstr ""
 
 msgctxt "desc/weapon/lm"
 msgid "76mm RP-3 rockets"
-msgstr ""
-
-msgctxt "desc/weapon/76mm_mk2"
-msgid "3-inch Mk II"
-msgstr ""
-
-msgctxt "desc/weapon/107mm_mk2"
-msgid "107mm Mk II"
 msgstr ""
 
 msgctxt "desc/weapon/bomb_dropper_x6"
@@ -246,12 +214,4 @@ msgstr ""
 
 msgctxt "desc/weapon/em4_s"
 msgid "Lee-Enfield No. 4 sniper | <c(FFC923)>Cartridge :.303 British</c>"
-msgstr ""
-
-msgctxt "desc/weapon/besa_mg" 
-msgid "Besa | <c(FFC923)>Cartridge :7.92×57mm</c>"
-msgstr ""
-
-msgctxt "desc/weapon/besa_tmg" 
-msgid "Besa | <c(FFC923)>Cartridge :7.92×57mm</c>"
 msgstr ""

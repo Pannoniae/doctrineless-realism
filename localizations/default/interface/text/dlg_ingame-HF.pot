@@ -85,19 +85,6 @@ msgctxt "component/ammo_overheated"
 msgid "<c(cc1900)>Ammunition Overheated"
 msgstr ""
 
-
-msgctxt "actionbar/mortar_pit"
-msgid "Dig mortar position"
-msgstr ""
-
-msgctxt "actionbar/mortar_pit/action"
-msgid "Dig mortar position"
-msgstr ""
-
-msgctxt "actionbar/mortar_pit/usage"
-msgid "After clicking this button, click and drag on the map to define the position and orientation for digging a mortar position."
-msgstr ""
-
 msgctxt "actionbar/mg_foxhole"
 msgid "Dig MG position"
 msgstr ""
@@ -132,18 +119,6 @@ msgstr ""
 
 msgctxt "actionbar/earth_pillbox/usage"
 msgid "After clicking this button, click and drag on the map to define the position and orientation for building an earth pillbox."
-msgstr ""
-
-msgctxt "actionbar/human/medic_switch"
-msgid "Switch medic mode."
-msgstr ""
-
-msgctxt "actionbar/human/medic_switch/action"
-msgid "Switching the medic mode."
-msgstr ""
-
-msgctxt "actionbar/human/medic_switch/usage"
-msgid "After clicking this button, medic will automatically revive nearest troops. Second click on the button will disable this option."
 msgstr ""
 
 msgctxt "component/medic_mode_on"

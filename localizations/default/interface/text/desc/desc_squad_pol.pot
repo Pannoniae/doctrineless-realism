@@ -128,10 +128,6 @@ msgctxt "desc/squad/single_riflegrenade_late(pol)"
 msgid "Rilfe-Grenade Infantry"
 msgstr ""
 
-msgctxt "desc/squad/single_mortar_late(pol)"
-msgid "Mortar"
-msgstr ""
-
 msgctxt "desc/squad/conquest_b25_pol"
 msgid "B-25 Mitchell"
 msgstr ""

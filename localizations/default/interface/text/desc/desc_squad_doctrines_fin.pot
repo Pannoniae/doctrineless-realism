@@ -469,14 +469,6 @@ msgctxt "desc/squad/doctrine_squad_command_late(fin)"
 msgid "<c(B29557)>( I )</c> Command Squad"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_blenheim_small_mid"
-msgid "<c(B29557)>( II )</c> Blenheim Mk.1 50kg Bomb"
-msgstr ""
-
-msgctxt "desc/squad/doctrine_blenheim_small_late"
-msgid "<c(B29557)>( II )</c> Blenheim Mk.1 50kg Bomb"
-msgstr ""
-
 msgctxt "desc/squad/doctrine_50mm_pstk38_late"
 msgid "<c(B29557)>( I )</c> 50 PstK/38"
 msgstr "<c(B29557)>( I )</c> 50 PstK/38"

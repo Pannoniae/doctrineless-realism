@@ -20,14 +20,6 @@ msgctxt "info/special/munitionspanzer38t"
 msgid "<c(c3baae)>Armored Ammo Carrier</c>"
 msgstr ""
 
-msgctxt "desc/entity/105mm_lefh18m"
-msgid "10.5cm leFH 18M"
-msgstr ""
-
-msgctxt "info/special/105mm_lefh18m"
-msgid "<c(c3baae)>Light Field Howitzer</c>"
-msgstr ""
-
 msgctxt "desc/entity/tiger1mid"
 msgid "Pz.VI Tiger Ausf.E"
 msgstr ""
@@ -50,14 +42,6 @@ msgstr ""
 
 msgctxt "info/special/flammpanzer38t"
 msgid "<c(c3baae)>Self-Propelled Flamethrower</c>"
-msgstr ""
-
-msgctxt "desc/entity/tiger1e"
-msgid "Pz.VI Tiger Ausf.E (Late)"
-msgstr ""
-
-msgctxt "info/special/tiger1e"
-msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/hummel_early"

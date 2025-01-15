@@ -785,7 +785,7 @@ msgid "Ultra"
 msgstr ""
 
 msgctxt "starting_game"
-msgid "<f(roboto_mono)>Starting game..."
+msgid "<s(15)f(arial_narrow)>Starting game..."
 msgstr ""
 
 msgctxt "options/video/water_reflection"
@@ -893,7 +893,7 @@ msgid "The game will always begin with the most recent profile used. To change t
 msgstr ""
 
 msgctxt "statusbar/style"
-msgid "<f(roboto_mono)s(18)c(FFFFFF)>"
+msgid "<s(15)f(arial_narrow)c(FFFFFF)>"
 msgstr ""
 
 msgctxt "options/video/vertical_sync#desc"
@@ -1142,7 +1142,7 @@ msgid "Order your squad or vehicle to attack the selected target (regardless of 
 msgstr ""
 
 msgctxt "options/workshop/mod_changed_2"
-msgid "<f(roboto_mono)s(15)>Press Apply to apply changes or Reset to cancel them."
+msgid "<s(15)f(arial_narrow)>Press Apply to apply changes or Reset to cancel them."
 msgstr ""
 
 msgctxt "main_menu2/singleplayer/save_load_replay/hint/save"
@@ -1150,7 +1150,7 @@ msgid "Save replay"
 msgstr ""
 
 msgctxt "main_menu/quit_confirm"
-msgid "<f(roboto_mono)>Exit game?"
+msgid "<s(15)f(arial_narrow)>Exit game?"
 msgstr ""
 
 msgctxt "options/video/lens_effects_options#/medium"
@@ -1158,7 +1158,7 @@ msgid "Medium"
 msgstr ""
 
 msgctxt "briefing/place_style"
-msgid "<f(roboto_mono)s(15)c(111111)>"
+msgid "<s(15)f(arial_narrow)c(111111)>"
 msgstr ""
 
 msgctxt "options/video/lens_effects_options#/high"
@@ -1339,7 +1339,7 @@ msgid "NUM 7"
 msgstr ""
 
 msgctxt "options/workshop/mod_changed_1"
-msgid "<f(roboto_mono)s(15)>Some mods were changed."
+msgid "<s(15)f(arial_narrow)>Some mods were changed."
 msgstr ""
 
 msgctxt "main_menu2/singleplayer/select_difficulty"
@@ -2248,7 +2248,7 @@ msgid "Volume of soldiers' and narrator's speech during battle."
 msgstr ""
 
 msgctxt "options/workshop/confirm_unsubscribe"
-msgid "<f(roboto_mono)s(18)>Unsubscribe from selected mod?"
+msgid "<s(15)f(arial_narrow)>Unsubscribe from selected mod?"
 msgstr ""
 
 msgctxt "options/audio/reset_confirm"
@@ -2284,7 +2284,7 @@ msgid "Easy"
 msgstr ""
 
 msgctxt "version_short_string"
-msgid "Call to Arms - Gates of Hell - version %1% - Megamod Moshpit 0.2.0"
+msgid "Call to Arms - Gates of Hell - version %1% - Megamod Moshpit 0.3.1"
 msgstr ""
 
 msgctxt "options/keys/interface/toggle_equipment"
@@ -2842,7 +2842,7 @@ msgid "Press key for '%1%'"
 msgstr ""
 
 msgctxt "user_profile2/nick"
-msgid "<e(shadow)s(15)f(roboto_mono)c(ede8de)>%1%"
+msgid "<e(shadow)s(15)f(arial_narrow)c(ede8de)>%1%"
 msgstr ""
 
 msgctxt "options/keys/already_binded"
@@ -2878,7 +2878,7 @@ msgid "XP"
 msgstr ""
 
 msgctxt "open_dialogs/msg_delete"
-msgid "<f(roboto_mono)c(ffffff)>Delete save game: \"%1%\"?"
+msgid "<s(15)f(arial_narrow)c(ffffff)>Delete save game: \"%1%\"?"
 msgstr ""
 
 msgctxt "options/keys/actions/toggle_hatch#desc"
@@ -3207,10 +3207,6 @@ msgstr ""
 
 msgctxt "options/keys/actions/heal"
 msgid "Heal"
-msgstr ""
-
-msgctxt "main_menu2/library/soldiers/stamina"
-msgid "Stamina#%.f (%.1f)"
 msgstr ""
 
 msgctxt "options/keys/actions/attach#desc"
@@ -3763,7 +3759,7 @@ msgid "M"
 msgstr ""
 
 msgctxt "missions/current_difficulty"
-msgid "<f(roboto_mono)s(15)c(200 200 200)>Difficulty"
+msgid "<s(15)f(arial_narrow)c(200 200 200)>Difficulty"
 msgstr ""
 
 msgctxt "options/keys/keymap/key_rshift"
@@ -4308,7 +4304,7 @@ msgid "<c(25 25 25)>Rank:"
 msgstr ""
 
 msgctxt "user_profile/level"
-msgid "<f(roboto_mono)<c(25 25 25)>level %1%"
+msgid "<f(arial_narrow)<c(25 25 25)>level %1%"
 msgstr ""
 
 msgctxt "user_profile2/score"
@@ -4316,7 +4312,7 @@ msgid "SCORE %1%"
 msgstr ""
 
 msgctxt "user_profile2/level"
-msgid "<f(roboto_mono)c(200 200 200)>Level %1%"
+msgid "<f(arial_narrow)c(200 200 200)>Level %1%"
 msgstr ""
 
 msgctxt "main_menu2/market/filter/all"
@@ -4536,7 +4532,7 @@ msgid "Rate of Fire#%.f RPM"
 msgstr ""
 
 msgctxt "missions/select_difficulty"
-msgid "<f(roboto_mono)s(18)c(0 0 0)>Choose difficulty level"
+msgid "<s(15)f(arial_narrow)c(0 0 0)>Choose difficulty level"
 msgstr ""
 
 msgctxt "replay_game/txt_map"
@@ -4640,7 +4636,7 @@ msgid "Medic"
 msgstr ""
 
 msgctxt "prepare_resources"
-msgid "<c(cec7c3)f(roboto_mono)>Loading..."
+msgid "<c(cec7c3)s(15)f(arial_narrow)>Loading..."
 msgstr ""
 
 msgctxt "main_menu2/library/soldiers/perks/aimedshot"
@@ -5160,7 +5156,7 @@ msgid "private"
 msgstr ""
 
 msgctxt "user_statistics/wait"
-msgid "<f(roboto_mono)s(15)c(eeeeee)>loading..."
+msgid "<s(15)f(arial_narrow)c(eeeeee)>loading..."
 msgstr ""
 
 msgctxt "tutorials/category1"
@@ -5376,7 +5372,7 @@ msgid "Retreat"
 msgstr ""
 
 msgctxt "briefing/text_style"
-msgid "<f(roboto_mono)s(15)c(111111)>"
+msgid "<s(15)f(arial_narrow)c(111111)>"
 msgstr ""
 
 msgctxt "button/surrender"
@@ -5404,7 +5400,7 @@ msgid "Login"
 msgstr ""
 
 msgctxt "missions/fog_of_war"
-msgid "<f(roboto_mono)s(15)>Fog of War"
+msgid "<s(15)f(arial_narrow)>Fog of War"
 msgstr ""
 
 msgctxt "button/single"
@@ -5552,7 +5548,7 @@ msgid "<f(anka)s(15)>Hardcore"
 msgstr ""
 
 msgctxt "missions/mission_options"
-msgid "<f(roboto_mono)s(18)>Mission options"
+msgid "<s(15)f(arial_narrow)>Mission options"
 msgstr ""
 
 msgctxt "briefing/name_style"
@@ -5560,7 +5556,7 @@ msgid "<f(roboto_mono)s(30)c(111111)>"
 msgstr ""
 
 msgctxt "briefing/date_style"
-msgid "<f(roboto_mono)s(15)c(111111)>"
+msgid "<s(15)f(arial_narrow)c(111111)>"
 msgstr ""
 
 msgctxt "entity_info/description/moto"
@@ -5657,11 +5653,11 @@ msgid "Demo version"
 msgstr ""
 
 msgctxt "prepare_mods"
-msgid "<c(cec7c3)f(roboto_mono)>Mounting mod resources from Steam Workshop..."
+msgid "<c(cec7c3)s(15)f(arial_narrow)Mounting mod resources from Steam Workshop..."
 msgstr ""
 
 msgctxt "prepare_multiplayer_resources"
-msgid "<c(cec7c3)f(roboto_mono)>Loading multiplayer resources..."
+msgid "<c(cec7c3)s(15)f(arial_narrow)>Loading multiplayer resources..."
 msgstr ""
 
 msgctxt "difficulty/default"
@@ -5774,10 +5770,6 @@ msgstr ""
 
 msgctxt "main_menu2/dynamic_campaign/choose_name"
 msgid "name"
-msgstr ""
-
-msgctxt "main_menu2/dynamic_campaign/select_army"
-msgid "faction"
 msgstr ""
 
 msgctxt "main_menu2/dynamic_campaign/select_region"

@@ -668,10 +668,6 @@ msgctxt "desc/squad/doctrine_us-cckw353_2xt27_late"
 msgid "2 x T27"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_us-b25_late"
-msgid "B-25 Mitchell"
-msgstr ""
-
 msgctxt "desc/squad/doctrine_us-m3_satan_late"
 msgid "M3A1 Satan"
 msgstr ""
@@ -1782,10 +1778,6 @@ msgstr ""
 
 msgctxt "desc/squad/doctrine_np_churchill_crocodile"
 msgid "<c(B29557)>( III )</c> Churchill Crocodile"
-msgstr ""
-
-msgctxt "desc/squad/doctrine_np_churchill_mk_iv"
-msgid "<c(B29557)>( III )</c> Churchill Mk.IV"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_squad_scout_early(eng)"

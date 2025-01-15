@@ -82,16 +82,16 @@
 
 	{extender "inventory"
 		{box
-			{item "ammo bullet57_eng ap" 35}
-			{item "ammo bullet57_eng he" 5}
-			{item "ammo bullet57_eng apcbc" 15}
+			{item "ammo bullet_57x441 eng ap" 35}
+			{item "ammo bullet_57x441 eng he" 5}
+			{item "ammo bullet_57x441 eng apcbc" 15}
 			{item "sandbag_vehicle" 2}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
-			{weapon "57mm_oqf" filling "ammo bullet57_eng ap" 1}
+			{weapon "57mm_qf6" filling "ammo bullet_57x441 eng ap" 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic_gun"
 				zeroing(5)

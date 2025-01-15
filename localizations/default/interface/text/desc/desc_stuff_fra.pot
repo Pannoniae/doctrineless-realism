@@ -133,7 +133,7 @@ msgctxt "desc/stuff/t3build"
 msgid "Tools for howitzer install"
 msgstr ""
 
-msgctxt "desc/stuff/beret_eng_tank"
+msgctxt "desc/stuff/beret_tank"
 msgid "Beret"
 msgstr ""
 
@@ -141,23 +141,23 @@ msgctxt "desc/stuff/cap1_jap"
 msgid "Cap"
 msgstr ""
 
-msgctxt "desc/stuff/cap_eng_beret_commando"
+msgctxt "desc/stuff/cap_beret_commando"
 msgid "Beret"
 msgstr ""
 
-msgctxt "desc/stuff/cap_eng_fs"
+msgctxt "desc/stuff/cap_fs"
 msgid "Cap"
 msgstr ""
 
-msgctxt "desc/stuff/cap_eng_off"
+msgctxt "desc/stuff/cap_off"
 msgid "Cap"
 msgstr ""
 
-msgctxt "desc/stuff/cap_eng_radiohead"
+msgctxt "desc/stuff/cap_radiohead"
 msgid "Cap"
 msgstr ""
 
-msgctxt "desc/stuff/cap_eng_tamoshanter"
+msgctxt "desc/stuff/cap_tamoshanter"
 msgid "Cap"
 msgstr ""
 
@@ -289,11 +289,11 @@ msgctxt "desc/stuff/cap_pol_beret_commando"
 msgid "Beret"
 msgstr ""
 
-msgctxt "desc/stuff/cap_pol_beret_eng_tank"
+msgctxt "desc/stuff/cap_pol_beret_tank"
 msgid "Beret"
 msgstr ""
 
-msgctxt "desc/stuff/cap_pol_beret_eng_tank_officer"
+msgctxt "desc/stuff/cap_pol_beret_tank_officer"
 msgid "Beret"
 msgstr ""
 
@@ -301,15 +301,15 @@ msgctxt "desc/stuff/cap_pol_beret_skorpion"
 msgid "Beret"
 msgstr ""
 
-msgctxt "desc/stuff/cap_pol_eng_sidecap"
+msgctxt "desc/stuff/cap_pol_sidecap"
 msgid "Sidecap"
 msgstr ""
 
-msgctxt "desc/stuff/cap_pol_eng_sidecap_officer"
+msgctxt "desc/stuff/cap_pol_sidecap_officer"
 msgid "Sidecap"
 msgstr ""
 
-msgctxt "desc/stuff/cap_pol_eng_sidecap_radiohead"
+msgctxt "desc/stuff/cap_pol_sidecap_radiohead"
 msgid "Sidecap"
 msgstr ""
 
@@ -417,31 +417,31 @@ msgctxt "desc/stuff/helmet5_jap"
 msgid "Helmet"
 msgstr ""
 
-msgctxt "desc/stuff/helmet_eng_mkii"
+msgctxt "desc/stuff/helmet_mkii"
 msgid "Helmet"
 msgstr ""
 
-msgctxt "desc/stuff/helmet_eng_mkii_camo"
+msgctxt "desc/stuff/helmet_mkii_camo"
 msgid "Helmet"
 msgstr ""
 
-msgctxt "desc/stuff/helmet_eng_mkii_net"
+msgctxt "desc/stuff/helmet_mkii_net"
 msgid "Helmet"
 msgstr ""
 
-msgctxt "desc/stuff/helmet_eng_para"
+msgctxt "desc/stuff/helmet_para"
 msgid "Helmet"
 msgstr ""
 
-msgctxt "desc/stuff/helmet_eng_para_camo"
+msgctxt "desc/stuff/helmet_para_camo"
 msgid "Helmet"
 msgstr ""
 
-msgctxt "desc/stuff/helmet_eng_para_net"
+msgctxt "desc/stuff/helmet_para_net"
 msgid "Helmet"
 msgstr ""
 
-msgctxt "desc/stuff/helmet_eng_pilot"
+msgctxt "desc/stuff/helmet_pilot"
 msgid "Helmet"
 msgstr ""
 

@@ -884,10 +884,6 @@ msgctxt "desc/ammo/bullet183 he"
 msgid "HE 183mm"
 msgstr ""
 
-msgctxt "desc/ammo/bullet290 he"
-msgid "HE 290mm"
-msgstr ""
-
 msgctxt "desc/ammo/tulip"
 msgid "76mm Tulip rocket"
 msgstr ""
@@ -900,16 +896,8 @@ msgctxt "desc/ammo/eng mortar76 he"
 msgid "3-Inch H.E. Mortar shell"
 msgstr ""
 
-msgctxt "desc/ammo/eng mortar76 sm"
-msgid "3-Inch Smoke Mortar shell"
-msgstr ""
-
 msgctxt "desc/ammo/eng mortar107 he"
 msgid "4,2-Inch H.E. Mortar Bomb FG"
-msgstr ""
-
-msgctxt "desc/ammo/eng mortar107 sm"
-msgid "4,2-Inch Smoke Mortar Bomb SM"
 msgstr ""
 
 msgctxt "desc/ammo/brixia45 he"

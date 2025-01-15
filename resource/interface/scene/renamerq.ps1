@@ -4,9 +4,10 @@
 $scriptPath = $MyInvocation.MyCommand.Path
 
 # Handle files first
-Get-ChildItem -Path ./unit_icon_small -Recurse -File | 
-    Where-Object { $_.Name -like "*((eng))*" } | 
+Get-ChildItem -Path ./portrait_squad -Recurse -File | 
+    Where-Object { $_.Name -like "*(uk)*" } | 
     ForEach-Object {
-        $newName = $_.Name -replace '\(\(eng\)\)', '\(eng\)'
+        $newName = $_.Name -replace '\(uk\)', '(eng)'
+		#echo $newName
         Rename-Item -Path $_.FullName -NewName $newName
     }

@@ -83,8 +83,8 @@
 	{"np_land_mattress"			requires	"np_bl45"									costs 3 position (+ 7 %column) (+ 19 %row) }
 
 	;---->
-	{"np_inf_crate"				requires	""										costs 0 position (+ 0 %column) (+ 22 %row) }
-	{"np_morris_cs8"			requires	"np_inf_crate"							costs 1 position (+ 2 %column) (+ 22 %row) }
+	{"inf_crate_eng"			requires	""										costs 0 position (+ 0 %column) (+ 22 %row) }
+	{"np_morris_cs8"			requires	"inf_crate_eng"							costs 1 position (+ 2 %column) (+ 22 %row) }
 	{"np_matador_fuel"			requires	"np_morris_cs8"							costs 1 position (+ 4 %column) (+ 22 %row) }
 	{"np_matador_tr"			requires	"np_morris_cs8"							costs 1 position (+ 3 %column) (+ 21 %row) }
 	{"np_matador_art"			requires	"np_morris_cs8"							costs 2 position (+ 3 %column) (+ 23 %row) }

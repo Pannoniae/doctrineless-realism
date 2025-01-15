@@ -80,10 +80,6 @@ msgid ""
 "victory!"
 msgstr ""
 
-msgctxt "mp/gs/stats/ri_top_frontline"
-msgid "Frontline"
-msgstr ""
-
 msgctxt "mp/settings/team_defenders"
 msgid "Defenders"
 msgstr ""

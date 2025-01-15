@@ -748,14 +748,6 @@ msgctxt "info/special/ostwind"
 msgid "<c(c3baae)>Medium AA</c>"
 msgstr ""
 
-msgctxt "desc/entity/kugelblitz"
-msgid "Flakpanzer IV 'Kugelblitz'"
-msgstr ""
-
-msgctxt "info/special/kugelblitz"
-msgid "<c(c3baae)>Medium Tank</c>"
-msgstr ""
-
 msgctxt "desc/entity/p204_f"
 msgid "Pz.SpW. P204(f)"
 msgstr ""
@@ -1308,14 +1300,6 @@ msgctxt "info/special/sdkfz251c_tarp"
 msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
-msgctxt "desc/entity/sdkfz251d_1"
-msgid "Sd.Kfz 251/1 Ausf.D"
-msgstr ""
-
-msgctxt "info/special/sdkfz251d_1"
-msgid "<c(c3baae)>Medium Halftrack</c>"
-msgstr ""
-
 msgctxt "desc/entity/sdkfz251c_10"
 msgid "Sd.Kfz 251/10"
 msgstr ""
@@ -1572,11 +1556,11 @@ msgctxt "info/special/sdkfz251d_1"
 msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
-msgctxt "desc/entity/sdkfz251d_1_stenga"
-msgid "Sd.Kfz 251/1 Ausf.D (Wurfrahmen 40)"
+msgctxt "desc/entity/sdkfz251d_1_stuka"
+msgid "Sd.Kfz 251/1 Ausf. D (Wurfrahmen 40)"
 msgstr ""
 
-msgctxt "info/special/sdkfz251d_1_stenga"
+msgctxt "info/special/sdkfz251d_1_stuka"
 msgid "<c(c3baae)>Rocket Halftrack</c>"
 msgstr ""
 
@@ -1659,14 +1643,6 @@ msgstr ""
 
 msgctxt "info/special/tiger1p"
 msgid "<c(c3baae)>Heavy Tank</c>"
-msgstr ""
-
-msgctxt "desc/entity/dicker_max"
-msgid "Dicker Max"
-msgstr ""
-
-msgctxt "info/special/dicker_max"
-msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
 msgctxt "desc/entity/sturer_emil"

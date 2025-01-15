@@ -33,7 +33,7 @@
 
 	{parameters "apds"	;// custom accuracy for 17pdr APDS as it had big issues With accuracy due to sabot seperation and yawing
 		{spreading
-			{radiusTable {0 0} {50 1.25} {100 1.75} {140 2.75} {229.99 4.75} {260 10}}
+			{radiusTable {0 0} {50 0.75} {100 1.25} {140 1.75} {229.99 3.25} {260 10}}
 		}
 	}
 }

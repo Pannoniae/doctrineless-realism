@@ -232,9 +232,6 @@ msgctxt "info/special/gaz_aaa_72k_early"
 msgid "<c(c3baae)>Light AA Truck</c>"
 msgstr ""
 
-msgctxt "desc/entity/t70m"
-msgid "T-70B"
-msgstr ""
 
 msgctxt "desc/entity/sdkfz301b"
 msgid "Borgward B IV Ausf.B"
@@ -316,25 +313,6 @@ msgctxt "info/special/76mm_m1902_e"
 msgid "<c(c3baae)>Light Field Gun</c>"
 msgstr ""
 
-msgctxt "desc/entity/kht130"
-msgid "KhT-130"
-msgstr ""
-
-msgctxt "desc/entity/kht130_fin"
-msgid "KhT-130"
-msgstr ""
-
-msgctxt "desc/entity/kht26"
-msgid "KhT-26"
-msgstr ""
-
-msgctxt "info/special/kht130"
-msgid "<c(c3baae)>Light Flamethrower Tank</c>"
-msgstr ""
-
-msgctxt "info/special/kht130_fin"
-msgid "<c(c3baae)>Light Flamethrower Tank</c>"
-msgstr ""
 
 msgctxt "desc/entity/kv1_40_early"
 msgid "KV-1 M1940"
@@ -342,38 +320,6 @@ msgstr ""
 
 msgctxt "info/special/kv1_40_early"
 msgid "<c(c3baae)>Heavy Tank</c>"
-msgstr ""
-
-msgctxt "desc/entity/kv8s"
-msgid "KV-8S" 
-msgstr ""
-
-msgctxt "desc/entity/kv8"
-msgid "KV-8" 
-msgstr ""
-
-msgctxt "info/special/kv8"
-msgid "<c(c3baae)>Heavy Flamethrower Tank</c>"
-msgstr ""
-
-msgctxt "desc/entity/t3476_43_flame"
-msgid "OT-34 M1943"
-msgstr ""
-
-msgctxt "info/special/t3476_43_flame"
-msgid "<c(c3baae)>Medium Flamethrower Tank</c>"
-msgstr ""
-
-msgctxt "info/special/kv8s"
-msgid "<c(c3baae)>Heavy Flamethrower Tank</c>"
-msgstr ""
-
-msgctxt "desc/entity/t3485_43"
-msgid "T-34-85 M1943"
-msgstr ""
-
-msgctxt "info/special/t3485_43"
-msgid "<c(c3baae)>Medium Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/panzer4f1_e"
@@ -432,18 +378,6 @@ msgctxt "info/special/stug4"
 msgid "<c(c3baae)>Assault Gun</c>"
 msgstr ""
 
-msgctxt "desc/entity/76mm_m1933"
-msgid "76mm F-19 M1933"
-msgstr ""
-
-msgctxt "desc/entity/76mm_m1933_late"
-msgid "76mm F-19 M1933"
-msgstr ""
-
-msgctxt "info/special/76mm_m1933_late"
-msgid "<c(c3baae)>Light Field Gun</c>"
-msgstr ""
-
 msgctxt "desc/entity/ford_v3000_eng_e"
 msgid "Ford V3000S (Engineer)"
 msgstr ""
@@ -476,9 +410,7 @@ msgctxt "info/special/bt7_35"
 msgid "<c(c3baae)>Fast Tank</c>"
 msgstr ""
 
-msgctxt "desc/entity/57mm_zis2_late"
-msgid "57mm ZIS-2 M1943"
-msgstr ""
+
 
 msgctxt "desc/entity/152mm_h37"
 msgid "152mm H/37"
@@ -544,33 +476,9 @@ msgctxt "info/special/sdkfz251c_8"
 msgid "<c(c3baae)>Ambulance Halftrack</c>"
 msgstr ""
 
-msgctxt "desc/entity/t3485_44_flame"
-msgid "OT-34-85 M1944"
-msgstr ""
 
-msgctxt "desc/entity/t3485_44a_flame"
-msgid "OT-34-85 M1944"
-msgstr ""
 
-msgctxt "info/special/t3485_44a_flame"
-msgid "<c(c3baae)>Medium Flamethrower Tank</c>"
-msgstr ""
 
-msgctxt "info/special/t3485_44_flame"
-msgid "<c(c3baae)>Medium Flamethrower Tank</c>"
-msgstr ""
-
-msgctxt "desc/entity/m4a3_75w_e4_5"
-msgid "M4A3(75)W 'E4-5'"
-msgstr ""
-
-msgctxt "info/special/m4a3_75w_e4_5"
-msgid "<c(c3baae)>Medium Flamethrower Tank</c>"
-msgstr ""
-
-msgctxt "desc/entity/t26_33_fin"
-msgid "T-26B"
-msgstr ""
 
 msgctxt "desc/entity/t26_33_fin_m"
 msgid "T-26B"
@@ -620,25 +528,6 @@ msgctxt "info/special/t26c_39_m"
 msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
-msgctxt "desc/entity/kv1_40e_fin"
-msgid "KV-1B"
-msgstr ""
-
-msgctxt "desc/entity/kv1_42_fin"
-msgid "KV-1A"
-msgstr ""
-
-msgctxt "desc/entity/isu152_fin"
-msgid "JSU 152"
-msgstr ""
-
-msgctxt "desc/entity/ba6_fin"
-msgid "BAF B"
-msgstr ""
-
-msgctxt "desc/entity/ba10_fin"
-msgid "BAF C"
-msgstr ""
 
 msgctxt "desc/entity/t26c_t130"
 msgid "T-26C (T-130)"
@@ -664,17 +553,7 @@ msgctxt "info/special/kht133_fin"
 msgid "<c(c3baae)>Light Flamethrower Tank</c>"
 msgstr ""
 
-msgctxt "desc/entity/kv1_40e"
-msgid "KV-1 M1940 (Up-Armored)"
-msgstr ""
 
-msgctxt "desc/entity/t28e"
-msgid "T-28 M1938 (Up-Armored)"
-msgstr ""
-
-msgctxt "desc/entity/t3476_41e"
-msgid "T-34 M1941 (Up-Armored)"
-msgstr ""
 
 msgctxt "desc/entity/pe2_205"
 msgid "Pe-2 (Serie 205)"
@@ -700,9 +579,7 @@ msgctxt "info/special/su100_early"
 msgid "<c(c3baae)>Medium Tank Destroyer</c>"
 msgstr ""
 
-msgctxt "desc/entity/50cal_quad_m45"
-msgid "M55 MMGT"
-msgstr ""
+
 
 msgctxt "desc/entity/fai_bab_b"
 msgid "BAB B"

@@ -145,7 +145,7 @@
 													<MaxSize x="650" y="900" />
 													<Insets all="15"/>
 													<Children>
-														<PictureDialog id="minimap_preview" placement="center" zoomMode="fit" centerX="true" centerY="true" opacity="0.6"/>
+														<PictureDialog id="minimap_preview" placement="center" zoomMode="fit" centerX="true" centerY="true"/>
 													</Children>
 												</PercentPanel>
 											</Children>

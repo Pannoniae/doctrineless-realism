@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 
 msgctxt "mp/lobby/doctrine/"
-msgid "<c(ff6a00)><-- Crash the game button</c>"
+msgid "<c(ff6a00)>Crash the game button</c>"
 msgstr ""
 
 

@@ -67,6 +67,12 @@
 {"mp/eng/late/para1st_mg"			("inf_tier3" side(eng) period(late) cost(48.0))} ; lmg
 {"mp/eng/late/para1st_assist"		("inf_tier3" side(eng) period(late) cost(14.0))}
 
+{"mp/eng/late/mgun_can"			("inf_tier2" side(eng) period(late) cost(44.0))} ; has mg
+{"mp/eng/late/rifle_can"			("inf_tier2_lite" side(eng) period(late) cost(8.0))} ; rifle
+{"mp/eng/late/smg_can"		    ("inf_tier2_lite" side(eng) period(late) cost(13.0))} ; smg
+{"mp/eng/late/mgun_assist_can"	("inf_tier2_lite" side(eng) period(late) cost(8.0))} ; 
+{"mp/eng/late/squadleader_can"	("inf_tier2" side(eng) period(late) cost(13.0))} ; 
+
 {"mp/eng/late/radioman"				("inf_signaller" side(eng) period(late) cost(200.0))}
 
 {"mp/eng/late/sturmovik"				("inf_tier4" side(eng) period(late) cost(23.0))} ; smg

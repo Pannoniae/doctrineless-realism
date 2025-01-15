@@ -154,9 +154,9 @@
 	;// speed S (km/h) animation A (km/h) rotation R (degree/s)
 
 	{Crawl		;// S	A	R
-		{Slow		4.5	6	180 }
-		{Normal		5.5	7	180 }
-		{Fast		7	9	180 }
+		{Slow		3.5	6	180 }
+		{Normal		4.5	7	180 }
+		{Fast		6	9	180 }
 	}
 	{Swim
 		{Slow		2	5	180 }
@@ -164,12 +164,12 @@
 		{Fast		5	5	180 }
 	}
 	{Run
-		{Sneak		6	2	360 }	; x 0.85
-		{Spot		7	2	420 }	; x 0.5		// Manual TPC Zoom
-		{Walk		6	1.8     600 }	; x 0.48
-		{Slow		9	8	360 }	; x 1
-		{Normal		14	7	600 }	; x 0.55
-		{Fast		19	6.5     600 }	; x 0.33
+		{Sneak		5	2	360 }	; x 0.85
+		{Spot		6	2	420 }	; x 0.5		// Manual TPC Zoom
+		{Walk		4	1.8 600 }	; x 0.48
+		{Slow		8	8	360 }	; x 1
+		{Normal		13	7	600 }	; x 0.55
+		{Fast		18	6.5 600 }	; x 0.33
 		{Bow		16	6.5	600 }	; x 0.55
 	}
 	{Strafe
@@ -181,7 +181,7 @@
 		{Right		8  0 0	13.0  1.1	"run_spot_left-strafe_gun_up" "run_spot_left-strafe_gun_down"}
 		{Back		8  0 0	10.5  1.22	"run_back_spot_gun_up" 		  "run_back_spot_gun_down"}
 	}
-	{Injured 0.8}		;// speed multiplier when health is below 30% of maximum
+	{Injured 0.85}		;// speed multiplier when health is below 30% of maximum
 }
 
 {volume "body"	;//stomach and chest

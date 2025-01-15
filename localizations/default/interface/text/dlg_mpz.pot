@@ -36,14 +36,6 @@ msgctxt "mp/army/japan"
 msgid "Japan"
 msgstr ""
 
-msgctxt "mp/army/eng"
-msgid "Britain"
-msgstr ""
-
-msgctxt "mp/army/britain"
-msgid "Britain"
-msgstr ""
-
 msgctxt "mp/army/ita"
 msgid "Italy"
 msgstr ""
@@ -98,10 +90,6 @@ msgstr ""
 
 msgctxt "mp/presets/browser/tags/officer"
 msgid "Officer"
-msgstr ""
-
-msgctxt "mp/presets/browser/tags/supply"
-msgid "Supply"
 msgstr ""
 
 msgctxt "mp/presets/browser/tags/cannon"
@@ -196,14 +184,6 @@ msgctxt "actionbar/type3/usage"
 msgid "Click on the button to construct Type 3 position."
 msgstr ""
 
-msgctxt "mp/army/usaf"
-msgid "US Armed Forces"
-msgstr ""
-
-msgctxt "mp/army/usaf"
-msgid "US Armed Forces"
-msgstr ""
-
 msgctxt "mp/army/fra_early"
 msgid "France (early)"
 msgstr ""
@@ -240,18 +220,6 @@ msgctxt "mp/army/jap_late"
 msgid "Japan (late)"
 msgstr ""
 
-msgctxt "mp/army/eng_early"
-msgid "Britain (early)"
-msgstr ""
-
-msgctxt "mp/army/eng_mid"
-msgid "Britain (mid)"
-msgstr ""
-
-msgctxt "mp/army/eng_late"
-msgid "Britain (late)"
-msgstr ""
-
 msgctxt "mp/army/ita_early"
 msgid "Italy (early)"
 msgstr ""
@@ -286,10 +254,6 @@ msgstr ""
 
 msgctxt "mp/army/usaf_late"
 msgid "US Armed Forces (late)"
-msgstr ""
-
-msgctxt "main_menu2/dynamic_campaign/region_hint_talvisota"
-msgid "Northern Europe - (Talvisota Maps)"
 msgstr ""
 
 msgctxt "mp/presets/game/mow_style"

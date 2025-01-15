@@ -754,6 +754,31 @@ msgctxt "desc/human/mp/eng/mid/mgun_assist_can"
 msgid "Canadian MG assistant"
 msgstr ""
 
+
+msgctxt "desc/human/mp/eng/late/mgun_can"
+msgid "Canadian MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/eng/late/rifle_can"
+msgid "Canadian Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/eng/late/smg_can"
+msgid "Canadian SMG infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/eng/late/smg2_can"
+msgid "Canadian SMG infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/eng/late/squadleader_can"
+msgid "Canadian Section Leader"
+msgstr ""
+
+msgctxt "desc/human/mp/eng/late/mgun_assist_can"
+msgid "Canadian MG assistant"
+msgstr ""
+
 msgctxt "desc/human/mp/eng/early/mgun3"
 msgid "BEF MG Operator"
 msgstr ""
@@ -959,17 +984,17 @@ msgid "Pioneer Section Leader"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/para1st_smg"
-msgid "1st Para Batalion SMG"
+msgid "1st Para Battalion SMG"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/para1st_rfl"
-msgid "1st Para Batalion Rifle"
+msgid "1st Para Battalion Rifle"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/para1st_mg"
-msgid "1st Para Batalion MG"
+msgid "1st Para Battalion MG"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/para1st_assist"
-msgid "1st Para Batalion MG assistant"
+msgid "1st Para Battalion MG assistant"
 msgstr ""

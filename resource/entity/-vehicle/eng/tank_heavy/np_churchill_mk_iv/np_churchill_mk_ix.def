@@ -130,9 +130,9 @@
 		{weapon "mgun" {mask "mountable"}}
 		{box
 			{item "dynamite"}
-			{item "ammo bullet57_eng apcbc" 48}
-			{item "ammo bullet57_eng he" 36}
-			{item "ammo bullet57_eng apds" 5}
+			{item "ammo bullet_57x441 eng apcbc" 48}
+			{item "ammo bullet_57x441 eng he" 36}
+			{item "ammo bullet_57x441 eng apds" 5}
 			{item "vickers_k_mg" filled {user "mgun"}}
             		{item "ammo 7x57b" 2515}
 			{item "ammo 7x56" 960}
@@ -142,7 +142,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "57mm_oqf_mkv" filling "bullet57_eng apcbc" 1}	
+			{weapon "57mm_qf6_mk5" filling "bullet_57x441 eng apcbc" 1}	
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic"

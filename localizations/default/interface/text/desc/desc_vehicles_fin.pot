@@ -325,7 +325,7 @@ msgid "<c(c3baae)>Heavy Field Howitzer</c>"
 msgstr ""
 
 msgctxt "desc/entity/ba6_fin"
-msgid "BA-6"
+msgid "BAF B"
 msgstr ""
 
 msgctxt "info/special/ba6_fin"
@@ -333,7 +333,7 @@ msgid "<c(c3baae)>Armored Car</c>"
 msgstr ""
 
 msgctxt "desc/entity/ba10_fin"
-msgid "BA-10"
+msgid "BAF C"
 msgstr ""
 
 msgctxt "info/special/ba10_fin"
@@ -501,15 +501,15 @@ msgid "<c(c3baae)>Heavy Assault Gun</c>"
 msgstr ""
 
 msgctxt "desc/entity/kht130_fin"
-msgid "KhT-130 (Flame)"
+msgid "KhT-130"
 msgstr ""
 
 msgctxt "info/special/kht130_fin"
-msgid "<c(c3baae)>Light Tank</c>"
+msgid "<c(c3baae)>Light Flamethrower Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/kv1_40e_fin"
-msgid "KV-1E"
+msgid "KV-1B"
 msgstr ""
 
 msgctxt "info/special/kv1_40e_fin"
@@ -517,7 +517,7 @@ msgid "<c(c3baae)>Heavy Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/kv1_42_fin"
-msgid "KV-1 M1942"
+msgid "KV-1A"
 msgstr ""
 
 msgctxt "info/special/kv1_42_fin"
@@ -573,7 +573,7 @@ msgid "<c(c3baae)>Light Tank</c>"
 msgstr ""
 
 msgctxt "desc/entity/t26_33_fin"
-msgid "T-26 M1933"
+msgid "T-26B"
 msgstr ""
 
 msgctxt "info/special/t26_33_fin"

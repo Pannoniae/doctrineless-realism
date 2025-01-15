@@ -11,7 +11,7 @@ new_directory = "doctrineless_release"
 # copy mod directory
 try:
     subprocess.call(shlex.split(f"powershell rmdir ../{new_directory} -force -recurse"), shell=True)
-    shutil.copytree(".", f"../{new_directory}")
+    shutil.copytree(".", f"../{new_directory}", ignore=shutil.ignore_patterns('.git*'))
 except Exception as e:
     print("Couldn't delete folder, this is fucked up")
     print(traceback.format_exc())

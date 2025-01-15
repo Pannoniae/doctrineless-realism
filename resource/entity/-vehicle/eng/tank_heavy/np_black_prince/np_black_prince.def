@@ -110,9 +110,9 @@
 	{extender "inventory"
 		{box
 			{item "dynamite"}
-			{item "ammo bullet76_eng apcbc" 45}
-			{item "ammo bullet76_eng he" 32}
-			{item "ammo bullet76_eng apds" 5}
+			{item "ammo bulleteng_76 apcbc" 45}
+			{item "ammo bulleteng_76 he" 32}
+			{item "ammo bulleteng_76 apds" 5}
             {item "ammo 7x57b" 3475}
 		}
 	}
@@ -120,7 +120,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "76mm_qf" filling "ammo bullet76_eng apcbc" 1}		
+			{weapon "76mm_qf17_mk4" filling "ammo bulleteng_76 apcbc" 1}		
 			{gunner "gunner"}
 			{charger "charger"}
 			("abm_dymamic_stabilised"

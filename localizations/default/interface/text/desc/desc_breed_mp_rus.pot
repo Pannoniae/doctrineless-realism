@@ -509,10 +509,6 @@ msgctxt "desc/human/mp/rus/late/guards_mgun_3"
 msgid "Guards MG Asst."
 msgstr ""
 
-msgctxt "desc/human/mp/rus/late/guards_nco"
-msgid "Guards Squadleader"
-msgstr ""
-
 msgctxt "desc/human/mp/rus/late/guards_rifleman_1"
 msgid "Guards Rifleman"
 msgstr ""
@@ -523,10 +519,6 @@ msgstr ""
 
 msgctxt "desc/human/mp/rus/late/guards_rifleman_3"
 msgid "Guards Rifleman"
-msgstr ""
-
-msgctxt "desc/human/mp/rus/late/guards_senior_smg"
-msgid "Guards senior SMG inf."
 msgstr ""
 
 msgctxt "desc/human/mp/rus/late/guards_smg_1"
@@ -549,10 +541,6 @@ msgctxt "desc/human/mp/rus/late/marine_2"
 msgid "Marine"
 msgstr ""
 
-msgctxt "desc/human/mp/rus/late/marine_3"
-msgid "Marine MG Operator"
-msgstr ""
-
 msgctxt "desc/human/mp/rus/late/marine_4"
 msgid "Marine"
 msgstr ""
@@ -563,14 +551,6 @@ msgstr ""
 
 msgctxt "desc/human/mp/rus/late/marine_mg_asst"
 msgid "Marine MG Asst."
-msgstr ""
-
-msgctxt "desc/human/mp/rus/late/marine_nco"
-msgid "Marine Squadleader"
-msgstr ""
-
-msgctxt "desc/human/mp/rus/late/marine_senior"
-msgid "Senior Marine"
 msgstr ""
 
 msgctxt "desc/human/mp/rus/late/medic"
@@ -603,10 +583,6 @@ msgstr ""
 
 msgctxt "desc/human/mp/rus/late/miner-at"
 msgid "AT-Mine Engineer"
-msgstr ""
-
-msgctxt "desc/human/mp/rus/late/nco"
-msgid "Serzhant"
 msgstr ""
 
 msgctxt "desc/human/mp/rus/late/nkvd_1"
@@ -699,10 +675,6 @@ msgstr ""
 
 msgctxt "desc/human/mp/rus/late/sapper_miner_at"
 msgid "Sapper"
-msgstr ""
-
-msgctxt "desc/human/mp/rus/late/senior_smg"
-msgid "Senior SMG inf."
 msgstr ""
 
 msgctxt "desc/human/mp/rus/late/signaller"
@@ -891,10 +863,6 @@ msgstr ""
 
 msgctxt "desc/human/mp/rus/mid/marine_3"
 msgid "BSF Marine MG Operator"
-msgstr ""
-
-msgctxt "desc/human/mp/rus/mid/marine_3"
-msgid "BSF Marine"
 msgstr ""
 
 msgctxt "desc/human/mp/rus/mid/marine_4"

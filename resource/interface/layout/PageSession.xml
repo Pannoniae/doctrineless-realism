@@ -100,14 +100,6 @@
 																			<StackPanel percent="0.37" placement="top"  id="panel_players">
 																				<MinSize y="380"/>
 																			</StackPanel>
-																			<FlowPanel placement="top" direction="vertical" halign="center">
-																				<Insets bottom="300" left="50" right="6"/>
-																				<Children>
-																					<StaticText>
-																						<Text key="mp/lobby2/teams"/>
-																					</StaticText>
-																				</Children>
-																			</FlowPanel>
 																			<FlowPanel placement="bottom" direction="vertical" gap="10" halign="center">
 																				<Children>
 																					<FlowPanel id="panel_comment">

@@ -124,10 +124,6 @@ msgctxt "desc/weapon/flame_thrower_g"
 msgid "Flamethrower"
 msgstr ""
 
-msgctxt "desc/weapon/mp28"
-msgid "MP 28 | <c(FFC923)>Cartridge :9 × 19 mm Parabellum</c>"
-msgstr ""
-
 msgctxt "desc/weapon/mp28_50"
 msgid "MP 28 | <c(FFC923)>Cartridge :9 × 19 mm Parabellum</c>"
 msgstr ""
@@ -217,10 +213,6 @@ msgctxt "desc/weapon/nambu_type91"
 msgid "Type 91 | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
 msgstr ""
 
-msgctxt "desc/weapon/20mm_type98"
-msgid "20mm Type 98"
-msgstr ""
-
 msgctxt "desc/weapon/sigm1920"
 msgid "SIG Bergmann 1920 | <c(FFC923)>Cartridge :7,65 × 21 mm Parabellum</c>"
 msgstr ""
@@ -268,15 +260,6 @@ msgstr ""
 msgctxt "desc/weapon/knee_mortar_type89"
 msgid "Knee Mortar Type 89"
 msgstr ""
-
-msgctxt "desc/weapon/type98mg"
-msgid "Type 98 | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
-msgstr ""
-
-msgctxt "desc/weapon/type11lmg"
-msgid "Type 11 MG"
-msgstr ""
-
 msgctxt "desc/weapon/type4rifle"
 msgid "Type 4 rifle| <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
 msgstr ""
@@ -299,10 +282,6 @@ msgstr ""
 
 msgctxt "desc/weapon/75mm_type41"
 msgid "75mm Type 41"
-msgstr ""
-
-msgctxt "desc/weapon/type44_carbine"
-msgid "Type 44 Carbine"
 msgstr ""
 
 msgctxt "desc/weapon/bomb_dropper_type94"
@@ -359,10 +338,6 @@ msgstr ""
 
 msgctxt "desc/weapon/shisei"
 msgid "15cm rockets"
-msgstr ""
-
-msgctxt "desc/weapon/105mm_type91"
-msgid "105mm Type 91"
 msgstr ""
 
 msgctxt "desc/weapon/type44_carbine"

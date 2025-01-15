@@ -48,10 +48,6 @@ msgctxt "desc/stuff/knife_japan"
 msgid "Knife"
 msgstr ""
 
-msgctxt "desc/stuff/mine_antitank_jap"
-msgid "AT high explosive mine"
-msgstr ""
-
 msgctxt "desc/stuff/ammo_box_art_jap"
 msgid "Artillery ammos"
 msgstr ""

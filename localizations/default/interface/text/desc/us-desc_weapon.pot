@@ -156,10 +156,6 @@ msgctxt "desc/weapon/arl_mustang"
 msgid "Missile"
 msgstr ""
 
-msgctxt "desc/weapon/bar"
-msgid "B.A.R. | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
-msgstr ""
-
 msgctxt "desc/weapon/bar_no_bipod"
 msgid "B.A.R. | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
 msgstr ""
@@ -168,9 +164,6 @@ msgctxt "desc/weapon/bazooka_m10"
 msgid "Bazooka M10"
 msgstr ""
 
-msgctxt "desc/weapon/bazooka_m9"
-msgid "Bazooka M9"
-msgstr ""
 
 msgctxt "desc/weapon/bomb_dropper_m30"
 msgid "M30 (100lb)"
@@ -186,10 +179,6 @@ msgstr ""
 
 msgctxt "desc/weapon/browning_x4"
 msgid "4x .50 cal | <c(FFC923)>Cartridge :.50 BMG</c>"
-msgstr ""
-
-msgctxt "desc/weapon/browning"
-msgid "Browning M2HB | <c(FFC923)>Cartridge :.50 BMG</c>"
 msgstr ""
 
 msgctxt "desc/weapon/browning_m1921"
@@ -216,10 +205,6 @@ msgctxt "desc/weapon/browning_m19a4_belt"
 msgid "M1919A4 | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
 msgstr ""
 
-msgctxt "desc/weapon/browning_m19a6"
-msgid "M1919 A6 | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
-msgstr ""
-
 msgctxt "desc/weapon/browning_m19a6_belt"
 msgid "M1919 A6 | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
 msgstr ""
@@ -232,32 +217,16 @@ msgctxt "desc/weapon/browning_x2_2"
 msgid "2x .50 cal | <c(FFC923)>Cartridge :.50 BMG</c>"
 msgstr ""
 
-msgctxt "desc/weapon/browning_x2_2"
-msgid "Browning x2 | <c(FFC923)>Cartridge :.50 BMG</c>"
-msgstr ""
-
 msgctxt "desc/weapon/browning_x4_2"
 msgid "4x .50 cal | <c(FFC923)>Cartridge :.50 BMG</c>"
 msgstr ""
 
-msgctxt "desc/weapon/browning_x4_2"
-msgid "Browning x4 | <c(FFC923)>Cartridge :.50 BMG</c>"
-msgstr ""
-
 msgctxt "desc/weapon/browning_x6"
 msgid "6x .50 cal | <c(FFC923)>Cartridge :.50 BMG</c>"
 msgstr ""
 
-msgctxt "desc/weapon/browning_x6"
-msgid "Browning x6 | <c(FFC923)>Cartridge :.50 BMG</c>"
-msgstr ""
-
 msgctxt "desc/weapon/browning_x6_2"
 msgid "6x .50 cal | <c(FFC923)>Cartridge :.50 BMG</c>"
-msgstr ""
-
-msgctxt "desc/weapon/browning_x6_2"
-msgid "Browning x6 | <c(FFC923)>Cartridge :.50 BMG</c>"
 msgstr ""
 
 msgctxt "desc/weapon/browning_x8"
@@ -288,10 +257,6 @@ msgctxt "desc/weapon/enfield_p17"
 msgid "M1917 Enfield | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
 msgstr ""
 
-msgctxt "desc/weapon/garand"
-msgid "M1 Garand | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
-msgstr ""
-
 msgctxt "desc/weapon/garand_b"
 msgid "M1 Garand | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
 msgstr ""
@@ -304,10 +269,6 @@ msgctxt "desc/weapon/garand_grenade_mkii"
 msgid "M1 Garand Mk.II Grenade launcher"
 msgstr ""
 
-msgctxt "desc/weapon/hdm"
-msgid "HDM OSS | <c(FFC923)>Cartridge :.22 LR</c>"
-msgstr ""
-
 msgctxt "desc/weapon/johnson"
 msgid "M1941 Johnson Rifle | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
 msgstr ""
@@ -316,16 +277,9 @@ msgctxt "desc/weapon/johnson_m1941"
 msgid "M1941 Johnson LMG | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
 msgstr ""
 
-msgctxt "desc/weapon/m1_carbine"
-msgid "M1A1 Carbine | <c(FFC923)>Cartridge :.30 Carbine</c>"
-msgstr ""
 
 msgctxt "desc/weapon/m1_carbine_2"
 msgid "M1 Carbine | <c(FFC923)>Cartridge :.30 Carbine</c>"
-msgstr ""
-
-msgctxt "desc/weapon/m12_shotgun"
-msgid "M12 Shotgun | <c(FFC923)>Cartridge :</c>"
 msgstr ""
 
 msgctxt "desc/weapon/m18recoilless"
@@ -336,16 +290,8 @@ msgctxt "desc/weapon/springfield"
 msgid "M1903 Springfield | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
 msgstr ""
 
-msgctxt "desc/weapon/m1903"
-msgid "M1903 Springfield | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
-msgstr ""
-
 msgctxt "desc/weapon/m1903_b"
 msgid "M1903 Springfield | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
-msgstr ""
-
-msgctxt "desc/weapon/m1903a4"
-msgid "M1903A4 sniper | <c(FFC923)>Cartridge :.30-06 Springfield</c>"
 msgstr ""
 
 msgctxt "desc/weapon/m2_carbine"
@@ -356,10 +302,6 @@ msgctxt "desc/weapon/m3a"
 msgid "M3A1 | <c(FFC923)>Cartridge :.45 ACP</c>"
 msgstr ""
 
-msgctxt "desc/weapon/m50reising"
-msgid "M50 Reising | <c(FFC923)>Cartridge :.45 ACP</c>"
-msgstr ""
-
 msgctxt "desc/weapon/thompson"
 msgid "Thompson | <c(FFC923)>Cartridge :.45 ACP</c>"
 msgstr ""
@@ -368,24 +310,12 @@ msgctxt "desc/weapon/thompson_30"
 msgid "Thompson 30 | <c(FFC923)>Cartridge :.45 ACP</c>"
 msgstr ""
 
-msgctxt "desc/weapon/thompson_m1_30"
-msgid "Thompson M1 | <c(FFC923)>Cartridge :.45 ACP</c>"
-msgstr ""
-
 msgctxt "desc/weapon/thompson_m1921_30"
 msgid "Thompson m1921/30 | <c(FFC923)>Cartridge :.45 ACP</c>"
 msgstr ""
 
 msgctxt "desc/weapon/thompson_m1928"
 msgid "Thompson M1928 | <c(FFC923)>Cartridge :.45 ACP</c>"
-msgstr ""
-
-msgctxt "desc/weapon/thompson_m1928a1_50"
-msgid "Thompson M1928A1/50 | <c(FFC923)>Cartridge :.45 ACP</c>"
-msgstr ""
-
-msgctxt "desc/weapon/thompson_m1928a1_30"
-msgid "Thompson M1928A1/30 | <c(FFC923)>Cartridge :.45 ACP</c>"
 msgstr ""
 
 msgctxt "desc/weapon/60mm_us-brandt"

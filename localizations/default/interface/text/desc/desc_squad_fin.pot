@@ -161,10 +161,6 @@ msgctxt "desc/squad/squad_cav_mid(fin)"
 msgid "Cavalry Squad"
 msgstr ""
 
-msgctxt "desc/squad/squad_cav_mid_con(fin)"
-msgid "Cavalry Squad"
-msgstr ""
-
 msgctxt "desc/squad/squad_civil_guard_early(fin)"
 msgid "Civil Guard Squad"
 msgstr ""
@@ -206,10 +202,6 @@ msgid "Jäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_marksmen(fin)"
-msgid "Marksmen"
-msgstr ""
-
-msgctxt "desc/squad/squad_marksmen_mid_con(fin)"
 msgid "Marksmen"
 msgstr ""
 

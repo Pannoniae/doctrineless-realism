@@ -1,5 +1,5 @@
 {from "pattern reactive_ammo"
-	{tag "big bomb size2 he fg itemin2hands"}
+	{tag "big bomb size2 he fg all_he itemin2hands"}
 	{inventory
 		{size 6 2}
 		{weight 100}

@@ -62,9 +62,6 @@
 			"ger pol" "pol ger"
 			"ger fra" "fra ger"
 			"hun rus" "rus hun"
-			"usaf ger" "ger usaf"
-			"usaf jap" "jap usaf"
-			"usaf ita" "ita usaf"
 			"eng ger" "ger eng"
 			"eng jap" "jap eng"
 			"eng ita" "ita eng"
@@ -72,54 +69,25 @@
 			"ita rus" "rus ita"
 			"ita fra" "fra ita"
 			"usa jap" "jap usa"
-			"usuk gerita" "gerita usuk"
-			"usuk ita" "ita usuk"
-			"usuk ger" "ger usuk"
-			"gerita usaf" "usaf gerita"
-			"gerita eng" "eng gerita"
-			"ost rus" "rus ost"
-			"gerita rus" "rus gerita"
-			"frabri gerita" "gerita frabri"
-			"frabri ita" "ita frabri"
-			"frabri ger" "ger frabri"
-			"allies axis" "axis allies"
-			"allies ita" "ita allies"
-			"allies ger" "ger allies"
-			"allies jap" "jap allies"
-			"axis usaf" "usaf axis"
-			"axis eng" "eng axis"
-			"axis rus" "rus axis"
 		}
 	}
 	{Talvisota
 		{AvailableMatchups
 			"ger rus" "rus ger"
 			"fin rus" "rus fin"
-			"usaf ger" "ger usaf"
 			"eng ger" "ger eng"
-			"usuk ger" "ger usuk"
 		}
 	}
 	{West
 		{AvailableMatchups
 			"usa ger" "ger usa"
 			"usa ita" "ita usa"
-			"usaf ger" "ger usaf"
-			"usaf ita" "ita usaf"
 			"eng ger" "ger eng"
 			"eng ita" "ita eng"
 			"ita fra" "fra ita"
 			"ita pol" "pol ita"
 			"ger fra" "fra ger"
 			"ger pol" "pol ger"
-			"usuk gerita" "gerita usuk"
-			"usuk ita" "ita usuk"
-			"usuk ger" "ger usuk"
-			"gerita usaf" "usaf gerita"
-			"gerita eng" "eng gerita"
-			"frabri gerita" "gerita frabri"
-			"frabri ita" "ita frabri"
-			"frabri ger" "ger frabri"
 		}
 	}
 }

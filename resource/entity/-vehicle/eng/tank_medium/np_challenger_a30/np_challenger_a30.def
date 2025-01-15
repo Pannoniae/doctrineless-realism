@@ -104,16 +104,16 @@
 		{box
 			{item "dynamite"}
 			{item "ammo 7x57b" 2475}
-			{item "ammo bullet76_eng apcbc" 45}
-                        {item "ammo bullet76_eng apds" 5}
-			{item "ammo bullet76_eng he" 32}
+			{item "ammo bulleteng_76 apcbc" 45}
+                        {item "ammo bulleteng_76 apds" 5}
+			{item "ammo bulleteng_76 he" 32}
 		}
 	}
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "76mm_qf" filling "ammo bullet76_eng apcbc" 1}
+			{weapon "76mm_qf17_mk4" filling "ammo bulleteng_76 apcbc" 1}
 			("abm_dymamic_stabilised"
 				zeroing(3.0)
 				dispersion(0.20)

@@ -77,10 +77,6 @@ msgctxt "desc/human/mp/fra/early/mgun2"
 msgid "Machine gunner"
 msgstr ""
 
-msgctxt "desc/human/mp/fra/early/mgun3"
-msgid "Machine gunner"
-msgstr ""
-
 msgctxt "desc/human/mp/fra/early/medic"
 msgid "Medic"
 msgstr ""
@@ -591,18 +587,6 @@ msgstr ""
 
 msgctxt "desc/human/mp/fra/late/artilleryman"
 msgid "Artilleryman"
-msgstr ""
-
-msgctxt "desc/human/mp/fra/late/commando"
-msgid "Fusiliers Marins commando"
-msgstr ""
-
-msgctxt "desc/human/mp/fra/late/commando2"
-msgid "Fusiliers Marins commando"
-msgstr ""
-
-msgctxt "desc/human/mp/fra/late/commando3"
-msgid "Fusiliers Marins commando"
 msgstr ""
 
 msgctxt "desc/human/mp/fra/mid/elite3_assist"

@@ -19,7 +19,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "flame_thrower" filled}
+		{item "m2_flame_thrower" filled}
 		{item "ammo flame_thrower" 70}
 		{item "bandage" 1}
 		{in_hands 0}
