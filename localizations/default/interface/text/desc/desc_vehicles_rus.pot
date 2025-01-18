@@ -667,7 +667,7 @@ msgstr ""
 
 msgctxt "info/special/kht130"
 msgid "<c(c3baae)>Light Flamethrower Tank</c>"
-msgstr "
+msgstr ""
 
 msgctxt "desc/entity/kv1_39"
 msgid "KV-1 M1939"

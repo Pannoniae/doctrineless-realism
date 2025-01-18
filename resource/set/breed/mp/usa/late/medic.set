@@ -1,33 +1,30 @@
 {breed
 	{behaviour soldier}
-	{skin "us-inf-medic"}
-	{portrait "us-medic"}
+	{skin "us_m41_medic"}
+	{portrait "usa_medic"}
+	{icon "tech"}
+	{icon_priority 6}
 	{tags "soldier"}
-	{nationality usa}
-	{icon "medics"}
-	{icon_priority 1}
+	{nationality usa_medic}
 	{armors
-		{head "helmet_medic"}
+		{head us_m1_medic_b}
 	}
 	{perks
 		(include "ability.inc")
-		("rifle_skill_rank_2")
+		("rifle_skill_rank_2")("tier2_standard")
 		("medic")
-		("tier2_standard")
 	}
 	{veterancy
 		(include "ability.inc")
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "m1_carbine" filled}
-		{item  "ammo 7x33" 150}
-		{item "smoke grenade" 2}
-		{item "bandage" 25}
-		{item "medkit"}
+		{item "m1911" filled}
+		{item "m1911_mag ammo" 14}
+
+		{item "anm8_smoke grenade" 2.25 0.5}
+
+		{item "bandage_usa" 22.5 2.5}
 		{item "tent_kit" 2}
-		{in_hands 0}
 	}
 }
-;Cost=13;
-

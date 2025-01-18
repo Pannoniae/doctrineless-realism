@@ -1,13 +1,13 @@
 {breed
 	{behaviour soldier}
-	{skin "us-tank-ssgt"}
-	{portrait "us-tankman"}
+	{skin "us_m41_arm_jacket_smg3c_pistol_sgt"}
+	{portrait "usa_tankman"}
+	{icon "tech"}
+	{icon_priority 0}
 	{tags "crew"}
 	{nationality usa}
-	{icon "tankman"}
-	{icon_priority 1}
 	{armors
-		{head "tankhelmet"}
+		{head us_m38_tank_gog}
 	}
 	{perks
 		(include "ability.inc")
@@ -17,12 +17,15 @@
 		(include "ability.inc")
 		("veterancy_lvl_0")
 	}
-	{inventory             
-		{item "m3a" filled}
-		{item  "ammo 11x23" 270}
-		{item "bandage" 1}
+	{inventory
+		{item "thompson_m1928a1_30" filled}
+		{item "thompson_mag stick 30 ammo" 90}
+		
+		{item "m1911" filled}
+		{item "m1911_mag ammo" 14}
+
+		{item "bandage_usa" 2.5 0.5}
+
 		{in_hands 0}
 	}
 }
-;Cost=10;
-

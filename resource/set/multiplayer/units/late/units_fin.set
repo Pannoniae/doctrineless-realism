@@ -515,11 +515,11 @@
 
 ;AUTOMATIC WEAPONRY
 {"maxim_m1910_30"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(cannon) side(fin) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(support) cw(2) cp(6)
+	("vehicle2" period(late) year(late) cd(0) ci(10) t(cannon) side(fin) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(support) cw(2) cp(6)
 	cost(75))
 }
 {"ds39_stand_fin"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(cannon) side(fin) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl2) b(support) cw(2) cp(6)
+	("vehicle2" period(late) year(late) cd(0) ci(10) t(cannon) side(fin) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl2) b(support) cw(2) cp(6)
 	cost(80))
 }
 ; AT WEAPONRY
@@ -775,6 +775,6 @@
 
 ;Plane
 {"blenheim_mk1"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(doctrineonly) side(fin) crew(pilot:1) g(spg7) b(supply) cw(0) cp(23)
+	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly) side(fin) crew(pilot:1) g(spg7) b(supply) cw(0) cp(23)
 	cost(1000))
 }

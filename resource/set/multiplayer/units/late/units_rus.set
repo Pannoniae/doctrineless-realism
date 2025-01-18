@@ -726,29 +726,29 @@
 }
 
 ;{"inf_crate_rus"
-;	("vehicle"  period(late) year(late) cd(0) ci(0) t(supply cannon doctrineonly) side(rus) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
+;	("vehicle"  period(late) year(late) cd(0) ci(10) t(supply cannon doctrineonly) side(rus) crew(rifleman_1:2) g(supplybox) b(single) cw(1) cp(0)
 ;	cost(50))
 ;}
 
 ;AUTOMATIC WEAPONRY
 {"ds39_stand"
-	("vehicle2" period(late) year(late) cd(30) ci(0) t(cannon) side(rus) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(support) cw(2) cp(6)
+	("vehicle2" period(late) year(late) cd(30) ci(10) t(cannon) side(rus) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(support) cw(2) cp(6)
 	cost(110))
 }
 {"maxim"
-	("vehicle2" period(late) year(late) cd(30) ci(0) t(cannon) side(rus) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(support) cw(2) cp(6)
+	("vehicle2" period(late) year(late) cd(30) ci(10) t(cannon) side(rus) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(support) cw(2) cp(6)
 	cost(120))
 }
 {"sg43_stand"
-	("vehicle2" period(late) year(late) cd(30) ci(0) t(cannon) side(rus) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(support) cw(2) cp(6)
+	("vehicle2" period(late) year(late) cd(30) ci(10) t(cannon) side(rus) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl1) b(support) cw(2) cp(6)
 	cost(130))
 }
 {"dshk_stan"
-	("vehicle2" period(late) year(late) cd(45) ci(0) t(cannon) side(rus) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl2) b(support) cw(2) cp(6)
+	("vehicle2" period(late) year(late) cd(45) ci(10) t(cannon) side(rus) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl2) b(support) cw(2) cp(6)
 	cost(160))
 }
 {"dshk_aa"
-	("vehicle2" period(late) year(late) cd(45) ci(0) t(cannon) side(rus) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl2) b(support) cw(2) cp(6)
+	("vehicle2" period(late) year(late) cd(45) ci(10) t(cannon) side(rus) crew1(mg_crew:1) crew2(mg_crew_asst:1) g(empl2) b(support) cw(2) cp(6)
 	cost(180))
 }
 ; AT WEAPONRY
@@ -1075,14 +1075,14 @@
 
 ;Plane
 {"yak1_ser69"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(doctrineonly) side(rus) crew(pilot:1) g(spg7) b(supply) cw(0) cp(23)
+	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly) side(rus) crew(pilot:1) g(spg7) b(supply) cw(0) cp(23)
 	cost(1000))
 }
 {"il2_mod42"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(doctrineonly) side(rus) crew(pilot:1) g(spg7) b(supply) cw(0) cp(23)
+	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly) side(rus) crew(pilot:1) g(spg7) b(supply) cw(0) cp(23)
 	cost(1000))
 }
 {"po2"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(doctrineonly) side(rus) crew(pilot:2) g(spg8) b(supply) cw(0) cp(11)
+	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly) side(rus) crew(pilot:2) g(spg8) b(supply) cw(0) cp(11)
 	cost(100))
 }

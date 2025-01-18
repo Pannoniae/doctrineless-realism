@@ -447,22 +447,22 @@
 ;|             inf1                               |
 ;|________________________________________________|
 
-("squad_with4types" side(usaf) name(squad_light)			period(late) cd(0) ci(30)  g(squad_1) c1(rifle4:5) c2(rifle:3) c3(smg:1) c4(squadleader:1) b(squad) cd2(0) ci2(30) t(  infsquad ) level(1) research_stage(1))
-("squad_with6types" side(usaf) name(squad_regular)			period(late) cd(0) ci(0)  g(squad_2) c1(rifle2:5) c2(rifle_grenade:1) c3(mgun:1) c4(mgun_assist:1) c5(smg2:1) c6(squadleader:1)       b(squad) cd2(0) ci2(0) t(  infsquad ) level(1) research_stage(1))
-("squad_with4types" side(usaf) name(squad_regular_afr)		period(late) cd(0) ci(30)  g(squad_1b)	c1(rifle_afr:6) c2(mgun_afr:1) c3(mgun_assist_afr:1) c4(smg_afr:2) b(squad) cd2(0) ci2(30) t(  infsquad ) level(1) research_stage(1))
-("squad_with5types" side(usaf) name(squad_regular_heavy)	period(late) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(bazooker:1) c3(rifle_grenade:1) c4(smg2:1) c5(squadleader:1)       b(squad) cd2(0) ci2(0) t(  infsquad ) level(1) research_stage(1))
+("squad_with4types" side(usaf) name(squad_light)			period(late) cd(0) ci(30)  g(squad_1) c1(rifle4:5) c2(rifle:3) c3(smg:1) c4(squadleader:1) b(squad) t(  infsquad ) level(1) research_stage(1))
+("squad_with6types" side(usaf) name(squad_regular)			period(late) cd(0) ci(0)  g(squad_2) c1(rifle2:5) c2(rifle_grenade:1) c3(mgun:1) c4(mgun_assist:1) c5(smg2:1) c6(squadleader:1)       b(squad) t(  infsquad ) level(1) research_stage(1))
+("squad_with4types" side(usaf) name(squad_regular_afr)		period(late) cd(0) ci(30)  g(squad_1b)	c1(rifle_afr:6) c2(mgun_afr:1) c3(mgun_assist_afr:1) c4(smg_afr:2) b(squad) t(  infsquad ) level(1) research_stage(1))
+("squad_with5types" side(usaf) name(squad_regular_heavy)	period(late) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(bazooker:1) c3(rifle_grenade:1) c4(smg2:1) c5(squadleader:1)       b(squad) t(  infsquad ) level(1) research_stage(1))
 
-("squad_with6types" side(usaf) name(squad_marine)			period(late) cd(120) ci(120) g(squad_3) c1(elite4:5) c2(elite7:1) c3(elite5:1) c4(elite6:1) c5(elite6_assist:1) c6(elite4_sl:1)  b(squad) cd2(120) ci2(120) t(  infsquad ) level(1) research_stage(2))
-("squad_with6types" side(usaf) name(squad_paramarine)		period(late) cd(180) ci(120) g(squad_3) c1(paramarine_rfl:5) c2(paramarine_grenadier:1) c3(paramarine_smg:1) c4(paramarine_mg:1) c5(paramarine_assist:1) c6(paramarine_sl:1)  b(squad) cd2(180) ci2(120) t(  infsquad ) level(1) research_stage(2))
+("squad_with6types" side(usaf) name(squad_marine)			period(late) cd(120) ci(120) g(squad_3) c1(elite4:5) c2(elite7:1) c3(elite5:1) c4(elite6:1) c5(elite6_assist:1) c6(elite4_sl:1)  b(squad) t(  infsquad ) level(1) research_stage(2))
+("squad_with6types" side(usaf) name(squad_paramarine)		period(late) cd(180) ci(120) g(squad_3) c1(paramarine_rfl:5) c2(paramarine_grenadier:1) c3(paramarine_smg:1) c4(paramarine_mg:1) c5(paramarine_assist:1) c6(paramarine_sl:1)  b(squad) t(  infsquad ) level(1) research_stage(2))
 
-("squad_with7types" side(usaf) name(squad_pionier)			period(late) cd(180) ci(180) g(squad_3) c1(elite:4) c2(elite8:1) c3(elite2:1) c4(elite3:1) c5(elite3_assist:1) c6(elite_at:1) c7(elite_sl:1)  b(squad) cd2(180) ci2(180) t(  infsquad ) level(1) research_stage(2))
-("squad_with5types" side(usaf) name(squad_stormtrooper)  	period(late) cd(300) ci(240) g(squad_4) c1(sturmovik:4) c2(sturmovik3:3) c3(sturmovik2:1) c4(sturmovik2_assist:1) c5(sturmovik_sl:1)   b(squad) cd2(300) ci2(240) t(  infsquad ) level(1) research_stage(4))
+("squad_with7types" side(usaf) name(squad_pionier)			period(late) cd(180) ci(180) g(squad_3) c1(elite:4) c2(elite8:1) c3(elite2:1) c4(elite3:1) c5(elite3_assist:1) c6(elite_at:1) c7(elite_sl:1)  b(squad) t(  infsquad ) level(1) research_stage(2))
+("squad_with5types" side(usaf) name(squad_stormtrooper)  	period(late) cd(300) ci(240) g(squad_4) c1(sturmovik:4) c2(sturmovik3:3) c3(sturmovik2:1) c4(sturmovik2_assist:1) c5(sturmovik_sl:1)   b(squad) t(  infsquad ) level(1) research_stage(4))
 
 {"np_mechanized_infantry"
-	("squad_vehicle5" period(late) cd(90) ci(180) t(vehicle) side(usaf) vehicle(np_m3) crew1(armor_rifle:5) crew2(armor_smg:2) crew3(armor_grenadier:1) crew4(armor_mgun:1) crew5(armor_bazooker:1) g(lightc) b(squad) cd2(90) ci2(180))
+	("squad_vehicle5" period(late) cd(90) ci(180) t(vehicle) side(usaf) vehicle(np_m3) crew1(armor_rifle:5) crew2(armor_smg:2) crew3(armor_grenadier:1) crew4(armor_mgun:1) crew5(armor_bazooker:1) g(lightc) b(squad) )
 }
 {"np_para_infantry"
-	("squad_vehicle5" period(late) cd(90) ci(180) t(vehicle) side(usaf) vehicle(np_skytrain) crew1(pilot:2) crew2(elite:4) crew3(elite2:4) crew4(elite3:1) crew5(elite3_assist:1) g(lightc) b(squad) cd2(90) ci2(180))
+	("squad_vehicle5" period(late) cd(90) ci(180) t(vehicle) side(usaf) vehicle(np_skytrain) crew1(pilot:2) crew2(elite:4) crew3(elite2:4) crew4(elite3:1) crew5(elite3_assist:1) g(lightc) b(squad) )
 	{tags "limit2"}
 }
 
@@ -470,21 +470,21 @@
 ;|             inf2                               |
 ;|________________________________________________|
 
-("squad_with2types" side(usaf) name(single_auxiliary)    period(late) cd(0)   ci(5)   g(single_rifle)   c1(rifle2:1) c2(smg2:1)    b(single) cd2(0) ci2(5) t(  infsquad )           level(1) research_stage(1))
-("squad_with2types" side(usaf) name(single_riflegrenade) period(late) cd(0)   ci(20)  g(single_at)   c1(rifle_grenade:1) c2(smg2:1)  b(single) cd2(0) ci2(20) t(  infsquad )           level(1) research_stage(1))
-("squad_with2types" side(usaf) name(single_mg)           period(late) cd(0)   ci(60)  g(single_mg)  c1(mgun2:1) c2(mgun_assist:1)           b(single) cd2(0) ci2(60) t(  infsquad )           level(1) research_stage(1))
-("squad_with2types" side(usaf) name(single_at)           period(late) cd(0)   ci(0)  g(single_at)   c1(bazooker:1) c2(bazooker2:1)  b(single) cd2(0) ci2(0) t(  at_squad )           level(1) research_stage(1))
-("squad_with2types" side(usaf) name(single_mortar)	period(late) cd(0)   ci(20)  g(single_mortar)   c1(gr_launcher:1) c2(smg2:1)  b(single) cd2(0) ci2(20) t(  infmortar )           level(1) research_stage(1))
-("squad_with2types" side(usaf) name(single_tankman)      period(late) cd(0)   ci(20)  g(single_crew) c1(tankman2:1) c2(tankman:3) b(single) cd2(0) ci2(20) t(  tankcrew )           level(1) research_stage(1))
-("squad_with1types" side(usaf) name(single_ap_miner)     period(late) cd(60)  ci(60)  g(single_apmine)   c1(ap_miner:3)                 b(single) cd2(60) ci2(60) t(  engineer miner)  level(1) research_stage(2))
-("squad_with1types" side(usaf) name(single_at_miner)     period(late) cd(60)  ci(60)  g(single_atmine)   c1(at_miner:3)                 b(single) cd2(60) ci2(60) t(  engineer miner)  level(1) research_stage(2))
-("squad_with1types" side(usaf) name(single_engineer)     period(late) cd(60)  ci(60)  g(single_eng)   c1(saper:2) b(single) cd2(60) ci2(60) t(  engineer builder)  level(1) research_stage(2))
-("squad_with1types" side(usaf) name(single_medic)        period(late) cd(0)   ci(20) g(single_medic)   c1(medic:1)                      b(single) cd2(0) ci2(20) t(  medic )     level(1) research_stage(1))
-("squad_with1types" side(usaf) name(single_flamer)       period(late) cd(60) ci(120) g(single_flamer)  c1(flamer:1)                    b(single) cd2(60) ci2(120) t(  flamer )    level(1) research_stage(3))
-("squad_with1types" side(usaf) name(single_sniper)       period(late) cd(120) ci(180) g(single_sniper) c1(sniper:1)                     b(single) cd2(120) ci2(180) t(  sniper )    level(1) research_stage(3))
-("squad_with1types" side(usaf) name(single_officer)      period(late) cd(120) ci(180) g(single_officer)  c1(officer:1)                  b(single) cd2(120) ci2(180) t(  officer )   level(1) research_stage(2))
+("squad_with2types" side(usaf) name(single_auxiliary)    period(late) cd(0)   ci(5)   g(single_rifle)   c1(rifle2:1) c2(smg2:1)    b(single) t(  infsquad )           level(1) research_stage(1))
+("squad_with2types" side(usaf) name(single_riflegrenade) period(late) cd(0)   ci(20)  g(single_at)   c1(rifle_grenade:1) c2(smg2:1)  b(single) t(  infsquad )           level(1) research_stage(1))
+("squad_with2types" side(usaf) name(single_mg)           period(late) cd(0)   ci(60)  g(single_mg)  c1(mgun2:1) c2(mgun_assist:1)           b(single) t(  infsquad )           level(1) research_stage(1))
+("squad_with2types" side(usaf) name(single_at)           period(late) cd(0)   ci(0)  g(single_at)   c1(bazooker:1) c2(bazooker2:1)  b(single) t(  at_squad )           level(1) research_stage(1))
+("squad_with2types" side(usaf) name(single_mortar)	period(late) cd(0)   ci(20)  g(single_mortar)   c1(gr_launcher:1) c2(smg2:1)  b(single) t(  infmortar )           level(1) research_stage(1))
+("squad_with2types" side(usaf) name(single_tankman)      period(late) cd(0)   ci(20)  g(single_crew) c1(tankman2:1) c2(tankman:3) b(single) t(  tankcrew )           level(1) research_stage(1))
+("squad_with1types" side(usaf) name(single_ap_miner)     period(late) cd(60)  ci(60)  g(single_apmine)   c1(ap_miner:3)                 b(single) t(  engineer miner)  level(1) research_stage(2))
+("squad_with1types" side(usaf) name(single_at_miner)     period(late) cd(60)  ci(60)  g(single_atmine)   c1(at_miner:3)                 b(single) t(  engineer miner)  level(1) research_stage(2))
+("squad_with1types" side(usaf) name(single_engineer)     period(late) cd(60)  ci(60)  g(single_eng)   c1(saper:2) b(single) t(  engineer builder)  level(1) research_stage(2))
+("squad_with1types" side(usaf) name(single_medic)        period(late) cd(0)   ci(20) g(single_medic)   c1(medic:1)                      b(single) t(  medic )     level(1) research_stage(1))
+("squad_with1types" side(usaf) name(single_flamer)       period(late) cd(60) ci(120) g(single_flamer)  c1(flamer:1)                    b(single) t(  flamer )    level(1) research_stage(3))
+("squad_with1types" side(usaf) name(single_sniper)       period(late) cd(120) ci(180) g(single_sniper) c1(sniper:1)                     b(single) t(  sniper )    level(1) research_stage(3))
+("squad_with1types" side(usaf) name(single_officer)      period(late) cd(120) ci(180) g(single_officer)  c1(officer:1)                  b(single) t(  officer )   level(1) research_stage(2))
 {"np_inf_crate"
-	("vehicle" period(late) cd(0) ci(30)   t( supply) side(usaf) crew(rifle:2)             g(supplybox) b(supply) cd2(0) ci2(30)  cw(0)  cp(0) 
+	("vehicle" period(late) cd(0) ci(10)   t( supply) side(usaf) crew(rifle:2)             g(supplybox) b(supply) cw(0)  cp(0) 
 	cost(50))
 }  
 ;_________________________________________________
@@ -493,91 +493,91 @@
 
 ;AUTOMATIC WEAPONRY
 {"np_0_3cal_m1917a1_aa"
-	("vehicle" period(late) cd(0) ci(30) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cd2(0) ci2(30)  cw(2)  cp(5) 
+	("vehicle" period(late) cd(0) ci(10) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cw(2)  cp(5) 
 	cost(105))
 }
 {"np_0_5cal_m2hb"
-	("vehicle" period(late) cd(0) ci(60) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cd2(0) ci2(60)  cw(2) cp(5) 
+	("vehicle" period(late) cd(0) ci(10) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cw(2) cp(5) 
 	cost(140))
 }
 
 ;AA WEAPONRY
 
 {"np_0_5cal_maxson"
-	("vehicle" period(late) cd(0) ci(60) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cd2(0) ci2(60)  cw(1) cp(8) 
+	("vehicle" period(late) cd(0) ci(10) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cw(1) cp(8) 
 	cost(170))
 }
 {"np_40_mm_m1"
-	("vehicle" period(late) cd(0) ci(60) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cd2(0) ci2(60)  cw(1) cp(12) 
+	("vehicle" period(late) cd(0) ci(10) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cw(1) cp(12) 
 	cost(270))
 }
 
 
 ; AT WEAPONRY
 {"np_57_mm_m18"
-	("vehicle" period(late) cd(0) ci(0) t(cannon) side(usaf) crew(vehicle_supporter:2)   g(empl2) b(support) cd2(0) ci2(60)  cw(1) cp(10) 
+	("vehicle" period(late) cd(0) ci(10) t(cannon) side(usaf) crew(vehicle_supporter:2)   g(empl2) b(support) cw(1) cp(10) 
 	cost(170))
 }
 {"np_37_mm_m3"
-	("vehicle" period(late) cd(0) ci(60)  t( cannon) side(usaf) crew(vehicle_supporter:2)   g(empl2) b(support) cd2(0) ci2(60)  cw(1) cp(10) 
+	("vehicle" period(late) cd(0) ci(10)  t( cannon) side(usaf) crew(vehicle_supporter:2)   g(empl2) b(support) cw(1) cp(10) 
 	cost(180))
 }
 {"np_75_mm_m1897a4"
-	("vehicle" period(late) cd(0) ci(60) t( cannon mediumcan) side(usaf) crew(vehicle_supporter:4)   g(empl3) b(support) cd2(0) ci2(60)  cw(1) cp(15) 
+	("vehicle" period(late) cd(0) ci(10) t( cannon mediumcan) side(usaf) crew(vehicle_supporter:4)   g(empl3) b(support) cw(1) cp(15) 
 	cost(340))
 }
 {"np_57_mm_m1"
-	("vehicle" period(late) cd(0) ci(0) t(cannon) side(usaf) crew(vehicle_supporter:4)   g(empl2) b(support) cd2(0) ci2(60)  cw(1) cp(15) 
+	("vehicle" period(late) cd(0) ci(10) t(cannon) side(usaf) crew(vehicle_supporter:4)   g(empl2) b(support) cw(1) cp(15) 
 	cost(350))
 }
 {"np_76_mm_m5late"
-	("vehicle" period(late) cd(0) ci(60) t( cannon mediumcan) side(usaf) crew(vehicle_supporter:4)   g(empl3) b(support) cd2(0) ci2(60)  cw(1) cp(20) 
+	("vehicle" period(late) cd(0) ci(10) t( cannon mediumcan) side(usaf) crew(vehicle_supporter:4)   g(empl3) b(support) cw(1) cp(20) 
 	cost(460))
 }
 {"np_90_mm_m1"
-	("vehicle" period(late) cd(0) ci(0) t( heavycan) side(usaf) crew(vehicle_supporter:4)   g(empl4) b(support) cd2(360) ci2(60)  cw(1) cp(25) 
+	("vehicle" period(late) cd(360) ci(10) t( heavycan) side(usaf) crew(vehicle_supporter:4)   g(empl4) b(support) cw(1) cp(25) 
 	cost(800))
 }
 
 ;HOWITZERS
 {"np_60_mm_m2"
-	("vehicle"  period(late) cd(0) ci(0) t(mortar) side(usaf) crew(vehicle_supporter:2)     g(empl6) b(art) cd2(60) ci2(30)  cw(1) cp(10) 
+	("vehicle"  period(late) cd(60) ci(10) t(mortar) side(usaf) crew(vehicle_supporter:2)     g(empl6) b(art) cw(1) cp(10) 
 	cost(170))
 }
 {"np_81_mm_m1"
-	("vehicle"  period(late) cd(0)  ci(60) t(mortar) side(usaf) crew(vehicle_supporter:2)             g(empl6) b(art) cd2(0) ci2(60)  cw(1) cp(12) 
+	("vehicle"  period(late) cd(0)  ci(10) t(mortar) side(usaf) crew(vehicle_supporter:2)             g(empl6) b(art) cw(1) cp(12) 
 	cost(250))
 }
 {"np_75_mm_m1"
-	("vehicle" period(late) cd(0) ci(60)  t( cannon mediumcan) side(usaf) crew(vehicle_supporter:4)   g(empl5) b(art) cd2(0) ci2(60)  cw(1) cp(15)
+	("vehicle" period(late) cd(0) ci(10)  t( cannon mediumcan) side(usaf) crew(vehicle_supporter:4)   g(empl5) b(art) cw(1) cp(15)
 	cost(340))
 }
 {"np_107_mm_m2"
-	("vehicle"  period(late) cd(0) ci(0) t(artillery) side(usaf) crew(vehicle_supporter:2)             g(empl7) b(art) cd2(900) ci2(30)  cw(1) cp(20) 
+	("vehicle"  period(late) cd(900) ci(10) t(artillery) side(usaf) crew(vehicle_supporter:2)             g(empl7) b(art) cw(1) cp(20) 
 	cost(400))
 }
 {"np_105_mm_m3"
-	("vehicle"  period(late) cd(900) ci(180) t(heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl8) b(art) cd2(900) ci2(180)  cw(1) cp(25) 
+	("vehicle"  period(late) cd(900) ci(10) t(heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl8) b(art) cw(1) cp(25) 
 	cost(700))
 }
 {"np_105_mm_m2a1l"
-	("vehicle"  period(late) cd(900) ci(180) t(heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl8) b(art) cd2(900) ci2(180)  cw(1) cp(25) 
+	("vehicle"  period(late) cd(900) ci(10) t(heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl8) b(art) cw(1) cp(25) 
 	cost(750))
 }
 {"np_155_mm_m1917a4"
-	("vehicle"  period(late) cd(0) ci(0) t(heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl9) b(art) cd2(1200) ci2(30)  cw(1) cp(28) 
+	("vehicle"  period(late) cd(1200) ci(10) t(heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl9) b(art) cw(1) cp(28) 
 	cost(950))
 }
 {"np_155_mm_m1"
-	("vehicle"  period(late) cd(0) ci(0) t( heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl9) b(art) cd2(1200) ci2(30)  cw(1) cp(30) 
+	("vehicle"  period(late) cd(1200) ci(10) t( heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl9) b(art) cw(1) cp(30) 
 	cost(1000))
 }
 {"np_155_mm_m2"
-	("vehicle"  period(late) cd(0) ci(0) t( heavyart artillery) side(usaf) crew(vehicle_supporter:6) g(empl9) b(art) cd2(1200) ci2(30)  cw(1) cp(30) 
+	("vehicle"  period(late) cd(1200) ci(10) t( heavyart artillery) side(usaf) crew(vehicle_supporter:6) g(empl9) b(art) cw(1) cp(30) 
 	cost(1100))
 }
 {"np_203_mm_m115"
-	("vehicle"  period(late) cd(0) ci(0) t( heavyart artillery) side(usaf) crew(vehicle_supporter:6) g(empl10) b(art) cd2(1200) ci2(30)  cw(1) cp(35) 
+	("vehicle"  period(late) cd(1200) ci(10) t( heavyart artillery) side(usaf) crew(vehicle_supporter:6) g(empl10) b(art) cw(1) cp(35) 
 	cost(1450))
 }
 ;_________________________________________________
@@ -585,83 +585,83 @@
 ;|________________________________________________|
 
 {"np_cckw352"
-	("vehicle"  period(late) cd(0)  ci(30)  g(wheel0) side(usaf) t(vehicle)  crew(vehicle_supporter:1)      b(supply) cd2(0) ci2(30) cw(1) cp(2) 
+	("vehicle"  period(late) cd(0)  ci(10)  g(wheel0) side(usaf) t(vehicle)  crew(vehicle_supporter:1)      b(supply) cw(1) cp(2) 
 	cost(20))
 }
 {"np_willys50"
-	("vehicle"  period(late) cd(0)   ci(30)  g(wheel1) side(usaf) t( vehicle)    crew(vehicle_supporter:2)     b(supply) cd2(0) ci2(30) cw(1) cp(5)  
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel1) side(usaf) t( vehicle)    crew(vehicle_supporter:2)     b(supply) cw(1) cp(5)  
 	cost(100))
 }
 {"np_cckw353_fuel"
-	("vehicle"  period(late) cd(0)  ci(30)  g(supply0) side(usaf) t(vehicle supply)  crew(vehicle_supporter:1)      b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	("vehicle"  period(late) cd(0)  ci(10)  g(supply0) side(usaf) t(vehicle supply)  crew(vehicle_supporter:1)      b(supply) cw(1) cp(5) 
 	cost(90))
 }
 {"np_cckw353_eng"
-	("vehicle2"  period(late) cd(0)  ci(30)  g(supply3) side(usaf) t( vehicle supply engtruck) crew1(vehicle_supporter:1) crew2(saper:1)   b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	("vehicle2"  period(late) cd(0)  ci(10)  g(supply3) side(usaf) t( vehicle supply engtruck) crew1(vehicle_supporter:1) crew2(saper:1)   b(supply) cw(1) cp(5) 
 	cost(100))
 }
 {"np_cckw352_art"
-	("vehicle"  period(late) cd(0)  ci(30)  g(supply2) side(usaf) t( vehicle supply)  crew(vehicle_supporter:2)      b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	("vehicle"  period(late) cd(0)  ci(10)  g(supply2) side(usaf) t( vehicle supply)  crew(vehicle_supporter:2)      b(supply) cw(1) cp(5) 
 	cost(185))
 }
 {"np_m3a1_scout"
-	("vehicle"  period(late) cd(0) ci(0) g(wheel2) side(usaf) t( vehicle)   crew(vehicle_supporter:5)       b(supply) cd2(0) ci2(30) cw(2) cp(8) 
+	("vehicle"  period(late) cd(0) ci(10) g(wheel2) side(usaf) t( vehicle)   crew(vehicle_supporter:5)       b(supply) cw(2) cp(8) 
 	cost(125))
 }
 {"np_m3"
-	("vehicle"  period(late) cd(0)   ci(30)  g(wheel2) side(usaf) t( vehicle)   crew(vehicle_supporter:2)       b(supply) cd2(0) ci2(30) cw(2) cp(8) 
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel2) side(usaf) t( vehicle)   crew(vehicle_supporter:2)       b(supply) cw(2) cp(8) 
 	cost(105))
 }
 {"np_m20"
-	("vehicle"  period(late) cd(0)   ci(30)  g(wheel2) side(usaf) t( vehicle)   crew(tankman:3)       b(lt) cd2(0) ci2(30) cw(2) cp(8) 
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel2) side(usaf) t( vehicle)   crew(tankman:3)       b(lt) cw(2) cp(8) 
 	cost(160))
 }
 {"np_dodge_armor"
-	("vehicle" period(late) cd(0) ci(0) t( vehicle) side(usaf) crew(vehicle_supporter:2) g(wheel1) b(lt) cd2(90) ci2(30) cw(2) cp(10)
+	("vehicle" period(late) cd(90) ci(10) t( vehicle) side(usaf) crew(vehicle_supporter:2) g(wheel1) b(lt) cw(2) cp(10)
 	cost(200))
 }
 {"np_m16"
-	("vehicle2"  period(late) cd(0)   ci(30)  g(wheel2) side(usaf) t( vehicle)   crew1(tankman:2) crew2(tankman2:1)  b(lt) cd2(0) ci2(30) cw(2) cp(10) 
+	("vehicle2"  period(late) cd(0)   ci(10)  g(wheel2) side(usaf) t( vehicle)   crew1(tankman:2) crew2(tankman2:1)  b(lt) cw(2) cp(10) 
 	cost(220))
 }
 {"np_dodgewc55"
-	("vehicle"  period(late) cd(0) ci(0) g(wheel2) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(supply) cd2(0) ci2(30) cw(2) cp(10) 
+	("vehicle"  period(late) cd(0) ci(10) g(wheel2) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(supply) cw(2) cp(10) 
 	cost(240))
 }
 {"np_m8_grayhound_2"
-	("vehicle"  period(late) cd(0)   ci(30)  g(wheel3) side(usaf) t( vehicle)   crew(tankman:3)       b(lt) cd2(0) ci2(30) cw(2) cp(10) 
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel3) side(usaf) t( vehicle)   crew(tankman:3)       b(lt) cw(2) cp(10) 
 	cost(250))
 }
 {"np_m8_grayhound_com"
-	("vehicle3"  period(late) cd(0) ci(0) g(wheel3) side(usaf) t(vehicle) crew1(tankman:1) crew2(scout:1) crew3(scout2:1) b(lt) cd2(90) ci2(30) cw(2) cp(-12) 
+	("vehicle3"  period(late) cd(90) ci(10) g(wheel3) side(usaf) t(vehicle) crew1(tankman:1) crew2(scout:1) crew3(scout2:1) b(lt) cw(2) cp(-12) 
 	cost(250))
 }
 {"np_m8_grayhound"
-	("vehicle"  period(late) cd(0)   ci(30)  g(wheel3) side(usaf) t( vehicle)   crew(tankman:3)       b(lt) cd2(0) ci2(30) cw(2) cp(10) 
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel3) side(usaf) t( vehicle)   crew(tankman:3)       b(lt) cw(2) cp(10) 
 	cost(270))
 }
 {"np_m15a1"
-	("vehicle"  period(late) cd(0) ci(0) g(wheel3) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(lt) cd2(90) ci2(30) cw(2) cp(10) 
+	("vehicle"  period(late) cd(90) ci(10) g(wheel3) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(lt) cw(2) cp(10) 
 	cost(300))
 }
 {"np_t12gmc"
-	("vehicle"  period(late) cd(0)  ci(30)  g(wheel3) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(td) cd2(0) ci2(30) cw(2) cp(10) 
+	("vehicle"  period(late) cd(0)  ci(10)  g(wheel3) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(td) cw(2) cp(10) 
 	cost(350))
 }
 {"np_m4halftrack"
-	("vehicle"  period(late) cd(0) ci(0) g(wheel3) side(usaf) t( vehicle mortar)   crew(vehicle_supporter:4)       b(lt) cd2(90) ci2(30) cw(2) cp(15) 
+	("vehicle"  period(late) cd(90) ci(10) g(wheel3) side(usaf) t( vehicle mortar)   crew(vehicle_supporter:4)       b(lt) cw(2) cp(15) 
 	cost(360))
 }
 {"np_t30hmc"
-	("vehicle2" period(late) cd(0) ci(0) t(vehicle) side(usaf) crew1(tankman:1) crew2(vehicle_supporter:3) g(wheel1) b(art) cd2(120) ci2(30) cw(2) cp(15)
+	("vehicle2" period(late) cd(120) ci(10) t(vehicle) side(usaf) crew1(tankman:1) crew2(vehicle_supporter:3) g(wheel1) b(art) cw(2) cp(15)
 	cost(370))
 }
 {"np_t19hmc"
-	("vehicle"  period(late) cd(0)   ci(60)  g(wheel3) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(art) cd2(0) ci2(60) cw(2) cp(25) 
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel3) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(art) cw(2) cp(25) 
 	cost(750))
 }
 {"np_cckw353_2xt27"
-	("vehicle" period(late) cd(0) ci(0) t(  vehicle ) side(usaf) crew(vehicle_supporter:2) g(wheel1) b(art) cd2(120) ci2(30) cw(2) cp(25)
+	("vehicle" period(late) cd(120) ci(10) t(  vehicle ) side(usaf) crew(vehicle_supporter:2) g(wheel1) b(art) cw(2) cp(25)
 	cost(1000))
 }
 
@@ -673,154 +673,154 @@
 ;ARMOURED RECOVERY VEHICLE
 
 {"np_m4hst"
-	("vehicle" period(late) cd(480) ci(60) t( vehicle ) side(usaf) crew(vehicle_supporter:3) g(supply) b(supply) cd2(480) ci2(60) cw(2) cp(10)
+	("vehicle" period(late) cd(480) ci(10) t( vehicle ) side(usaf) crew(vehicle_supporter:3) g(supply) b(supply) cw(2) cp(10)
 	cost(130))
 }
 
 
 ;LIGHT
 {"np_m22"
-	("vehicle2" period(late) cd(0) ci(0) t(light)  side(usaf) crew1(tankman:2) crew2(tankman2:1) g(light2) b(lt) cd2(90) ci2(60)  cw(4) cp(15) 
+	("vehicle2" period(late) cd(90) ci(10) t(light)  side(usaf) crew1(tankman:2) crew2(tankman2:1) g(light2) b(lt) cw(4) cp(15) 
 	cost(270))
 }
 {"np_m3_satan"
-	("vehicle2" period(late) cd(0) ci(0) t(light) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light1) b(lt) cd2(90) ci2(60) cw(4) cp(15)
+	("vehicle2" period(late) cd(90) ci(10) t(light) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light1) b(lt) cw(4) cp(15)
 	cost(290 ))
 }
 {"np_m5a1"
-	("vehicle2" period(late) cd(0)  ci(60) t(  light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light2) b(lt) cd2(0) ci2(60)  cw(4) cp(15) 
+	("vehicle2" period(late) cd(0)  ci(10) t(  light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light2) b(lt) cw(4) cp(15) 
 	cost(310))
 }
 {"np_m24_chaffee"
-	("vehicle2" period(late) cd(0)  ci(60) t(  light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light2) b(lt) cd2(0) ci2(60)  cw(4) cp(15) 
+	("vehicle2" period(late) cd(0)  ci(10) t(  light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light2) b(lt) cw(4) cp(15) 
 	cost(390))
 }
 {"np_m8"
-	("vehicle2" period(late) cd(0)  ci(60) t( light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light5) b(lt) cd2(0) ci2(60)  cw(4) cp(15) 
+	("vehicle2" period(late) cd(0)  ci(10) t( light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light5) b(lt) cw(4) cp(15) 
 	cost(370))
 }
 {"np_lvt4"
-	("vehicle2" period(late) cd(0)  ci(60) t( light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light5) b(lt) cd2(0) ci2(60)  cw(4) cp(15) 
+	("vehicle2" period(late) cd(0)  ci(10) t( light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light5) b(lt) cw(4) cp(15) 
 	cost(450))
 }
 
 ;MEDIUM
 
 {"np_m4a2"
-	("vehicle2" period(late) cd(0) ci(0) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d1) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) cd(480) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d1) b(mt) cw(6) cp(20) 
 	cost(530))
 }
 {"np_m4a3_75"
-	("vehicle2" period(late) cd(360)  ci(60) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium1) b(mt) cd2(360) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) cd(360)  ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium1) b(mt) cw(6) cp(20) 
 	cost(470))
 }
 {"np_m4a3_zippo"
-	("vehicle2" period(late) cd(0) ci(0) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d2) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) cd(480) ci(10) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d2) b(mt) cw(6) cp(20) 
 	cost(530))
 }
 {"np_m4a1_76_w"
-	("vehicle2" period(late) cd(0) ci(0) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d3) b(mt) cd2(480) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) cd(480) ci(10) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d3) b(mt) cw(6) cp(25) 
 	cost(590))
 }
 {"np_m4a1e8"
-	("vehicle2" period(late) cd(0) ci(0) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d4) b(mt) cd2(480) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) cd(480) ci(10) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d4) b(mt) cw(6) cp(25) 
 	cost(660))
 }
 {"np_m4a3_76"
-	("vehicle2" period(late) cd(0) ci(0) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d5) b(mt) cd2(480) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) cd(480) ci(10) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d5) b(mt) cw(6) cp(25) 
 	cost(670))
 }
 {"np_m4a3e8"
-	("vehicle2" period(late) cd(360)  ci(60) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium2) b(mt) cd2(360) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) cd(360)  ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium2) b(mt) cw(6) cp(25) 
 	cost(700))
 }
 {"np_m4a3e8_armor"
-	("vehicle2" period(late) cd(0) ci(0) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d7) b(mt) cd2(480) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) cd(480) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d7) b(mt) cw(6) cp(25) 
 	cost(710))
 }
 {"np_m4a3e8_fury"
-	("vehicle2" period(late) cd(0) ci(0) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d6) b(mt) cd2(480) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) cd(480) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d6) b(mt) cw(6) cp(25) 
 	cost(700))
 }
 {"np_m4_105"
-	("vehicle2" period(late) cd(0) ci(0) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cd2(480) ci2(60) cw(6) cp(30) 
+	("vehicle2" period(late) cd(480) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cw(6) cp(30) 
 	cost(610))
 }
 {"np_m4a3_105"
-	("vehicle2" period(late) cd(360)  ci(60) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cd2(360) ci2(60) cw(6) cp(30) 
+	("vehicle2" period(late) cd(360)  ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cw(6) cp(30) 
 	cost(610))
 }
 {"np_m4a3e2_jumbo"
-	("vehicle2" period(late) cd(720)  ci(60) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d7) b(mt) cd2(720) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) cd(720)  ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d7) b(mt) cw(6) cp(25) 
 	cost(870))
 }
 {"np_m4a3e2_jumbo_76w"
-	("vehicle2" period(late) cd(720)  ci(60) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium5) b(mt) cd2(720) ci2(60) cw(6) cp(30) 
+	("vehicle2" period(late) cd(720)  ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium5) b(mt) cw(6) cp(30) 
 	cost(1100))
 }
 
 
 ;HEAVY
 {"np_m26_pershing"
-	("vehicle2" period(late) cd(0) ci(0) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cd2(720) ci2(60) cw(8) cp(35)
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(35)
 	cost(1200))
 }
 {"np_m26_veteran"
-	("vehicle2" period(late) cd(0) ci(0) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cd2(720) ci2(60) cw(8) cp(35)
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(35)
 	cost(1200))
 }
 {"np_t26e2"
-	("vehicle2" period(late) cd(0) ci(0) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cd2(720) ci2(60) cw(8) cp(40)
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(40)
 	cost(1350))
 }
 {"np_m26e4_pershing"
-	("vehicle2" period(late) cd(0) ci(0) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cd2(720) ci2(60) cw(8) cp(35)
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(35)
 	cost(1600))
 }
 {"np_t26e4"
-	("vehicle2" period(late) cd(0) ci(0) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cd2(720) ci2(60) cw(8) cp(40)
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(40)
 	cost(1700))
 }
 {"np_t29"
-	("vehicle2" period(late) cd(0) ci(0) t(heavy) side(usaf) crew1(tankman:5) crew2(tankman2:1) g(heavy4) b(ht) cd2(720) ci2(60) cw(8) cp(40)
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:5) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(40)
 	cost(2000))
 }
 
 ;SPG
 {"np_m18"
-	("vehicle2" period(late) cd(360) ci(60) t(medium) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(spg1)     b(td) cd2(360) ci2(60) cw(6)  cp(15) 
+	("vehicle2" period(late) cd(360) ci(10) t(medium) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(spg1)     b(td) cw(6)  cp(15) 
 	cost(630))
 }
 {"np_m10wolverine"
-	("vehicle2" period(late) cd(360) ci(60) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg2)     b(td) cd2(360) ci2(60) cw(6)  cp(20) 
+	("vehicle2" period(late) cd(360) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg2)     b(td) cw(6)  cp(20) 
 	cost(640))
 }
 {"np_m18_90"
-	("vehicle2" period(late) cd(0) ci(0) t(medium) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(spg1)     b(td) cd2(600) ci2(60) cw(6)  cp(15) 
+	("vehicle2" period(late) cd(600) ci(10) t(medium) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(spg1)     b(td) cw(6)  cp(15) 
 	cost(800))
 }
 {"np_m36b1"
-	("vehicle2" period(late) cd(0) ci(0) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg4) b(td) cd2(600) ci2(60) cw(6) cp(20)
+	("vehicle2" period(late) cd(600) ci(10) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg4) b(td) cw(6) cp(20)
 	cost(940))
 }
 {"np_m36gmc"
-	("vehicle2" period(late) cd(0) ci(0) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg4)     b(td) cd2(600) ci2(60) cw(6)  cp(30) 
+	("vehicle2" period(late) cd(600) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg4)     b(td) cw(6)  cp(30) 
 	cost(950))
 }
 {"np_m36b2"
-	("vehicle2" period(late) cd(0) ci(0) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg4)     b(td) cd2(600) ci2(60) cw(6)  cp(30) 
+	("vehicle2" period(late) cd(600) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg4)     b(td) cw(6)  cp(30) 
 	cost(1000))
 }
 {"np_m7"
-	("vehicle2" period(late) cd(0) ci(0) t( medium) side(usaf) crew1(tankman:3) crew2(tankman2:1)  g(spg3)     b(art) cd2(720) ci2(60) cw(6)  cp(30) 
+	("vehicle2" period(late) cd(720) ci(10) t( medium) side(usaf) crew1(tankman:3) crew2(tankman2:1)  g(spg3)     b(art) cw(6)  cp(30) 
 	cost(1200))
 }
 {"np_m4a3c"
-	("vehicle2" period(late) cd(0) ci(0) t(medium heavyart) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg6) b(art) cd2(900) ci2(60) cw(6) cp(30) 
+	("vehicle2" period(late) cd(900) ci(10) t(medium heavyart) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg6) b(art) cw(6) cp(30) 
 	cost(1200))
 }
 {"np_m12gmc"
-	("vehicle2" period(late) cd(0) ci(0) t(medium heavyart) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(spg5) b(art) cd2(900) ci2(60) cw(6) cp(35) 
+	("vehicle2" period(late) cd(900) ci(10) t(medium heavyart) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(spg5) b(art) cw(6) cp(35) 
 	cost(1400))
 }
 
@@ -828,14 +828,14 @@
 
 ;Plane
 {"np_b25"
-	("vehicle"  period(late) cd(0) ci(0) t(doctrineonly doc_only) side(usaf) crew(pilot:4) g(spg7) b(doctrine) cd2(0) ci2(0) cw(0) cp(25)
+	("vehicle"  period(late) cd(0) ci(10) t(doctrineonly doc_only) side(usaf) crew(pilot:4) g(spg7) b(doctrine) cw(0) cp(25)
 	cost(2000))
 }
 {"np_p-39"
-	("vehicle"  period(late) cd(0) ci(0) t(doctrineonly doc_only) side(usaf) crew(pilot:1) g(spg8) b(doctrine) cd2(0) ci2(0) cw(0) cp(11)
+	("vehicle"  period(late) cd(0) ci(10) t(doctrineonly doc_only) side(usaf) crew(pilot:1) g(spg8) b(doctrine) cw(0) cp(11)
 	cost(100))
 }
 {"np_skytrain"
-	("vehicle"  period(late) cd(0) ci(0) t(doctrineonly doc_only uk fra pol) side(usaf) crew(pilot:1) g(spg8) b(doctrine) cd2(0) ci2(0) cw(0) cp(11)
+	("vehicle"  period(late) cd(0) ci(10) t(doctrineonly doc_only uk fra pol) side(usaf) crew(pilot:1) g(spg8) b(doctrine) cw(0) cp(11)
 	cost(100))
 }

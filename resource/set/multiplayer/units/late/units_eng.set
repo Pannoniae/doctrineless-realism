@@ -456,10 +456,10 @@
 ("squad_with6types" side(eng) name(squad_stormtrooper_late)  period(late) year(late) cd(240) ci(240) g(squad_6) c1(sturmovik:2) c2(sturmovik3:2) c3(sturmovik2:1) c4(sturmovik2_assist:1) c5(sturmovik4b:3) c6(sturmovik_sl:1)  b(squad) t(infsquad))
 
 {"np_mechanized_infantry"
-	("squad_vehicle6" period(late) year(late) cd(240) ci(180) t(vehicle) side(eng) vehicle(m3a1_halftrack) crew1(rifle2:4) crew2(smg2:2) crew3(mgun:1) crew4(mgun_assist:1) crew5(bazooker:1) crew6(squadleader2:1) g(lightc) b(squad) cd2(90) ci2(180))
+	("squad_vehicle6" period(late) year(late) cd(240) ci(180) t(vehicle) side(eng) vehicle(m3a1_halftrack) crew1(rifle2:4) crew2(smg2:2) crew3(mgun:1) crew4(mgun_assist:1) crew5(bazooker:1) crew6(squadleader2:1) g(lightc) b(squad) )
 }
 {"np_para_infantry"
-	("squad_vehicle5" period(late) year(late) cd(240) ci(420) t(vehicle) side(eng) vehicle(np_skytrain) crew1(pilot:2) crew2(para1st_rfl:4) crew3(para1st_smg:4) crew4(para1st_mg:1) crew5(para1st_assist:1) g(lightc) b(squad) cd2(90) ci2(180))
+	("squad_vehicle5" period(late) year(late) cd(240) ci(420) t(vehicle) side(eng) vehicle(np_skytrain) crew1(pilot:2) crew2(para1st_rfl:4) crew3(para1st_smg:4) crew4(para1st_mg:1) crew5(para1st_assist:1) g(lightc) b(squad) )
 	{tags "limit2"}
 }
 
@@ -498,58 +498,58 @@
 ;|________________________________________________|
 
 {"willys_mb_eng"
-	("vehicle_ss"  period(late) year(late) cd(30) ci(0)  g(wheel0) side(eng) vehicle(willys_mb) t(vehicle)  crew(vehicle_supporter:2)      b(supply) cd2(0) ci2(30) cw(1) cp(2) 
+	("vehicle_ss"  period(late) year(late) cd(30) ci(10)  g(wheel0) side(eng) vehicle(willys_mb) t(vehicle)  crew(vehicle_supporter:2)      b(supply) cw(1) cp(2) 
 	cost(20))
 }
 {"willys_mb_30cal_eng"
-	("vehicle_ss"  period(late) year(late) cd(30) ci(0)  g(wheel0) side(eng) vehicle(willys_mb_30cal) t(vehicle)  crew(vehicle_supporter:2)      b(supply) cd2(0) ci2(30) cw(1) cp(2) 
+	("vehicle_ss"  period(late) year(late) cd(30) ci(10)  g(wheel0) side(eng) vehicle(willys_mb_30cal) t(vehicle)  crew(vehicle_supporter:2)      b(supply) cw(1) cp(2) 
 	cost(120))
 }
 {"np_morris_cs8"
-	("vehicle"  period(late) year(late) cd(30)   ci(30)  g(wheel0) side(eng) t( vehicle)   crew(vehicle_supporter:1)       b(supply) cd2(0) ci2(30) cw(1) cp(2) 
+	("vehicle"  period(late) year(late) cd(30)   ci(10)  g(wheel0) side(eng) t( vehicle)   crew(vehicle_supporter:1)       b(supply) cw(1) cp(2) 
 	cost(15))
 }
 {"np_bedford_ql"
-	("vehicle"  period(late) year(late) cd(30)   ci(30)  g(wheel0) side(eng) t( vehicle)   crew(vehicle_supporter:1)       b(supply) cd2(0) ci2(30) cw(1) cp(2) 
+	("vehicle"  period(late) year(late) cd(30)   ci(10)  g(wheel0) side(eng) t( vehicle)   crew(vehicle_supporter:1)       b(supply) cw(1) cp(2) 
 	cost(20))
 }
 {"np_matador_tr"
-	("vehicle"  period(late) year(late) cd(30) ci(0)  g(wheel0) side(eng) t(vehicle)   crew(vehicle_supporter:1)      b(supply) cd2(0) ci2(30) cw(1) cp(2) 
+	("vehicle"  period(late) year(late) cd(30) ci(10)  g(wheel0) side(eng) t(vehicle)   crew(vehicle_supporter:1)      b(supply) cw(1) cp(2) 
 	cost(20))
 }
 {"np_universal_carrier"
-	("vehicle"  period(late) year(late) cd(180)   ci(30)  g(wheel2) side(eng) t(vehicle)   crew(vehicle_supporter:2)       b(supply) cd2(0) ci2(30) cw(2) cp(8) 
+	("vehicle"  period(late) year(late) cd(180)   ci(10)  g(wheel2) side(eng) t(vehicle)   crew(vehicle_supporter:2)       b(supply) cw(2) cp(8) 
 	cost(140))
 }
 {"np_m3a1_scout_tr"
-	("vehicle"  period(late) year(late) cd(240) ci(30) g(wheel2) side(eng) t(vehicle)   crew(vehicle_supporter:5)   b(supply) cd2(0) ci2(30) cw(2) cp(8) 
+	("vehicle"  period(late) year(late) cd(240) ci(10) g(wheel2) side(eng) t(vehicle)   crew(vehicle_supporter:5)   b(supply) cw(2) cp(8) 
 	cost(150))
 }
 {"np_m3halftrack"
-	("vehicle" period(late) year(late) cd(240) ci(30)  g(wheel1) side(eng) t(vehicle)   crew(tankman:3)       b(supply) cd2(0) ci2(30) cw(2) cp(10) 
+	("vehicle" period(late) year(late) cd(240) ci(10)  g(wheel1) side(eng) t(vehicle)   crew(tankman:3)       b(supply) cw(2) cp(10) 
 	cost(160))
 }
 {"np_matador_fuel"
-	("vehicle"  period(late) year(late) cd(0)  ci(10)  g(supply0) side(eng) t( vehicle supply)  crew(vehicle_supporter:1)      b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	("vehicle"  period(late) year(late) cd(0)  ci(10)  g(supply0) side(eng) t( vehicle supply)  crew(vehicle_supporter:1)      b(supply) cw(1) cp(5) 
 	cost(90))
 }
 {"np_matador_art"
-	("vehicle"  period(late) year(late) cd(0)  ci(10)  g(supply2) side(eng) t( vehicle supply)  crew(vehicle_supporter:2)      b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	("vehicle"  period(late) year(late) cd(0)  ci(10)  g(supply2) side(eng) t( vehicle supply)  crew(vehicle_supporter:2)      b(supply) cw(1) cp(5) 
 	cost(180))
 }
 {"np_matador_eng"
-	("vehicle2"  period(late) year(late) cd(0)  ci(10)  g(supply3) side(eng) t( vehicle supply engtruck)   crew1(vehicle_supporter:1) crew2(saper:1)   b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	("vehicle2"  period(late) year(late) cd(0)  ci(10)  g(supply3) side(eng) t( vehicle supply engtruck)   crew1(vehicle_supporter:1) crew2(saper:1)   b(supply) cw(1) cp(5) 
 	cost(200))
 }
 {"np_humber_com"
-	("vehicle3" period(late) year(late) cd(240) ci(10)  g(wheel1) side(eng) t(vehicle)  crew1(tankman:1) crew2(reco_rifle:1) crew3(reco_nco:1) b(supply) cd2(90) ci2(30) cw(2) cp(-12) 
+	("vehicle3" period(late) year(late) cd(240) ci(10)  g(wheel1) side(eng) t(vehicle)  crew1(tankman:1) crew2(reco_rifle:1) crew3(reco_nco:1) b(supply) cw(2) cp(-12) 
 	cost(230))
 }
 
 ;ARMOURED RECOVERY VEHICLE
 
 {"np_m30kangaroo"
-	("vehicle" period(late) year(late) cd(480) ci(60) t(vehicle) side(eng) crew(vehicle_supporter:2) g(supply) b(supply) cd2(480) ci2(60) cw(2) cp(10)
+	("vehicle" period(late) year(late) cd(480) ci(10) t(vehicle) side(eng) crew(vehicle_supporter:2) g(supply) b(supply) cw(2) cp(10)
 	cost(130 ))
 }
 
@@ -560,88 +560,88 @@
 
 ;AUTOMATIC WEAPONRY
 {"np_303_bren"
-	("vehicle"  period(late) year(late) cd(30) ci(10) t( cannon) side(eng) crew(vehicle_supporter:2) g(empl1) b(support) cd2(0) ci2(30)  cw(2)  cp(5) 
+	("vehicle"  period(late) year(late) cd(30) ci(10) t( cannon) side(eng) crew(vehicle_supporter:2) g(empl1) b(support) cw(2)  cp(5) 
 	cost(85))
 }
 {"np_303_vickers_mkiv_aa"
-	("vehicle" period(late) year(late) cd(30) ci(10) t( cannon) side(eng) crew(vehicle_supporter:2) g(empl2) b(support) cd2(0) ci2(30)  cw(2)  cp(5) 
+	("vehicle" period(late) year(late) cd(30) ci(10) t( cannon) side(eng) crew(vehicle_supporter:2) g(empl2) b(support) cw(2)  cp(5) 
 	cost(105))
 }
 
 ;AA WEAPONRY
 
 {"np_qf40mm_ss"
-	("vehicle_ss" period(late) year(late) cd(360) ci(10) t( cannon) side(eng) vehicle(np_qf40mm) crew(vehicle_supporter:2) g(empl7) b(support) cd2(0) ci2(60)  cw(1) cp(12) 
+	("vehicle_ss" period(late) year(late) cd(360) ci(10) t( cannon) side(eng) vehicle(np_qf40mm) crew(vehicle_supporter:2) g(empl7) b(support) cw(1) cp(12) 
 	cost(270))
 }
 
 
 ; AT WEAPONRY
 {"np_qf2pdr"
-	("vehicle" period(late) year(late) cd(30) ci(10) t( cannon) side(eng) crew(vehicle_supporter:2) g(empl2) b(support) cd2(0) ci2(60)  cw(1) cp(10) 
+	("vehicle" period(late) year(late) cd(30) ci(10) t( cannon) side(eng) crew(vehicle_supporter:2) g(empl2) b(support) cw(1) cp(10) 
 	cost(180))
 }
 {"np_qf6pdr_late"
-	("vehicle" period(late) year(late) cd(300) ci(10)  t( cannon mediumcan) side(eng) crew(vehicle_supporter:4)   g(empl2) b(support) cd2(0) ci2(60)  cw(1) cp(15) 
+	("vehicle" period(late) year(late) cd(300) ci(10)  t( cannon mediumcan) side(eng) crew(vehicle_supporter:4)   g(empl2) b(support) cw(1) cp(15) 
 	cost(320))
 }
 {"np_qf17pdr_42"
-	("vehicle" period(late) year(late) cd(900) ci(10)  t(cannon heavycan) side(eng) crew(vehicle_supporter:4)   g(empl3) b(support) cd2(360) ci2(60)  cw(1) cp(25)
+	("vehicle" period(late) year(late) cd(900) ci(10)  t(cannon heavycan) side(eng) crew(vehicle_supporter:4)   g(empl3) b(support) cw(1) cp(25)
 	cost(600))
 }
 {"np_qf17pdr"
-	("vehicle" period(late) year(late) cd(930) ci(10)  t( cannon heavycan) side(eng) crew(vehicle_supporter:4)   g(empl3) b(support) cd2(0) ci2(60)  cw(1) cp(25) 
+	("vehicle" period(late) year(late) cd(930) ci(10)  t( cannon heavycan) side(eng) crew(vehicle_supporter:4)   g(empl3) b(support) cw(1) cp(25) 
 	cost(650))
 }
 {"np_qf3,7inch_armor"
-	("vehicle" period(late) year(late) cd(870) ci(10) t(heavycan) side(eng) crew(vehicle_supporter:2) g(empl8) b(support) cd2(900) ci2(180)  cw(1) cp(25) 
+	("vehicle" period(late) year(late) cd(900) ci(10) t(heavycan) side(eng) crew(vehicle_supporter:2) g(empl8) b(support) cw(1) cp(25) 
 	cost(750))
 }
 
 ;HOWITZERS
 
 {"np_76mm_mk_ii"
-	("vehicle" period(late) year(late) cd(30)  ci(10) t(mortar) side(eng) crew(vehicle_supporter:2)             g(empl4) b(art) cd2(0) ci2(60)  cw(1) cp(12) 
+	("vehicle" period(late) year(late) cd(30)  ci(10) t(mortar) side(eng) crew(vehicle_supporter:2)             g(empl4) b(art) cw(1) cp(12) 
 	cost(350))
 }
 {"np_107mm_mk_ii"
-	("vehicle"  period(late) year(late) cd(600) ci(10) t(artillery) side(eng) crew(vehicle_supporter:2)    g(empl7) b(art) cd2(900) ci2(30)  cw(1) cp(20) 
+	("vehicle"  period(late) year(late) cd(900) ci(10) t(artillery) side(eng) crew(vehicle_supporter:2)    g(empl7) b(art) cw(1) cp(20) 
 	cost(610))
 }
 {"np_75_mm_m1a1"
-	("vehicle" period(late) year(late) cd(420)  ci(10)  t( cannon mediumcan) side(eng) crew(vehicle_supporter:4)   g(empl5) b(art) cd2(0) ci2(60)  cw(1) cp(15)
+	("vehicle" period(late) year(late) cd(420)  ci(10)  t( cannon mediumcan) side(eng) crew(vehicle_supporter:4)   g(empl5) b(art) cw(1) cp(15)
 	cost(340))
 }
 {"np_qf18pdr"
-	("vehicle" period(late) year(late) cd(420) ci(10) t(cannon mediumcan) side(eng) crew(vehicle_supporter:4) g(empl7) b(art) cd2(60) ci2(30)  cw(1) cp(15) 
+	("vehicle" period(late) year(late) cd(420) ci(10) t(cannon mediumcan) side(eng) crew(vehicle_supporter:4) g(empl7) b(art) cw(1) cp(15) 
 	cost(400))
 }
 {"np_qf25pdr"
-	("vehicle" period(late) year(late) cd(900) ci(10) t( heavyart artillery) side(eng) crew(vehicle_supporter:4) g(empl8) b(art) cd2(900) ci2(180)  cw(1) cp(25) 
+	("vehicle" period(late) year(late) cd(900) ci(10) t( heavyart artillery) side(eng) crew(vehicle_supporter:4) g(empl8) b(art) cw(1) cp(25) 
 	cost(550))
 }
 {"np_bl45"
-	("vehicle"  period(late) year(late) cd(900) ci(10) t(heavyart artillery) side(eng) crew(vehicle_supporter:4) g(empl9) b(art) cd2(1200) ci2(30)  cw(1) cp(30) 
+	("vehicle"  period(late) year(late) cd(1200) ci(10) t(heavyart artillery) side(eng) crew(vehicle_supporter:4) g(empl9) b(art) cw(1) cp(30) 
 	cost(700))
 }
 {"np_bl72"
-	("vehicle"  period(late) year(late) cd(1200) ci(10) t(heavyart artillery) side(eng) crew(vehicle_supporter:6) g(empl9) b(art) cd2(1200) ci2(30)  cw(1) cp(35) 
+	("vehicle"  period(late) year(late) cd(1200) ci(10) t(heavyart artillery) side(eng) crew(vehicle_supporter:6) g(empl9) b(art) cw(1) cp(35) 
 	cost(1350))
 }
 {"np_land_mattress"
-	("vehicle"  period(late) year(late) cd(1200) ci(10) t(heavyart) side(eng) crew(vehicle_supporter:2) g(empl1) b(art) cd2(1200) ci2(30) cw(1) cp(20)
+	("vehicle"  period(late) year(late) cd(1200) ci(10) t(heavyart) side(eng) crew(vehicle_supporter:2) g(empl1) b(art) cw(1) cp(20)
 	cost(1200))
 }
 {"np_universal_mortar_carrier"
-	("vehicle"  period(late) year(late) cd(330)  ci(10) t(vehicle) side(eng)  crew(vehicle_supporter:4)  g(wheel2)  b(art) cd2(90) ci2(30) cw(2) cp(10)
+	("vehicle"  period(late) year(late) cd(330)  ci(10) t(vehicle) side(eng)  crew(vehicle_supporter:4)  g(wheel2)  b(art) cw(2) cp(10)
 	cost(200))
 }
 {"np_sexton"
-	("vehicle2" period(late) year(late) cd(870) ci(10)  t(medium heavyart artillery) side(eng) crew1(tankman:3) crew2(tankman2:1)  g(spg3)     b(art) cd2(900) ci2(60) cw(6)  cp(25) 
+	("vehicle2" period(late) year(late) cd(900) ci(10)  t(medium heavyart artillery) side(eng) crew1(tankman:3) crew2(tankman2:1)  g(spg3)     b(art) cw(6)  cp(25) 
 	cost(800))
 }
 {"np_m7"
-	("vehicle2" period(late) year(late) cd(900) ci(10)  t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1)  g(spg4)     b(art) cd2(720) ci2(60) cw(6)  cp(30) 
+	("vehicle2" period(late) year(late) cd(900) ci(10)  t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1)  g(spg4)     b(art) cw(6)  cp(30) 
 	cost(850))
 }
 
@@ -656,164 +656,164 @@
 
 
 {"np_tetrarch_mk7"
-	("vehicle2"  period(late) year(late) cd(320) ci(10) t(light) side(eng) crew1(tankman:2) crew2(tankman2:1) g(light2) b(lt) cd2(90) ci2(60)  cw(4) cp(10) 
+	("vehicle2"  period(late) year(late) cd(320) ci(10) t(light) side(eng) crew1(tankman:2) crew2(tankman2:1) g(light2) b(lt) cw(4) cp(10) 
 	cost(240))
 }
 {"np_dingo"
-	("vehicle"  period(late) year(late) cd(320)   ci(10)  g(wheel2) side(eng) t( vehicle)   crew(vehicle_supporter:2)       b(lt) cd2(0) ci2(30) cw(2) cp(8) 
+	("vehicle"  period(late) year(late) cd(320)   ci(10)  g(wheel2) side(eng) t( vehicle)   crew(vehicle_supporter:2)       b(lt) cw(2) cp(8) 
 	cost(140))
 }
 {"np_humber"
-	("vehicle" period(late) year(late) cd(390)   ci(10)  g(wheel1) side(eng) t( vehicle)   crew(tankman:3)       b(lt) cd2(0) ci2(30) cw(2) cp(10) 
+	("vehicle" period(late) year(late) cd(390)   ci(10)  g(wheel1) side(eng) t( vehicle)   crew(tankman:3)       b(lt) cw(2) cp(10) 
 	cost(220))
 }
 
 {"np_aec_aa"
-	("vehicle" period(late) year(late) cd(420) ci(10)  g(wheel1) side(eng) t(vehicle) crew1(tankman:3) crew2(tankman2:1) b(lt) cd2(90) ci2(30) cw(2) cp(10) 
+	("vehicle" period(late) year(late) cd(420) ci(10)  g(wheel1) side(eng) t(vehicle) crew1(tankman:3) crew2(tankman2:1) b(lt) cw(2) cp(10) 
 	cost(230))
 }
 {"np_mk2daimler"
-	("vehicle" period(late) year(late) cd(420)   ci(10)  g(wheel2) side(eng) t( vehicle)   crew(tankman:3)       b(lt) cd2(0) ci2(30) cw(2) cp(10) 
+	("vehicle" period(late) year(late) cd(420)   ci(10)  g(wheel2) side(eng) t( vehicle)   crew(tankman:3)       b(lt) cw(2) cp(10) 
 	cost(270))
 }
 {"np_staghound"
-	("vehicle2" period(late) year(late) cd(420) ci(10) t(vehicle) side(eng)  crew1(tankman:3) crew2(tankman2:1) g(wheel3)  b(lt) cd2(90) ci2(30) cw(2) cp(10) 
+	("vehicle2" period(late) year(late) cd(420) ci(10) t(vehicle) side(eng)  crew1(tankman:3) crew2(tankman2:1) g(wheel3)  b(lt) cw(2) cp(10) 
 	cost(280))
 }
 {"np_humber_mk4"
-	("vehicle2" period(late) year(late) cd(450) ci(10) t(vehicle) side(eng) crew1(tankman:2) crew2(tankman2:1) g(wheel1) b(lt) cd2(90) ci2(30) cw(2) cp(10)
+	("vehicle2" period(late) year(late) cd(450) ci(10) t(vehicle) side(eng) crew1(tankman:2) crew2(tankman2:1) g(wheel1) b(lt) cw(2) cp(10)
 	cost(300))
 }
 {"np_aec_mk2"
-	("vehicle" period(late) year(late) cd(480) ci(10)  t(vehicle)  side(eng) crew(tankman:4)   g(wheel3)  b(lt) cd2(90) ci2(30) cw(2) cp(10) 
+	("vehicle" period(late) year(late) cd(480) ci(10)  t(vehicle)  side(eng) crew(tankman:4)   g(wheel3)  b(lt) cw(2) cp(10) 
 	cost(320))
 }
 {"np_staghound_mk3"
-	("vehicle2" period(late) year(late) cd(480) ci(10) t(vehicle) side(eng)  crew1(tankman:3) crew2(tankman2:1) g(wheel3)  b(lt) cd2(90) ci2(30) cw(2) cp(10)
+	("vehicle2" period(late) year(late) cd(480) ci(10) t(vehicle) side(eng)  crew1(tankman:3) crew2(tankman2:1) g(wheel3)  b(lt) cw(2) cp(10)
 	cost(350))
 }
 {"np_aec_mk3"
-	("vehicle" period(late) year(late) cd(480) ci(10)  t(vehicle) side(eng)  crew(tankman:4)  g(wheel3) b(lt) cd2(90) ci2(30) cw(2) cp(15) 
+	("vehicle" period(late) year(late) cd(480) ci(10)  t(vehicle) side(eng)  crew(tankman:4)  g(wheel3) b(lt) cw(2) cp(15) 
 	cost(360))
 }
 {"np_crusader_aa2"
-	("vehicle2" period(late) year(late) cd(420)  ci(10) t(light)  side(eng) crew1(tankman:3) crew2(tankman2:1) g(light2) b(lt) cd2(0) ci2(60)  cw(4) cp(15) 
+	("vehicle2" period(late) year(late) cd(420)  ci(10) t(light)  side(eng) crew1(tankman:3) crew2(tankman2:1) g(light2) b(lt) cw(4) cp(15) 
 	cost(300))
 }
 {"np_crusader_aa1"
-	("vehicle2" period(late) year(late) cd(450) ci(10) t(light) side(eng) crew1(tankman:3) crew2(tankman2:1) g(light1) b(lt) cd2(90) ci2(60) cw(4) cp(15)
+	("vehicle2" period(late) year(late) cd(450) ci(10) t(light) side(eng) crew1(tankman:3) crew2(tankman2:1) g(light1) b(lt) cw(4) cp(15)
 	cost(340 ))
 }
 
 
 ;MEDIUM
 {"np_crusader_mkii"
-	("vehicle2" period(late) year(late) cd(450) ci(10) t(light)  side(eng) crew1(tankman:3) crew2(tankman2:1) g(light2) b(mt) cd2(90) ci2(60)  cw(4) cp(15) 
+	("vehicle2" period(late) year(late) cd(450) ci(10) t(light)  side(eng) crew1(tankman:3) crew2(tankman2:1) g(light2) b(mt) cw(4) cp(15) 
 	cost(300))
 }
 {"np_crusader_mk6"
-	("vehicle2" period(late) year(late) cd(450)  ci(10) t(light)  side(eng) crew1(tankman:3) crew2(tankman2:1) g(light5) b(mt) cd2(0) ci2(60)  cw(4) cp(15) 
+	("vehicle2" period(late) year(late) cd(450)  ci(10) t(light)  side(eng) crew1(tankman:3) crew2(tankman2:1) g(light5) b(mt) cw(4) cp(15) 
 	cost(360))
 }
 {"np_matilda_mkii"
-	("vehicle2" period(mid) year(mid) cd(480)  ci(10) t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(medium2) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(mid) year(mid) cd(480)  ci(10) t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(medium2) b(mt) cw(6) cp(20) 
 	cost(380))
 }
 {"np_valentine_mkix"
-	("vehicle2" period(late) year(late) cd(480) ci(10) t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(480) ci(10) t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cw(6) cp(20) 
 	cost(420))
 }
 {"np_valentine_mkxi"
-	("vehicle2" period(late) year(late) cd(480) ci(10) t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(480) ci(10) t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cw(6) cp(20) 
 	cost(450))
 }
 {"np_cromwell_mk_i"
-	("vehicle2" period(late) year(late) cd(510)  ci(10) t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(medium5) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(510)  ci(10) t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(medium5) b(mt) cw(6) cp(20) 
 	cost(400))
 }
 {"np_cromwell_mk_iv"
-	("vehicle2" period(late) year(late) cd(600)  ci(10) t( medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(600)  ci(10) t( medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(20) 
 	cost(420))
 }
 {"np_cromwell_mk_vi"
-	("vehicle2" period(late) year(late) cd(600)  ci(10) t( medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cd2(480) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) year(late) cd(600)  ci(10) t( medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(25) 
 	cost(450))
 }
 {"np_cromwell_mk_iv_rl" ;+80
-	("vehicle2" period(late) year(late) cd(660) ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(660) ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(20) 
 	cost(530))
 }
 {"np_cromwell_75hv"
-	("vehicle2" period(late) year(late) cd(660)  ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cd2(0) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(660)  ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cw(6) cp(20) 
 	cost(500))
 }
 
 {"np_m4a4"
-	("vehicle2" period(late) year(late) cd(600)  ci(10) t( medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(600)  ci(10) t( medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(20) 
 	cost(450))
 }
 {"np_m4a4_tulip" ;+70
-	("vehicle2" period(late) year(late) cd(720) ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(720) ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(20) 
 	cost(550))
 }
 {"m4a1_76w"
-	("vehicle2" period(late) year(late) cd(900) ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium1) b(mt) cd2(480) ci2(60) cw(6) cp(20)
+	("vehicle2" period(late) year(late) cd(900) ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium1) b(mt) cw(6) cp(20)
 	cost(590))
 }
 {"np_comet_a34"
-	("vehicle2" period(late) year(late) cd(1020)  ci(10) t( medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cd2(480) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) year(late) cd(1020)  ci(10) t( medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(25) 
 	cost(750))
 }
 {"np_challenger_a30"
-	("vehicle2" period(late) year(late) cd(1080) ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium1) b(mt) cd2(480) ci2(60) cw(6) cp(25)
+	("vehicle2" period(late) year(late) cd(1080) ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium1) b(mt) cw(6) cp(25)
 	cost(800))
 }
 {"np_m4a4_firefly"
-	("vehicle2" period(late) year(late) cd(1200)  ci(10) t( medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cd2(480) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) year(late) cd(1200)  ci(10) t( medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(25) 
 	cost(800))
 }
 {"np_m4a4_firefly_tulip"
-	("vehicle2" period(late) year(late) cd(1320) ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cd2(480) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) year(late) cd(1320) ci(10) t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(25) 
 	cost(900))
 }
 
 ;HEAVY
 {"np_churchill_mk_ix"
-	("vehicle2" period(late) year(late) cd(660) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cd2(720) ci2(60) cw(8) cp(20) 
+	("vehicle2" period(late) year(late) cd(720) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cw(8) cp(20) 
 	cost(650))
 }
 {"np_churchill_mk_vii"
-	("vehicle2" period(late) year(late) cd(990)  ci(10) t( heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy3) b(ht) cd2(480) ci2(60) cw(8) cp(30) 
+	("vehicle2" period(late) year(late) cd(990)  ci(10) t( heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy3) b(ht) cw(8) cp(30) 
 	cost(800))
 }
 {"np_churchill_mk_viii"
-	("vehicle2" period(late) year(late) cd(990) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cd2(720) ci2(60) cw(8) cp(30)
+	("vehicle2" period(late) year(late) cd(990) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cw(8) cp(30)
 	cost(800))
 }
 {"np_churchill_crocodile"
-	("vehicle2" period(late) year(late) cd(1050) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cd2(720) ci2(60) cw(8) cp(30)
+	("vehicle2" period(late) year(late) cd(1050) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cw(8) cp(30)
 	cost(850))
 }
 {"np_churchill_avre"
-	("vehicle2" period(late) year(late) cd(1020) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy2) b(ht) cd2(720) ci2(60) cw(8) cp(30) 
+	("vehicle2" period(late) year(late) cd(1020) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy2) b(ht) cw(8) cp(30) 
 	cost(700))
 }
 {"np_black_prince"
-	("vehicle2" period(late) year(late) cd(1450) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cd2(720) ci2(60) cw(8) cp(35)
+	("vehicle2" period(late) year(late) cd(1450) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cw(8) cp(35)
 	cost(1150))
 }
 {"np_tog2"
-	("vehicle2" period(late) year(late) cd(1620) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cd2(720) ci2(60) cw(8) cp(35)
+	("vehicle2" period(late) year(late) cd(1620) ci(10) t(heavy) side(eng) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cw(8) cp(35)
 	cost(1250))
 }
 
 ;SPG
 {"np_archer"
-	("vehicle2" period(late) year(late) cd(480)  ci(60)  t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(spg1)   b(td) cd2(480) ci2(60) cw(6)  cp(25) 
+	("vehicle2" period(late) year(late) cd(480)  ci(10)  t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(spg1)   b(td) cw(6)  cp(25) 
 	cost(750))
 }
 {"np_achilles"
-	("vehicle2" period(late) year(late) cd(480)  ci(60)  t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(spg2)     b(td) cd2(480) ci2(60) cw(6)  cp(25) 
+	("vehicle2" period(late) year(late) cd(480)  ci(10)  t(medium) side(eng) crew1(tankman:4) crew2(tankman2:1) g(spg2)     b(td) cw(6)  cp(25) 
 	cost(800))
 }
 
@@ -821,10 +821,10 @@
 
 ;Plane
 {"np_beaufighter"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(doctrineonly doc_only) side(eng) crew(pilot:1) g(spg7) b(doctrine) cd2(0) ci2(0) cw(0) cp(25)
+	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly doc_only) side(eng) crew(pilot:1) g(spg7) b(doctrine) cw(0) cp(25)
 	cost(2000))
 }
 {"np_flitfire"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(doctrineonly doc_only) side(eng) crew(pilot:1) g(spg8) b(doctrine) cd2(0) ci2(0) cw(0) cp(11)
+	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly doc_only) side(eng) crew(pilot:1) g(spg8) b(doctrine) cw(0) cp(11)
 	cost(100))
 }

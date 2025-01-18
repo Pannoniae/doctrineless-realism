@@ -379,16 +379,16 @@
 ;|             inf1                               |
 ;|________________________________________________|
 
-("squad_with2types" side(jap) name(squad_light)				period(late) year(late) cd(0) ci(30)  g(squad_1) c1(rifle:9) c2(squadleader:1) b(squad) cd2(0) ci2(30) t( infsquad ) level(1) research_stage(1))
-("squad_with5types" side(jap) name(squad_regular)			period(late) year(late) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(smg2:1) c3(mgun:1) c4(mgun_assist:1) c5(squadleader:1) b(squad) cd2(0) ci2(0) t( infsquad ) level(1) research_stage(1))
-("squad_with4types" side(jap) name(squad_regular_heavy)		period(late) year(late) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(gr_launcher:2) c3(mgun:1) c4(mgun_assist:1) b(squad) cd2(0) ci2(0) t(  infsquad ) level(1) research_stage(1))
-("squad_with6types" side(jap) name(squad_pionier)			period(late) year(late) cd(120) ci(120) g(squad_3) c1(elite:4) c2(elite2:1) c3(elite4:2) c4(elite3:1) c5(elite3_assist:1) c6(elite_sl:1)  b(squad) cd2(120) ci2(120) t( infsquad ) level(1) research_stage(2))
-("squad_with5types" side(jap) name(squad_stormtrooper)  	period(late) year(late) cd(240) ci(240) g(squad_4) c1(sturmovik:5) c2(sturmovik3:2) c3(sturmovik2:1) c4(sturmovik2_assist:1) c5(sturmovik_sl:1)  b(squad) cd2(240) ci2(240) t( infsquad ) level(1) research_stage(4))
+("squad_with2types" side(jap) name(squad_light)				period(late) year(late) cd(0) ci(30)  g(squad_1) c1(rifle:9) c2(squadleader:1) b(squad) t( infsquad ) level(1) research_stage(1))
+("squad_with5types" side(jap) name(squad_regular)			period(late) year(late) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(smg2:1) c3(mgun:1) c4(mgun_assist:1) c5(squadleader:1) b(squad) t( infsquad ) level(1) research_stage(1))
+("squad_with4types" side(jap) name(squad_regular_heavy)		period(late) year(late) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(gr_launcher:2) c3(mgun:1) c4(mgun_assist:1) b(squad) t(  infsquad ) level(1) research_stage(1))
+("squad_with6types" side(jap) name(squad_pionier)			period(late) year(late) cd(120) ci(120) g(squad_3) c1(elite:4) c2(elite2:1) c3(elite4:2) c4(elite3:1) c5(elite3_assist:1) c6(elite_sl:1)  b(squad) t( infsquad ) level(1) research_stage(2))
+("squad_with5types" side(jap) name(squad_stormtrooper)  	period(late) year(late) cd(240) ci(240) g(squad_4) c1(sturmovik:5) c2(sturmovik3:2) c3(sturmovik2:1) c4(sturmovik2_assist:1) c5(sturmovik_sl:1)  b(squad) t( infsquad ) level(1) research_stage(4))
 {"mechanized_infantry_jap"
-	("squad_vehicle6" period(late) year(late) cd(90) ci(180) t(infsquad) side(jap) vehicle(type1_ho-ki_mg) crew1(rifle2:3) crew2(smg2:3) crew3(mgun:1) crew4(mgun_assist:1) crew5(rifle_grenade:1) crew6(bazooker:1) g(lightc) b(squad) cd2(90) ci2(180))
+	("squad_vehicle6" period(late) year(late) cd(90) ci(180) t(infsquad) side(jap) vehicle(type1_ho-ki_mg) crew1(rifle2:3) crew2(smg2:3) crew3(mgun:1) crew4(mgun_assist:1) crew5(rifle_grenade:1) crew6(bazooker:1) g(lightc) b(squad) )
 }
 {"para_infantry_jap"
-	("squad_vehicle5" period(late) year(late) cd(90) ci(180) t(vehicle) side(jap) vehicle(l2d3) crew1(pilot:2) crew2(elite:4) crew3(elite2:4) crew4(elite3:1) crew5(elite3_assist:1) g(lightc) b(squad) cd2(90) ci2(180))
+	("squad_vehicle5" period(late) year(late) cd(90) ci(180) t(vehicle) side(jap) vehicle(l2d3) crew1(pilot:2) crew2(elite:4) crew3(elite2:4) crew4(elite3:1) crew5(elite3_assist:1) g(lightc) b(squad) )
 	{tags "limit2"}
 }
 
@@ -396,22 +396,23 @@
 ;|             inf2                               |
 ;|________________________________________________|
 
-("squad_with2types" side(jap) name(single_auxiliary)    period(late) year(late) cd(0)   ci(5)   g(single_rifle)   c1(rifle2:1) c2(smg2:1)    b(single) cd2(0) ci2(5) t( infsquad )           level(1) research_stage(1))
-("squad_with2types" side(jap) name(single_mg)           period(late) year(late) cd(0)   ci(60)  g(single_mg)  c1(mgun:1) c2(mgun_assist:1)     b(single) cd2(0) ci2(60) t( infsquad )           level(1) research_stage(1))
-("squad_with2types" side(jap) name(single_at)           period(late) year(late) cd(0)   ci(0)  g(single_at)   c1(at_rifle:1) c2(at_rifle2:1)  b(single) cd2(0) ci2(0) t( at_squad )           level(1) research_stage(1))
-("squad_with2types" side(jap) name(single_riflegrenade) period(late) year(late) cd(0)   ci(20)  g(single_at)   c1(rifle_grenade:1) c2(at_rifle2:1)  b(single) cd2(0) ci2(20) t( infsquad )           level(1) research_stage(1))
-("squad_with2types" side(jap) name(single_mortar)		period(late) year(late) cd(0)   ci(20)  g(single_mortar)   c1(gr_launcher:1) c2(at_rifle2:1)  b(single) cd2(0) ci2(20) t( infmortar )           level(1) research_stage(1))
-("squad_with2types" side(jap) name(single_bazooker)		period(late) year(late) cd(0)   ci(20)  g(single_at)   c1(bazooker:1) c2(bazooker2:1)  b(single) cd2(0) ci2(20) t( at_squad )           level(1) research_stage(1))
-("squad_with2types" side(jap) name(single_tankman)      period(late) year(late) cd(0)   ci(20)  g(single_crew) c1(tankman2:1) c2(tankman:3) b(single) cd2(0) ci2(20) t( tankcrew )           level(1) research_stage(1))
-("squad_with1types" side(jap) name(single_ap_miner)     period(late) year(late) cd(60)  ci(60)  g(single_apmine)   c1(ap_miner:3)                 b(single) cd2(60) ci2(60) t( engineer miner)  level(1) research_stage(2))
-("squad_with1types" side(jap) name(single_at_miner)     period(late) year(late) cd(60)  ci(60)  g(single_atmine)   c1(at_miner:3)                 b(single) cd2(60) ci2(60) t( engineer miner)  level(1) research_stage(2))
-("squad_with1types" side(jap) name(single_engineer)     period(late) year(late) cd(60)  ci(60)  g(single_eng)   c1(saper:2) b(single) cd2(60) ci2(60) t( engineer builder)  level(1) research_stage(2))
-("squad_with1types" side(jap) name(single_medic)        period(late) year(late) cd(0)   ci(20) g(single_medic)   c1(medic:1)                      b(single) cd2(0) ci2(20) t( medic )     level(1) research_stage(1))
-("squad_with1types" side(jap) name(single_flamer)       period(late) year(late) cd(60) ci(120) g(single_flamer)  c1(flamer:1)                    b(single) cd2(60) ci2(120) t( flamer )    level(1) research_stage(3))
-("squad_with1types" side(jap) name(single_sniper)       period(late) year(late) cd(120) ci(180) g(single_sniper) c1(sniper:1)                     b(single) cd2(120) ci2(180) t( sniper )    level(1) research_stage(3))
-("squad_with1types" side(jap) name(single_officer)      period(late) year(late) cd(120) ci(180) g(single_officer)  c1(officer:1)                  b(single) cd2(120) ci2(180) t( officer )   level(1) research_stage(2))
+("squad_with2types" side(jap) name(single_auxiliary)    period(late) year(late) cd(0)   ci(5)   g(single_rifle)   c1(rifle2:1) c2(smg2:1)    b(single) t( infsquad )           level(1) research_stage(1))
+("squad_with2types" side(jap) name(single_mg)           period(late) year(late) cd(0)   ci(60)  g(single_mg)  c1(mgun:1) c2(mgun_assist:1)     b(single) t( infsquad )           level(1) research_stage(1))
+("squad_with2types" side(jap) name(single_at)           period(late) year(late) cd(0)   ci(0)  g(single_at)   c1(at_rifle:1) c2(at_rifle2:1)  b(single) t( at_squad )           level(1) research_stage(1))
+("squad_with2types" side(jap) name(single_riflegrenade) period(late) year(late) cd(0)   ci(20)  g(single_at)   c1(rifle_grenade:1) c2(at_rifle2:1)  b(single) t( infsquad )           level(1) research_stage(1))
+("squad_with2types" side(jap) name(single_mortar)		period(late) year(late) cd(0)   ci(20)  g(single_mortar)   c1(gr_launcher:1) c2(at_rifle2:1)  b(single) t( infmortar )           level(1) research_stage(1))
+("squad_with1types" side(jap) name(doctrine_squad_kamikaze_late) period(late) year(late) cd(0)  ci(0) c1(kamikaze:4) t(infsquad))
+("squad_with2types" side(jap) name(single_bazooker)		period(late) year(late) cd(0)   ci(20)  g(single_at)   c1(bazooker:1) c2(bazooker2:1)  b(single) t( at_squad )           level(1) research_stage(1))
+("squad_with2types" side(jap) name(single_tankman)      period(late) year(late) cd(0)   ci(20)  g(single_crew) c1(tankman2:1) c2(tankman:3) b(single) t( tankcrew )           level(1) research_stage(1))
+("squad_with1types" side(jap) name(single_ap_miner)     period(late) year(late) cd(60)  ci(60)  g(single_apmine)   c1(ap_miner:3)                 b(single) t( engineer miner)  level(1) research_stage(2))
+("squad_with1types" side(jap) name(single_at_miner)     period(late) year(late) cd(60)  ci(60)  g(single_atmine)   c1(at_miner:3)                 b(single) t( engineer miner)  level(1) research_stage(2))
+("squad_with1types" side(jap) name(single_engineer)     period(late) year(late) cd(60)  ci(60)  g(single_eng)   c1(saper:2) b(single) t( engineer builder)  level(1) research_stage(2))
+("squad_with1types" side(jap) name(single_medic)        period(late) year(late) cd(0)   ci(20) g(single_medic)   c1(medic:1)                      b(single) t( medic )     level(1) research_stage(1))
+("squad_with1types" side(jap) name(single_flamer)       period(late) year(late) cd(60) ci(120) g(single_flamer)  c1(flamer:1)                    b(single) t( flamer )    level(1) research_stage(3))
+("squad_with1types" side(jap) name(single_sniper)       period(late) year(late) cd(120) ci(180) g(single_sniper) c1(sniper:1)                     b(single) t( sniper )    level(1) research_stage(3))
+("squad_with1types" side(jap) name(single_officer)      period(late) year(late) cd(120) ci(180) g(single_officer)  c1(officer:1)                  b(single) t( officer )   level(1) research_stage(2))
 {"inf_crate_jap"
-	("vehicle" period(late) year(late) cd(0) ci(30)   t(supply) side(jap) crew(rifle:2)             g(supplybox) b(supply) cd2(0) ci2(30)  cw(0)  cp(0) 
+	("vehicle" period(late) year(late) cd(0) ci(10)   t(supply) side(jap) crew(rifle:2)             g(supplybox) b(supply) cw(0)  cp(0) 
 	cost(50))
 	{doctrine "late_jap_allround"}
 }  
@@ -421,83 +422,83 @@
 
 ;AUTOMATIC WEAPONRY
 {"type92_stan"
-	("vehicle" period(late) year(late) cd(0) ci(30) t(cannon) side(jap) crew(vehicle_supporter:2) g(empl1) b(support) cd2(0) ci2(30)  cw(2)  cp(5) 
+	("vehicle" period(late) year(late) cd(0) ci(10) t(cannon) side(jap) crew(vehicle_supporter:2) g(empl1) b(support) cw(2)  cp(5) 
 	cost(90))
 }
 {"7_7mm_type92_lewis"
-	("vehicle" period(late) year(late) cd(0) ci(30) t(cannon) side(jap) crew(vehicle_supporter:2) g(empl2) b(support) cd2(0) ci2(30)  cw(2)  cp(5) 
+	("vehicle" period(late) year(late) cd(0) ci(10) t(cannon) side(jap) crew(vehicle_supporter:2) g(empl2) b(support) cw(2)  cp(5) 
 	cost(95))
 }
 {"20mm_type_2"
-	("vehicle" period(late) year(late) cd(0) ci(60) t(cannon) side(jap) crew(vehicle_supporter:2) g(empl3) b(support) cd2(0) ci2(60)  cw(1) cp(8) 
+	("vehicle" period(late) year(late) cd(150) ci(10) t(cannon) side(jap) crew(vehicle_supporter:2) g(empl3) b(support) cw(1) cp(8) 
 	cost(190))
 }
 {"40mm_type5_aa"
-	("vehicle" period(late) year(late) cd(0) ci(0) t(  cannon ) side(jap)  crew(vehicle_supporter:2) g(empl4) b(support) cd2(0) ci2(60) cw(1) cp(12)
+	("vehicle" period(late) year(late) cd(240) ci(10) t(cannon) side(jap)  crew(vehicle_supporter:2) g(empl4) b(support) cw(1) cp(12)
 	cost(270 ))
 }
 
 ; AT WEAPONRY
 {"20mm_type_97"
-	("vehicle" period(late) year(late) cd(0) ci(60)  t(cannon) side(jap) crew(vehicle_supporter:2)  g(empl1) b(support) cd2(0) ci2(60)  cw(2) cp(5) 
+	("vehicle" period(late) year(late) cd(0) ci(10)  t(cannon) side(jap) crew(vehicle_supporter:2)  g(empl1) b(support) cw(2) cp(5) 
 	cost(150))
 }
 {"47mm_type_1"
-	("vehicle" period(late) year(late) cd(0) ci(60)  t(cannon) side(jap) crew(vehicle_supporter:4)   g(empl4) b(support) cd2(0) ci2(60)  cw(1) cp(10) 
+	("vehicle" period(late) year(late) cd(0) ci(10)  t(cannon) side(jap) crew(vehicle_supporter:4)   g(empl4) b(support) cw(1) cp(10) 
 	cost(200))
 }
 {"75mm_type_88"
-	("vehicle" period(late) year(late) cd(0) ci(60) t(cannon mediumcan) side(jap) crew(vehicle_supporter:4)   g(empl5) b(support) cd2(0) ci2(60)  cw(1) cp(15) 
+	("vehicle" period(late) year(late) cd(300) ci(10) t(cannon mediumcan) side(jap) crew(vehicle_supporter:4)   g(empl5) b(support) cw(1) cp(15) 
 	cost(330))
 }
 {"75mm_type_90"
-	("vehicle" period(late) year(late) cd(0) ci(60) t(cannon mediumcan) side(jap) crew(vehicle_supporter:4)   g(empl6) b(support) cd2(0) ci2(60)  cw(1) cp(15) 
+	("vehicle" period(late) year(late) cd(360) ci(10) t(cannon mediumcan) side(jap) crew(vehicle_supporter:4)   g(empl6) b(support) cw(1) cp(15) 
 	cost(340))
 }
 {"75mm_type_4"
-	("vehicle" period(late) year(late) cd(0) ci(60) t(cannon mediumcan) side(jap) crew(vehicle_supporter:2)   g(empl7) b(support) cd2(0) ci2(60)  cw(1) cp(20) 
+	("vehicle" period(late) year(late) cd(420) ci(10) t(cannon mediumcan) side(jap) crew(vehicle_supporter:2)   g(empl7) b(support) cw(1) cp(20) 
 	cost(510))
 }
 {"88mm_type_99"
-	("vehicle" period(late) year(late) cd(0) ci(0) t(cannon heavycan) side(jap) crew(vehicle_supporter:4)   g(empl7) b(support) cd2(360) ci2(60)  cw(1) cp(20) 
+	("vehicle" period(late) year(late) cd(1080) ci(10) t(cannon heavycan) side(jap) crew(vehicle_supporter:4)   g(empl7) b(support) cw(1) cp(20) 
 	cost(550))
 }
 
 ;HOWITZERS
 {"81mm_brandt_jap"
-	("vehicle" period(late) year(late) cd(0)  ci(60) t(mortar) side(jap) crew(vehicle_supporter:2)             g(empl9) b(art) cd2(0) ci2(60)  cw(1) cp(12) 
+	("vehicle" period(late) year(late) cd(30)  ci(10) t(mortar) side(jap) crew(vehicle_supporter:2)             g(empl9) b(art) cw(1) cp(12) 
 	cost(250))
 }
 {"70mm_type_92"
-	("vehicle" period(late) year(late) cd(0) ci(0)  t(artillery) side(jap) crew(vehicle_supporter:4)   g(empl5) b(art) cd2(900) ci2(30)  cw(1) cp(15)
+	("vehicle" period(late) year(late) cd(900) ci(10)  t(artillery) side(jap) crew(vehicle_supporter:4)   g(empl5) b(art) cw(1) cp(15)
 	cost(300))
 }
 {"75mm_type_41"
-	("vehicle" period(late) year(late) cd(0) ci(60)  t(cannon mediumcan) side(jap) crew(vehicle_supporter:4)   g(empl8) b(art) cd2(0) ci2(60)  cw(1) cp(15)
+	("vehicle" period(late) year(late) cd(420) ci(10)  t(cannon mediumcan) side(jap) crew(vehicle_supporter:4)   g(empl8) b(art) cw(1) cp(15)
 	cost(320))
 }
 {"150mm_type_97"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(artillery) side(jap) crew(vehicle_supporter:2)             g(empl10) b(art) cd2(900) ci2(30)  cw(1) cp(20) 
+	("vehicle"  period(late) year(late) cd(900) ci(10) t(artillery) side(jap) crew(vehicle_supporter:2)             g(empl10) b(art) cw(1) cp(20) 
 	cost(420))
 }
 {"200mm_type_4"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(heavyart artillery) side(jap) crew(vehicle_supporter:2)  g(empl10) b(art) cd2(1200) ci2(30)  cw(1) cp(15) 
+	("vehicle"  period(late) year(late) cd(1200) ci(10) t(heavyart artillery) side(jap) crew(vehicle_supporter:2)  g(empl10) b(art) cw(1) cp(15) 
 	cost(600))
 }
 {"105mm_type_91"
-	("vehicle"  period(late) year(late) cd(900) ci(180) t(heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl12) b(art) cd2(900) ci2(180)  cw(1) cp(25) 
+	("vehicle"  period(late) year(late) cd(900) ci(10) t(heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl12) b(art) cw(1) cp(25) 
 	cost(750))
 }
 {"105mm_type_92"
-	("vehicle"  period(late) year(late) cd(900) ci(180) t(heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl11) b(art) cd2(900) ci2(180)  cw(1) cp(25) 
+	("vehicle"  period(late) year(late) cd(900) ci(10) t(heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl11) b(art) cw(1) cp(25) 
 	cost(850))
 }
 {"120mm_type_38"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl11) b(art) cd2(1200) ci2(30)  cw(1) cp(25) 
+	("vehicle"  period(late) year(late) cd(1200) ci(10) t(heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl11) b(art) cw(1) cp(25) 
 	cost(900))
 }
 {"150mm_type_96"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl12) b(art) cd2(1200) ci2(30)  cw(1) cp(30) 
+	("vehicle"  period(late) year(late) cd(1200) ci(10) t(heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl12) b(art) cw(1) cp(30) 
 	cost(920))
 }
 
@@ -506,55 +507,55 @@
 ;|________________________________________________|
 
 {"type94"
-	("vehicle"  period(late) year(late) cd(0)   ci(30)  g(supply1) side(jap) t(vehicle)   crew(vehicle_supporter:1)       b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	("vehicle"  period(late) year(late) cd(0)   ci(10)  g(supply1) side(jap) t(vehicle)   crew(vehicle_supporter:1)       b(supply) cw(1) cp(5) 
 	cost(20))
 }
 {"type94_fuel"
-	("vehicle"  period(late) year(late) cd(0)   ci(30)  g(supply1) side(jap) t(vehicle supply)   crew(vehicle_supporter:2)       b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	("vehicle"  period(late) year(late) cd(0)   ci(10)  g(supply1) side(jap) t(vehicle supply)   crew(vehicle_supporter:2)       b(supply) cw(1) cp(5) 
 	cost(90))
 }
 {"type94eng"
-	("vehicle2"  period(late) year(late) cd(0)  ci(30)  g(supply3) side(jap) t(vehicle supply engtruck)  crew1(vehicle_supporter:1) crew2(saper:1)  b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	("vehicle2"  period(late) year(late) cd(0)  ci(10)  g(supply3) side(jap) t(vehicle supply engtruck)  crew1(vehicle_supporter:1) crew2(saper:1)  b(supply) cw(1) cp(5) 
 	cost(100))
 }
 {"type94art"
-	("vehicle"  period(late) year(late) cd(0)  ci(30)  g(supply2) side(jap) t(vehicle supply)  crew(vehicle_supporter:2)      b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	("vehicle"  period(late) year(late) cd(0)  ci(10)  g(supply2) side(jap) t(vehicle supply)  crew(vehicle_supporter:2)      b(supply) cw(1) cp(5) 
 	cost(185))
 }
 {"type95"
-	("vehicle"  period(late) year(late) cd(0)   ci(30)  g(wheel1) side(jap) t(vehicle)    crew(vehicle_supporter:3)     b(supply) cd2(0) ci2(30) cw(1) cp(2)  
+	("vehicle"  period(late) year(late) cd(0)   ci(10)  g(wheel1) side(jap) t(vehicle)    crew(vehicle_supporter:3)     b(supply) cw(1) cp(2)  
 	cost(150))
 }
 {"type1_ho-ha"
-	("vehicle"  period(late) year(late) cd(0)   ci(30)  g(wheel2) side(jap) t(vehicle)   crew(vehicle_supporter:3)  b(supply) cd2(0) ci2(30) cw(2) cp(5) 
+	("vehicle"  period(late) year(late) cd(0)   ci(10)  g(wheel2) side(jap) t(vehicle)   crew(vehicle_supporter:3)  b(supply) cw(2) cp(5) 
 	cost(150))
 }
 {"type87_com"
-	("vehicle3"  period(late) year(late) cd(0) ci(0)  g(wheel3) side(jap) t(vehicle)  crew1(tankman:1) crew2(scout:2) crew3(scout2:1)  b(lt) cd2(90) ci2(30) cw(2) cp(-12) 
+	("vehicle3"  period(late) year(late) cd(90) ci(10)  g(wheel3) side(jap) t(vehicle)  crew1(tankman:1) crew2(scout:2) crew3(scout2:1)  b(lt) cw(2) cp(-12) 
 	cost(160))
 }
 {"type93"
-	("vehicle"  period(late) year(late) cd(0)   ci(30)  g(wheel4) side(jap) t(vehicle)   crew(vehicle_supporter:5)       b(lt) cd2(0) ci2(30) cw(2) cp(8) 
+	("vehicle"  period(late) year(late) cd(0)   ci(10)  g(wheel4) side(jap) t(vehicle)   crew(vehicle_supporter:5)       b(lt) cw(2) cp(8) 
 	cost(170))
 }
 {"type94aa"
-	("vehicle"  period(late) year(late) cd(0)   ci(30)  g(wheel5) side(jap) t(vehicle)   crew(vehicle_supporter:4)       b(lt) cd2(0) ci2(30) cw(2) cp(8) 
+	("vehicle"  period(late) year(late) cd(0)   ci(10)  g(wheel5) side(jap) t(vehicle)   crew(vehicle_supporter:4)       b(lt) cw(2) cp(8) 
 	cost(230))
 }
 {"t12gmc_jap"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(  vehicle ) side(jap) crew1(tankman:1) crew2(vehicle_supporter:3) g(wheel6) b(lt) cd2(0) ci2(0) cw(2) cp(10)
+	("vehicle2" period(late) year(late) cd(0) ci(10) t(vehicle) side(jap) crew1(tankman:1) crew2(vehicle_supporter:3) g(wheel6) b(lt) cw(2) cp(10)
 	cost(380 ))
 }
 {"toyota_rocket"
-	("vehicle" period(late) year(late) cd(0) ci(0) t(  heavyart artillery ) side(jap) crew(vehicle_supporter:2) g(wheel7) b(art) cd2(120) ci2(30) cw(2) cp(20)
+	("vehicle" period(late) year(late) cd(120) ci(10) t(heavyart artillery) side(jap) crew(vehicle_supporter:2) g(wheel7) b(art) cw(2) cp(20)
 	cost(700 ))
 }
 {"type97_eng"
-	("vehicle"  period(late) year(late) cd(480) ci(60) t(vehicle supply) side(jap)  crew(vehicle_supporter:2) g(supply3) b(supply) cd2(480) ci2(60) cw(2) cp(5) 
+	("vehicle"  period(late) year(late) cd(480) ci(10) t(vehicle supply) side(jap)  crew(vehicle_supporter:2) g(supply3) b(supply) cw(2) cp(5) 
 	cost(150))
 }
 {"type1_ho-ki_mg"
-	("vehicle"  period(late) year(late) cd(0) ci(0) side(jap) t( vehicle)  crew(vehicle_supporter:3) g(wheel1) b(supply) cd2(0) ci2(30) cw(2) cp(5)
+	("vehicle"  period(late) year(late) cd(0) ci(10) side(jap) t( vehicle)  crew(vehicle_supporter:3) g(wheel1) b(supply) cw(2) cp(5)
 	cost(120 ))
 }
 
@@ -564,113 +565,113 @@
 
 ;LIGHT
 {"type94_te-ke"
-	("vehicle2" period(late) year(late) cd(0)  ci(60) t( light)  side(jap) crew1(tankman:1) crew2(tankman2:1) g(light2) b(lt) cd2(0) ci2(60)  cw(4) cp(10) 
+	("vehicle2" period(late) year(late) cd(0)  ci(10) t( light)  side(jap) crew1(tankman:1) crew2(tankman2:1) g(light2) b(lt) cw(4) cp(10) 
 	cost(130))
 }
 {"type97_te-ke"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t( light)  side(jap) crew1(tankman:1) crew2(tankman2:1) g(light2) b(lt) cd2(90) ci2(60)  cw(4) cp(12) 
+	("vehicle2" period(late) year(late) cd(90) ci(10) t( light)  side(jap) crew1(tankman:1) crew2(tankman2:1) g(light2) b(lt) cw(4) cp(12) 
 	cost(240))
 }
 {"type95_ha-go"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(light)  side(jap) crew1(tankman:2) crew2(tankman2:1) g(light5) b(lt) cd2(90) ci2(60)  cw(4) cp(12) 
+	("vehicle2" period(late) year(late) cd(90) ci(10) t(light)  side(jap) crew1(tankman:2) crew2(tankman2:1) g(light5) b(lt) cw(4) cp(12) 
 	cost(250))
 }
 {"type4_ke-nu"
-	("vehicle2" period(late) year(late) cd(0)  ci(60) t(light)  side(jap) crew1(tankman:2) crew2(tankman2:1) g(light5) b(lt) cd2(0) ci2(60)  cw(4) cp(15) 
+	("vehicle2" period(late) year(late) cd(0)  ci(10) t(light)  side(jap) crew1(tankman:2) crew2(tankman2:1) g(light5) b(lt) cw(4) cp(15) 
 	cost(280))
 }
 
 ;MEDIUM
 {"type89_i-go"
-	("vehicle2" period(mid) cd(0) ci(0) t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium2) b(mt) cd2(480) ci2(60) cw(6) cp(15) 
+	("vehicle2" period(mid) cd(480) ci(10) t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium2) b(mt) cw(6) cp(15) 
 	cost(320))
 }
 {"type97_chi-ha"
-	("vehicle2" period(late) year(late) cd(240)  ci(60) t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cd2(240) ci2(60) cw(6) cp(15) 
+	("vehicle2" period(late) year(late) cd(240)  ci(10) t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cw(6) cp(15) 
 	cost(340))
 }
 {"type97_ka-ho"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cd2(480) ci2(60) cw(6) cp(15)
+	("vehicle2" period(late) year(late) cd(480) ci(10) t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cw(6) cp(15)
 	cost(345))
 }
 {"type97_shinhoto_47mm"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium2) b(mt) cd2(480) ci2(60) cw(6) cp(15) 
+	("vehicle2" period(late) year(late) cd(480) ci(10) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium2) b(mt) cw(6) cp(15) 
 	cost(350))
 }
 {"type1_chi-he"
-	("vehicle2" period(late) year(late) cd(240)  ci(60) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cd2(240) ci2(60) cw(6) cp(15) 
+	("vehicle2" period(late) year(late) cd(240)  ci(10) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium3) b(mt) cw(6) cp(15) 
 	cost(355))
 }
 {"type2_ho-i"
-	("vehicle2" period(late) year(late) cd(480)  ci(60) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(480)  ci(10) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cw(6) cp(20) 
 	cost(380))
 }
 {"type2_ho-i_kou"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(480) ci(10) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cw(6) cp(20) 
 	cost(400))
 }
 {"type3_chi-nu"
-	("vehicle2" period(late) year(late) cd(480)  ci(60) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium6) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(480)  ci(10) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium6) b(mt) cw(6) cp(20) 
 	cost(400))
 }
 {"type3_chi-nu2"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(medium) side(jap)  crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cd2(480) ci2(60) cw(6) cp(25)
+	("vehicle2" period(late) year(late) cd(480) ci(10) t(medium) side(jap)  crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cw(6) cp(25)
 	cost(540))
 }
 {"type97_shinhoto_120mm"
-	("vehicle2" period(late) year(late) cd(360)  ci(180) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium5) b(mt) cd2(360) ci2(180) cw(6) cp(25) 
+	("vehicle2" period(late) year(late) cd(360)  ci(10) t(medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium5) b(mt) cw(6) cp(25) 
 	cost(570))
 }
 
 
 ;HEAVY
 {"type5_chi-ri"
-	("vehicle2" period(late) year(late) cd(720) ci(60) t(heavy) side(jap) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cd2(720) ci2(60) cw(8) cp(30) 
+	("vehicle2" period(late) year(late) cd(720) ci(10) t(heavy) side(jap) crew1(tankman:4) crew2(tankman2:1) g(heavy1) b(ht) cw(8) cp(30) 
 	cost(1070))
 }
 
 ;SPG
 {"type1_ho-ni1"
-	("vehicle2" period(late) year(late) cd(240)  ci(60)  t(medium) side(jap) crew1(tankman:1) crew2(vehicle_supporter:2) g(spg1)     b(td) cd2(240) ci2(60) cw(6)  cp(18) 
+	("vehicle2" period(late) year(late) cd(240)  ci(10)  t(medium) side(jap) crew1(tankman:1) crew2(vehicle_supporter:2) g(spg1)     b(td) cw(6)  cp(18) 
 	cost(430))
 }
 {"type3_ho-ni"
-	("vehicle2" period(late) year(late) cd(0) ci(0)  t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1)  g(spg1)     b(td) cd2(600) ci2(60) cw(4)  cp(25) 
+	("vehicle2" period(late) year(late) cd(600) ci(10)  t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1)  g(spg1)     b(td) cw(4)  cp(25) 
 	cost(440))
 }
 {"type1_ho-ni2"
-	("vehicle2" period(late) year(late) cd(0) ci(0)  t(heavyart) side(jap) crew1(tankman:1) crew2(vehicle_supporter:2)  g(spg1)     b(td) cd2(600) ci2(60) cw(4)  cp(25) 
+	("vehicle2" period(late) year(late) cd(600) ci(10)  t(heavyart) side(jap) crew1(tankman:1) crew2(vehicle_supporter:2)  g(spg1)     b(td) cw(4)  cp(25) 
 	cost(590))
 }
 {"ijn_12cm_spg"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(medium) side(jap) crew1(tankman:1) crew2(vehicle_supporter:3) g(medium5) b(td) cd2(600) ci2(60) cw(6) cp(25) 
+	("vehicle2" period(late) year(late) cd(600) ci(10) t(medium) side(jap) crew1(tankman:1) crew2(vehicle_supporter:3) g(medium5) b(td) cw(6) cp(25) 
 	cost(610))
 }
 {"type4_ho-ro"
-	("vehicle2" period(late) year(late) cd(0) ci(0)  t(heavyart) side(jap) crew1(tankman:1) crew2(vehicle_supporter:2)  g(spg1)     b(art) cd2(900) ci2(60) cw(4)  cp(30) 
+	("vehicle2" period(late) year(late) cd(900) ci(10)  t(heavyart) side(jap) crew1(tankman:1) crew2(vehicle_supporter:2)  g(spg1)     b(art) cw(4)  cp(30) 
 	cost(800))
 }
 {"type5_ho-chi"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(  heavyart artillery ) side(jap)  crew1(tankman:2) crew2(tankman2:1) g(empl1) b(doctrine) cd2(0) ci2(0) cw(4) cp(40)
+	("vehicle2" period(late) year(late) cd(0) ci(10) t(  heavyart artillery ) side(jap)  crew1(tankman:2) crew2(tankman2:1) g(empl1) b(doctrine) cw(4) cp(40)
 	cost(1000 ))
 }
 {"type4_ha-to"
-	("vehicle2" period(late) year(late) cd(0) ci(0) t(  heavyart artillery ) side(jap) period(late) year(late)  crew1(tankman:2) crew2(vehicle_supporter:3) g(spg1)     b(art) cd2(900) ci2(60) cw(4) cp(40)
+	("vehicle2" period(late) year(late) cd(900) ci(10) t(  heavyart artillery ) side(jap) period(late) year(late)  crew1(tankman:2) crew2(vehicle_supporter:3) g(spg1)     b(art) cw(4) cp(40)
 	cost(1400 ))
 }
 
 
 ;Plane
 {"ki76" 
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(doctrineonly doc_only) side(jap) crew(pilot:2) g(spg7) b(doctrine) cd2(0) ci2(0) cw(0) cp(25)
+	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly doc_only) side(jap) crew(pilot:2) g(spg7) b(doctrine) cw(0) cp(25)
 	cost(100))
 }
 
 {"d3a_aichi"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(doctrineonly doc_only) side(jap) crew(pilot:2) g(spg7) b(doctrine) cd2(0) ci2(0) cw(0) cp(25)
+	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly doc_only) side(jap) crew(pilot:2) g(spg7) b(doctrine) cw(0) cp(25)
 	cost(2000))
 }
 {"l2d3"
-	("vehicle"  period(late) year(late) cd(0) ci(0) t(doctrineonly doc_only) side(jap) crew(pilot:1) g(spg8) b(doctrine) cd2(0) ci2(0) cw(0) cp(11)
+	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly doc_only) side(jap) crew(pilot:1) g(spg8) b(doctrine) cw(0) cp(11)
 	cost(100))
 }
