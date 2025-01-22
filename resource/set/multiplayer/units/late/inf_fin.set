@@ -60,6 +60,8 @@
 {"mp/fin/late/artilleryman"				("inf_tankman" side(fin) period(late) cost(5.0))}
 {"mp/fin/late/tankman"					("inf_tankman" side(fin) period(late) cost(4.0))}
 {"mp/fin/late/tank_commander"			("inf_tankman" side(fin) period(late) cost(5.0))}
+{"mp/fin/late/tankman_vet"				("inf_tankman" side(fin) period(late) cost(6.0))}
+{"mp/fin/late/tank_commander_vet"		("inf_tankman" side(fin) period(late) cost(7.0))}
 {"mp/fin/late/pilot"					("inf_tankman" side(fin) period(late) cost(0.0))}
 
 {"mp/fin/late/medic"					("inf_medic" side(fin) period(late) cost(40.0))}

@@ -384,8 +384,8 @@ msgctxt "desc/squad/doctrine_stug3g_ita"
 msgid "<c(B29557)>( II )</c> Sturmgeschuetz III Ausf.G"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_sdkfz251_stenga"
-msgid "<c(B29557)>( III )</c> Stenga zu Fuss"
+msgctxt "desc/squad/doctrine_sdkfz251_stuka"
+msgid "<c(B29557)>( III )</c> Stuka zu Fuss"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_us-dodgewc55_mid"

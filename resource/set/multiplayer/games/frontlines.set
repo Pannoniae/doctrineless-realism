@@ -9,8 +9,8 @@
 	; score_defBonus= score Team B (defender) receives every second, multiplied with the amount of frontline flags (slave/sub flags do not count)
 	; teamsize_cp_factor= For how many players per side,  CP multiplier.
 	{settings
-		{options			gameDuration enableSpectators enableHardcore preparationTime}
-		{optionsAdvanced	friendlyFire fogOfWar showPiercing showDamageReports}
+		{options			enableSpectators enableHardcore preparationTime}
+		{optionsAdvanced	gameDuration friendlyFire fogOfWar showPiercing showDamageReports}
 		{optionsRanked		}
 		{fogOfWar			fog_realistic}
 		{difficulty			multiplayer}

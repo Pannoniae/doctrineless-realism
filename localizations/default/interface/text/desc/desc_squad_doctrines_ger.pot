@@ -673,8 +673,8 @@ msgctxt "desc/squad/doctrine_stug3g_late"
 msgid "<c(B29557)>( II )</c> StuG III G Late"
 msgstr ""
 
-msgctxt "desc/squad/doctrine_sdkfz251d_1_stenga"
-msgid "<c(B29557)>( III )</c> Stenga Zu Fuss"
+msgctxt "desc/squad/doctrine_sdkfz251d_1_stuka"
+msgid "<c(B29557)>( III )</c> Stuka Zu Fuss"
 msgstr ""
 
 msgctxt "desc/squad/doctrine_sturmartillerie_unit"

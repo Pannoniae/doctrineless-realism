@@ -168,22 +168,7 @@
 
 ;/* - Sub-Machine Gunner Levels - ; Soldiers with an sub-machine gun their for primary weapon */
 
-
 (define "smg_skill_rank_1"
-	("at_rank_1")
-	{"pistol" lvl_2}
-	{"smg" lvl_2}
-	{"mgun" lvl_1}
-	{"mgun_light" lvl_1}
-	{"rifle" lvl_1}
-	{"melee" lvl_1}
-	{"avoidance" lvl_1}
-	("fortification")
-	("basic_repair")
-	("basic_gun")
-)
-
-(define "smg_skill_rank_2"
 	("at_rank_2")
 	{"pistol" lvl_3}
 	{"smg" lvl_3}
@@ -197,7 +182,7 @@
 	("basic_gun")
 )
 
-(define "smg_skill_rank_3"
+(define "smg_skill_rank_2"
 	("at_rank_3")
 	{"pistol" lvl_4}
 	{"smg" lvl_4}
@@ -211,7 +196,7 @@
 	("basic_gun")
 )
 
-(define "smg_skill_rank_4"
+(define "smg_skill_rank_3"
 	("at_rank_4")
 	{"pistol" lvl_5}
 	{"smg" lvl_5}
@@ -225,7 +210,7 @@
 	("basic_gun")
 )
 
-(define "smg_skill_rank_5"
+(define "smg_skill_rank_4"
 	("at_rank_5")
 	{"pistol" lvl_6}
 	{"smg" lvl_6}
@@ -239,23 +224,23 @@
 	("basic_gun")
 )
 
-;/* - Rifleman Levels - ; Soldiers with an rifle for their primary weapon */
-
-(define "rifle_skill_rank_1"
-	("at_rank_1")
-	{"pistol" lvl_2}
-	{"smg" lvl_1}
-	{"mgun" lvl_1}
-	{"mgun_light" lvl_1}
-	{"rifle" lvl_2}
-	{"melee" lvl_1}
-	{"avoidance" lvl_1}
+(define "smg_skill_rank_5"
+	("at_rank_5")
+	{"pistol" lvl_7}
+	{"smg" lvl_7}
+	{"mgun" lvl_6}
+	{"mgun_light" lvl_6}
+	{"rifle" lvl_6}
+	{"melee" lvl_6}
+	{"avoidance" lvl_6}
 	("fortification")
 	("basic_repair")
 	("basic_gun")
 )
 
-(define "rifle_skill_rank_2"
+;/* - Rifleman Levels - ; Soldiers with an rifle for their primary weapon */
+
+(define "rifle_skill_rank_1"
 	("at_rank_2")
 	{"pistol" lvl_3}
 	{"smg" lvl_2}
@@ -269,7 +254,7 @@
 	("basic_gun")
 )
 
-(define "rifle_skill_rank_3"
+(define "rifle_skill_rank_2"
 	("at_rank_3")
 	{"pistol" lvl_4}
 	{"smg" lvl_3}
@@ -283,7 +268,7 @@
 	("basic_gun")
 )
 
-(define "rifle_skill_rank_4"
+(define "rifle_skill_rank_3"
 	("at_rank_4")
 	{"pistol" lvl_5}
 	{"smg" lvl_4}
@@ -297,7 +282,7 @@
 	("basic_gun")
 )
 
-(define "rifle_skill_rank_5"
+(define "rifle_skill_rank_4"
 	("at_rank_5")
 	{"pistol" lvl_6}
 	{"smg" lvl_5}
@@ -311,24 +296,23 @@
 	("basic_gun")
 )
 
-
-;/* - MG Loaders/assistant Levels - ; Soldiers with an rifle/pistol for their primary weapon, but are also trained for MG use */
-
-(define "loader_skill_rank_1"
-	("at_rank_1")
-	{"pistol" lvl_2}
-	{"smg" lvl_1}
-	{"mgun" lvl_2}
-	{"mgun_light" lvl_2}
-	{"rifle" lvl_2}
-	{"melee" lvl_1}
-	{"avoidance" lvl_1}
+(define "rifle_skill_rank_5"
+	("at_rank_5")
+	{"pistol" lvl_7}
+	{"smg" lvl_6}
+	{"mgun" lvl_6}
+	{"mgun_light" lvl_6}
+	{"rifle" lvl_7}
+	{"melee" lvl_6}
+	{"avoidance" lvl_6}
 	("fortification")
 	("basic_repair")
 	("basic_gun")
 )
 
-(define "loader_skill_rank_2"
+;/* - MG Loaders/assistant Levels - ; Soldiers with an rifle/pistol for their primary weapon, but are also trained for MG use */
+
+(define "loader_skill_rank_1"
 	("at_rank_2")
 	{"pistol" lvl_3}
 	{"smg" lvl_2}
@@ -342,7 +326,7 @@
 	("basic_gun")
 )
 
-(define "loader_skill_rank_3"
+(define "loader_skill_rank_2"
 	("at_rank_3")
 	{"pistol" lvl_4}
 	{"smg" lvl_3}
@@ -356,7 +340,7 @@
 	("basic_gun")
 )
 
-(define "loader_skill_rank_4"
+(define "loader_skill_rank_3"
 	("at_rank_4")
 	{"pistol" lvl_5}
 	{"smg" lvl_4}
@@ -370,7 +354,7 @@
 	("basic_gun")
 )
 
-(define "loader_skill_rank_5"
+(define "loader_skill_rank_4"
 	("at_rank_5")
 	{"pistol" lvl_6}
 	{"smg" lvl_5}
@@ -379,6 +363,20 @@
 	{"rifle" lvl_6}
 	{"melee" lvl_5}
 	{"avoidance" lvl_5}
+	("fortification")
+	("basic_repair")
+	("basic_gun")
+)
+
+(define "loader_skill_rank_5"
+	("at_rank_5")
+	{"pistol" lvl_7}
+	{"smg" lvl_6}
+	{"mgun" lvl_7}
+	{"mgun_light" lvl_7}
+	{"rifle" lvl_7}
+	{"melee" lvl_6}
+	{"avoidance" lvl_7}
 	("fortification")
 	("basic_repair")
 	("basic_gun")
@@ -398,7 +396,7 @@
 	("basic_gun")
 )
 
-(define "loader_skill_smg_rank_2"
+(define "loader_skill_smg_rank_1"
 	("at_rank_2")
 	{"pistol" lvl_3}
 	{"smg" lvl_3}
@@ -412,7 +410,7 @@
 	("basic_gun")
 )
 
-(define "loader_skill_smg_rank_3"
+(define "loader_skill_smg_rank_2"
 	("at_rank_3")
 	{"pistol" lvl_4}
 	{"smg" lvl_4}
@@ -426,7 +424,7 @@
 	("basic_gun")
 )
 
-(define "loader_skill_smg_rank_4"
+(define "loader_skill_smg_rank_3"
 	("at_rank_4")
 	{"pistol" lvl_5}
 	{"smg" lvl_5}
@@ -440,7 +438,7 @@
 	("basic_gun")
 )
 
-(define "loader_skill_smg_rank_5"
+(define "loader_skill_smg_rank_4"
 	("at_rank_5")
 	{"pistol" lvl_6}
 	{"smg" lvl_6}
@@ -454,23 +452,23 @@
 	("basic_gun")
 )
 
-;/* - Machine Gunner Levels - ; Soldiers with an machine gun for their primary weapon */
-
-(define "mg_skill_rank_1"
-	("at_rank_1")
-	{"pistol" lvl_2}
-	{"smg" lvl_1}
-	{"mgun" lvl_2}
-	{"mgun_light" lvl_2}
-	{"rifle" lvl_1}
-	{"melee" lvl_1}
-	{"avoidance" lvl_1}
+(define "loader_skill_smg_rank_5"
+	("at_rank_5")
+	{"pistol" lvl_7}
+	{"smg" lvl_7}
+	{"mgun" lvl_7}
+	{"mgun_light" lvl_7}
+	{"rifle" lvl_6}
+	{"melee" lvl_6}
+	{"avoidance" lvl_6}
 	("fortification")
 	("basic_repair")
 	("basic_gun")
 )
 
-(define "mg_skill_rank_2"
+;/* - Machine Gunner Levels - ; Soldiers with an machine gun for their primary weapon */
+
+(define "mg_skill_rank_1"
 	("at_rank_2")
 	{"pistol" lvl_3}
 	{"smg" lvl_2}
@@ -484,7 +482,7 @@
 	("basic_gun")
 )
 
-(define "mg_skill_rank_3"
+(define "mg_skill_rank_2"
 	("at_rank_3")
 	{"pistol" lvl_4}
 	{"smg" lvl_3}
@@ -498,7 +496,7 @@
 	("basic_gun")
 )
 
-(define "mg_skill_rank_4"
+(define "mg_skill_rank_3"
 	("at_rank_4")
 	{"pistol" lvl_5}
 	{"smg" lvl_4}
@@ -512,7 +510,7 @@
 	("basic_gun")
 )
 
-(define "mg_skill_rank_5"
+(define "mg_skill_rank_4"
 	("at_rank_5")
 	{"pistol" lvl_6}
 	{"smg" lvl_5}
@@ -521,6 +519,20 @@
 	{"rifle" lvl_5}
 	{"melee" lvl_5}
 	{"avoidance" lvl_5}
+	("fortification")
+	("basic_repair")
+	("basic_gun")
+)
+
+(define "mg_skill_rank_5"
+	("at_rank_5")
+	{"pistol" lvl_7}
+	{"smg" lvl_6}
+	{"mgun" lvl_7}
+	{"mgun_light" lvl_7}
+	{"rifle" lvl_6}
+	{"melee" lvl_6}
+	{"avoidance" lvl_6}
 	("fortification")
 	("basic_repair")
 	("basic_gun")

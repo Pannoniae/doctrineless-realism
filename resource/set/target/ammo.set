@@ -419,6 +419,8 @@
 		{"light"}											; ammo for binoculars and other vision devices
 	}
 	{tank_medium											;-TARGET CLASS-
+		{"ammo rocketlauncher" {volume "body"}}				; bazooka class ammo 
+		{"ammo rocketlauncher"}								; bazooka class ammo 
 		{"big mortar all_he"}								; 120mm HE mortar ammo
 		{"mortar all_he" {volume "engine"}}					; HE mortar ammo
 		{"mortar all_he"}									; HE mortar ammo

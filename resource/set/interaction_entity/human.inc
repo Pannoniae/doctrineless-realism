@@ -1328,6 +1328,9 @@
 			{call_synced "do_throw_on_ground"}
 		}
 	}
+	{on "do_throw_off"
+		{throw_off up 2 forward 0.01}
+	}
 
 	{on "do_throw_on_ground"
 		{throw_on_ground}

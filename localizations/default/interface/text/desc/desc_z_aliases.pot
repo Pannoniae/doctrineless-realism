@@ -76,7 +76,7 @@ msgctxt "desc/squad/wirbelwind_ss"
 msgid "Wirbelwind"
 msgstr ""
 
-msgctxt "desc/squad/sdkfz251d_1_stenga_ss"
+msgctxt "desc/squad/sdkfz251d_1_stuka_ss"
 msgid "Stenga Zu Fuß"
 msgstr ""
 

@@ -32,7 +32,7 @@
 
 	;Train
 	{"180mm_tm1"
-		{vehicle_view "cannon"}
+		{vehicle_view "cannon_180mm_tm1"}
 	}
 
 	;Airborne Units
@@ -1316,12 +1316,19 @@
 	{"isu152_fin"
 		{vehicle_view "isu152_fin"}
 	}
+
 	;Generic car
 	{"ford_b3000"
 		{vehicle_view "fordV3000"}
 	}
 	{"universal"
 		{vehicle_view "universal_soviet"}
+	}
+	{"drg_class75"
+		{vehicle_view "drg_class75"}
+	}
+	{"drg_class75_rus"
+		{vehicle_view "drg_class75"}
 	}
 
 	;Airborne Units

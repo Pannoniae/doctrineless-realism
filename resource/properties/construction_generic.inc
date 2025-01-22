@@ -34,7 +34,15 @@
 	("declare_fire_volume" args 8)	("declare_fire_volume" args 9)
 )
 
+(define "windows_attach_place"		
+            {boarder			
+                    {link "%1" "attach%1"}			
+                    {door "attach%1"}		
+            }	
+)
+
 (define "armor_construction"
+	("bitgamer")
 	{armor
 		{setting "body"
 			{threshold {pierce {koef 1}}}
@@ -215,6 +223,10 @@
 	("armor_adjustable" thresh_fg(13) thresh_ap(60) calibre(37))
 )
 
+(define "armor_fabric"
+	("armor_adjustable" thresh_fg(10) thresh_ap(15) calibre(12))
+)
+
 (define "armor_stack"
 	("armor_adjustable" thresh_fg(10) thresh_ap(15) calibre(15))
 )
@@ -284,6 +296,17 @@
 			{disable_damage_acc}
 		}
 	}
+)
+
+(define "windows_attach_place"		
+            {boarder			
+                    {link "%1" "attach%1"}			
+                    {door "attach%1"}		
+            }	
+)
+	
+(define "bitgamer"		
+         ("windows_attach_place" args(0))		("windows_attach_place" args(1))		("windows_attach_place" args(2))		              ("windows_attach_place" args(3))		("windows_attach_place" args(4))		("windows_attach_place" args(5))		              ("windows_attach_place" args(6))		("windows_attach_place" args(7))		("windows_attach_place" args(8))		              ("windows_attach_place" args(9))		("windows_attach_place" args(10))		("windows_attach_place" args(11))		              ("windows_attach_place" args(12))		("windows_attach_place" args(13))		("windows_attach_place" args(14))		              ("windows_attach_place" args(15))		("windows_attach_place" args(16))		("windows_attach_place" args(17))		              ("windows_attach_place" args(18))		("windows_attach_place" args(19))		("windows_attach_place" args(20))	
 )
 
 (include "texmod.inc")

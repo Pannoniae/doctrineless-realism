@@ -455,6 +455,27 @@
 			("off")
 		}
 	}
+	
+	{"enormous"
+		{distance ("scale" d(2000))
+			; LOD1
+		}
+		{distance ("scale" d(2500))
+			; LOD2
+			{NoParallax}
+		}
+		{distance ("scale" d(9000))
+			{NoGetShadow}
+			{NoFog}
+			{NoBump}
+		}
+		{distance ("scale" d(12000))
+			{NoCastShadow}
+		}
+		{distance ("scale" d(20000))
+			("off")
+		}
+	}
 
 ;	{GrassDistance 2500}			;// the grass clip distance, no grass is rendered beyond
 ;	{GrassThinnerDepth 1500}		;// the distance before clip distance at which grass starts to fade out	

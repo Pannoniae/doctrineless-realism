@@ -401,7 +401,7 @@
 ("squad_with2types" side(jap) name(single_at)           period(late) year(late) cd(0)   ci(0)  g(single_at)   c1(at_rifle:1) c2(at_rifle2:1)  b(single) t( at_squad )           level(1) research_stage(1))
 ("squad_with2types" side(jap) name(single_riflegrenade) period(late) year(late) cd(0)   ci(20)  g(single_at)   c1(rifle_grenade:1) c2(at_rifle2:1)  b(single) t( infsquad )           level(1) research_stage(1))
 ("squad_with2types" side(jap) name(single_mortar)		period(late) year(late) cd(0)   ci(20)  g(single_mortar)   c1(gr_launcher:1) c2(at_rifle2:1)  b(single) t( infmortar )           level(1) research_stage(1))
-("squad_with1types" side(jap) name(doctrine_squad_kamikaze_late) period(late) year(late) cd(0)  ci(0) c1(kamikaze:4) t(infsquad))
+("squad_with1types" side(jap) name(doctrine_squad_kamikaze_late) period(late) year(late) cd(0)  ci(0) c1(kamikaze:4) b(single) t(infsquad))
 ("squad_with2types" side(jap) name(single_bazooker)		period(late) year(late) cd(0)   ci(20)  g(single_at)   c1(bazooker:1) c2(bazooker2:1)  b(single) t( at_squad )           level(1) research_stage(1))
 ("squad_with2types" side(jap) name(single_tankman)      period(late) year(late) cd(0)   ci(20)  g(single_crew) c1(tankman2:1) c2(tankman:3) b(single) t( tankcrew )           level(1) research_stage(1))
 ("squad_with1types" side(jap) name(single_ap_miner)     period(late) year(late) cd(60)  ci(60)  g(single_apmine)   c1(ap_miner:3)                 b(single) t( engineer miner)  level(1) research_stage(2))

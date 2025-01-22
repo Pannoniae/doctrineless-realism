@@ -37,6 +37,38 @@
 
 	{Talvisota
 		{Maps
+			{"multi/dcg_a_kalinin:campaign_capture_the_flag"}
+			{"multi/dcg_a_runway:campaign_capture_the_flag"}
+			{"multi/dcg_black_sea_coast:campaign_capture_the_flag"}
+			{"multi/dcg_d_uran:campaign_capture_the_flag"}
+			{"multi/dcg_d_vyazma:campaign_capture_the_flag"}
+			{"multi/dcg_dubovka:campaign_capture_the_flag"}
+			{"multi/dcg_f_barrikady:campaign_capture_the_flag"}
+			{"multi/dcg_f_bridges_of_lysovo:campaign_capture_the_flag"}
+			{"multi/dcg_f_bykovo:campaign_capture_the_flag"}
+			{"multi/dcg_f_factory:campaign_capture_the_flag"}
+			{"multi/dcg_f_lazurnyi:campaign_capture_the_flag"}
+			{"multi/dcg_frozen_highlands:campaign_capture_the_flag"}
+			{"multi/dcg_glushkovo:campaign_capture_the_flag"}
+			{"multi/dcg_hills:campaign_capture_the_flag"}
+			{"multi/dcg_hilltop:campaign_capture_the_flag"}
+			{"multi/dcg_hungarian_swamps:campaign_capture_the_flag"}
+			{"multi/dcg_narofominsk:campaign_capture_the_flag"}
+			{"multi/dcg_niemen:campaign_capture_the_flag"}
+			{"multi/dcg_olkhovatka:campaign_capture_the_flag"}
+			{"multi/dcg_pinsk:campaign_capture_the_flag"}
+			{"multi/dcg_radekhiv:campaign_capture_the_flag"}
+			{"multi/dcg_radusha_airfield:campaign_capture_the_flag"}
+			{"multi/dcg_raseiniai:campaign_capture_the_flag"}
+			{"multi/dcg_rasputitsa:campaign_capture_the_flag"}
+			{"multi/dcg_ruetzen:campaign_capture_the_flag"}
+			{"multi/dcg_rzhev:campaign_capture_the_flag"}
+			{"multi/dcg_shaforovo:campaign_capture_the_flag"}
+			{"multi/dcg_shiryayevo:campaign_capture_the_flag"}
+			{"multi/dcg_stalingrad_outskirts:campaign_capture_the_flag"}
+			{"multi/dcg_velikiyeluki:campaign_capture_the_flag"}
+			{"multi/dcg_wasteland:campaign_capture_the_flag"}
+
 			{"multi/dcg_hanhijarvi:campaign_capture_the_flag"}
 			{"multi/dcg_hanhijarvi_winter:campaign_capture_the_flag"}
 			{"multi/dcg_karvola:campaign_capture_the_flag"}

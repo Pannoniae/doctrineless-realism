@@ -124,8 +124,8 @@ msgctxt "info/special/sdkfz4"
 msgid "<c(c3baae)>Rocket Artillery</c>"
 msgstr ""
 
-msgctxt "desc/entity/sdkfz251_stenga"
-msgid "Stenga zu Fuss"
+msgctxt "desc/entity/sdkfz251_stuka"
+msgid "Stuka zu Fuss"
 msgstr ""
 
 msgctxt "desc/entity/marder3h"
