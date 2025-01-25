@@ -1,21 +1,20 @@
 {fx
-	{##+ particleview fire
+	{#+ particleview fire
 		{generator
-			{totalparticles 1}
+			{totalparticles 10}
 			{emissionarea
-				{radius 1}
+				{radius 0}
 				{alpha0 0}
 				{alpha1 0}
-				{speed 2}
+				{## speed 2}
 			}
 			{particleinit
 				{speed 0}
-				{lifetime 1}
+				{lifetime 0.15}
 			}
-			{timetolive 0.8}
+			{timetolive 0.5}
 			{## autoturn}
 			{ownerspeed}
-			{## axisz}
 		}
 		{mover
 			{## damping 0.7}
@@ -25,7 +24,7 @@
 			{nodependonwind}
 		}
 		{visualizer
-			{## stage 
+			{stage 
 				{##+ sprite "$/smoke/smtanko"
 					{timer
 						{mode play }
@@ -56,12 +55,12 @@
 					}
 				}
 				{flags trace }
-				{sprite "$/explosion/flare"
+				{sprite "$/explosion/flame_hi"
 					{#+ timer
 						{mode play }
 						{duration -1}
 					}
-					{preturn 0}
+					{preturn 90}
 					{##+ turn 1
 						{linear
 							{min 0}
@@ -74,40 +73,35 @@
 							{max 0.2}
 						}
 					}
-					{highlight 0xffff4416}
-					{#+ light 1
+					{## highlight 0xffff4416}
+					{light 1
 						{linear
 							{min 0.5}
-							{max 1}
+							{max 0}
 						}
 						{## peak
 							{min 1}
 							{max 0.6}
 						}
 					}
-					{scalex 0
+					{scalex 1
 						{linear
-							{min 0}
-							{max 1.2 0.2}
+							{min 0.5}
+							{max 0.1}
 						}
 					}
-					{scaley 0
+					{scaley 0.1
 						{linear
-							{min 0}
-							{max 1.1 0.1}
-						}
-					}
-					{## turn 1
-						{linear
-							{min 60 30}
-							{max 135 45}
+							{min 0.1}
+							{max 0.3}
 						}
 					}
 				}
 			}
 		}
+		{## delay 1}
 	}
-	{##+ particleview fire
+	{#+ particleview fire
 		{generator
 			{totalparticles 1}
 			{emissionarea
@@ -132,7 +126,7 @@
 		}
 		{visualizer
 			{stage 
-				{sprite "$/smoke/smokesmal4b_100"
+				{sprite "$/smoke/smtanko"
 					{timer
 						{mode play }
 						{duration -1}
@@ -160,14 +154,8 @@
 							{max 0.65 0.15}
 						}
 					}
-					{visibility 1
-						{peak
-							{min 0}
-							{max 0.4}
-						}
-					}
 				}
-				{sprite "$/smoke/smoke_s01"
+				{sprite "$/smoke/smoke_g04l"
 					{timer
 						{mode play }
 						{duration -1}
@@ -185,7 +173,7 @@
 							{max 0.04 0.005}
 						}
 					}
-					{highlight 0xfffe5904}
+					{highlight 0xffff4416}
 					{light 1
 						{## linear
 							{min 0.6}
@@ -257,7 +245,7 @@
 					}
 				}
 				{flags trace }
-				{sprite "$/explosion/flare"
+				{sprite "$/explosion/flame_hi"
 					{#+ timer
 						{mode play }
 						{duration -1}

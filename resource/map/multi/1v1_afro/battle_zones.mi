@@ -48,7 +48,7 @@
 			{State "ammo" {Unlinked}}
 		}
 		{Extender "map_point"
-			{name f3}
+			{name center3}
 			{zone
 				{radius 0}
 				{zoneId "f3"}
@@ -58,9 +58,7 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
@@ -89,7 +87,7 @@
 			{State "ammo" {Unlinked}}
 		}
 		{Extender "map_point"
-			{name f2}
+			{name center2}
 			{zone
 				{radius 0}
 				{zoneId "f2"}
@@ -99,9 +97,7 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
@@ -130,7 +126,7 @@
 			{State "ammo" {Unlinked}}
 		}
 		{Extender "map_point"
-			{name f1}
+			{name center1}
 			{zone
 				{radius 0}
 				{zoneId "f1"}
@@ -140,9 +136,7 @@
 			{show All}
 			{visor MapPoint}
 			{allow
-				{capture "b" "a"}
 				{enableCapture}
-				{release "b" "a"}
 				{enableRelease}
 			}
 		}
@@ -205,71 +199,77 @@
 	{Tags "flag" 0x8031}
 	{Environment "multi/multi_01"}
 	{Helpers
+		(include "../bz_events.inc")
 		{zone "poly"
-			{position 1289.06 -1800 -3}
-			{Name "f1"}
-			{Point 300 0}
-			{Point 277.164 114.805}
-			{Point 212.132 212.132}
-			{Point 114.805 277.164}
-			{Point 0 300}
-			{Point -114.805 277.164}
-			{Point -212.132 212.132}
-			{Point -277.164 114.805}
-			{Point -300 0}
-			{Point -277.164 -114.805}
-			{Point -212.132 -212.132}
-			{Point -114.805 -277.164}
-			{Point -0 -300}
-			{Point 114.805 -277.164}
+			{position -1179.79 -196.37 0}
+			{Name "f3"}
+			{Point 300.0 -0.0}
+			{Point 277.1639 -114.805}
 			{Point 212.132 -212.132}
-			{Point 277.164 -114.805}
+			{Point 114.805 -277.1639}
+			{Point 0.0 -300.0}
+			{Point -114.805 -277.1639}
+			{Point -212.132 -212.132}
+			{Point -277.1639 -114.805}
+			{Point -300.0 -0.0}
+			{Point -277.1639 114.805}
+			{Point -212.132 212.132}
+			{Point -114.805 277.1639}
+			{Point -0.0 300.0}
+			{Point 114.805 277.1639}
+			{Point 212.132 212.132}
+			{Point 277.1639 114.805}
 		}
 		{zone "poly"
 			{position 1359.09 1581.01 0}
 			{Name "f2"}
-			{Point 300 0}
-			{Point 277.164 114.805}
-			{Point 212.132 212.132}
-			{Point 114.805 277.164}
-			{Point 0 300}
-			{Point -114.805 277.164}
-			{Point -212.132 212.132}
-			{Point -277.164 114.805}
-			{Point -300 0}
-			{Point -277.164 -114.805}
-			{Point -212.132 -212.132}
-			{Point -114.805 -277.164}
-			{Point -0 -300}
-			{Point 114.805 -277.164}
+			{Point 300.0 -0.0}
+			{Point 277.1639 -114.805}
 			{Point 212.132 -212.132}
-			{Point 277.164 -114.805}
+			{Point 114.805 -277.1639}
+			{Point 0.0 -300.0}
+			{Point -114.805 -277.1639}
+			{Point -212.132 -212.132}
+			{Point -277.1639 -114.805}
+			{Point -300.0 -0.0}
+			{Point -277.1639 114.805}
+			{Point -212.132 212.132}
+			{Point -114.805 277.1639}
+			{Point -0.0 300.0}
+			{Point 114.805 277.1639}
+			{Point 212.132 212.132}
+			{Point 277.1639 114.805}
 		}
 		{zone "poly"
-			{position -1179.79 -196.37 10}
-			{Name "f3"}
-			{Point 300 0}
-			{Point 277.164 114.805}
-			{Point 212.132 212.132}
-			{Point 114.805 277.164}
-			{Point 0 300}
-			{Point -114.805 277.164}
-			{Point -212.132 212.132}
-			{Point -277.164 114.805}
-			{Point -300 0}
-			{Point -277.164 -114.805}
-			{Point -212.132 -212.132}
-			{Point -114.805 -277.164}
-			{Point -0 -300}
-			{Point 114.805 -277.164}
+			{position 1289.06 -1800 0}
+			{Name "f1"}
+			{Point 300.0 -0.0}
+			{Point 277.1639 -114.805}
 			{Point 212.132 -212.132}
-			{Point 277.164 -114.805}
+			{Point 114.805 -277.1639}
+			{Point 0.0 -300.0}
+			{Point -114.805 -277.1639}
+			{Point -212.132 -212.132}
+			{Point -277.1639 -114.805}
+			{Point -300.0 -0.0}
+			{Point -277.1639 114.805}
+			{Point -212.132 212.132}
+			{Point -114.805 277.1639}
+			{Point -0.0 300.0}
+			{Point 114.805 277.1639}
+			{Point 212.132 212.132}
+			{Point 277.1639 114.805}
 		}
+
 		{reinforcements
 			{scoreTotal 0}
 			{scoreCurrent 0}
 		}
+		{vars
+			(include "../bz_vars.inc")
+		}
 		{triggers
+			(include "../bz_triggers.inc")
 			{"environment"
 				{condition
 				}
@@ -600,6 +600,28 @@
 	}
 	{Players
 		{count 17}
+		{diplomacy
+			1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+			0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+		}
 	}
 	{Fog 0}
+	{EntityManager {Enabled}
+		{CountScale "x0.5"}
+	}
 }

@@ -3,4 +3,5 @@
 	{props "no_wind" "no_plant"}
 	{Extension "hedge2a.mdl"}
 	{NoGroupMesh 1}
+	{lodclass "decor_tree"}
 }

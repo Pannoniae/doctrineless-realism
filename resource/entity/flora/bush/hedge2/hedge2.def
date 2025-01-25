@@ -4,4 +4,5 @@
 	{obstacleID "nothing"}
 	{Extension "hedge2.mdl"}
 	{NoGroupMesh 1}
+	{lodclass "decor_tree"}
 }

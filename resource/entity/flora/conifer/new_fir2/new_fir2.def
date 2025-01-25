@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/tree.inc")
 	{props "tree" "normal_light" "invisible_crown"}
-	{Extension "new_fir2.mdl"}
+	{Extension "pine.mdl"}
 	{Volume "crown"
 		{able {visible 0}}
 	}
