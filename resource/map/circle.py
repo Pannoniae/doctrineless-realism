@@ -1,11 +1,13 @@
 import math
 import re
 
+# NOTE: ZONES ARE CLOCKWISE OTHERWISE IT BREAKS
+
 def generate_hexadecagon_points(radius=300):
     points = []
     num_points = 16
     for i in range(num_points):
-        angle = 2 * math.pi * i / num_points
+        angle = -2 * math.pi * i / num_points
         x = radius * math.cos(angle)
         y = radius * math.sin(angle)
         points.append((round(x, 4), round(y, 4)))
@@ -21,12 +23,12 @@ def process_file(input_file, output_file):
                 
                 zone = (
                     '{zone "poly"\n'
-                    f'\t\t{{position {x} {y} 0}}\n'
-                    f'\t\t{{Name "{name}"}}\n'
+                    f'\t{{position {x} {y} 0}}\n'
+                    f'\t{{Name "{name}"}}\n'
                 )
                 
                 for px, py in points:
-                    zone += f'\t\t{{Point {px} {py}}}\n'
+                    zone += f'\t{{Point {px} {py}}}\n'
                 
                 zone += '}\n'
                 f_out.write(zone)

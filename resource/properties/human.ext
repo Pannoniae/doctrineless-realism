@@ -181,7 +181,7 @@
 		{Right		8  0 0	13.0  1.1	"run_spot_left-strafe_gun_up" "run_spot_left-strafe_gun_down"}
 		{Back		8  0 0	10.5  1.22	"run_back_spot_gun_up" 		  "run_back_spot_gun_down"}
 	}
-	{Injured 0.85}		;// speed multiplier when health is below 30% of maximum
+	{Injured 0.8}		;// speed multiplier when health is below 30% of maximum
 }
 
 {volume "body"	;//stomach and chest
@@ -247,14 +247,14 @@
 {brain "human"
 	{const "bomb/detect_explosives"	15}		;// detect explosives inside 7 meter radius
 	{const "bomb/detect_grenades"	15}		;// detect grenades inside 5 meter radius
-	{const "bomb/danger_zone"		4.5}		;// hide if danger is more than "x" meters away, otherwise run away
+	{const "bomb/danger_zone"		5}		;// hide if danger is more than "x" meters away, otherwise run away
 	{const "fight/distance"			9.7} 	;// was at 1.5
 	{const "weapon/change_time"		3}		;// disable ai weapon switch for 20 seconds
 
 
 	{Properties
 		{advance_ratio 0.5}
-		{retreat_ratio 4}
+		{retreat_ratio 5}
 	}
 }
 

@@ -31,11 +31,11 @@
 	{item "panzershreck"			"ammo" 1  {value 10}}
 
 ;// Light weaponry
-	{item "mortarger_80" "he"		"ammo" 1  {value 5}}
-	{item "mortarger_80" "sm"		"ammo" 1  {value 5}}
-	{item "mortarger_100" "he"		"ammo" 1  {value 5}}
-	{item "mortarger_100" "sm"		"ammo" 1  {value 5}}
-	{item "mortarger_120" "he"		"ammo" 1  {value 15}}
+	{item "mortarger_80" "he"		"ammo" 1  {value 3}}
+	{item "mortarger_80" "sm"		"ammo" 1  {value 3}}
+	{item "mortarger_100" "he"		"ammo" 1  {value 10}}
+	{item "mortarger_100" "sm"		"ammo" 1  {value 10}}
+	{item "mortarger_120" "he"		"ammo" 1  {value 10}}
 
 ;// Grenade
 	{item "grenade" "m24"					1  {value 5}}
@@ -85,12 +85,12 @@
 	{item "bazooka"					"ammo" 1  {value 10}}
 
 ;// Light weaponry
-	{item "mortarrus_50" "he"		"ammo" 1  {value 3}}
-	{item "mortarrus_82" "he"		"ammo" 1  {value 5}}
-	{item "mortarrus_82" "sm"		"ammo" 1  {value 10}} ;// is actually "ic"
-	{item "mortarrus_120" "he"		"ammo" 1  {value 15}}
-	{item "mortarrus_120" "sm"		"ammo" 1  {value 15}}
-	{item "mortarrus_120" "ic"		"ammo" 1  {value 15}}
+	{item "mortarrus_50" "he"		"ammo" 1  {value 2}}
+	{item "mortarrus_82" "he"		"ammo" 1  {value 3}}
+	{item "mortarrus_82" "sm"		"ammo" 1  {value 5}} ;// is actually "ic"
+	{item "mortarrus_120" "he"		"ammo" 1  {value 10}}
+	{item "mortarrus_120" "sm"		"ammo" 1  {value 10}}
+	{item "mortarrus_120" "ic"		"ammo" 1  {value 10}}
 
 ;// Grenade
 	{item "grenade" "f1" 					1  {value 5}}
@@ -180,15 +180,15 @@
 	{item "recoilless" "wp"			"ammo" 1  {value 10}}
 
 ;// Light weaponry
-	{item "mortarusa_60" "he"		"ammo" 1  {value 3}}
-	{item "mortarusa_60" "wp"		"ammo" 1  {value 8}}
-	{item "mortarusa_81" "he"		"ammo" 1  {value 5}}
-	{item "mortarusa_81" "he2"		"ammo" 1  {value 5}}
-	{item "mortarusa_81" "sm"		"ammo" 1  {value 5}}
-	{item "mortarusa_81" "wp"		"ammo" 1  {value 10}}
-	{item "mortarusa_107" "he"		"ammo" 1  {value 15}}
-	{item "mortarusa_107" "sm"		"ammo" 1  {value 15}}
-	{item "mortarusa_107" "wp"		"ammo" 1  {value 15}}
+	{item "mortarusa_60" "he"		"ammo" 1  {value 2}}
+	{item "mortarusa_60" "wp"		"ammo" 1  {value 4}}
+	{item "mortarusa_81" "he"		"ammo" 1  {value 3}}
+	{item "mortarusa_81" "he2"		"ammo" 1  {value 3}}
+	{item "mortarusa_81" "sm"		"ammo" 1  {value 3}}
+	{item "mortarusa_81" "wp"		"ammo" 1  {value 5}}
+	{item "mortarusa_107" "he"		"ammo" 1  {value 10}}
+	{item "mortarusa_107" "sm"		"ammo" 1  {value 10}}
+	{item "mortarusa_107" "wp"		"ammo" 1  {value 10}}
 
 ;// Grenade
 	{item "grenade" "mk2" 					1  {value 5}}
@@ -211,8 +211,8 @@
 	{item "atrifle_eng"	"ap2"		"ammo" 5  {value 5}}
 
 ;// Light weaponry
-	{item "mortareng_50" "sm"		"ammo" 1  {value 3}}
-	{item "mortareng_50" "wp"		"ammo" 1  {value 3}}
+	{item "mortareng_50" "sm"		"ammo" 1  {value 2}}
+	{item "mortareng_50" "wp"		"ammo" 1  {value 2}}
 
 ;// Grenade
 	{item "grenade" "no73"					1  {value 10}}
@@ -357,7 +357,7 @@
 
 	{item "bulletger_170"		"he"		"ammo" 1  {value 60}}
 
-	{item "mortarger_200"		"he"		"ammo" 1  {value 30}}
+	{item "mortarger_200"		"he"		"ammo" 1  {value 10}}
 	{item "mortarger_200"		"sm"		"ammo" 1  {value 5}}
 
 	{item "bulletger_210"		"he"		"ammo" 1 {value 100}}
@@ -405,6 +405,7 @@
 	{item "bulletrus_76"		"aphebc2"	"ammo" 1 {value 5}}
 	{item "bulletrus_76"		"apcr"		"ammo" 1 {value 10}}
 	{item "bulletrus_76"		"heat"		"ammo" 1 {value 10}}
+	{item "bulletrus_76"		"sm"		"ammo" 1 {value 10}}
 	{item "bulletrus_76"		"he"		"ammo" 1 {value 5}}
 	
 	{item "bulletrus_76_l55"	"apbc"		"ammo" 1 {value 5}}
@@ -428,6 +429,7 @@
 	{item "bullet_122x159" "rus" "he"		"ammo" 1 {value 25}}
 	{item "bullet_122x159" "rus" "wp"		"ammo" 1 {value 15}}
 
+	{item "bulletrus_122_l22"	"sm"		"ammo" 1 {value 25}}
 	{item "bulletrus_122_l22"	"he"		"ammo" 1 {value 25}}
 	{item "bulletrus_122_l22"	"heat"		"ammo" 1 {value 15}}
 
@@ -465,7 +467,7 @@
 
 (define "items_heavy_fin"
 
-	{item "mortarfin_170"		"he"		"ammo" 1  {value 50}}
+	{item "mortarfin_170"		"he"		"ammo" 1  {value 25}}
 
 	{item "bulletfin_20"		"ap"		"ammo" 20 {value 5}}
 	{item "bulletfin_20_auto"	"ap"		"ammo" 20 {value 5}}

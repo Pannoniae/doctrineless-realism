@@ -1,10 +1,13 @@
 {"tank"
+					;/*-- Radio Controlled tank "if in range" check and script. --*/
+					
 	;{on "rc_check"
 	;	{if tagged "not_in_range"
 	;		{view start ally neutral "marker_signal_bad"}
 	;		{view stop "marker_signal_good"}
 	;		{damage_report "rc" "component/rc_not_in_range"}
 	;		{delay 20 "not_in_range"
+	;			{reset_manual_control}
 	;			{chassis_work 0}
 	;			{call "engine_off"}
 	;			{weapon_work "explosive" 0}
@@ -25,7 +28,10 @@
 	;		{view start ally neutral "marker_signal_good"}
 	;	}
 	;}
-	;/*=========== Transmission Tracks Sounds  ===========*/
+	
+	
+					;/*-- Components break and repair sounds. --*/
+					
 	{on break
 		{if not tagged "exploded" ;//modules making sounds on break
 			{start_sound "crush/medium/metal"}
@@ -38,22 +44,31 @@
 					{delay 0.65
 					{start_sound "crush/medium/track_broken"}
 					}
+					{tags add "trackl_broken"}
 				else component "trackright"
 					{start_sound "vehicle/tracks/brake"}
 					{delay 0.65
 					{start_sound "crush/medium/track_broken"}
 					}
+					{tags add "trackr_broken"}
 				else component "turret"
 					{delay 0.7{start_sound "crush/medium/transmission_broken"}}
 					{tags add "turret_brake"}
 				else component "aux_turret"
 					{delay 0.7{start_sound "crush/medium/transmission_broken"}}
+					{tags add "auxturret_broken"}
+				else component "aux_turret1"
+					{delay 0.7{start_sound "crush/medium/transmission_broken"}}
+					{tags add "auxturret1_broken"}
 				else component "aux_turret2"
 					{delay 0.7{start_sound "crush/medium/transmission_broken"}}
+					{tags add "auxturret2_broken"}
 				else component "aux_turret3"
-					{delay 0.7{start_sound "crush/medium/transmission_broken"}}				
+					{delay 0.7{start_sound "crush/medium/transmission_broken"}}			
+					{tags add "auxturret3_broken"}					
 				else component "aux_turret4"
 					{delay 0.7{start_sound "crush/medium/transmission_broken"}}		
+					{tags add "auxturret4_broken"}
 				else component "engine"
 					{tags add "engine_brake"}
 					{start_sound "crush/medium/engine_broken"}
@@ -66,31 +81,56 @@
 					}
 				else component "gun"
 					{delay 0.35{start_sound "crush/medium/gun_jam"}}
+					{tags add "gun_broken"}
 				else component "gun1"
 					{delay 0.35{start_sound "crush/medium/gun_jam"}}
+					{tags add "gun1_broken"}
 				else component "gun2"
 					{delay 0.35{start_sound "crush/medium/gun_jam"}}
+					{tags add "gun2_broken"}
 				else component "gun3"
 					{delay 0.35{start_sound "crush/medium/gun_jam"}}
+					{tags add "gun3_broken"}
 				}
 		}
 	}
-	{on repair ;// sound of repaired modules
+	{on repair
 		{if component "transmission"
 			{tags remove "trans_break"}
 		else component "trackleft"
 			{start_sound "crush/medium/track_repaired"}
+			{tags remove "trackl_broken"}
 		else component "trackright"
 			{start_sound "crush/medium/track_repaired"}
+			{tags remove "trackr_broken"}
+		else component "aux_turret"
+			{tags remove "auxturret_broken"}
+		else component "aux_turret1"
+			{tags remove "auxturret1_broken"}
+		else component "aux_turret2"
+			{tags remove "auxturret2_broken"}
+		else component "aux_turret3"
+			{tags remove "auxturret3_broken"}
+		else component "aux_turret4"
+			{tags remove "auxturret4_broken"}
+		else component "gun"
+			{tags remove "gun_broken"}
+		else component "gun1"
+			{tags remove "gun1_broken"}
+		else component "gun2"
+			{tags remove "gun2_broken"}
+		else component "gun3"
+			{tags remove "gun3_broken"}
 		}
 	}
 	
-	;/*=========== Transmission Tracks Sounds END  ===========*/
-	;/*=========== Fuel Tanks  ===========*/
-{on pierce sync
-	{if component "fuel"
+	
+					;/*-- Fuel explosion script. --*/	
+					
+{on pierce sync ;// defines chances of explosion based on type of fuel, shell type and caliber.
+	{if component "fuel" 
 		{if not able "exploded"
-			{if not tagged "diesel"
+			{if not tagged "diesel" ;// gasoline fuel explosion script.
 				{if not stuff "auto"
 					{if not stuff "shell size1"
 						{if not stuff "heat_shell"
@@ -118,7 +158,7 @@
 					}
 				}
 			}
-			else tagged "diesel"
+			else tagged "diesel" ;// diesel fuel explosion script.
 				{if not stuff "auto"
 					{if not stuff "shell size1"
 						{if not stuff "heat_shell"
@@ -150,7 +190,7 @@
 		}
 	}
 }
-	(define "fuel_exploding" 
+	(define "fuel_exploding" ;// explosion FX and damage.
 		{burn volume "%volume" fx "ex_fuel_tank" time 0.01 fake}
 				{kill_crew}
 				{if rand 0.05
@@ -163,6 +203,7 @@
 		{spawn "ex_fuel_tank"}
 		{spawn "fire_shellhole"}
 		{damage_report "fuel" "component/fuel_exploded"}
+		{burn fx "smoke_fire_fuel_leak" time 7.5 fake}
 		{blastwave c4 3 r0 4 r1 6}
 		{fire radius 4 time 4 heating 5}
 		{delay_ex 0
@@ -172,7 +213,7 @@
 		}
 	)
 
-	{on "fuel_explode_check"
+	{on "fuel_explode_check" ;// checking the volumes.
 		{if volume "fuel1"
 			{if not tagged "fuel1_explode"
 				{tags add "fuel1_explode"}
@@ -220,12 +261,130 @@
 			}
 		}
 	}
+
 }
 
-{"flame_thrower" ;//flamers exploding on hit
+
+					;/*-- Flammpanzer II external fuel tanks explosion script. --*/
+					
+{"panzer2_flamm" 
+	{on pierce sync ;// the same check as fuel explosion script, L94
+		{if volume "shieldfuel_1" ;// for left fuel tank
+			{if not stuff "auto"
+				{if not stuff "shell size1"
+						{if not stuff "heat_shell"
+							{if stuff "shell"
+								{if rand 0.1{call_synced "flamingo_explosion_1"}}
+							else stuff "sap"
+								{if rand 0.5{call_synced "flamingo_explosion_1"}}
+							else stuff "ap"
+								{if rand 0.05{call_synced "flamingo_explosion_1"}}
+							else stuff "apc"
+								{if rand 0.05{call_synced "flamingo_explosion_1"}}
+							else stuff "apbc"
+								{if rand 0.05{call_synced "flamingo_explosion_1"}}
+							else stuff "apcbc"
+								{if rand 0.05{call_synced "flamingo_explosion_1"}}
+							else stuff "apcr"
+								{if rand 0.05{call_synced "flamingo_explosion_1"}}
+							else stuff "apds"
+								{if rand 0.05{call_synced "flamingo_explosion_1"}}
+							else stuff "hvap"
+								{if rand 0.05{call_synced "flamingo_explosion_1"}}
+							}
+						else stuff "heat_shell"
+							{if rand 0.5{call_synced "flamingo_explosion_1"}}
+						else 
+							{call_synced "flamingo_hit_fuel"}
+						}
+				}
+			}
+		}
+		{if volume "shieldfuel_2" ;// for right fuel tank
+			{if not stuff "auto"
+				{if not stuff "shell size1"
+						{if not stuff "heat_shell"
+							{if stuff "shell"
+								{if rand 0.1{call_synced "flamingo_explosion_2"}}
+							else stuff "sap"
+								{if rand 0.5{call_synced "flamingo_explosion_2"}}
+							else stuff "ap"
+								{if rand 0.05{call_synced "flamingo_explosion_2"}}
+							else stuff "apc"
+								{if rand 0.05{call_synced "flamingo_explosion_2"}}
+							else stuff "apbc"
+								{if rand 0.05{call_synced "flamingo_explosion_2"}}
+							else stuff "apcbc"
+								{if rand 0.05{call_synced "flamingo_explosion_2"}}
+							else stuff "apcr"
+								{if rand 0.05{call_synced "flamingo_explosion_2"}}
+							else stuff "apds"
+								{if rand 0.05{call_synced "flamingo_explosion_2"}}
+							else stuff "hvap"
+								{if rand 0.05{call_synced "flamingo_explosion_2"}}
+							}
+						else stuff "heat_shell"
+							{if rand 0.5{call_synced "flamingo_explosion_2"}}
+						else 
+							{call_synced "flamingo_hit_fuel"}
+						}
+				}
+			}
+		}
+	}
+	{on "flamingo_explosion_1" ;// defines FX and damage of the explosion, left fuel tank.
+		{weapon_work "gun" 0}
+		{burn volume "shieldfuel_1" fx "ex_fuel_tank" time 0.01 fake}
+		{burn fx "smoke_fire_fuel_leak" time 25 fake}
+		{start_sound "detonation/cook_off/ext_explosion"}
+		{fire radius 4 time 2 heating 5}
+		{delay_ex 0
+			{tear "piece_large_steel" bone "shieldfuel_1" id "shieldfuel_1"
+				{delete}
+			}
+			{tear "piece_large_steel" bone "b_hatch_l1" id "b_hatch_l1"
+				{impulse up 5 2 cx 2 1 cy 2 1 cz 2 1 rnd_dir 3 1 com}
+			}
+			{tear "piece_large_steel" bone "b_hatch_l2" id "b_hatch_l2"
+				{impulse up 4 2 cx 2 1 cy 2 1 cz 2 1 rnd_dir 3 1 com}
+			}
+		}
+		{damage_report "shieldfuel_1" "component/left_ext_fuel_exploded"}
+		{delay 4
+			{damage_report "aux_turret1" "component/left_flamethrower_broken"}
+		}
+	}
+	{on "flamingo_explosion_2" ;// defines FX and damage of the explosion, right fuel tank.
+		{weapon_work "gun1" 0}
+		{burn volume "shieldfuel_2" fx "ex_fuel_tank" time 0.01 fake}
+		{burn fx "smoke_fire_fuel_leak" time 25 fake}
+		{start_sound "detonation/cook_off/ext_explosion"}
+		{fire radius 4 time 2 heating 5}
+		{delay_ex 0
+			{tear "piece_large_steel" bone "shieldfuel_2" id "shieldfuel_2"
+				{delete}
+			}
+			{tear "piece_large_steel" bone "b_hatch_r1" id "b_hatch_r1"
+				{impulse up 5 2 cx 2 1 cy 2 1 cz 2 1 rnd_dir 3 1 com}
+			}
+			{tear "piece_large_steel" bone "b_hatch_r2" id "b_hatch_r2"
+				{impulse up 4 2 cx 2 1 cy 2 1 cz 2 1 rnd_dir 3 1 com}
+			}
+		}
+		{damage_report "shieldfuel_2" "component/right_ext_fuel_exploded"}
+		{delay 4
+			{damage_report "aux_turret2" "component/right_flamethrower_broken"}
+		}
+	}
+	{on "flamingo_hit_fuel"
+		{burn fx "smoke_fire_fuel_leak" time 10 fake}
+	}
+}
+
+{"flame_thrower" ;// flamers exploding on hit.
 	{on pierce sync
 		{if volume "fuel"
-			{if rand 0.5
+			{if rand 0.65
 				{if not stuff_filled "fuel" 0
 					{call_synced "explosion_flamer"}
 					{tags add "exploded_flamer"}
@@ -235,15 +394,15 @@
 	}
 	{on "explosion_flamer"
 		{if not tagged "exploded_flamer"
-				{burn volume "fuel" fx "ex_fuel_tank" time 0.01 fake}
-				{spawn "flamer_die"}
-				{spawn "ex_fuel_tank"}
-				{spawn "fire_shellhole"}
-				{blastwave c4 2 r0 4 r1 4}
-				{fire radius 4 time 4 heating 5}
-				{tear "piece_large_steel" bone "fuel" id "fuel"
-					{delete}
-				}
+			{burn volume "fuel" fx "ex_fuel_tank" time 0.01 fake}
+			{spawn "flamer_die"}
+			{spawn "ex_fuel_tank"}
+			{spawn "fire_shellhole"}
+			{blastwave c4 2 r0 4 r1 4}
+			{fire radius 4 time 4 heating 5}
+			{tear "piece_large_steel" bone "fuel" id "fuel"
+				{delete}
+			}
 		}
 	}
 }
@@ -251,7 +410,7 @@
 {"diesel"	;// alternate fuel type
 	{on spawn
 		{tags add "add_exhaustview"}
-		{tags add "diesel"} ;//needed for different fuel types having different explosion chances
+		{tags add "diesel"} ;// needed for different fuel types having different explosion chances.
 	}
 	{on "add_exhaustview" overload
 		{add_view	"exhaust_dark_big_diesel"		"exhaust"			   "FXsmoke1"} ;// engine exhaust
@@ -262,7 +421,11 @@
 		{add_view	"exhaust_dark_small2"			"exhaust2"			   "FXsmoke2"} ;// idle exhaust
 	}
 }
-(define "m17t"	;// bt flash fx
+
+
+					;/*-- BT exhaust flash FX. --*/
+					
+(define "m17t"
 	{on "add_exhaustview"
 		{add_view	"tank_canon_fire_20_25_auto"				"exhaust3"			   "FXsmoke1"} ;// engine exhaust
 		{add_view	"tank_canon_fire_20_25_auto"				"exhaust3"			   "FXsmoke2"} ;// engine exhaust
@@ -275,35 +438,26 @@
 			{start_sound "weapon/shot/cannon/s1/d1/Shared/Cannon_37to40mm"}		
 			{delay 0.2
 				{view pause "exhaust3"}
-				{if rand 0.5
+				{if rand 0.35
 					{delay 0.55 0.1
 						{view start "exhaust3"}
 						{start_sound "weapon/shot/cannon/s1/d1/Shared/Cannon_37to40mm"}		
 						{delay 0.1
 							{view pause "exhaust3"}
 						}
-						{if rand 0.5
+						{if rand 0.35
 							{delay 0.4 0.05
 								{view start "exhaust3"}
 								{start_sound "weapon/shot/cannon/s1/d1/Shared/Cannon_37to40mm"}		
 								{delay 0.1
 									{view pause "exhaust3"}
 								}
-								{if rand 0.6
+								{if rand 0.40
 									{delay 0.5 0.1
 										{view start "exhaust3"}
 										{start_sound "weapon/shot/cannon/s1/d1/Shared/Cannon_37to40mm"}		
 										{delay 0.1
 											{view pause "exhaust3"}
-										}
-										{if rand 0.7
-											{delay 0.6 0.2
-												{view start "exhaust3"}
-												{start_sound "weapon/shot/cannon/s1/d1/Shared/Cannon_37to40mm"}		
-												{delay 0.1
-													{view pause "exhaust3"}
-												}						
-											}
 										}						
 									}
 								}							
@@ -312,7 +466,7 @@
 					}
 				}
 			}
-			{delay 14 0.5 {set "flashing" 0}}
+			{delay 17 0.5 {set "flashing" 0}}
 		}
 		}
 	}
@@ -326,16 +480,19 @@
 		{call "exhaust_flash"}
 	}
 )
-{"bt2 tank" 		("m17t")}
-{"bt2_da2 tank" 	("m17t")}
-{"bt5 tank" 		("m17t")}
-{"bt5_fin tank" 	("m17t")}
-{"bt7 tank" 		("m17t")}
-{"bt7a tank" 		("m17t")}
-{"panzer742r tank" 	("m17t")}
-{"bt42 tank" 		("m17t")}
-{"bt7_35 tank" 		("m17t")}
+{"bt2 tank" 			("m17t")}
+{"bt2_da2 tank" 		("m17t")}
+{"bt5 tank" 			("m17t")}
+{"bt5_fin tank" 		("m17t")}
+{"bt7 tank" 			("m17t")}
+{"bt7a tank" 			("m17t")}
+{"panzer742r tank" 		("m17t")}
+{"bt42 tank" 			("m17t")}
+{"bt7_35 tank" 			("m17t")}
 
+
+					;/*-- Smoke grenades explosion FX. --*/
+					
 {"smoke nwg"
 	{on spawn
 		{link_sound "burn_down" "detonation/grenade_wp/burn_down/"}
@@ -403,18 +560,13 @@
 	}
 }
 
-
-
-
-	;/*=========== Fuel Tanks END  ===========*/
-	
-	;/*====Radio Controlled Vehicles START====*/
-
+					;/*-- Radio Controlled tanks FX and tags.  --*/
+					
 {"rc_parent"
 	{on spawn{tags add "rc_parent"}}
 }
 {"rc_child"
-	{on spawn  ;//in_range tag is added because .mi script doesn't add it themself
+	{on spawn
 		{tags add "rc_child"}
 		{tags add "in_range"}
 		{add_view	"marker_signal_good"			"marker_signal_good"			"basis" not_manual not_scenario}
@@ -423,9 +575,8 @@
 	}
 }
 
-	;/*====Radio Controlled Vehicles END====*/
-	;/*=Soviet smoke generator system START=*/
-	
+					;/*-- Soviet smoke generator. --*/
+					
 	{"smoke_generator"
 		{on "smoke_screen_toggle"
 			{if not "toggle_delay"
@@ -440,7 +591,7 @@
 			{set "toggle_delay" 1}			;// stops accidental double click of UI button
 			{delay 1 {set "toggle_delay" 0}}
 		}
-		{on "smoke_screen_on"
+		{on "smoke_screen_on" ;// if enabled.
 			{set "smoke_screen_on" 1}  
 			{play_sound "detonation/grenade_smoke/generic/detonation_misc_s1_smoke_generic_loop" 1}
 			{with_linked_entity "smokegenerator"
@@ -469,12 +620,12 @@
 				{set "cooldown" 1}
 				{set "smoke_screen_on" 0}
 				{call_synced "smoke_screen_off"}				
-				{delay 600 
+				{delay 600 ;// edit the cooldown of the ability here.
 					{set "cooldown" 0}
 				}
 			}
 		}
-		{on move on 
+		{on move on ;// spawning smokescreens on move.
 			{if "smoke_screen_on"
 				{if not "cooldown"
 					{call_synced "spawn_smoke"}
@@ -482,12 +633,12 @@
 				}
 			}		
 		}
-		{on "smoke_screen_off" 
+		{on "smoke_screen_off" ;// if disabled.
 			{set "smoke_screen_on" 0}
 			{play_sound "detonation/grenade_smoke/generic/detonation_misc_s1_smoke_generic_end_01"}
 			{stop_sound "detonation/grenade_smoke/generic/detonation_misc_s1_smoke_generic_loop"}
 			{set "cooldown" 1}
-			{delay 600 
+			{delay 600 ;// edit the cooldown of the ability here.
 				{set "cooldown" 0}
 			}
 			{with_linked_entity "smokegenerator"
@@ -499,7 +650,7 @@
 				{view stop "smoke_screen_big1"}
 			}
 		}
-		{on "spawn_smoke"
+		{on "spawn_smoke" ;// smoke FX.
 			{if "smoke_screen_on"
 				{if not "cooldown"
 					{spawn "placer" "basis"
@@ -516,7 +667,7 @@
 			}
 		}
 
-		{on "spawn_smoke_vol"
+		{on "spawn_smoke_vol" ;// actual smoke volumes.
 			{if "smoke_screen_on"
 				{if not "cooldown"
 				(define "spawn_volume_sg"
@@ -566,16 +717,16 @@
 					("spawn_volume_sg1" args cylinder_sm 0 -220 26)
 				}
 				{delay 3
-					{call_synced "spawn_smoke_vol"}
+					{call_synced "spawn_smoke_vol"} ;// looped.
 				}
 				}
 			}
 		}
 	}
-	
-	;/*==Soviet smoke generator system END==*/
-	;/*=======Sd.kfz 301 script START=======*/
 
+
+					;/*-- Borgward 450kg. bomb script. --*/
+					
 {"borgward"
 	{on spawn
 		{tags add "borgward"}
@@ -629,18 +780,18 @@
 		{if volume "body3"
 			{if stuff "shell size1"
 				{if rand 0.5
-					{kill_delay "timer"}
+					{kill_delay "timer"} ;// kills the delay to prevent multiple explosions.
 					{call_synced "explosion"}
 				}
 			else stuff "shell size2"
-				{kill_delay "timer"}
-							{call_synced "explosion"}
+					{kill_delay "timer"}
+					{call_synced "explosion"}
 			else stuff "shell size3"
-				{kill_delay "timer"}
-							{call_synced "explosion"}
+					{kill_delay "timer"}
+					{call_synced "explosion"}
 			else stuff "shell size4"
-				{kill_delay "timer"}
-							{call_synced "explosion"}
+					{kill_delay "timer"}
+					{call_synced "explosion"}
 			else
 				{if rand 0.2
 					{kill_delay "timer"}
@@ -665,9 +816,9 @@
 		{spawn "crater_massive" "basis"}
 	}
 }
-	;/*=======Sd.kfz 301 script END=========*/
-	;/*=======horn script START=============*/	
-	
+
+					;/*-- Tank horn script. --*/
+
 	(define "horn"
 		{on "horn"
 			{if not "toggle_delay"
@@ -730,9 +881,10 @@
 	{"kv8s tank" 			("horn")}
 	{"bt7_35 tank" 			("horn")}
 	
-	;/*=======horn script END===============*/	
-	;/*=======minimap icons START===========*/
-	
+
+					;/*-- Minimap icons system based on tags. --*/
+					;// doesn't work actually but I think it may be usefull.
+					
 	{"td heavy -turret"
 		{on spawn
 			{tags add "heavy_td"}
@@ -1084,8 +1236,9 @@
 			}
 		}
 	}
-	;/*=======minimap icons END=============*/
 
+
+					;/*-- Frontline fake flags tag. --*/
 	{"frontline_tagger"
 		{on spawn {tags add "fake_flag"}}
 	}

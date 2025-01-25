@@ -1,7 +1,7 @@
 {game_entity
 	{extension "bomb_borgward.mdl"}
 	{props "borgward" "entity_bomb" "explosive_stuff" "steel"}
-	{collider "stuff"}
+	{collider "particle.big"}
 	{obstacleID "stuff"}
 	{simulation {able 1} {state 1}}
 	{mass 500}

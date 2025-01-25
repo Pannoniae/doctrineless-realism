@@ -1,5 +1,5 @@
 {entity 
-	{DecalView 
+	{lodclass "decor_decal"}{DecalView 
 		{Sprite "house_floorpav2.mtl"}
 		{orientation normal}
 		{layer grounddecal }

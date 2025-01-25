@@ -117,6 +117,10 @@
 		("scale" s(0.85))
 		{props "vehicle"}
 	}
+	{view "apc"
+		("scale" s(0.85))
+		{props "halftrack"}
+	}
 	
 	{view "bleeding_human"
 		("scale" s(0.30))

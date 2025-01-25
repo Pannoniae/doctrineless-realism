@@ -48,6 +48,9 @@
 			{exclude "*/usa/tank_medium/m36_gmc/m36_gmc_t33*"}
 			{exclude "*/usa/tank_medium/m36b1_gmc/m36b1_gmc_late*"}
 			{exclude "*/usa/tank_medium/m36b1_gmc/m36b1_gmc_t33*"}
+			
+			{exclude "*/+finland/tank_light/t26c/t26c_m.def"}
+			{exclude "*/+finland/tank_light/t26c_39/t26c_39_m.def"}
 
 			{exclude "*/ussr/tank_light/t50/t-50.def"}
 			{exclude "*/poland/cannon/303_bren_tripod_aa/heavy_mg_bren.def"}

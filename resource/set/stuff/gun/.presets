@@ -928,7 +928,7 @@
 (define "indirect_settings"
 	{SpreadTolerance 0.75}		;// Zeroing up to 75% needed before fire
 	{ZeroingAccuracy 0.8 0.65 0.55 0.5 0.45}
-	{spreading {SpreadXYRatio 2}}
+	{spreading {SpreadXYRatio 3}}
 )
 
 ;/*============================== RANGES AND SPECIFICS ==============================*/
@@ -1192,17 +1192,17 @@
 )
 
 (define "medium_artillery"
-	{spreading {SpreadXYRatio 2}}
+	{spreading {SpreadXYRatio 3}}
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
 		}
 	}
 	{parameters "he2"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
 		}
 	}
 	{ZeroingAccuracy 0.80 0.65 0.55 0.45 0.40}
@@ -1215,17 +1215,17 @@
 )
 
 (define "heavy_artillery"
-	{spreading {SpreadXYRatio 2}}
+	{spreading {SpreadXYRatio 3}}
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
 	{parameters "he2"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
 	{ZeroingAccuracy 0.80 0.65 0.55 0.45 0.40}
@@ -1238,17 +1238,17 @@
 )
 
 (define "super_heavy_artillery"
-	{spreading {SpreadXYRatio 2}}
+	{spreading {SpreadXYRatio 0.05}}
 	{parameters "he"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
 	{parameters "he2"
 		{spreading 1 
 			{SpreadPower 1.00}    ;// Shot has en equal chance of landing anywhere on the aiming circle, no centre-bias
-			{SpreadXYRatio 2}  ;// Shots land more longitudinally than traversely.
+			{SpreadXYRatio 3}  ;// Shots land more longitudinally than traversely.
 		} 
 	}
 	{ZeroingAccuracy 0.80 0.65 0.55 0.45 0.40}

@@ -1,5 +1,5 @@
 {entity 
-	{DecalView 
+	{lodclass "decor_decal"}{DecalView 
 		{Sprite "ground4.mtl" 
 			{Scale 0.6 }
 		}

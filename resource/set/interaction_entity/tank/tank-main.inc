@@ -164,6 +164,87 @@
 		;{call "explosive_amount_tag"}	;// tool to determine explosive amount in vehicles
 		;/*=========== Smoke/Fire FX End ===========*/
 
+		;/*=======random texmods START==========*/
+		
+		{if tex_mod ""
+			{tags add "set_texmod"}
+			{if tagged "set_texmod"
+				{if rand 0.25 {delay 0.1{tex_mod "dunkengelb"}}}
+				
+				{if rand 0.5 {delay 0.1{tex_mod "camo44"}}}
+				
+				{if rand 0.5 {delay 0.1{tex_mod "camo44late"}}}
+				
+				{if rand 0.3 {delay 0.1{tex_mod "grey"}}}
+			}
+		}
+		{if tex_mod "desert"
+			{tags add "set_texmod_desert"}
+			{if tagged "set_texmod_desert"
+
+				{if rand 0.5 {delay 0.1{tex_mod "desert_camo"}}}
+				
+				{if rand 1.0 {delay 0.1{tex_mod "dunkengelb"}}}
+				
+				{if rand 1.0 {delay 0.1{tex_mod "des"}}}
+				
+				{if rand 1.0 {delay 0.1{tex_mod "d"}}}
+		
+				{if rand 1.0 {delay 0.1{tex_mod "yellow"}}}
+			}
+		}
+		{if tex_mod "camo"
+			{tags add "set_texmod_camo"}
+			{if tagged "set_texmod_camo"
+			
+				{if rand 0.5 {delay 0.1{tex_mod "camob"}}
+				else rand 0.5 {delay 0.1{tex_mod "b"}}
+				}					
+
+				{if rand 0.5 {delay 0.1{tex_mod "camo1"}}
+				else rand 0.75 {delay 0.1{tex_mod "camo2"}}
+				else rand 0.75 {delay 0.1{tex_mod "camo3"}}			
+				else rand 0.75 {delay 0.1{tex_mod "camo4"}}					
+				else rand 0.3 {delay 0.1{tex_mod "grey"}}	
+				}					
+
+				{if rand 0.5 {delay 0.1{tex_mod "camo2"}}}
+
+				{if rand 0.3 {delay 0.1{tex_mod "normandy"}}}
+
+				{if rand 0.3 {delay 0.1{tex_mod "grey"}}}
+
+				{if rand 0.5 {delay 0.1{tex_mod "camo44"}}
+				else rand 0.5 {delay 0.1{tex_mod "camo44late"}}
+				}
+					
+				{if rand 0.5 {delay 0.1{tex_mod "2"}}
+				else rand 0.5 {delay 0.1{tex_mod "3"}}			
+				else rand 0.25 {delay 0.1{tex_mod "d"}}							
+				}
+			}
+		}
+
+		{if tex_mod "winter"
+		{tags add "set_texmod_winter"}
+			{if tagged "set_texmod_winter"
+				{if rand 0.5 {delay 0.1{tex_mod "winter1"}}
+				else rand 0.5 {delay 0.1{tex_mod "winter2"}}
+				}
+
+				{if rand 0.5 {delay 0.1{tex_mod "winter_camo"}}}
+
+				{if rand 0.5 {delay 0.1{tex_mod "winterb"}}}
+
+				{if rand 0.5 {delay 0.1{tex_mod "normandy_winter"}}}
+
+				{if rand 0.5 {delay 0.1{tex_mod "wcamo44"}}
+				else rand 0.5 {delay 0.1{tex_mod "w"}}
+				}
+			}
+		}
+		
+		;/*=======random texmods END============*/
 	}
 	;/*=========== Spawn End ===========*/
 
@@ -1692,7 +1773,7 @@
 				{spawn "enormous_fire" "basis"}
 				{spawn "crater_massive" "basis"}
 				("explosion_HE_s6")
-				{call_synced "cut_parts"}
+				{call_synced "tear_turret"}
 				{delay 0.1{delete}}
 				{if terrain_fx "snow"
 					{spawn "tank_die_snow" "basis"}
@@ -1846,7 +1927,7 @@
 				{spawn "enormous_fire" "basis"}
 				{spawn "crater_massive" "basis"}
 				("explosion_HE_s6")
-				{call_synced "cut_parts"}
+				{call_synced "tear_turret"}
 				{delay 0.1{delete}}
 				{if terrain_fx "snow"
 					{spawn "tank_die_snow" "basis"}

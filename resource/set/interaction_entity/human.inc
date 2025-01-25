@@ -26,6 +26,8 @@
 		{view stop "stuff_view"}
 	)
 	{on spawn
+		(include "human-texmods.inc")
+		
 		{add_view	"cigarettesmoke"		"smoke"		"head"}
 		{add_view	"drops_water_small2"	"on_water"	"foot3r"}
 		{add_view	"drops_water_small2"	"on_water"	"foot3l"}

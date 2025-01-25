@@ -8,14 +8,14 @@ grammar = r"""
     
     args: LITERAL _WHITESPACE? "(" value _WHITESPACE? ")"
     
-    builtin: "{" _WHITESPACE? LITERAL _WHITESPACE? node* _WHITESPACE? "}"
-    function: "(" _WHITESPACE? STRING _WHITESPACE? node* _WHITESPACE? ")"
+    builtin: "{" _WHITESPACE? value _WHITESPACE? node* _WHITESPACE? "}"
+    function: "(" _WHITESPACE? value _WHITESPACE? node* _WHITESPACE? ")"
     
     ?value: LITERAL | STRING | NUMBER
     
     LITERAL: /[a-zA-Z_][a-zA-Z0-9_]*/
     STRING: /"[^"]*"/
-    NUMBER: /-?[0-9]+(\.[0-9]+)?/
+    NUMBER: /-?(0x[0-9a-fA-F]+|[0-9]+(\.[0-9]+)?)/
     _WHITESPACE: /[ \t\f\r\n]+/
     _COMMENT: /;[^\n]*/
     """

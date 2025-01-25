@@ -1,9 +1,0 @@
-{entity 
-	{DecalView 
-		{Sprite "crash_wood2.mtl" 
-		}
-		{orientation normal}
-		{layer grounddecal }
-		{UseDirection }
-	}
-}

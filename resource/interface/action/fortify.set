@@ -225,5 +225,6 @@
 ("entrenchment_rotate"		name(ft_tower)			entity(ft_tower)			animation(dig_pickaxe_01)			time(60)	rotation(180.0)	spacing(180) cost(40)	item(trench)	restrictions("bridge bridge_wood rock shallow_water ice water"))
 
 ;modded horten
-("entrenchment_rotate"		name(mortar_pit)		entity(trench_dirt_mortar_engineer_mp)			animation(stand_dig_01)			time(90)	rotation(90.0)	spacing(180) cost(25)	item(engineering_light)	restrictions("bridge bridge_wood rock shallow_water ice water"))
-("entrenchment_rotate"		name(mg_foxhole)		entity(mg_foxhole)								animation(stand_dig_01)			time(60)	rotation(-90.0)	spacing(180) cost(15)	item(engineering_light)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"		name(mortar_pit)		entity(trench_dirt_mortar_engineer_mp)			animation(stand_dig_01)			time(45)	rotation(90.0)	spacing(180) cost(25)	item(engineering_light)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+("entrenchment_rotate"		name(deep_foxhole)		entity(mg_foxhole)								animation(stand_dig_01)			time(30)	rotation(-90.0)	spacing(180) cost(15)	item(engineering_light)	restrictions("bridge bridge_wood rock shallow_water ice water"))
+

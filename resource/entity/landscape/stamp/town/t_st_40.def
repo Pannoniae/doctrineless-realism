@@ -1,5 +1,5 @@
 {entity 
-	{DecalView 
+	{lodclass "decor_decal"}{DecalView 
 		{Sprite "t_st_40.mtl" 
 			{PreScaleX 1.0 }
 			{PreScaleY 1.0 }

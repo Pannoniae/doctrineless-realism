@@ -1,5 +1,5 @@
 {entity 
-	{DecalView 
+	{lodclass "decor_decal"}{DecalView 
 		{Sprite "border_rhine4c_grass.mtl" 
 			{Scale 0.6 }
 		}

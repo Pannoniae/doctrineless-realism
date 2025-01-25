@@ -79,7 +79,7 @@
 ("killzone_dummy" cal(122) delay(0.2))
 ("killzone_dummy" cal(150) delay(0.25))
 ("killzone_dummy" cal(200) delay(0.3))
-("killzone_dummy" cal(600) delay(0.4))
+("killzone_dummy" cal(600) delay(0.9))
 
 {"killzone"
 	{on spawn

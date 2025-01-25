@@ -12,7 +12,7 @@
 	{on contact
 		{if effector "human"
 			{with_effector
-				{health_damage_count 150 {effects "" "hit" "damage" "die" "die"}}
+				{health_damage_count 200 {effects "" "hit" "damage" "die" "die"}}
 			}
 		}
 		{call "explosion"}

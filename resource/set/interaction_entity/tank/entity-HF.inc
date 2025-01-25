@@ -1,5 +1,367 @@
 ;/*=========== MODDED Vehicles Begin ===========*/
 
+	;/*===random schurzen script START===============================================================*/	
+
+	(define "random_schurzen_78thoma"
+		{on spawn
+			{delay 0.1{bone hide "regular_schurzen"}{bone hide "thoma_schurzen"}}
+			{delay 0.1
+			{volumes "shieldl1" disable all}
+			{volumes "shieldl2" disable all}
+			{volumes "shieldl3" disable all}
+			{volumes "shieldl4" disable all}
+			{volumes "shieldl5" disable all}
+			{volumes "shieldr1" disable all}
+			{volumes "shieldr2" disable all}
+			{volumes "shieldr3" disable all}
+			{volumes "shieldr4" disable all}
+			{volumes "shieldr5" disable all}
+			
+			{volumes "shieldl6"  disable all}
+			{volumes "shieldl7"  disable all}
+			{volumes "shieldl8"  disable all}
+			{volumes "shieldl9"  disable all}
+			{volumes "shieldl10" disable all}
+			{volumes "shieldl11" disable all}
+			{volumes "shieldr6"  disable all}
+			{volumes "shieldr7"  disable all}
+			{volumes "shieldr8"  disable all}
+			{volumes "shieldr9"  disable all}
+			{volumes "shieldr10" disable all}
+			{volumes "shieldr11" disable all}
+			}
+			{delay 0.1
+				{if rand 0.78
+					{delay 0.1
+					{bone hide "regular_schurzen"}
+					{volumes "shieldl1" disable all}
+					{volumes "shieldl2" disable all}
+					{volumes "shieldl3" disable all}
+					{volumes "shieldl4" disable all}
+					{volumes "shieldl5" disable all}
+					{volumes "shieldr1" disable all}
+					{volumes "shieldr2" disable all}
+					{volumes "shieldr3" disable all}
+					{volumes "shieldr4" disable all}
+					{volumes "shieldr5" disable all}
+					
+					{bone show "thoma_schurzen"}
+					{volumes "shieldl6"  enable all}
+					{volumes "shieldl7"  enable all}
+					{volumes "shieldl8"  enable all}
+					{volumes "shieldl9"  enable all}
+					{volumes "shieldl10" enable all}
+					{volumes "shieldl11" enable all}
+					{volumes "shieldr6"  enable all}
+					{volumes "shieldr7"  enable all}
+					{volumes "shieldr8"  enable all}
+					{volumes "shieldr9"  enable all}
+					{volumes "shieldr10" enable all}
+					{volumes "shieldr11" enable all}
+					}
+				else
+					{delay 0.1
+					{bone hide "thoma_schurzen"}
+					{volumes "shieldl6"  disable all}
+					{volumes "shieldl7"  disable all}
+					{volumes "shieldl8"  disable all}
+					{volumes "shieldl9"  disable all}
+					{volumes "shieldl10" disable all}
+					{volumes "shieldl11" disable all}
+					{volumes "shieldr6"  disable all}
+					{volumes "shieldr7"  disable all}
+					{volumes "shieldr8"  disable all}
+					{volumes "shieldr9"  disable all}
+					{volumes "shieldr10" disable all}
+					{volumes "shieldr11" disable all}
+					
+					{bone show "regular_schurzen"}
+					{volumes "shieldl1" enable all}
+					{volumes "shieldl2" enable all}
+					{volumes "shieldl3" enable all}
+					{volumes "shieldl4" enable all}
+					{volumes "shieldl5" enable all}
+					{volumes "shieldr1" enable all}
+					{volumes "shieldr2" enable all}
+					{volumes "shieldr3" enable all}
+					{volumes "shieldr4" enable all}
+					{volumes "shieldr5" enable all}
+					}
+				}
+			}
+		}
+	)
+
+	(define "random_schurzen_50thoma"
+		{on spawn
+			{delay 0.1{bone hide "regular_schurzen"}{bone hide "thoma_schurzen"}}
+			{delay 0.1
+			{volumes "shieldl1" disable all}
+			{volumes "shieldl2" disable all}
+			{volumes "shieldl3" disable all}
+			{volumes "shieldl4" disable all}
+			{volumes "shieldl5" disable all}
+			{volumes "shieldr1" disable all}
+			{volumes "shieldr2" disable all}
+			{volumes "shieldr3" disable all}
+			{volumes "shieldr4" disable all}
+			{volumes "shieldr5" disable all}
+			
+			{volumes "shieldl6"  disable all}
+			{volumes "shieldl7"  disable all}
+			{volumes "shieldl8"  disable all}
+			{volumes "shieldl9"  disable all}
+			{volumes "shieldl10" disable all}
+			{volumes "shieldl11" disable all}
+			{volumes "shieldr6"  disable all}
+			{volumes "shieldr7"  disable all}
+			{volumes "shieldr8"  disable all}
+			{volumes "shieldr9"  disable all}
+			{volumes "shieldr10" disable all}
+			{volumes "shieldr11" disable all}
+			}
+			{delay 0.1
+				{if rand 0.50
+					{delay 0.1
+					{bone hide "regular_schurzen"}
+					{volumes "shieldl1" disable all}
+					{volumes "shieldl2" disable all}
+					{volumes "shieldl3" disable all}
+					{volumes "shieldl4" disable all}
+					{volumes "shieldl5" disable all}
+					{volumes "shieldr1" disable all}
+					{volumes "shieldr2" disable all}
+					{volumes "shieldr3" disable all}
+					{volumes "shieldr4" disable all}
+					{volumes "shieldr5" disable all}
+					
+					{bone show "thoma_schurzen"}
+					{volumes "shieldl6"  enable all}
+					{volumes "shieldl7"  enable all}
+					{volumes "shieldl8"  enable all}
+					{volumes "shieldl9"  enable all}
+					{volumes "shieldl10" enable all}
+					{volumes "shieldl11" enable all}
+					{volumes "shieldr6"  enable all}
+					{volumes "shieldr7"  enable all}
+					{volumes "shieldr8"  enable all}
+					{volumes "shieldr9"  enable all}
+					{volumes "shieldr10" enable all}
+					{volumes "shieldr11" enable all}
+					}
+				else
+					{delay 0.1
+					{bone hide "thoma_schurzen"}
+					{volumes "shieldl6"  disable all}
+					{volumes "shieldl7"  disable all}
+					{volumes "shieldl8"  disable all}
+					{volumes "shieldl9"  disable all}
+					{volumes "shieldl10" disable all}
+					{volumes "shieldl11" disable all}
+					{volumes "shieldr6"  disable all}
+					{volumes "shieldr7"  disable all}
+					{volumes "shieldr8"  disable all}
+					{volumes "shieldr9"  disable all}
+					{volumes "shieldr10" disable all}
+					{volumes "shieldr11" disable all}
+					
+					{bone show "regular_schurzen"}
+					{volumes "shieldl1" enable all}
+					{volumes "shieldl2" enable all}
+					{volumes "shieldl3" enable all}
+					{volumes "shieldl4" enable all}
+					{volumes "shieldl5" enable all}
+					{volumes "shieldr1" enable all}
+					{volumes "shieldr2" enable all}
+					{volumes "shieldr3" enable all}
+					{volumes "shieldr4" enable all}
+					{volumes "shieldr5" enable all}
+					}
+				}
+			}
+		}
+	)
+	
+	(define "random_schurzen_17thoma"
+		{on spawn
+			{delay 0.1{bone hide "regular_schurzen"}{bone hide "thoma_schurzen"}}
+			{delay 0.1
+			{volumes "shieldl1" disable all}
+			{volumes "shieldl2" disable all}
+			{volumes "shieldl3" disable all}
+			{volumes "shieldl4" disable all}
+			{volumes "shieldl5" disable all}
+			{volumes "shieldr1" disable all}
+			{volumes "shieldr2" disable all}
+			{volumes "shieldr3" disable all}
+			{volumes "shieldr4" disable all}
+			{volumes "shieldr5" disable all}
+			
+			{volumes "shieldl6"  disable all}
+			{volumes "shieldl7"  disable all}
+			{volumes "shieldl8"  disable all}
+			{volumes "shieldl9"  disable all}
+			{volumes "shieldl10" disable all}
+			{volumes "shieldl11" disable all}
+			{volumes "shieldr6"  disable all}
+			{volumes "shieldr7"  disable all}
+			{volumes "shieldr8"  disable all}
+			{volumes "shieldr9"  disable all}
+			{volumes "shieldr10" disable all}
+			{volumes "shieldr11" disable all}
+			}
+			{delay 0.1
+				{if rand 0.17
+					{delay 0.1
+					{bone hide "regular_schurzen"}
+					{volumes "shieldl1" disable all}
+					{volumes "shieldl2" disable all}
+					{volumes "shieldl3" disable all}
+					{volumes "shieldl4" disable all}
+					{volumes "shieldl5" disable all}
+					{volumes "shieldr1" disable all}
+					{volumes "shieldr2" disable all}
+					{volumes "shieldr3" disable all}
+					{volumes "shieldr4" disable all}
+					{volumes "shieldr5" disable all}
+					
+					{bone show "thoma_schurzen"}
+					{volumes "shieldl6"  enable all}
+					{volumes "shieldl7"  enable all}
+					{volumes "shieldl8"  enable all}
+					{volumes "shieldl9"  enable all}
+					{volumes "shieldl10" enable all}
+					{volumes "shieldl11" enable all}
+					{volumes "shieldr6"  enable all}
+					{volumes "shieldr7"  enable all}
+					{volumes "shieldr8"  enable all}
+					{volumes "shieldr9"  enable all}
+					{volumes "shieldr10" enable all}
+					{volumes "shieldr11" enable all}
+					}
+				else
+					{delay 0.1
+					{bone hide "thoma_schurzen"}
+					{volumes "shieldl6"  disable all}
+					{volumes "shieldl7"  disable all}
+					{volumes "shieldl8"  disable all}
+					{volumes "shieldl9"  disable all}
+					{volumes "shieldl10" disable all}
+					{volumes "shieldl11" disable all}
+					{volumes "shieldr6"  disable all}
+					{volumes "shieldr7"  disable all}
+					{volumes "shieldr8"  disable all}
+					{volumes "shieldr9"  disable all}
+					{volumes "shieldr10" disable all}
+					{volumes "shieldr11" disable all}
+					
+					{bone show "regular_schurzen"}
+					{volumes "shieldl1" enable all}
+					{volumes "shieldl2" enable all}
+					{volumes "shieldl3" enable all}
+					{volumes "shieldl4" enable all}
+					{volumes "shieldl5" enable all}
+					{volumes "shieldr1" enable all}
+					{volumes "shieldr2" enable all}
+					{volumes "shieldr3" enable all}
+					{volumes "shieldr4" enable all}
+					{volumes "shieldr5" enable all}
+					}
+				}
+			}
+		}
+	)
+
+	;/*===random schurzen script END===============================================================*/	
+	;/*===manual turret rotation script START======================================================*/
+
+	{"turret_manual"
+		{on "add_movement_sound"
+			{link_sound "rotate_turret_manual"	"vehicle/turret/handcrank/handcrank_heavy"}
+		}
+		{on spawn
+			{ik_enable "turret" 1}
+			{ik_enable "turret_manual" 0}
+			{if not "engine_on"
+				{ik_enable "turret" 0}
+				{ik_enable "turret_manual" 1}				
+			}
+		}
+	
+		{on ik begin "turret" overload
+			{kill_delay "rotate_turret"}
+			{if not "rotate_turret"
+				{play_sound "rotate_turret" 1}
+				{set "rotate_turret" 1}
+			}
+		}
+		{on ik end "turret" overload
+			{delay 0.25 "rotate_turret"
+				{stop_sound "rotate_turret"}
+				{set "rotate_turret" 0}
+			}
+		}
+	
+		{on ik begin "turret_manual" overload
+			{kill_delay "rotate_turret_manual"}
+			{if not "rotate_turret_manual"
+				{play_sound "rotate_turret_manual" 1}
+				{set "rotate_turret_manual" 1}
+			}
+		}
+		{on ik end "turret_manual" overload
+			{delay 0.25 "rotate_turret_manual"
+				{stop_sound "rotate_turret_manual"}
+				{set "rotate_turret_manual" 0}
+			}
+		}
+
+		{on break
+			{if component "engine"
+				{delay 1.5
+					{ik_enable "turret" 0}
+					{ik_enable "turret_manual" 1}
+					{damage_report "turret" "component/turret_manual_switch"}
+				}
+			}
+			{if component "turret"
+				{ik_enable "turret_manual" 0}
+			}
+		}
+		{on "engine_on"
+			{ik_enable "turret" 1}
+			{ik_enable "turret_manual" 0}
+		}
+		{on "engine_off"
+			{delay 1.5
+				{ik_enable "turret" 0}
+				{ik_enable "turret_manual" 1}
+				{damage_report "turret" "component/turret_manual_switch"}
+			}
+		}
+	}
+	
+	;/*===manual turret rotation script END===============================================================*/	
+{"panzer4j_late tank"
+	("random_schurzen_78thoma")
+}
+{"panzer4j tank"
+	("random_schurzen_50thoma")
+}
+
+
+{"kht27 tank"
+	("t27_sound")
+	{on spawn
+		{add_view "flamer_fire" "gun" "foresight1"}
+	}
+	{on "_explosion"
+		{spawn "fuel_die"}
+		{blastwave c4 5 r0 4 r1 15}
+		{fire radius 5 time 15 heating 10}
+	}
+	("flame_weapon" args gun 40 1 40)
+}
 {"t3_hmc tank"
 	("m3_stuart_sound")
 	{on "add_weapon_sound" overload
@@ -181,7 +543,48 @@
 		}
 	}
 }
-
+{"m2a4 tank"
+	("m3_stuart_sound")
+	{on spawn
+		{add_view	"flash_gun_big"	"flashbarrel3"	"foresight3"}
+	}
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		("M1919A4")
+	}
+	{on fire "mgun1" overload
+		{play_sound "MG_Mid"}
+		{play_sound "MG_Far"}
+		{view start "flashbarrel3"}
+		{delay 0.2
+			{view pause "flashbarrel3"}
+		}
+	}
+	{on break
+		{if not tagged "exploded"
+			{if component "ShieldL2"
+				{bone hide "headlightl"}
+				{components "ShieldL1" destroy}
+				{components "Detail4" destroy}
+				{components "Detail5" destroy}
+				{components "Detail6" destroy}
+			}
+			{if component "ShieldR2"
+				{bone hide "headlightr"}
+				{components "ShieldR1" destroy}
+				{components "Detail7" destroy}
+				{components "Detail8" destroy}
+			}
+			{if component "ShieldR3"
+				{components "ShieldR4" destroy}
+			}
+			{if component "ShieldL3"
+				{components "ShieldL4" destroy}
+				{components "Detail6" destroy}
+			}
+		}
+	}
+}
 {"m2a1 tank"
 	("m3_stuart_sound")
 	{on spawn
@@ -906,6 +1309,39 @@
 		{ani_play "close_l" 1.0 resume}
 	}
 }
+{"stug4_late tank"
+	("random_schurzen_50thoma")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("MG34")
+	}
+	{on "add_movement_sound" overload
+		{link_sound "engine_start"		"vehicle/engine/pz4/start"}
+		{link_sound "engine_stop"		"vehicle/engine/pz4/stop"}
+		{link_sound "engine_idle"		"vehicle/engine/pz4/idle"}
+		{link_sound "engine_full"		"vehicle/engine/pz4/full"}
+		{link_sound "exhaust"			"vehicle/engine/pz4/exhaust"}
+		{link_sound "move"				"vehicle/tracks/pz4"}
+		{link_sound "rotate_turret"		"vehicle/turret/gun/gun_horizontal"}
+	}
+}
+{"stug4_last tank"
+	("random_schurzen_78thoma") ;// late swinging type schurzen later, maybe
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("MG34")
+	}
+	{on "add_movement_sound" overload
+		{link_sound "engine_start"		"vehicle/engine/pz4/start"}
+		{link_sound "engine_stop"		"vehicle/engine/pz4/stop"}
+		{link_sound "engine_idle"		"vehicle/engine/pz4/idle"}
+		{link_sound "engine_full"		"vehicle/engine/pz4/full"}
+		{link_sound "exhaust"			"vehicle/engine/pz4/exhaust"}
+		{link_sound "move"				"vehicle/tracks/pz4"}
+		{link_sound "rotate_turret"		"vehicle/turret/gun/gun_horizontal"}
+	}
+}
+
 {"m17_mgmc tank"
 	("m3_halftrack_sound")
 	("animation_sound" args "open_left")
@@ -1036,6 +1472,66 @@
 		("MG34")
 	}
 }
+
+{"sdkfz7_1_unarmored"
+	{on "add_weapon_sound" overload
+		("2cm_Flakvierling")
+	}
+	("multi_barrel_loop" flash(tank_canon_fire_20_25_auto) smoke(smoke_zenit) shell(zenit_gilz) weapon(gun) head(0.200))
+
+	{on "reload"
+		{ani_play "reload" 1.0}
+	}
+	{on "reload_delay" overload
+		("reload_time" args 9)		;// weapon reload time
+	}
+
+	{on "add_movement_sound" overload
+		{link_sound "rotate_turret" 	"vehicle/turret/gun/gun_horizontal"}
+		{link_sound "rotate_gun" 		"vehicle/turret/gun/gun_vertical"}
+		{link_sound "engine_start"		"vehicle/engine/sdkfz251/start"}
+		{link_sound "engine_stop"		"vehicle/engine/sdkfz251/stop"}
+		{link_sound "engine_idle"		"vehicle/engine/sdkfz251/idle"}
+		{link_sound "engine_full"		"vehicle/engine/sdkfz251/full"}
+		{link_sound "exhaust"			"vehicle/engine/sdkfz251/exhaust"}
+		{link_sound "move"				"vehicle/tracks/sdkfz251"}
+	}
+	{on "zenite_terrain_fx" overload} ; // overwrites and stops dust fx on ground from firing main gun
+}
+
+{"panzer2_flamm tank"
+	("pz2_sound")
+	{on "add_weapon_sound" overload
+		("MG34")
+	}
+	{on spawn
+		{add_view "flamer_fire_tank" "gun" "foresight1"}
+		{add_view "flamer_fire_tank" "gun1" "foresight2"}
+		{tags add "vehicle_detect_motion"}
+	}
+	{on "_explosion"
+		{spawn "fuel_die"}
+		{blastwave c4 5 r0 4 r1 15}
+		{fire radius 5 time 15 heating 10}
+	}
+	{on move on
+		{delay 1.5{ani_play "moving" loop}}
+	}
+	{on move off
+		{delay 1.0{ani_stop "moving"}}
+	}
+	("flame_weapon" args gun 60 1 40)
+	("flame_weapon" args gun1 60 2 40)
+	{on "update_lights"
+		{if not bone "detail4" visible
+			{bone hide "fxstop2"}
+		else
+			{bone show "fxstop2"}
+		}
+	}
+}
+
+;///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 {"jagdtiger tank"
 	{on spawn

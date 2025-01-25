@@ -4,21 +4,21 @@
 			{emissionarea
 				{## alpha0 0}
 				{## alpha1 0}
-				{## speed 1}
-				{radius 6 6}
-				{theta 0 3}
-				{psi 0 8}
+				{speed 5}
+				{radius 15 15}
+				{theta 0 5}
+				{psi 0 15}
 			}
 			{particleinit
-				{speed 70}
+				{speed 50}
 				{lifetime 1}
 			}
-			{#+ entity "canist_drob_d"
-				{fx "smoke_empty_shell"}
-				{##+ frequency 1}
+			{entity "canist_drob_d"
+				{##fx "smoke_empty_shell"}
+				{##frequency 1}
 			}
-			{totalparticles 140}
-			{timetolive 0.3}
+			{totalparticles 10}
+			{timetolive 0.2}
 			{## ownerspeed}
 			{## particlesinblock 1}
 			{## autoturn}
@@ -26,10 +26,11 @@
 		{mover
 			{damping 1}
 			{gravity
-				{value 0.15}
+				{value 1}
 			}
 			{collisions
 				{terrain}
+				{objects}
 				{restitution 0}
 				{once}
 			}
@@ -73,7 +74,7 @@
 						{mode play }
 						{duration 0.5}
 					}
-					{visibility 1
+					{visibility 10
 						{## linear
 							{min 1}
 							{max 0}

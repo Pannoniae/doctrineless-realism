@@ -56,7 +56,7 @@
 		{"fortifications" "tank_cover"}
 	
 		{"fortifications" "mortar_pit"}
-		{"fortifications" "mg_foxhole"}
+		{"fortifications" "deep_foxhole"}
 	}
 	{"resources" "1000%"}
 	{"resources_regeneration" "0%"}

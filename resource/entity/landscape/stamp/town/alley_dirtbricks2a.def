@@ -1,5 +1,5 @@
 {entity 
-	{DecalView 
+	{lodclass "decor_decal"}{DecalView 
 		{Sprite "alley_dirtbricks2a.mtl" 
 		}
 		{orientation normal}
