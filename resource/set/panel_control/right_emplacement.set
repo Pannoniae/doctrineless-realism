@@ -52,7 +52,7 @@
 		{condition "human barricade disabled"}
 	}
 	
-	{mg_foxhole
+	{deep_foxhole
 		{position 2 1}
 		{condition "human barricade"}
 	}

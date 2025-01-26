@@ -39713,14 +39713,14 @@
 		{Position -4467.1 4633.81}
 		{xform zl 2.52 scale 1.253}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_euro7a" 0x1201
 		{Position -4127 4635.96}
 		{xform zl 2.52 scale 1.253}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_euro7a" 0x121a
@@ -51989,7 +51989,7 @@
 		{PillarFallen}
 		{Simulation {Able 1}}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "jjj" 0x168d
@@ -61586,7 +61586,7 @@
 		{Position 396.65 -1099.44}
 		{xform zl -50.89}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro7a" 0x7809
@@ -61638,7 +61638,7 @@
 		{Position -2607.01 4935.13}
 		{xform zl -148.02 scale 1.253}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_euro7a" 0x62a6

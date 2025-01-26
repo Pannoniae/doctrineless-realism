@@ -36,7 +36,7 @@
 				{speed 0 0.5}
 				{lifetime 0.55 0.25}
 			}
-			{timetolive 5}
+			{timetolive 1}
 			{axisz}
 		}
 		{mover
@@ -122,7 +122,7 @@
 				{speed 0}
 				{lifetime 0.85 0.15}
 			}
-			{timetolive 5}
+			{timetolive 2}
 		}
 		{mover
 			{damping 0.7}
@@ -281,7 +281,7 @@
 				{speed 0.5 0.5}
 				{lifetime 1.75 1.25}
 			}
-			{timetolive 5}
+			{timetolive 2}
 			{axisz}
 		}
 		{mover
@@ -360,7 +360,7 @@
 				{speed 0.75 0.75}
 				{lifetime 1.75 1.25}
 			}
-			{timetolive 5}
+			{timetolive 2}
 			{axisz}
 		}
 		{mover
@@ -439,7 +439,7 @@
 				{speed 0.75 0.75}
 				{lifetime 0.5 0.3}
 			}
-			{timetolive 5}
+			{timetolive 2}
 			{axisz}
 		}
 		{mover
@@ -493,7 +493,7 @@
 				{speed 2 3}
 				{lifetime 0.6 0.2}
 			}
-			{timetolive 5}
+			{timetolive 2}
 		}
 		{mover
 			{damping 0.9}
@@ -581,7 +581,7 @@
 				{speed 0.35 0.85}
 				{lifetime 0.75 0.25}
 			}
-			{timetolive 5}
+			{timetolive 2}
 			{axisz}
 		}
 		{mover
@@ -695,7 +695,7 @@
 				{speed 8.5 3.5}
 				{lifetime 7.5 2.5}
 			}
-			{timetolive 5}
+			{timetolive 2}
 		}
 		{mover
 			{damping 0.95}

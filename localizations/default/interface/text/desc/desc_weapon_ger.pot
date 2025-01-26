@@ -193,19 +193,19 @@ msgid "7.5cm Pak 97/38 L/34.5"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_stuk37"
-msgid "7.5cm Stuk 37 L/24"
+msgid "7.5cm StuK 37 L/24"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_stuk40"
-msgid "7.5cm Stuk 40 L/43"
+msgid "7.5cm StuK 40 L/43"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_stuk40_l48"
-msgid "7.5cm Stuk 40 L/48"
+msgid "7.5cm StuK 40 L/48"
 msgstr ""
 
 msgctxt "desc/weapon/75mm_stuk42"
-msgid "7.5cm Stuk 42 L/70"
+msgid "7.5cm StuK 42 L/70"
 msgstr ""
 
 msgctxt "desc/weapon/80mm_sgrw34"

@@ -77,7 +77,7 @@ msgid "Wirbelwind"
 msgstr ""
 
 msgctxt "desc/squad/sdkfz251d_1_stuka_ss"
-msgid "Stenga Zu Fuß"
+msgid "Stuka Zu Fuß"
 msgstr ""
 
 msgctxt "desc/squad/p47_recon_late"

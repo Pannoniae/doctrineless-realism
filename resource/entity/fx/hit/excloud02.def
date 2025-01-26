@@ -1,5 +1,5 @@
 {fx
-	{#+ particleview "smoke stream"
+	{particleview "smoke stream"
 		{generator
 			{particlesinblock 15}
 			{emissionarea
@@ -20,7 +20,7 @@
 		}
 		{visualizer
 			{stage 
-				{sprite "$/smoke/smokesmal4ba"
+				{sprite "$/smoke/smokesmal4"
 					{timer
 						{mode play }
 						{duration -1}
@@ -45,7 +45,7 @@
 					}
 					{preturn 90 90}
 				}
-				{sprite "$/smoke/smokesmal4b_50"
+				{sprite "$/smoke/smokesmal4"
 					{timer
 						{mode play }
 						{duration -1}
@@ -59,7 +59,7 @@
 					{scale 1
 						{linear
 							{min 0.45 0.05}
-							{max 0.7 03}
+							{max 0.7 3}
 						}
 					}
 					{visibility 1
@@ -72,7 +72,6 @@
 				}
 			}
 		}
-                {notifyowner}
+		{notifyowner}
 	}
-
 }

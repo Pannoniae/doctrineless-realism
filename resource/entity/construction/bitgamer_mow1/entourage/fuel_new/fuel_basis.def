@@ -2,7 +2,7 @@
 	{Extension "fuel_basis.mdl"}
 	{placer}
 	{extender "structure"
-		{place "1" "fuel"}
+		{place "1" "fuelp"}
 		{place "2" "fuel_plate"}
 	}
 }

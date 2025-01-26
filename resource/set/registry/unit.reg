@@ -1743,6 +1743,11 @@
 		{vehicle_view "m4a1_75_dd"}
 	}
 
+	; Bob Semple
+	{"bob_sample"
+		{vehicle_view "universal"}
+	}
+
 	
 	; PZ connect
 	{"bergetiger"

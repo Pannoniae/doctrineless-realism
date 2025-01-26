@@ -6,7 +6,7 @@
 				{radius 5 5}
 				{alpha0 22.5 22.5}
 				{alpha1 8 2}
-				{speed 0.2}
+				{speed 0.5}
 			}
 			{particleinit
 				{speed 0.75 0.75}
@@ -24,7 +24,7 @@
 		}
 		{visualizer
 			{stage 
-				{sprite "$/_bmp/smoke/smokeend_loop"
+				{sprite "$/smoke/smoke_burn"
 					{turn 1
 						{linear
 							{min 0}
@@ -33,8 +33,8 @@
 					}
 					{scale 1
 						{linear
-							{min 0.8 0.2}
-							{max 1.75 0.25}
+							{min 0.05}
+							{max 0.3 0.1}
 						}
 					}
 					{visibility 1
@@ -54,7 +54,7 @@
 					}
 					{highlight 0xffc2c2c2}
 				}
-				{sprite "$/_bmp/smoke/smokeend_loop"
+				{## sprite "$/_bmp/smoke/smokeend_loop"
 					{turn 1
 						{linear
 							{min 0}

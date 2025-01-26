@@ -1,6 +1,6 @@
 {fx
 	{particleview
-		{generator
+		{#+ generator
 			{totalparticles 1}
 			{emissionarea
 				{radius 0}
@@ -23,7 +23,7 @@
 		}
 		{visualizer
 			{stage 
-				{## sprite "$/_bmp/smoke/smokeend_lightloop"
+				{sprite "$/smoke/smoke_g04f"
 					{turn 1
 						{linear
 							{min 0}
@@ -32,60 +32,8 @@
 					}
 					{scale 1
 						{linear
-							{min 0.9 0.3}
-							{max 1.85 0.65}
-						}
-					}
-					{visibility 1
-						{peak
-							{min 0}
-							{max 0.5}
-						}
-					}
-					{preturn 0 180}
-					{timer
-						{mode play }
-						{duration -1}
-					}
-					{highlight 0xff99846f}
-				}
-				{## sprite "$/_bmp/smoke/smokeend_lightloop"
-					{turn 1
-						{linear
-							{min 0}
-							{max 0 40}
-						}
-					}
-					{scale 1
-						{linear
-							{min 0.6}
-							{max 1.1 0.2}
-						}
-					}
-					{visibility 1
-						{peak
-							{min 0}
-							{max 0.4}
-						}
-					}
-					{preturn 180 50}
-					{timer
-						{mode play }
-						{duration 2.5}
-					}
-					{highlight 0xff9b8671}
-				}
-				{sprite "$/_bmp/smoke/smokeend_loop"
-					{turn 1
-						{linear
-							{min 0}
-							{max 0 100}
-						}
-					}
-					{scale 1
-						{linear
-							{min 0.6 0.4}
-							{max 1.75 0.75}
+							{min 0.05}
+							{max 0.15 0.05}
 						}
 					}
 					{visibility 1
@@ -94,7 +42,7 @@
 							{max 0.6}
 						}
 						{linear
-							{min 0.25}
+							{min 0.5}
 							{max 0}
 						}
 					}
@@ -109,7 +57,7 @@
 		}
 		{notifyowner}
 	}
-	{#+ particleview
+	{##+ particleview
 		{generator
 			{totalparticles 1}
 			{emissionarea

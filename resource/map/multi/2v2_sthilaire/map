@@ -29385,7 +29385,7 @@
 			}
 		}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "post_algere1" 0xac
@@ -55821,7 +55821,7 @@
 		{xform zl -174.45 y 6.97 zw -159.25}
 		{Constrain zero}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_light14" 0x2667
@@ -55845,7 +55845,7 @@
 		{xform zl 53.95 y 8.95 zw 27.95}
 		{Constrain zero}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_light14" 0x266c
@@ -55853,7 +55853,7 @@
 		{xform zl 43.85 y 4.86 zw 133.86}
 		{Constrain zero}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_light14" 0x266d
@@ -55861,7 +55861,7 @@
 		{xform zl -57.2 y 6.68 zw -158.14}
 		{Constrain zero}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_light14" 0x266e

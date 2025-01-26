@@ -52796,150 +52796,150 @@
 	{Entity "post_euro" 0x71fc
 		{Position -1542.24 1441.18}
 		{Extender "light"
-			{lamp "1" off}
-			{lamp "2" broken}
-			{lamp "3" broken}
-			{lamp "4" broken}
+			{lamp "lamp1" {off}}
+			{lamp "lamp2" {broken}}
+			{lamp "lamp3" {broken}}
+			{lamp "lamp4" {broken}}
 		}
 	}
 	{Entity "post_euro" 0x71fd
 		{Position -1284.99 1789.84}
 		{Extender "light"
-			{lamp "1" off}
-			{lamp "2" broken}
-			{lamp "3" broken}
-			{lamp "4" broken}
+			{lamp "lamp1" {off}}
+			{lamp "lamp2" {broken}}
+			{lamp "lamp3" {broken}}
+			{lamp "lamp4" {broken}}
 		}
 	}
 	{Entity "post_euro" 0x71fe
 		{Position 889.84 1783.72}
 		{Extender "light"
-			{lamp "1" off}
-			{lamp "2" broken}
-			{lamp "3" broken}
-			{lamp "4" broken}
+			{lamp "lamp1" {off}}
+			{lamp "lamp2" {broken}}
+			{lamp "lamp3" {broken}}
+			{lamp "lamp4" {broken}}
 		}
 	}
 	{Entity "post_euro2" 0x71ff
 		{Position 478.04 1777.32}
 		{xform zl 1.48 y 88.15 zw -1.48}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "post_euro2" 0x7248
 		{Position 883.63 2367.05}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x7249
 		{Position 875.25 2965.9}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x724a
 		{Position 484.97 2367.23}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x724b
 		{Position 485.86 2962.74}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x724c
 		{Position 1169.27 1440.49}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x724d
 		{Position 1307.3 1786.72}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x724e
 		{Position 2184.67 1783.16}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x724f
 		{Position 2815.09 1783.65}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "post_euro2" 0x7250
 		{Position 2832 2635.48}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x7251
 		{Position 3026.72 1778.27}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x7252
 		{Position 3042.55 2619.1}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro7a" 0x31ec
 		{Position -875.89 1830.63}
 		{xform zl 179.21}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_euro7a" 0x31ed
 		{Position -779.51 1831.17}
 		{xform zl -177.64}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_euro7a" 0x31ef
 		{Position -710.2 1943.54}
 		{xform zl 86.87}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_euro7a" 0x31f1
 		{Position -625.18 2661.44}
 		{xform zl -177.97}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_euro7a" 0x31f2
 		{Position -454.48 2662.15}
 		{xform zl -177.97}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_euro7a" 0x31f3
 		{Position -288.55 2661.23}
 		{xform zl -177.97}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_euro7" 0x41a6
 		{Position -712.29 2237.86}
 		{xform zl 6.88 y 88.52 zw 65.74}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "ironfence_n" 0x41a7
@@ -53045,7 +53045,7 @@
 	{Entity "post_euro2" 0x41bb
 		{Position -601.45 1446.43}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "trench_ground_exit2" 0x41be
@@ -53133,43 +53133,43 @@
 	{Entity "post_euro2" 0x226e
 		{Position -441 205.82}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x226f
 		{Position 57.37 204.27}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x2270
 		{Position 712.52 205.65}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x2271
 		{Position 1050.56 204.64}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x2272
 		{Position -1125.26 213.33}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x2273
 		{Position -1668.2 420.82}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x5175
 		{Position 542.32 506.39}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "sandbag2" 0x1841
@@ -53360,44 +53360,44 @@
 	{Entity "post_euro2" 0xc16
 		{Position -3253.24 322.74}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0xc19
 		{Position -2810.99 316.94}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0xc1c
 		{Position -2501.66 1848.4}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0xc1e
 		{Position -2729.76 2712.9}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0xc20
 		{Position -2980.72 2716.92}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0xc23
 		{Position -2736.63 2341.15}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0xc25
 		{Position -2912.91 2341.49}
 		{xform zl -19.9 y 87.71 zw 19.9}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "sandbag2" 0xc26
@@ -53445,7 +53445,7 @@
 	{Entity "post_euro2" 0xc41
 		{Position 1488.02 2032.84}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "barricade1_a" 0xc4a
@@ -54064,13 +54064,13 @@
 	{Entity "post_euro2" 0x609c
 		{Position -524.64 794.28}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "post_euro2" 0x609d
 		{Position -842.7 1142.79}
 		{Extender "light"
-			{lamp "1" off}
+			{lamp "lamp1" {off}}
 		}
 	}
 	{Entity "jjj" 0x609e

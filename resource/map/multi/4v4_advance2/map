@@ -42888,8 +42888,8 @@
 		{PillarFallen}
 		{Simulation {Able 1}}
 		{Extender "light"
-			{lamp "1" off broken}
-			{lamp "2" off broken}
+			{lamp "lamp1" {off} {broken}}
+			{lamp "lamp2" {off} {broken}}
 		}
 	}
 	{Entity "house_euro_022c" 0x1125

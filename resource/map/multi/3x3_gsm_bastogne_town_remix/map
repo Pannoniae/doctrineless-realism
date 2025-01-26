@@ -899,7 +899,7 @@
 		{PillarFallen}
 		{Simulation {Able 1}}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "ash_tree_bush1" 0x46d
@@ -12430,7 +12430,7 @@
 		{xform zl -136.36 y 18.65 zw 60.79}
 		{TexMod "win1"}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "post-wood3" 0x1e0c
@@ -13099,7 +13099,7 @@
 		{PillarFallen}
 		{Simulation {Able 1}}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "post_light11" 0xe63

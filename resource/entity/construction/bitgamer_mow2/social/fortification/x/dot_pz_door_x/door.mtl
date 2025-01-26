@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/window & door/door_sh4"}
-	{blend none}
-}

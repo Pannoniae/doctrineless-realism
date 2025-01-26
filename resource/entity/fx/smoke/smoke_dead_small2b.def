@@ -1,6 +1,6 @@
 {fx
 	{fire}
-	{#+ particleview smoke
+	{particleview smoke
 		{generator
 			{totalparticles 10}
 			{emissionarea
@@ -51,7 +51,7 @@
 					}
 					{preturn 90 90}
 				}
-				{sprite "$/_bmp/smoke/smokeend_loop"
+				{sprite "$/smoke/smoke_g04g"
 					{turn 1
 						{linear
 							{min 0}
@@ -60,8 +60,8 @@
 					}
 					{scale 1
 						{linear
-							{min 0.4 0.1}
-							{max 1.1 0.1}
+							{min 0.05}
+							{max 0.2}
 						}
 					}
 					{visibility 1
@@ -75,13 +75,13 @@
 						{duration -1}
 					}
 					{preturn 180 30}
-					{highlight 0xffc8c8c8}
+					{## highlight 0xff0a0a0a}
 				}
 			}
 		}
 		{notifyowner}
 	}
-	{#+ particleview smoke
+	{##+ particleview smoke
 		{generator
 			{totalparticles 10}
 			{emissionarea
@@ -215,7 +215,7 @@
 						}
 					}
 				}
-				{sprite "$/explosion/flame_hi"
+				{sprite "$/explosion/flare"
 					{timer
 						{mode play }
 						{duration -1}
@@ -378,7 +378,7 @@
 		}
 		{notifyowner}
 	}
-	{particleview smoke
+	{#+ particleview smoke
 		{generator
 			{totalparticles 6}
 			{emissionarea
@@ -424,7 +424,7 @@
 					}
 					{preturn 90 90}
 				}
-				{sprite "$/_bmp/smoke/smokeend_loop"
+				{sprite "$/smoke/smoke_g04g"
 					{turn 1
 						{linear
 							{min 0}
@@ -433,8 +433,8 @@
 					}
 					{scale 1
 						{linear
-							{min 0.65 0.15}
-							{max 1.6 0.4}
+							{min 0.1}
+							{max 0.5}
 						}
 					}
 					{visibility 1
@@ -448,7 +448,7 @@
 						{duration -1}
 					}
 					{preturn 180 30}
-					{highlight 0xffc8c8c8}
+					{## highlight 0xffc8c8c8}
 				}
 			}
 		}

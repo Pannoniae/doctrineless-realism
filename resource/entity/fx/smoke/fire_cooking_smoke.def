@@ -26,17 +26,17 @@
 		}
 		{visualizer
 			{stage 
-				{sprite "$/smoke/smokesmal4b_100"
+				{sprite "$/smoke/smoke_g04"
 					{turn 1
 						{linear
-							{min 205 155}
-							{max 175 125}
+							{min -105 -55}
+							{max 75 25}
 						}
 					}
 					{scale 1
 						{linear
-							{min 0.5}
-							{max 4}
+							{min 0.1}
+							{max 0.3}
 						}
 					}
 					{visibility 1
@@ -51,11 +51,11 @@
 					}
 					{preturn 90 90}
 				}
-				{sprite "$/smoke/smoke_g04"
+				{sprite "$/smoke/smoke_g04g"
 					{turn 1
 						{linear
 							{min 0}
-							{max 225 175}
+							{max 0 60}
 						}
 					}
 					{scale 1

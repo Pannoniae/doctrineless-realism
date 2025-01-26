@@ -30,15 +30,14 @@
 		{to "look_%0"}
 		{tag "up"}
 		{tag "looking"}
-		{tag "aim-thrower"}
-		{tag "can-aim-thrower"}
 	}
 	{State "look_%0"
 		{to "look_%0_fire"}
 		{to "look_%0_throw_begin"}
 		{to "look_%0_out"}
-		;{to "look_%0_switch"}
+;		{to "look_%0_switch"}
 		{tag "look-%0-in"}
+		{tag "hold-nothing"}
 		{tag "up"}
 		{tag "weapon"}
 		{tag "aim"}
@@ -52,13 +51,12 @@
 	}
 ;отключено, т.к. тогда солдат может сразу взять в руки оружие после 
 ;броска гранаты, что включит другую обратную анимацию, и солдат сместится в другое место
-;Horten: ПОХУЙ ГОЛ
-	{State "look_%0_switch"
-		{to "look_%0"}
-		{tag "switch-weapon"}
-		{tag "up"}
-		{tag "looking"}
-	}
+;	{State "look_%0_switch"
+;		{to "look_%0"}
+;		{tag "switch-weapon"}
+;		{tag "up"}
+;		{tag "looking"}
+;	}
 	{State "look_%0_throw_begin"
     	{transit "look_%0_throw_end"}
 		{tag "throw"}

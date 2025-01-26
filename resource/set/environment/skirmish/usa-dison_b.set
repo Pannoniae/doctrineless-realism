@@ -8,7 +8,7 @@
 		{night_vision 1}
 		{color_correction
 			{contrast 1.0}
-			{saturation 0.8}
+			{saturation 1.3}
 			{tone 0xff000032}
 			{tone_strength 0.1}
 			{color_shading

@@ -550,7 +550,7 @@
 			}
 		}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "shellhole7" 0x7022
@@ -2131,7 +2131,7 @@
 			}
 		}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "post_euro2" 0x401c
@@ -2148,7 +2148,7 @@
 			}
 		}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "post_euro2" 0x401d
@@ -2165,7 +2165,7 @@
 			}
 		}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "ground_clay5a" 0x3803
@@ -4669,7 +4669,7 @@
 			}
 		}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "post_euro2" 0x4039
@@ -4686,7 +4686,7 @@
 			}
 		}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "post_euro2" 0x403b
@@ -4703,7 +4703,7 @@
 			}
 		}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "road_sand_af1b_k1" 0x1039

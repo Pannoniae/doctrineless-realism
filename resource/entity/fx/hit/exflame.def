@@ -1,6 +1,6 @@
 {fx
 	{constrain ground}
-	{#+ particleview flames
+	{particleview flames
 		{generator
 			{totalparticles 10}
 			{emissionarea
@@ -28,7 +28,7 @@
 		}
 		{visualizer
 			{stage 
-				{sprite "$/explosion/fireloop"
+				{sprite "$/explosion/flare"
 					{timer
 						{mode play }
 						{duration -1}
@@ -44,9 +44,10 @@
 							{min 2}
 							{max 0}
 						}
-					}					
-				}			
-				{sprite "$/explosion/flame_hi"
+					}
+					{preturn 180}
+				}
+				{sprite "$/explosion/flare"
 					{timer
 						{mode play }
 						{duration -1}
@@ -59,8 +60,8 @@
 					}
 					{scalex 0.025 0.01}
 					{scaley 0.035 0.01}
-				}			
-				{sprite "$/explosion/flare"
+				}
+				{## sprite "$/explosion/flare"
 					{timer
 						{mode play }
 						{duration -1}
@@ -71,12 +72,12 @@
 							{max 0.2}
 						}
 					}
-					{scale 0.3 0.1}					
-				}			
+					{scale 0.3 0.1}
+				}
 			}
 		}
 		{ground}
 		{layer groundshadow}
 		{notifyowner}
-	}	
+	}
 }

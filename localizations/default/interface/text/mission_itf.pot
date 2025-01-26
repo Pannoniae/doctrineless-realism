@@ -28,7 +28,3 @@ msgstr ""
 msgctxt "mission/multi/3v3_january/name"
 msgid "Stalingrad 9th of January Square <c(ffee4c)>[Jors]"
 msgstr ""
-
-msgctxt "mission/multi/1v1_afro/name"
-msgid "African expedition <e(shadow)><c(00ff0aff)>1x1</c> <c(2eff4c)>[RobZ]"
-msgstr ""

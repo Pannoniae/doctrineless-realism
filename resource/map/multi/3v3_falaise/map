@@ -742,7 +742,7 @@
 		{UseDecal 0}
 		{DecalOrder 1}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "post_euro2" 0x7e1
@@ -20394,7 +20394,7 @@
 		{PillarFallen}
 		{Simulation {Able 1}}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "border_post2d1" 0xb9e
@@ -21465,7 +21465,7 @@
 		{PillarFallen}
 		{Simulation {Able 1}}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "fence_wall" 0x1808
@@ -22363,7 +22363,7 @@
 		{UseDecal 0}
 		{DecalOrder 1}
 		{Extender "light"
-			{lamp "1" broken}
+			{lamp "lamp1" {broken}}
 		}
 	}
 	{Entity "border_post2d1" 0x11a2
@@ -23639,7 +23639,7 @@
 		{PillarFallen}
 		{Simulation {Able 1}}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 	}
 	{Entity "pav_cells1" 0x4009

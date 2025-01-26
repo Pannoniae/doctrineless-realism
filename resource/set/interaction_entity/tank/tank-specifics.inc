@@ -1809,6 +1809,18 @@
 	{on "reload_delay" overload
 		("reload_time" args 5)	;// weapon reload time
 	}
+	{on spawn
+		{ani_wind "support_open" end}
+	}
+	{on move on
+		{kill_delay "move_off"}
+		{ani_play "support_open" -1.0 resume}
+	}
+	{on move off
+		{delay 1 "move_off"
+			{ani_play "support_open" 1.0 resume}
+		}
+	}
 }
 
 {"stalinetz60"
@@ -4889,3 +4901,28 @@
 		("ZB37")
 	}
 }
+
+; Bob Semple
+{"bob_sample tank"
+	("bob_sample_sound")
+	{on "add_weapon_sound" overload
+		("Maxim_Gun")
+		{link_sound "action_recoil"	"weapon/action/recoil/open_bolt_MG/reciprocating/"}
+	}
+	{on fire "mgun"
+		{play_sound "mid"}
+		{play_sound "far"}
+	}
+	{on "reload"
+		{if effector "stuff weapon"
+		
+		else
+			{ani_play "reload_mgun"}
+		}
+	}
+	{on fire "gun"
+		{play_sound "mid"}
+		{play_sound "far"}
+	}
+}
+

@@ -52514,7 +52514,7 @@
 		{PillarFallen}
 		{Simulation {Able 1}}
 		{Extender "light"
-			{lamp "1" off broken}
+			{lamp "lamp1" {off} {broken}}
 		}
 		{Extender "structure_bone"
 			{crushed}
