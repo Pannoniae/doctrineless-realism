@@ -11,119 +11,13 @@
 	}
 )
 
-(define "phrases"	; args: actor | language | voice | foldername
-	("phrase_voice" args %0 rus 1 %1)
-	("phrase_voice" args %0 rus 2 %1)
-	("phrase_voice" args %0 rus 3 %1)
-	("phrase_voice" args %0 rus 4 %1)
-	("phrase_voice" args %0 rus 5 %1)
-	("phrase_voice" args %0 rus 6 %1)
-	("phrase_voice" args %0 rus 7 %1)
-	("phrase_voice" args %0 rus 8 %1)
+(include "talk_define_target.inc")
+(include "talk_define_va.inc")
+(include "talk_define_deal.inc")
 
-	("phrase_voice" args %0 ger 1 %1)
-	("phrase_voice" args %0 ger 2 %1)
-	("phrase_voice" args %0 ger 3 %1)
-	("phrase_voice" args %0 ger 4 %1)
-	("phrase_voice" args %0 ger 5 %1)
-	("phrase_voice" args %0 ger 6 %1)
-	("phrase_voice" args %0 ger 7 %1)
-	("phrase_voice" args %0 ger 8 %1)
-
-	("phrase_voice" args %0 ger_officer 1 %1)
-	("phrase_voice" args %0 ger_medic   1 %1)
-	("phrase_voice" args %0 ger_sniper  1 %1)
-
-	("phrase_voice" args %0 spa 1 %1)
-
-	("phrase_voice" args %0 fin 1 %1)
-	("phrase_voice" args %0 fin 2 %1)
-	("phrase_voice" args %0 fin 3 %1)
-	("phrase_voice" args %0 fin 4 %1)
-	("phrase_voice" args %0 fin 5 %1)
-
-	("phrase_voice" args %0 fin_officer 1 %1)
-	("phrase_voice" args %0 fin_medic   1 %1)
-	("phrase_voice" args %0 fin_nco	    1 %1)
-	("phrase_voice" args %0 fin_sniper  1 %1)
-	("phrase_voice" args %0 swe 1 %1)
-	("phrase_voice" args %0 swe 2 %1)
-	
-	("phrase_voice" args %0 usa 1 %1)
-	("phrase_voice" args %0 usa 2 %1)
-	("phrase_voice" args %0 usa 3 %1)
-	("phrase_voice" args %0 usa 4 %1)
-;	("phrase_voice" args %0 usa 5 %1)
-
-	("phrase_voice" args %0 fra 1 %1)
-	("phrase_voice" args %0 pol 1 %1)
-	("phrase_voice" args %0 jap 1 %1)
-	("phrase_voice" args %0 jap 2 %1)
-	("phrase_voice" args %0 eng 1 %1)
-	("phrase_voice" args %0 ita 1 %1)
-	("phrase_voice" args %0 hun 1 %1)
-
-	("phrase_voice" args %0 usa_officer 1 %1)
-	("phrase_voice" args %0 usa_medic 1 %1)
-	("phrase_voice" args %0 usa_medic 2 %1)
-	("phrase_voice" args %0 usa_sniper 1 %1)
-	("phrase_voice" args %0 usa_speirs 1 %1)
-	("phrase_voice" args %0 usa_winters 1 %1)
-
-;	("phrase_voice" args %0 fra 1 %1)
-)
-
-(define "phrases_cannon"	; args: actor | language | voice | foldername
-	("phrase_voice" args %0 rus 1 %1)
-	("phrase_voice" args %0 rus 2 %1)
-
-	("phrase_voice" args %0 ger 1 %1)
-
-	("phrase_voice" args %0 fin 1 %1)
-	("phrase_voice" args %0 fin 2 %1)
-	("phrase_voice" args %0 fin 3 %1)
-	("phrase_voice" args %0 fin 5 %1)
-
-	("phrase_voice" args %0 usa 1 %1)
-;	("phrase_voice" args %0 usa 2 %1)
-;	("phrase_voice" args %0 usa 3 %1)
-;	("phrase_voice" args %0 usa 4 %1)
-
-;	("phrase_voice" args %0 fra 1 %1)
-;	("phrase_voice" args %0 pol 1 %1)
-;	("phrase_voice" args %0 jap 1 %1)
-;	("phrase_voice" args %0 jap 2 %1)
-;	("phrase_voice" args %0 eng 1 %1)
-;	("phrase_voice" args %0 ita 1 %1)
-;	("phrase_voice" args %0 hun 1 %1)
-)
-
-(define "phrases_tank"	; args: actor | language | voice | foldername
-	("phrase_voice" args %0 rus 1 %1)
-
-	("phrase_voice" args %0 ger 1 %1)
-
-	("phrase_voice" args %0 fin 1 %1)
-	("phrase_voice" args %0 fin 2 %1)
-	("phrase_voice" args %0 fin 3 %1)
-	("phrase_voice" args %0 fin 4 %1)
-	("phrase_voice" args %0 fin 5 %1)
-
-	("phrase_voice" args %0 usa 1 %1)
-	("phrase_voice" args %0 usa 2 %1)
-	("phrase_voice" args %0 usa 3 %1)
-;	("phrase_voice" args %0 usa 4 %1)
-
-	("phrase_voice" args %0 fra 1 %1)
-	("phrase_voice" args %0 pol 1 %1)
-	("phrase_voice" args %0 jap 1 %1)
-	("phrase_voice" args %0 jap 2 %1)
-	("phrase_voice" args %0 eng 1 %1)
-	("phrase_voice" args %0 ita 1 %1)
-	("phrase_voice" args %0 hun 1 %1)
-
-;	("phrase_voice" args %0 fra 1 %1)
-)
+(include "talk_type_human.inc")
+(include "talk_type_cannon.inc")
+(include "talk_type_tank.inc")
 
 (define "human_phrases"	; args: actor | foldername
 	("phrases" args human %0)
