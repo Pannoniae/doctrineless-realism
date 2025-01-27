@@ -11,6 +11,15 @@
 	}
 )
 
+(define "phrase_voice_ext"
+	{phrase
+		{language "%1"}
+		{voice %2}
+		{sound "talk/%0/%4/%3/v%2"}
+		{text_dbg "(%1) %4/%3/v%2"}
+	}
+)
+
 (include "talk_define_target.inc")
 (include "talk_define_va.inc")
 (include "talk_define_deal.inc")
