@@ -1,0 +1,5 @@
+{sound
+	{loudness "vehicle_plane"}
+	{volume 1.00}
+	{tag main_environment}
+}
