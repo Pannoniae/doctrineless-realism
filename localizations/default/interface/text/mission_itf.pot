@@ -14,53 +14,109 @@ msgstr ""
 
 
 msgctxt "mission/multi/4v4_warfare3_remaster/name"
-msgid "Warfare 3 Remastered <c(2eff4c)>[RobZ]"
+msgid "Warfare 3 Remastered <e(shadow)><c(00ff0aff)>4x4</c> <c(2eff4c)>[RobZ]"
 msgstr ""
 
 msgctxt "mission/multi/2v2_arad/name"
-msgid "Arad <c(2eff4c)>[GSM]"
+msgid "Arad <e(shadow)><c(00ff0aff)>2x2</c> <c(2eff4c)>[GSM]"
 msgstr ""
 
 msgctxt "mission/multi/3v3_arad/name"
-msgid "Arad <c(2eff4c)>[GSM]"
+msgid "Arad <e(shadow)><c(00ff0aff)>3x3</c> <c(2eff4c)>[GSM]"
 msgstr ""
 
 msgctxt "mission/multi/3v3_january/name"
-msgid "Stalingrad 9th of January Square <c(ffee4c)>[Jors]"
+msgid "Stalingrad 9th of January Square <e(shadow)><c(00ff0aff)>3x3</c> <c(ffee4c)>[Jors]"
 msgstr ""
 
 msgctxt "mission/multi/4v4_rakowice/name"
-msgid "Rakowice <c(ffffff)>[Hamster]"
+msgid "Rakowice <e(shadow)><c(00ff0aff)>4x4</c> <c(ffffff)>[Hamster]"
 msgstr ""
 
 msgctxt "mission/multi/3v3_rakowice/name"
-msgid "Rakowice <c(ffffff)>[Hamster]"
+msgid "Rakowice <e(shadow)><c(00ff0aff)>3x3</c> <c(ffffff)>[Hamster]"
 msgstr ""
 
 msgctxt "mission/multi/2v2_rakowice/name"
-msgid "Rakowice <c(ffffff)>[Hamster]"
+msgid "Rakowice <e(shadow)><c(00ff0aff)>2x2</c> <c(ffffff)>[Hamster]"
 msgstr ""
 
 msgctxt "mission/multi/1v1_rakowice/name"
-msgid "Rakowice <c(ffffff)>[Hamster]"
+msgid "Rakowice <e(shadow)><c(00ff0aff)>1x1</c> <c(ffffff)>[Hamster]"
 msgstr ""
 
 msgctxt "mission/multi/1v1_barashka/name"
-msgid "Barashka <c(ffffff)>[Hamster]"
+msgid "Barashka <e(shadow)><c(00ff0aff)>1x1</c> <c(ffffff)>[Hamster]"
 msgstr ""
 
 msgctxt "mission/multi/2v2_barashka/name"
-msgid "Barashka <c(ffffff)>[Hamster]"
+msgid "Barashka <e(shadow)><c(00ff0aff)>2x2</c> <c(ffffff)>[Hamster]"
 msgstr ""
 
 msgctxt "mission/multi/3v3_barashka/name"
-msgid "Barashka <c(ffffff)>[Hamster]"
+msgid "Barashka <e(shadow)><c(00ff0aff)>3x3</c> <c(ffffff)>[Hamster]"
 msgstr ""
 
 msgctxt "mission/multi/4v4_barashka/name"
-msgid "Barashka <c(ffffff)>[Hamster]"
+msgid "Barashka <e(shadow)><c(00ff0aff)>3x3</c> <c(ffffff)>[Hamster]"
 msgstr ""
 
 msgctxt "mission/multi/3v3_canalcity/name"
-msgid "City Canal <c(ffffff)>[Tsingtao]"
+msgid "City Canal <e(shadow)><c(00ff0aff)>3x3</c> <c(ffffff)>[Tsingtao]"
+msgstr ""
+
+msgctxt "mission/multi/1v1_odesa/name"
+msgid "Odesa <e(shadow)><c(00ff0aff)>1x1</c> <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/2v2_odesa/name"
+msgid "Odesa <e(shadow)><c(00ff0aff)>2x2</c> <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/4v4_druzhina/name"
+msgid "Druzhina <e(shadow)><c(00ff0aff)>4x4</c> <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/3v3_druzhina/name"
+msgid "Druzhina <e(shadow)><c(00ff0aff)>3x3</c> <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/2v2_druzhina/name"
+msgid "Druzhina <e(shadow)><c(00ff0aff)>2x2</c> <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/1v1_druzhina/name"
+msgid "Druzhina <e(shadow)><c(00ff0aff)>1x1</c> <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/1v1_ostkust/name"
+msgid "Ostkust <e(shadow)><c(00ff0aff)>1x1</c> <c(ffffff)>[Tsingtao]"
+msgstr ""
+
+msgctxt "mission/multi/Eastbog_2v2/name"
+msgid "Boglands <e(shadow)><c(00ff0aff)>2x2</c> <c(ffffff)>[Plankton]"
+msgstr ""
+
+msgctxt "mission/multi/3v3_sevastopol/name"
+msgid "Sevastopol <e(shadow)><c(00ff0aff)>3x3</c> <c(ffffff)>[Tsingtao]"
+msgstr ""
+
+msgctxt "mission/multi/4v4_bridge/name"
+msgid "Bridge War <e(shadow)><c(00ff0aff)>4x4</c> <c(ffffff)>[Tuna]"
+msgstr ""
+
+msgctxt "mission/multi/2v2_workshop_mowas/name"
+msgid "Workshop Remix <e(shadow)><c(00ff0aff)>2x2</c> <c(ffffff)>[Elva]"
+msgstr ""
+
+msgctxt "mission/multi/3v3_posenov_custom/name"
+msgid "Posenov custom <e(shadow)><c(00ff0aff)>3x3</c> <c(ffffff)>[Elva]"
+msgstr ""
+
+msgctxt "mission/multi/2v2_midtskogen/name"
+msgid "Midtskogen <e(shadow)><c(00ff0aff)>2x2</c> <c(ffffff)>[Elva]"
+msgstr ""
+
+msgctxt "mission/multi/3v3_mountain_commune/name"
+msgid "Mountain commune <e(shadow)><c(00ff0aff)>3x3</c> <c(ffffff)>[Elva]"
 msgstr ""
