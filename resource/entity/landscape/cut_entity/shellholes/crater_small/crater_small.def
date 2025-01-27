@@ -1,5 +1,5 @@
 {
 	(include "/properties/crater.inc")
-	{Extension "crater_small.mdl"}
+	{extension "crater_tiny.mdl"}
 	{props "small"}
 }

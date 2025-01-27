@@ -767,11 +767,11 @@ msgid "Grand suburb <e(shadow)><c(bebebe)>5x5</c> <c(bebebe)>[AS2]</c>"
 msgstr ""
 
 msgctxt "mission/multi/5v5_warfare_2/name"
-msgid "Warfare 2 <e(shadow)><c(00ff0aff)>5x5 <c(4a3737)>[Warfare11]</c>"
+msgid "Warfare 2 <e(shadow)><c(00ff0aff)>5x5 <c(730d0d)>[Warfare11]</c>"
 msgstr ""
 
 msgctxt "mission/multi/5v5_warfare_2_remix/name"
-msgid "Warfare 2 remix <e(shadow)><c(00ff0aff)>5x5</c> <c(4a3737)>[Warfare11]</c>"
+msgid "Warfare 2 remix <e(shadow)><c(00ff0aff)>5x5</c> <c(730d0d)>[Warfare11]</c>"
 msgstr ""
 
 msgctxt "mission/multi/5x5_bulge/name"

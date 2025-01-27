@@ -1,6 +1,4 @@
 {game_entity
 	{Extension "mound.mdl"}
-	{Extender "land"
-		{Heightmap "mound.net"}
-	}
+	{extender "land_patch"}
 }

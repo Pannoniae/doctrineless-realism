@@ -1,40 +1,83 @@
 {"generic"
 	(include "\set\interaction_terrain\effects\effects-defines.inc")
+	; BM
+	{on ground_hit
+		{if material "flesh"
+			{delay 0.01 {volumes disable bullet blast contact touch}}
+			{delay 10 {volumes enable bullet blast contact touch}}
+			{if rand 0.25 {start_sound "human/bm_explosion" use_position}}			
+			{if min_speed 5
+				{if rand 0.5 {call "blood_low"}}
+					else
+					{if min_speed 1
+						{if rand 0.2 {call "blood_low"}}
+					}
+			}	
+		}
+	}
 	{on bullet_hit
 		{if not under_water
+			; BM
 			{if material "flesh"
+			
+				{spawn "bm_bullet"}
+				
 				{if stuff "bullet_fx size1"						;	Pistol Caliber
-					{spawn "blood_small"}
-
+					
+					{if rand 0.2 {call "blood_low"}}			
+					{if rand 0.35 {spawn "bm_blood_small_a"}}
+					{if rand 0.45 {spawn "bm_blood_splash_a"}}
+					{if rand 0.45 {spawn "bm_bloodspark_a"}}
+					{if rand 0.45 {spawn "bm_bloodspark_b"}}
+					{if rand 0.45 {spawn "bm_bloodspark_c"}}
+					
 				else stuff "bullet_fx size2 intermediate"		;	Intermediate Rifle Caliber
-					{spawn "blood_small"}
+				
+					{if rand 0.3 {call "blood_low"}}				
+					{if rand 0.45 {spawn "bm_blood_small_a"}}
+					{if rand 0.55 {spawn "bm_blood_splash_a"}}
+					{if rand 0.55 {spawn "bm_bloodspark_a"}}
+					{if rand 0.55 {spawn "bm_bloodspark_b"}}
+					{if rand 0.55 {spawn "bm_bloodspark_c"}}
+	
 					("sonic_crack_s1")
-
+					
 				else stuff "bullet_fx size2"					;	Rifle Caliber
-					{spawn "blood_small"}
+				
+					{if rand 0.4 {call "blood_low"}}				
+					{if rand 0.55 {spawn "bm_blood_small_a"}}
+					{if rand 0.65 {spawn "bm_blood_splash_a"}}
+					{if rand 0.65 {spawn "bm_bloodspark_a"}}
+					{if rand 0.65 {spawn "bm_bloodspark_b"}}
+					{if rand 0.65 {spawn "bm_bloodspark_c"}}
+					
 					("sonic_crack_s2")
+					
+				else stuff "bullet_fx size3"					;	Large Rifle Caliber				
 
-				else stuff "bullet_fx size3"					;	Large Rifle Caliber
-					{spawn "blood_small"}
-					("sonic_crack_s3")
+					{if rand 0.5 {call "blood_low"}}				
+					{if rand 0.65 {spawn "bm_blood_small_a"}}
+					{if rand 0.75 {spawn "bm_blood_splash_a"}}
+					{if rand 0.75 {spawn "bm_bloodspark_a"}}
+					{if rand 0.75 {spawn "bm_bloodspark_b"}}
+					{if rand 0.75 {spawn "bm_bloodspark_c"}}
+					
+					("sonic_crack_s3")	; Placeholder						
 
 				else stuff "15mm he"
 					{spawn "object_hit_fg_15mm"}
 					{spawn "hit_he_fragments_15mm"}
-					{spawn "blood_small"}
-					{spawn "blood_big"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "auto size2 he"
 					{spawn "object_hit_fg_auto_size2"}
 					{spawn "hit_he_fragments_size1"}
-					{spawn "blood_small"}
-					{spawn "blood_big"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "auto he"
 					{spawn "object_hit_fg_auto"}
 					{spawn "hit_he_fragments_auto"}
-					{spawn "blood_small"}
-					{spawn "blood_big"}
+					{if rand 0.25 {call "blood"}}	
 
 				else stuff "auto aphe"			;// plane autocannon
 					{spawn "object_hit_fg_auto"}
@@ -46,43 +89,38 @@
 
 				else stuff "auto pierce"
 					("sonic_crack_s4")
-					{spawn "blood_small"}
-					{spawn "blood_big"}	
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "auto"
 					("sonic_crack_s4")
-					{spawn "blood_small"}
-					{spawn "blood_big"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "rifle_grenade_at"
-					{spawn "ex_air_small_heat"}
-					{spawn "hit_he_fragments_size1"}
-					{spawn "blood"}
+					{spawn "metal_hit_heat_riflegrenade"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "rifle_grenade"
 					{spawn "ex_air_small"}
 					{spawn "hit_he_fragments_size1"}
-					{spawn "blood"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "bomb size3"
-					{spawn "ex_air_he_size5"}
-					{spawn "hit_he_fragments_size3"}
-					{spawn "blood_big"}
+					{spawn "metal_hit_fg_massive"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "big mortar"
-					{spawn "blood_big"}
+					{if rand 0.75 {call "blood"}}
 					{spawn "ex_air_he_size3"}
 					{spawn "hit_he_fragments_size3"}
 
 				else stuff "small mortar"
-					{spawn "blood"}
+					{if rand 0.25 {call "blood"}}
 					{spawn "ex_air_norm"}
 					{spawn "hit_he_fragments_size1"}
 
 				else stuff "mortar"
-					{spawn "blood"}
-					{spawn "ex_air_big"}
-					{spawn "hit_he_fragments_size2"}
+					{spawn "metal_hit_fg"}
+					{if rand 0.5 {call "blood"}}
 
 				else stuff "rocketlauncher heat_shell size1"
 					{spawn "ex_heat"}
@@ -97,60 +135,53 @@
 					{blastwave c4 2.5 r0 2 r1 3.5 position}		; needs blast because ammo is pierce
 
 				else stuff "shell size1 all_he"
-					{spawn "blood"}
-					{spawn "ex_air_he_size1"}
+					{spawn "metal_hit_fg_small"}
 					{spawn "hit_he_fragments_size1"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "shell size2 all_he"
-					{spawn "blood"}
-					{spawn "ex_air_he_size2"}
+					{spawn "metal_hit_fg"}
 					{spawn "hit_he_fragments_size2"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "shell size3 all_he"
-					{spawn "blood_big"}
-					{spawn "ex_air_he_size3"}
+					{spawn "metal_hit_fg_big"}
 					{spawn "hit_he_fragments_size3"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "shell size4 all_he"
-					{spawn "blood_big"}
-					{spawn "ex_air_he_size4"}
+					{spawn "metal_hit_fg_massive"}
 					{spawn "hit_he_fragments_size4"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "size4 std_ap"
-					{spawn "blood_small"}
-					{spawn "blood_big"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "size4"
-					("explosion_HE_s4")
-					{spawn "blood_big"}
-					{spawn "ex_air_he_size4"}
-					{spawn "hit_he_fragments_size4"}
+					{spawn "ex_air_big2"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "shell size2_heat_shell"
-					{spawn "ex_air_big_heat"}
-					{spawn "blood_big"}
+					{spawn "metal_hit_br_heat"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "shell size3_heat_shell"
 					{spawn "ex_air_heat_size3"}
-					{spawn "blood_big"}	
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "shell size4_heat_shell"
-					{spawn "ex_air_heat_size3"}
-					{spawn "blood_big"}	
+					{spawn "metal_hit_br_big_heat"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "heat_shell"
-					{spawn "ex_heat"}
-					{spawn "blood_small"}
-					{spawn "blood_big"}
+					{if rand 0.25 {call "blood"}}	
 
 				else stuff "shell all_he"
-					{spawn "blood"}
+					{if rand 0.25 {call "blood"}}
 					{spawn "ex_air_big"}
-					{spawn "hit_he_fragments_size2"}
 
 				else stuff "shell"
-					{spawn "blood_small"}
-					{spawn "blood_big"}
+					{if rand 0.25 {call "blood"}}
 
 				else stuff "flare marker"							; Special Flare ammo for mission scripts 
 					;{spawn "flare_marker"}
@@ -1695,6 +1726,8 @@
 
 				else stuff "rifle_grenade"
 					{spawn "fabric_hit_bul"}
+				else stuff "bomb size3"
+				 	{spawn "metal_hit_fg_massive"}
 
 				else stuff "big mortar"
 					{spawn "fabric_hit_bul"}
@@ -1853,4 +1886,47 @@
 			}
 		}
 	}
+	
+	{on "blood"
+		{if rand 0.091 {spawn "bm_bloodpool_j"}
+			else
+			{if rand 0.1 {spawn "bm_bloodpool_b"}
+				else
+				{if rand 0.111 {spawn "bm_bloodpool_e"}
+					else
+					{if rand 0.125 {spawn "bm_bloodpool_a"}
+						else
+						{if rand 0.143 {spawn "bm_bloodpool_g"}							
+							else
+							{if rand 0.166 {spawn "bm_bloodpool_c"}}							
+						}
+					}
+				}
+			}
+		}						
+		{spawn "bm_blood_splash_a"}
+		{if rand 0.5 {spawn "bm_bloodspark_a"}}
+		{if rand 0.5 {spawn "bm_bloodspark_b"}}
+		{if rand 0.5 {spawn "bm_bloodspark_c"}}
+	}
+	
+	{on "blood_low"
+		{if rand 0.071 {spawn "bm_bloodpool_c"}
+			else
+			{if rand 0.077 {spawn "bm_bloodpool_a"}
+				else
+				{if rand 0.083 {spawn "bm_bloodpool_e"}
+					else
+					{if rand 0.091 {spawn "bm_bloodpool_b"}
+						else
+						{if rand 0.1 {spawn "bm_bloodpool_g"}							
+							else
+							{if rand 0.111 {spawn "bm_bloodpool_j"}}							
+						}
+					}
+				}
+			}
+		}			
+	}
+	
 }

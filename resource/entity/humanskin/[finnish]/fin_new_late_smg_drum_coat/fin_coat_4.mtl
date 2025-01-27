@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "fin_coat_open"}
+	{bump "fin_coat_open_bp"}
+	{specular "fin_tunic_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

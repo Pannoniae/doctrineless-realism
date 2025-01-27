@@ -27,7 +27,7 @@
 		}
 	}
 	{Damage
-		{"head"		1.3}
+		{"head"		1.4}
 		{"face"		1.3}
 		{"body"		1.0}
 		{"hand1r"	0.85}
@@ -142,10 +142,10 @@
 		{bone "visor"}
 	}
 	{Visor "telescope"}
-	{AttackZone 2.5}
+	{AttackZone 7.5}
 	{MinRecognizeTime 0.01}
 	{RecognizeTime 0.01}
-	{InformRange 100 100}		;// first = AI , second = USER
+	{InformRange 150 150}		;// first = AI , second = USER
 }
 
 {Chassis "foot"

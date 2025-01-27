@@ -17,6 +17,407 @@
 	{on "delete"{hide 3}}
 }
 
+;--------
+;   BM
+;--------
+{"timer_delete"
+	{on spawn		
+		{delay 600 450
+			{hide 10}
+		}
+	}
+}
+
+{"bm_limb_a"
+	{on spawn
+		{gravity 1}
+		{delay 0.01 {volumes disable bullet blast contact touch}}
+		{delay 10 {volumes enable bullet blast contact touch float}}
+		{delay 1 {call "blood_stain"}}
+		{delay 1 {call "blood"}}		
+	}	
+	{on blast_hit
+		{delay 0.01 {volumes disable bullet contact blast touch}}
+		{delay 10 {volumes enable bullet blast contact touch}}
+		{if min_energy 5
+			{if rand 0.2 {call "big_exp"}
+				else
+				{if rand 0.3 {call "medium_exp"}
+					else
+					{call "small_exp"}
+				}
+			}		
+		else min_energy 0.1
+			{if rand 0.2 {call "blood"}}
+			{impulse up 0.5 0.01 dir 0.5 0.01}
+		}
+	}
+	{on bullet_hit
+		{if stuff "bullet"
+			{impulse up 0.5 0.01 dir 0.5 0.01}
+			else stuff "shell"
+			{if rand 0.5			
+				{if rand 0.2 {call "big_exp"}
+					else
+					{if rand 0.3 {call "medium_exp"}
+						else
+						{call "small_exp"}
+					}
+				}
+			}	
+		}
+	}	
+	{on contact sync
+		{delay 0.01 {volumes disable contact}}
+		{delay 5 {volumes enable contact}}				
+				{if effector "tank"				
+					{if effector_velocity 1
+						{if rand 0.5
+							{if rand 0.2 {call "big_exp"}
+								else
+								{if rand 0.3 {call "medium_exp"}
+									else
+									{call "small_exp"}
+								}
+							}
+						}
+					}
+					
+				else effector "cannon_small"
+					
+					else effector "marine"	
+						{if rand 0.2 {call "big_exp"}
+							else
+							{if rand 0.3 {call "medium_exp"}
+								else
+								{call "small_exp"}
+							}
+						}	
+						else effector "cannon"
+							{if effector_velocity 1
+							{if rand 0.3
+								{if rand 0.2 {call "big_exp"}
+									else
+									{if rand 0.3 {call "medium_exp"}
+										else
+										{call "small_exp"}
+									}
+								}
+							}
+							}
+							else effector "moto"
+								{if effector_velocity 35
+									{if rand 0.2 {call "big_exp"}
+										else
+										{if rand 0.3 {call "medium_exp"}
+											else
+											{call "small_exp"}
+										}
+									}
+								}
+								else effector "vehicle"
+									{if effector_velocity 1
+										{if rand 0.2
+											{if rand 0.2 {call "big_exp"}
+												else
+												{if rand 0.3 {call "medium_exp"}
+													else
+													{call "small_exp"}
+												}
+											}
+										}
+									}
+									else {impulse up 0.1 0.1 dir 0.1 0.1}
+				}
+	}
+	
+	{on "big_exp"
+		{delay 0.01 {volumes disable bullet contact blast touch}}
+		{delete}
+		{call "blood"}
+		{spawn "bm_chunk1" {impulse up 3.1 0.01 dir 4.9 0.01}}
+		{spawn "bm_chunk2" {impulse up 4.2 0.01 dir 2.7 0.01}}
+		{spawn "bm_chunk3" {impulse up 5.3 0.01 dir 5.5 0.01}}		
+		{spawn "bm_chunk4" {impulse up 6.4 0.01 dir 3.3 0.01}}
+		{if rand 0.75 {spawn "bm_guts7" {impulse up 3.7 0.01 dir 4.8 0.01}}}
+		{if rand 0.75 {spawn "bm_guts7" {impulse up 5.9 0.01 dir 2.4 0.01}}}		
+		{if rand 0.75 {spawn "bm_guts7" {impulse up 4.5 0.01 dir 3.1 0.01}}}
+		{if rand 0.75 {spawn "bm_guts8" {impulse up 3.1 0.01 dir 5.2 0.01}}}		
+		{if rand 0.75 {spawn "bm_guts8" {impulse up 4.3 0.01 dir 6.1 0.01}}}	
+		{if rand 0.75 {spawn "bm_guts8" {impulse up 5.5 0.01 dir 4.1 0.01}}}
+	}
+	
+	{on "medium_exp"
+		{delay 0.01 {volumes disable bullet contact blast touch}}
+		{delete}
+		{call "blood"}
+		{if rand 0.75 {spawn "bm_chunk1" {impulse up 4.1 0.01 dir 2.9 0.01}}}
+		{if rand 0.75 {spawn "bm_chunk2" {impulse up 5.2 0.01 dir 3.7 0.01}}}
+		{if rand 0.75 {spawn "bm_chunk3" {impulse up 6.3 0.01 dir 4.5 0.01}}}		
+		{if rand 0.75 {spawn "bm_chunk4" {impulse up 3.4 0.01 dir 5.3 0.01}}}
+		{if rand 0.5 {spawn "bm_guts7" {impulse up 4.7 0.01 dir 2.8 0.01}}}
+		{if rand 0.5 {spawn "bm_guts7" {impulse up 5.9 0.01 dir 3.4 0.01}}}		
+		{if rand 0.5 {spawn "bm_guts7" {impulse up 6.5 0.01 dir 4.1 0.01}}}
+		{if rand 0.5 {spawn "bm_guts8" {impulse up 4.1 0.01 dir 5.2 0.01}}}		
+		{if rand 0.5 {spawn "bm_guts8" {impulse up 4.3 0.01 dir 6.1 0.01}}}	
+		{if rand 0.5 {spawn "bm_guts8" {impulse up 2.5 0.01 dir 4.3 0.01}}}
+	}
+	
+	{on "small_exp"
+		{delay 0.01 {volumes disable bullet contact blast touch}}
+		{delete}
+		{call "blood"}
+		{if rand 0.5 {spawn "bm_chunk1" {impulse up 3.1 0.01 dir 2.9 0.01}}}
+		{if rand 0.5 {spawn "bm_chunk2" {impulse up 4.2 0.01 dir 3.7 0.01}}}
+		{if rand 0.5 {spawn "bm_chunk3" {impulse up 6.3 0.01 dir 5.5 0.01}}}		
+		{if rand 0.5 {spawn "bm_chunk4" {impulse up 5.4 0.01 dir 5.1 0.01}}}
+		{if rand 0.3 {spawn "bm_guts7" {impulse up 3.7 0.01 dir 6.8 0.01}}}
+		{if rand 0.3 {spawn "bm_guts7" {impulse up 5.9 0.01 dir 4.1 0.01}}}		
+		{if rand 0.3 {spawn "bm_guts7" {impulse up 6.5 0.01 dir 3.1 0.01}}}
+		{if rand 0.3 {spawn "bm_guts8" {impulse up 4.1 0.01 dir 5.2 0.01}}}		
+		{if rand 0.3 {spawn "bm_guts8" {impulse up 2.3 0.01 dir 6.1 0.01}}}	
+		{if rand 0.3 {spawn "bm_guts8" {impulse up 3.5 0.01 dir 4.5 0.01}}}
+	}
+
+	{on "blood_stain"
+		{if rand 0.143 {spawn "bm_bloodstain_a" "basis" x}
+			else
+			{if rand 0.167 {spawn "bm_bloodstain_b" "basis" x}
+				else
+				{if rand 0.2 {spawn "bm_bloodstain_e" "basis" x}
+					else
+					{if rand 0.25 {spawn "bm_bloodstain" "basis" x}
+						else
+						{if rand 0.3 {spawn "bm_bloodstain_c" "basis" x}
+							else
+							{if rand 0.5 {spawn "bm_bloodstain_d" "basis" x}
+								else
+								{spawn "bloodstain" "basis" x}
+							}	
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	{on "blood"
+		{if rand 0.063 {spawn "bm_bloodpool_a"}
+			else
+			{if rand 0.066 {spawn "bm_bloodpool_b"}
+				else
+				{if rand 0.071 {spawn "bm_bloodpool_c"}
+					else
+					{if rand 0.077 {spawn "bm_bloodpool_d"}
+						else
+						{if rand 0.083 {spawn "bm_bloodpool_e"}
+							else
+							{if rand 0.091 {spawn "bm_bloodpool_f"}
+								else
+								{if rand 0.1 {spawn "bm_bloodpool_g"}							
+									else
+									{if rand 0.111 {spawn "bm_bloodpool_j"}}							
+								}
+							}
+						}
+					}
+				}	
+			}
+		}
+	}
+}
+
+{"bm_limb_b"
+	{on spawn
+		{gravity 1.5}
+		{delay 0.01 {volumes disable bullet blast }}
+		{delay 0.01 {volumes enable touch contact float}}
+		{delay 10 {volumes enable bullet blast}}	
+	}	
+	{on blast_hit
+		{delay 0.01 {volumes disable bullet contact blast touch}}
+		{delay 10 {volumes enable bullet blast contact touch}}
+		{if min_energy 0.5
+			{call "small_exp"}			
+			else min_energy 0.1
+			{impulse up 3.5 dir 4.5}
+			{if rand 0.1 {call "blood"}}
+		}
+	}
+	{on bullet_hit
+		{if stuff "bullet"
+			{impulse up 1 0.01 dir 2.5 0.01}
+			else stuff "shell"
+			{if rand 0.3				
+				{call "small_exp"}
+			}	
+		}
+	}	
+	{on contact sync
+		{volumes disable contact}
+		{delay 5 {volumes enable contact}}				
+				{if effector "tank"				
+					{if effector_velocity 1
+						{if rand 0.5
+							{call "small_exp"}
+						}
+					}
+					else effector "marine"	
+						{call "small_exp"}	
+						else effector "cannon"
+							{if effector_velocity 1
+								{if rand 0.3
+									{call "small_exp"}
+								}
+							}
+							else effector "moto"
+								{if effector_velocity 30
+									{call "small_exp"}
+								}
+								else effector "vehicle"
+									{if effector_velocity 1
+										{if rand 0.2
+											{call "small_exp"}
+										}
+									}
+									else effector "human"
+										{delay 0.01 {volumes enable touch contact}}										
+										else
+											{impulse up 0.5 0.5 dir 1 1}
+				}
+	}
+	
+	{on "small_exp"
+		{volumes disable bullet contact blast touch}
+		{delete}
+		{call "blood"}
+		{if rand 0.75 {spawn "bm_guts7" {impulse up 2.7 0.01 dir 5.8 0.01}}}
+		{if rand 0.5 {spawn "bm_guts7" {impulse up 3.9 0.01 dir 3.4 0.01}}}		
+		{if rand 0.3 {spawn "bm_guts7" {impulse up 6.5 0.01 dir 4.1 0.01}}}
+		{if rand 0.75 {spawn "bm_guts8" {impulse up 4.1 0.01 dir 2.2 0.01}}}		
+		{if rand 0.5 {spawn "bm_guts8" {impulse up 5.3 0.01 dir 3.1 0.01}}}	
+		{if rand 0.3 {spawn "bm_guts8" {impulse up 4.8 0.01 dir 6.3 0.01}}}
+	}
+	
+	{on "blood"
+		{if rand 0.063 {spawn "bm_bloodpool_a"}
+			else
+			{if rand 0.066 {spawn "bm_bloodpool_b"}
+				else
+				{if rand 0.071 {spawn "bm_bloodpool_c"}
+					else
+					{if rand 0.077 {spawn "bm_bloodpool_d"}
+						else
+						{if rand 0.083 {spawn "bm_bloodpool_e"}
+							else
+							{if rand 0.091 {spawn "bm_bloodpool_f"}
+								else
+								{if rand 0.1 {spawn "bm_bloodpool_g"}							
+									else
+									{if rand 0.111 {spawn "bm_bloodpool_j"}}							
+								}
+							}
+						}
+					}
+				}	
+			}
+		}
+	}
+}
+
+{"bm_limb_c"
+	{on spawn		
+		{gravity 3}
+		{delay 0.01 {volumes disable bullet blast contact touch}}
+		{delay 10 {volumes enable bullet contact blast touch float}}			
+	}	
+	{on blast_hit		
+		{if min_energy 1
+			{delay 0.01 {volumes disable bullet contact blast touch}}
+			{delay 10 {volumes enable bullet blast contact touch}}
+			{impulse up 4 dir 4}
+			{if rand 0.5
+				{call "small_exp"}
+			}			
+			else min_energy 0.5
+				{delay 0.01 {volumes disable bullet contact blast touch}}
+				{delay 10 {volumes enable bullet blast contact touch}}
+				{impulse up 3 dir 3}
+				{if rand 0.2
+					{call "small_exp"}
+				}
+				else min_energy 0.1
+					{impulse up 2 dir 2}
+		}
+	}
+	{on bullet_hit
+		{if stuff "bullet"
+			{impulse up 1.5 0.01 dir 4.5 0.01}
+			{if rand 0.3 {call "small_exp"}}
+			else stuff "shell"
+			{if rand 0.75				
+				{call "small_exp"}
+			}	
+		}
+	}	
+	{on contact sync
+		{volumes disable contact}
+		{delay 5 {volumes enable contact}}				
+				{if effector "tank"				
+					{if effector_velocity 1
+						{if rand 0.5
+							{call "small_exp"}
+						}
+					}
+					else effector "marine"	
+						{call "small_exp"}	
+						else effector "cannon"
+							{if effector_velocity 1
+								{if rand 0.3
+									{call "small_exp"}
+								}
+							}
+							else effector "moto"
+								{if effector_velocity 30
+									{call "small_exp"}
+								}
+								else effector "vehicle"
+									{if effector_velocity 1
+										{if rand 0.2
+											{call "small_exp"}
+										}
+									}
+									else {impulse up 0.1 0.01 dir 0.1 0.01}
+				}
+	}
+	
+	{on "small_exp"
+		{volumes disable bullet contact blast touch}
+		{delete}
+		{if rand 0.063 {spawn "bm_bloodpool_a"}
+			else
+			{if rand 0.066 {spawn "bm_bloodpool_b"}
+				else
+				{if rand 0.071 {spawn "bm_bloodpool_c"}
+					else
+					{if rand 0.077 {spawn "bm_bloodpool_d"}
+						else
+						{if rand 0.083 {spawn "bm_bloodpool_e"}
+							else
+							{if rand 0.091 {spawn "bm_bloodpool_f"}
+								else
+								{if rand 0.1 {spawn "bm_bloodpool_g"}							
+									else
+									{if rand 0.111 {spawn "bm_bloodpool_j"}}							
+								}
+							}
+						}
+					}
+				}	
+			}
+		}
+	}
+}
 {"physics_damping"
 ;	{friction 1000}
 ;	{restitution 0.001}

@@ -134,6 +134,7 @@
 	)
 )
 (define "abm_human"
+	{ai_in_manual}
 	("accuracy_by_motion"
 		max_linear(15) accuracy_by_linear(0.4)				;// aim accuracy on actor movement
 		max_angular(25) accuracy_by_angular(0.4)			;// aim accuracy on aim movement

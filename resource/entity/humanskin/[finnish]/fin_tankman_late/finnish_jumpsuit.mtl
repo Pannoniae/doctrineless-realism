@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_hum/legacy/fin/fin_jumpsuit"}
+	{bump "$/_hum/legacy/fin/fin_jumpsuit_bp"}
+	{specular "$/_hum/legacy/fin/fin_jumpsuit_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

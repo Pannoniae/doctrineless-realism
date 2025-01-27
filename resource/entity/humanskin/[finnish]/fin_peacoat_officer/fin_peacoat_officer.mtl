@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_hum/legacy/fin/fin_peacoat_officer"}
+	{bump "$/_hum/legacy/fin/fin_peacoat_officer_bp"}
+	{specular "$/_hum/legacy/fin/fin_peacoat_officer_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

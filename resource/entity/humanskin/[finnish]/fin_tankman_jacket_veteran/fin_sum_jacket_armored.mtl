@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_hum/legacy/fin/fin_tunic_3_jacket_arm_veteran"}
+	{bump "$/_hum/legacy/fin/fin_tunic_3_jacket_arm_veteran_bp"}
+	{specular "$/_hum/legacy/fin/fin_tunic_3_jacket_arm_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

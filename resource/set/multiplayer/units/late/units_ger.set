@@ -695,6 +695,10 @@
 ("squad_with7types_i" side(ger) name(squad_fallschirm_late_off_1) period(late) year(late) scf(1) cd(420) ci(420) g(squad_4) c1(fallsch_sl:1) c2(fallsch_sl_asst_fg:1) c3(fallsch_rifle_pzf:1) c4(fallsch_sa:1) c5(fallsch_rifle_grenadier:2) c6(fallsch_mg:2) c7(fallsch_mg_asst:2) b(squad) i(113) t())
 
 ; todo add elite fallschirm/brandenburg/something for 400mp ultravet squad
+{"para_infantry_ger"
+	("squad_vehicle5" period(late) year(late) cd(90) ci(180) t(vehicle) side(ger) vehicle(ju-52) crew1(pilot:2) crew2(fallsch_rifle:4) crew3(fallsch_sa:4) crew4(fallsch_mg:1) crew5(fallsch_mg_asst:1) g(lightc) b(squad) )
+	{tags "limit2"}
+}
 ; no halftrack though, germany doesn't have halftracks available, buy it yourself scrub
 
 
@@ -911,6 +915,10 @@
 	("vehicle"  period(late) year(late) cd(60) ci(10) t(cannon mediumcan) side(ger) crew(artilleryman:4) g(empl4) b(support) cw(1) cp(12)
 	cost(200))
 }
+{"88mm_raketenwerfer"
+	("vehicle" period(late) year(late)  cd(320) ci(10) t(cannon) side(ger) crew(artilleryman:3) g(empl2) b(support) cw(0) cp(6)
+	cost(240))
+}
 {"75mm_pak40"
 	("vehicle"  period(late) year(late) cd(400) ci(10) t(cannon mediumcan) side(ger) crew(artilleryman:4) g(empl4) b(support) cw(1) cp(16)
 	cost(350))
@@ -995,6 +1003,10 @@
 }
 
 ;vehicles and shit
+{"sdkfz251d_2"
+	("vehicle2"  period(late) year(late) year(late) cd(210) ci(10) t(vehicle) side(ger) crew1(rifleman_1:1) crew2(artilleryman:3) g(wheel10) b(art) cw(2) cp(13)
+	cost(380))
+}
 {"stuh42"
 	("vehicle2" period(late) year(late) cd(540) ci(10) t(medium) side(ger) crew1(tankman_stug:3) crew2(tank_commander_stug:1) g(spg4) b(art) cw(6) cp(30)
 	cost(600)) ;// +30 for crew
@@ -1295,6 +1307,7 @@
 }
 
 
+
 ;SPG
 {"marder3m"
 	("vehicle2" period(late) year(late) cd(600) ci(10) t(light) side(ger) crew1(tankman_pzjag:3) crew2(tank_commander_pzjag:1) g(spg1) b(td) cw(4) cp(20)
@@ -1336,6 +1349,14 @@
 	("vehicle2" period(late) year(late) cd(780) ci(10) t(medium) side(ger) crew1(tankman_pzjag:3) crew2(tank_commander_pzjag:1) g(spg2) b(td) cw(6) cp(24)
 	cost(550)) ;// +30 for crew
 }
+{"sdkfz8_flak18"
+	("vehicle2" period(late) year(late) cd(960) ci(0) g(wheel15) side(ger) t(vehicle) crew1(tankman_stug:4) crew2(tank_commander_stug:1) b(td) cw(2) cp(20)
+	cost(775))
+}
+;{"88mmflak37sfl"
+;	("vehicle2" period(late) year(late)  cd(1080) ci(180) t(vehicle) side(ger) crew1(tankman_stug:3) crew2(tank_commander_stug:1) g(spg6) b(td) cw(6) cp(30)
+;	cost(800))
+;}
 {"panzer4_70_v"
 	("vehicle2" period(late) year(late) cd(1200) ci(10) t(medium) side(ger) crew1(tankman_pzjag:3) crew2(tank_commander_pzjag:1) g(spg2) b(td) cw(6) cp(30)
 	cost(1100)) ;// +25 for crew
@@ -1393,6 +1414,10 @@
 {"bf109_f4"
 	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly) side(ger) crew(pilot:1) g(spg7) b(supply) cw(0) cp(23)
 	cost(1000))
+}
+{"ju-52"
+	("vehicle"  period(late) year(late) year(late) cd(0) ci(0) t(doctrineonly doc_only ita hun fin) side(ger) crew(pilot:4) g(spg8) b(supply) cw(0) cp(11)
+	cost(120))
 }
 {"me_262a2a"
 	("vehicle"  period(late) year(late) cd(0) ci(10) t(doctrineonly) side(ger) crew(pilot:1) g(spg7) b(supply) cw(0) cp(25)

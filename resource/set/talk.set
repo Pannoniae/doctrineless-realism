@@ -42,6 +42,13 @@
 	("phrase_voice" args %0 fin 4 %1)
 	("phrase_voice" args %0 fin 5 %1)
 
+	("phrase_voice" args %0 fin_officer 1 %1)
+	("phrase_voice" args %0 fin_medic   1 %1)
+	("phrase_voice" args %0 fin_nco	    1 %1)
+	("phrase_voice" args %0 fin_sniper  1 %1)
+	("phrase_voice" args %0 swe 1 %1)
+	("phrase_voice" args %0 swe 2 %1)
+	
 	("phrase_voice" args %0 usa 1 %1)
 	("phrase_voice" args %0 usa 2 %1)
 	("phrase_voice" args %0 usa 3 %1)
@@ -75,6 +82,7 @@
 	("phrase_voice" args %0 fin 1 %1)
 	("phrase_voice" args %0 fin 2 %1)
 	("phrase_voice" args %0 fin 3 %1)
+	("phrase_voice" args %0 fin 5 %1)
 
 	("phrase_voice" args %0 usa 1 %1)
 ;	("phrase_voice" args %0 usa 2 %1)
@@ -98,6 +106,8 @@
 	("phrase_voice" args %0 fin 1 %1)
 	("phrase_voice" args %0 fin 2 %1)
 	("phrase_voice" args %0 fin 3 %1)
+	("phrase_voice" args %0 fin 4 %1)
+	("phrase_voice" args %0 fin 5 %1)
 
 	("phrase_voice" args %0 usa 1 %1)
 	("phrase_voice" args %0 usa 2 %1)

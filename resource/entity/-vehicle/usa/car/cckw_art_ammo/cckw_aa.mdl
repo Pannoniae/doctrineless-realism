@@ -85,8 +85,8 @@
 								0.5399 	 4.8707 	 -0.7248
 							}
 							{LODView
-								{VolumeView "ammo.ply"}
-								{VolumeView "ammo_lod1.ply"}
+								{VolumeView "ammo2.ply"}
+								{VolumeView "ammo2_lod1.ply"}
 							}
 						}
 						{bone "gun"
