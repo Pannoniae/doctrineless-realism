@@ -28,6 +28,13 @@
 (include "talk_type_cannon.inc")
 (include "talk_type_tank.inc")
 
+;(define "phrases"
+;)
+;(define "phrases_cannon"
+;)
+;(define "phrases_tank"
+;)
+
 (define "human_phrases"	; args: actor | foldername
 	("phrases" args human %0)
 )

@@ -75,6 +75,7 @@
 		{AvailableMatchups
 			"ger rus" "rus ger"
 			"fin rus" "rus fin"
+			"fin ger" "ger fin"
 			"eng ger" "ger eng"
 		}
 	}

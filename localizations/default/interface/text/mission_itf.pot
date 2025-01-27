@@ -28,3 +28,39 @@ msgstr ""
 msgctxt "mission/multi/3v3_january/name"
 msgid "Stalingrad 9th of January Square <c(ffee4c)>[Jors]"
 msgstr ""
+
+msgctxt "mission/multi/4v4_rakowice/name"
+msgid "Rakowice <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/3v3_rakowice/name"
+msgid "Rakowice <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/2v2_rakowice/name"
+msgid "Rakowice <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/1v1_rakowice/name"
+msgid "Rakowice <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/1v1_barashka/name"
+msgid "Barashka <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/2v2_barashka/name"
+msgid "Barashka <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/3v3_barashka/name"
+msgid "Barashka <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/4v4_barashka/name"
+msgid "Barashka <c(ffffff)>[Hamster]"
+msgstr ""
+
+msgctxt "mission/multi/3v3_canalcity/name"
+msgid "City Canal <c(ffffff)>[Tsingtao]"
+msgstr ""
