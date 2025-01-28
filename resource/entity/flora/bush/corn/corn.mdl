@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\corn\corn.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "corn"
 		{parameters "CommonMesh;"}

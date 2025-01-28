@@ -1,6 +1,6 @@
 {breed
 	{behaviour soldier}
-	{skin "civ_rus_partisan_02"}
+	{skin "civ_partisan_rus_02"}
 	{portrait "rus_partisan"}
 	{icon "rifle"}
 	{icon_priority 0}

@@ -44,5 +44,5 @@ msgid "Offensive"
 msgstr ""
 
 msgctxt "mp/lobby/doctrine/late_usa_allround"
-msgid "All-Round"
+msgid "Into the Fire: 44-45"
 msgstr ""

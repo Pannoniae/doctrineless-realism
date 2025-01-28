@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\Desert_tree\Desert_tree_anim.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "desert_tree"
 		{parameters "CommonMesh;"}

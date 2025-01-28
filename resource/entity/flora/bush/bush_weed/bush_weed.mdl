@@ -3,7 +3,7 @@
 ;File:        D:\max7\bush_weed.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "pla02"
 		{parameters "CommonMesh;"}

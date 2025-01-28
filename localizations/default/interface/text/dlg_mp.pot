@@ -73,10 +73,6 @@ msgctxt "mp/lobby/hint/game"
 msgid "Opened/Total/Available"
 msgstr ""
 
-msgctxt "mp/lobby/any_mode"
-msgid "Classic and Third Person (Interchangable)"
-msgstr ""
-
 msgctxt "mp/title_status"
 msgid "<f(pobeda)s(27)b+c(faeacb)e(shadow)x.y.>Status"
 msgstr ""
@@ -723,10 +719,6 @@ msgid ""
 "receives additional Payback."
 msgstr ""
 
-msgctxt "mp/game/evacuation"
-msgid "Evacuation"
-msgstr ""
-
 msgctxt "mp/game/guerrilla"
 msgid "Guerrilla"
 msgstr ""
@@ -753,22 +745,12 @@ msgctxt "mp/statistics2/detail/header/infantry_kills"
 msgid "<x.y.>Infantry kills"
 msgstr ""
 
-msgctxt "mp/game/evacuation/info"
-msgid "Defend your evacuation point against waves of enemies!"
-msgstr ""
-
 msgctxt "mp/lobby/button/setmaster"
 msgid "Set Host"
 msgstr ""
 
 msgctxt "mp/chat2/color_mention"
 msgid "<c(9adbf5)>"
-msgstr ""
-
-msgctxt "mp/game/evacuation/rules"
-msgid ""
-"Evacuation\n"
-"\n"
 msgstr ""
 
 msgctxt "mp/team/d"
@@ -787,11 +769,6 @@ msgstr ""
 
 msgctxt "mp/lobby/button/enter_zone"
 msgid "Change zone"
-msgstr ""
-
-msgctxt "mp/game/evacuation/objective"
-msgid ""
-"Hold your position for a given time until the evacuation helicopters arrive!"
 msgstr ""
 
 msgctxt "mp/game/battle_zones"
@@ -1050,18 +1027,6 @@ msgstr ""
 
 msgctxt "mp/statistics2/personal/progress_xp_boost"
 msgid "XP Boost"
-msgstr ""
-
-msgctxt "mp/game/text/evacuation_wavetime"
-msgid "The %1%. wave will spawn in"
-msgstr ""
-
-msgctxt "mp/game/text/evacuation_supply_secured"
-msgid "You have secured a supply crate!"
-msgstr ""
-
-msgctxt "mp/game/text/evacuation_supply_enabled"
-msgid "An ammo crate was dropped!"
 msgstr ""
 
 msgctxt "mp/game/text/enemies_remaining"
@@ -3063,11 +3028,11 @@ msgid "<b+c(b070ee)>%s"
 msgstr ""
 
 msgctxt "mp/scene/txt_cp"
-msgid "<f(roboto_mono)c(588157)><e(shadow)>CP %1% / %2%"
+msgid "<f(arial_narrow)s(15)c(588157)><e(shadow)>CP %1% / %2%"
 msgstr ""
 
 msgctxt "mp/scene/txt_mp"
-msgid "<f(roboto_mono)c(ffcb69)><e(shadow)>MP %1% / %2%"
+msgid "<f(arial_narrow)s(15)c(ffcb69)><e(shadow)>MP %1% / %2%"
 msgstr ""
 
 msgctxt "mp/scene/txt_mp_rate"
@@ -3079,15 +3044,15 @@ msgid "<f(arial_hq)s(8)c(d8e2dc)p(0)e(shadow)>+ %1% MP"
 msgstr ""
 
 msgctxt "mp/scene/txt_sp"
-msgid "<f(roboto_mono)c(b7b7a4)><e(shadow)>doctrineless"
+msgid "<f(arial_narrow)s(15)c(b7b7a4)><e(shadow)>doctrineless"
 msgstr ""
 
 msgctxt "mp/scene/txt_ap"
-msgid "<f(roboto_mono)c(aa998f)><e(shadow)>AP %1% / %2% "
+msgid "<f(arial_narrow)s(15)c(aa998f)><e(shadow)>AP %1% / %2% "
 msgstr ""
 
 msgctxt "mp/scene/txt_level"
-msgid "<f(arial_narrow)s(16)c(e5e1df)><e(shadow)>level %1%"
+msgid "<f(arial_narrow)s(15)c(e5e1df)><e(shadow)>level %1%"
 msgstr ""
 
 msgctxt "mp/gs/stats/ranked_games"
@@ -3095,7 +3060,7 @@ msgid "Ranked games"
 msgstr ""
 
 msgctxt "mp/scene/txt_growspeed"
-msgid "<f(arial_narrow)s(16)>%1%%"
+msgid "<f(arial_narrow)s(15)>%1%%"
 msgstr ""
 
 msgctxt "mp/scene/hint_growspeed"

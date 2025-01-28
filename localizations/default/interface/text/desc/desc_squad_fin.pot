@@ -246,7 +246,7 @@ msgid "Rifle Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_rifle_mid_con(fin)"
-msgid "Rifle Squad"
+msgid "Rifle Squad (LS)"
 msgstr ""
 
 msgctxt "desc/squad/squad_scout_early(fin)"
@@ -266,7 +266,7 @@ msgid "Scout Section"
 msgstr ""
 
 msgctxt "desc/squad/squad_sissi_mid_con(fin)"
-msgid "Sissi Commandos"
+msgid "Sissi Patrol"
 msgstr ""
 
 msgctxt "desc/squad/team_officer_con(fin)"

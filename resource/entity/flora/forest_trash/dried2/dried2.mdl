@@ -3,7 +3,7 @@
 ;File:        D:\ClipArt\3DVD\-3DWork-\Poligontrees\dried2.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "tree01"
 		{parameters "CommonMesh;"}

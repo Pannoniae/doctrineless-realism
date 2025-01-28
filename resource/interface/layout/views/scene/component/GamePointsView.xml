@@ -30,7 +30,7 @@
                                                 </StaticText>
                                             </Children>
                                         </FlowPanel>
-                                        <FlowPanel direction="vertical" placement="right" valign="center">
+                                        <FlowPanel direction="vertical" placement="right" valign="bottom">
                                             <Children>
                                                 <StaticText id="user_mp_rate">
                                                     <Text value="+9" />
@@ -55,7 +55,7 @@
                                         <PictureDialog resource="/interface/pages/multi/gamebar/points_sp" placement="left" centerY="true" >
                                             <Alphabuffer value="true"/>
                                         </PictureDialog>
-                                        <FlowPanel placement="center" valign="center">
+                                        <FlowPanel placement="center" valign="bottom">
                                             <Children>
                                                 <StaticText id="user_sp">
                                                     <Text value="20/20 SP" />
@@ -73,7 +73,7 @@
                                 <DockPanel hgap="4" enableif="game.multiplayer">
                                     <Children>
                                         <PictureDialog resource="/interface/pages/multi/gamebar/points_cp" placement="left" centerY="true" />
-                                        <FlowPanel placement="center" valign="center">
+                                        <FlowPanel placement="center" valign="bottom">
                                             <Children>
                                                 <StaticText id="user_cp">
                                                     <Text value="50/200 CP" />

@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\Grass\wheat\reed_bush_anim.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "reed_bush"
 		{parameters "CommonMesh;"}

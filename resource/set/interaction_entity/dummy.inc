@@ -455,8 +455,10 @@
 		{view start "wp"}
 		{delay 0.05
 			{volumes "body" enable contact}
-			{fire radius 0.5 time 0.5 heating 2 follow}
-			{fire radius 0.3 time 12 heating 0.1 follow}
+			{delay 0.5
+				{fire radius 0.5 time 0.5 heating 5 follow}
+				{fire radius 0.3 time 15 heating 0.1 follow}
+			}
 		}
 		{delay 25 10
 			{delete}
@@ -488,7 +490,7 @@
 			{delete}
 		}
 	}
-	{on contact
+	{on contact sync
 		{delay 0.01
 			{delete}
 		}
@@ -661,7 +663,7 @@
 		}
 		{delay 2 {volumes enable bullet contact blast}}
 		;{call "stop_view"}
-		{delay 25 15 {hide 10}{delay 11 {delete}}}
+		{delay 25 10 {hide 10}{delay 11 {delete}}}
 	}
 	{on blast_hit
 		{if min_energy 0.5
@@ -724,6 +726,7 @@
 			{volumes disable bullet contact blast touch}	;//prevent destroying at spawn moment
 		}
 		{delay 1 {volumes enable bullet contact blast}}
+		{delay 35 10 {hide 10}{delay 11 {delete}}}
 	}
 	{on blast_hit
 		{if min_energy 20
@@ -959,7 +962,7 @@
 	}
 	{on contact
 		{volumes disable contact}
-		{fire radius 1 time 1 heating 0.3 effector follow}
+		{fire radius 1 time 1 heating 0.5 effector follow}
 		{if rand 0.2
 			{call_synced "spawn_fire_die"}
 		}
@@ -1002,7 +1005,7 @@
 	}
 	{on "ground_end_fire"
 		{fire radius 1.2 time 20 heating 0.25}
-		{spawn "fire_flame_thrower_ground" offset 0 0 -5}
+		{spawn "fire_flame_thrower_ground" offset 0 0-10}
 		{spawn "burned_spot01" random_orientation}
 	}
 	{on "delete_time"}
@@ -1017,7 +1020,7 @@
 		}
 	}
 	{on "fire_radius" overload
-		{fire radius 1 time 0.7 heating 0.65 follow}
+		{fire radius 1 time 0.7 heating 0.75 follow}
 	}
 }
 
@@ -1028,7 +1031,7 @@
 		}
 	}
 	{on "fire_radius" overload
-		{fire radius 1 time 1.1 heating 0.65 follow}
+		{fire radius 1 time 1.1 heating 0.75 follow}
 	}
 }
 {"fx_piece_flame 40"			;// causes flamer thrower fuel to burn up after delay (disables far shooting)
@@ -1038,7 +1041,7 @@
 		}
 	}
 	{on "fire_radius" overload
-		{fire radius 1 time 1.4 heating 0.65 follow}
+		{fire radius 1 time 1.4 heating 0.75 follow}
 	}
 }
 

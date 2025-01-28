@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\Floramax\palm_new3.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "palm3"
 		{parameters "CommonMesh;"}

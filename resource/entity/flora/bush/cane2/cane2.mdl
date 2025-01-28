@@ -3,7 +3,7 @@
 ;File:        D:\ClipArt\3DVD\-3DWork-\Poligontrees\cane03.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "group01"
 		{parameters "CommonMesh;"}

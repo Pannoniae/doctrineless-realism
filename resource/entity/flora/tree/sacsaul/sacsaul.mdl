@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\sacsaul\sacsaul_amin.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "sacsaul"
 		{parameters "CommonMesh;"}

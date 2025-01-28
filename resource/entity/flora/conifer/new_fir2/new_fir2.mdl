@@ -3,7 +3,7 @@
 ;File:        D:\ClipArt\3DVD\-3DWork-\Poligontrees\new_fir2_256.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "fir2"
 		{parameters "CommonMesh;"}

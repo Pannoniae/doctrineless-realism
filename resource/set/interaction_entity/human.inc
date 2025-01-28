@@ -166,6 +166,7 @@
 						{health_damage_count 500 {effects "" "hit" "damage" "die" "die"}}
 						("knock_out" t(10) r(2))	;// time unconsious. 10 ±2 seconds
 					}
+			else effector "cannon_small"
 			else effector "marine"
 					{if rand 0.25 {call "crush"}}
 					{health_damage_count 80 {effects "" "hit" "damage" "die" "die"}}
@@ -180,8 +181,8 @@
 						{health_damage_count 5 {effects "" "hit" "damage" "die" "die"}}
 					}
 				else effector "moto"
-					{call "crush"}
 					{if effector_velocity 30
+						{if rand 0.3 {call "crush"}}
 						{health_damage_count 200 {effects "" "hit" "damage" "die" "die"}}
 						("knock_out" t(10) r(2))	;// time unconsious. 10 ±2 seconds
 					else effector_velocity 10
@@ -491,13 +492,9 @@
 	}
 
 	{on "hit-light"
-		{if not dead
-			{spawn "blood_small"}
-		}
 	}
 
 	{on "hit-heavy"
-		{spawn "blood_medium"}
 	}
 
 	{on "hit-explosion"
@@ -2131,10 +2128,27 @@
 			{call_synced "do_throw_on_ground"}
 		}
 	}
+
+	{on "spawn_parachute"
+		{tags add "eject"}
+		{spawn "parachute_attach" "basis" x
+			{delay 0.5
+				{if not tagged "_flight"
+					{delete}
+				}
+			}
+		}
+		{delay 0.5
+			{if not tagged "eject"	;// eject is removed in mission script. If no script, human can fall to ground.
+				{physics_work 0}
+			}
+		}
+		;//{spawn "paratrooper_attach" offset 205 -10 -534}
+	}
+	
 	{on "do_throw_off"
 		{throw_off up 2 forward 0.01}
 	}
-
 	{on "do_throw_on_ground"
 		{throw_on_ground}
 	}

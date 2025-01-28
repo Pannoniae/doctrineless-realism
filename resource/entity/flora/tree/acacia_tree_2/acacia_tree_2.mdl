@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\Acacia\acacia_2_anim.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "acacia_2"
 		{parameters "CommonMesh;"}

@@ -97,10 +97,6 @@ msgctxt "mission/multi/Eastbog_2v2/name"
 msgid "Boglands <e(shadow)><c(00ff0aff)>2x2</c> <c(ffffff)>[Plankton]"
 msgstr ""
 
-msgctxt "mission/multi/3v3_sevastopol/name"
-msgid "Sevastopol <e(shadow)><c(00ff0aff)>3x3</c> <c(ffffff)>[Tsingtao]"
-msgstr ""
-
 msgctxt "mission/multi/4v4_bridge/name"
 msgid "Bridge War <e(shadow)><c(00ff0aff)>4x4</c> <c(ffffff)>[Tuna]"
 msgstr ""

@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\Poligontrees\alder_little1.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "bush1"
 		{parameters "CommonMesh;"}

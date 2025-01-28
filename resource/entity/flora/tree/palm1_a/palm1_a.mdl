@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\Palm_5\palm_5_anim.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "palm_5"
 		{parameters "CommonMesh;"}

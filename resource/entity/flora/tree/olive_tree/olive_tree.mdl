@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\Olive_tree\Olive_tree_4_anim.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "olive_tree"
 		{parameters "CommonMesh;"}

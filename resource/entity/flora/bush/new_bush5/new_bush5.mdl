@@ -3,7 +3,7 @@
 ;File:        D:\ClipArt\3DVD\-3DWork-\Poligontrees\new_bush5.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "pla02"
 		{parameters "CommonMesh;"}

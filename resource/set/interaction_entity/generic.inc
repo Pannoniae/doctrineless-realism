@@ -19,8 +19,6 @@
 		{if not under_water
 			; BM
 			{if material "flesh"
-			
-				{spawn "bm_bullet"}
 				
 				{if stuff "bullet_fx size1"						;	Pistol Caliber
 					
@@ -82,8 +80,7 @@
 				else stuff "auto aphe"			;// plane autocannon
 					{spawn "object_hit_fg_auto"}
 					{spawn "hit_he_fragments_size1"}
-					{spawn "blood_small"}
-					{spawn "blood_big"}
+					{if rand 0.25 {call "blood"}}
 					{blastwave c4 0.504 r0 0.2 r1 0.5 position}		; needs blast because ammo is pierce
 					{blastwave c4 0.36 r0 0.75 r1 3.06 position}
 
@@ -96,7 +93,8 @@
 					{if rand 0.25 {call "blood"}}
 
 				else stuff "rifle_grenade_at"
-					{spawn "metal_hit_heat_riflegrenade"}
+					{spawn "ex_air_small_heat"}
+					{spawn "hit_he_fragments_size1"}
 					{if rand 0.25 {call "blood"}}
 
 				else stuff "rifle_grenade"
@@ -105,7 +103,8 @@
 					{if rand 0.25 {call "blood"}}
 
 				else stuff "bomb size3"
-					{spawn "metal_hit_fg_massive"}
+					{spawn "ex_air_he_size5"}
+					{spawn "hit_he_fragments_size3"}
 					{if rand 0.25 {call "blood"}}
 
 				else stuff "big mortar"
@@ -114,74 +113,77 @@
 					{spawn "hit_he_fragments_size3"}
 
 				else stuff "small mortar"
-					{if rand 0.25 {call "blood"}}
+					{if rand 0.5 {call "blood"}}
 					{spawn "ex_air_norm"}
 					{spawn "hit_he_fragments_size1"}
 
 				else stuff "mortar"
-					{spawn "metal_hit_fg"}
 					{if rand 0.5 {call "blood"}}
+					{spawn "ex_air_big"}
+					{spawn "hit_he_fragments_size2"}
 
 				else stuff "rocketlauncher heat_shell size1"
 					{spawn "ex_heat"}
-					{spawn "blood_small"}
-					{spawn "blood_big"}
+					{if rand 0.35 {call "blood"}}
 					{blastwave c4 2.5 r0 2 r1 3.5 position}		; needs blast because ammo is pierce
 
 				else stuff "rocketlauncher heat_shell size2"
 					{spawn "ex_heat"}
-					{spawn "blood_small"}
-					{spawn "blood_big"}
+					{if rand 0.35 {call "blood"}}
 					{blastwave c4 2.5 r0 2 r1 3.5 position}		; needs blast because ammo is pierce
 
 				else stuff "shell size1 all_he"
-					{spawn "metal_hit_fg_small"}
+					{if rand 0.35 {call "blood"}}
+					{spawn "ex_air_he_size1"}
 					{spawn "hit_he_fragments_size1"}
-					{if rand 0.25 {call "blood"}}
 
 				else stuff "shell size2 all_he"
-					{spawn "metal_hit_fg"}
+					{if rand 0.35 {call "blood"}}
+					{spawn "ex_air_he_size2"}
 					{spawn "hit_he_fragments_size2"}
-					{if rand 0.25 {call "blood"}}
 
 				else stuff "shell size3 all_he"
-					{spawn "metal_hit_fg_big"}
+					{if rand 0.35 {call "blood"}}
+					{spawn "ex_air_he_size3"}
 					{spawn "hit_he_fragments_size3"}
-					{if rand 0.25 {call "blood"}}
 
 				else stuff "shell size4 all_he"
-					{spawn "metal_hit_fg_massive"}
+					{if rand 0.35 {call "blood"}}
+					{spawn "ex_air_he_size4"}
 					{spawn "hit_he_fragments_size4"}
-					{if rand 0.25 {call "blood"}}
 
 				else stuff "size4 std_ap"
-					{if rand 0.25 {call "blood"}}
+					{if rand 0.35 {call "blood"}}
 
 				else stuff "size4"
-					{spawn "ex_air_big2"}
-					{if rand 0.25 {call "blood"}}
+					("explosion_HE_s4")
+					{if rand 0.5 {call "blood"}}
+					{spawn "ex_air_he_size4"}
+					{spawn "hit_he_fragments_size4"}
 
 				else stuff "shell size2_heat_shell"
-					{spawn "metal_hit_br_heat"}
-					{if rand 0.25 {call "blood"}}
+					{spawn "ex_air_big_heat"}
+					{if rand 0.65 {call "blood"}}
 
 				else stuff "shell size3_heat_shell"
 					{spawn "ex_air_heat_size3"}
-					{if rand 0.25 {call "blood"}}
+					{if rand 0.65 {call "blood"}}
 
 				else stuff "shell size4_heat_shell"
-					{spawn "metal_hit_br_big_heat"}
-					{if rand 0.25 {call "blood"}}
+					{spawn "ex_air_heat_size3"}
+					{if rand 0.55 {call "blood"}}
 
 				else stuff "heat_shell"
-					{if rand 0.25 {call "blood"}}	
+					{spawn "ex_heat"}
+					{if rand 0.35 {call "blood"}}
 
 				else stuff "shell all_he"
-					{if rand 0.25 {call "blood"}}
+					{if rand 0.35 {call "blood"}}
 					{spawn "ex_air_big"}
+					{spawn "hit_he_fragments_size2"}
 
 				else stuff "shell"
-					{if rand 0.25 {call "blood"}}
+					{if rand 0.2 {call "blood"}}
 
 				else stuff "flare marker"							; Special Flare ammo for mission scripts 
 					;{spawn "flare_marker"}

@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\pumpkin\pumpkin1.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "pumpkin1"
 		{parameters "CommonMesh;"}

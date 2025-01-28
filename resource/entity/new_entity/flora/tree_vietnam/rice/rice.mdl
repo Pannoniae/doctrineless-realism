@@ -3,7 +3,7 @@
 ;File:        D:\Redtide2\ART\Models\Flora\Max\Rice\Rice.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "rice"
 		{parameters "CommonMesh;"}

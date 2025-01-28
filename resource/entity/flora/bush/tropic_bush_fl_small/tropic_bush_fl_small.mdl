@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\Leaves\Leaves_anim_fl_small.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "tropic_bush_fl_small"
 		{parameters "CommonMesh;"}

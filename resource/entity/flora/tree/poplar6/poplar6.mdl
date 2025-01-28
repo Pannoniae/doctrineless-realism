@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\Floramax\white_poplar2_anim2.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "tree"
 		{parameters "CommonMesh;"}

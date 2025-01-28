@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\Floramax\bush9_a01.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "group01"
 		{parameters "CommonMesh;"}

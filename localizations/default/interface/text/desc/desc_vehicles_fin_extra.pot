@@ -24,8 +24,8 @@ msgctxt "desc/entity/fokker_fin"
 msgid "Fokker D.XXI"
 msgstr ""
 
-msgctxt "desc/entity/po2_fin"
-msgid "PO-2 captured"
+msgctxt "desc/squad/conquest_po2_fin"
+msgid "Po-2 Recon"
 msgstr ""
 
 msgctxt "desc/entity/25mm_pstk34"

@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\Mountain_ash\Mountain_ash_anim.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "mountain_ash_tree"
 		{parameters "CommonMesh;"}

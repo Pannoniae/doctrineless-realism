@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\Floramax\ling_new.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "pla01"
 		{parameters "CommonMesh;"}

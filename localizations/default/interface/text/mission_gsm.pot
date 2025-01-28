@@ -12,19 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-
-msgctxt "mission/multi/2v2_crossroads/name"
-msgid "Crossroads <c(2eff4c)>[GSM]"
-msgstr ""
-
-msgctxt "mission/multi/2v2_heights/name"
-msgid "Heights <c(2eff4c)>[GSM]"
-msgstr ""
-
-msgctxt "mission/multi/3v3_westland/name"
-msgid "Westland <c(2eff4c)>[GSM]"
-msgstr ""
-
 msgctxt "mission/multi/4v4_dubvoka/name"
 msgid "Dubovka <c(2eff4c)>[GSM]"
 msgstr ""

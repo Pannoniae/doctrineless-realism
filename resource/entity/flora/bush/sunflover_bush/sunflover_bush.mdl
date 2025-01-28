@@ -3,7 +3,7 @@
 ;File:        D:\-Project-\-3DWork-\WORK\SunFlover\sunflover_bush_anim.max
 {Skeleton
 	{animation
-		{sequence "stir"}
+		{sequence "stir" {resume}}
 	}
 	{bone "sunflover"
 		{parameters "CommonMesh;"}

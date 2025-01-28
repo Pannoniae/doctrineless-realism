@@ -77,7 +77,7 @@ msgid "Jäger Squad [Late]"
 msgstr ""
 
 msgctxt "desc/squad/squad_jag_at_late_con(fin)"
-msgid "Jäger AT Squad [Late]"
+msgid "Panzerjäger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_border_jag_late_con(fin)"

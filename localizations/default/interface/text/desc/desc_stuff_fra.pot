@@ -113,10 +113,6 @@ msgctxt "desc/stuff/smoke"
 msgid "Smoke grenade"
 msgstr ""
 
-msgctxt "desc/stuff/m15_wp"
-msgid "M15 WP grenade"
-msgstr ""
-
 msgctxt "desc/stuff/small_inf_shovel"
 msgid "Shovel"
 msgstr ""
@@ -659,8 +655,4 @@ msgstr ""
 
 msgctxt "desc/stuff/medkit_eng"
 msgid "Medical kit [eng]"
-msgstr ""
-
-msgctxt "desc/stuff/medkit"
-msgid "Medical kit [US]"
 msgstr ""

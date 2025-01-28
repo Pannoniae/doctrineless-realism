@@ -720,7 +720,7 @@
 	cost(360))
 }
 {"np_matilda_mkii"
-	("vehicle2" period(mid) year(mid) cd(480)  ci(10) t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(medium2) b(mt) cw(6) cp(20) 
+	("vehicle2" period(late) year(late) cd(480)  ci(10) t(medium) side(eng) crew1(tankman:3) crew2(tankman2:1) g(medium2) b(mt) cw(6) cp(20) 
 	cost(380))
 }
 {"np_valentine_mkix"
