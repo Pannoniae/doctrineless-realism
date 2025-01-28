@@ -15,6 +15,6 @@
 	{RechargeTime 24}
 
 	("burst_aa_quad")
-	("spreading_high")
+	("spreading_mounted_low")
 	{traceFreq 1}
 }
