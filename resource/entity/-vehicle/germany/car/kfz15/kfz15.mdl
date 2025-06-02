@@ -5,11 +5,11 @@
 	{animation
 		{sequence "start" {speed 0.7}}
 		{sequence "stop" {speed 0.7}}
-		{sequence "doorleft1" {speed 0.4}}
-		{sequence "doorleft2" {speed 0.4}}
-		{sequence "doorright1" {speed 0.4}}
-		{sequence "doorright2" {speed 0.4}}
-		{sequence "wipers" {speed 0.25}}
+		{sequence "doorleft1" {speed 0.4} {events {4 "car_open"} {52 "car_close"}}}
+		{sequence "doorleft2" {speed 0.4} {events {4 "car_open"} {52 "car_close"}}}
+		{sequence "doorright1" {speed 0.4} {events {4 "car_open"} {52 "car_close"}}}
+		{sequence "doorright2" {speed 0.4} {events {4 "car_open"} {52 "car_close"}}}
+		{sequence "wipers" {speed 0.25}{resume}}
 	}
 	{bone "basis"
 		{parameters "steermax=28;wheelradius=0.46;"}

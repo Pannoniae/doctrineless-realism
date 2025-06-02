@@ -10,7 +10,7 @@
 
 	("fire rate" rpm(600))
 	("velocity" mps(660))
-	("battle_rifle")
+	("auto_rifle")
 	("reload time" seconds(4.67))
 	("penetration" args 6 4 2 1 0)
 	("armor health" damage(5.1))

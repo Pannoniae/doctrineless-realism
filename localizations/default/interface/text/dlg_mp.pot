@@ -3011,6 +3011,10 @@ msgctxt "mp/scene/hint_score"
 msgid "Score: %1%"
 msgstr ""
 
+msgctxt "mp/scene/hint_armor_thickness"
+msgid "Armor: %.1f mm"
+msgstr ""
+
 msgctxt "mp/scene/chat/say_all"
 msgid "<s(19)>Say all"
 msgstr ""

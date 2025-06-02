@@ -46,6 +46,10 @@ msgctxt "actionbar/engine_toggle"
 msgid "Toggle Engine on/off"
 msgstr ""
 
+msgctxt "actionbar/sandbag_vehicle"
+msgid "Vehicle sandbags"
+msgstr ""
+
 msgctxt "actionbar/mp_available_points"
 msgid "MP Points"
 msgstr ""
@@ -112,6 +116,10 @@ msgstr ""
 
 msgctxt "actionbar/attack_ground"
 msgid "Attack ground"
+msgstr ""
+
+msgctxt "actionbar/engine_toggle"
+msgid "Turn engine on/off"
 msgstr ""
 
 msgctxt "actionbar/examine"
@@ -2507,4 +2515,36 @@ msgstr ""
 
 msgctxt "actionbar/mortar_pit/action"
 msgid "Place mortar trench"
+msgstr ""
+
+msgctxt "actionbar/auto_medic/enabled"
+msgid "Automatic Revive"
+msgstr ""
+
+msgctxt "actionbar/auto_medic/enabled/action"
+msgid "Auto-revive DISABLED"
+msgstr ""
+
+msgctxt "actionbar/auto_medic/enabled/usage"
+msgid "Click this button to toggle automatic revive of nearby soldiers"
+msgstr ""
+
+msgctxt "actionbar/auto_medic/disabled"
+msgid "Automatic Revive"
+msgstr ""
+
+msgctxt "actionbar/auto_medic/disabled/action"
+msgid "Auto-revive ENABLED"
+msgstr ""
+
+msgctxt "actionbar/auto_medic/disabled/usage"
+msgid "Click this button to toggle automatic revive of nearby soldiers"
+msgstr ""
+
+msgctxt "actionbar/auto_medic_place_flag"
+msgid "Place auto-revive location"
+msgstr ""
+
+msgctxt "actionbar/auto_medic_place_flag/usage"
+msgid "After clicking this button, click and drag on the ground to scale a custom boundary for the medic to auto-revive soldiers."
 msgstr ""

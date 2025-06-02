@@ -76,7 +76,9 @@
 
 	{extender "inventory"
 		{box
+			{item "bulletger_50_l60 apche" 23}
 			{item "bulletger_50_l60 he" 30}
+			{item "bulletger_50_l60 apcr" 3}
 			{item "bulletger_50_l60 heat" 29}
 			{item "sandbag_vehicle" 1}
 		}
@@ -85,7 +87,7 @@
 	{Weaponry
 		("restore_ik_time")
 		{place "gun"
-			{weapon "50mm_pak38" filling "bulletger_50_l60 heat" 1}
+			{weapon "50mm_pak38" filling "bulletger_50_l60 apche" 1}
 			{charger "charger charger2" minWorkers 1}
 			{RestoreIKAfterAim}
 			("abm_dymamic_gun"

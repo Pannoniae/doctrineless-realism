@@ -10,7 +10,7 @@
 
 	("fire rate" rpm(460))
 	("velocity" mps(830))
-	("battle_rifle")
+	("auto_rifle")
 	{parameters "clip"
 		("reload time" seconds(7))	
 		{reloadSound "reload_clip_x2"}

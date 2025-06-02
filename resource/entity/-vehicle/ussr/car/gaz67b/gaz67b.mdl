@@ -1,6 +1,6 @@
-;Exported by:	 TigerF
-;Date:			 01.06.2021 11:04:30
-;File:			 D:\PROGRAMS\3ds_max\3dsmax9_saves\scenes\GoH_3D_vehicles_rus\vehicles\car\gaz_67\GAZ-67b_mgun.max
+;Exported by:	 nic21
+;Date:			 04.04.2025 14:09:25
+;File:			 D:\Program Files (x86)\gates_of_hell_3dsmax\GoH_3d_vehicle_rus\vehicles\car\gaz_67\GAZ-67b_mgun.max
 {skeleton
 	{animation
 		{sequence "start" {speed 0.6}}
@@ -399,6 +399,7 @@
 			}
 		}
 		{bone "emit4"
+			{parameters "group=passangers;"}
 			{matrix34
 				0 	 -1 	 0
 				1 	 0 	 0
@@ -407,6 +408,7 @@
 			}
 		}
 		{bone "emit3"
+			{parameters "group=passangers;"}
 			{matrix34
 				0 	 1 	 0
 				-1 	 0 	 0
@@ -415,6 +417,7 @@
 			}
 		}
 		{bone "emit2"
+			{parameters "group=crew;"}
 			{matrix34
 				0 	 1 	 0
 				-1 	 0 	 0
@@ -423,6 +426,7 @@
 			}
 		}
 		{bone "emit1"
+			{parameters "group=crew;"}
 			{matrix34
 				0 	 -1 	 0
 				1 	 0 	 0
@@ -476,6 +480,16 @@
 		0 	 1 	 0
 		-2.9461 	 8.1269 	 2.6642
 	}
+}
+{volume "hole2"
+	{box 21.5181 26.0178 4.67511}
+	{bone "body"}
+	{Position -17.3599 	 0 	 11.3696}
+}
+{volume "ram"
+	{polyhedron "ram.vol"}
+	{bone "body"}
+	{Position -0.3131 	 0 	 6.1761}
 }
 {volume "transmission"
 	{cylinder 3.45779 10.8183}

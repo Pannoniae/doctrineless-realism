@@ -58,10 +58,12 @@
 	{extender "inventory"
 		{box
 			{item "repair_kit" 5}
+			{item "tmd_b" "mine" 60}
 			{item "mine_detector" 2}
 			{item "shovel_rus" 5}
 			{item "pickaxe" 5}
 			{item "satchel_charge_rus" 5}
+			{item "pmd" "mine" 120}
 			{item "wirecutters" 2}
 		}
 	}
