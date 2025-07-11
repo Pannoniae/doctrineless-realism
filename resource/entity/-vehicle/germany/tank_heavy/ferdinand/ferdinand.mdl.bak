@@ -734,35 +734,30 @@
 	{bone "wheelsr"}
 	{Position 0.1847 	 -3.293 	 -0.5516}
 }
-{volume "hole3"
-	{polyhedron "hole3.vol"}
-	{bone "body"}
-	{Position 3.9405 	 -0.0078 	 10.7826}
-}
 {volume "mantlet1"
 	{polyhedron "mantlet1.vol"}
-	{bone "gun_rot"}
-	{matrix34
-		1 	 0 	 0
-		0 	 0 	 -1
-		0 	 1 	 0
-		6.6913 	 -0.0488 	 0.0064
-	}
+	{bone "mantlet"}
+	{Position 6.6913 	 -0.0064 	 -0.0488}
 }
 {volume "mantlet2"
 	{polyhedron "mantlet2.vol"}
-	{bone "gun_rot"}
-	{matrix34
-		1 	 0 	 0
-		0 	 0 	 -1
-		0 	 1 	 0
-		6.6913 	 -0.0488 	 0.0064
-	}
+	{bone "mantlet"}
+	{Position 6.6913 	 -0.0064 	 -0.0488}
 }
 {volume "ram"
 	{polyhedron "ram.vol"}
 	{bone "body"}
 	{Position -0.2884 	 -0.0577 	 -16.8528}
+}
+{volume "shield1"
+	{polyhedron "shield1.vol"}
+	{bone "shield1"}
+	{Position 1.004 	 0.0022 	 0.0427}
+}
+{volume "shield2"
+	{polyhedron "shield2.vol"}
+	{bone "shield2"}
+	{Position 2.279 	 0.0392 	 10.7748}
 }
 {volume "trackleft1"
 	{cylinder 8.27902 12.5356}
